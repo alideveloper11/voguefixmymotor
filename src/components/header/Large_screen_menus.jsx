@@ -1,6 +1,7 @@
 
-
 "use client";
+import Link from "next/link";
+
 
 import { useState } from "react";
 
@@ -39,7 +40,7 @@ export default function Large_screen_menus(){
 
 
                           <Box className="menuBox flex gap-3" style={{fontSize:"10px"}}>
-                                    <Button color="inherit" className="menu" style={{fontSize:"13px"}}>Home</Button>
+                                     <Link href="/"><Button color="inherit" className="menu" style={{fontSize:"13px"}}>Home</Button></Link>
                                     <Button
                                       color="inherit"
                                       onClick={(e) => setAnchorProducts(e.currentTarget)}
@@ -64,9 +65,10 @@ export default function Large_screen_menus(){
                                     </Menu>
                         
                                     <Button color="inherit" className="menu"  style={{fontSize:"13px"}}>Areas</Button>
-                                    <Button color="inherit" className="menu"  style={{fontSize:"13px"}}>Gallery</Button>
+                                    <Link href="/gallery"> <Button color="inherit" className="menu"  style={{fontSize:"13px"}}>Gallery</Button></Link>
                                     <Button color="inherit" className="menu"  style={{ fontSize: "13px", whiteSpace: "nowrap" }}>About Us</Button>
-                                    <Button color="inherit" className="menu"  style={{fontSize:"13px"}}>Reviews</Button>
+                                  
+                                        <Link href="/reviews">  <Button color="inherit" className="menu"  style={{fontSize:"13px"}}>Reviews</Button></Link>
                                     <Button color="inherit" className="menu"  style={{fontSize:"13px"}}>Blogs</Button>
                                     </Box>
               </div>

@@ -1,0 +1,60 @@
+const Top_makes_data = [
+  {
+    id:1,
+    image:"/sale_parts/rangerover.png"
+  },
+  {
+    id:2,
+    image:"/sale_parts/bmw.png"
+  },
+  {
+    id:3,
+    image:"/sale_parts/round.png"
+  },
+  {
+    id:4,
+    image:"/sale_parts/landrover.png"
+  },
+  {
+    id:5,
+    image:"/sale_parts/jaguar.png"
+  },
+  {
+    id:6,
+    image:"/sale_parts/three coils.png"
+  },
+  {
+    id:7,
+    image:"/sale_parts/radiator.png"
+  },
+  {
+    id:8,
+    image:"/sale_parts/alternator.png"
+  },
+   {
+    id:11,
+    image:"/sale_parts/pulley.png"
+  },
+  {
+    id:12,
+    image:"/sale_parts/head.png"
+  },
+  {
+    id:13,
+    image:"/sale_parts/manifold.png"
+  },
+  {
+    id:14,
+    image:"/sale_parts/pump.png"
+  },
+  {
+    id:15,
+    image:"/sale_parts/brake.png"
+  },
+  {
+    id:16,
+    image:"/sale_parts/filter.png"
+  },
+];
+
+export default Top_makes_data;

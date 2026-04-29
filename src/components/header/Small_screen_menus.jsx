@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 
 import { useState } from "react";
 import {
@@ -81,10 +82,11 @@ export default function Small_screen_menus(){
             <List>
 
               {/* Home */}
+              <Link href="/">
               <ListItem onClick={handleCloseMenus} className="hover:bg-gray-800">
                 <ListItemText primary="Home" />
               </ListItem>
-
+              </Link>
               {/* PRODUCTS (Accordion) */}
               <ListItem  className="hover:bg-gray-800" onClick={() => setOpenProducts(!openProducts)}>
                 <ListItemText primary="Service" />
@@ -107,18 +109,20 @@ export default function Small_screen_menus(){
               </ListItem>
 
               {/* Gallery */}
+              <Link href="/gallery"> 
               <ListItem   onClick={handleCloseMenus} className="hover:bg-gray-800">
                 <ListItemText primary="Gallery" />
               </ListItem>
+              </Link>
 
                 <ListItem  onClick={handleCloseMenus} className="hover:bg-gray-800">
                 <ListItemText primary="About Us" />
               </ListItem>
-
+                     <Link href="/reviews"> 
                 <ListItem  onClick={handleCloseMenus} className="hover:bg-gray-800">
                 <ListItemText primary="Reviews" />
               </ListItem>
-
+                    </Link>
                 <ListItem  onClick={handleCloseMenus} className="hover:bg-gray-800">
                 <ListItemText primary="Blogs" />
               </ListItem>

@@ -2,7 +2,7 @@
 import PhoneIcon from "@mui/icons-material/Phone";
 import { useMediaQuery } from "@mui/material";
 import EmailIcon from "@mui/icons-material/Email";
-import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+// import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 export default function Topbar() {
   const largeScreen = useMediaQuery("(min-width:1000px)");
 
@@ -19,16 +19,16 @@ export default function Topbar() {
           <div className="w-1/24">
           <p className="text-center font-bold " style={{color:"#059669"}}>|</p>
           </div>
-          <div className="w-7/24 text-center font-bold">
+          <div className="w-10/24 text-center font-bold">
             <p><EmailIcon style={{color:"#059669", fontSize:"20px"}} /> enquiry@voguefixmymotor.co.pk</p>
           </div>
 
           <div className="w-2/24"></div>
-          <div className="w-9/24 text-right">
-            <button className=" text-white px-4  rounded-2xl" style={{backgroundColor:"#059669", fontWeight:"700", fontSize:"14px",height:"28px"}}>
+          <div className="w-6/24 text-right">
+            {/* <button className=" text-white px-4  rounded-2xl" style={{backgroundColor:"#059669", fontWeight:"700", fontSize:"14px",height:"28px"}}>
                 <WhatsAppIcon style={{ fontWeight:"700", color:"white", fontSize:"14px"}} />
             whatsapp
-            </button>
+            </button> */}
           </div>
         </div>
       )}
@@ -37,21 +37,21 @@ export default function Topbar() {
       {!largeScreen && (
             <div className="flex flex-wrap w-full h-10 text-white items-center">
                 <div className="w-6/24">
-                <p className="text-center font-bold items-center text-xs ">
-                    <PhoneIcon style={{color:"#059669",fontSize:"15px"}} /> 
+                <p className="text-center font-bold items-center text-[10px]">
+                    <PhoneIcon style={{color:"#059669",fontSize:"13px"}} /> 
                     01375531355
                     </p>
             </div>
                 
             
-            <div className="w-12/24 text-center font-bold text-[10px]">
-                <p><EmailIcon style={{color:"#059669", fontSize:"15px" }} />  
+            <div className="w-16/24 text-center font-bold text-[10px]">
+                <p><EmailIcon style={{color:"#059669", fontSize:"13px" }} />  
                 enquiry@voguefixmymotor.co.pk</p>
             </div>
 
-            <div className="w-5/24 text-right text-xs">
-                <button className=" text-white  rounded-2xl"  style={{height:"20px",backgroundColor:"#059669",fontSize:"10px", padding:"0 7px 0 7px"}}>
-                    <WhatsAppIcon style={{color:"white", fontSize:"10px"}} /> whatsapp</button>
+            <div className="w-1/24 text-right text-xs">
+                {/* <button className=" text-white  rounded-2xl"  style={{height:"20px",backgroundColor:"#059669",fontSize:"10px", padding:"0 7px 0 7px"}}>
+                    <WhatsAppIcon style={{color:"white", fontSize:"10px"}} /> whatsapp</button> */}
             </div>
             </div>
         )}

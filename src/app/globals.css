@@ -38,3 +38,15 @@ body {
     font-weight: bold;
 
 }
+
+
+#engin_call_to_section{
+  background-image: url('/Background with gradient overlay.svg');
+}
+
+#hero_section {
+  background-image: url('/Group 1000001538.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

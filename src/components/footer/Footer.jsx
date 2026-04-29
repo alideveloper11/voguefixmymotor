@@ -39,6 +39,7 @@ export default function Footer(){
                                     
 
                         </p>
+                       
 
 
                     </div>
@@ -83,11 +84,39 @@ export default function Footer(){
                         </div>
                     </div>
                 </div>
-            </div>
-
-        </div>
-            
+                 <div className="mt-30" style={{height:"3px", backgroundColor:"#1F2937"}}></div>
+                 
+            <div className="flex flex-wrap w-full bg-black " style={{fontSize:"14px"}}>
+                  
+            <div className="w-full  md:w-12/24 lg:w-12/24">
+                        <div className="mt-10 mb-10">
+                            <p className=" text-white">
+                                Copyright © 2026 voguefixmymotor
+                            </p>
+                        </div>
+                    </div>
            
+
+                 <div className="w-full  md:w-12/24 lg:w-12/24">
+                    
+                <div className="mt-10 mb-10">
+                            <div className=" text-white flex text-center gap-3 md:gap-7 lg:gap-7">
+                                <div style={{display:"inline"}}>
+                                    Term of use
+                                </div>
+                                <div style={{display:"inline"}}>
+                                    Privacy Policy
+                                </div>
+                                <div style={{display:"inline"}}>
+                                    Cookie Policy
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+             </div>
+             </div>
+             
 
     )
 }
