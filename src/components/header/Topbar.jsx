@@ -8,7 +8,6 @@ export default function Topbar() {
 
   return (
     <div className="flex flex-wrap w-full text-white items-center" style={{backgroundColor:"#064E3B"}}>
-      
       {largeScreen && (
         <div className="flex flex-wrap w-full h-10 text-white items-center">
       

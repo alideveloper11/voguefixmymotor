@@ -50,3 +50,10 @@ body {
   background-position: center;
   background-size: cover;
 }
+
+#second_hero_section {
+  background-image: url('/Group 1000001539.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

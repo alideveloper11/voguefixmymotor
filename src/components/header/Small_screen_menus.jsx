@@ -88,9 +88,9 @@ export default function Small_screen_menus(){
               </ListItem>
               </Link>
               {/* PRODUCTS (Accordion) */}
-              <ListItem  className="hover:bg-gray-800" onClick={() => setOpenProducts(!openProducts)}>
-                <ListItemText primary="Service" />
-                {openProducts ? <ExpandLessIcon /> : <ExpandMoreIcon />}
+              <ListItem  className="hover:bg-gray-800">
+               <Link href="/services" onClick={handleCloseMenus}><ListItemText primary="Service" /></Link>
+                {openProducts ? <ExpandLessIcon  onClick={() => setOpenProducts(!openProducts)} className="hover:text-[#D3D3D3]" /> : <ExpandMoreIcon  onClick={() => setOpenProducts(!openProducts)}  className="hover:text-[#D3D3D3]"  />}
               </ListItem>
 
               <Collapse in={openProducts} timeout="auto" unmountOnExit>
