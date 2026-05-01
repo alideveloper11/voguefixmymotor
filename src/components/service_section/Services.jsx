@@ -1,4 +1,6 @@
 import servicesData from "@/lib/servicesData";
+import Link from "next/link";
+
 export default function Services()
 {
                 return (
@@ -65,10 +67,12 @@ export default function Services()
                 <div className="w-full text-center text-black">
                
                         <div className="w-24/24">
+                        
+  <Link href="/services#services">
                         <button className="border  px-4 py-2 rounded mb-2 bg-[#059669] hover:bg-[#0b5a41]"  
                         style={{ fontSize:"14px", color:"white", fontWeight:"bold" , width:"250px"}}>
                            View All Services
-                           </button>
+                           </button></Link>
                         </div> 
                        </div>
                

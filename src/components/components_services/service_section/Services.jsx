@@ -1,4 +1,7 @@
+"use client"
 import servicesData from "@/lib/services_data/servicesData";
+import Link from "next/link";
+
 export default function Services()
 {
                 return (
@@ -55,7 +58,13 @@ export default function Services()
                            </p>
                
                             
-               
+               <div>
+    <Link href={`/services/${services.slug}`}>        
+<button
+className="block mx-auto mt-3 font-bold bg-[#088751] hover:bg-[#046b3f]  cursor-pointer text-white px-12 py-3 rounded">
+read more
+</button></Link>  
+               </div>
                            </div>
                          </div>
                        

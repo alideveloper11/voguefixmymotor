@@ -36,8 +36,52 @@ export default function Small_screen_menus(){
   const [openProducts, setOpenProducts] = useState(false);
 
 
-  const productsSub = ["model3", "model4", "model5", "model6"];
-
+ 
+ const productsSub = [
+  "Initial Diagnostics",
+  "Vehicle Health Check",
+  "Visual Inspection",
+  "Interim Service",
+  "Major Service",
+  "Oil Change",
+  "Annual Service",
+  "Van Repairs and Services",
+  "Auto Electrical Services",
+  "Hybrid and EV Repairs and Services",
+  "Timing Belts",
+  "Cam Belts",
+  "Wet Belt",
+  "All Repairs and Services",
+  "Fuel System Cleaning",
+  "AdBlue Services",
+  "Welding Services",
+  "NOx Sensor Repair",
+  "Locking Wheel Nut Removal / Replacement",
+  "24/7 Vehicle Recovery",
+  "Valeting Services",
+  "Diagnostics",
+  "Water Pump Replacement",
+  "General Service",
+  "Alternator Replacement",
+  "Engine Rebuild",
+  "Battery Replacement",
+  "Clutch Replacement",
+  "Engine Flush",
+  "Brake Services",
+  "Turbo Replacement",
+  "Performance Upgrades",
+  "DPF Cleaning Service",
+  "MOT Testing",
+  "Exhaust Repair",
+  "Tyre Replacement",
+  "Suspension Service",
+  "Wheel Alignment",
+  "AC Gas Refill Service",
+  "Timing Chain Replacement",
+  "Oil Change Service",
+  "Head Gasket Repair",
+  "Transmission Service"
+];
 
 
   const handleCloseMenus = () => {
@@ -75,67 +119,81 @@ export default function Small_screen_menus(){
   ModalProps={{
     keepMounted: true,
   }}
-
 >
-          <Box className="drawer" style={{backgroundColor:"black", color:"white"}}>
+  <Box className="drawer" sx={{ backgroundColor: "black", color: "white"}}>
+    <List>
 
-            <List>
+      {/* Home */}
+      <Link href="/">
+        <ListItem onClick={handleCloseMenus} className="hover:bg-gray-800">
+          <ListItemText primary="Home" />
+        </ListItem>
+      </Link>
 
-              {/* Home */}
-              <Link href="/">
-              <ListItem onClick={handleCloseMenus} className="hover:bg-gray-800">
-                <ListItemText primary="Home" />
-              </ListItem>
-              </Link>
-              {/* PRODUCTS (Accordion) */}
-              <ListItem  className="hover:bg-gray-800">
-               <Link href="/services" onClick={handleCloseMenus}><ListItemText primary="Service" /></Link>
-                {openProducts ? <ExpandLessIcon  onClick={() => setOpenProducts(!openProducts)} className="hover:text-[#D3D3D3]" /> : <ExpandMoreIcon  onClick={() => setOpenProducts(!openProducts)}  className="hover:text-[#D3D3D3]"  />}
-              </ListItem>
+      {/* SERVICE (Accordion) */}
+      <ListItem className="hover:bg-gray-800 flex justify-between items-center">
 
-              <Collapse in={openProducts} timeout="auto" unmountOnExit>
-                <List sx={{ pl: 3 }}>
-                  {productsSub.map((item) => (
-                    <ListItem  onClick={handleCloseMenus} className="hover:bg-gray-800"  key={item}>
-                      <ListItemText primary={item} />
-                    </ListItem>
-                  ))}
-                </List>
-              </Collapse>
+        <Link href="/services" onClick={handleCloseMenus}>
+          <ListItemText primary="Service" />
+        </Link>
 
-              {/* About */}
-              <ListItem  onClick={handleCloseMenus} className="hover:bg-gray-800" >
-                <ListItemText primary="Areas" />
-              </ListItem>
+        {/* Toggle icon */}
+        <div onClick={() => setOpenProducts(!openProducts)}>
+          {openProducts ? <ExpandLessIcon /> : <ExpandMoreIcon />}
+        </div>
+      </ListItem>
 
-              {/* Gallery */}
-              <Link href="/gallery"> 
-              <ListItem   onClick={handleCloseMenus} className="hover:bg-gray-800">
-                <ListItemText primary="Gallery" />
-              </ListItem>
-              </Link>
+      <Collapse in={openProducts} timeout="auto" unmountOnExit>
+        <List sx={{ pl: 3 }} style={{height:"300px", overflow:"scroll", overflowX: "hidden",}} >
+          {productsSub.map((item) => (
+            <ListItem
+              key={item}
+              onClick={handleCloseMenus}
+              className="hover:bg-gray-800"
+            >
+              <ListItemText primary={item} />
+            </ListItem>
+          ))}
+        </List>
+      </Collapse>
 
-                <ListItem  onClick={handleCloseMenus} className="hover:bg-gray-800">
-                <ListItemText primary="About Us" />
-              </ListItem>
-                     <Link href="/reviews"> 
-                <ListItem  onClick={handleCloseMenus} className="hover:bg-gray-800">
-                <ListItemText primary="Reviews" />
-              </ListItem>
-                    </Link>
-                <ListItem  onClick={handleCloseMenus} className="hover:bg-gray-800">
-                <ListItemText primary="Blogs" />
-              </ListItem>
+      {/* Other Items */}
+      <ListItem onClick={handleCloseMenus} className="hover:bg-gray-800">
+        <ListItemText primary="Areas" />
+      </ListItem>
 
-              <ListItem   onClick={handleCloseMenus} >
-                <div className="text-center" style={{width:"100%"}}>
-               <button id="get_Qoute" style={{width:"90%"}}>Get Quote</button>
-               </div>
-              </ListItem>
-            </List>
+      <Link href="/gallery">
+        <ListItem onClick={handleCloseMenus} className="hover:bg-gray-800">
+          <ListItemText primary="Gallery" />
+        </ListItem>
+      </Link>
 
-          </Box>
-        </Drawer>
+      <ListItem onClick={handleCloseMenus} className="hover:bg-gray-800">
+        <ListItemText primary="About Us" />
+      </ListItem>
+
+      <Link href="/reviews">
+        <ListItem onClick={handleCloseMenus} className="hover:bg-gray-800">
+          <ListItemText primary="Reviews" />
+        </ListItem>
+      </Link>
+
+      <ListItem onClick={handleCloseMenus} className="hover:bg-gray-800">
+        <ListItemText primary="Blogs" />
+      </ListItem>
+
+      {/* Button */}
+      <ListItem onClick={handleCloseMenus}>
+        <div style={{ width: "100%", textAlign: "center" }}>
+          <button id="get_Qoute" style={{ width: "90%" }}>
+            Get Quote
+          </button>
+        </div>
+      </ListItem>
+
+    </List>
+  </Box>
+</Drawer>
               </div>
     </div>
     );

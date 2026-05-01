@@ -84,7 +84,27 @@ content5: {
     "Experienced mechanics",
     "Long-term reliability"
   ]
-}
+},
+
+  content6: {
+    heading: "Our Services",
+
+    greenHeading: "Complete Engine Repair Solutions",
+
+    paragraph: [
+      "Whether your vehicle has warning lights, overheating problems or reduced performance, we diagnose and fix issues efficiently.",
+
+      "We offer preventative maintenance and full engine repair solutions to keep your car reliable and road ready."
+    ],
+
+    bullets: [
+      "Engine diagnostics",
+      "Timing belt replacement",
+      "Cooling system repair",
+      "Oil leak repairs",
+      "Engine rebuild services"
+    ]
+  },
 };
 
 export default pageContent;

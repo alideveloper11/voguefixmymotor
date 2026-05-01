@@ -26,7 +26,51 @@ export default function Large_screen_menus(){
           
         };
         
-  const productsSub = ["model3", "model4", "model5", "model6"];
+ const productsSub = [
+  "Initial Diagnostics",
+  "Vehicle Health Check",
+  "Visual Inspection",
+  "Interim Service",
+  "Major Service",
+  "Oil Change",
+  "Annual Service",
+  "Van Repairs and Services",
+  "Auto Electrical Services",
+  "Hybrid and EV Repairs and Services",
+  "Timing Belts",
+  "Cam Belts",
+  "Wet Belt",
+  "All Repairs and Services",
+  "Fuel System Cleaning",
+  "AdBlue Services",
+  "Welding Services",
+  "NOx Sensor Repair",
+  "Locking Wheel Nut Removal / Replacement",
+  "24/7 Vehicle Recovery",
+  "Valeting Services",
+  "Diagnostics",
+  "Water Pump Replacement",
+  "General Service",
+  "Alternator Replacement",
+  "Engine Rebuild",
+  "Battery Replacement",
+  "Clutch Replacement",
+  "Engine Flush",
+  "Brake Services",
+  "Turbo Replacement",
+  "Performance Upgrades",
+  "DPF Cleaning Service",
+  "MOT Testing",
+  "Exhaust Repair",
+  "Tyre Replacement",
+  "Suspension Service",
+  "Wheel Alignment",
+  "AC Gas Refill Service",
+  "Timing Chain Replacement",
+  "Oil Change Service",
+  "Head Gasket Repair",
+  "Transmission Service"
+];
     return(
     <div className="flex flex-wrap w-full items-center">
           
@@ -41,35 +85,58 @@ export default function Large_screen_menus(){
 
                           <Box className="menuBox flex gap-3" style={{fontSize:"10px"}}>
                                      <Link href="/"><Button color="inherit" className="menu" style={{fontSize:"13px"}}>Home</Button></Link>
-                                  <Button
+       <Button
   color="inherit"
-  endIcon={
-    <ArrowDropDownIcon  className="hover:text-[#D3D3D3]" 
-      onClick={(e) => setAnchorProducts(e.currentTarget)}
-    />
-  }
   className="menu"
   style={{ fontSize: "13px" }}
+  onMouseEnter={(e) => setAnchorProducts(e.currentTarget)}
+
 >
-  <Link href="/services">Service</Link>
+  <Link href="/services" className="flex items-center">
+    Service
+    <ArrowDropDownIcon className="hover:text-[#D3D3D3]" />
+  </Link>
 </Button>
 
 <Menu
   anchorEl={anchorProducts}
   open={Boolean(anchorProducts)}
   onClose={handleCloseMenus}
-  transitionDuration={300}
+  transitionDuration={200}
   anchorOrigin={{
     vertical: "bottom",
-    horizontal: "right",
+    horizontal: "left",
   }}
   transformOrigin={{
     vertical: "top",
-    horizontal: "right",
+    horizontal: "left",
+  }}
+  slotProps={{
+    paper: {
+      sx: {
+        width: 300,
+        borderRadius: 3,
+        maxHeight: 350,      // ~10 items visible
+        overflowY: "auto",   // enables scroll
+
+        // optional scrollbar styling
+        "&::-webkit-scrollbar": {
+          width: "6px",
+        },
+        "&::-webkit-scrollbar-thumb": {
+          background: "#ccc",
+          borderRadius: "10px",
+        },
+      },
+      onMouseLeave: handleCloseMenus, // closes when leaving dropdown
+    },
   }}
 >
   {productsSub.map((item) => (
-    <MenuItem key={item} onClick={handleCloseMenus}>
+    <MenuItem
+      key={item}
+      onClick={handleCloseMenus}
+    >
       {item}
     </MenuItem>
   ))}
