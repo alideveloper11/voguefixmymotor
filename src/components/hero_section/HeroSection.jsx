@@ -75,10 +75,10 @@ export default function HeroSection(){
 
 
                                      <div className="mt-3">
-                                         <label className="mb-1 text-sm text-white  font-medium">Email</label>
+                                         <label className="mb-1 text-sm text-white  font-medium">Postcode</label>
                                         <input
                                         type="email"
-                                        placeholder="jhon@example.com"
+                                        placeholder="POSTCODE AB12"
                                         style={{backgroundColor:"rgba(255, 255, 255, 0.26)", borderColor:"rgba(255, 255, 255, 0.15)"}}
                                         className="border rounded-md placeholder-white w-full text-white  p-2 outline-none"
                                         />

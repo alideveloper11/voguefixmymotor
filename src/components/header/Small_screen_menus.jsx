@@ -158,37 +158,45 @@ export default function Small_screen_menus(){
       </Collapse>
 
       {/* Other Items */}
+    <Link href="/areas">
       <ListItem onClick={handleCloseMenus} className="hover:bg-gray-800">
+         
         <ListItemText primary="Areas" />
+       
       </ListItem>
-
+ </Link>
       <Link href="/gallery">
         <ListItem onClick={handleCloseMenus} className="hover:bg-gray-800">
           <ListItemText primary="Gallery" />
         </ListItem>
       </Link>
-
+    <Link href="/about"> 
       <ListItem onClick={handleCloseMenus} className="hover:bg-gray-800">
         <ListItemText primary="About Us" />
       </ListItem>
-
+    </Link>
       <Link href="/reviews">
         <ListItem onClick={handleCloseMenus} className="hover:bg-gray-800">
           <ListItemText primary="Reviews" />
         </ListItem>
       </Link>
-
+    <Link href="/blog">
       <ListItem onClick={handleCloseMenus} className="hover:bg-gray-800">
         <ListItemText primary="Blogs" />
       </ListItem>
+      </Link>
 
       {/* Button */}
       <ListItem onClick={handleCloseMenus}>
+         
         <div style={{ width: "100%", textAlign: "center" }}>
-          <button id="get_Qoute" style={{ width: "90%" }}>
+          <Link href="/qoute"> 
+          <button id="get_Qoute" className="cursor-pointer" style={{ width: "90%" }}>
             Get Quote
           </button>
+          </Link>
         </div>
+        
       </ListItem>
 
     </List>

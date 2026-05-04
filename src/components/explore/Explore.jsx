@@ -21,19 +21,19 @@ return(
             </div>  
             <div className="flex w-full md:w-7/12 flex-wrap justify-center ml:justify-end ">
                 <div className="mb-10" style={{width:"100%"}}>
-                    <img src="/explore/1.jpg" alt="" className=" h-[150px] lg:h-[250px] md:h-[200px]"  style={{borderRadius:"10px", width:"100%"}} />
+                    <img src="/explore/1.jpg" alt="" className="w-full object-cover rounded  h-[150px] lg:h-[250px] md:h-[200px]"  style={{borderRadius:"10px", width:"100%"}} />
                 </div>
             </div>  
 
 
             <div className="flex w-full w-full-wrap justify-center mb-5">
                  <div style={{width:"100%"}}>
-                    <img src="/explore/2.webp" className="h-[200px] md:h-[300px] lg:h-[400px]" alt=""  style={{borderRadius:"10px", width:"100%"}} />
+                    <img src="/explore/2.jpg" className="w-full object-cover rounded  h-[200px] md:h-[300px] lg:h-[400px]" alt=""  style={{borderRadius:"10px", width:"100%"}} />
                 </div>
             </div> 
-            <div className="flex w-full md:w-6/12 flex-wrap">
+            <div className=" w-full md:w-6/12 flex-wrap grid p-5">
                  <div className="mb-10" style={{width:"100%"}}>
-                    <img src="/explore/3.webp" className="h-[150px] md:h-[200px] lg:h-[250px]" alt="" style={{borderRadius:"10px" , width:"100%"}} />
+                    <img src="/explore/3.jpg" className="w-full object-cover rounded h-[150px] md:h-[200px] lg:h-[250px]" alt="" style={{borderRadius:"10px" , width:"100%"}} />
                 </div>
             </div> 
             <div className="flex w-full md:w-6/12 flex-wrap">

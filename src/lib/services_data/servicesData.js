@@ -166,7 +166,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/slider_section_image.jpg",
+   img: "/vogue fix my motor image 9.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -232,7 +232,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 
 green_slider2:{
-   img: "/wowimage.jpg",
+   img: "/vogue fix my motor image 21",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -309,7 +309,7 @@ discription: {
       "Accurate fault analysis",
       "Fast service turnaround"
     ],
-    image:"/description.jpg"
+    image:"/vogue fix my motor image 17.jpg"
   },
 
 
@@ -511,7 +511,7 @@ contents:{
   }
 ],
 green_slider1:{
-   img: "/slider_section_image.jpg",
+   img: "/vogue fix my motor image 9.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -577,7 +577,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 
 green_slider2:{
-   img: "/wowimage.jpg",
+   img: "/vogue fix my motor image 9.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -654,7 +654,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       "Accurate fault analysis",
       "Fast service turnaround"
     ],
-    image:"/description.jpg"
+    image:"/vogue fix my motor image 17.jpg"
   },
   },
 
@@ -860,7 +860,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/slider_section_image.jpg",
+   img: "/vogue fix my motor image 9.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -926,7 +926,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 
 green_slider2:{
-   img: "/wowimage.jpg",
+   img: "/vogue fix my motor image 15.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -1003,7 +1003,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       "Accurate fault analysis",
       "Fast service turnaround"
     ],
-    image:"/description.jpg"
+    image:"/vogue fix my motor image 14.jpg"
   },
   },
 
@@ -1201,7 +1201,7 @@ contents:{
   }
 ],
 green_slider1:{
-   img: "/slider_section_image.jpg",
+   img: "/vogue fix my motor image 9.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -1267,7 +1267,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 
 green_slider2:{
-   img: "/wowimage.jpg",
+   img: "/vogue fix my motor image 21.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -1344,7 +1344,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       "Accurate fault analysis",
       "Fast service turnaround"
     ],
-    image:"/description.jpg"
+    image:"/vogue fix my motor image 14.jpg"
   },
   },
 
@@ -1601,7 +1601,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 
 green_slider2:{
-   img: "/wowimage.jpg",
+   img: "/vogue fix my motor image 21.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -1886,7 +1886,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/slider_section_image.jpg",
+   img: "/vogue fix my motor image 9.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -1952,7 +1952,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 
 green_slider2:{
-   img: "/wowimage.jpg",
+   img: "/vogue fix my motor image 15.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -2029,7 +2029,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       "Accurate fault analysis",
       "Fast service turnaround"
     ],
-    image:"/description.jpg"
+    image:"/vogue fix my motor image 14.jpg"
   },
   },
 
@@ -2260,7 +2260,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/slider_section_image.jpg",
+   img: "/vogue fix my motor image 20.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -2326,7 +2326,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 
 green_slider2:{
-   img: "/wowimage.jpg",
+   img: "/vogue fix my motor image 9.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -2403,7 +2403,7 @@ discription: {
       "Accurate fault analysis",
       "Fast service turnaround"
     ],
-    image:"/description.jpg"
+    image:"/vogue fix my motor image 14.jpg"
   },
 
 
@@ -2605,7 +2605,7 @@ contents:{
   }
 ],
 green_slider1:{
-   img: "/slider_section_image.jpg",
+   img: "/vogue fix my motor image 20.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -2671,7 +2671,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 
 green_slider2:{
-   img: "/wowimage.jpg",
+   img: "/vogue fix my motor image 14.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -2748,7 +2748,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       "Accurate fault analysis",
       "Fast service turnaround"
     ],
-    image:"/description.jpg"
+    image:"/vogue fix my motor image 14.jpg"
   },
   },
 
@@ -2954,7 +2954,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/slider_section_image.jpg",
+   img: "/vogue fix my motor image 20.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -3020,7 +3020,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 
 green_slider2:{
-   img: "/wowimage.jpg",
+   img: "/slider_section_image.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -3097,7 +3097,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       "Accurate fault analysis",
       "Fast service turnaround"
     ],
-    image:"/description.jpg"
+    image:"/vogue fix my motor image 14.jpg"
   },
   },
 
@@ -3295,7 +3295,7 @@ contents:{
   }
 ],
 green_slider1:{
-   img: "/slider_section_image.jpg",
+   img: "/1.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -3361,7 +3361,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 
 green_slider2:{
-   img: "/wowimage.jpg",
+   img: "/vogue fix my motor image 14.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -3629,7 +3629,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/slider_section_image.jpg",
+   img: "/1.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -3695,7 +3695,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 
 green_slider2:{
-   img: "/wowimage.jpg",
+   img: "/slider_section_image.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -3772,7 +3772,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       "Accurate fault analysis",
       "Fast service turnaround"
     ],
-    image:"/description.jpg"
+    image:"/vogue fix my motor image 17.jpg"
   },
     },
 
@@ -3980,7 +3980,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/slider_section_image.jpg",
+   img: "/1.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -4046,7 +4046,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 
 green_slider2:{
-   img: "/wowimage.jpg",
+   img: "/slider_section_image.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -4123,7 +4123,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       "Accurate fault analysis",
       "Fast service turnaround"
     ],
-    image:"/description.jpg"
+    image:"/vogue fix my motor image 17.jpg"
   },
   },
 
@@ -4481,7 +4481,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/slider_section_image.jpg",
+   img: "/3.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -4547,7 +4547,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 
 green_slider2:{
-   img: "/wowimage.jpg",
+   img: "/1.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -4855,7 +4855,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/slider_section_image.jpg",
+   img: "/3.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -4921,7 +4921,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 
 green_slider2:{
-   img: "/wowimage.jpg",
+   img: "/2.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -4998,7 +4998,7 @@ discription: {
       "Accurate fault analysis",
       "Fast service turnaround"
     ],
-    image:"/description.jpg"
+    image:"/3.jpg"
   },
 
 
@@ -5200,7 +5200,7 @@ contents:{
   }
 ],
 green_slider1:{
-   img: "/slider_section_image.jpg",
+   img: "/3.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -5266,7 +5266,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 
 green_slider2:{
-   img: "/wowimage.jpg",
+   img: "/2.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -5343,7 +5343,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       "Accurate fault analysis",
       "Fast service turnaround"
     ],
-    image:"/description.jpg"
+    image:"/3.jpg"
   },
   },
 
@@ -5549,7 +5549,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/slider_section_image.jpg",
+   img: "/3.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -5615,7 +5615,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 
 green_slider2:{
-   img: "/wowimage.jpg",
+   img: "/2.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -5692,7 +5692,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       "Accurate fault analysis",
       "Fast service turnaround"
     ],
-    image:"/description.jpg"
+    image:"/1.jpg"
   },
   },
 
@@ -5890,7 +5890,7 @@ contents:{
   }
 ],
 green_slider1:{
-   img: "/slider_section_image.jpg",
+   img: "/2.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -5956,7 +5956,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 
 green_slider2:{
-   img: "/wowimage.jpg",
+   img: "/3.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -6224,7 +6224,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/slider_section_image.jpg",
+   img: "/3.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -6290,7 +6290,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 
 green_slider2:{
-   img: "/wowimage.jpg",
+   img: "/slider_section_image.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -6367,7 +6367,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       "Accurate fault analysis",
       "Fast service turnaround"
     ],
-    image:"/description.jpg"
+    image:"/vogue fix my motor image 14.jpg"
   },
     },
 
@@ -6575,7 +6575,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/slider_section_image.jpg",
+   img: "/3.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -6641,7 +6641,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 
 green_slider2:{
-   img: "/wowimage.jpg",
+   img: "/3.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -6718,7 +6718,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       "Accurate fault analysis",
       "Fast service turnaround"
     ],
-    image:"/description.jpg"
+    image:"/vogue fix my motor image 22.jpg"
   },
   },
 
@@ -6960,7 +6960,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/slider_section_image.jpg",
+   img: "/3.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -7026,7 +7026,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 
 green_slider2:{
-   img: "/wowimage.jpg",
+   img: "/vogue fix my motor image 17.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -7103,7 +7103,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       "Accurate fault analysis",
       "Fast service turnaround"
     ],
-    image:"/description.jpg"
+    image:"/vogue fix my motor image 21.jpg"
   },
   },
 
@@ -7334,7 +7334,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/slider_section_image.jpg",
+   img: "/3.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -7400,7 +7400,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 
 green_slider2:{
-   img: "/wowimage.jpg",
+   img: "/vogue fix my motor image 21.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -7477,7 +7477,7 @@ discription: {
       "Accurate fault analysis",
       "Fast service turnaround"
     ],
-    image:"/description.jpg"
+    image:"/vogue fix my motor image 21.jpg"
   },
 
 
@@ -7679,7 +7679,7 @@ contents:{
   }
 ],
 green_slider1:{
-   img: "/slider_section_image.jpg",
+   img: "/3.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -7745,7 +7745,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 
 green_slider2:{
-   img: "/wowimage.jpg",
+   img: "/vogue fix my motor image 20.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -7822,7 +7822,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       "Accurate fault analysis",
       "Fast service turnaround"
     ],
-    image:"/description.jpg"
+    image:"/vogue fix my motor image 20.jpg"
   },
   },
 
@@ -8028,7 +8028,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/slider_section_image.jpg",
+   img: "vogue fix my motor image 18.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -8171,7 +8171,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       "Accurate fault analysis",
       "Fast service turnaround"
     ],
-    image:"/description.jpg"
+    image:"/vogue fix my motor image 14.jpg"
   },
   },
 
@@ -8369,7 +8369,7 @@ contents:{
   }
 ],
 green_slider1:{
-   img: "/slider_section_image.jpg",
+   img: "/wowimage.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -8435,7 +8435,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 
 green_slider2:{
-   img: "/wowimage.jpg",
+   img: "/vogue fix my motor image 18.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -8512,7 +8512,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       "Accurate fault analysis",
       "Fast service turnaround"
     ],
-    image:"/description.jpg"
+    image:"/vogue fix my motor image 18.jpg"
   },
   },
 
@@ -8703,7 +8703,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/slider_section_image.jpg",
+   img: "/wowimage.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -8769,7 +8769,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 
 green_slider2:{
-   img: "/wowimage.jpg",
+   img: "vogue fix my motor image 17.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -8846,7 +8846,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       "Accurate fault analysis",
       "Fast service turnaround"
     ],
-    image:"/description.jpg"
+    image:"/vogue fix my motor image 18.jpg"
   },
     },
 
@@ -9054,7 +9054,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/slider_section_image.jpg",
+   img: "/wowimage.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -9120,7 +9120,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 
 green_slider2:{
-   img: "/wowimage.jpg",
+   img: "/vogue fix my motor image 17.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -9197,7 +9197,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       "Accurate fault analysis",
       "Fast service turnaround"
     ],
-    image:"/description.jpg"
+    image:"/vogue fix my motor image 17.jpg"
   },
   },
 
@@ -9422,7 +9422,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/slider_section_image.jpg",
+   img: "/wowimage.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -9488,7 +9488,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 
 green_slider2:{
-   img: "/wowimage.jpg",
+   img: "/vogue fix my motor image 17.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -9565,7 +9565,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       "Accurate fault analysis",
       "Fast service turnaround"
     ],
-    image:"/description.jpg"
+    image:"/wowimage.jpg"
   },
   },
 
@@ -9796,7 +9796,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/slider_section_image.jpg",
+   img: "/wowimage.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -9862,7 +9862,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 
 green_slider2:{
-   img: "/wowimage.jpg",
+   img: "/vogue fix my motor image 15.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -9939,7 +9939,7 @@ discription: {
       "Accurate fault analysis",
       "Fast service turnaround"
     ],
-    image:"/description.jpg"
+    image:"/wowimage.jpg"
   },
 
 
@@ -10141,7 +10141,7 @@ contents:{
   }
 ],
 green_slider1:{
-   img: "/slider_section_image.jpg",
+   img: "/description.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -10207,7 +10207,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 
 green_slider2:{
-   img: "/wowimage.jpg",
+   img: "/vogue fix my motor image 15.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -10284,7 +10284,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       "Accurate fault analysis",
       "Fast service turnaround"
     ],
-    image:"/description.jpg"
+    image:"/wowimage.jpg"
   },
   },
 
@@ -10556,7 +10556,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 
 green_slider2:{
-   img: "/wowimage.jpg",
+   img: "/vogue fix my motor image 15.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -10633,7 +10633,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       "Accurate fault analysis",
       "Fast service turnaround"
     ],
-    image:"/description.jpg"
+    image:"/slider_section_image.jpg"
   },
   },
 
@@ -10897,7 +10897,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 
 green_slider2:{
-   img: "/wowimage.jpg",
+   img: "/vogue fix my motor image 15.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -10974,7 +10974,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       "Accurate fault analysis",
       "Fast service turnaround"
     ],
-    image:"/description.jpg"
+    image:"/slider_section_image.jpg"
   },
   },
 
@@ -11165,7 +11165,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/slider_section_image.jpg",
+   img: "/description.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -11231,7 +11231,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 
 green_slider2:{
-   img: "/wowimage.jpg",
+   img: "/vogue fix my motor image 15.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -11516,7 +11516,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/slider_section_image.jpg",
+   img: "/description.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -11582,7 +11582,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 
 green_slider2:{
-   img: "/wowimage.jpg",
+   img: "/vogue fix my motor image 14.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -11659,7 +11659,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       "Accurate fault analysis",
       "Fast service turnaround"
     ],
-    image:"/description.jpg"
+    image:"/slider_section_image.jpg"
   },
   },
 
@@ -11896,7 +11896,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/slider_section_image.jpg",
+   img: "/description.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -11962,7 +11962,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 
 green_slider2:{
-   img: "/wowimage.jpg",
+   img: "/vogue fix my motor image 14.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -12039,7 +12039,7 @@ discription: {
       "Accurate fault analysis",
       "Fast service turnaround"
     ],
-    image:"/description.jpg"
+    image:"/slider_section_image.jpg"
   },
 
 
@@ -12241,7 +12241,7 @@ contents:{
   }
 ],
 green_slider1:{
-   img: "/slider_section_image.jpg",
+   img: "/vogue fix my motor image 17.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -12307,7 +12307,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 
 green_slider2:{
-   img: "/wowimage.jpg",
+   img: "/vogue fix my motor image 14.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -12384,7 +12384,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       "Accurate fault analysis",
       "Fast service turnaround"
     ],
-    image:"/description.jpg"
+    image:"/slider_section_image.jpg"
   },
   },
 
@@ -12590,7 +12590,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/slider_section_image.jpg",
+   img: "/vogue fix my motor image 17.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -12656,7 +12656,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 
 green_slider2:{
-   img: "/wowimage.jpg",
+   img: "/vogue fix my motor image 14.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -12733,7 +12733,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       "Accurate fault analysis",
       "Fast service turnaround"
     ],
-    image:"/description.jpg"
+    image:"/3.jpg"
   },
   },
 
@@ -12931,7 +12931,7 @@ contents:{
   }
 ],
 green_slider1:{
-   img: "/slider_section_image.jpg",
+   img: "/vogue fix my motor image 17.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -12997,7 +12997,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 
 green_slider2:{
-   img: "/wowimage.jpg",
+   img: "/vogue fix my motor image 22.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -13074,7 +13074,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       "Accurate fault analysis",
       "Fast service turnaround"
     ],
-    image:"/description.jpg"
+    image:"/3.jpg"
   },
   },
 
@@ -13265,7 +13265,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/slider_section_image.jpg",
+   img: "/vogue fix my motor image 17.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -13331,7 +13331,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 
 green_slider2:{
-   img: "/wowimage.jpg",
+   img: "/vogue fix my motor image 22.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -13408,7 +13408,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       "Accurate fault analysis",
       "Fast service turnaround"
     ],
-    image:"/description.jpg"
+    image:"/3.jpg"
   },
     },
 
@@ -13616,7 +13616,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/slider_section_image.jpg",
+   img: "/vogue fix my motor image 17.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -13682,7 +13682,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 
 green_slider2:{
-   img: "/wowimage.jpg",
+   img: "/vogue fix my motor image 22.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -13759,7 +13759,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       "Accurate fault analysis",
       "Fast service turnaround"
     ],
-    image:"/description.jpg"
+    image:"/3.jpg"
   },
   },
 
@@ -13990,7 +13990,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/slider_section_image.jpg",
+   img: "/vogue fix my motor image 18.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -14056,7 +14056,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 
 green_slider2:{
-   img: "/wowimage.jpg",
+   img: "/vogue fix my motor image 22.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -14133,7 +14133,7 @@ discription: {
       "Accurate fault analysis",
       "Fast service turnaround"
     ],
-    image:"/description.jpg"
+    image:"/vogue fix my motor image 18.jpg"
   },
 
 
@@ -14335,7 +14335,7 @@ contents:{
   }
 ],
 green_slider1:{
-   img: "/slider_section_image.jpg",
+   img: "/vogue fix my motor image 20.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -14401,7 +14401,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 
 green_slider2:{
-   img: "/wowimage.jpg",
+   img: "/vogue fix my motor image 22.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -14478,7 +14478,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       "Accurate fault analysis",
       "Fast service turnaround"
     ],
-    image:"/description.jpg"
+    image:"/vogue fix my motor image 18.jpg"
   },
   },
 
@@ -14684,7 +14684,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/slider_section_image.jpg",
+   img: "/vogue fix my motor image 20.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -14827,7 +14827,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       "Accurate fault analysis",
       "Fast service turnaround"
     ],
-    image:"/description.jpg"
+    image:"/vogue fix my motor image 18.jpg"
   },
   },
 
@@ -15025,7 +15025,7 @@ contents:{
   }
 ],
 green_slider1:{
-   img: "/slider_section_image.jpg",
+   img: "/vogue fix my motor image 20.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -15168,7 +15168,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       "Accurate fault analysis",
       "Fast service turnaround"
     ],
-    image:"/description.jpg"
+    image:"/vogue fix my motor image 17.jpg"
   },
   },
 

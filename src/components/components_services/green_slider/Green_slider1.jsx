@@ -40,7 +40,7 @@ export default function Green_slider1() {
             </div>
             <div className="w-full md:w-12/24">
                 <div  style={{width:"100%", height:"100%"}}>
-                    <img src="/slider_section_image.jpg" style={{width:"100%", height:"100%"}} alt="slider_section_image" />
+                    <img src="/vogue fix my motor image 20.jpg" style={{width:"100%", height:"100%"}} alt="slider_section_image" />
                 </div>
             </div>
         </div>

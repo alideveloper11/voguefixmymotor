@@ -18,9 +18,9 @@ export default function Green_slider() {
   }, []);
 
   return (
-        <div className="flex flex-wrap">
+        <div className="flex  items-stretch">
             <div className="w-full md:w-12/24 text-left text-white" style={{background:"linear-gradient(127.87deg, #000000 -0.59%, #16A34A 86.16%)"}}>
-                <div className=" m-10 md:m-20 min-h-[250px] md:min-h-[300px]">
+                <div className=" m-10 md:ml-20 md:mr-20 md:mr-20">
                         <h1 className="text-2xl md:text-3xl font-bold">{slides[current].title}</h1>
                         <p className="mt-10">
                              {slides[current].text}
@@ -38,9 +38,9 @@ export default function Green_slider() {
                         </div>
                 </div>
             </div>
-            <div className="w-full md:w-12/24">
+            <div className="w-full md:w-12/24 overflow-hidden">
                 <div  style={{width:"100%", height:"100%"}}>
-                    <img src="/slider_section_image.jpg" style={{width:"100%", height:"100%"}} alt="slider_section_image" />
+                    <img src="/slider_section_image.jpg"  className="w-full object-cover" style={{width:"100%", height:"100%"}} alt="slider_section_image" />
                 </div>
             </div>
         </div>

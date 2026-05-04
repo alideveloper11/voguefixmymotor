@@ -10,15 +10,10 @@ export default function Gallery() {
 
   // 2. folder read
   const files = fs.readdirSync(imagesDir);
-
-  // 3. images URL me convert
   const images = files.map((file) => `/gallery_images/${file}`);
   return (
-
     <div className="flex flex-wrap w-full">
-                        
                         <div className="w-full">
-
                                <div className="grid  md:grid-cols-3 gap-4 p-5">
                                     {images.map((img, i) => (
                                         <img

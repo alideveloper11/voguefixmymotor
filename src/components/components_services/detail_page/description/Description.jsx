@@ -26,7 +26,7 @@ export default function Description({ content , image}) {
             <ul className="list-disc pl-5">
               <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
               <li>Cras volutpat nibh pulvinar posuere auctor.</li>
-              <li>Nullam lobortis risus pharetra lobortis blandit.</li>
+              <li>Nullam lobortis risus pharetra lobortis blandit.salman</li>
             </ul>
           </div>
  <div className="text-left" > 
@@ -43,11 +43,11 @@ export default function Description({ content , image}) {
   </button></div>
         </div>
 
-        <div className="w-[100%]">
+        <div className="w-[100%] " style={{height: "90vh", width: "100%", objectFit: "cover"}}>
           <img
             src={image}
             alt="description"
-            className="w-full rounded-lg object-cover"
+            className="h-full w-full object-cover rounded-lg"
           />
         </div>
 

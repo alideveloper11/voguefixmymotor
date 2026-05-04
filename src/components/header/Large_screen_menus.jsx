@@ -142,16 +142,16 @@ export default function Large_screen_menus(){
   ))}
 </Menu>
                         
-                                    <Button color="inherit" className="menu"  style={{fontSize:"13px"}}>Areas</Button>
+                                   <Link href="/areas"> <Button color="inherit" className="menu"  style={{fontSize:"13px"}}>Areas</Button></Link>
                                     <Link href="/gallery"> <Button color="inherit" className="menu"  style={{fontSize:"13px"}}>Gallery</Button></Link>
-                                    <Button color="inherit" className="menu"  style={{ fontSize: "13px", whiteSpace: "nowrap" }}>About Us</Button>
+                                    <Link href="/about"> <Button color="inherit" className="menu"  style={{ fontSize: "13px", whiteSpace: "nowrap" }}>About Us</Button></Link>
                                   
-                                        <Link href="/reviews">  <Button color="inherit" className="menu"  style={{fontSize:"13px"}}>Reviews</Button></Link>
-                                    <Button color="inherit" className="menu"  style={{fontSize:"13px"}}>Blogs</Button>
+                                    <Link href="/reviews">  <Button color="inherit" className="menu"  style={{fontSize:"13px"}}>Reviews</Button></Link>
+                                   <Link href="/blog">  <Button color="inherit" className="menu"  style={{fontSize:"13px"}}>Blogs</Button></Link>
                                     </Box>
               </div>
               <div className="w-4/24 text-center">
-              <button id="get_Qoute">Get Quote</button>
+             <Link href="/qoute">  <button id="get_Qoute" className="cursor-pointer">Get Quote</button></Link>
 
               </div>
     </div>
