@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
-import saleParts from "@/lib/SaleParts";
+import saleParts from "@/lib/areas_data/SaleParts";
 
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
@@ -79,7 +79,7 @@ currentIndex * cardWidth;
 
 return(
 
-<section className="bg-gray-100 py-16 overflow-hidden">
+<section className="bg-gray-100 py-8 overflow-hidden">
 
 <h2 className="text-center text-3xl font-bold mb-12">
 TOP PARTS FOR SALE

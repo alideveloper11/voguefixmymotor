@@ -1,229 +1,99 @@
 "use client";
+import images from "@/lib/Top_makes_data";
 
-import { useState, useEffect } from "react";
+import { useEffect, useRef } from "react";
 import Image from "next/image";
-import top_makes_data from "@/lib/Top_makes_data";
 
-import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
-import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
-export default function Topmakes() {
 
-const [currentIndex,setCurrentIndex] = useState(0);
-const [itemsPerView,setItemsPerView] = useState(4);
-
-
-
-useEffect(()=>{
-
-const handleResize=()=>{
-
-if(window.innerWidth < 768){
-setItemsPerView(1);
-}else{
-setItemsPerView(4);
-}
-
-};
-
-handleResize();
-
-window.addEventListener(
-"resize",
-handleResize
-);
-
-return ()=>{
-window.removeEventListener(
-"resize",
-handleResize
-)
-}
-
-},[]);
-
-
-
-const nextSlide=()=>{
-
-if(
-currentIndex <
-top_makes_data.length - itemsPerView
-){
-setCurrentIndex(
-prev=>prev+1
-);
-}
-
-};
-
-
-
-const prevSlide=()=>{
-
-if(currentIndex > 0){
-setCurrentIndex(
-prev=>prev-1
-);
-}
-
-};
-
-
-
-const cardWidth = 280; 
-const translateValue =
-currentIndex * cardWidth;
-
-
-
-return(
-
-<section className="bg-gray-100 py-16 overflow-hidden">
-
-<h2 className="text-center text-3xl font-bold mb-12">
-Top Makes We Work On
-</h2>
-
-
-
-<div className="flex items-center justify-center gap-6">
-
-{/* LEFT BUTTON */}
-{currentIndex > 0 && (
-
-<button
-onClick={prevSlide}
-className="
-w-12
-h-12
-rounded-full
-bg-[#088751]
-text-white
-flex
-items-center
-justify-center
-shadow
-hover:bg-green-800
-"
->
-<ArrowBackIosNewIcon />
-</button>
-
-)}
-
-
-
-{/* SLIDER WINDOW */}
-<div
-className="
-overflow-hidden
-w-[280px]
-md:w-[1120px]
-"
->
-
-{/* TRACK */}
-<div
-className="
-flex
-gap-6
-transition-transform
-duration-500
-ease-in-out
-
-"
-style={{
-transform:
-`translateX(-${translateValue}px)`
-}}
->
-
-{top_makes_data.map((part)=>(
-
-<div
-key={part.id}
-className="
-min-w-[256px]
-bg-white
-
-rounded-lg
-p-5
-"
-style={{boxShadow: "0 2px 6px rgba(0, 0, 0, 0.2)"}}
->
-
-<div className="flex justify-center ">
-<Image
-src={part.image}
-alt="top makes image"
-width={180}
-height={140}
-/>
-</div>
-
-
-
-
-</div>
-
-))}
-
-</div>
-
-</div>
-
-
-
-{/* RIGHT BUTTON */}
-{
-currentIndex <
-top_makes_data.length - itemsPerView && (
-
-<button
-onClick={nextSlide}
-className="
-w-12
-h-12
-rounded-full
-bg-[#088751]
-text-white
-flex
-items-center
-justify-center
-shadow
-hover:bg-green-800
-"
->
-<ArrowForwardIosIcon />
-</button>
-
-)
-}
-
-</div>
-
-
-
-<button
-className="
-block
-mx-auto
-mt-10
-bg-[#088751]
-text-white
-px-12
-py-3
-rounded
-hover:bg-green-800
-"
->
-Find More
-</button>
-
-
-</section>
-
-)
-
+export default function TopMakes() {
+  const trackRef = useRef(null);
+
+  useEffect(() => {
+  const track = trackRef.current;
+
+  if (!track) return;
+
+  let animationFrame;
+  let position = 0;
+  const speed = 3;
+
+  const firstSet = track.children.length / 2;
+  let singleSetWidth = 0;
+
+  // calculate exact width of first set
+  for (let i = 0; i < firstSet; i++) {
+    singleSetWidth += track.children[i].offsetWidth + 24; // gap-6 = 24px
+  }
+
+  const animate = () => {
+    position -= speed;
+
+    if (Math.abs(position) >= singleSetWidth) {
+      position = 0;
+    }
+
+    track.style.transform = `translateX(${position}px)`;
+
+    animationFrame = requestAnimationFrame(animate);
+  };
+
+  animate();
+
+  return () => cancelAnimationFrame(animationFrame);
+}, []);
+  return (
+    <section className="bg-gray-100 py-16 overflow-hidden">
+
+      <h2 className="text-center text-3xl font-bold mb-12">
+        Top Makes We Work On
+      </h2>
+
+      <div className="overflow-hidden w-full">
+
+        <div
+          ref={trackRef}
+          className="flex w-max gap-6 will-change-transform"
+        >
+
+          {/* FIRST SET */}
+          {images.map((img) => (
+            <div
+              key={img}
+              className="min-w-[256px] bg-white rounded-lg p-5 shadow-md"
+            >
+              <div className="relative w-full h-[120px]">
+                <Image
+                  src={img}
+                  alt="logo"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+            </div>
+          ))}
+
+          {/* DUPLICATE SET */}
+          {images.map((img) => (
+            <div
+              key={"dup-" + img}
+              className="min-w-[256px] bg-white rounded-lg p-5 shadow-md"
+            >
+              <div className="relative w-full h-[120px]">
+                <Image
+                  src={img}
+                  alt="logo"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+            </div>
+          ))}
+
+        </div>
+
+      </div>
+
+    </section>
+  );
 }

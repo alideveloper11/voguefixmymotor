@@ -68,7 +68,7 @@ export default function why_choose(){
     
     <div className="w-full flex justify-center mt-5 md:mt-0">
     <div className="w-full"  style={{width:"100%"}}>
-      <img src="/explore/1.jpg" className="w-full h-[300px] object-cover rounded  rounded-[10px]"/>
+      <img src="/explore/1.jpg" className="w-full h-[400px] object-cover rounded  rounded-[10px]"/>
     </div>
     </div>
     

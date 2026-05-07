@@ -1,6 +1,49 @@
+"use client"
+import {useState} from 'react'
 export default function Confirm_information(){
+    const [name,setName]=useState("");
+      const [email,setEmail]=useState("");
+      const [phone, setPhone] = useState("");
+      const [postcode, setPostcode] = useState("");
+      const [registration, setRegistration] = useState("");
+      const [error,setError]=useState({})
+      function form_validation(e) {
+        e.preventDefault();
+      
+        let newErrors = {};
+      
+        if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+          console.log("email error");
+          newErrors.email = "Please enter a valid email address.";
+    
+        }
+      
+        if (!/^[A-Za-z ]*$/.test(name)) {
+          console.log("name error");
+          newErrors.name = "Name can only contain letters and spaces.";
+        }
+        if (!/^\d{11}$/.test(phone)) {
+        newErrors.phone = "Please enter a valid 11-digit phone number.";
+      }
+    
+    if (!/^[A-Za-z0-9 ]+$/.test(postcode)) {
+      newErrors.postcode =
+        "Postcode can only contain letters, numbers, and spaces.";
+    }
+    if (!/^[A-Za-z0-9 ]+$/.test(registration)) {
+      newErrors.registration =
+        "Registration can only contain letters, numbers, and spaces.";
+    }
+      
+        setError(newErrors);
+      
+        // console.log("button clicked");
+        // console.log("FINAL ERROR OBJECT:", newErrors);
+      }
     return(
           <div className="flex flex-wrap w-full">
+            <form  className="flex flex-wrap w-full" onSubmit={form_validation}>
+   
                        <div className="w-full">
                         <div className="mt-3">
                             <center>
@@ -30,23 +73,38 @@ export default function Confirm_information(){
                                                                                         <input
                                                                                         type="text"
                                                                                         placeholder="Enter Registration"
+                                                                                        required
+                                                                                        value={registration}
+                                                                                        onChange={(e) => setRegistration(e.target.value)}
                                                                                         className="flex-1 px-4 py-4 outline-none text-black placeholder-black"
                                                                                         style={{ backgroundColor:" #FFCB05"}}
                                                                                         />
                                                                                         
                                                                                 </div>   
+                                                                                 {error.registration && (
+                                                                                        <p className='ml-5' style={{ color: "red" }}>{error.registration}</p>
+                                                                                        )}
                                                                                 
                                                                                 <div className="flex flex-wrap text-left">
                                                                                     <div className="mt-3 w-full">
                                                                                         
                                                                                         <div className="ml-5 mr-5">
-                                                                                        <label className="mb-1 text-sm text-black font-medium">Username</label>
+                                                                                        <label className="mb-1 text-sm text-black font-medium">Full Name <span style={{color:"red"}}>*</span></label>
                                                                                         <input
+                                                                                         value={name} 
+                                                                                          required
+                                                                                            name="name"
                                                                                         type="text"
+                                                                                         onChange={(e) => {
+                                                                                                setName(e.target.value);
+                                                                                            }}
                                                                                         placeholder="John Smith"
                                                                                     
                                                                                         className="border border-[#4B5563] rounded-md placeholder-[#4B5563] text-black  p-2 w-full outline-none"
                                                                                         />
+                                                                                         {error.name && (
+                                                                                            <p style={{ color: "red" }}>{error.name}</p>
+                                                                                        )}
                                                                                         </div>
                                                                                     </div>
 
@@ -63,12 +121,21 @@ export default function Confirm_information(){
 
                                                                                        <div className="mt-3 w-full ">
                                                                                         <div className="ml-5 mr-5">
-                                                                            <label className="mb-1 text-sm text-black font-medium">Email</label>
+                                                                            <label className="mb-1 text-sm text-black font-medium">Email  <span style={{color:"red"}}>*</span></label>
                                                                             <input
                                                                             type="email"
+                                                                            required
                                                                             placeholder="jhon@example.com"
                                                                             className="border border-[#4B5563] rounded-md placeholder-[#4B5563] text-black w-full  p-2 outline-none"
-                                                                            />
+                                                                            value={email}
+                                                                                name="email"
+                                                                                    onChange={(e) => {
+                                                                                setEmail(e.target.value);
+                                                                                }}
+                                                                                />
+                                                                                {error.email && (
+                                                                                <p style={{ color: "red" }}>{error.email}</p>
+                                                                                )}
                                                                             </div>
                                                                         </div>
                                                                                 </div>
@@ -79,12 +146,16 @@ export default function Confirm_information(){
 
                                                                                     {/* Phone Number */}
                                                                                     <div className="mt-3 ml-5 mr-5">
-                                                                                        <label className="mb-1 text-sm text-black font-medium">Phone Number</label>
+                                                                                        <label className="mb-1 text-sm text-black font-medium">Phone Number  <span style={{color:"red"}}>*</span></label>
                                                                                         <input
                                                                                         type="text"
+                                                                                          value={phone}
+                                                                                            required
+                                                                                            onChange={(e) => setPhone(e.target.value)}
                                                                                         placeholder="01708 123456"
                                                                                         className="border border-[#4B5563] rounded-md placeholder-[#4B5563] text-black w-full  p-2 outline-none"
                                                                                         />
+                                                                                          {error.phone && <p style={{ color: "red" }}>{error.phone}</p>}
                                                                                     </div>
                                                                                     </div>
                                                                             
@@ -95,12 +166,20 @@ export default function Confirm_information(){
 
 
                                                                         <div className="mt-3 ml-5 mr-5">
-                                                                            <label className="mb-1 text-sm text-black  font-medium">Postcode</label>
+                                                                            <label className="mb-1 text-sm text-black  font-medium">Postcode  <span style={{color:"red"}}>*</span></label>
                                                                             <input
                                                                             type="text"
+                                                                             required
+                                            
+                                                                            value={postcode}
+                                                                            
+                                                                            onChange={(e) => setPostcode(e.target.value)}
                                                                             placeholder="RM20 4EL"
                                                                             className="border border-[#4B5563]  rounded-md placeholder-[#4B5563] w-full black  p-2 outline-none"
                                                                             />
+                                                                             {error.postcode && (
+                                                                                <p style={{ color: "red" }}>{error.postcode}</p>
+                                                                       )} 
                                                                         </div>
 
 
@@ -111,7 +190,7 @@ export default function Confirm_information(){
                                                                                     <div className="mt-3 w-full">
                                                                                         
                                                                                         <div className="ml-5 mr-5">
-                                                                                        <label className="mb-1 text-sm text-black font-medium">Message</label>
+                                                                                        <label className="mb-1 text-sm text-black font-medium">Message<span style={{color:"red"}}>*</span></label>
                                                                                         <textarea
                                                                                         placeholder="Tell us how can we help you..."
                                                                                     
@@ -179,11 +258,16 @@ United Kingdom</p>
                                                                 </div>
                                                                 
                                                                <div className="w-full">
-                                                                <img src="/description.jpg" className="w-full h-60 object-cover rounded" />
-                                                               </div>
+                                                                         <iframe
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1918.840526322696!2d0.29315567556610106!3d51.47451701310638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8b7a2859bba33%3A0xd64a87b00877a1d!2sVogue%20Technics!5e1!3m2!1sen!2s!4v1778063921624!5m2!1sen!2s"
+  width="100%"
+  height="370"
+  style={{ border: 0 }}
+  loading="lazy"
+></iframe></div>
                                                          
                                                      </div></div>
-                        </div>
+                     </form>   </div>
                        
           
     )

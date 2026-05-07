@@ -3,33 +3,40 @@
 const servicesData = [
   {
     id: 1,
-    name: "Engine Repair",
+    name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-  },
-  {
-    id: 2,
-    name: "Oil Change Service",
-    text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-  },
-  {
-    id: 3,
-    name: "Engine Tuning",
-    text: "Fine tuning service for better fuel efficiency, smoother acceleration, and optimized power output.",
-  },
-  {
-    id: 4,
-    name: "Brake Service",
-    text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-  },
-  {
-    id: 5,
-    name: "Transmission Repair",
-    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
-  },
-  {
-    id: 6,
-    name: "Battery Check",
+    slug: "Engine-Repair",
+    },
+    {
+    id: 12,
+    name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
+    slug: "Battery-Check",
+  },
+    {
+    id: 17,
+    name: "Welding Services",
+    text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
+    slug: "Brake-Service",
+  },
+   {
+    id: 19,
+    name: "Locking Wheel Nut Removal / Replacement",
+    text: "Battery testing, charging system inspection, and replacement services when required.",
+    slug: "Battery-Check",
+  },
+   
+  {
+    id: 20,
+    name: "24/7 Vehicle Recovery",
+    text: "Battery testing, charging system inspection, and replacement services when required.",
+    slug: "Battery-Check",
+  },
+   {
+    id: 21,
+    name: "Valeting Services",
+    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
+    slug: "Engine-Repair",
   },
 
 ];

@@ -1,14 +1,61 @@
+
+"use client"
+import {useState} from 'react'
+import servicesData from "@/lib/services_data/servicesData";
 export default function HeroSection(){
+    const [name,setName]=useState("");
+  const [email,setEmail]=useState("");
+  const [phone, setPhone] = useState("");
+  const [postcode, setPostcode] = useState("");
+  const [registration, setRegistration] = useState("");
+  const [error,setError]=useState({})
+
+  function form_validation(e) {
+    e.preventDefault();
+  
+    let newErrors = {};
+  
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+      console.log("email error");
+      newErrors.email = "Please enter a valid email address.";
+
+    }
+  
+    if (!/^[A-Za-z ]*$/.test(name)) {
+      console.log("name error");
+      newErrors.name = "Name can only contain letters and spaces.";
+    }
+    if (!/^\d{11}$/.test(phone)) {
+    newErrors.phone = "Please enter a valid 11-digit phone number.";
+  }
+
+if (!/^[A-Za-z0-9 ]+$/.test(postcode)) {
+  newErrors.postcode =
+    "Postcode can only contain letters, numbers, and spaces.";
+}
+if (!/^[A-Za-z0-9 ]+$/.test(registration)) {
+  newErrors.registration =
+    "Registration can only contain letters, numbers, and spaces.";
+}
+  
+    setError(newErrors);
+  
+    // console.log("button clicked");
+    // console.log("FINAL ERROR OBJECT:", newErrors);
+  }
     return(
-        <div>
-                <div className="flex flex-wrap h-[900px] md:h-[600px] md:flex-nowrap" id="second_hero_section">
+          <form onSubmit={form_validation}>
+   
+                <div className="flex flex-wrap h-[900px] md:h-[600px] md:flex-nowrap" id="hero_section">
                  <div className="w-full md:w-6/12  flex items-center justify-center">
                         <div className="m-10" style={{width:"60%"}}>
-                            <p className="font-bold text-left text-white text-[25px] md:text-[40]">
-                                Tell Us What You Need—We’ll Handle the Rest.
+                            <p className="font-bold text-left text-white text-[30px]">
+                                Reliable Car Repair Services You Can Trust.
                             </p>
                             <p className="font-bold text-left text-white text-[12px] mt-3">
-                                Tell us your issue and get a quick, no-obligation quote.
+                                Welcome to Vogue Fix My Motor, your trusted partner for expert auto services.
+                                Whether you're in need of a simple car 
+                                auto repair service or a complete engine overhaul, we've got you covered.
                             </p>
                         </div>
                  </div>
@@ -26,131 +73,137 @@ export default function HeroSection(){
 
                                                     <input
                                                     type="text"
+                                                    required
+                                                    value={registration}
+                                                    onChange={(e) => setRegistration(e.target.value)}
                                                     placeholder="Enter Registration"
                                                     className="flex-1 px-4 py-4 outline-none text-black placeholder-black"
-                                                    style={{ backgroundColor:" #FFCB05"}}
+                                                    style={{ backgroundColor: "#FFCB05" }}
                                                     />
-                                                    
+                                 
+                                                                                    
                                             </div>   
+                                                 {error.registration && (
+                                                    <p style={{ color: "red" }}>{error.registration}</p>
+                                                    )}
                                             <div className="flex flex-wrap text-left">
                                                 
-                                                <div className="w-11/24 mt-3 md:ml-5">
+                                                <div className="w-10/24 mt-3 md:ml-5">
                                                 <div className="mt-3">
-                                                    <label className="mb-1 text-sm text-white font-medium">Username</label>
+                                                    <label className=" text-sm text-white font-medium">Full Name <span style={{color:"red"}}>*</span></label>
                                                     <input
                                                     type="text"
+                                                    value={name} 
+                                                    required
+                                                    name="name"
                                                     placeholder="John Smith"
                                                     style={{backgroundColor:"rgba(255, 255, 255, 0.26)", borderColor:"rgba(255, 255, 255, 0.15)"}}
                                                     className="border rounded-md placeholder-white text-white  p-2 w-full outline-none"
-                                                    />
+                                                     onChange={(e) => {
+                                                     setName(e.target.value);
+                                                   }} />
+                                                   {error.name && (
+                                                     <p style={{ color: "red" }}>{error.name}</p>
+                                                   )}
                                                 </div>
 
                                                 {/* Phone Number */}
                                                 <div className="mt-3">
-                                                    <label className="mb-1 text-sm text-white font-medium">Phone Number</label>
-                                                    <input
-                                                    type="text"
-                                                    placeholder="01708 123456"
-                                                    style={{backgroundColor:"rgba(255, 255, 255, 0.26)", borderColor:"rgba(255, 255, 255, 0.15)"}}
-                                                    className="border rounded-md placeholder-white text-white w-full  p-2 outline-none"
-                                                    />
+                                                    <label className="text-sm text-white font-medium">Phone Number  <span style={{color:"red"}}>*</span></label>
+                                                   <input
+                                                        type="number"
+                                                        value={phone}
+                                                        required
+                                                        placeholder="01708 123456"
+                                                        className="border rounded-md placeholder-white text-white w-full p-2 outline-none"
+                                                        style={{ backgroundColor: "rgba(255, 255, 255, 0.26)", borderColor:"rgba(255, 255, 255, 0.15)" }}
+                                                        onChange={(e) => setPhone(e.target.value)}
+                                                        />
+                                                        {error.phone && <p style={{ color: "red" }}>{error.phone}</p>}
                                                 </div>
                                                 </div>
                                         
-                                    <div className="w-1/24 mt-3 "></div>
-                                    <div className="w-11/24 mt-3 ">
+                                    <div className="w-11/24 mt-3 ml-2 justify-end ">
                                     
 
                                      <div className="mt-3">
-                                         <label className="mb-1 text-sm text-white font-medium">Email</label>
+                                         <label className=" text-sm text-white font-medium">Email Address <span style={{color:"red"}}>*</span></label>
                                         <input
                                         type="email"
+                                         required
                                         placeholder="jhon@example.com"
                                         style={{backgroundColor:"rgba(255, 255, 255, 0.26)", borderColor:"rgba(255, 255, 255, 0.15)"}}
                                         className="border rounded-md placeholder-white text-white w-full  p-2 outline-none"
-                                        />
+                                         value={email}
+                                         name="email"
+                                             onChange={(e) => {
+                                           setEmail(e.target.value);
+                                         }}
+                                         />
+                                         {error.email && (
+                                           <p style={{ color: "red" }}>{error.email}</p>
+                                         )}
                                     </div>
 
 
                                      <div className="mt-3">
-                                         <label className="mb-1 text-sm text-white  font-medium">Postcode</label>
+                                         <label className=" text-sm text-white  font-medium">Postcode  <span style={{color:"red"}}>*</span></label>
                                         <input
-                                        type="text"
-                                        placeholder="POSTCODE AB12"
-                                        style={{backgroundColor:"rgba(255, 255, 255, 0.26)", borderColor:"rgba(255, 255, 255, 0.15)"}}
-                                        className="border rounded-md placeholder-white w-full text-white  p-2 outline-none"
-                                        />
+                                            type="text"
+                                            required
+                                            value={postcode}
+                                            onChange={(e) => setPostcode(e.target.value)}
+                                            placeholder="POSTCODE AB12"
+                                            className="border rounded-md placeholder-white w-full text-white p-2 outline-none"
+                                            style={{
+                                                backgroundColor: "rgba(255, 255, 255, 0.26)",
+                                                borderColor: "rgba(255, 255, 255, 0.15)",
+                                            }}
+                                            />
+                                            {error.postcode && (
+  <p style={{ color: "red" }}>{error.postcode}</p>
+)}
                                     </div>
 
 
                                     </div>
                                      <div className="w-full text-left">
-                                                                                <div style={{width:"90%", margin:"20px"}}>
+                                                                                <div style={{width:"95%", padding:"20px"}}>
                                                                             <label className="block text-sm text-white mt-2 mb-2 font-medium">
-                                                                            Select Service
+                                                                            Select Service <span style={{color:"red"}}>*</span>
                                                                             </label>
-<select style={{backgroundColor:"rgba(255, 255, 255, 0.48)"}}
-  className="w-full p-3 rounded-md text-white"
+<select
+  required
+  style={{ backgroundColor: "rgba(255, 255, 255, 0.48)" }}
+  className="w-full p-3 rounded-md text-white overflow-hidden"
 >
-  <option style={{ backgroundColor: "#000", color: "#fff" }}>
-    Service 1
+   <option value="" disabled>
+    Select Services
   </option>
-  <option style={{ backgroundColor: "#000", color: "#fff" }}>
-    Service 2
-  </option>
-  <option style={{ backgroundColor: "#000", color: "#fff" }}>
-    Service 3
-  </option>
+
+  {servicesData.map((services) => (
+    <option
+  key={services.id}
+  value={services.slug}
+  style={{
+    backgroundColor: "#000",
+    color: "#fff",
+  }}
+>
+  {services.name}
+</option>
+  ))}
 </select>
                                                                     
                                                                     </div>
                                                                     </div>
                                 </div>
-                                  <center><button style={{display:"block", background: "radial-gradient(53.6% 50% at 46.4% 50%, #00BC71 0%, #036F3D 100%) ",width:"90%",  margin:"20px", borderRadius:"10px"}} className="mt-5 mb-5 pt-2 pb-2 text-white text-bold">Get Qoutation</button></center>
+                                <div>
+                                 <center><button type="submit" style={{display:"block", background: "radial-gradient(53.6% 50% at 46.4% 50%, #00BC71 0%, #036F3D 100%) ",  margin:"20px", borderRadius:"10px"}} className="mt-5 mb-5 pt-2 px-[50px] md:px-[70px] py-[10px] lg:px-[100px] text-white cursor-pointer text-bold">Get Qoutation</button></center> 
+                                </div>
                                 </div>
                  </div>
-                 
                  </div>
-                 <div className="flex  flex-wrap m-10">
-                              <div className=" w-full md:w-1/2">
-                               <div  style={{width:"100%"}}   className="md:h-[400px]">
-                                     <img src="\vogue fix my motor image 17.jpg" className="h-full w-full object-cover" style={{width:"100%", borderRadius:"10px"}} alt="slider_section_image" />
-                                 </div>
-                           </div>
-                     <div className=" w-full md:w-1/2">
-            <div className="m-5 text-left">
-                   <h1 className="text-2xl md:text-3xl font-bold">Lorem Ipsum Has Been 
-Then In</h1>
-                                          <p className="mt-5">
-                                               Lorem Ipsum is not simply random text. 
-                                               It has roots in a piece of classical Latin literature from 45 BC,
-                                                making it over 2000 years old. Richard McClintock, a Latin professor at 
-                                                Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
-                                                 consectetur, from a Lorem Ipsum passage,  Lorem Ipsum is not simply random text. 
-                                                 It has roots in a 
-                                          </p>
-                                          <div className="w-full text-left">
-                                              <ul className="list-disc mt-5 ml-3">
-                                        
-                                          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                                                  <li>Cras volutpat nibh pulvinar posuere auctor.</li>
-                                                  <li>Nullam lobortis risus pharetra lobortis blandit.</li>
-                                                  <li>In ac ante dictum sapien feugiat laoreet eget non nibh.
-                                                  </li>
-                                       
-                                      </ul>
-                                              </div>
-                                        <div className="w-24/24">
-                        
-
-                        <button className="border mt-5  px-4 py-2 rounded mb-2 bg-[#059669] hover:bg-[#0b5a41]"  
-                        style={{ fontSize:"14px", color:"white", fontWeight:"bold" , width:"200px"}}>
-                           read more
-                           </button>
-                        </div> 
-
-            </div>
-          </div>
-          </div></div>
+                 </form>
     )
 }

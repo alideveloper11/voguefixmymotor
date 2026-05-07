@@ -16,17 +16,17 @@ export default function Reviews() {
          <div className="w-20/24">
         
     
-      <div className="w-full flex flex-wrap justify-center mt-6 ml-6 m6-6">
+      <div className="w-full flex flex-wrap justify-center  ml-6 m6-6">
         
         {reviewsData.map((review) => (
 
           <div
   key={review.id}
-  className="w-full sm:w-full md:w-6/12 lg:w-4/12 flex"
+  className="w-full sm:w-full md:w-6/12 lg:w-4/12 flex text-left"
 >
             <div className=" w-full md:w-[80%] bg-[#F3FFF9] border border-gray-300 rounded-xl p-4" style={{margin:"20px 20px 20px 0px"}}>
 
-              <p className="font-bold text-2xl">{review.name}</p>
+              <p className="font-bold text-2xl italic">{review.name}</p>
 
               <p className="text-xs text-gray-400 mt-1">
                 {review.time}

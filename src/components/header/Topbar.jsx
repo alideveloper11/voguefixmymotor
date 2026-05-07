@@ -1,4 +1,7 @@
 "use client"
+import Link from "next/link";
+
+
 import PhoneIcon from "@mui/icons-material/Phone";
 import { useMediaQuery } from "@mui/material";
 import EmailIcon from "@mui/icons-material/Email";
@@ -12,14 +15,20 @@ export default function Topbar() {
         <div className="flex flex-wrap w-full h-10 text-white items-center">
       
           <div className="w-4/24">
+          <Link href="tel:+01375531355">
+
             <p className="text-center font-bold items-center"><PhoneIcon style={{color:"#059669", fontSize:"20px"}} /> 01375531355</p>
+          </Link>
           </div>
             
           <div className="w-1/24">
+          
           <p className="text-center font-bold " style={{color:"#059669"}}>|</p>
           </div>
           <div className="w-10/24 text-center font-bold">
+           <Link href="mailto:enquiry@voguefixmymotor.co.pk">
             <p><EmailIcon style={{color:"#059669", fontSize:"20px"}} /> enquiry@voguefixmymotor.co.pk</p>
+          </Link>
           </div>
 
           <div className="w-2/24"></div>
@@ -36,16 +45,21 @@ export default function Topbar() {
       {!largeScreen && (
             <div className="flex flex-wrap w-full h-10 text-white items-center">
                 <div className="w-6/24">
+                
+                 <Link href="tel:+01375531355">
                 <p className="text-center font-bold items-center text-[10px]">
                     <PhoneIcon style={{color:"#059669",fontSize:"13px"}} /> 
                     01375531355
                     </p>
+                    </Link>
             </div>
                 
             
             <div className="w-16/24 text-center font-bold text-[10px]">
+            <Link href="mailto:enquiry@voguefixmymotor.co.pk">
                 <p><EmailIcon style={{color:"#059669", fontSize:"13px" }} />  
                 enquiry@voguefixmymotor.co.pk</p>
+                </Link>
             </div>
 
             <div className="w-1/24 text-right text-xs">

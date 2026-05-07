@@ -1,5 +1,5 @@
 
-
+import Link from "next/link";
 import PhoneIcon from "@mui/icons-material/Phone";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
@@ -24,7 +24,9 @@ export default function Footer(){
                             happy to help answer your queries
                         </p>
                         <p className="text-white mt-5">
-                            <PhoneIcon style={{color:"#059669", fontSize:"20px"}} /> 01375531355
+                            <Link href="tel:+01375531355">
+                             <PhoneIcon style={{color:"#059669", fontSize:"20px"}} /> 01375531355
+                            </Link>
                         </p>
                         <p className="mt-10 text-black mb-5">
                                 <span className="ml-3 text-center items-center" style={{padding:"11px 8px",backgroundColor:"#028D53", borderRadius:"50%"}}><FacebookIcon/></span>
@@ -47,10 +49,10 @@ export default function Footer(){
                         <p className="text-white font-sans text-shadow-2xs " style={{ fontWeight:"bold" ,fontSize:"18px"}}>Company</p>
                         <div className="text-white">
                         <ul className="list-none mt-8">
-                        <li>Home</li>
-                        <li  className="mt-4">About Us</li>
-                        <li  className="mt-4">Services</li>
-                        <li  className="mt-4">Blogs</li>
+                       <Link href="/"><li>Home</li></Link> 
+                        <Link href="/about"><li  className="mt-4">About Us</li></Link>
+                        <Link href="/services"><li  className="mt-4">Services</li></Link>
+                        <Link href="/blog"><li  className="mt-4">Blogs</li></Link>
                         </ul>
                         </div>
                     </div>  
@@ -77,7 +79,7 @@ export default function Footer(){
                             7AM - 2 PM , Saturday
                             </span>
                         </li>
-                        <li  className="mt-4"><SendIcon style={{color:"#028D53"}} /><span>enquiry@voguefixmymotor.co.uk</span></li>
+                        <li  className="mt-4"><Link href="mailto:enquiry@voguefixmymotor.co.pk"><SendIcon style={{color:"#028D53"}} /><span>enquiry@voguefixmymotor.co.uk</span></Link></li>
                         <li  className="mt-4"><LocationOnIcon style={{color:"#028D53"}} /><p style={{display:"inline"}}>Unit 1D Hedley Ave, Grays RM20 4EL United Kingdom</p>
                         </li>
                         </ul>

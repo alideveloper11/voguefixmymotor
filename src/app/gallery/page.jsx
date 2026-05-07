@@ -20,7 +20,7 @@ export default function Gallery() {
                                         key={i}
                                         src={img}
                                         alt={`image-${i}`}
-                                        className="w-full h-60 object-cover rounded"
+                                        className="w-full h-100 md:h-80 object-cover rounded"
                                         />
                                     ))}
     </div>

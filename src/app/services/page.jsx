@@ -13,13 +13,14 @@ import SaleParts from "../../components/components_services/saleparts/SaleParts"
 import Latest_videos from "../../components/components_services/latest_videos/Latest_videos";
 import SalePartsEngineCallToSection from "../../components/components_services/EngineCallToSection/EngineCallToSection";
 import FAQ from "../../components/components_services/faq/FAQ";
+import Areas_links from "../../components/components_services/areas_links/Areas_links";
 export default function Review() {
   return (
 
                <div className="flex flex-wrap w-full">
                         <div className="w-24/24 text-center"><Herosection /></div>
                         <div className="w-24/24 text-center"><Reviews /></div>
-                        <div className="w-24/24 text-center" id="services"><Services /></div>
+                        <div className="w-24/24 text-center"><Services /></div>
                         <div className="w-24/24 text-center"><Content1 /></div>
                         <div className="w-24/24 text-center"><Content2 /></div>
                         <div className="w-24/24 text-center"><SaleParts /></div>
@@ -29,6 +30,7 @@ export default function Review() {
                         <div className="w-24/24 text-center"><Content4 /></div>
                         <div className="w-24/24 text-center"><Content5 /></div>
                         <div className="w-24/24 text-center"><SalePartsEngineCallToSection /></div>
+                        <div className="w-24/24 text-center"><Areas_links /></div>
                         <div className="w-24/24 text-center"><FAQ /></div>
                         <div className="w-24/24 text-center"><Latest_videos /></div>
                         </div>

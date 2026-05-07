@@ -22,7 +22,7 @@ export default function Reviews() {
 
           <div
   key={review.id}
-  className="w-full sm:w-full md:w-6/12 lg:w-4/12 flex"
+  className="w-full sm:w-full md:w-6/12 lg:w-4/12 flex text-left"
 >
             <div className=" w-full md:w-[80%] bg-[#F3FFF9] border border-gray-300 rounded-xl p-4" style={{margin:"20px 20px 20px 0px"}}>
 

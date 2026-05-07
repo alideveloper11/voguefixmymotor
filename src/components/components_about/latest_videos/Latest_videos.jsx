@@ -22,13 +22,13 @@ export default function Latest_videos() {
                 allowFullScreen
               />
 </center>
-              <p className=" font-bold text-[17px]">
-                {videos.name}
-              </p>
+              <div className=" font-bold text-[17px]">
+               <center>{videos.name}</center> 
+              </div>
 
-              <p className="text-[#90A1B9] text-[12px]">
-                {videos.date}
-              </p>
+              <div className="text-[#90A1B9] text-[12px]">
+               <center> {videos.date}</center>
+              </div>
 
             </div>
 

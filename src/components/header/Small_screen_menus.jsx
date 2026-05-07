@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 
+import servicesData from "@/lib/services_data/servicesData";
 import { useState } from "react";
 import {
   
@@ -13,7 +14,7 @@ import {
   Box,
  
   Collapse,
-  useMediaQuery,
+  
 } from "@mui/material";
 
 import MenuIcon from "@mui/icons-material/Menu";
@@ -37,51 +38,7 @@ export default function Small_screen_menus(){
 
 
  
- const productsSub = [
-  "Initial Diagnostics",
-  "Vehicle Health Check",
-  "Visual Inspection",
-  "Interim Service",
-  "Major Service",
-  "Oil Change",
-  "Annual Service",
-  "Van Repairs and Services",
-  "Auto Electrical Services",
-  "Hybrid and EV Repairs and Services",
-  "Timing Belts",
-  "Cam Belts",
-  "Wet Belt",
-  "All Repairs and Services",
-  "Fuel System Cleaning",
-  "AdBlue Services",
-  "Welding Services",
-  "NOx Sensor Repair",
-  "Locking Wheel Nut Removal / Replacement",
-  "24/7 Vehicle Recovery",
-  "Valeting Services",
-  "Diagnostics",
-  "Water Pump Replacement",
-  "General Service",
-  "Alternator Replacement",
-  "Engine Rebuild",
-  "Battery Replacement",
-  "Clutch Replacement",
-  "Engine Flush",
-  "Brake Services",
-  "Turbo Replacement",
-  "Performance Upgrades",
-  "DPF Cleaning Service",
-  "MOT Testing",
-  "Exhaust Repair",
-  "Tyre Replacement",
-  "Suspension Service",
-  "Wheel Alignment",
-  "AC Gas Refill Service",
-  "Timing Chain Replacement",
-  "Oil Change Service",
-  "Head Gasket Repair",
-  "Transmission Service"
-];
+
 
 
   const handleCloseMenus = () => {
@@ -145,13 +102,15 @@ export default function Small_screen_menus(){
 
       <Collapse in={openProducts} timeout="auto" unmountOnExit>
         <List sx={{ pl: 3 }} style={{height:"300px", overflow:"scroll", overflowX: "hidden",}} >
-          {productsSub.map((item) => (
+          {servicesData.map((services) => (
             <ListItem
-              key={item}
+               key={services.id}
               onClick={handleCloseMenus}
               className="hover:bg-gray-800"
-            >
-              <ListItemText primary={item} />
+              style={{borderBottom:"1px solid #ebe8e8"}}
+            ><Link href={`/services/${services.slug}`} className="w-full">
+              <ListItemText primary={services.name} />
+              </Link>
             </ListItem>
           ))}
         </List>
@@ -188,11 +147,10 @@ export default function Small_screen_menus(){
 
       {/* Button */}
       <ListItem onClick={handleCloseMenus}>
-         
         <div style={{ width: "100%", textAlign: "center" }}>
-          <Link href="/qoute"> 
+          <Link href="/contact"> 
           <button id="get_Qoute" className="cursor-pointer" style={{ width: "90%" }}>
-            Get Quote
+            Contact
           </button>
           </Link>
         </div>

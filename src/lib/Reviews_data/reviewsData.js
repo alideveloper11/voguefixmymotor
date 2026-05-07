@@ -1,88 +1,92 @@
 const reviewsData = [
-  {
+       {
     id: 1,
-    name: "John Cena",
-    time: "Peak 2005–2020",
-    text: "John Cena is one of the most dominant WWE superstars of the modern era. Known for his unmatched work ethic, charisma, and 'Never Give Up' attitude, he carried WWE through multiple generations. His championship reigns and main event performances made him a global icon in wrestling history.",
+    name: "mat revitt",
+    time: "5 months ago",
+    text: "Car went into Vogue Technics with some serious Turbo and engine issues - was kept up to date with photos on what's app and regular messages. Now running rebuilt engine in. No fuss or bother and great service",
     rating: 5
   },
   {
     id: 2,
-    name: "The Rock",
-    time: "Peak 2000–2013 (part-time return)",
-    text: "The Rock is a legendary WWE superstar famous for his electrifying charisma and mic skills. He became one of the biggest stars in wrestling history before transitioning to Hollywood. His matches and promos still remain iconic and highly influential in sports entertainment.",
+    name: "Darral Stones",
+    time: "7 months ago",
+    text: "Vogue Technics, Great service, great team, They kept me up to date with the rebuild of my engine. Very happy with their work. 10/10 . I would definitely recommend them.",
     rating: 5
   },
   {
     id: 3,
-    name: "Undertaker",
-    time: "1990–2020",
-    text: "The Undertaker is considered one of the greatest and most respected WWE legends of all time. His WrestleMania streak, dark persona, and unmatched storytelling inside the ring made him a symbol of longevity and excellence in professional wrestling history.",
+    name: "A:M MUSIC",
+    time: "3 months ago",
+    text: "Had my twin turbo engine job done at vogue technics 4 months ago. Jack was very helpful in arranging collection and sending me pictures. Had the service done today and car is running great.",
     rating: 5
   },
-  {
-    id: 4,
-    name: "Triple H",
-    time: "2000–2019",
-    text: "Triple H dominated WWE both as a performer and later as an executive. Known for his in-ring intelligence, powerful pedigree finisher, and leadership in major storylines, he helped shape the modern era of WWE through championship reigns and authority roles.",
-    rating: 5
-  },
-  {
-    id: 5,
-    name: "Randy Orton",
-    time: "2002–2020",
-    text: "Randy Orton, known as 'The Viper', is one of the most dangerous and skilled WWE superstars. With his RKO finisher and unpredictable style, he has defeated countless legends and continues to be a major force in WWE across multiple eras.",
-    rating: 4
-  },
-  {
-    id: 6,
-    name: "Batista",
-    time: "2002–2010, 2014–2019 return",
-    text: "Batista is a powerhouse WWE superstar known for his strength, intensity, and dominance in the ring. A multiple-time world champion, he played a key role in major WWE storylines and later achieved success in Hollywood films like Guardians of the Galaxy.",
-    rating: 4
-  },
-  {
-    id: 7,
-    name: "Edge",
-    time: "2000–2011, return 2020",
-    text: "Edge, known as 'The Rated-R Superstar', is one of WWE’s most charismatic and resilient performers. After a career-threatening injury, his emotional return in 2020 inspired fans worldwide. His career includes multiple world title wins and unforgettable rivalries.",
-    rating: 5
-  },
-  {
-    id: 8,
-    name: "Shawn Michaels",
-    time: "2000–2010 (final run)",
-    text: "Shawn Michaels, also known as 'The Heartbreak Kid', is widely regarded as one of the greatest in-ring performers ever. His storytelling ability, athleticism, and classic matches defined an era of WWE excellence before his retirement in 2010.",
-    rating: 5
-  },
-  {
-    id: 9,
-    name: "CM Punk",
-    time: "2006–2014",
-    text: "CM Punk became one of WWE’s most controversial and beloved stars. Known for his 'Pipe Bomb' promo and straight-edge persona, he changed the way promos were delivered and became a voice for frustrated fans during his championship reign.",
-    rating: 4
-  },
-  {
-    id: 10,
-    name: "Brock Lesnar",
-    time: "2002–2020",
-    text: "Brock Lesnar is a rare athlete known for his unmatched strength, MMA background, and dominance in WWE. His ability to destroy opponents quickly and his multiple championship reigns made him one of the most feared superstars in WWE history.",
-    rating: 5
-  },
-  {
-    id: 11,
-    name: "Rey Mysterio",
-    time: "2002–2020",
-    text: "Rey Mysterio is one of the greatest high-flyers in WWE history. Despite his smaller size, he achieved massive success with his speed, agility, and heart. His underdog victories and inspiring career made him a fan favorite worldwide.",
-    rating: 5
-  },
-  {
-    id: 12,
-    name: "Kane",
-    time: "2000–2018",
-    text: "Kane, known as 'The Big Red Machine', is one of WWE’s most intimidating characters. His dark persona, strength, and long rivalry with The Undertaker made him a legendary figure in WWE storytelling and hardcore matches across decades.",
-    rating: 4
-  }
+   {
+      id: 4,
+      name: "Muhammad Zubair",
+      time: "a year ago",
+      text: "If I could give more than 5 stars, I would! Classic ✨️ went above and beyond to get my car back on the road. Great communication, fair prices, and trustworthy service. Thanks to VIC Highly professional and efficient. THANKS AGAIN!",
+      rating: 5
+    },
+    {
+      id: 5,
+      name: "David Vasconez",
+      time: "3 months ago",
+      text: "Thanks to Jack and the team for fixing my range rover engine. they kept me updated throughout the process on whatsapp and ive just had a lovely drive home!!",
+      rating: 5
+    },
+    {
+      id: 6,
+      name: "Mich",
+      time: "3 months ago",
+      text: "Thank to Jack for sorting out my Land Rover Discovery. Very clean office with comfy sofas. He made me a lovely coffee while they done my AC gas refill after engine rebuild.",
+      rating: 5
+    }, {
+        id: 7,
+        name: "chaichana phromduangdi",
+        time: "a year ago",
+        text: "Truly excellent work from Vogue on my L494 Range Rover Sport. Had an issue with the cooling system, timing belt and a turbocharger failing. In just a couple of days the car was up and running again. Nice guys and great service.",
+        rating: 5
+      },
+      {
+        id: 8,
+        name: "Kamal Goraya",
+        time: "11 months ago",
+        text: "Many thanks to vogue technics for Fantastic service my car fixed quickly and efficiently and the staff were incredibly friendly highly recommend thanks to vic and his Team vogue best garage",
+        rating: 5
+      },
+      {
+        id: 9,
+        name: "Bechir",
+        time: "3 months ago",
+        text: "These guys are fantastic, booked me in for an emergency diagnostic on the same day. Jack was Very clear and honest with his advice based on my specific engine. Taking my other car to be checked next week too!",
+        rating: 5
+      },
+       {
+          id: 10,
+          name: "Balbir Singh",
+          time: "2 months ago",
+          text: "Tremendous experience with vogue technics engine work done on my bmw  .  Very professional staff and cooperative appreciate efforts of Jack, vic, az and John they know how to do a quality engine work - even they wash my car  highly recommended",
+          rating: 5
+        },
+        {
+          id: 11,
+          name: "Leanne Badmus",
+          time: "a year ago",
+          text: "John & Vic from Vogue Technics have been excellent. My MOT & Service was completed quickly and the car has been cleaned very well. Ready for collection. I would highly recommend and will share with friends and family.",
+          rating: 5
+        },
+        {
+          id: 12,
+          name: "Emily Evans",
+          time: "5 months ago",
+          text: "What an amazing business, recently had a vehicle repaired with them and I couldn’t have asked for more. Jack was informative and so helpful with any questions I had, the work was completed to the highest of standards at a very competitive rate. They managed to help me out in a really difficult situation! So Thankful for you guys!",
+          rating: 5
+        },
+       
+     
+   
+ 
 ];
+
 
 export default reviewsData;

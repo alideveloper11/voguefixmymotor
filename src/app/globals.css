@@ -57,3 +57,22 @@ body {
   background-position: center;
   background-size: cover;
 }
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  
+}
+/* @keyframes scroll {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 5s linear infinite;
+  width: max-content;
+  display: flex;
+} */

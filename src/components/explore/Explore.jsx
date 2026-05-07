@@ -3,11 +3,12 @@ export default function Explore()
 return(
   <div className="flex w-full flex-wrap  bg-[#F3F4F6]">
         <div className="flex w-full flex-wrap mt-20 ml-20 mr-20 mb-5">
-             <div className="flex w-full md:w-5/12 flex-wrap justify-center md:justify-start">
+             <div className=" text-left w-full md:w-6/12">
+
                 <p className="font-bold text-[28px]">
                     Explore Our Repair
                 </p>
-                <p className="text-left">
+                <p className="text-left pt-5 pb-5">
                    Results speak louder than words. So take a closer look at the quality behind
                     every repair we complete. From engine diagnostics to full restorations,
                      our gallery showcases real vehicles worked on by our experienced technicians.
@@ -19,21 +20,17 @@ return(
                     </button>
                     </div>
             </div>  
-            <div className="flex w-full md:w-7/12 flex-wrap justify-center ml:justify-end ">
+            <div className="flex w-full md:w-6/12 flex-wrap ">
                 <div className="mb-10" style={{width:"100%"}}>
-                    <img src="/explore/1.jpg" alt="" className="w-full object-cover rounded  h-[150px] lg:h-[250px] md:h-[200px]"  style={{borderRadius:"10px", width:"100%"}} />
+                    <img src="/explore/1.jpg" alt="" className="w-full object-cover rounded  h-[350px] lg:h-[450px] md:h-[400px]"  style={{borderRadius:"10px", width:"100%"}} />
                 </div>
             </div>  
 
 
-            <div className="flex w-full w-full-wrap justify-center mb-5">
-                 <div style={{width:"100%"}}>
-                    <img src="/explore/2.jpg" className="w-full object-cover rounded  h-[200px] md:h-[300px] lg:h-[400px]" alt=""  style={{borderRadius:"10px", width:"100%"}} />
-                </div>
-            </div> 
-            <div className=" w-full md:w-6/12 flex-wrap grid p-5">
+      
+            <div className=" w-full md:w-6/12 flex-wrap grid">
                  <div className="mb-10" style={{width:"100%"}}>
-                    <img src="/explore/3.jpg" className="w-full object-cover rounded h-[150px] md:h-[200px] lg:h-[250px]" alt="" style={{borderRadius:"10px" , width:"100%"}} />
+                    <img src="/explore/3.jpg" className="w-full object-cover rounded  h-[350px] lg:h-[450px] md:h-[400px]" alt="" style={{borderRadius:"10px" , width:"100%"}} />
                 </div>
             </div> 
             <div className="flex w-full md:w-6/12 flex-wrap">

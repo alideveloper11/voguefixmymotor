@@ -9,24 +9,24 @@ const servicesData = [
     Reviews:[
        {
     id: 1,
-    name: "Salman Khan",
-    time: "2 weeks ago",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-    rating: 4
+    name: "Colin Sanders",
+    time: "a year ago",
+    text: "Like most people, I spent time researching engine rebuild options—comparing prices, reviews, and what different garages included (or excluded). Vogue Technics stood out immediately: they were knowledgeable, transparent, and refreshingly low-pressure. Instead of me having to ask endless questions, they proactively explained everything, which made the decision much easier. During the rebuild of my Range Rover’s engine, they sent daily updates with photos and videos, clearly showing the progress and next steps. Price-wise, they were mid-range—far more realistic than the suspiciously cheap £3k quotes (which likely hide costly extras) or the overpriced £12k estimates from garages that rarely handle rebuilds. Vogue’s quote struck the perfect balance, covering labour, all parts, crankshaft, oils, and more—with only the turbos as potential extras. In the end, they saved me a fortune, and my car is now back on the road running smoothly. Their customer service was flawless—quick, reliable, and professional. I can’t recommend Vogue highly enough.",
+    rating: 5
   },
   {
     id: 2,
-    name: "Shahrukh khan",
-    time: "1 week ago",
-    text: "quis nostrud exercitation ullamco  Very good service, highly recomme nded!",
-    rating: 4
+    name: "sheikh jawad",
+    time: "5 months ago",
+    text: "Vogue Technics provided exceptional service and professionalism throughout. I highly recommend them. 👌",
+    rating: 5
   },
   {
     id: 3,
-    name: "Amirkhan",
-    time: "3 days ago",
-    text: "Let dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    rating: 4
+    name: "martyn clark",
+    time: "a year ago",
+    text: "Vogue Technics were outstanding. My 18 plate discovery sport engine blown, due to oil pump failure and required a replacement. Fortunately I had taken the platinum RAC warranty when I purchased the car. Mel was seriously fantastic and fully dealt with the warranty claim on my behalf (warranty companies do try not to pay out), and made the process stress free for myself - a very impressive service. The team stayed in contact with me almost daily, providing updates, videos & photos of the whole process. On collection, the car was spotless. We've had the car back for almost 4 weeks now and it is driving like new. Can't recommend Vogue Technics enough! Easy 5 STAR!!",
+    rating: 5
   },
  
 ],
@@ -355,24 +355,24 @@ discription: {
       Reviews:[
        {
     id: 1,
-    name: "Salman Khan",
-    time: "2 weeks ago",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-    rating: 4
+    name: "Emily Evans",
+    time: "5 months ago",
+    text: "What an amazing business, recently had a vehicle repaired with them and I couldn’t have asked for more. Jack was informative and so helpful with any questions I had, the work was completed to the highest of standards at a very competitive rate. They managed to help me out in a really difficult situation! So Thankful for you guys!",
+    rating: 5
   },
   {
     id: 2,
-    name: "Shahrukh khan",
-    time: "1 week ago",
-    text: "quis nostrud exercitation ullamco  Very good service, highly recomme nded!",
+    name: "Benzo NornIron",
+    time: "10 months ago",
+    text: "I cannot recommend Vogue enough. Their communication and customer service has been stellar throughout. I had the repairs done through RAC warranty. They were extremely helpful, managing all of the correspondence and process for me. Highly recommend and will use again. Thanks",
     rating: 5
   },
   {
     id: 3,
-    name: "Amirkhan",
-    time: "3 days ago",
-    text: "Let dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    rating: 4
+    name: "Simon Wallace",
+    time: "5 months ago",
+    text: "Customer service was first class. Very impressed with Adam. In terms of the work carried (replacement clutch) they done a good job and completed when they said they would. Whats App feedback as the job progresses was very good. Highly recommend.",
+    rating: 5
   },
  
 ],
@@ -699,24 +699,24 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       Reviews:[
        {
     id: 1,
-    name: "Salman Khan",
-    time: "2 weeks ago",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-    rating: 4
+    name: "mat revitt",
+    time: "5 months ago",
+    text: "Car went into Vogue Technics with some serious Turbo and engine issues - was kept up to date with photos on what's app and regular messages. Now running rebuilt engine in. No fuss or bother and great service",
+    rating: 5
   },
   {
     id: 2,
-    name: "Shahrukh khan",
-    time: "1 week ago",
-    text: "quis nostrud exercitation ullamco  Very good service, highly recomme nded!",
+    name: "Darral Stones",
+    time: "7 months ago",
+    text: "Vogue Technics, Great service, great team, They kept me up to date with the rebuild of my engine. Very happy with their work. 10/10 . I would definitely recommend them.",
     rating: 5
   },
   {
     id: 3,
-    name: "Amirkhan",
-    time: "3 days ago",
-    text: "Let dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    rating: 4
+    name: "Prabhdit Bhaker",
+    time: "a year ago",
+    text: "Range Rover broke down in Europe while on holiday with wife and kids. Not sure why I trusted this car to get us there and back but hey ho. Jack called me and listened to me rant for an hour about how BAD these cars are, although Bad isn't the word I used. He arranged recovery for the car to be picked up from Spain the very next day! Timing chain snapped so Jack and his team were able to rebuild the existing engine for a good price. My car was with them for 3 weeks and I've had it back now for 4 months and it's still driving better than ever. Just wanted to say a massive THANK YOU to everyone at Vogue.",
+    rating: 5
   },
  
 ],
@@ -1045,24 +1045,24 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       Reviews:[
        {
     id: 1,
-    name: "Salman Khan",
-    time: "2 weeks ago",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-    rating: 4
+    name: "Muhammad Zubair",
+    time: "a year ago",
+    text: "If I could give more than 5 stars, I would! Classic ✨️ went above and beyond to get my car back on the road. Great communication, fair prices, and trustworthy service. Thanks to VIC Highly professional and efficient. THANKS AGAIN!",
+    rating: 5
   },
   {
     id: 2,
-    name: "Shahrukh khan",
-    time: "1 week ago",
-    text: "quis nostrud exercitation ullamco  Very good service, highly recomme nded!",
+    name: "David Vasconez",
+    time: "3 months ago",
+    text: "Thanks to Jack and the team for fixing my range rover engine. they kept me updated throughout the process on whatsapp and ive just had a lovely drive home!!",
     rating: 5
   },
   {
     id: 3,
-    name: "Amirkhan",
-    time: "3 days ago",
-    text: "Let dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    rating: 4
+    name: "brandon kiernan",
+    time: "a year ago",
+    text: "I don’t often leave reviews, but Vogue Technics truly stands out as a professional and well-established garage, specializing in Land Rover engine rebuilds. After seeing countless ads on eBay and feeling hesitant about many engine rebuild companies, I came across them and decided to take a chance based on their excellent reviews. They delivered exactly as promised—on time and at the agreed price. Throughout the process, Vic and the team kept me updated with regular progress reports and photos, which was incredibly reassuring. Vic himself is genuinely helpful, always available to answer any questions, and his transparency gave me complete confidence in their work. Now, my car is back on the road running better than ever. I honestly can’t recommend Vogue Technics enough—exceptional service!",
+    rating: 5
   },
  
 ],
@@ -1378,24 +1378,24 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       Reviews:[
        {
     id: 1,
-    name: "Salman Khan",
-    time: "2 weeks ago",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-    rating: 4
+    name: "chaichana phromduangdi",
+    time: "a year ago",
+    text: "Truly excellent work from Vogue on my L494 Range Rover Sport. Had an issue with the cooling system, timing belt and a turbocharger failing. In just a couple of days the car was up and running again. Nice guys and great service.",
+    rating: 5
   },
   {
     id: 2,
-    name: "Shahrukh khan",
-    time: "1 week ago",
-    text: "quis nostrud exercitation ullamco  Very good service, highly recomme nded!",
+    name: "Kamal Goraya",
+    time: "11 months ago",
+    text: "Many thanks to vogue technics for Fantastic service my car fixed quickly and efficiently and the staff were incredibly friendly highly recommend thanks to vic and his Team vogue best garage",
     rating: 5
   },
   {
     id: 3,
-    name: "Amirkhan",
-    time: "3 days ago",
-    text: "Let dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    rating: 4
+    name: "Alan K",
+    time: "10 months ago",
+    text: "Came in with a diagnostics from another garage with a blown head gasket and car overheating. the Vogue team did there own diagnostics and opened up the engine ran several tests turns out it was something minor saving me thousands of pounds on a head gasket replacement plus time. Very honest and reliable staff members from Jack keeping me updated day in day out on everything they did to the car, explaining everything that was done step by step plus videos and pictures to Ali working on fixing the issues On short notice very reliable garage but for the most important part very honest people would definitely recommend if you’re looking for a reliable garage.",
+    rating: 5
   },
  
 ],
@@ -1729,24 +1729,24 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       Reviews:[
        {
     id: 1,
-    name: "Salman Khan",
-    time: "2 weeks ago",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-    rating: 4
+    name: "James Curran (Addicks10)",
+    time: "9 months ago",
+    text: "Top guys. From their reviews I contacted Vogue to get a full diagnostic done on my 2012 Citroen C4 Picasso. They gave me a very good price of £75.00 inc VAT. All the fault codes were combustion and fuel related. A thorough inspection under the bonnet found a poor pipe connection due to a broken clip. They re secured the broken connection with a cable tie and taped over it. All engine fault codes gone and engine fault light has stayed off. I have driven 20 miles and the fault light has stayed off and when I switch off and restart the car it goes out as it should and stays off. I was only charged the £75.00 quoted price. On the merit of this visit, I would recommend these guys.",
+    rating: 5
   },
   {
     id: 2,
-    name: "Shahrukh khan",
-    time: "1 week ago",
-    text: "quis nostrud exercitation ullamco  Very good service, highly recomme nded!",
+    name: "Leanne Badmus",
+    time: "a year ago",
+    text: "John & Vic from Vogue Technics have been excellent. My MOT & Service was completed quickly and the car has been cleaned very well. Ready for collection. I would highly recommend and will share with friends and family.",
     rating: 5
   },
   {
     id: 3,
-    name: "Amirkhan",
-    time: "3 days ago",
-    text: "Let dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    rating: 4
+    name: "Lee",
+    time: "a year ago",
+    text: "I recommend using this companies website, how the website is set up it made it easy to access the information that I myself was looking for on my Range Rover, you can look at all the parts you want or may need to replace and it goes into great detail about the part and the services that they can provide you, overall it’s simple to use and everything is clear and straightforward. After finding my car engine I called them and they swapped it for me no hassle in only a week, I waited a month to write the review and I’m very happy so far. Amazing work thank you Vogue Technics",
+    rating: 5
   },
  
 ],
@@ -2103,24 +2103,24 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     Reviews:[
        {
     id: 1,
-    name: "Salman Khan",
-    time: "2 weeks ago",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-    rating: 4
+    name: "Jay Drummond",
+    time: "6 months ago",
+    text: "Excellent service from start to finish was kept informed through out the fix on my vehicle would 100% recommend this garage for any work to be carried out on your vehicle and at very affordable prices thank you Jack",
+    rating: 5
   },
   {
     id: 2,
-    name: "Shahrukh khan",
-    time: "1 week ago",
-    text: "quis nostrud exercitation ullamco  Very good service, highly recomme nded!",
-    rating: 4
+    name: "Daniel Herrett",
+    time: "8 months ago",
+    text: "Found Vogue Technics on line can not fault them for anything. Communication though out ,Very Very accommodating, super quick. Definitely will use again. Thank you very much.",
+    rating: 5
   },
   {
     id: 3,
-    name: "Amirkhan",
-    time: "3 days ago",
-    text: "Let dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    rating: 4
+    name: "Toya Hunter",
+    time: "8 months ago",
+    text: "Great service. Jack and his team were so helpful in sorting all the issues with my Range Rover. Highly recommend",
+    rating: 5
   },
  
 ],
@@ -2449,24 +2449,24 @@ discription: {
       Reviews:[
        {
     id: 1,
-    name: "Salman Khan",
-    time: "2 weeks ago",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-    rating: 4
+    name: "Leslie Burgess",
+    time: "7 months ago",
+    text: "Knowledgeable staff excellent job of replacing damaged rear axle on a Mazda 2. Fair price of labour to replace and check. Thank you.",
+    rating: 5
   },
   {
     id: 2,
-    name: "Shahrukh khan",
-    time: "1 week ago",
-    text: "quis nostrud exercitation ullamco  Very good service, highly recomme nded!",
+    name: "Delfina Events",
+    time: "10 months ago",
+    text: "I called Vogue Technics today after my car broke down over the weekend and struggled to find garages dealing with the issue. Ardian picked up and was extremely polite and nice , took my details and kept me updated to see if they could fit me in. 2 hours later he texted me back saying they could see me now. When I arrived the whole team was very friendly . They did a diagnostic check and pointed out the issue . They advised me on the best course of action. I would highly recommend them . They are genuine and I will deal with them in a heartbeat in the future .",
     rating: 5
   },
   {
     id: 3,
-    name: "Amirkhan",
-    time: "3 days ago",
-    text: "Let dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    rating: 4
+    name: "Mashud Rana",
+    time: "11 months ago",
+    text: "I have taken my car to carry out yearly servicing to this garage and from booking to completing the entire service everything gone through very smoothly. I got their detail from RAC as I am covered with them and they gave me the lowest quote for my car's annual servicing. It was an excellent service from the member of staff and I had to wait in their reception. They said it will take 2 hours but they have completed the service within an hour 40 mins. They have let me know everything they found with my car and some advisories. The service man Ayaz was very friendly and knowledgeable and professional. It was first time for me but I have found them very reliable, professional and cost effective. Highly recommended.",
+    rating: 5
   },
  
 ],
@@ -2793,24 +2793,24 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       Reviews:[
        {
     id: 1,
-    name: "Salman Khan",
-    time: "2 weeks ago",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-    rating: 4
+    name: "dionne johnson",
+    time: "a year ago",
+    text: "Amazing garage, they were very professional in all of our dealings. We highly recommend their work. They kept us up to date with the work being carried out on my car through WhatsApp and phone calls. Will definitely use their services from now on in terms of servicing and any other works in the future. Thank you very much, we a really pleased.",
+    rating: 5
   },
   {
     id: 2,
-    name: "Shahrukh khan",
-    time: "1 week ago",
-    text: "quis nostrud exercitation ullamco  Very good service, highly recomme nded!",
+    name: "Alex Gallacher",
+    time: "a year ago",
+    text: "Gotta say, I’ve been impressed with Vogue Technics. They’ve done everything they said they would for the price that was agreed, which was very good tbh as it included all parts, crank, block, dpf clean, labour, service oils, etc. I will even say the engine started leaking oil about 1k miles into driving it but they recovered it and fixed the issue under warranty with no complaints at all. I have it back now and it’s running well. Honestly, I wasn’t sure I’d made the right choice at the beginning – it’s always stressful when things go wrong with such high potential costs but Vogue’s attitude to resolving the issues and explaining everything gave me confidence.",
     rating: 5
   },
   {
     id: 3,
-    name: "Amirkhan",
-    time: "3 days ago",
-    text: "Let dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    rating: 4
+    name: "famel quaye",
+    time: "10 months ago",
+    text: "Excellent service from Evoque Technics. Jack was very professional, friendly, and knowledgeable when sorting out my screen wash tank issue. He explained everything clearly and ensured the job was done quickly and efficiently. Great customer care and attention to detail with video evidence. I highly recommend Evoque Technics and Jack’s support.",
+    rating: 5
   },
  
 ],
@@ -3139,24 +3139,24 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       Reviews:[
        {
     id: 1,
-    name: "Salman Khan",
-    time: "2 weeks ago",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-    rating: 4
+    name: "Monicah Madhovi",
+    time: "8 months ago",
+    text: "Took my car in for an engine oil leak, and the team quickly diagnosed and fixed a faulty. No more leaks, and the engine runs smoothly now. Fast, honest service at a fair price—highly recommend!",
+    rating: 5
   },
   {
     id: 2,
-    name: "Shahrukh khan",
-    time: "1 week ago",
-    text: "quis nostrud exercitation ullamco  Very good service, highly recomme nded!",
+    name: "Mohamed Mostafa",
+    time: "a year ago",
+    text: "I recently had a recon engine fitted to my Land Rover at Vogue Technics, and I couldn't be happier with the results. It's been two months now, and my car is running perfectly. What truly impressed me was their commitment to customer satisfaction. They created a WhatsApp group with the manager, technician, and administrator, providing real-time updates, status, pictures, and videos about the progress of my car and the expected timeline. The service I received was exceptional - professional, efficient, and the customer service was spot on. I highly recommend Vogue Technics for any engine or car issues. They did a fantastic job, and I'm very satisfied.",
     rating: 5
   },
   {
     id: 3,
-    name: "Amirkhan",
-    time: "3 days ago",
-    text: "Let dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    rating: 4
+    name: "Mohammed Ali",
+    time: "a year ago",
+    text: "Had a coolant leak on my car. They diagnosed the issue straight away and also showed me where the coolant was leaking from. I needed the vehicle to be repaired as quickly as possible and they managed to squeeze me in and complete the job the very next day. Only thing I was annoyed was they had forgotten the price I was initially told and upped it by £50. But I was not having any of it as I paid an initial deposit and completed the rest after work completed. Nonetheless they honoured the price and cars Back to normal. They had the part in stock which is always a strong point. The staff are very knowledgeable and the prices are competitive. Will consider booking them for the next service.",
+    rating: 5
   },
  
 ],
@@ -3472,24 +3472,24 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       Reviews:[
        {
     id: 1,
-    name: "Salman Khan",
-    time: "2 weeks ago",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-    rating: 4
+    name: "Ali Haider",
+    time: "a year ago",
+    text: "My Range Rover broke down in Scotland. I called Vogue Technics and Jack arranged collection to get my engine rebuilt. He updated me throughout the process. Vic was very knowledgeable in the workshop and sent me photos of all damages. Our car is back on the road and my wife is happy to be able to go shopping again!",
+    rating: 5
   },
   {
     id: 2,
-    name: "Shahrukh khan",
-    time: "1 week ago",
-    text: "quis nostrud exercitation ullamco  Very good service, highly recomme nded!",
+    name: "Rebecca Prior",
+    time: "3 years ago",
+    text: "I was left in a bit of a pickle after being misadvised by my insurance that I didn’t have roadside cover, called around a few places and was given the number for Vogue Technics, they were fast and reliable, I wasn’t stranded for long and my vehicle was towed to my local garage to be looked at. Both office staff that I spoke with on the phone e was super helpful and the tow truck driver was helpful and pleasant too. Have saved the number to my phone for future use if needed and will recommend to anyone who needs assistance.",
     rating: 5
   },
   {
     id: 3,
-    name: "Amirkhan",
-    time: "3 days ago",
-    text: "Let dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    rating: 4
+    name: "Alan K",
+    time: "10 months ago",
+    text: "Came in with a diagnostics from another garage with a blown head gasket and car overheating. the Vogue team did there own diagnostics and opened up the engine ran several tests turns out it was something minor saving me thousands of pounds on a head gasket replacement plus time. Very honest and reliable staff members from Jack keeping me updated day in day out on everything they did to the car, explaining everything that was done step by step plus videos and pictures to Ali working on fixing the issues On short notice very reliable garage but for the most important part very honest people would definitely recommend if you’re looking for a reliable garage.",
+    rating: 5
   },
  
 ],
@@ -3823,24 +3823,24 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       Reviews:[
        {
     id: 1,
-    name: "Salman Khan",
-    time: "2 weeks ago",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-    rating: 4
+    name: "anya dunweber",
+    time: "a year ago",
+    text: "Amazing service!! I’m so happy that I found this company!! Excellent work to my car!!..couldn’t ask for more..Jack is the most helpful and professional person very accommodating and knowledgeable in his field!!! He’s a great asset to the company..also he’s team of technicians! Big thank you!!!",
+    rating: 5
   },
   {
     id: 2,
-    name: "Shahrukh khan",
-    time: "1 week ago",
-    text: "quis nostrud exercitation ullamco  Very good service, highly recomme nded!",
+    name: "Ashton Brookes",
+    time: "3 years ago",
+    text: "Great service and team at vouge technics! I was having engine issues and took it down to their garage. Best decision I've made in a long time! Came out with a regenerated engine and a few extras. My evoque now runs like new, and I couldn't be happier. Highly recommend these guys!",
     rating: 5
   },
   {
     id: 3,
-    name: "Amirkhan",
-    time: "3 days ago",
-    text: "Let dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    rating: 4
+    name: "Trevor Paul",
+    time: "a year ago",
+    text: "Had my range rover evoque timing chain changed really quick turn around and a really good service from start to finish, would recommend to use them thank you!!",
+    rating: 5
   },
  
 ],
@@ -4324,24 +4324,24 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       Reviews:[
        {
     id: 1,
-    name: "Salman Khan",
-    time: "2 weeks ago",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-    rating: 4
+    name: "Andrew Moreno",
+    time: "2 years ago",
+    text: "I couldn't recommend Vogue Technics enough. They did a full service on my car and Jack went above and beyond with all that I need pre and post service. Well done guys, keep up the good work.",
+    rating: 5
   },
   {
     id: 2,
-    name: "Shahrukh khan",
-    time: "1 week ago",
-    text: "quis nostrud exercitation ullamco  Very good service, highly recomme nded!",
+    name: "Umarul Khaiz",
+    time: "4 months ago",
+    text: "Very happy with the customer service. Done the job before the time they said",
     rating: 5
   },
   {
     id: 3,
-    name: "Amirkhan",
-    time: "3 days ago",
-    text: "Let dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    rating: 4
+    name: "Reychelle Baker",
+    time: "11 months ago",
+    text: "They were very helpful when I brought my car in for glow plug replacement and even showed me a potential further problem with the drive belt.",
+    rating: 5
   },
  
 ],
@@ -4698,24 +4698,24 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     Reviews:[
        {
     id: 1,
-    name: "Salman Khan",
-    time: "2 weeks ago",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-    rating: 4
+    name: "JERRY SAM JAMES",
+    time: "11 months ago",
+    text: "I liked the way how they checked my car infront to me, that made me confident that they were acting on the right issue of my car. They were helpful and friendly.",
+    rating: 5
   },
   {
     id: 2,
-    name: "Shahrukh khan",
-    time: "1 week ago",
-    text: "quis nostrud exercitation ullamco  Very good service, highly recomme nded!",
-    rating: 4
+    name: "Zubayr Muhammed",
+    time: "3 months ago",
+    text: "Thank you jack, vic and jonny for sorting me out with Range Rover Svr",
+    rating: 5
   },
   {
     id: 3,
-    name: "Amirkhan",
-    time: "3 days ago",
-    text: "Let dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    rating: 4
+    name: "Lou Jones",
+    time: "2 years ago",
+    text: "Thanks for Jack and the team at Vogue Technics.....our Audi was completely blown to bits....But VT picked our car up and replaced the engine in no time ....What a brilliant job they did ....returned for the service and all is good thanks VT",
+    rating: 5
   },
  
 ],
@@ -5044,24 +5044,24 @@ discription: {
       Reviews:[
        {
     id: 1,
-    name: "Salman Khan",
-    time: "2 weeks ago",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-    rating: 4
+    name: "HASAN TOPRAK",
+    time: "2 years ago",
+    text: "I have done the job of my Car With Vouge technics . The Service TGRT güve ıs very good . I got my car back on time they promise like they putt life in my dead Car. My car is back on the road with very good sound.",
+    rating: 5
   },
   {
     id: 2,
-    name: "Shahrukh khan",
-    time: "1 week ago",
-    text: "quis nostrud exercitation ullamco  Very good service, highly recomme nded!",
+    name: "Tobi A-Faboro",
+    time: "10 months ago",
+    text: "Very effective guys; Vic and Ayz did a good job for me. Will surely recommend.Tobi",
     rating: 5
   },
   {
     id: 3,
-    name: "Amirkhan",
-    time: "3 days ago",
-    text: "Let dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    rating: 4
+    name: "joe witcomb",
+    time: "2 years ago",
+    text: "Great service from start to finish, car collected within 72 hours of first call, updated throughout repair and dealt directly with warranty company. Would recommend highly.",
+    rating: 5
   },
  
 ],
@@ -5388,24 +5388,24 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       Reviews:[
        {
     id: 1,
-    name: "Salman Khan",
-    time: "2 weeks ago",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-    rating: 4
+    name: "Jonas Sabaitis",
+    time: "a year ago",
+    text: "Best 👌 garage folks. 💯 recommend. Fix my jaguar fully repair my engine clean dpf car drive better then ever I have driven 30000 miles thanks to vic and team vogue",
+    rating: 5
   },
   {
     id: 2,
-    name: "Shahrukh khan",
-    time: "1 week ago",
-    text: "quis nostrud exercitation ullamco  Very good service, highly recomme nded!",
+    name: "Davinder Singh",
+    time: "a year ago",
+    text: "wow cant believe vogue technics fix my vw golf in 5 mints i took my car to diffent garages they cant fix found vogue technics great job done thanks. guys many thanks to vic",
     rating: 5
   },
   {
     id: 3,
-    name: "Amirkhan",
-    time: "3 days ago",
-    text: "Let dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    rating: 4
+    name: "Eddies Engines",
+    time: "3 years ago",
+    text: "Had my Range Rover sport at another garage for 2 weeks and they couldn’t figure out why it wouldn’t start, gave Vogue a call and they had my car back up and running within a week. Lovely staff and amazing service",
+    rating: 5
   },
  
 ],
@@ -5734,24 +5734,24 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       Reviews:[
        {
     id: 1,
-    name: "Salman Khan",
-    time: "2 weeks ago",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-    rating: 4
+    name: "RAPHAEL AGYEMANG",
+    time: "5 months ago",
+    text: "Excellent job. Customer service very good",
+    rating: 5
   },
   {
     id: 2,
-    name: "Shahrukh khan",
-    time: "1 week ago",
-    text: "quis nostrud exercitation ullamco  Very good service, highly recomme nded!",
+    name: "Moda Boateng Agyenim",
+    time: "3 years ago",
+    text: "I am very pleased and happy with the work on my car. The enigine of my car was done and repaired . I recommend everyone to this garage. They are very friendly and patience.",
     rating: 5
   },
   {
     id: 3,
-    name: "Amirkhan",
-    time: "3 days ago",
-    text: "Let dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    rating: 4
+    name: "Asif Zeeshan",
+    time: "4 years ago",
+    text: "I won't take my cars anywhere else. Professional, caring and expert knowledge. Really great service. Rebuild my SVR engine. Also friendly experienced staff always helpful and caring.",
+    rating: 5
   },
  
 ],
@@ -6067,24 +6067,24 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       Reviews:[
        {
     id: 1,
-    name: "Salman Khan",
-    time: "2 weeks ago",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-    rating: 4
+    name: "Bogdan Marian",
+    time: "7 months ago",
+    text: "Good experience knowledgeable mechanics",
+    rating: 5
   },
   {
     id: 2,
-    name: "Shahrukh khan",
-    time: "1 week ago",
-    text: "quis nostrud exercitation ullamco  Very good service, highly recomme nded!",
+    name: "Souhail Bouallegui",
+    time: "a year ago",
+    text: "Vic was really helpful guy , perfect service and very genuine garage , fast and reliable . Recommend .",
     rating: 5
   },
   {
     id: 3,
-    name: "Amirkhan",
-    time: "3 days ago",
-    text: "Let dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    rating: 4
+    name: "Danielle Hearn",
+    time: "3 years ago",
+    text: "At first I was so anxious allowing someone to come take my Land Rover discovery sport away over 150 miles to be fixed but it needed an engine rebuild and problems with coolant leak these guys gave me the best price and I decided to just go ahead with it and I am so pleased I trusted them ten days later I had my car back and it’s running absolutely perfect they stayed in contact the whole time and they even gave it a valet before I picked it up even though they are so far away i would use them again thank you so much vogue technics 🙏",
+    rating: 5
   },
  
 ],
@@ -6418,24 +6418,24 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       Reviews:[
        {
     id: 1,
-    name: "Salman Khan",
-    time: "2 weeks ago",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-    rating: 4
+    name: "zainee faizzi",
+    time: "3 years ago",
+    text: "My car broken down on m11 white smoke came out there was no oil left inside the engine we called wick recovery they introduce us to vogue technics they done very good job happy to use 👏 👍 good service great people 👍",
+    rating: 5
   },
   {
     id: 2,
-    name: "Shahrukh khan",
-    time: "1 week ago",
-    text: "quis nostrud exercitation ullamco  Very good service, highly recomme nded!",
+    name: "Sharan Chana",
+    time: "11 months ago",
+    text: "Excellent service .. serviced my car at short notice professional staff .. 100% recommend",
     rating: 5
   },
   {
     id: 3,
-    name: "Amirkhan",
-    time: "3 days ago",
-    text: "Let dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    rating: 4
+    name: "Zawar Nawaz",
+    time: "3 years ago",
+    text: "Had an excellent service from the second I picked up the phone call. Car was safely recovered and repaired on time. Great communication throughout. Thank you",
+    rating: 5
   },
  
 ],
@@ -6803,24 +6803,24 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       Reviews:[
        {
     id: 1,
-    name: "Salman Khan",
-    time: "2 weeks ago",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-    rating: 4
+    name: "Kadir B",
+    time: "4 years ago",
+    text: "DEFO recommend !!! quick and professional work, my car broke down on m1 engine lights etc... I pulled up to the side and google for help around me and found vogue technics, they picked up my car the same day and delivered it back within a week",
+    rating: 5
   },
   {
     id: 2,
-    name: "Shahrukh khan",
-    time: "1 week ago",
-    text: "quis nostrud exercitation ullamco  Very good service, highly recomme nded!",
+    name: "Akhtar Mahmood",
+    time: "3 years ago",
+    text: "I used vogue very good service 👍. Many thanks to Vic pick up my range rover very quick update me through out the process fix it super quick thanks guys. Will recommend 👌",
     rating: 5
   },
   {
     id: 3,
-    name: "Amirkhan",
-    time: "3 days ago",
-    text: "Let dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    rating: 4
+    name: "rehman sandhu",
+    time: "a year ago",
+    text: "Thas team vogue my vehicle is now better in sound they added new injectors and rebuilt my engine appreciated guys you did well job",
+    rating: 5
   },
  
 ],
@@ -7177,24 +7177,24 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     Reviews:[
        {
     id: 1,
-    name: "Salman Khan",
-    time: "2 weeks ago",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-    rating: 4
+    name: "Nigel Bowden",
+    time: "a year ago",
+    text: "I would highly recommend this garage staff very friendly helpful and trustworthy they saved me a small fortune .",
+    rating: 5
   },
   {
     id: 2,
-    name: "Shahrukh khan",
-    time: "1 week ago",
-    text: "quis nostrud exercitation ullamco  Very good service, highly recomme nded!",
-    rating: 4
+    name: "rus price",
+    time: "8 months ago",
+    text: "Work of the highest quality and very good staff, nothing to much of a problem to help you out",
+    rating: 5
   },
   {
     id: 3,
-    name: "Amirkhan",
-    time: "3 days ago",
-    text: "Let dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    rating: 4
+    name: "Workshop Manager",
+    time: "8 months ago",
+    text: "Amazing staff. Very respectful and responsible i really recommend them",
+    rating: 5
   },
  
 ],
@@ -7523,24 +7523,24 @@ discription: {
       Reviews:[
        {
     id: 1,
-    name: "Salman Khan",
-    time: "2 weeks ago",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-    rating: 4
+    name: "Itzme Akib",
+    time: "3 years ago",
+    text: "Fix my Range Rover svr super quick. Many thanks to vic. Update me through out the process. Top service. Good communication. 100% recommended",
+    rating: 5
   },
   {
     id: 2,
-    name: "Shahrukh khan",
-    time: "1 week ago",
-    text: "quis nostrud exercitation ullamco  Very good service, highly recomme nded!",
+    name: "Kyle Manning",
+    time: "2 years ago",
+    text: "Highly recommend Vogue Technics. I had a full engine swap and turbo. Everything running perfectly.",
     rating: 5
   },
   {
     id: 3,
-    name: "Amirkhan",
-    time: "3 days ago",
-    text: "Let dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    rating: 4
+    name: "Muhammad Imran",
+    time: "3 years ago",
+    text: "I used vogue technics fix my engine problem. Top service. Vic is best man update me and fix my Range Rover",
+    rating: 5
   },
  
 ],
@@ -7863,28 +7863,28 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     id: 23,
     name: "Water Pump Replacement",
     text: "Fine tuning service for better fuel efficiency, smoother acceleration, and optimized power output.",
-    slug: "Engine-Tuning",
+    slug: "Engine-Tunings",
       Reviews:[
        {
     id: 1,
-    name: "Salman Khan",
-    time: "2 weeks ago",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-    rating: 4
+    name: "Dene Taylor",
+    time: "3 years ago",
+    text: "My range rover broken down got hole on block I find vogue technic they pickup super quick fix it in 10 days great help thanks to Vic",
+    rating: 5
   },
   {
     id: 2,
-    name: "Shahrukh khan",
-    time: "1 week ago",
-    text: "quis nostrud exercitation ullamco  Very good service, highly recomme nded!",
+    name: "shahab syed",
+    time: "2 years ago",
+    text: "Best engine service good customer aftercare and very helpfull",
     rating: 5
   },
   {
     id: 3,
-    name: "Amirkhan",
-    time: "3 days ago",
-    text: "Let dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    rating: 4
+    name: "Kamal Goraya",
+    time: "11 months ago",
+    text: "Many thanks to vogue technics for Fantastic service my car fixed quickly and efficiently and the staff were incredibly friendly highly recommend thanks to vic and his Team vogue best garage",
+    rating: 5
   },
  
 ],
@@ -8213,24 +8213,24 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       Reviews:[
        {
     id: 1,
-    name: "Salman Khan",
-    time: "2 weeks ago",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-    rating: 4
+    name: "bilal hameed",
+    time: "a year ago",
+    text: "Thanks to vic and team vogue fixing my bmw 5series.",
+    rating: 5
   },
   {
     id: 2,
-    name: "Shahrukh khan",
-    time: "1 week ago",
-    text: "quis nostrud exercitation ullamco  Very good service, highly recomme nded!",
+    name: "Freddie Theobald",
+    time: "10 months ago",
+    text: "Jack was brilliant I totally recommend this company .",
     rating: 5
   },
   {
     id: 3,
-    name: "Amirkhan",
-    time: "3 days ago",
-    text: "Let dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    rating: 4
+    name: "Haseeb F",
+    time: "4 years ago",
+    text: "Lovely experience took my car there as I had a problem with my fan belt, helped me resolve it and fixed it quicker then my old garage",
+    rating: 5
   },
  
 ],
@@ -8546,24 +8546,24 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       Reviews:[
        {
     id: 1,
-    name: "Salman Khan",
-    time: "2 weeks ago",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-    rating: 4
+    name: "evrod samuel",
+    time: "4 years ago",
+    text: "Honest people very good garage done my car quick on reasonable price special thanks to wick",
+    rating: 5
   },
   {
     id: 2,
-    name: "Shahrukh khan",
-    time: "1 week ago",
-    text: "quis nostrud exercitation ullamco  Very good service, highly recomme nded!",
+    name: "Prince Khangura",
+    time: "4 years ago",
+    text: "Wick is the best man done my range rover SVR QUICK TOP MAN TOP SERVICE DEFINITELY RECOMMEND",
     rating: 5
   },
   {
     id: 3,
-    name: "Amirkhan",
-    time: "3 days ago",
-    text: "Let dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    rating: 4
+    name: "Habib Ullah",
+    time: "3 years ago",
+    text: "I used vogue technics very good service. Fix my vehicle super quick. Services:Vehicle engine diagnostic",
+    rating: 5
   },
  
 ],
@@ -8897,24 +8897,24 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       Reviews:[
        {
     id: 1,
-    name: "Salman Khan",
-    time: "2 weeks ago",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-    rating: 4
+    name: "Meraz Siddike",
+    time: " 3 years ago",
+    text: "Very reliable & friendly service. Come on time. Pulled me out from very big trouble. Recommended without any doubt.",
+    rating: 5
   },
   {
     id: 2,
-    name: "Shahrukh khan",
-    time: "1 week ago",
-    text: "quis nostrud exercitation ullamco  Very good service, highly recomme nded!",
+    name: "Ranjithraj Gurusamy Arumugam",
+    time: "a year ago",
+    text: "Proper professional work, great service. Highly recommended.",
     rating: 5
   },
   {
     id: 3,
-    name: "Amirkhan",
-    time: "3 days ago",
-    text: "Let dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    rating: 4
+    name: "Xhemal Rajku",
+    time: "a year ago",
+    text: "I use vogue technics fix my bmw. Best service. Thanks to vic. Services: Vehicle engine diagnostic",
+    rating: 5
   },
  
 ],
@@ -9265,24 +9265,24 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       Reviews:[
        {
     id: 1,
-    name: "Salman Khan",
-    time: "2 weeks ago",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-    rating: 4
+    name: "Wassim Abdallah",
+    time: "a year ago",
+    text: "Best service ever make sure you come here for all of your mechanical needs 10/10 would come again",
+    rating: 5
   },
   {
     id: 2,
-    name: "Shahrukh khan",
-    time: "1 week ago",
-    text: "quis nostrud exercitation ullamco  Very good service, highly recomme nded!",
+    name: "jassi singh",
+    time: "a year ago",
+    text: "very nice people 👍 many thanks to Vic top man. fix my range rover sports. Services: Vehicle engine diagnostic",
     rating: 5
   },
   {
     id: 3,
-    name: "Amirkhan",
-    time: "3 days ago",
-    text: "Let dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    rating: 4
+    name: "Samiullah Choudhary",
+    time: "4 months ago",
+    text: "Service Very Fast & Furious",
+    rating: 5
   },
  
 ],
@@ -9639,24 +9639,24 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     Reviews:[
        {
     id: 1,
-    name: "Salman Khan",
-    time: "2 weeks ago",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-    rating: 4
+    name: "Adelina Berdilo",
+    time: "3 years ago",
+    text: "Very helpfull company fix my car super quick 100% use again recommended recommanded. Services: Oil change",
+    rating: 5
   },
   {
     id: 2,
-    name: "Shahrukh khan",
-    time: "1 week ago",
-    text: "quis nostrud exercitation ullamco  Very good service, highly recomme nded!",
-    rating: 4
+    name: "Ervis Simaku",
+    time: "4 years ago",
+    text: "I repair my car on the service and I’m very happy Give me a good price and is very nice people",
+    rating: 5
   },
   {
     id: 3,
-    name: "Amirkhan",
-    time: "3 days ago",
-    text: "Let dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    rating: 4
+    name: "Ivan Muller",
+    time: "3 years ago",
+    text: "Excellent and fast service from the team at Vogue Technics. Would highly recommend. Services: Vehicle engine diagnostic, Exhaust, Oil change, Transmission, Transmission repair",
+    rating: 5
   },
  
 ],
@@ -9985,24 +9985,24 @@ discription: {
       Reviews:[
        {
     id: 1,
-    name: "Salman Khan",
-    time: "2 weeks ago",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-    rating: 4
+    name: "julie jones",
+    time: "3 years ago",
+    text: "Excellent service. Mr Muhammad is extremely personable, knowledgeable and pleasant to work with.",
+    rating: 5
   },
   {
     id: 2,
-    name: "Shahrukh khan",
-    time: "1 week ago",
-    text: "quis nostrud exercitation ullamco  Very good service, highly recomme nded!",
+    name: "Haji Khaleel",
+    time: "3 years ago",
+    text: "Fix my range Rover 2.0 super quick many thanks to Vic. Services: Vehicle engine diagnostic",
     rating: 5
   },
   {
     id: 3,
-    name: "Amirkhan",
-    time: "3 days ago",
-    text: "Let dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    rating: 4
+    name: "Seth Owusu Ampofo",
+    time: "3 years ago",
+    text: "I use vogue technics very good service many thanks. Services: Vehicle engine diagnostic",
+    rating: 5
   },
  
 ],
@@ -10329,24 +10329,24 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       Reviews:[
        {
     id: 1,
-    name: "Salman Khan",
-    time: "2 weeks ago",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-    rating: 4
+    name: "John Atumonyogo",
+    time: "2 years ago",
+    text: "Very helpful good service vic is a good guy many thanks.",
+    rating: 5
   },
   {
     id: 2,
-    name: "Shahrukh khan",
-    time: "1 week ago",
-    text: "quis nostrud exercitation ullamco  Very good service, highly recomme nded!",
+    name: "Mohamed AA",
+    time: "4 years ago",
+    text: "Some top people over at vogue technics big thanks to Adam went above and beyond",
     rating: 5
   },
   {
     id: 3,
-    name: "Amirkhan",
-    time: "3 days ago",
-    text: "Let dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    rating: 4
+    name: "Mantas Siciunas",
+    time: "3 years ago",
+    text: "Very good people thanks Vic fixing my car",
+    rating: 5
   },
  
 ],
@@ -10675,24 +10675,24 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       Reviews:[
        {
     id: 1,
-    name: "Salman Khan",
-    time: "2 weeks ago",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-    rating: 4
+    name: "Ahmed Siddiqui",
+    time: "4 years ago",
+    text: "Very good garage. I will definitely recommend it.",
+    rating: 5
   },
   {
     id: 2,
-    name: "Shahrukh khan",
-    time: "1 week ago",
-    text: "quis nostrud exercitation ullamco  Very good service, highly recomme nded!",
+    name: "Jane Bellas",
+    time: "4 years ago",
+    text: "Amazing service! Will definitely use again! Thank you! 😍😍😍",
     rating: 5
   },
   {
     id: 3,
-    name: "Amirkhan",
-    time: "3 days ago",
-    text: "Let dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    rating: 4
+    name: "faizan abbasi",
+    time: "4 years ago",
+    text: "Brilliant service. I would recommend to everyone. Good with prices too",
+    rating: 5
   },
  
 ],
@@ -11008,24 +11008,24 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       Reviews:[
        {
     id: 1,
-    name: "Salman Khan",
-    time: "2 weeks ago",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-    rating: 4
+    name: "Ab",
+    time: "4 years ago",
+    text: "Great service from Wick, fast and affordable.",
+    rating: 5
   },
   {
     id: 2,
-    name: "Shahrukh khan",
-    time: "1 week ago",
-    text: "quis nostrud exercitation ullamco  Very good service, highly recomme nded!",
+    name: "Wilson",
+    time: "8 months ago",
+    text: "Good service",
     rating: 5
   },
   {
     id: 3,
-    name: "Amirkhan",
-    time: "3 days ago",
-    text: "Let dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    rating: 4
+    name: "Jake Cass",
+    time: "4 years ago",
+    text: "10/10 service",
+    rating: 5
   },
  
 ],
@@ -11359,24 +11359,24 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       Reviews:[
        {
     id: 1,
-    name: "Salman Khan",
-    time: "2 weeks ago",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-    rating: 4
+    name: "Satnam Singh",
+    time: "21 hours ago",
+    text: "The car service was done properly, and everything now runs smoothly. The paintwork looks amazing. the finish is clean, shiny, and like a brand new car. The engine rebuild was also completed to a very high standard, and the car now drives perfectly with no issues.",
+    rating: 5
   },
   {
     id: 2,
-    name: "Shahrukh khan",
-    time: "1 week ago",
-    text: "quis nostrud exercitation ullamco  Very good service, highly recomme nded!",
+    name: "Leanne Ranger",
+    time: "23 hours ago",
+    text: "Had minor issue with my car and Adams quick response meant I was able to come down on Bank Holiday to have my car looked at so I could drive safely home. Great customer service",
     rating: 5
   },
   {
     id: 3,
-    name: "Amirkhan",
-    time: "3 days ago",
-    text: "Let dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    rating: 4
+    name: "richard due",
+    time: "23 hours ago",
+    text: "very helpful staffs.. Too friendly, they smiles in client and willing to help... Best discounts on repair.",
+    rating: 5
   },
  
 ],
@@ -11739,24 +11739,24 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     Reviews:[
        {
     id: 1,
-    name: "Salman Khan",
-    time: "2 weeks ago",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-    rating: 4
+    name: "Dilpreet Kaur",
+    time: "a day ago",
+    text: "Thank you so much. Really like the service and everyone in the staff. Friendly staff.",
+    rating: 5
   },
   {
     id: 2,
-    name: "Shahrukh khan",
-    time: "1 week ago",
-    text: "quis nostrud exercitation ullamco  Very good service, highly recomme nded!",
-    rating: 4
+    name: "Mohit Pal",
+    time: "a day ago",
+    text: "I can not thanks enough to vogue technics fixing my ford transit van vogue technics done engine rebuild for our Ford transit van kept us informed through out the process till they finish the job and road tested i came back today for interim service very happy with service thanks to vic and team vogue",
+    rating: 5
   },
   {
     id: 3,
-    name: "Amirkhan",
-    time: "3 days ago",
-    text: "Let dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    rating: 4
+    name: "JP B",
+    time: "2 days ago",
+    text: "I take all my vans and personal car to Vogue after discovering them on Google. Az and Jack are always very helpful and informative, they are also fair with pricing for me. Very honest guys, I've stopped going to any other garages now. So far they've worked on 12 vehicles of mine and never let me down. Cheers",
+    rating: 5
   },
  
 ],
@@ -12085,24 +12085,24 @@ discription: {
       Reviews:[
        {
     id: 1,
-    name: "Salman Khan",
-    time: "2 weeks ago",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-    rating: 4
+    name: "Akashdeep singh",
+    time: "5 days ago",
+    text: "just got my car back from vogue technics they have done my ford focus timing belt and water pump. There mechanics have done the job like a piece of cake . It took them three days for this massive job and they have given me my car back on time as I had plan my trip for Scotland before my timing belt snapped but they saved my trip and gave my car a new life .",
+    rating: 5
   },
   {
     id: 2,
-    name: "Shahrukh khan",
-    time: "1 week ago",
-    text: "quis nostrud exercitation ullamco  Very good service, highly recomme nded!",
+    name: "SUNPREET SANDHEY",
+    time: "6 days ago",
+    text: "I had a really good experience with vogue technics they have fixed my Mercedes C180, done engine refurbisment with them car feel like it has got a new life everything working as it should . There team is so helpfull from the start of the job they helped me recover my car when it brokedown on the motorway,explained me everything throughout the job and gave me the best advise . Az and Jack were dealing with me throughout the job and they have done a great job updated me on every step via whatsapp group and made my life really easy .",
     rating: 5
   },
   {
     id: 3,
-    name: "Amirkhan",
-    time: "3 days ago",
-    text: "Let dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    rating: 4
+    name: "Sukhdev singh",
+    time: "a week ago",
+    text: "had a great experience with this mechanic. They were honest, professional, and fixed my car quickly at a fair price. Everything was explained clearly, and the service was excellent. I would definitely recommend them.",
+    rating: 5
   },
  
 ],
@@ -12429,24 +12429,24 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       Reviews:[
        {
     id: 1,
-    name: "Salman Khan",
-    time: "2 weeks ago",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-    rating: 4
+    name: "sukhdev Singh",
+    time: "a week ago",
+    text: "They are best working on Range Rover. My Range Rover discovery had timing chain issue they fix it. Highly recommend",
+    rating: 5
   },
   {
     id: 2,
-    name: "Shahrukh khan",
-    time: "1 week ago",
-    text: "quis nostrud exercitation ullamco  Very good service, highly recomme nded!",
+    name: "Nelson",
+    time: "3 weeks ago",
+    text: "I had an issue with two of my vehicles, a land-rover discovery and a Mercedes benz sprinter van. After going to so many garages and problems keep persisting, I made a search on Google with some reservations due to my experience with other garages. I first got in contact with a gentleman called Vic. He assured me that my worries would be laid to rest. My vehicles have been given a new life and without hesitation, I'll recommend them to anyone having problems with their vehicles. The garage is amazing with very friendly staff",
     rating: 5
   },
   {
     id: 3,
-    name: "Amirkhan",
-    time: "3 days ago",
-    text: "Let dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    rating: 4
+    name: "olaniyi ijalana",
+    time: "3 weeks ago",
+    text: "This company exceeded my expectations. Seeing is believing . Very professional individual and they would listening to your concerns and act accordingly.Vic is a very fantastic guy. I would definitely recommend.",
+    rating: 5
   },
  
 ],
@@ -12775,24 +12775,24 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       Reviews:[
        {
     id: 1,
-    name: "Salman Khan",
-    time: "2 weeks ago",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-    rating: 4
+    name: "Pushpinder singh sarao",
+    time: "3 weeks ago",
+    text: "Vogue Technics worked on my Range Rover Urban and I couldn’t be happier with the results. Their team is incredibly passionate and professional. Without a doubt, they’re the best garage for engine repairs in Grays. If you’re having any issues with your Range Rover, I highly recommend them 100%.",
+    rating: 5
   },
   {
     id: 2,
-    name: "Shahrukh khan",
-    time: "1 week ago",
-    text: "quis nostrud exercitation ullamco  Very good service, highly recomme nded!",
+    name: "Mirza Rahman",
+    time: "a month ago",
+    text: "Service was very good . And the communication was very nice .",
     rating: 5
   },
   {
     id: 3,
-    name: "Amirkhan",
-    time: "3 days ago",
-    text: "Let dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    rating: 4
+    name: "Umair Anwar",
+    time: "3 years ago",
+    text: "Services:Vehicle engine diagnostic, Electrical repair, Oil change",
+    rating: 5
   },
  
 ],
@@ -13108,24 +13108,24 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       Reviews:[
        {
     id: 1,
-    name: "Salman Khan",
-    time: "2 weeks ago",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-    rating: 4
+    name: "Justyna Stępień",
+    time: "3 years ago",
+    text: "Services: Service not listed",
+    rating: 5
   },
   {
     id: 2,
-    name: "Shahrukh khan",
-    time: "1 week ago",
-    text: "quis nostrud exercitation ullamco  Very good service, highly recomme nded!",
+    name: "Ioan Nicolescu",
+    time: "3 years ago",
+    text: "Services Vehicle engine diagnostic",
     rating: 5
   },
   {
     id: 3,
-    name: "Amirkhan",
-    time: "3 days ago",
-    text: "Let dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    rating: 4
+    name: "Sukhjit Kamboj",
+    time: "3 years ago",
+    text: "Services: Vehicle engine diagnostic",
+    rating: 5
   },
  
 ],
@@ -13459,24 +13459,24 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       Reviews:[
        {
     id: 1,
-    name: "Salman Khan",
-    time: "2 weeks ago",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-    rating: 4
+    name: "Laddi Singh",
+    time: "3 years ago",
+    text: "Services: Vehicle engine diagnostic",
+    rating: 5
   },
   {
     id: 2,
-    name: "Shahrukh khan",
-    time: "1 week ago",
-    text: "quis nostrud exercitation ullamco  Very good service, highly recomme nded!",
+    name: "Raymond Wilson",
+    time: "a year ago",
+    text: "Had wonderful experience with Vogue techics, this guys replaced the engine of my Land Rover discovery sport after the old one gave up. The customer service, support and after care was great. They work tirelessly to ensure that the car was fixed in timely manner and regular updates while the car was with them. Would like to recommend them for all your landrover engine repairs. Thanks to Vic, Az and the rest of the team at Vogue techics",
     rating: 5
   },
   {
     id: 3,
-    name: "Amirkhan",
-    time: "3 days ago",
-    text: "Let dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    rating: 4
+    name: "Jay B",
+    time: "6 months ago",
+    text: "Great customer service here!! Needed something done to my car and they fit me in last minute and Adam ensured the team accommodated to my childcare needs! 10/10, I’ve never received such good service from a garage like this. Adam was friendly, professional, kept me well updated and went above and beyond in helping me manoeuvre around. If you’re looking for any mechanics in Thurrock, come here!",
+    rating: 5
   },
  
 ],
@@ -13833,24 +13833,24 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     Reviews:[
        {
     id: 1,
-    name: "Salman Khan",
-    time: "2 weeks ago",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-    rating: 4
+    name: "Mich",
+    time: "3 months ago",
+    text: "Thank to Jack for sorting out my Land Rover Discovery. Very clean office with comfy sofas. He made me a lovely coffee while they done my AC gas refill after engine rebuild.",
+    rating: 5
   },
   {
     id: 2,
-    name: "Shahrukh khan",
-    time: "1 week ago",
-    text: "quis nostrud exercitation ullamco  Very good service, highly recomme nded!",
-    rating: 4
+    name: "Haris M",
+    time: "11 months ago",
+    text: "I recently had outstanding service at Vouge Garage, and I couldn't be more pleased! The team was incredibly professional and knowledgeable, taking the time to explain the issues with my car and the necessary repairs. They completed the work efficiently and at a reasonable price. My car runs like new, and I appreciate their attention to detail. I highly recommend to speak to the representative Vic for anyone in need of reliable and high-quality automotive service!",
+    rating: 5
   },
   {
     id: 3,
-    name: "Amirkhan",
-    time: "3 days ago",
-    text: "Let dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    rating: 4
+    name: "A:M MUSIC",
+    time: "3 months ago",
+    text: "Had my twin turbo engine job done at vogue technics 4 months ago. Jack was very helpful in arranging collection and sending me pictures. Had the service done today and car is running great.",
+    rating: 5
   },
  
 ],
@@ -14179,24 +14179,24 @@ discription: {
       Reviews:[
        {
     id: 1,
-    name: "Salman Khan",
-    time: "2 weeks ago",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-    rating: 4
+    name: "Zhong Zhang",
+    time: "3 months ago",
+    text: "The whole crew was pleasant, friendly and willing to help. I have been there 3 times and experienced the same pleasant experience. Every single person I came across had the same attitude, I can only name a few as examples just because I had more contact with them: Jack, Vic, AZ and VT. Well done and keep it up. However, I do have a complaint: the fake and plastic key plants. I left them with 3 plants that my wife cultivated. I hope they proper and liven the place up further.",
+    rating: 5
   },
   {
     id: 2,
-    name: "Shahrukh khan",
-    time: "1 week ago",
-    text: "quis nostrud exercitation ullamco  Very good service, highly recomme nded!",
+    name: "jolyon lawson",
+    time: "4 months ago",
+    text: "Great service from Adam and the team. My 2016 discovery sport with ingenium engine was in need of replacement timing chains and had a couple of sensor issues to resolve. Adam completed the work to schedule and in line with a very competitive estimate. He kept me updated, and was very accommodating when arranging the pick up time. The car was returned nice and clean with all the problems sorted.",
     rating: 5
   },
   {
     id: 3,
-    name: "Amirkhan",
-    time: "3 days ago",
-    text: "Let dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    rating: 4
+    name: "luke poole",
+    time: "2 months ago",
+    text: "Impressed with these guys. They kept me update throughout with pictures on whatsapp! They droped me off at Lakeside as part of their service. No local garages in Braintree had the guts to look at my evoque and change the glow plugs or piston cooling jet solenoid. These guys were all over it - they did a flush and oil change at a last minute notice due to a ctitical low oil issue. I would recommend and will use again from now on!",
+    rating: 5
   },
  
 ],
@@ -14523,24 +14523,24 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       Reviews:[
        {
     id: 1,
-    name: "Salman Khan",
-    time: "2 weeks ago",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-    rating: 4
+    name: "George Sutherland",
+    time: "a year ago",
+    text: "Terrific service. The engine in my L405 seized near Seville in Spain. I contacted Vogue Technics who agreed to accept the car. They sent photos of the car being delivered and of the ruined engine after removal. They fitted a reconditioning engine and kept me informed at every stage. The car is now repaired and running perfectly. The team at Technics were polite, professional and knowledgeable. An excellent job at a reasonable price. I fully recommend Vogue Technics to anyone with Land Rover engine issues. Thank you Az, Sunny, Adrian and Adam",
+    rating: 5
   },
   {
     id: 2,
-    name: "Shahrukh khan",
-    time: "1 week ago",
-    text: "quis nostrud exercitation ullamco  Very good service, highly recomme nded!",
+    name: "Gaz Rees",
+    time: "3 months ago",
+    text: "So i found Vogue Technics online trying to find a new engin for my 2017 golf R. Whilst i was looking for an engin i applied to a search for an engin and it sent out a tender to loads of different company’s. i got called by loads of other company’s quoting all kinds of prices some lower and some higher. I used google maps street view to view all the candidates i had chosen. Some looked so shady and wondered if they had my car would i get it back in one piece😅 so i went through and viewed all company’s and vogue technics looked like a real garage. I do a-lot of work on cars and just don’t have the machines needed to do the rebuild. So i can tell a good garage just by seeing it. Espeshaly from the others i had seen. So it looked the part but that was not my only factor for choosing to go with them, i had a phone call from Jack and had a good chat and i felt like i could trust this man and so i agreed to bringing my golf to the workshop. I wanted to double cheak to make sure it was in good hands. I was presently surprised to see a real work shop loads of lads running around and very organised(Very hard to do with so meany parts with multiple vehicles). This is when i met Az the man who would organised and see my car rebuilt and returned to me. He was very polite and definitely know alot about engines and the work shop. I left my golf in his hands and drove home over 100 miles away. This was befor xmas and new years. A watts app group was made and i was kept upto date with all works being carried out on my engin. And any questions Az was there to answered straight away. I went any picked up the golf the other day and it runs perfectly literally sounds like a new engin. I am know driving the engin very carfully under there instructions for 1000-2000 miles. After that the car will be nicely bedded in and drive like a new car. I would not hesitate at all to contact these guys if i ever needed help with my cars again. And would highly recommend to anyone needed a rebuilt engin or serious work done on your car.",
     rating: 5
   },
   {
     id: 3,
-    name: "Amirkhan",
-    time: "3 days ago",
-    text: "Let dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    rating: 4
+    name: "Jay&Alina",
+    time: "3 months ago",
+    text: "Spoke to Jack on the phone in regards to my Range Rover issues, he was very informative and explained everything mechanically and financially from an honest point of view. After it was recovered by their driver, Azz and Vick kept me updated everyday with videos. Engine running better than ever now. Jack has given me his permission to add his direct number on this review incase anyone needs genuine advice: 07477641441. Well done guys, see you in a couple of months for the service.",
+    rating: 5
   },
  
 ],
@@ -14869,24 +14869,24 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
       Reviews:[
        {
     id: 1,
-    name: "Salman Khan",
-    time: "2 weeks ago",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-    rating: 4
+    name: "Biatrice Andone",
+    time: "3 months ago",
+    text: "Had my engine rebuilt over 2 years ago by Jack and Az. 3rd Service was done recently at vogue and engine still running like new. Did have to change my gear selector though which these guys done for me on the same day as my service. They even dropped me to the shopping centre and picked me up after the service was done. Very honest and trustworthy blokes. My boss will be giving you a call Jack to get the Transit Van rebuild done next week. Cheers",
+    rating: 5
   },
   {
     id: 2,
-    name: "Shahrukh khan",
-    time: "1 week ago",
-    text: "quis nostrud exercitation ullamco  Very good service, highly recomme nded!",
+    name: "Abdul Raheem hafeez",
+    time: "2 months ago",
+    text: "I recently had my engine rebuilt by VOGUE Technics, and the service was absolutely exceptional. The team is highly professional, knowledgeable, and clearly very experienced in what they do. My car is now running like it’s brand new again! The quality of workmanship and attention to detail truly stand out. Highly recommended. A big thank you to VIC for the outstanding work and customer service!",
     rating: 5
   },
   {
     id: 3,
-    name: "Amirkhan",
-    time: "3 days ago",
-    text: "Let dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    rating: 4
+    name: "Sarfaraz Ahmed",
+    time: " 5 months ago",
+    text: "I recently had some very complex work done on my Rover Rover vogue by Vogue Technics, and I couldn’t be happier with the results. From start to finish, the team showed exceptional knowledge, attention to detail, and professionalism. The job required a high level of technical skill, and they handled everything with confidence and expertise. Many thanks to vic jack adam az and harry. Brilliant guys fixing my Engine issue promptly. They kept me well informed throughout the process, explained the work clearly, and delivered the car back running better than ever. It’s rare to find a garage that combines great customer service with such advanced technical ability, but Vogue Technics truly delivers on both.Highly recommended for anyone needing specialist or complex automotive work. I’ll definitely be returning in the future.Thanks guys for brilliant service",
+    rating: 5
   },
  
 ],
