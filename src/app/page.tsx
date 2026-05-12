@@ -23,7 +23,8 @@ export default function Home() {
                     <div className="w-24/24 text-center"><Why_choose /></div>
                     <div className="w-24/24 text-center"><Services /></div>
                     <div className="w-24/24 text-center"><SaleParts /></div>
-                    <div className="w-24/24 text-center"> <Green_slider1 /> </div>                
+                    <div className="w-24/24 text-center"> <Green_slider1 /> </div> 
+                                  
                     <div className="w-24/24 text-center"> <Explore/> </div>                 
                     <div className="w-24/24 text-center"> <EngineCallToSection /> </div>   
                     <div className="w-24/24 text-center"> <Areas_links /> </div>

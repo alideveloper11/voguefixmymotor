@@ -5,7 +5,8 @@ const servicesData = [
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Initial-Diagnostics",
+    img:"/Initial Diagnostics.jpeg",
     Reviews:[
        {
     id: 1,
@@ -32,47 +33,7 @@ const servicesData = [
 ],
 
 contents:{
-  content1: {
-      heading: "About Us detail page",
-  
-      greenHeading: "Trusted Engine Specialists",
-  
-      paragraph: [
-        "We provide professional engine diagnostics, repairs and maintenance services for all makes and models.",
-        
-        "From minor engine faults to major repairs, our certified technicians focus on quality workmanship, honest advice and long-term vehicle performance."
-      ],
-  
-      bullets: [
-        "Advanced engine diagnostics",
-        "Certified repair technicians",
-        "Quality parts and workmanship",
-        "Affordable and transparent pricing"
-      ]
-    },
-  
-  
-  
-    content2: {
-      heading: "Our Services  detail page",
-  
-      greenHeading: "Complete Engine Repair Solutions",
-  
-      paragraph: [
-        "Whether your vehicle has warning lights, overheating problems or reduced performance, we diagnose and fix issues efficiently.",
-  
-        "We offer preventative maintenance and full engine repair solutions to keep your car reliable and road ready."
-      ],
-  
-      bullets: [
-        "Engine diagnostics",
-        "Timing belt replacement",
-        "Cooling system repair",
-        "Oil leak repairs",
-        "Engine rebuild services"
-      ]
-    },
-  
+ 
   
   content3: {
     heading: "Why Regular Engine Checkups Matter  detail page",
@@ -89,55 +50,6 @@ contents:{
     ]
   },
   
-  content4: {
-    heading: "Expert Engine Diagnostics Service  detail page",
-    greenHeading: "Advanced tools for accurate results",
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ]
-  },
-  
-  content5: {
-    heading: "Reliable Engine Repair Solutions  detail page",
-    greenHeading: "Quality repairs you can trust",
-    paragraph: [
-      "From minor fixes to major engine overhauls, we provide reliable repair services for all vehicle types.",
-      "We focus on long-lasting solutions using high-quality parts and professional workmanship."
-    ],
-    bullets: [
-      "Complete engine repair",
-      "High-quality spare parts",
-      "Experienced mechanics",
-      "Long-term reliability"
-    ]
-  },
-  
-    content6: {
-      heading: "Our Services  detail page",
-  
-      greenHeading: "Complete Engine Repair Solutions",
-  
-      paragraph: [
-        "Whether your vehicle has warning lights, overheating problems or reduced performance, we diagnose and fix issues efficiently.",
-  
-        "We offer preventative maintenance and full engine repair solutions to keep your car reliable and road ready."
-      ],
-  
-      bullets: [
-        "Engine diagnostics",
-        "Timing belt replacement",
-        "Cooling system repair",
-        "Oil leak repairs",
-        "Engine rebuild services"
-      ]
-    },
 },
 faq:[
   {
@@ -231,86 +143,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ]
 },
 
-green_slider2:{
-   img: "/vogue fix my motor image 21",
-  items:  [
-  {
-    title: "detail page Lorem Ipsum Has Been In",
-    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
-
-In modern development workflow.`
-  },
-
-  {
-    title: "detail page Trusted Car Repair Experts",
-    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
-
-Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
-
-We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
-  },
-
-  {
-    title: "detail page  Fast & Professional Service",
-    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
-
-Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
-
- Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
-
-Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
-  },
-  {
-  title: "detail page Advanced Engine Diagnostics",
-  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
-
-Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
-
-Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
-
-We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
-},
-
-{
-  title: "detail page Quality Parts & Reliable Repairs",
-  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
-
-Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
-
-Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
-
-We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
-},
-
-{
-  title: "detail page  Customer Satisfaction Guaranteed",
-  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
-
-We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
-
-We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
-
-Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
-},
-]
-},
-discription: {
-    heading: "Expert Engine Diagnostics Service  detail page",
- 
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ],
-    image:"/vogue fix my motor image 17.jpg"
-  },
 
 
   },
@@ -351,7 +184,8 @@ discription: {
     id: 2,
     name: "Vehicle Health Check",
     text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-    slug: "oil-change-service",
+    slug: "Vehicle-Health-Check",
+    img:"/Vehicle Health Check.jpg",
       Reviews:[
        {
     id: 1,
@@ -378,49 +212,7 @@ discription: {
 ],
 
 contents:{
-  content1: {
-      heading: "About Us",
-  
-      greenHeading: "Trusted Engine Specialists",
-  
-      paragraph: [
-        "We provide professional engine diagnostics, repairs and maintenance services for all makes and models.",
-        
-        "From minor engine faults to major repairs, our certified technicians focus on quality workmanship, honest advice and long-term vehicle performance."
-      ],
-  
-      bullets: [
-        "Advanced engine diagnostics",
-        "Certified repair technicians",
-        "Quality parts and workmanship",
-        "Affordable and transparent pricing"
-      ]
-    },
-  
-  
-  
-    content2: {
-      heading: "Our Services",
-  
-      greenHeading: "Complete Engine Repair Solutions",
-  
-      paragraph: [
-        "Whether your vehicle has warning lights, overheating problems or reduced performance, we diagnose and fix issues efficiently.",
-  
-        "We offer preventative maintenance and full engine repair solutions to keep your car reliable and road ready."
-      ],
-  
-      bullets: [
-        "Engine diagnostics",
-        "Timing belt replacement",
-        "Cooling system repair",
-        "Oil leak repairs",
-        "Engine rebuild services"
-      ]
-    },
-  
-  
-  content3: {
+   content3: {
     heading: "Why Regular Engine Checkups Matter",
     greenHeading: "Prevent breakdowns before they happen",
     paragraph: [
@@ -434,56 +226,7 @@ contents:{
       "Cost-effective maintenance"
     ]
   },
-  
-  content4: {
-    heading: "Expert Engine Diagnostics Service",
-    greenHeading: "Advanced tools for accurate results",
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ]
-  },
-  
-  content5: {
-    heading: "Reliable Engine Repair Solutions",
-    greenHeading: "Quality repairs you can trust",
-    paragraph: [
-      "From minor fixes to major engine overhauls, we provide reliable repair services for all vehicle types.",
-      "We focus on long-lasting solutions using high-quality parts and professional workmanship."
-    ],
-    bullets: [
-      "Complete engine repair",
-      "High-quality spare parts",
-      "Experienced mechanics",
-      "Long-term reliability"
-    ]
-  },
-  
-    content6: {
-      heading: "Our Services",
-  
-      greenHeading: "Complete Engine Repair Solutions",
-  
-      paragraph: [
-        "Whether your vehicle has warning lights, overheating problems or reduced performance, we diagnose and fix issues efficiently.",
-  
-        "We offer preventative maintenance and full engine repair solutions to keep your car reliable and road ready."
-      ],
-  
-      bullets: [
-        "Engine diagnostics",
-        "Timing belt replacement",
-        "Cooling system repair",
-        "Oil leak repairs",
-        "Engine rebuild services"
-      ]
-    },
+ 
 },faq:[
   {
     id: 1,
@@ -576,86 +319,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ]
 },
 
-green_slider2:{
-   img: "/vogue fix my motor image 9.jpg",
-  items:  [
-  {
-    title: "detail page Lorem Ipsum Has Been In",
-    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
-
-In modern development workflow.`
-  },
-
-  {
-    title: "detail page Trusted Car Repair Experts",
-    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
-
-Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
-
-We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
-  },
-
-  {
-    title: "detail page  Fast & Professional Service",
-    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
-
-Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
-
- Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
-
-Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
-  },
-  {
-  title: "detail page Advanced Engine Diagnostics",
-  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
-
-Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
-
-Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
-
-We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
-},
-
-{
-  title: "detail page Quality Parts & Reliable Repairs",
-  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
-
-Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
-
-Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
-
-We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
-},
-
-{
-  title: "detail page  Customer Satisfaction Guaranteed",
-  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
-
-We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
-
-We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
-
-Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
-},
-]
-},
-  discription: {
-    heading: "Expert Engine Diagnostics Service  detail page",
- 
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ],
-    image:"/vogue fix my motor image 17.jpg"
-  },
   },
 
 
@@ -695,7 +359,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     id: 3,
     name: "Visual Inspection",
     text: "Fine tuning service for better fuel efficiency, smoother acceleration, and optimized power output.",
-    slug: "Engine-Tuning",
+    slug: "Visual-Inspection",
+    img:"/Visual Inspection.jpg",
       Reviews:[
        {
     id: 1,
@@ -726,48 +391,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 
 
 contents:{
-  content1: {
-      heading: "About Us",
-  
-      greenHeading: "Trusted Engine Specialists",
-  
-      paragraph: [
-        "We provide professional engine diagnostics, repairs and maintenance services for all makes and models.",
-        
-        "From minor engine faults to major repairs, our certified technicians focus on quality workmanship, honest advice and long-term vehicle performance."
-      ],
-  
-      bullets: [
-        "Advanced engine diagnostics",
-        "Certified repair technicians",
-        "Quality parts and workmanship",
-        "Affordable and transparent pricing"
-      ]
-    },
-  
-  
-  
-    content2: {
-      heading: "Our Services",
-  
-      greenHeading: "Complete Engine Repair Solutions",
-  
-      paragraph: [
-        "Whether your vehicle has warning lights, overheating problems or reduced performance, we diagnose and fix issues efficiently.",
-  
-        "We offer preventative maintenance and full engine repair solutions to keep your car reliable and road ready."
-      ],
-  
-      bullets: [
-        "Engine diagnostics",
-        "Timing belt replacement",
-        "Cooling system repair",
-        "Oil leak repairs",
-        "Engine rebuild services"
-      ]
-    },
-  
-  
+    
   content3: {
     heading: "Why Regular Engine Checkups Matter",
     greenHeading: "Prevent breakdowns before they happen",
@@ -782,56 +406,7 @@ contents:{
       "Cost-effective maintenance"
     ]
   },
-  
-  content4: {
-    heading: "Expert Engine Diagnostics Service",
-    greenHeading: "Advanced tools for accurate results",
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ]
-  },
-  
-  content5: {
-    heading: "Reliable Engine Repair Solutions",
-    greenHeading: "Quality repairs you can trust",
-    paragraph: [
-      "From minor fixes to major engine overhauls, we provide reliable repair services for all vehicle types.",
-      "We focus on long-lasting solutions using high-quality parts and professional workmanship."
-    ],
-    bullets: [
-      "Complete engine repair",
-      "High-quality spare parts",
-      "Experienced mechanics",
-      "Long-term reliability"
-    ]
-  },
-  
-    content6: {
-      heading: "Our Services",
-  
-      greenHeading: "Complete Engine Repair Solutions",
-  
-      paragraph: [
-        "Whether your vehicle has warning lights, overheating problems or reduced performance, we diagnose and fix issues efficiently.",
-  
-        "We offer preventative maintenance and full engine repair solutions to keep your car reliable and road ready."
-      ],
-  
-      bullets: [
-        "Engine diagnostics",
-        "Timing belt replacement",
-        "Cooling system repair",
-        "Oil leak repairs",
-        "Engine rebuild services"
-      ]
-    },
+ 
 },
 faq:[
   {
@@ -925,86 +500,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ]
 },
 
-green_slider2:{
-   img: "/vogue fix my motor image 15.jpg",
-  items:  [
-  {
-    title: "detail page Lorem Ipsum Has Been In",
-    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
-
-In modern development workflow.`
-  },
-
-  {
-    title: "detail page Trusted Car Repair Experts",
-    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
-
-Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
-
-We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
-  },
-
-  {
-    title: "detail page  Fast & Professional Service",
-    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
-
-Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
-
- Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
-
-Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
-  },
-  {
-  title: "detail page Advanced Engine Diagnostics",
-  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
-
-Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
-
-Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
-
-We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
-},
-
-{
-  title: "detail page Quality Parts & Reliable Repairs",
-  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
-
-Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
-
-Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
-
-We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
-},
-
-{
-  title: "detail page  Customer Satisfaction Guaranteed",
-  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
-
-We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
-
-We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
-
-Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
-},
-]
-}, 
- discription: {
-    heading: "Expert Engine Diagnostics Service  detail page",
- 
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ],
-    image:"/vogue fix my motor image 14.jpg"
-  },
   },
 
 
@@ -1041,7 +537,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     id: 4,
     name: "Interim Service",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Interim-Service",
+    img:"/Interim Service.jpg",
       Reviews:[
        {
     id: 1,
@@ -1068,49 +565,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ],
 
 contents:{
-  content1: {
-      heading: "About Us",
-  
-      greenHeading: "Trusted Engine Specialists",
-  
-      paragraph: [
-        "We provide professional engine diagnostics, repairs and maintenance services for all makes and models.",
-        
-        "From minor engine faults to major repairs, our certified technicians focus on quality workmanship, honest advice and long-term vehicle performance."
-      ],
-  
-      bullets: [
-        "Advanced engine diagnostics",
-        "Certified repair technicians",
-        "Quality parts and workmanship",
-        "Affordable and transparent pricing"
-      ]
-    },
-  
-  
-  
-    content2: {
-      heading: "Our Services",
-  
-      greenHeading: "Complete Engine Repair Solutions",
-  
-      paragraph: [
-        "Whether your vehicle has warning lights, overheating problems or reduced performance, we diagnose and fix issues efficiently.",
-  
-        "We offer preventative maintenance and full engine repair solutions to keep your car reliable and road ready."
-      ],
-  
-      bullets: [
-        "Engine diagnostics",
-        "Timing belt replacement",
-        "Cooling system repair",
-        "Oil leak repairs",
-        "Engine rebuild services"
-      ]
-    },
-  
-  
-  content3: {
+    content3: {
     heading: "Why Regular Engine Checkups Matter",
     greenHeading: "Prevent breakdowns before they happen",
     paragraph: [
@@ -1125,55 +580,6 @@ contents:{
     ]
   },
   
-  content4: {
-    heading: "Expert Engine Diagnostics Service",
-    greenHeading: "Advanced tools for accurate results",
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ]
-  },
-  
-  content5: {
-    heading: "Reliable Engine Repair Solutions",
-    greenHeading: "Quality repairs you can trust",
-    paragraph: [
-      "From minor fixes to major engine overhauls, we provide reliable repair services for all vehicle types.",
-      "We focus on long-lasting solutions using high-quality parts and professional workmanship."
-    ],
-    bullets: [
-      "Complete engine repair",
-      "High-quality spare parts",
-      "Experienced mechanics",
-      "Long-term reliability"
-    ]
-  },
-  
-    content6: {
-      heading: "Our Services",
-  
-      greenHeading: "Complete Engine Repair Solutions",
-  
-      paragraph: [
-        "Whether your vehicle has warning lights, overheating problems or reduced performance, we diagnose and fix issues efficiently.",
-  
-        "We offer preventative maintenance and full engine repair solutions to keep your car reliable and road ready."
-      ],
-  
-      bullets: [
-        "Engine diagnostics",
-        "Timing belt replacement",
-        "Cooling system repair",
-        "Oil leak repairs",
-        "Engine rebuild services"
-      ]
-    },
 },faq:[
   {
     id: 1,
@@ -1266,86 +672,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ]
 },
 
-green_slider2:{
-   img: "/vogue fix my motor image 21.jpg",
-  items:  [
-  {
-    title: "detail page Lorem Ipsum Has Been In",
-    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
-
-In modern development workflow.`
-  },
-
-  {
-    title: "detail page Trusted Car Repair Experts",
-    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
-
-Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
-
-We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
-  },
-
-  {
-    title: "detail page  Fast & Professional Service",
-    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
-
-Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
-
- Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
-
-Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
-  },
-  {
-  title: "detail page Advanced Engine Diagnostics",
-  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
-
-Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
-
-Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
-
-We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
-},
-
-{
-  title: "detail page Quality Parts & Reliable Repairs",
-  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
-
-Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
-
-Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
-
-We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
-},
-
-{
-  title: "detail page  Customer Satisfaction Guaranteed",
-  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
-
-We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
-
-We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
-
-Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
-},
-]
-},
-  discription: {
-    heading: "Expert Engine Diagnostics Service  detail page",
- 
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ],
-    image:"/vogue fix my motor image 14.jpg"
-  },
   },
 
 
@@ -1374,7 +701,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     id: 5,
     name: "Major Service",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
-    slug: "Transmission-Repair",
+    slug: "Major-Service",
+    img:"/Major Service.jpg",
       Reviews:[
        {
     id: 1,
@@ -1401,46 +729,6 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ],
 
 contents:{
-  content1: {
-      heading: "About Us",
-  
-      greenHeading: "Trusted Engine Specialists",
-  
-      paragraph: [
-        "We provide professional engine diagnostics, repairs and maintenance services for all makes and models.",
-        
-        "From minor engine faults to major repairs, our certified technicians focus on quality workmanship, honest advice and long-term vehicle performance."
-      ],
-  
-      bullets: [
-        "Advanced engine diagnostics",
-        "Certified repair technicians",
-        "Quality parts and workmanship",
-        "Affordable and transparent pricing"
-      ]
-    },
-  
-  
-  
-    content2: {
-      heading: "Our Services",
-  
-      greenHeading: "Complete Engine Repair Solutions",
-  
-      paragraph: [
-        "Whether your vehicle has warning lights, overheating problems or reduced performance, we diagnose and fix issues efficiently.",
-  
-        "We offer preventative maintenance and full engine repair solutions to keep your car reliable and road ready."
-      ],
-  
-      bullets: [
-        "Engine diagnostics",
-        "Timing belt replacement",
-        "Cooling system repair",
-        "Oil leak repairs",
-        "Engine rebuild services"
-      ]
-    },
   
   
   content3: {
@@ -1457,56 +745,7 @@ contents:{
       "Cost-effective maintenance"
     ]
   },
-  
-  content4: {
-    heading: "Expert Engine Diagnostics Service",
-    greenHeading: "Advanced tools for accurate results",
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ]
-  },
-  
-  content5: {
-    heading: "Reliable Engine Repair Solutions",
-    greenHeading: "Quality repairs you can trust",
-    paragraph: [
-      "From minor fixes to major engine overhauls, we provide reliable repair services for all vehicle types.",
-      "We focus on long-lasting solutions using high-quality parts and professional workmanship."
-    ],
-    bullets: [
-      "Complete engine repair",
-      "High-quality spare parts",
-      "Experienced mechanics",
-      "Long-term reliability"
-    ]
-  },
-  
-    content6: {
-      heading: "Our Services",
-  
-      greenHeading: "Complete Engine Repair Solutions",
-  
-      paragraph: [
-        "Whether your vehicle has warning lights, overheating problems or reduced performance, we diagnose and fix issues efficiently.",
-  
-        "We offer preventative maintenance and full engine repair solutions to keep your car reliable and road ready."
-      ],
-  
-      bullets: [
-        "Engine diagnostics",
-        "Timing belt replacement",
-        "Cooling system repair",
-        "Oil leak repairs",
-        "Engine rebuild services"
-      ]
-    },
+ 
 },
 faq:[
   {
@@ -1600,86 +839,6 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ]
 },
 
-green_slider2:{
-   img: "/vogue fix my motor image 21.jpg",
-  items:  [
-  {
-    title: "detail page Lorem Ipsum Has Been In",
-    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
-
-In modern development workflow.`
-  },
-
-  {
-    title: "detail page Trusted Car Repair Experts",
-    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
-
-Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
-
-We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
-  },
-
-  {
-    title: "detail page  Fast & Professional Service",
-    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
-
-Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
-
- Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
-
-Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
-  },
-  {
-  title: "detail page Advanced Engine Diagnostics",
-  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
-
-Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
-
-Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
-
-We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
-},
-
-{
-  title: "detail page Quality Parts & Reliable Repairs",
-  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
-
-Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
-
-Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
-
-We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
-},
-
-{
-  title: "detail page  Customer Satisfaction Guaranteed",
-  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
-
-We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
-
-We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
-
-Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
-},
-]
-},
-  discription: {
-    heading: "Expert Engine Diagnostics Service  detail page",
- 
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ],
-    image:"/description.jpg"
-  },
     },
 
 
@@ -1696,342 +855,6 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-  {
-    id: 6,
-    name: "Oil Change",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
-      Reviews:[
-       {
-    id: 1,
-    name: "James Curran (Addicks10)",
-    time: "9 months ago",
-    text: "Top guys. From their reviews I contacted Vogue to get a full diagnostic done on my 2012 Citroen C4 Picasso. They gave me a very good price of £75.00 inc VAT. All the fault codes were combustion and fuel related. A thorough inspection under the bonnet found a poor pipe connection due to a broken clip. They re secured the broken connection with a cable tie and taped over it. All engine fault codes gone and engine fault light has stayed off. I have driven 20 miles and the fault light has stayed off and when I switch off and restart the car it goes out as it should and stays off. I was only charged the £75.00 quoted price. On the merit of this visit, I would recommend these guys.",
-    rating: 5
-  },
-  {
-    id: 2,
-    name: "Leanne Badmus",
-    time: "a year ago",
-    text: "John & Vic from Vogue Technics have been excellent. My MOT & Service was completed quickly and the car has been cleaned very well. Ready for collection. I would highly recommend and will share with friends and family.",
-    rating: 5
-  },
-  {
-    id: 3,
-    name: "Lee",
-    time: "a year ago",
-    text: "I recommend using this companies website, how the website is set up it made it easy to access the information that I myself was looking for on my Range Rover, you can look at all the parts you want or may need to replace and it goes into great detail about the part and the services that they can provide you, overall it’s simple to use and everything is clear and straightforward. After finding my car engine I called them and they swapped it for me no hassle in only a week, I waited a month to write the review and I’m very happy so far. Amazing work thank you Vogue Technics",
-    rating: 5
-  },
- 
-],
-
-contents:{
-  content1: {
-      heading: "About Us  detail page",
-  
-      greenHeading: "Trusted Engine Specialists",
-  
-      paragraph: [
-        "We provide professional engine diagnostics, repairs and maintenance services for all makes and models.",
-        
-        "From minor engine faults to major repairs, our certified technicians focus on quality workmanship, honest advice and long-term vehicle performance."
-      ],
-  
-      bullets: [
-        "Advanced engine diagnostics",
-        "Certified repair technicians",
-        "Quality parts and workmanship",
-        "Affordable and transparent pricing"
-      ]
-    },
-  
-  
-  
-    content2: {
-      heading: "Our Services  detail page",
-  
-      greenHeading: "Complete Engine Repair Solutions",
-  
-      paragraph: [
-        "Whether your vehicle has warning lights, overheating problems or reduced performance, we diagnose and fix issues efficiently.",
-  
-        "We offer preventative maintenance and full engine repair solutions to keep your car reliable and road ready."
-      ],
-  
-      bullets: [
-        "Engine diagnostics",
-        "Timing belt replacement",
-        "Cooling system repair",
-        "Oil leak repairs",
-        "Engine rebuild services"
-      ]
-    },
-  
-  
-  content3: {
-    heading: "Why Regular Engine Checkups Matter  detail page",
-    greenHeading: "Prevent breakdowns before they happen",
-    paragraph: [
-      "Your engine is the heart of your vehicle. Regular inspections help detect issues early and improve long-term performance.",
-      "Timely servicing ensures better fuel efficiency, smoother driving, and fewer unexpected repairs in the future."
-    ],
-    bullets: [
-      "Early problem detection",
-      "Improved fuel efficiency",
-      "Extended engine life",
-      "Cost-effective maintenance"
-    ]
-  },
-  
-  content4: {
-    heading: "Expert Engine Diagnostics Service  detail page",
-    greenHeading: "Advanced tools for accurate results",
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ]
-  },
-  
-  content5: {
-    heading: "Reliable Engine Repair Solutions  detail page",
-    greenHeading: "Quality repairs you can trust",
-    paragraph: [
-      "From minor fixes to major engine overhauls, we provide reliable repair services for all vehicle types.",
-      "We focus on long-lasting solutions using high-quality parts and professional workmanship."
-    ],
-    bullets: [
-      "Complete engine repair",
-      "High-quality spare parts",
-      "Experienced mechanics",
-      "Long-term reliability"
-    ]
-  },
-  
-    content6: {
-      heading: "Our Services  detail page",
-  
-      greenHeading: "Complete Engine Repair Solutions",
-  
-      paragraph: [
-        "Whether your vehicle has warning lights, overheating problems or reduced performance, we diagnose and fix issues efficiently.",
-  
-        "We offer preventative maintenance and full engine repair solutions to keep your car reliable and road ready."
-      ],
-  
-      bullets: [
-        "Engine diagnostics",
-        "Timing belt replacement",
-        "Cooling system repair",
-        "Oil leak repairs",
-        "Engine rebuild services"
-      ]
-    },
-},
-faq:[
-  {
-    id: 1,
-    question: "detail page Why choose Vogue Technics?",
-    answer:
-      "We combine over 20 years of experience with modern diagnostic tools and affordable pricing."
-  },
-  {
-    id: 2,
-    question: "detail page Book an Appointment with Us",
-    answer:
-      "You can book easily through our website or contact our support team."
-  },
-  {
-    id: 3,
-    question: "How to Save on Engine Replacements?",
-    answer:
-      "Choose reconditioned engines and compare quotes to save money."
-  },
-  {
-    id: 4,
-    question: "Save Up to 40% and Warranty with Every Engine",
-    answer:
-      "We provide warranty and cost-effective solutions for all engines."
-  }
-],
-green_slider1:{
-   img: "/vogue fix my motor image 9.jpg",
-  items:  [
-  {
-    title: "detail page Lorem Ipsum Has Been In",
-    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
-
-In modern development workflow.`
-  },
-
-  {
-    title: "detail page Trusted Car Repair Experts",
-    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
-
-Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
-
-We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
-  },
-
-  {
-    title: "detail page  Fast & Professional Service",
-    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
-
-Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
-
- Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
-
-Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
-  },
-  {
-  title: "detail page Advanced Engine Diagnostics",
-  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
-
-Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
-
-Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
-
-We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
-},
-
-{
-  title: "detail page Quality Parts & Reliable Repairs",
-  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
-
-Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
-
-Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
-
-We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
-},
-
-{
-  title: "detail page  Customer Satisfaction Guaranteed",
-  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
-
-We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
-
-We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
-
-Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
-},
-]
-},
-
-green_slider2:{
-   img: "/vogue fix my motor image 15.jpg",
-  items:  [
-  {
-    title: "detail page Lorem Ipsum Has Been In",
-    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
-
-In modern development workflow.`
-  },
-
-  {
-    title: "detail page Trusted Car Repair Experts",
-    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
-
-Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
-
-We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
-  },
-
-  {
-    title: "detail page  Fast & Professional Service",
-    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
-
-Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
-
- Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
-
-Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
-  },
-  {
-  title: "detail page Advanced Engine Diagnostics",
-  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
-
-Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
-
-Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
-
-We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
-},
-
-{
-  title: "detail page Quality Parts & Reliable Repairs",
-  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
-
-Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
-
-Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
-
-We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
-},
-
-{
-  title: "detail page  Customer Satisfaction Guaranteed",
-  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
-
-We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
-
-We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
-
-Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
-},
-]
-},
-  discription: {
-    heading: "Expert Engine Diagnostics Service  detail page",
- 
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ],
-    image:"/vogue fix my motor image 14.jpg"
-  },
-  },
 
 
 
@@ -2099,7 +922,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     id: 7,
     name: "Annual Service",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Annual-Service",
+    img:"/Annual Service.jpg",
     Reviews:[
        {
     id: 1,
@@ -2126,94 +950,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ],
 
 contents:{
-  content1: {
-      heading: "About Us detail page",
-  
-      greenHeading: "Trusted Engine Specialists",
-  
-      paragraph: [
-        "We provide professional engine diagnostics, repairs and maintenance services for all makes and models.",
-        
-        "From minor engine faults to major repairs, our certified technicians focus on quality workmanship, honest advice and long-term vehicle performance."
-      ],
-  
-      bullets: [
-        "Advanced engine diagnostics",
-        "Certified repair technicians",
-        "Quality parts and workmanship",
-        "Affordable and transparent pricing"
-      ]
-    },
-  
-  
-  
-    content2: {
-      heading: "Our Services  detail page",
-  
-      greenHeading: "Complete Engine Repair Solutions",
-  
-      paragraph: [
-        "Whether your vehicle has warning lights, overheating problems or reduced performance, we diagnose and fix issues efficiently.",
-  
-        "We offer preventative maintenance and full engine repair solutions to keep your car reliable and road ready."
-      ],
-  
-      bullets: [
-        "Engine diagnostics",
-        "Timing belt replacement",
-        "Cooling system repair",
-        "Oil leak repairs",
-        "Engine rebuild services"
-      ]
-    },
-  
-  
-  content3: {
-    heading: "Why Regular Engine Checkups Matter  detail page",
-    greenHeading: "Prevent breakdowns before they happen",
-    paragraph: [
-      "Your engine is the heart of your vehicle. Regular inspections help detect issues early and improve long-term performance.",
-      "Timely servicing ensures better fuel efficiency, smoother driving, and fewer unexpected repairs in the future."
-    ],
-    bullets: [
-      "Early problem detection",
-      "Improved fuel efficiency",
-      "Extended engine life",
-      "Cost-effective maintenance"
-    ]
-  },
-  
-  content4: {
-    heading: "Expert Engine Diagnostics Service  detail page",
-    greenHeading: "Advanced tools for accurate results",
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ]
-  },
-  
-  content5: {
-    heading: "Reliable Engine Repair Solutions  detail page",
-    greenHeading: "Quality repairs you can trust",
-    paragraph: [
-      "From minor fixes to major engine overhauls, we provide reliable repair services for all vehicle types.",
-      "We focus on long-lasting solutions using high-quality parts and professional workmanship."
-    ],
-    bullets: [
-      "Complete engine repair",
-      "High-quality spare parts",
-      "Experienced mechanics",
-      "Long-term reliability"
-    ]
-  },
-  
-    content6: {
+ content3: {
       heading: "Our Services  detail page",
   
       greenHeading: "Complete Engine Repair Solutions",
@@ -2325,86 +1062,6 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ]
 },
 
-green_slider2:{
-   img: "/vogue fix my motor image 9.jpg",
-  items:  [
-  {
-    title: "detail page Lorem Ipsum Has Been In",
-    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
-
-In modern development workflow.`
-  },
-
-  {
-    title: "detail page Trusted Car Repair Experts",
-    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
-
-Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
-
-We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
-  },
-
-  {
-    title: "detail page  Fast & Professional Service",
-    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
-
-Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
-
- Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
-
-Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
-  },
-  {
-  title: "detail page Advanced Engine Diagnostics",
-  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
-
-Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
-
-Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
-
-We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
-},
-
-{
-  title: "detail page Quality Parts & Reliable Repairs",
-  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
-
-Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
-
-Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
-
-We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
-},
-
-{
-  title: "detail page  Customer Satisfaction Guaranteed",
-  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
-
-We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
-
-We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
-
-Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
-},
-]
-},
-discription: {
-    heading: "Expert Engine Diagnostics Service  detail page",
- 
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ],
-    image:"/vogue fix my motor image 14.jpg"
-  },
 
 
   },
@@ -2445,7 +1102,8 @@ discription: {
     id: 8,
     name: "Van Repairs and Services",
     text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-    slug: "oil-change-service",
+    slug: "Van-Repairs-Services",
+    img:"/Van Repairs and Services.webp",
       Reviews:[
        {
     id: 1,
@@ -2472,94 +1130,8 @@ discription: {
 ],
 
 contents:{
-  content1: {
-      heading: "About Us",
-  
-      greenHeading: "Trusted Engine Specialists",
-  
-      paragraph: [
-        "We provide professional engine diagnostics, repairs and maintenance services for all makes and models.",
-        
-        "From minor engine faults to major repairs, our certified technicians focus on quality workmanship, honest advice and long-term vehicle performance."
-      ],
-  
-      bullets: [
-        "Advanced engine diagnostics",
-        "Certified repair technicians",
-        "Quality parts and workmanship",
-        "Affordable and transparent pricing"
-      ]
-    },
-  
-  
-  
-    content2: {
-      heading: "Our Services",
-  
-      greenHeading: "Complete Engine Repair Solutions",
-  
-      paragraph: [
-        "Whether your vehicle has warning lights, overheating problems or reduced performance, we diagnose and fix issues efficiently.",
-  
-        "We offer preventative maintenance and full engine repair solutions to keep your car reliable and road ready."
-      ],
-  
-      bullets: [
-        "Engine diagnostics",
-        "Timing belt replacement",
-        "Cooling system repair",
-        "Oil leak repairs",
-        "Engine rebuild services"
-      ]
-    },
-  
-  
-  content3: {
-    heading: "Why Regular Engine Checkups Matter",
-    greenHeading: "Prevent breakdowns before they happen",
-    paragraph: [
-      "Your engine is the heart of your vehicle. Regular inspections help detect issues early and improve long-term performance.",
-      "Timely servicing ensures better fuel efficiency, smoother driving, and fewer unexpected repairs in the future."
-    ],
-    bullets: [
-      "Early problem detection",
-      "Improved fuel efficiency",
-      "Extended engine life",
-      "Cost-effective maintenance"
-    ]
-  },
-  
-  content4: {
-    heading: "Expert Engine Diagnostics Service",
-    greenHeading: "Advanced tools for accurate results",
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ]
-  },
-  
-  content5: {
-    heading: "Reliable Engine Repair Solutions",
-    greenHeading: "Quality repairs you can trust",
-    paragraph: [
-      "From minor fixes to major engine overhauls, we provide reliable repair services for all vehicle types.",
-      "We focus on long-lasting solutions using high-quality parts and professional workmanship."
-    ],
-    bullets: [
-      "Complete engine repair",
-      "High-quality spare parts",
-      "Experienced mechanics",
-      "Long-term reliability"
-    ]
-  },
-  
-    content6: {
+
+    content3: {
       heading: "Our Services",
   
       greenHeading: "Complete Engine Repair Solutions",
@@ -2670,86 +1242,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ]
 },
 
-green_slider2:{
-   img: "/vogue fix my motor image 14.jpg",
-  items:  [
-  {
-    title: "detail page Lorem Ipsum Has Been In",
-    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
-
-In modern development workflow.`
-  },
-
-  {
-    title: "detail page Trusted Car Repair Experts",
-    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
-
-Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
-
-We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
-  },
-
-  {
-    title: "detail page  Fast & Professional Service",
-    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
-
-Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
-
- Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
-
-Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
-  },
-  {
-  title: "detail page Advanced Engine Diagnostics",
-  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
-
-Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
-
-Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
-
-We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
-},
-
-{
-  title: "detail page Quality Parts & Reliable Repairs",
-  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
-
-Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
-
-Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
-
-We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
-},
-
-{
-  title: "detail page  Customer Satisfaction Guaranteed",
-  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
-
-We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
-
-We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
-
-Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
-},
-]
-},
-  discription: {
-    heading: "Expert Engine Diagnostics Service  detail page",
- 
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ],
-    image:"/vogue fix my motor image 14.jpg"
-  },
   },
 
 
@@ -2788,8 +1281,9 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
   {
     id: 9,
     name: "Auto Electrical Services",
+    img:"/Auto Electrical Services.jpg",
     text: "Fine tuning service for better fuel efficiency, smoother acceleration, and optimized power output.",
-    slug: "Engine-Tuning",
+    slug: "Auto-Electrical-Services",
       Reviews:[
        {
     id: 1,
@@ -2820,94 +1314,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 
 
 contents:{
-  content1: {
-      heading: "About Us",
-  
-      greenHeading: "Trusted Engine Specialists",
-  
-      paragraph: [
-        "We provide professional engine diagnostics, repairs and maintenance services for all makes and models.",
-        
-        "From minor engine faults to major repairs, our certified technicians focus on quality workmanship, honest advice and long-term vehicle performance."
-      ],
-  
-      bullets: [
-        "Advanced engine diagnostics",
-        "Certified repair technicians",
-        "Quality parts and workmanship",
-        "Affordable and transparent pricing"
-      ]
-    },
-  
-  
-  
-    content2: {
-      heading: "Our Services",
-  
-      greenHeading: "Complete Engine Repair Solutions",
-  
-      paragraph: [
-        "Whether your vehicle has warning lights, overheating problems or reduced performance, we diagnose and fix issues efficiently.",
-  
-        "We offer preventative maintenance and full engine repair solutions to keep your car reliable and road ready."
-      ],
-  
-      bullets: [
-        "Engine diagnostics",
-        "Timing belt replacement",
-        "Cooling system repair",
-        "Oil leak repairs",
-        "Engine rebuild services"
-      ]
-    },
-  
-  
-  content3: {
-    heading: "Why Regular Engine Checkups Matter",
-    greenHeading: "Prevent breakdowns before they happen",
-    paragraph: [
-      "Your engine is the heart of your vehicle. Regular inspections help detect issues early and improve long-term performance.",
-      "Timely servicing ensures better fuel efficiency, smoother driving, and fewer unexpected repairs in the future."
-    ],
-    bullets: [
-      "Early problem detection",
-      "Improved fuel efficiency",
-      "Extended engine life",
-      "Cost-effective maintenance"
-    ]
-  },
-  
-  content4: {
-    heading: "Expert Engine Diagnostics Service",
-    greenHeading: "Advanced tools for accurate results",
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ]
-  },
-  
-  content5: {
-    heading: "Reliable Engine Repair Solutions",
-    greenHeading: "Quality repairs you can trust",
-    paragraph: [
-      "From minor fixes to major engine overhauls, we provide reliable repair services for all vehicle types.",
-      "We focus on long-lasting solutions using high-quality parts and professional workmanship."
-    ],
-    bullets: [
-      "Complete engine repair",
-      "High-quality spare parts",
-      "Experienced mechanics",
-      "Long-term reliability"
-    ]
-  },
-  
-    content6: {
+     content3: {
       heading: "Our Services",
   
       greenHeading: "Complete Engine Repair Solutions",
@@ -3019,86 +1426,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ]
 },
 
-green_slider2:{
-   img: "/slider_section_image.jpg",
-  items:  [
-  {
-    title: "detail page Lorem Ipsum Has Been In",
-    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
-
-In modern development workflow.`
-  },
-
-  {
-    title: "detail page Trusted Car Repair Experts",
-    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
-
-Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
-
-We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
-  },
-
-  {
-    title: "detail page  Fast & Professional Service",
-    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
-
-Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
-
- Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
-
-Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
-  },
-  {
-  title: "detail page Advanced Engine Diagnostics",
-  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
-
-Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
-
-Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
-
-We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
-},
-
-{
-  title: "detail page Quality Parts & Reliable Repairs",
-  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
-
-Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
-
-Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
-
-We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
-},
-
-{
-  title: "detail page  Customer Satisfaction Guaranteed",
-  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
-
-We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
-
-We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
-
-Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
-},
-]
-}, 
- discription: {
-    heading: "Expert Engine Diagnostics Service  detail page",
- 
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ],
-    image:"/vogue fix my motor image 14.jpg"
-  },
   },
 
 
@@ -3135,7 +1463,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     id: 10,
     name: "Hybrid and EV Repairs and Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Hybrid-EV-Repairs-Services",
+    img:"/Hybrid and EV Repairs and Services.png",
       Reviews:[
        {
     id: 1,
@@ -3162,94 +1491,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ],
 
 contents:{
-  content1: {
-      heading: "About Us",
-  
-      greenHeading: "Trusted Engine Specialists",
-  
-      paragraph: [
-        "We provide professional engine diagnostics, repairs and maintenance services for all makes and models.",
-        
-        "From minor engine faults to major repairs, our certified technicians focus on quality workmanship, honest advice and long-term vehicle performance."
-      ],
-  
-      bullets: [
-        "Advanced engine diagnostics",
-        "Certified repair technicians",
-        "Quality parts and workmanship",
-        "Affordable and transparent pricing"
-      ]
-    },
-  
-  
-  
-    content2: {
-      heading: "Our Services",
-  
-      greenHeading: "Complete Engine Repair Solutions",
-  
-      paragraph: [
-        "Whether your vehicle has warning lights, overheating problems or reduced performance, we diagnose and fix issues efficiently.",
-  
-        "We offer preventative maintenance and full engine repair solutions to keep your car reliable and road ready."
-      ],
-  
-      bullets: [
-        "Engine diagnostics",
-        "Timing belt replacement",
-        "Cooling system repair",
-        "Oil leak repairs",
-        "Engine rebuild services"
-      ]
-    },
-  
-  
-  content3: {
-    heading: "Why Regular Engine Checkups Matter",
-    greenHeading: "Prevent breakdowns before they happen",
-    paragraph: [
-      "Your engine is the heart of your vehicle. Regular inspections help detect issues early and improve long-term performance.",
-      "Timely servicing ensures better fuel efficiency, smoother driving, and fewer unexpected repairs in the future."
-    ],
-    bullets: [
-      "Early problem detection",
-      "Improved fuel efficiency",
-      "Extended engine life",
-      "Cost-effective maintenance"
-    ]
-  },
-  
-  content4: {
-    heading: "Expert Engine Diagnostics Service",
-    greenHeading: "Advanced tools for accurate results",
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ]
-  },
-  
-  content5: {
-    heading: "Reliable Engine Repair Solutions",
-    greenHeading: "Quality repairs you can trust",
-    paragraph: [
-      "From minor fixes to major engine overhauls, we provide reliable repair services for all vehicle types.",
-      "We focus on long-lasting solutions using high-quality parts and professional workmanship."
-    ],
-    bullets: [
-      "Complete engine repair",
-      "High-quality spare parts",
-      "Experienced mechanics",
-      "Long-term reliability"
-    ]
-  },
-  
-    content6: {
+
+    content3: {
       heading: "Our Services",
   
       greenHeading: "Complete Engine Repair Solutions",
@@ -3360,86 +1603,6 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ]
 },
 
-green_slider2:{
-   img: "/vogue fix my motor image 14.jpg",
-  items:  [
-  {
-    title: "detail page Lorem Ipsum Has Been In",
-    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
-
-In modern development workflow.`
-  },
-
-  {
-    title: "detail page Trusted Car Repair Experts",
-    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
-
-Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
-
-We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
-  },
-
-  {
-    title: "detail page  Fast & Professional Service",
-    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
-
-Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
-
- Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
-
-Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
-  },
-  {
-  title: "detail page Advanced Engine Diagnostics",
-  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
-
-Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
-
-Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
-
-We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
-},
-
-{
-  title: "detail page Quality Parts & Reliable Repairs",
-  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
-
-Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
-
-Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
-
-We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
-},
-
-{
-  title: "detail page  Customer Satisfaction Guaranteed",
-  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
-
-We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
-
-We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
-
-Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
-},
-]
-},
-  discription: {
-    heading: "Expert Engine Diagnostics Service  detail page",
- 
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ],
-    image:"/description.jpg"
-  },
   },
 
 
@@ -3468,7 +1631,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     id: 11,
     name: "Timing Belts",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
-    slug: "Transmission-Repair",
+    slug: "Timing-Belts",
+    img:"/Timing Belts.jpeg",
       Reviews:[
        {
     id: 1,
@@ -3495,94 +1659,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ],
 
 contents:{
-  content1: {
-      heading: "About Us",
-  
-      greenHeading: "Trusted Engine Specialists",
-  
-      paragraph: [
-        "We provide professional engine diagnostics, repairs and maintenance services for all makes and models.",
-        
-        "From minor engine faults to major repairs, our certified technicians focus on quality workmanship, honest advice and long-term vehicle performance."
-      ],
-  
-      bullets: [
-        "Advanced engine diagnostics",
-        "Certified repair technicians",
-        "Quality parts and workmanship",
-        "Affordable and transparent pricing"
-      ]
-    },
-  
-  
-  
-    content2: {
-      heading: "Our Services",
-  
-      greenHeading: "Complete Engine Repair Solutions",
-  
-      paragraph: [
-        "Whether your vehicle has warning lights, overheating problems or reduced performance, we diagnose and fix issues efficiently.",
-  
-        "We offer preventative maintenance and full engine repair solutions to keep your car reliable and road ready."
-      ],
-  
-      bullets: [
-        "Engine diagnostics",
-        "Timing belt replacement",
-        "Cooling system repair",
-        "Oil leak repairs",
-        "Engine rebuild services"
-      ]
-    },
-  
-  
-  content3: {
-    heading: "Why Regular Engine Checkups Matter",
-    greenHeading: "Prevent breakdowns before they happen",
-    paragraph: [
-      "Your engine is the heart of your vehicle. Regular inspections help detect issues early and improve long-term performance.",
-      "Timely servicing ensures better fuel efficiency, smoother driving, and fewer unexpected repairs in the future."
-    ],
-    bullets: [
-      "Early problem detection",
-      "Improved fuel efficiency",
-      "Extended engine life",
-      "Cost-effective maintenance"
-    ]
-  },
-  
-  content4: {
-    heading: "Expert Engine Diagnostics Service",
-    greenHeading: "Advanced tools for accurate results",
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ]
-  },
-  
-  content5: {
-    heading: "Reliable Engine Repair Solutions",
-    greenHeading: "Quality repairs you can trust",
-    paragraph: [
-      "From minor fixes to major engine overhauls, we provide reliable repair services for all vehicle types.",
-      "We focus on long-lasting solutions using high-quality parts and professional workmanship."
-    ],
-    bullets: [
-      "Complete engine repair",
-      "High-quality spare parts",
-      "Experienced mechanics",
-      "Long-term reliability"
-    ]
-  },
-  
-    content6: {
+     content3: {
       heading: "Our Services",
   
       greenHeading: "Complete Engine Repair Solutions",
@@ -3694,86 +1771,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ]
 },
 
-green_slider2:{
-   img: "/slider_section_image.jpg",
-  items:  [
-  {
-    title: "detail page Lorem Ipsum Has Been In",
-    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
-
-In modern development workflow.`
-  },
-
-  {
-    title: "detail page Trusted Car Repair Experts",
-    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
-
-Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
-
-We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
-  },
-
-  {
-    title: "detail page  Fast & Professional Service",
-    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
-
-Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
-
- Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
-
-Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
-  },
-  {
-  title: "detail page Advanced Engine Diagnostics",
-  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
-
-Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
-
-Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
-
-We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
-},
-
-{
-  title: "detail page Quality Parts & Reliable Repairs",
-  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
-
-Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
-
-Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
-
-We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
-},
-
-{
-  title: "detail page  Customer Satisfaction Guaranteed",
-  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
-
-We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
-
-We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
-
-Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
-},
-]
-},
-  discription: {
-    heading: "Expert Engine Diagnostics Service  detail page",
- 
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ],
-    image:"/vogue fix my motor image 17.jpg"
-  },
     },
 
 
@@ -3819,7 +1817,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    slug: "Cam-Belts",
+    img:"/Cam Belts.jpg",
       Reviews:[
        {
     id: 1,
@@ -3846,94 +1845,9 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ],
 
 contents:{
-  content1: {
-      heading: "About Us  detail page",
+ 
   
-      greenHeading: "Trusted Engine Specialists",
-  
-      paragraph: [
-        "We provide professional engine diagnostics, repairs and maintenance services for all makes and models.",
-        
-        "From minor engine faults to major repairs, our certified technicians focus on quality workmanship, honest advice and long-term vehicle performance."
-      ],
-  
-      bullets: [
-        "Advanced engine diagnostics",
-        "Certified repair technicians",
-        "Quality parts and workmanship",
-        "Affordable and transparent pricing"
-      ]
-    },
-  
-  
-  
-    content2: {
-      heading: "Our Services  detail page",
-  
-      greenHeading: "Complete Engine Repair Solutions",
-  
-      paragraph: [
-        "Whether your vehicle has warning lights, overheating problems or reduced performance, we diagnose and fix issues efficiently.",
-  
-        "We offer preventative maintenance and full engine repair solutions to keep your car reliable and road ready."
-      ],
-  
-      bullets: [
-        "Engine diagnostics",
-        "Timing belt replacement",
-        "Cooling system repair",
-        "Oil leak repairs",
-        "Engine rebuild services"
-      ]
-    },
-  
-  
-  content3: {
-    heading: "Why Regular Engine Checkups Matter  detail page",
-    greenHeading: "Prevent breakdowns before they happen",
-    paragraph: [
-      "Your engine is the heart of your vehicle. Regular inspections help detect issues early and improve long-term performance.",
-      "Timely servicing ensures better fuel efficiency, smoother driving, and fewer unexpected repairs in the future."
-    ],
-    bullets: [
-      "Early problem detection",
-      "Improved fuel efficiency",
-      "Extended engine life",
-      "Cost-effective maintenance"
-    ]
-  },
-  
-  content4: {
-    heading: "Expert Engine Diagnostics Service  detail page",
-    greenHeading: "Advanced tools for accurate results",
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ]
-  },
-  
-  content5: {
-    heading: "Reliable Engine Repair Solutions  detail page",
-    greenHeading: "Quality repairs you can trust",
-    paragraph: [
-      "From minor fixes to major engine overhauls, we provide reliable repair services for all vehicle types.",
-      "We focus on long-lasting solutions using high-quality parts and professional workmanship."
-    ],
-    bullets: [
-      "Complete engine repair",
-      "High-quality spare parts",
-      "Experienced mechanics",
-      "Long-term reliability"
-    ]
-  },
-  
-    content6: {
+    content3: {
       heading: "Our Services  detail page",
   
       greenHeading: "Complete Engine Repair Solutions",
@@ -4045,86 +1959,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ]
 },
 
-green_slider2:{
-   img: "/slider_section_image.jpg",
-  items:  [
-  {
-    title: "detail page Lorem Ipsum Has Been In",
-    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
-
-In modern development workflow.`
-  },
-
-  {
-    title: "detail page Trusted Car Repair Experts",
-    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
-
-Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
-
-We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
-  },
-
-  {
-    title: "detail page  Fast & Professional Service",
-    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
-
-Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
-
- Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
-
-Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
-  },
-  {
-  title: "detail page Advanced Engine Diagnostics",
-  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
-
-Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
-
-Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
-
-We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
-},
-
-{
-  title: "detail page Quality Parts & Reliable Repairs",
-  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
-
-Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
-
-Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
-
-We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
-},
-
-{
-  title: "detail page  Customer Satisfaction Guaranteed",
-  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
-
-We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
-
-We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
-
-Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
-},
-]
-},
-  discription: {
-    heading: "Expert Engine Diagnostics Service  detail page",
- 
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ],
-    image:"/vogue fix my motor image 17.jpg"
-  },
   },
 
 
@@ -4320,7 +2155,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     id: 13,
     name: "Wet Belt",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    slug: "Wet-Belt",
+    img:"/Wet Belt.webp",
       Reviews:[
        {
     id: 1,
@@ -4347,94 +2183,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ],
 
 contents:{
-  content1: {
-      heading: "About Us  detail page",
   
-      greenHeading: "Trusted Engine Specialists",
-  
-      paragraph: [
-        "We provide professional engine diagnostics, repairs and maintenance services for all makes and models.",
-        
-        "From minor engine faults to major repairs, our certified technicians focus on quality workmanship, honest advice and long-term vehicle performance."
-      ],
-  
-      bullets: [
-        "Advanced engine diagnostics",
-        "Certified repair technicians",
-        "Quality parts and workmanship",
-        "Affordable and transparent pricing"
-      ]
-    },
-  
-  
-  
-    content2: {
-      heading: "Our Services  detail page",
-  
-      greenHeading: "Complete Engine Repair Solutions",
-  
-      paragraph: [
-        "Whether your vehicle has warning lights, overheating problems or reduced performance, we diagnose and fix issues efficiently.",
-  
-        "We offer preventative maintenance and full engine repair solutions to keep your car reliable and road ready."
-      ],
-  
-      bullets: [
-        "Engine diagnostics",
-        "Timing belt replacement",
-        "Cooling system repair",
-        "Oil leak repairs",
-        "Engine rebuild services"
-      ]
-    },
-  
-  
-  content3: {
-    heading: "Why Regular Engine Checkups Matter  detail page",
-    greenHeading: "Prevent breakdowns before they happen",
-    paragraph: [
-      "Your engine is the heart of your vehicle. Regular inspections help detect issues early and improve long-term performance.",
-      "Timely servicing ensures better fuel efficiency, smoother driving, and fewer unexpected repairs in the future."
-    ],
-    bullets: [
-      "Early problem detection",
-      "Improved fuel efficiency",
-      "Extended engine life",
-      "Cost-effective maintenance"
-    ]
-  },
-  
-  content4: {
-    heading: "Expert Engine Diagnostics Service  detail page",
-    greenHeading: "Advanced tools for accurate results",
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ]
-  },
-  
-  content5: {
-    heading: "Reliable Engine Repair Solutions  detail page",
-    greenHeading: "Quality repairs you can trust",
-    paragraph: [
-      "From minor fixes to major engine overhauls, we provide reliable repair services for all vehicle types.",
-      "We focus on long-lasting solutions using high-quality parts and professional workmanship."
-    ],
-    bullets: [
-      "Complete engine repair",
-      "High-quality spare parts",
-      "Experienced mechanics",
-      "Long-term reliability"
-    ]
-  },
-  
-    content6: {
+    content3: {
       heading: "Our Services  detail page",
   
       greenHeading: "Complete Engine Repair Solutions",
@@ -4546,86 +2296,6 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ]
 },
 
-green_slider2:{
-   img: "/1.jpg",
-  items:  [
-  {
-    title: "detail page Lorem Ipsum Has Been In",
-    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
-
-In modern development workflow.`
-  },
-
-  {
-    title: "detail page Trusted Car Repair Experts",
-    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
-
-Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
-
-We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
-  },
-
-  {
-    title: "detail page  Fast & Professional Service",
-    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
-
-Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
-
- Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
-
-Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
-  },
-  {
-  title: "detail page Advanced Engine Diagnostics",
-  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
-
-Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
-
-Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
-
-We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
-},
-
-{
-  title: "detail page Quality Parts & Reliable Repairs",
-  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
-
-Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
-
-Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
-
-We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
-},
-
-{
-  title: "detail page  Customer Satisfaction Guaranteed",
-  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
-
-We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
-
-We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
-
-Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
-},
-]
-},
-  discription: {
-    heading: "Expert Engine Diagnostics Service  detail page",
- 
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ],
-    image:"/description.jpg"
-  },
   },
 
 
@@ -4694,7 +2364,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     id: 14,
     name: "All Repairs and Services",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "All-Repairs-Services",
+    img:"/All Repairs and Services.png",
     Reviews:[
        {
     id: 1,
@@ -4721,94 +2392,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ],
 
 contents:{
-  content1: {
-      heading: "About Us detail page",
-  
-      greenHeading: "Trusted Engine Specialists",
-  
-      paragraph: [
-        "We provide professional engine diagnostics, repairs and maintenance services for all makes and models.",
-        
-        "From minor engine faults to major repairs, our certified technicians focus on quality workmanship, honest advice and long-term vehicle performance."
-      ],
-  
-      bullets: [
-        "Advanced engine diagnostics",
-        "Certified repair technicians",
-        "Quality parts and workmanship",
-        "Affordable and transparent pricing"
-      ]
-    },
-  
-  
-  
-    content2: {
-      heading: "Our Services  detail page",
-  
-      greenHeading: "Complete Engine Repair Solutions",
-  
-      paragraph: [
-        "Whether your vehicle has warning lights, overheating problems or reduced performance, we diagnose and fix issues efficiently.",
-  
-        "We offer preventative maintenance and full engine repair solutions to keep your car reliable and road ready."
-      ],
-  
-      bullets: [
-        "Engine diagnostics",
-        "Timing belt replacement",
-        "Cooling system repair",
-        "Oil leak repairs",
-        "Engine rebuild services"
-      ]
-    },
-  
-  
-  content3: {
-    heading: "Why Regular Engine Checkups Matter  detail page",
-    greenHeading: "Prevent breakdowns before they happen",
-    paragraph: [
-      "Your engine is the heart of your vehicle. Regular inspections help detect issues early and improve long-term performance.",
-      "Timely servicing ensures better fuel efficiency, smoother driving, and fewer unexpected repairs in the future."
-    ],
-    bullets: [
-      "Early problem detection",
-      "Improved fuel efficiency",
-      "Extended engine life",
-      "Cost-effective maintenance"
-    ]
-  },
-  
-  content4: {
-    heading: "Expert Engine Diagnostics Service  detail page",
-    greenHeading: "Advanced tools for accurate results",
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ]
-  },
-  
-  content5: {
-    heading: "Reliable Engine Repair Solutions  detail page",
-    greenHeading: "Quality repairs you can trust",
-    paragraph: [
-      "From minor fixes to major engine overhauls, we provide reliable repair services for all vehicle types.",
-      "We focus on long-lasting solutions using high-quality parts and professional workmanship."
-    ],
-    bullets: [
-      "Complete engine repair",
-      "High-quality spare parts",
-      "Experienced mechanics",
-      "Long-term reliability"
-    ]
-  },
-  
-    content6: {
+     content3: {
       heading: "Our Services  detail page",
   
       greenHeading: "Complete Engine Repair Solutions",
@@ -4920,86 +2504,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ]
 },
 
-green_slider2:{
-   img: "/2.jpg",
-  items:  [
-  {
-    title: "detail page Lorem Ipsum Has Been In",
-    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
-
-In modern development workflow.`
-  },
-
-  {
-    title: "detail page Trusted Car Repair Experts",
-    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
-
-Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
-
-We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
-  },
-
-  {
-    title: "detail page  Fast & Professional Service",
-    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
-
-Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
-
- Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
-
-Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
-  },
-  {
-  title: "detail page Advanced Engine Diagnostics",
-  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
-
-Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
-
-Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
-
-We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
-},
-
-{
-  title: "detail page Quality Parts & Reliable Repairs",
-  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
-
-Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
-
-Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
-
-We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
-},
-
-{
-  title: "detail page  Customer Satisfaction Guaranteed",
-  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
-
-We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
-
-We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
-
-Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
-},
-]
-},
-discription: {
-    heading: "Expert Engine Diagnostics Service  detail page",
- 
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ],
-    image:"/3.jpg"
-  },
 
 
   },
@@ -5040,7 +2545,8 @@ discription: {
     id: 15,
     name: "Fuel System Cleaning",
     text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-    slug: "oil-change-service",
+    slug: "Fuel-System-Cleaning",
+    img:"/Fuel System Cleaning.jpg",
       Reviews:[
        {
     id: 1,
@@ -5067,94 +2573,8 @@ discription: {
 ],
 
 contents:{
-  content1: {
-      heading: "About Us",
-  
-      greenHeading: "Trusted Engine Specialists",
-  
-      paragraph: [
-        "We provide professional engine diagnostics, repairs and maintenance services for all makes and models.",
-        
-        "From minor engine faults to major repairs, our certified technicians focus on quality workmanship, honest advice and long-term vehicle performance."
-      ],
-  
-      bullets: [
-        "Advanced engine diagnostics",
-        "Certified repair technicians",
-        "Quality parts and workmanship",
-        "Affordable and transparent pricing"
-      ]
-    },
-  
-  
-  
-    content2: {
-      heading: "Our Services",
-  
-      greenHeading: "Complete Engine Repair Solutions",
-  
-      paragraph: [
-        "Whether your vehicle has warning lights, overheating problems or reduced performance, we diagnose and fix issues efficiently.",
-  
-        "We offer preventative maintenance and full engine repair solutions to keep your car reliable and road ready."
-      ],
-  
-      bullets: [
-        "Engine diagnostics",
-        "Timing belt replacement",
-        "Cooling system repair",
-        "Oil leak repairs",
-        "Engine rebuild services"
-      ]
-    },
-  
-  
-  content3: {
-    heading: "Why Regular Engine Checkups Matter",
-    greenHeading: "Prevent breakdowns before they happen",
-    paragraph: [
-      "Your engine is the heart of your vehicle. Regular inspections help detect issues early and improve long-term performance.",
-      "Timely servicing ensures better fuel efficiency, smoother driving, and fewer unexpected repairs in the future."
-    ],
-    bullets: [
-      "Early problem detection",
-      "Improved fuel efficiency",
-      "Extended engine life",
-      "Cost-effective maintenance"
-    ]
-  },
-  
-  content4: {
-    heading: "Expert Engine Diagnostics Service",
-    greenHeading: "Advanced tools for accurate results",
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ]
-  },
-  
-  content5: {
-    heading: "Reliable Engine Repair Solutions",
-    greenHeading: "Quality repairs you can trust",
-    paragraph: [
-      "From minor fixes to major engine overhauls, we provide reliable repair services for all vehicle types.",
-      "We focus on long-lasting solutions using high-quality parts and professional workmanship."
-    ],
-    bullets: [
-      "Complete engine repair",
-      "High-quality spare parts",
-      "Experienced mechanics",
-      "Long-term reliability"
-    ]
-  },
-  
-    content6: {
+ 
+    content3: {
       heading: "Our Services",
   
       greenHeading: "Complete Engine Repair Solutions",
@@ -5265,86 +2685,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ]
 },
 
-green_slider2:{
-   img: "/2.jpg",
-  items:  [
-  {
-    title: "detail page Lorem Ipsum Has Been In",
-    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
-
-In modern development workflow.`
-  },
-
-  {
-    title: "detail page Trusted Car Repair Experts",
-    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
-
-Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
-
-We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
-  },
-
-  {
-    title: "detail page  Fast & Professional Service",
-    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
-
-Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
-
- Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
-
-Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
-  },
-  {
-  title: "detail page Advanced Engine Diagnostics",
-  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
-
-Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
-
-Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
-
-We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
-},
-
-{
-  title: "detail page Quality Parts & Reliable Repairs",
-  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
-
-Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
-
-Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
-
-We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
-},
-
-{
-  title: "detail page  Customer Satisfaction Guaranteed",
-  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
-
-We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
-
-We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
-
-Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
-},
-]
-},
-  discription: {
-    heading: "Expert Engine Diagnostics Service  detail page",
- 
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ],
-    image:"/3.jpg"
-  },
   },
 
 
@@ -5384,7 +2725,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     id: 16,
     name: "AdBlue Services",
     text: "Fine tuning service for better fuel efficiency, smoother acceleration, and optimized power output.",
-    slug: "Engine-Tuning",
+    slug: "AdBlue-Services",
+    img:"/adblue serivice.jpg",
       Reviews:[
        {
     id: 1,
@@ -5415,94 +2757,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 
 
 contents:{
-  content1: {
-      heading: "About Us",
-  
-      greenHeading: "Trusted Engine Specialists",
-  
-      paragraph: [
-        "We provide professional engine diagnostics, repairs and maintenance services for all makes and models.",
-        
-        "From minor engine faults to major repairs, our certified technicians focus on quality workmanship, honest advice and long-term vehicle performance."
-      ],
-  
-      bullets: [
-        "Advanced engine diagnostics",
-        "Certified repair technicians",
-        "Quality parts and workmanship",
-        "Affordable and transparent pricing"
-      ]
-    },
-  
-  
-  
-    content2: {
-      heading: "Our Services",
-  
-      greenHeading: "Complete Engine Repair Solutions",
-  
-      paragraph: [
-        "Whether your vehicle has warning lights, overheating problems or reduced performance, we diagnose and fix issues efficiently.",
-  
-        "We offer preventative maintenance and full engine repair solutions to keep your car reliable and road ready."
-      ],
-  
-      bullets: [
-        "Engine diagnostics",
-        "Timing belt replacement",
-        "Cooling system repair",
-        "Oil leak repairs",
-        "Engine rebuild services"
-      ]
-    },
-  
-  
-  content3: {
-    heading: "Why Regular Engine Checkups Matter",
-    greenHeading: "Prevent breakdowns before they happen",
-    paragraph: [
-      "Your engine is the heart of your vehicle. Regular inspections help detect issues early and improve long-term performance.",
-      "Timely servicing ensures better fuel efficiency, smoother driving, and fewer unexpected repairs in the future."
-    ],
-    bullets: [
-      "Early problem detection",
-      "Improved fuel efficiency",
-      "Extended engine life",
-      "Cost-effective maintenance"
-    ]
-  },
-  
-  content4: {
-    heading: "Expert Engine Diagnostics Service",
-    greenHeading: "Advanced tools for accurate results",
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ]
-  },
-  
-  content5: {
-    heading: "Reliable Engine Repair Solutions",
-    greenHeading: "Quality repairs you can trust",
-    paragraph: [
-      "From minor fixes to major engine overhauls, we provide reliable repair services for all vehicle types.",
-      "We focus on long-lasting solutions using high-quality parts and professional workmanship."
-    ],
-    bullets: [
-      "Complete engine repair",
-      "High-quality spare parts",
-      "Experienced mechanics",
-      "Long-term reliability"
-    ]
-  },
-  
-    content6: {
+ 
+    content3: {
       heading: "Our Services",
   
       greenHeading: "Complete Engine Repair Solutions",
@@ -5614,86 +2870,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ]
 },
 
-green_slider2:{
-   img: "/2.jpg",
-  items:  [
-  {
-    title: "detail page Lorem Ipsum Has Been In",
-    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
-
-In modern development workflow.`
-  },
-
-  {
-    title: "detail page Trusted Car Repair Experts",
-    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
-
-Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
-
-We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
-  },
-
-  {
-    title: "detail page  Fast & Professional Service",
-    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
-
-Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
-
- Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
-
-Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
-  },
-  {
-  title: "detail page Advanced Engine Diagnostics",
-  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
-
-Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
-
-Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
-
-We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
-},
-
-{
-  title: "detail page Quality Parts & Reliable Repairs",
-  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
-
-Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
-
-Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
-
-We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
-},
-
-{
-  title: "detail page  Customer Satisfaction Guaranteed",
-  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
-
-We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
-
-We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
-
-Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
-},
-]
-}, 
- discription: {
-    heading: "Expert Engine Diagnostics Service  detail page",
- 
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ],
-    image:"/1.jpg"
-  },
   },
 
 
@@ -5730,7 +2907,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Welding-Services",
+    img:"/Welding Services.jpg",
       Reviews:[
        {
     id: 1,
@@ -5757,94 +2935,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ],
 
 contents:{
-  content1: {
-      heading: "About Us",
-  
-      greenHeading: "Trusted Engine Specialists",
-  
-      paragraph: [
-        "We provide professional engine diagnostics, repairs and maintenance services for all makes and models.",
-        
-        "From minor engine faults to major repairs, our certified technicians focus on quality workmanship, honest advice and long-term vehicle performance."
-      ],
-  
-      bullets: [
-        "Advanced engine diagnostics",
-        "Certified repair technicians",
-        "Quality parts and workmanship",
-        "Affordable and transparent pricing"
-      ]
-    },
-  
-  
-  
-    content2: {
-      heading: "Our Services",
-  
-      greenHeading: "Complete Engine Repair Solutions",
-  
-      paragraph: [
-        "Whether your vehicle has warning lights, overheating problems or reduced performance, we diagnose and fix issues efficiently.",
-  
-        "We offer preventative maintenance and full engine repair solutions to keep your car reliable and road ready."
-      ],
-  
-      bullets: [
-        "Engine diagnostics",
-        "Timing belt replacement",
-        "Cooling system repair",
-        "Oil leak repairs",
-        "Engine rebuild services"
-      ]
-    },
-  
-  
-  content3: {
-    heading: "Why Regular Engine Checkups Matter",
-    greenHeading: "Prevent breakdowns before they happen",
-    paragraph: [
-      "Your engine is the heart of your vehicle. Regular inspections help detect issues early and improve long-term performance.",
-      "Timely servicing ensures better fuel efficiency, smoother driving, and fewer unexpected repairs in the future."
-    ],
-    bullets: [
-      "Early problem detection",
-      "Improved fuel efficiency",
-      "Extended engine life",
-      "Cost-effective maintenance"
-    ]
-  },
-  
-  content4: {
-    heading: "Expert Engine Diagnostics Service",
-    greenHeading: "Advanced tools for accurate results",
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ]
-  },
-  
-  content5: {
-    heading: "Reliable Engine Repair Solutions",
-    greenHeading: "Quality repairs you can trust",
-    paragraph: [
-      "From minor fixes to major engine overhauls, we provide reliable repair services for all vehicle types.",
-      "We focus on long-lasting solutions using high-quality parts and professional workmanship."
-    ],
-    bullets: [
-      "Complete engine repair",
-      "High-quality spare parts",
-      "Experienced mechanics",
-      "Long-term reliability"
-    ]
-  },
-  
-    content6: {
+ 
+    content3: {
       heading: "Our Services",
   
       greenHeading: "Complete Engine Repair Solutions",
@@ -5955,86 +3047,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ]
 },
 
-green_slider2:{
-   img: "/3.jpg",
-  items:  [
-  {
-    title: "detail page Lorem Ipsum Has Been In",
-    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
-
-In modern development workflow.`
-  },
-
-  {
-    title: "detail page Trusted Car Repair Experts",
-    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
-
-Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
-
-We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
-  },
-
-  {
-    title: "detail page  Fast & Professional Service",
-    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
-
-Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
-
- Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
-
-Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
-  },
-  {
-  title: "detail page Advanced Engine Diagnostics",
-  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
-
-Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
-
-Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
-
-We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
-},
-
-{
-  title: "detail page Quality Parts & Reliable Repairs",
-  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
-
-Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
-
-Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
-
-We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
-},
-
-{
-  title: "detail page  Customer Satisfaction Guaranteed",
-  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
-
-We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
-
-We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
-
-Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
-},
-]
-},
-  discription: {
-    heading: "Expert Engine Diagnostics Service  detail page",
- 
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ],
-    image:"/description.jpg"
-  },
   },
 
 
@@ -6063,7 +3076,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     id: 18,
     name: "NOx Sensor Repair",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
-    slug: "Transmission-Repair",
+    slug: "NOx-Sensor-Repair",
+    img:"/NOx Sensor Repair.webp",
       Reviews:[
        {
     id: 1,
@@ -6090,94 +3104,9 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ],
 
 contents:{
-  content1: {
-      heading: "About Us",
+ 
   
-      greenHeading: "Trusted Engine Specialists",
-  
-      paragraph: [
-        "We provide professional engine diagnostics, repairs and maintenance services for all makes and models.",
-        
-        "From minor engine faults to major repairs, our certified technicians focus on quality workmanship, honest advice and long-term vehicle performance."
-      ],
-  
-      bullets: [
-        "Advanced engine diagnostics",
-        "Certified repair technicians",
-        "Quality parts and workmanship",
-        "Affordable and transparent pricing"
-      ]
-    },
-  
-  
-  
-    content2: {
-      heading: "Our Services",
-  
-      greenHeading: "Complete Engine Repair Solutions",
-  
-      paragraph: [
-        "Whether your vehicle has warning lights, overheating problems or reduced performance, we diagnose and fix issues efficiently.",
-  
-        "We offer preventative maintenance and full engine repair solutions to keep your car reliable and road ready."
-      ],
-  
-      bullets: [
-        "Engine diagnostics",
-        "Timing belt replacement",
-        "Cooling system repair",
-        "Oil leak repairs",
-        "Engine rebuild services"
-      ]
-    },
-  
-  
-  content3: {
-    heading: "Why Regular Engine Checkups Matter",
-    greenHeading: "Prevent breakdowns before they happen",
-    paragraph: [
-      "Your engine is the heart of your vehicle. Regular inspections help detect issues early and improve long-term performance.",
-      "Timely servicing ensures better fuel efficiency, smoother driving, and fewer unexpected repairs in the future."
-    ],
-    bullets: [
-      "Early problem detection",
-      "Improved fuel efficiency",
-      "Extended engine life",
-      "Cost-effective maintenance"
-    ]
-  },
-  
-  content4: {
-    heading: "Expert Engine Diagnostics Service",
-    greenHeading: "Advanced tools for accurate results",
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ]
-  },
-  
-  content5: {
-    heading: "Reliable Engine Repair Solutions",
-    greenHeading: "Quality repairs you can trust",
-    paragraph: [
-      "From minor fixes to major engine overhauls, we provide reliable repair services for all vehicle types.",
-      "We focus on long-lasting solutions using high-quality parts and professional workmanship."
-    ],
-    bullets: [
-      "Complete engine repair",
-      "High-quality spare parts",
-      "Experienced mechanics",
-      "Long-term reliability"
-    ]
-  },
-  
-    content6: {
+    content3: {
       heading: "Our Services",
   
       greenHeading: "Complete Engine Repair Solutions",
@@ -6289,86 +3218,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ]
 },
 
-green_slider2:{
-   img: "/slider_section_image.jpg",
-  items:  [
-  {
-    title: "detail page Lorem Ipsum Has Been In",
-    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
-
-In modern development workflow.`
-  },
-
-  {
-    title: "detail page Trusted Car Repair Experts",
-    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
-
-Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
-
-We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
-  },
-
-  {
-    title: "detail page  Fast & Professional Service",
-    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
-
-Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
-
- Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
-
-Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
-  },
-  {
-  title: "detail page Advanced Engine Diagnostics",
-  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
-
-Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
-
-Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
-
-We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
-},
-
-{
-  title: "detail page Quality Parts & Reliable Repairs",
-  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
-
-Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
-
-Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
-
-We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
-},
-
-{
-  title: "detail page  Customer Satisfaction Guaranteed",
-  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
-
-We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
-
-We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
-
-Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
-},
-]
-},
-  discription: {
-    heading: "Expert Engine Diagnostics Service  detail page",
- 
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ],
-    image:"/vogue fix my motor image 14.jpg"
-  },
     },
 
 
@@ -6414,7 +3264,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     id: 19,
     name: "Locking Wheel Nut Removal / Replacement",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    slug: "Locking-Wheel-Nut-Removal-Replacement",
+    img:"/Locking Wheel Nut Removal - Replacement.jpeg",
       Reviews:[
        {
     id: 1,
@@ -6441,94 +3292,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ],
 
 contents:{
-  content1: {
-      heading: "About Us  detail page",
   
-      greenHeading: "Trusted Engine Specialists",
-  
-      paragraph: [
-        "We provide professional engine diagnostics, repairs and maintenance services for all makes and models.",
-        
-        "From minor engine faults to major repairs, our certified technicians focus on quality workmanship, honest advice and long-term vehicle performance."
-      ],
-  
-      bullets: [
-        "Advanced engine diagnostics",
-        "Certified repair technicians",
-        "Quality parts and workmanship",
-        "Affordable and transparent pricing"
-      ]
-    },
-  
-  
-  
-    content2: {
-      heading: "Our Services  detail page",
-  
-      greenHeading: "Complete Engine Repair Solutions",
-  
-      paragraph: [
-        "Whether your vehicle has warning lights, overheating problems or reduced performance, we diagnose and fix issues efficiently.",
-  
-        "We offer preventative maintenance and full engine repair solutions to keep your car reliable and road ready."
-      ],
-  
-      bullets: [
-        "Engine diagnostics",
-        "Timing belt replacement",
-        "Cooling system repair",
-        "Oil leak repairs",
-        "Engine rebuild services"
-      ]
-    },
-  
-  
-  content3: {
-    heading: "Why Regular Engine Checkups Matter  detail page",
-    greenHeading: "Prevent breakdowns before they happen",
-    paragraph: [
-      "Your engine is the heart of your vehicle. Regular inspections help detect issues early and improve long-term performance.",
-      "Timely servicing ensures better fuel efficiency, smoother driving, and fewer unexpected repairs in the future."
-    ],
-    bullets: [
-      "Early problem detection",
-      "Improved fuel efficiency",
-      "Extended engine life",
-      "Cost-effective maintenance"
-    ]
-  },
-  
-  content4: {
-    heading: "Expert Engine Diagnostics Service  detail page",
-    greenHeading: "Advanced tools for accurate results",
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ]
-  },
-  
-  content5: {
-    heading: "Reliable Engine Repair Solutions  detail page",
-    greenHeading: "Quality repairs you can trust",
-    paragraph: [
-      "From minor fixes to major engine overhauls, we provide reliable repair services for all vehicle types.",
-      "We focus on long-lasting solutions using high-quality parts and professional workmanship."
-    ],
-    bullets: [
-      "Complete engine repair",
-      "High-quality spare parts",
-      "Experienced mechanics",
-      "Long-term reliability"
-    ]
-  },
-  
-    content6: {
+    content3: {
       heading: "Our Services  detail page",
   
       greenHeading: "Complete Engine Repair Solutions",
@@ -6640,86 +3405,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ]
 },
 
-green_slider2:{
-   img: "/3.jpg",
-  items:  [
-  {
-    title: "detail page Lorem Ipsum Has Been In",
-    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
 
-In modern development workflow.`
-  },
-
-  {
-    title: "detail page Trusted Car Repair Experts",
-    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
-
-Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
-
-We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
-  },
-
-  {
-    title: "detail page  Fast & Professional Service",
-    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
-
-Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
-
- Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
-
-Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
-  },
-  {
-  title: "detail page Advanced Engine Diagnostics",
-  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
-
-Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
-
-Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
-
-We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
-},
-
-{
-  title: "detail page Quality Parts & Reliable Repairs",
-  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
-
-Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
-
-Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
-
-We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
-},
-
-{
-  title: "detail page  Customer Satisfaction Guaranteed",
-  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
-
-We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
-
-We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
-
-Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
-},
-]
-},
-  discription: {
-    heading: "Expert Engine Diagnostics Service  detail page",
- 
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ],
-    image:"/vogue fix my motor image 22.jpg"
-  },
   },
 
 
@@ -6799,7 +3486,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     id: 20,
     name: "24/7 Vehicle Recovery",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    slug: "24-7-Vehicle-Recovery",
+    img:"/24-7 Vehicle Recovery.jpg",
       Reviews:[
        {
     id: 1,
@@ -6826,94 +3514,9 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ],
 
 contents:{
-  content1: {
-      heading: "About Us  detail page",
+ 
   
-      greenHeading: "Trusted Engine Specialists",
-  
-      paragraph: [
-        "We provide professional engine diagnostics, repairs and maintenance services for all makes and models.",
-        
-        "From minor engine faults to major repairs, our certified technicians focus on quality workmanship, honest advice and long-term vehicle performance."
-      ],
-  
-      bullets: [
-        "Advanced engine diagnostics",
-        "Certified repair technicians",
-        "Quality parts and workmanship",
-        "Affordable and transparent pricing"
-      ]
-    },
-  
-  
-  
-    content2: {
-      heading: "Our Services  detail page",
-  
-      greenHeading: "Complete Engine Repair Solutions",
-  
-      paragraph: [
-        "Whether your vehicle has warning lights, overheating problems or reduced performance, we diagnose and fix issues efficiently.",
-  
-        "We offer preventative maintenance and full engine repair solutions to keep your car reliable and road ready."
-      ],
-  
-      bullets: [
-        "Engine diagnostics",
-        "Timing belt replacement",
-        "Cooling system repair",
-        "Oil leak repairs",
-        "Engine rebuild services"
-      ]
-    },
-  
-  
-  content3: {
-    heading: "Why Regular Engine Checkups Matter  detail page",
-    greenHeading: "Prevent breakdowns before they happen",
-    paragraph: [
-      "Your engine is the heart of your vehicle. Regular inspections help detect issues early and improve long-term performance.",
-      "Timely servicing ensures better fuel efficiency, smoother driving, and fewer unexpected repairs in the future."
-    ],
-    bullets: [
-      "Early problem detection",
-      "Improved fuel efficiency",
-      "Extended engine life",
-      "Cost-effective maintenance"
-    ]
-  },
-  
-  content4: {
-    heading: "Expert Engine Diagnostics Service  detail page",
-    greenHeading: "Advanced tools for accurate results",
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ]
-  },
-  
-  content5: {
-    heading: "Reliable Engine Repair Solutions  detail page",
-    greenHeading: "Quality repairs you can trust",
-    paragraph: [
-      "From minor fixes to major engine overhauls, we provide reliable repair services for all vehicle types.",
-      "We focus on long-lasting solutions using high-quality parts and professional workmanship."
-    ],
-    bullets: [
-      "Complete engine repair",
-      "High-quality spare parts",
-      "Experienced mechanics",
-      "Long-term reliability"
-    ]
-  },
-  
-    content6: {
+    content3: {
       heading: "Our Services  detail page",
   
       greenHeading: "Complete Engine Repair Solutions",
@@ -7025,86 +3628,6 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ]
 },
 
-green_slider2:{
-   img: "/vogue fix my motor image 17.jpg",
-  items:  [
-  {
-    title: "detail page Lorem Ipsum Has Been In",
-    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
-
-In modern development workflow.`
-  },
-
-  {
-    title: "detail page Trusted Car Repair Experts",
-    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
-
-Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
-
-We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
-  },
-
-  {
-    title: "detail page  Fast & Professional Service",
-    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
-
-Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
-
- Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
-
-Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
-  },
-  {
-  title: "detail page Advanced Engine Diagnostics",
-  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
-
-Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
-
-Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
-
-We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
-},
-
-{
-  title: "detail page Quality Parts & Reliable Repairs",
-  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
-
-Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
-
-Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
-
-We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
-},
-
-{
-  title: "detail page  Customer Satisfaction Guaranteed",
-  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
-
-We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
-
-We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
-
-Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
-},
-]
-},
-  discription: {
-    heading: "Expert Engine Diagnostics Service  detail page",
- 
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ],
-    image:"/vogue fix my motor image 21.jpg"
-  },
   },
 
 
@@ -7173,7 +3696,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     id: 21,
     name: "Valeting Services",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Valeting-Services",
+    img:"/Valeting Service.jpg",
     Reviews:[
        {
     id: 1,
@@ -7200,94 +3724,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ],
 
 contents:{
-  content1: {
-      heading: "About Us detail page",
-  
-      greenHeading: "Trusted Engine Specialists",
-  
-      paragraph: [
-        "We provide professional engine diagnostics, repairs and maintenance services for all makes and models.",
-        
-        "From minor engine faults to major repairs, our certified technicians focus on quality workmanship, honest advice and long-term vehicle performance."
-      ],
-  
-      bullets: [
-        "Advanced engine diagnostics",
-        "Certified repair technicians",
-        "Quality parts and workmanship",
-        "Affordable and transparent pricing"
-      ]
-    },
-  
-  
-  
-    content2: {
-      heading: "Our Services  detail page",
-  
-      greenHeading: "Complete Engine Repair Solutions",
-  
-      paragraph: [
-        "Whether your vehicle has warning lights, overheating problems or reduced performance, we diagnose and fix issues efficiently.",
-  
-        "We offer preventative maintenance and full engine repair solutions to keep your car reliable and road ready."
-      ],
-  
-      bullets: [
-        "Engine diagnostics",
-        "Timing belt replacement",
-        "Cooling system repair",
-        "Oil leak repairs",
-        "Engine rebuild services"
-      ]
-    },
-  
-  
-  content3: {
-    heading: "Why Regular Engine Checkups Matter  detail page",
-    greenHeading: "Prevent breakdowns before they happen",
-    paragraph: [
-      "Your engine is the heart of your vehicle. Regular inspections help detect issues early and improve long-term performance.",
-      "Timely servicing ensures better fuel efficiency, smoother driving, and fewer unexpected repairs in the future."
-    ],
-    bullets: [
-      "Early problem detection",
-      "Improved fuel efficiency",
-      "Extended engine life",
-      "Cost-effective maintenance"
-    ]
-  },
-  
-  content4: {
-    heading: "Expert Engine Diagnostics Service  detail page",
-    greenHeading: "Advanced tools for accurate results",
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ]
-  },
-  
-  content5: {
-    heading: "Reliable Engine Repair Solutions  detail page",
-    greenHeading: "Quality repairs you can trust",
-    paragraph: [
-      "From minor fixes to major engine overhauls, we provide reliable repair services for all vehicle types.",
-      "We focus on long-lasting solutions using high-quality parts and professional workmanship."
-    ],
-    bullets: [
-      "Complete engine repair",
-      "High-quality spare parts",
-      "Experienced mechanics",
-      "Long-term reliability"
-    ]
-  },
-  
-    content6: {
+     content3: {
       heading: "Our Services  detail page",
   
       greenHeading: "Complete Engine Repair Solutions",
@@ -7399,87 +3836,6 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ]
 },
 
-green_slider2:{
-   img: "/vogue fix my motor image 21.jpg",
-  items:  [
-  {
-    title: "detail page Lorem Ipsum Has Been In",
-    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
-
-In modern development workflow.`
-  },
-
-  {
-    title: "detail page Trusted Car Repair Experts",
-    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
-
-Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
-
-We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
-  },
-
-  {
-    title: "detail page  Fast & Professional Service",
-    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
-
-Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
-
- Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
-
-Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
-  },
-  {
-  title: "detail page Advanced Engine Diagnostics",
-  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
-
-Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
-
-Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
-
-We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
-},
-
-{
-  title: "detail page Quality Parts & Reliable Repairs",
-  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
-
-Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
-
-Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
-
-We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
-},
-
-{
-  title: "detail page  Customer Satisfaction Guaranteed",
-  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
-
-We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
-
-We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
-
-Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
-},
-]
-},
-discription: {
-    heading: "Expert Engine Diagnostics Service  detail page",
- 
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ],
-    image:"/vogue fix my motor image 21.jpg"
-  },
-
 
   },
 
@@ -7519,7 +3875,8 @@ discription: {
     id: 22,
     name: "Diagnostics",
     text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-    slug: "oil-change-service",
+    slug: "Diagnostics",
+    img:"/Diagnostics.jpg",
       Reviews:[
        {
     id: 1,
@@ -7546,94 +3903,8 @@ discription: {
 ],
 
 contents:{
-  content1: {
-      heading: "About Us",
-  
-      greenHeading: "Trusted Engine Specialists",
-  
-      paragraph: [
-        "We provide professional engine diagnostics, repairs and maintenance services for all makes and models.",
-        
-        "From minor engine faults to major repairs, our certified technicians focus on quality workmanship, honest advice and long-term vehicle performance."
-      ],
-  
-      bullets: [
-        "Advanced engine diagnostics",
-        "Certified repair technicians",
-        "Quality parts and workmanship",
-        "Affordable and transparent pricing"
-      ]
-    },
-  
-  
-  
-    content2: {
-      heading: "Our Services",
-  
-      greenHeading: "Complete Engine Repair Solutions",
-  
-      paragraph: [
-        "Whether your vehicle has warning lights, overheating problems or reduced performance, we diagnose and fix issues efficiently.",
-  
-        "We offer preventative maintenance and full engine repair solutions to keep your car reliable and road ready."
-      ],
-  
-      bullets: [
-        "Engine diagnostics",
-        "Timing belt replacement",
-        "Cooling system repair",
-        "Oil leak repairs",
-        "Engine rebuild services"
-      ]
-    },
-  
-  
-  content3: {
-    heading: "Why Regular Engine Checkups Matter",
-    greenHeading: "Prevent breakdowns before they happen",
-    paragraph: [
-      "Your engine is the heart of your vehicle. Regular inspections help detect issues early and improve long-term performance.",
-      "Timely servicing ensures better fuel efficiency, smoother driving, and fewer unexpected repairs in the future."
-    ],
-    bullets: [
-      "Early problem detection",
-      "Improved fuel efficiency",
-      "Extended engine life",
-      "Cost-effective maintenance"
-    ]
-  },
-  
-  content4: {
-    heading: "Expert Engine Diagnostics Service",
-    greenHeading: "Advanced tools for accurate results",
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ]
-  },
-  
-  content5: {
-    heading: "Reliable Engine Repair Solutions",
-    greenHeading: "Quality repairs you can trust",
-    paragraph: [
-      "From minor fixes to major engine overhauls, we provide reliable repair services for all vehicle types.",
-      "We focus on long-lasting solutions using high-quality parts and professional workmanship."
-    ],
-    bullets: [
-      "Complete engine repair",
-      "High-quality spare parts",
-      "Experienced mechanics",
-      "Long-term reliability"
-    ]
-  },
-  
-    content6: {
+ 
+    content3: {
       heading: "Our Services",
   
       greenHeading: "Complete Engine Repair Solutions",
@@ -7744,86 +4015,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ]
 },
 
-green_slider2:{
-   img: "/vogue fix my motor image 20.jpg",
-  items:  [
-  {
-    title: "detail page Lorem Ipsum Has Been In",
-    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
 
-In modern development workflow.`
-  },
-
-  {
-    title: "detail page Trusted Car Repair Experts",
-    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
-
-Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
-
-We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
-  },
-
-  {
-    title: "detail page  Fast & Professional Service",
-    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
-
-Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
-
- Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
-
-Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
-  },
-  {
-  title: "detail page Advanced Engine Diagnostics",
-  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
-
-Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
-
-Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
-
-We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
-},
-
-{
-  title: "detail page Quality Parts & Reliable Repairs",
-  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
-
-Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
-
-Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
-
-We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
-},
-
-{
-  title: "detail page  Customer Satisfaction Guaranteed",
-  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
-
-We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
-
-We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
-
-Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
-},
-]
-},
-  discription: {
-    heading: "Expert Engine Diagnostics Service  detail page",
- 
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ],
-    image:"/vogue fix my motor image 20.jpg"
-  },
   },
 
 
@@ -7863,7 +4056,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     id: 23,
     name: "Water Pump Replacement",
     text: "Fine tuning service for better fuel efficiency, smoother acceleration, and optimized power output.",
-    slug: "Engine-Tunings",
+    slug: "Water-Pump-Replacement",
+    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.jpg",
       Reviews:[
        {
     id: 1,
@@ -7894,94 +4088,9 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 
 
 contents:{
-  content1: {
-      heading: "About Us",
+
   
-      greenHeading: "Trusted Engine Specialists",
-  
-      paragraph: [
-        "We provide professional engine diagnostics, repairs and maintenance services for all makes and models.",
-        
-        "From minor engine faults to major repairs, our certified technicians focus on quality workmanship, honest advice and long-term vehicle performance."
-      ],
-  
-      bullets: [
-        "Advanced engine diagnostics",
-        "Certified repair technicians",
-        "Quality parts and workmanship",
-        "Affordable and transparent pricing"
-      ]
-    },
-  
-  
-  
-    content2: {
-      heading: "Our Services",
-  
-      greenHeading: "Complete Engine Repair Solutions",
-  
-      paragraph: [
-        "Whether your vehicle has warning lights, overheating problems or reduced performance, we diagnose and fix issues efficiently.",
-  
-        "We offer preventative maintenance and full engine repair solutions to keep your car reliable and road ready."
-      ],
-  
-      bullets: [
-        "Engine diagnostics",
-        "Timing belt replacement",
-        "Cooling system repair",
-        "Oil leak repairs",
-        "Engine rebuild services"
-      ]
-    },
-  
-  
-  content3: {
-    heading: "Why Regular Engine Checkups Matter",
-    greenHeading: "Prevent breakdowns before they happen",
-    paragraph: [
-      "Your engine is the heart of your vehicle. Regular inspections help detect issues early and improve long-term performance.",
-      "Timely servicing ensures better fuel efficiency, smoother driving, and fewer unexpected repairs in the future."
-    ],
-    bullets: [
-      "Early problem detection",
-      "Improved fuel efficiency",
-      "Extended engine life",
-      "Cost-effective maintenance"
-    ]
-  },
-  
-  content4: {
-    heading: "Expert Engine Diagnostics Service",
-    greenHeading: "Advanced tools for accurate results",
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ]
-  },
-  
-  content5: {
-    heading: "Reliable Engine Repair Solutions",
-    greenHeading: "Quality repairs you can trust",
-    paragraph: [
-      "From minor fixes to major engine overhauls, we provide reliable repair services for all vehicle types.",
-      "We focus on long-lasting solutions using high-quality parts and professional workmanship."
-    ],
-    bullets: [
-      "Complete engine repair",
-      "High-quality spare parts",
-      "Experienced mechanics",
-      "Long-term reliability"
-    ]
-  },
-  
-    content6: {
+    content3: {
       heading: "Our Services",
   
       greenHeading: "Complete Engine Repair Solutions",
@@ -8093,86 +4202,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ]
 },
 
-green_slider2:{
-   img: "/wowimage.jpg",
-  items:  [
-  {
-    title: "detail page Lorem Ipsum Has Been In",
-    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
-
-In modern development workflow.`
-  },
-
-  {
-    title: "detail page Trusted Car Repair Experts",
-    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
-
-Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
-
-We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
-  },
-
-  {
-    title: "detail page  Fast & Professional Service",
-    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
-
-Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
-
- Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
-
-Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
-  },
-  {
-  title: "detail page Advanced Engine Diagnostics",
-  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
-
-Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
-
-Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
-
-We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
-},
-
-{
-  title: "detail page Quality Parts & Reliable Repairs",
-  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
-
-Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
-
-Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
-
-We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
-},
-
-{
-  title: "detail page  Customer Satisfaction Guaranteed",
-  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
-
-We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
-
-We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
-
-Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
-},
-]
-}, 
- discription: {
-    heading: "Expert Engine Diagnostics Service  detail page",
- 
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ],
-    image:"/vogue fix my motor image 14.jpg"
-  },
   },
 
 
@@ -8209,7 +4239,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     id: 24,
     name: "General Service",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "General-Service",
+    img:"/gernal service.avif",
       Reviews:[
        {
     id: 1,
@@ -8236,94 +4267,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ],
 
 contents:{
-  content1: {
-      heading: "About Us",
-  
-      greenHeading: "Trusted Engine Specialists",
-  
-      paragraph: [
-        "We provide professional engine diagnostics, repairs and maintenance services for all makes and models.",
-        
-        "From minor engine faults to major repairs, our certified technicians focus on quality workmanship, honest advice and long-term vehicle performance."
-      ],
-  
-      bullets: [
-        "Advanced engine diagnostics",
-        "Certified repair technicians",
-        "Quality parts and workmanship",
-        "Affordable and transparent pricing"
-      ]
-    },
-  
-  
-  
-    content2: {
-      heading: "Our Services",
-  
-      greenHeading: "Complete Engine Repair Solutions",
-  
-      paragraph: [
-        "Whether your vehicle has warning lights, overheating problems or reduced performance, we diagnose and fix issues efficiently.",
-  
-        "We offer preventative maintenance and full engine repair solutions to keep your car reliable and road ready."
-      ],
-  
-      bullets: [
-        "Engine diagnostics",
-        "Timing belt replacement",
-        "Cooling system repair",
-        "Oil leak repairs",
-        "Engine rebuild services"
-      ]
-    },
-  
-  
-  content3: {
-    heading: "Why Regular Engine Checkups Matter",
-    greenHeading: "Prevent breakdowns before they happen",
-    paragraph: [
-      "Your engine is the heart of your vehicle. Regular inspections help detect issues early and improve long-term performance.",
-      "Timely servicing ensures better fuel efficiency, smoother driving, and fewer unexpected repairs in the future."
-    ],
-    bullets: [
-      "Early problem detection",
-      "Improved fuel efficiency",
-      "Extended engine life",
-      "Cost-effective maintenance"
-    ]
-  },
-  
-  content4: {
-    heading: "Expert Engine Diagnostics Service",
-    greenHeading: "Advanced tools for accurate results",
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ]
-  },
-  
-  content5: {
-    heading: "Reliable Engine Repair Solutions",
-    greenHeading: "Quality repairs you can trust",
-    paragraph: [
-      "From minor fixes to major engine overhauls, we provide reliable repair services for all vehicle types.",
-      "We focus on long-lasting solutions using high-quality parts and professional workmanship."
-    ],
-    bullets: [
-      "Complete engine repair",
-      "High-quality spare parts",
-      "Experienced mechanics",
-      "Long-term reliability"
-    ]
-  },
-  
-    content6: {
+
+    content3: {
       heading: "Our Services",
   
       greenHeading: "Complete Engine Repair Solutions",
@@ -8434,86 +4379,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ]
 },
 
-green_slider2:{
-   img: "/vogue fix my motor image 18.jpg",
-  items:  [
-  {
-    title: "detail page Lorem Ipsum Has Been In",
-    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
-
-In modern development workflow.`
-  },
-
-  {
-    title: "detail page Trusted Car Repair Experts",
-    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
-
-Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
-
-We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
-  },
-
-  {
-    title: "detail page  Fast & Professional Service",
-    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
-
-Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
-
- Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
-
-Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
-  },
-  {
-  title: "detail page Advanced Engine Diagnostics",
-  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
-
-Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
-
-Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
-
-We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
-},
-
-{
-  title: "detail page Quality Parts & Reliable Repairs",
-  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
-
-Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
-
-Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
-
-We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
-},
-
-{
-  title: "detail page  Customer Satisfaction Guaranteed",
-  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
-
-We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
-
-We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
-
-Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
-},
-]
-},
-  discription: {
-    heading: "Expert Engine Diagnostics Service  detail page",
- 
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ],
-    image:"/vogue fix my motor image 18.jpg"
-  },
   },
 
 
@@ -8542,7 +4408,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     id: 25,
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
-    slug: "Transmission-Repair",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.jpg",
       Reviews:[
        {
     id: 1,
@@ -8569,94 +4436,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ],
 
 contents:{
-  content1: {
-      heading: "About Us",
-  
-      greenHeading: "Trusted Engine Specialists",
-  
-      paragraph: [
-        "We provide professional engine diagnostics, repairs and maintenance services for all makes and models.",
-        
-        "From minor engine faults to major repairs, our certified technicians focus on quality workmanship, honest advice and long-term vehicle performance."
-      ],
-  
-      bullets: [
-        "Advanced engine diagnostics",
-        "Certified repair technicians",
-        "Quality parts and workmanship",
-        "Affordable and transparent pricing"
-      ]
-    },
-  
-  
-  
-    content2: {
-      heading: "Our Services",
-  
-      greenHeading: "Complete Engine Repair Solutions",
-  
-      paragraph: [
-        "Whether your vehicle has warning lights, overheating problems or reduced performance, we diagnose and fix issues efficiently.",
-  
-        "We offer preventative maintenance and full engine repair solutions to keep your car reliable and road ready."
-      ],
-  
-      bullets: [
-        "Engine diagnostics",
-        "Timing belt replacement",
-        "Cooling system repair",
-        "Oil leak repairs",
-        "Engine rebuild services"
-      ]
-    },
-  
-  
-  content3: {
-    heading: "Why Regular Engine Checkups Matter",
-    greenHeading: "Prevent breakdowns before they happen",
-    paragraph: [
-      "Your engine is the heart of your vehicle. Regular inspections help detect issues early and improve long-term performance.",
-      "Timely servicing ensures better fuel efficiency, smoother driving, and fewer unexpected repairs in the future."
-    ],
-    bullets: [
-      "Early problem detection",
-      "Improved fuel efficiency",
-      "Extended engine life",
-      "Cost-effective maintenance"
-    ]
-  },
-  
-  content4: {
-    heading: "Expert Engine Diagnostics Service",
-    greenHeading: "Advanced tools for accurate results",
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ]
-  },
-  
-  content5: {
-    heading: "Reliable Engine Repair Solutions",
-    greenHeading: "Quality repairs you can trust",
-    paragraph: [
-      "From minor fixes to major engine overhauls, we provide reliable repair services for all vehicle types.",
-      "We focus on long-lasting solutions using high-quality parts and professional workmanship."
-    ],
-    bullets: [
-      "Complete engine repair",
-      "High-quality spare parts",
-      "Experienced mechanics",
-      "Long-term reliability"
-    ]
-  },
-  
-    content6: {
+
+    content3: {
       heading: "Our Services",
   
       greenHeading: "Complete Engine Repair Solutions",
@@ -8768,86 +4549,6 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ]
 },
 
-green_slider2:{
-   img: "vogue fix my motor image 17.jpg",
-  items:  [
-  {
-    title: "detail page Lorem Ipsum Has Been In",
-    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
-
-In modern development workflow.`
-  },
-
-  {
-    title: "detail page Trusted Car Repair Experts",
-    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
-
-Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
-
-We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
-  },
-
-  {
-    title: "detail page  Fast & Professional Service",
-    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
-
-Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
-
- Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
-
-Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
-  },
-  {
-  title: "detail page Advanced Engine Diagnostics",
-  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
-
-Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
-
-Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
-
-We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
-},
-
-{
-  title: "detail page Quality Parts & Reliable Repairs",
-  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
-
-Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
-
-Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
-
-We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
-},
-
-{
-  title: "detail page  Customer Satisfaction Guaranteed",
-  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
-
-We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
-
-We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
-
-Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
-},
-]
-},
-  discription: {
-    heading: "Expert Engine Diagnostics Service  detail page",
- 
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ],
-    image:"/vogue fix my motor image 18.jpg"
-  },
     },
 
 
@@ -8893,7 +4594,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     id: 26,
     name: "Engine Rebuild",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    slug: "Engine-Rebuild",
+    img:"/Engine rebuild.png",
       Reviews:[
        {
     id: 1,
@@ -8920,94 +4622,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ],
 
 contents:{
-  content1: {
-      heading: "About Us  detail page",
-  
-      greenHeading: "Trusted Engine Specialists",
-  
-      paragraph: [
-        "We provide professional engine diagnostics, repairs and maintenance services for all makes and models.",
-        
-        "From minor engine faults to major repairs, our certified technicians focus on quality workmanship, honest advice and long-term vehicle performance."
-      ],
-  
-      bullets: [
-        "Advanced engine diagnostics",
-        "Certified repair technicians",
-        "Quality parts and workmanship",
-        "Affordable and transparent pricing"
-      ]
-    },
-  
-  
-  
-    content2: {
-      heading: "Our Services  detail page",
-  
-      greenHeading: "Complete Engine Repair Solutions",
-  
-      paragraph: [
-        "Whether your vehicle has warning lights, overheating problems or reduced performance, we diagnose and fix issues efficiently.",
-  
-        "We offer preventative maintenance and full engine repair solutions to keep your car reliable and road ready."
-      ],
-  
-      bullets: [
-        "Engine diagnostics",
-        "Timing belt replacement",
-        "Cooling system repair",
-        "Oil leak repairs",
-        "Engine rebuild services"
-      ]
-    },
-  
-  
-  content3: {
-    heading: "Why Regular Engine Checkups Matter  detail page",
-    greenHeading: "Prevent breakdowns before they happen",
-    paragraph: [
-      "Your engine is the heart of your vehicle. Regular inspections help detect issues early and improve long-term performance.",
-      "Timely servicing ensures better fuel efficiency, smoother driving, and fewer unexpected repairs in the future."
-    ],
-    bullets: [
-      "Early problem detection",
-      "Improved fuel efficiency",
-      "Extended engine life",
-      "Cost-effective maintenance"
-    ]
-  },
-  
-  content4: {
-    heading: "Expert Engine Diagnostics Service  detail page",
-    greenHeading: "Advanced tools for accurate results",
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ]
-  },
-  
-  content5: {
-    heading: "Reliable Engine Repair Solutions  detail page",
-    greenHeading: "Quality repairs you can trust",
-    paragraph: [
-      "From minor fixes to major engine overhauls, we provide reliable repair services for all vehicle types.",
-      "We focus on long-lasting solutions using high-quality parts and professional workmanship."
-    ],
-    bullets: [
-      "Complete engine repair",
-      "High-quality spare parts",
-      "Experienced mechanics",
-      "Long-term reliability"
-    ]
-  },
-  
-    content6: {
+
+    content3: {
       heading: "Our Services  detail page",
   
       greenHeading: "Complete Engine Repair Solutions",
@@ -9119,86 +4735,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ]
 },
 
-green_slider2:{
-   img: "/vogue fix my motor image 17.jpg",
-  items:  [
-  {
-    title: "detail page Lorem Ipsum Has Been In",
-    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
-
-In modern development workflow.`
-  },
-
-  {
-    title: "detail page Trusted Car Repair Experts",
-    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
-
-Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
-
-We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
-  },
-
-  {
-    title: "detail page  Fast & Professional Service",
-    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
-
-Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
-
- Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
-
-Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
-  },
-  {
-  title: "detail page Advanced Engine Diagnostics",
-  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
-
-Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
-
-Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
-
-We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
-},
-
-{
-  title: "detail page Quality Parts & Reliable Repairs",
-  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
-
-Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
-
-Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
-
-We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
-},
-
-{
-  title: "detail page  Customer Satisfaction Guaranteed",
-  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
-
-We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
-
-We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
-
-Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
-},
-]
-},
-  discription: {
-    heading: "Expert Engine Diagnostics Service  detail page",
- 
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ],
-    image:"/vogue fix my motor image 17.jpg"
-  },
   },
 
 
@@ -9261,7 +4798,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     id: 27,
     name: "Battery Replacement",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    slug: "Battery-Replacement",
+    img:"/Battery Replacement.avif",
       Reviews:[
        {
     id: 1,
@@ -9288,94 +4826,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ],
 
 contents:{
-  content1: {
-      heading: "About Us  detail page",
-  
-      greenHeading: "Trusted Engine Specialists",
-  
-      paragraph: [
-        "We provide professional engine diagnostics, repairs and maintenance services for all makes and models.",
-        
-        "From minor engine faults to major repairs, our certified technicians focus on quality workmanship, honest advice and long-term vehicle performance."
-      ],
-  
-      bullets: [
-        "Advanced engine diagnostics",
-        "Certified repair technicians",
-        "Quality parts and workmanship",
-        "Affordable and transparent pricing"
-      ]
-    },
-  
-  
-  
-    content2: {
-      heading: "Our Services  detail page",
-  
-      greenHeading: "Complete Engine Repair Solutions",
-  
-      paragraph: [
-        "Whether your vehicle has warning lights, overheating problems or reduced performance, we diagnose and fix issues efficiently.",
-  
-        "We offer preventative maintenance and full engine repair solutions to keep your car reliable and road ready."
-      ],
-  
-      bullets: [
-        "Engine diagnostics",
-        "Timing belt replacement",
-        "Cooling system repair",
-        "Oil leak repairs",
-        "Engine rebuild services"
-      ]
-    },
-  
-  
-  content3: {
-    heading: "Why Regular Engine Checkups Matter  detail page",
-    greenHeading: "Prevent breakdowns before they happen",
-    paragraph: [
-      "Your engine is the heart of your vehicle. Regular inspections help detect issues early and improve long-term performance.",
-      "Timely servicing ensures better fuel efficiency, smoother driving, and fewer unexpected repairs in the future."
-    ],
-    bullets: [
-      "Early problem detection",
-      "Improved fuel efficiency",
-      "Extended engine life",
-      "Cost-effective maintenance"
-    ]
-  },
-  
-  content4: {
-    heading: "Expert Engine Diagnostics Service  detail page",
-    greenHeading: "Advanced tools for accurate results",
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ]
-  },
-  
-  content5: {
-    heading: "Reliable Engine Repair Solutions  detail page",
-    greenHeading: "Quality repairs you can trust",
-    paragraph: [
-      "From minor fixes to major engine overhauls, we provide reliable repair services for all vehicle types.",
-      "We focus on long-lasting solutions using high-quality parts and professional workmanship."
-    ],
-    bullets: [
-      "Complete engine repair",
-      "High-quality spare parts",
-      "Experienced mechanics",
-      "Long-term reliability"
-    ]
-  },
-  
-    content6: {
+
+    content3: {
       heading: "Our Services  detail page",
   
       greenHeading: "Complete Engine Repair Solutions",
@@ -9487,86 +4939,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ]
 },
 
-green_slider2:{
-   img: "/vogue fix my motor image 17.jpg",
-  items:  [
-  {
-    title: "detail page Lorem Ipsum Has Been In",
-    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
-
-In modern development workflow.`
-  },
-
-  {
-    title: "detail page Trusted Car Repair Experts",
-    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
-
-Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
-
-We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
-  },
-
-  {
-    title: "detail page  Fast & Professional Service",
-    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
-
-Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
-
- Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
-
-Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
-  },
-  {
-  title: "detail page Advanced Engine Diagnostics",
-  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
-
-Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
-
-Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
-
-We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
-},
-
-{
-  title: "detail page Quality Parts & Reliable Repairs",
-  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
-
-Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
-
-Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
-
-We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
-},
-
-{
-  title: "detail page  Customer Satisfaction Guaranteed",
-  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
-
-We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
-
-We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
-
-Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
-},
-]
-},
-  discription: {
-    heading: "Expert Engine Diagnostics Service  detail page",
- 
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ],
-    image:"/wowimage.jpg"
-  },
   },
 
 
@@ -9635,7 +5008,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     id: 28,
     name: "Clutch Replacement",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Clutch-Replacement",
+    img:"/f184d927a7134700f54e21657884675da9b63340.jpg",
     Reviews:[
        {
     id: 1,
@@ -9662,94 +5036,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ],
 
 contents:{
-  content1: {
-      heading: "About Us detail page",
-  
-      greenHeading: "Trusted Engine Specialists",
-  
-      paragraph: [
-        "We provide professional engine diagnostics, repairs and maintenance services for all makes and models.",
-        
-        "From minor engine faults to major repairs, our certified technicians focus on quality workmanship, honest advice and long-term vehicle performance."
-      ],
-  
-      bullets: [
-        "Advanced engine diagnostics",
-        "Certified repair technicians",
-        "Quality parts and workmanship",
-        "Affordable and transparent pricing"
-      ]
-    },
-  
-  
-  
-    content2: {
-      heading: "Our Services  detail page",
-  
-      greenHeading: "Complete Engine Repair Solutions",
-  
-      paragraph: [
-        "Whether your vehicle has warning lights, overheating problems or reduced performance, we diagnose and fix issues efficiently.",
-  
-        "We offer preventative maintenance and full engine repair solutions to keep your car reliable and road ready."
-      ],
-  
-      bullets: [
-        "Engine diagnostics",
-        "Timing belt replacement",
-        "Cooling system repair",
-        "Oil leak repairs",
-        "Engine rebuild services"
-      ]
-    },
-  
-  
-  content3: {
-    heading: "Why Regular Engine Checkups Matter  detail page",
-    greenHeading: "Prevent breakdowns before they happen",
-    paragraph: [
-      "Your engine is the heart of your vehicle. Regular inspections help detect issues early and improve long-term performance.",
-      "Timely servicing ensures better fuel efficiency, smoother driving, and fewer unexpected repairs in the future."
-    ],
-    bullets: [
-      "Early problem detection",
-      "Improved fuel efficiency",
-      "Extended engine life",
-      "Cost-effective maintenance"
-    ]
-  },
-  
-  content4: {
-    heading: "Expert Engine Diagnostics Service  detail page",
-    greenHeading: "Advanced tools for accurate results",
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ]
-  },
-  
-  content5: {
-    heading: "Reliable Engine Repair Solutions  detail page",
-    greenHeading: "Quality repairs you can trust",
-    paragraph: [
-      "From minor fixes to major engine overhauls, we provide reliable repair services for all vehicle types.",
-      "We focus on long-lasting solutions using high-quality parts and professional workmanship."
-    ],
-    bullets: [
-      "Complete engine repair",
-      "High-quality spare parts",
-      "Experienced mechanics",
-      "Long-term reliability"
-    ]
-  },
-  
-    content6: {
+
+    content3: {
       heading: "Our Services  detail page",
   
       greenHeading: "Complete Engine Repair Solutions",
@@ -9861,86 +5149,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ]
 },
 
-green_slider2:{
-   img: "/vogue fix my motor image 15.jpg",
-  items:  [
-  {
-    title: "detail page Lorem Ipsum Has Been In",
-    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
-
-In modern development workflow.`
-  },
-
-  {
-    title: "detail page Trusted Car Repair Experts",
-    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
-
-Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
-
-We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
-  },
-
-  {
-    title: "detail page  Fast & Professional Service",
-    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
-
-Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
-
- Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
-
-Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
-  },
-  {
-  title: "detail page Advanced Engine Diagnostics",
-  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
-
-Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
-
-Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
-
-We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
-},
-
-{
-  title: "detail page Quality Parts & Reliable Repairs",
-  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
-
-Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
-
-Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
-
-We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
-},
-
-{
-  title: "detail page  Customer Satisfaction Guaranteed",
-  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
-
-We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
-
-We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
-
-Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
-},
-]
-},
-discription: {
-    heading: "Expert Engine Diagnostics Service  detail page",
- 
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ],
-    image:"/wowimage.jpg"
-  },
 
 
   },
@@ -9981,7 +5190,8 @@ discription: {
     id: 29,
     name: "Engine Flush",
     text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-    slug: "oil-change-service",
+    slug: "Engine-Flush",
+    img:"/Engine Flush.webp",
       Reviews:[
        {
     id: 1,
@@ -10008,94 +5218,8 @@ discription: {
 ],
 
 contents:{
-  content1: {
-      heading: "About Us",
-  
-      greenHeading: "Trusted Engine Specialists",
-  
-      paragraph: [
-        "We provide professional engine diagnostics, repairs and maintenance services for all makes and models.",
-        
-        "From minor engine faults to major repairs, our certified technicians focus on quality workmanship, honest advice and long-term vehicle performance."
-      ],
-  
-      bullets: [
-        "Advanced engine diagnostics",
-        "Certified repair technicians",
-        "Quality parts and workmanship",
-        "Affordable and transparent pricing"
-      ]
-    },
-  
-  
-  
-    content2: {
-      heading: "Our Services",
-  
-      greenHeading: "Complete Engine Repair Solutions",
-  
-      paragraph: [
-        "Whether your vehicle has warning lights, overheating problems or reduced performance, we diagnose and fix issues efficiently.",
-  
-        "We offer preventative maintenance and full engine repair solutions to keep your car reliable and road ready."
-      ],
-  
-      bullets: [
-        "Engine diagnostics",
-        "Timing belt replacement",
-        "Cooling system repair",
-        "Oil leak repairs",
-        "Engine rebuild services"
-      ]
-    },
-  
-  
-  content3: {
-    heading: "Why Regular Engine Checkups Matter",
-    greenHeading: "Prevent breakdowns before they happen",
-    paragraph: [
-      "Your engine is the heart of your vehicle. Regular inspections help detect issues early and improve long-term performance.",
-      "Timely servicing ensures better fuel efficiency, smoother driving, and fewer unexpected repairs in the future."
-    ],
-    bullets: [
-      "Early problem detection",
-      "Improved fuel efficiency",
-      "Extended engine life",
-      "Cost-effective maintenance"
-    ]
-  },
-  
-  content4: {
-    heading: "Expert Engine Diagnostics Service",
-    greenHeading: "Advanced tools for accurate results",
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ]
-  },
-  
-  content5: {
-    heading: "Reliable Engine Repair Solutions",
-    greenHeading: "Quality repairs you can trust",
-    paragraph: [
-      "From minor fixes to major engine overhauls, we provide reliable repair services for all vehicle types.",
-      "We focus on long-lasting solutions using high-quality parts and professional workmanship."
-    ],
-    bullets: [
-      "Complete engine repair",
-      "High-quality spare parts",
-      "Experienced mechanics",
-      "Long-term reliability"
-    ]
-  },
-  
-    content6: {
+
+    content3: {
       heading: "Our Services",
   
       greenHeading: "Complete Engine Repair Solutions",
@@ -10206,86 +5330,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ]
 },
 
-green_slider2:{
-   img: "/vogue fix my motor image 15.jpg",
-  items:  [
-  {
-    title: "detail page Lorem Ipsum Has Been In",
-    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
-
-In modern development workflow.`
-  },
-
-  {
-    title: "detail page Trusted Car Repair Experts",
-    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
-
-Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
-
-We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
-  },
-
-  {
-    title: "detail page  Fast & Professional Service",
-    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
-
-Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
-
- Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
-
-Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
-  },
-  {
-  title: "detail page Advanced Engine Diagnostics",
-  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
-
-Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
-
-Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
-
-We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
-},
-
-{
-  title: "detail page Quality Parts & Reliable Repairs",
-  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
-
-Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
-
-Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
-
-We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
-},
-
-{
-  title: "detail page  Customer Satisfaction Guaranteed",
-  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
-
-We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
-
-We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
-
-Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
-},
-]
-},
-  discription: {
-    heading: "Expert Engine Diagnostics Service  detail page",
- 
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ],
-    image:"/wowimage.jpg"
-  },
   },
 
 
@@ -10325,7 +5370,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     id: 30,
     name: "Brake Services",
     text: "Fine tuning service for better fuel efficiency, smoother acceleration, and optimized power output.",
-    slug: "Engine-Tuning",
+    slug: "Brake-Services",
+    img:"/Brake Services.jpg",
       Reviews:[
        {
     id: 1,
@@ -10356,94 +5402,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 
 
 contents:{
-  content1: {
-      heading: "About Us",
-  
-      greenHeading: "Trusted Engine Specialists",
-  
-      paragraph: [
-        "We provide professional engine diagnostics, repairs and maintenance services for all makes and models.",
-        
-        "From minor engine faults to major repairs, our certified technicians focus on quality workmanship, honest advice and long-term vehicle performance."
-      ],
-  
-      bullets: [
-        "Advanced engine diagnostics",
-        "Certified repair technicians",
-        "Quality parts and workmanship",
-        "Affordable and transparent pricing"
-      ]
-    },
-  
-  
-  
-    content2: {
-      heading: "Our Services",
-  
-      greenHeading: "Complete Engine Repair Solutions",
-  
-      paragraph: [
-        "Whether your vehicle has warning lights, overheating problems or reduced performance, we diagnose and fix issues efficiently.",
-  
-        "We offer preventative maintenance and full engine repair solutions to keep your car reliable and road ready."
-      ],
-  
-      bullets: [
-        "Engine diagnostics",
-        "Timing belt replacement",
-        "Cooling system repair",
-        "Oil leak repairs",
-        "Engine rebuild services"
-      ]
-    },
-  
-  
-  content3: {
-    heading: "Why Regular Engine Checkups Matter",
-    greenHeading: "Prevent breakdowns before they happen",
-    paragraph: [
-      "Your engine is the heart of your vehicle. Regular inspections help detect issues early and improve long-term performance.",
-      "Timely servicing ensures better fuel efficiency, smoother driving, and fewer unexpected repairs in the future."
-    ],
-    bullets: [
-      "Early problem detection",
-      "Improved fuel efficiency",
-      "Extended engine life",
-      "Cost-effective maintenance"
-    ]
-  },
-  
-  content4: {
-    heading: "Expert Engine Diagnostics Service",
-    greenHeading: "Advanced tools for accurate results",
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ]
-  },
-  
-  content5: {
-    heading: "Reliable Engine Repair Solutions",
-    greenHeading: "Quality repairs you can trust",
-    paragraph: [
-      "From minor fixes to major engine overhauls, we provide reliable repair services for all vehicle types.",
-      "We focus on long-lasting solutions using high-quality parts and professional workmanship."
-    ],
-    bullets: [
-      "Complete engine repair",
-      "High-quality spare parts",
-      "Experienced mechanics",
-      "Long-term reliability"
-    ]
-  },
-  
-    content6: {
+ 
+    content3: {
       heading: "Our Services",
   
       greenHeading: "Complete Engine Repair Solutions",
@@ -10555,86 +5515,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ]
 },
 
-green_slider2:{
-   img: "/vogue fix my motor image 15.jpg",
-  items:  [
-  {
-    title: "detail page Lorem Ipsum Has Been In",
-    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
-
-In modern development workflow.`
-  },
-
-  {
-    title: "detail page Trusted Car Repair Experts",
-    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
-
-Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
-
-We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
-  },
-
-  {
-    title: "detail page  Fast & Professional Service",
-    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
-
-Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
-
- Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
-
-Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
-  },
-  {
-  title: "detail page Advanced Engine Diagnostics",
-  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
-
-Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
-
-Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
-
-We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
-},
-
-{
-  title: "detail page Quality Parts & Reliable Repairs",
-  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
-
-Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
-
-Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
-
-We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
-},
-
-{
-  title: "detail page  Customer Satisfaction Guaranteed",
-  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
-
-We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
-
-We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
-
-Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
-},
-]
-}, 
- discription: {
-    heading: "Expert Engine Diagnostics Service  detail page",
- 
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ],
-    image:"/slider_section_image.jpg"
-  },
   },
 
 
@@ -10671,7 +5552,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     id: 31,
     name: "Turbo Replacement",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Turbo-Replacement",
+    img:"/Turbo Replacement.webp",
       Reviews:[
        {
     id: 1,
@@ -10698,94 +5580,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ],
 
 contents:{
-  content1: {
-      heading: "About Us",
-  
-      greenHeading: "Trusted Engine Specialists",
-  
-      paragraph: [
-        "We provide professional engine diagnostics, repairs and maintenance services for all makes and models.",
-        
-        "From minor engine faults to major repairs, our certified technicians focus on quality workmanship, honest advice and long-term vehicle performance."
-      ],
-  
-      bullets: [
-        "Advanced engine diagnostics",
-        "Certified repair technicians",
-        "Quality parts and workmanship",
-        "Affordable and transparent pricing"
-      ]
-    },
-  
-  
-  
-    content2: {
-      heading: "Our Services",
-  
-      greenHeading: "Complete Engine Repair Solutions",
-  
-      paragraph: [
-        "Whether your vehicle has warning lights, overheating problems or reduced performance, we diagnose and fix issues efficiently.",
-  
-        "We offer preventative maintenance and full engine repair solutions to keep your car reliable and road ready."
-      ],
-  
-      bullets: [
-        "Engine diagnostics",
-        "Timing belt replacement",
-        "Cooling system repair",
-        "Oil leak repairs",
-        "Engine rebuild services"
-      ]
-    },
-  
-  
-  content3: {
-    heading: "Why Regular Engine Checkups Matter",
-    greenHeading: "Prevent breakdowns before they happen",
-    paragraph: [
-      "Your engine is the heart of your vehicle. Regular inspections help detect issues early and improve long-term performance.",
-      "Timely servicing ensures better fuel efficiency, smoother driving, and fewer unexpected repairs in the future."
-    ],
-    bullets: [
-      "Early problem detection",
-      "Improved fuel efficiency",
-      "Extended engine life",
-      "Cost-effective maintenance"
-    ]
-  },
-  
-  content4: {
-    heading: "Expert Engine Diagnostics Service",
-    greenHeading: "Advanced tools for accurate results",
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ]
-  },
-  
-  content5: {
-    heading: "Reliable Engine Repair Solutions",
-    greenHeading: "Quality repairs you can trust",
-    paragraph: [
-      "From minor fixes to major engine overhauls, we provide reliable repair services for all vehicle types.",
-      "We focus on long-lasting solutions using high-quality parts and professional workmanship."
-    ],
-    bullets: [
-      "Complete engine repair",
-      "High-quality spare parts",
-      "Experienced mechanics",
-      "Long-term reliability"
-    ]
-  },
-  
-    content6: {
+    content3: {
       heading: "Our Services",
   
       greenHeading: "Complete Engine Repair Solutions",
@@ -10896,86 +5691,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ]
 },
 
-green_slider2:{
-   img: "/vogue fix my motor image 15.jpg",
-  items:  [
-  {
-    title: "detail page Lorem Ipsum Has Been In",
-    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
-
-In modern development workflow.`
-  },
-
-  {
-    title: "detail page Trusted Car Repair Experts",
-    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
-
-Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
-
-We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
-  },
-
-  {
-    title: "detail page  Fast & Professional Service",
-    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
-
-Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
-
- Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
-
-Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
-  },
-  {
-  title: "detail page Advanced Engine Diagnostics",
-  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
-
-Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
-
-Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
-
-We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
-},
-
-{
-  title: "detail page Quality Parts & Reliable Repairs",
-  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
-
-Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
-
-Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
-
-We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
-},
-
-{
-  title: "detail page  Customer Satisfaction Guaranteed",
-  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
-
-We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
-
-We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
-
-Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
-},
-]
-},
-  discription: {
-    heading: "Expert Engine Diagnostics Service  detail page",
- 
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ],
-    image:"/slider_section_image.jpg"
-  },
   },
 
 
@@ -11004,7 +5720,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     id: 32,
     name: "Performance Upgrades",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
-    slug: "Transmission-Repair",
+    slug: "Performance-Upgrades",
+    img:"/Performance Upgrades.webp",
       Reviews:[
        {
     id: 1,
@@ -11031,94 +5748,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ],
 
 contents:{
-  content1: {
-      heading: "About Us",
-  
-      greenHeading: "Trusted Engine Specialists",
-  
-      paragraph: [
-        "We provide professional engine diagnostics, repairs and maintenance services for all makes and models.",
-        
-        "From minor engine faults to major repairs, our certified technicians focus on quality workmanship, honest advice and long-term vehicle performance."
-      ],
-  
-      bullets: [
-        "Advanced engine diagnostics",
-        "Certified repair technicians",
-        "Quality parts and workmanship",
-        "Affordable and transparent pricing"
-      ]
-    },
-  
-  
-  
-    content2: {
-      heading: "Our Services",
-  
-      greenHeading: "Complete Engine Repair Solutions",
-  
-      paragraph: [
-        "Whether your vehicle has warning lights, overheating problems or reduced performance, we diagnose and fix issues efficiently.",
-  
-        "We offer preventative maintenance and full engine repair solutions to keep your car reliable and road ready."
-      ],
-  
-      bullets: [
-        "Engine diagnostics",
-        "Timing belt replacement",
-        "Cooling system repair",
-        "Oil leak repairs",
-        "Engine rebuild services"
-      ]
-    },
-  
-  
-  content3: {
-    heading: "Why Regular Engine Checkups Matter",
-    greenHeading: "Prevent breakdowns before they happen",
-    paragraph: [
-      "Your engine is the heart of your vehicle. Regular inspections help detect issues early and improve long-term performance.",
-      "Timely servicing ensures better fuel efficiency, smoother driving, and fewer unexpected repairs in the future."
-    ],
-    bullets: [
-      "Early problem detection",
-      "Improved fuel efficiency",
-      "Extended engine life",
-      "Cost-effective maintenance"
-    ]
-  },
-  
-  content4: {
-    heading: "Expert Engine Diagnostics Service",
-    greenHeading: "Advanced tools for accurate results",
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ]
-  },
-  
-  content5: {
-    heading: "Reliable Engine Repair Solutions",
-    greenHeading: "Quality repairs you can trust",
-    paragraph: [
-      "From minor fixes to major engine overhauls, we provide reliable repair services for all vehicle types.",
-      "We focus on long-lasting solutions using high-quality parts and professional workmanship."
-    ],
-    bullets: [
-      "Complete engine repair",
-      "High-quality spare parts",
-      "Experienced mechanics",
-      "Long-term reliability"
-    ]
-  },
-  
-    content6: {
+
+    content3: {
       heading: "Our Services",
   
       greenHeading: "Complete Engine Repair Solutions",
@@ -11230,86 +5861,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ]
 },
 
-green_slider2:{
-   img: "/vogue fix my motor image 15.jpg",
-  items:  [
-  {
-    title: "detail page Lorem Ipsum Has Been In",
-    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
-
-In modern development workflow.`
-  },
-
-  {
-    title: "detail page Trusted Car Repair Experts",
-    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
-
-Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
-
-We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
-  },
-
-  {
-    title: "detail page  Fast & Professional Service",
-    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
-
-Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
-
- Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
-
-Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
-  },
-  {
-  title: "detail page Advanced Engine Diagnostics",
-  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
-
-Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
-
-Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
-
-We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
-},
-
-{
-  title: "detail page Quality Parts & Reliable Repairs",
-  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
-
-Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
-
-Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
-
-We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
-},
-
-{
-  title: "detail page  Customer Satisfaction Guaranteed",
-  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
-
-We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
-
-We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
-
-Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
-},
-]
-},
-  discription: {
-    heading: "Expert Engine Diagnostics Service  detail page",
- 
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ],
-    image:"/description.jpg"
-  },
     },
 
 
@@ -11355,7 +5907,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     id: 33,
     name: "DPF Cleaning Service",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    slug: "DPF-Cleaning-Service",
+    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.png",
       Reviews:[
        {
     id: 1,
@@ -11382,94 +5935,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ],
 
 contents:{
-  content1: {
-      heading: "About Us  detail page",
-  
-      greenHeading: "Trusted Engine Specialists",
-  
-      paragraph: [
-        "We provide professional engine diagnostics, repairs and maintenance services for all makes and models.",
-        
-        "From minor engine faults to major repairs, our certified technicians focus on quality workmanship, honest advice and long-term vehicle performance."
-      ],
-  
-      bullets: [
-        "Advanced engine diagnostics",
-        "Certified repair technicians",
-        "Quality parts and workmanship",
-        "Affordable and transparent pricing"
-      ]
-    },
-  
-  
-  
-    content2: {
-      heading: "Our Services  detail page",
-  
-      greenHeading: "Complete Engine Repair Solutions",
-  
-      paragraph: [
-        "Whether your vehicle has warning lights, overheating problems or reduced performance, we diagnose and fix issues efficiently.",
-  
-        "We offer preventative maintenance and full engine repair solutions to keep your car reliable and road ready."
-      ],
-  
-      bullets: [
-        "Engine diagnostics",
-        "Timing belt replacement",
-        "Cooling system repair",
-        "Oil leak repairs",
-        "Engine rebuild services"
-      ]
-    },
-  
-  
-  content3: {
-    heading: "Why Regular Engine Checkups Matter  detail page",
-    greenHeading: "Prevent breakdowns before they happen",
-    paragraph: [
-      "Your engine is the heart of your vehicle. Regular inspections help detect issues early and improve long-term performance.",
-      "Timely servicing ensures better fuel efficiency, smoother driving, and fewer unexpected repairs in the future."
-    ],
-    bullets: [
-      "Early problem detection",
-      "Improved fuel efficiency",
-      "Extended engine life",
-      "Cost-effective maintenance"
-    ]
-  },
-  
-  content4: {
-    heading: "Expert Engine Diagnostics Service  detail page",
-    greenHeading: "Advanced tools for accurate results",
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ]
-  },
-  
-  content5: {
-    heading: "Reliable Engine Repair Solutions  detail page",
-    greenHeading: "Quality repairs you can trust",
-    paragraph: [
-      "From minor fixes to major engine overhauls, we provide reliable repair services for all vehicle types.",
-      "We focus on long-lasting solutions using high-quality parts and professional workmanship."
-    ],
-    bullets: [
-      "Complete engine repair",
-      "High-quality spare parts",
-      "Experienced mechanics",
-      "Long-term reliability"
-    ]
-  },
-  
-    content6: {
+
+    content3: {
       heading: "Our Services  detail page",
   
       greenHeading: "Complete Engine Repair Solutions",
@@ -11581,86 +6048,6 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ]
 },
 
-green_slider2:{
-   img: "/vogue fix my motor image 14.jpg",
-  items:  [
-  {
-    title: "detail page Lorem Ipsum Has Been In",
-    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
-
-In modern development workflow.`
-  },
-
-  {
-    title: "detail page Trusted Car Repair Experts",
-    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
-
-Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
-
-We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
-  },
-
-  {
-    title: "detail page  Fast & Professional Service",
-    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
-
-Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
-
- Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
-
-Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
-  },
-  {
-  title: "detail page Advanced Engine Diagnostics",
-  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
-
-Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
-
-Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
-
-We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
-},
-
-{
-  title: "detail page Quality Parts & Reliable Repairs",
-  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
-
-Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
-
-Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
-
-We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
-},
-
-{
-  title: "detail page  Customer Satisfaction Guaranteed",
-  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
-
-We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
-
-We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
-
-Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
-},
-]
-},
-  discription: {
-    heading: "Expert Engine Diagnostics Service  detail page",
- 
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ],
-    image:"/slider_section_image.jpg"
-  },
   },
 
 
@@ -11735,7 +6122,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     id: 34,
     name: "MOT Testing",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "MOT-Testing",
+    img:"/MOT Testing.jpg",
     Reviews:[
        {
     id: 1,
@@ -11762,94 +6150,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ],
 
 contents:{
-  content1: {
-      heading: "About Us detail page",
-  
-      greenHeading: "Trusted Engine Specialists",
-  
-      paragraph: [
-        "We provide professional engine diagnostics, repairs and maintenance services for all makes and models.",
-        
-        "From minor engine faults to major repairs, our certified technicians focus on quality workmanship, honest advice and long-term vehicle performance."
-      ],
-  
-      bullets: [
-        "Advanced engine diagnostics",
-        "Certified repair technicians",
-        "Quality parts and workmanship",
-        "Affordable and transparent pricing"
-      ]
-    },
-  
-  
-  
-    content2: {
-      heading: "Our Services  detail page",
-  
-      greenHeading: "Complete Engine Repair Solutions",
-  
-      paragraph: [
-        "Whether your vehicle has warning lights, overheating problems or reduced performance, we diagnose and fix issues efficiently.",
-  
-        "We offer preventative maintenance and full engine repair solutions to keep your car reliable and road ready."
-      ],
-  
-      bullets: [
-        "Engine diagnostics",
-        "Timing belt replacement",
-        "Cooling system repair",
-        "Oil leak repairs",
-        "Engine rebuild services"
-      ]
-    },
-  
-  
-  content3: {
-    heading: "Why Regular Engine Checkups Matter  detail page",
-    greenHeading: "Prevent breakdowns before they happen",
-    paragraph: [
-      "Your engine is the heart of your vehicle. Regular inspections help detect issues early and improve long-term performance.",
-      "Timely servicing ensures better fuel efficiency, smoother driving, and fewer unexpected repairs in the future."
-    ],
-    bullets: [
-      "Early problem detection",
-      "Improved fuel efficiency",
-      "Extended engine life",
-      "Cost-effective maintenance"
-    ]
-  },
-  
-  content4: {
-    heading: "Expert Engine Diagnostics Service  detail page",
-    greenHeading: "Advanced tools for accurate results",
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ]
-  },
-  
-  content5: {
-    heading: "Reliable Engine Repair Solutions  detail page",
-    greenHeading: "Quality repairs you can trust",
-    paragraph: [
-      "From minor fixes to major engine overhauls, we provide reliable repair services for all vehicle types.",
-      "We focus on long-lasting solutions using high-quality parts and professional workmanship."
-    ],
-    bullets: [
-      "Complete engine repair",
-      "High-quality spare parts",
-      "Experienced mechanics",
-      "Long-term reliability"
-    ]
-  },
-  
-    content6: {
+
+    content3: {
       heading: "Our Services  detail page",
   
       greenHeading: "Complete Engine Repair Solutions",
@@ -11961,86 +6263,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ]
 },
 
-green_slider2:{
-   img: "/vogue fix my motor image 14.jpg",
-  items:  [
-  {
-    title: "detail page Lorem Ipsum Has Been In",
-    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
-
-In modern development workflow.`
-  },
-
-  {
-    title: "detail page Trusted Car Repair Experts",
-    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
-
-Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
-
-We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
-  },
-
-  {
-    title: "detail page  Fast & Professional Service",
-    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
-
-Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
-
- Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
-
-Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
-  },
-  {
-  title: "detail page Advanced Engine Diagnostics",
-  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
-
-Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
-
-Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
-
-We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
-},
-
-{
-  title: "detail page Quality Parts & Reliable Repairs",
-  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
-
-Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
-
-Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
-
-We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
-},
-
-{
-  title: "detail page  Customer Satisfaction Guaranteed",
-  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
-
-We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
-
-We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
-
-Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
-},
-]
-},
-discription: {
-    heading: "Expert Engine Diagnostics Service  detail page",
- 
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ],
-    image:"/slider_section_image.jpg"
-  },
 
 
   },
@@ -12081,7 +6304,8 @@ discription: {
     id: 35,
     name: "Exhaust Repair",
     text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-    slug: "oil-change-service",
+    slug: "Exhaust-Repair",
+    img:"/Exhaust Repair.jpg",
       Reviews:[
        {
     id: 1,
@@ -12108,94 +6332,9 @@ discription: {
 ],
 
 contents:{
-  content1: {
-      heading: "About Us",
+
   
-      greenHeading: "Trusted Engine Specialists",
-  
-      paragraph: [
-        "We provide professional engine diagnostics, repairs and maintenance services for all makes and models.",
-        
-        "From minor engine faults to major repairs, our certified technicians focus on quality workmanship, honest advice and long-term vehicle performance."
-      ],
-  
-      bullets: [
-        "Advanced engine diagnostics",
-        "Certified repair technicians",
-        "Quality parts and workmanship",
-        "Affordable and transparent pricing"
-      ]
-    },
-  
-  
-  
-    content2: {
-      heading: "Our Services",
-  
-      greenHeading: "Complete Engine Repair Solutions",
-  
-      paragraph: [
-        "Whether your vehicle has warning lights, overheating problems or reduced performance, we diagnose and fix issues efficiently.",
-  
-        "We offer preventative maintenance and full engine repair solutions to keep your car reliable and road ready."
-      ],
-  
-      bullets: [
-        "Engine diagnostics",
-        "Timing belt replacement",
-        "Cooling system repair",
-        "Oil leak repairs",
-        "Engine rebuild services"
-      ]
-    },
-  
-  
-  content3: {
-    heading: "Why Regular Engine Checkups Matter",
-    greenHeading: "Prevent breakdowns before they happen",
-    paragraph: [
-      "Your engine is the heart of your vehicle. Regular inspections help detect issues early and improve long-term performance.",
-      "Timely servicing ensures better fuel efficiency, smoother driving, and fewer unexpected repairs in the future."
-    ],
-    bullets: [
-      "Early problem detection",
-      "Improved fuel efficiency",
-      "Extended engine life",
-      "Cost-effective maintenance"
-    ]
-  },
-  
-  content4: {
-    heading: "Expert Engine Diagnostics Service",
-    greenHeading: "Advanced tools for accurate results",
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ]
-  },
-  
-  content5: {
-    heading: "Reliable Engine Repair Solutions",
-    greenHeading: "Quality repairs you can trust",
-    paragraph: [
-      "From minor fixes to major engine overhauls, we provide reliable repair services for all vehicle types.",
-      "We focus on long-lasting solutions using high-quality parts and professional workmanship."
-    ],
-    bullets: [
-      "Complete engine repair",
-      "High-quality spare parts",
-      "Experienced mechanics",
-      "Long-term reliability"
-    ]
-  },
-  
-    content6: {
+    content3: {
       heading: "Our Services",
   
       greenHeading: "Complete Engine Repair Solutions",
@@ -12306,86 +6445,6 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ]
 },
 
-green_slider2:{
-   img: "/vogue fix my motor image 14.jpg",
-  items:  [
-  {
-    title: "detail page Lorem Ipsum Has Been In",
-    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
-
-In modern development workflow.`
-  },
-
-  {
-    title: "detail page Trusted Car Repair Experts",
-    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
-
-Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
-
-We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
-  },
-
-  {
-    title: "detail page  Fast & Professional Service",
-    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
-
-Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
-
- Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
-
-Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
-  },
-  {
-  title: "detail page Advanced Engine Diagnostics",
-  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
-
-Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
-
-Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
-
-We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
-},
-
-{
-  title: "detail page Quality Parts & Reliable Repairs",
-  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
-
-Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
-
-Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
-
-We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
-},
-
-{
-  title: "detail page  Customer Satisfaction Guaranteed",
-  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
-
-We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
-
-We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
-
-Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
-},
-]
-},
-  discription: {
-    heading: "Expert Engine Diagnostics Service  detail page",
- 
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ],
-    image:"/slider_section_image.jpg"
-  },
   },
 
 
@@ -12425,7 +6484,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     id: 36,
     name: "Tyre Replacement",
     text: "Fine tuning service for better fuel efficiency, smoother acceleration, and optimized power output.",
-    slug: "Engine-Tuning",
+    slug: "Tyre-Replacement",
+    img:"/tyre replacement.jpg",
       Reviews:[
        {
     id: 1,
@@ -12456,94 +6516,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 
 
 contents:{
-  content1: {
-      heading: "About Us",
-  
-      greenHeading: "Trusted Engine Specialists",
-  
-      paragraph: [
-        "We provide professional engine diagnostics, repairs and maintenance services for all makes and models.",
-        
-        "From minor engine faults to major repairs, our certified technicians focus on quality workmanship, honest advice and long-term vehicle performance."
-      ],
-  
-      bullets: [
-        "Advanced engine diagnostics",
-        "Certified repair technicians",
-        "Quality parts and workmanship",
-        "Affordable and transparent pricing"
-      ]
-    },
-  
-  
-  
-    content2: {
-      heading: "Our Services",
-  
-      greenHeading: "Complete Engine Repair Solutions",
-  
-      paragraph: [
-        "Whether your vehicle has warning lights, overheating problems or reduced performance, we diagnose and fix issues efficiently.",
-  
-        "We offer preventative maintenance and full engine repair solutions to keep your car reliable and road ready."
-      ],
-  
-      bullets: [
-        "Engine diagnostics",
-        "Timing belt replacement",
-        "Cooling system repair",
-        "Oil leak repairs",
-        "Engine rebuild services"
-      ]
-    },
-  
-  
-  content3: {
-    heading: "Why Regular Engine Checkups Matter",
-    greenHeading: "Prevent breakdowns before they happen",
-    paragraph: [
-      "Your engine is the heart of your vehicle. Regular inspections help detect issues early and improve long-term performance.",
-      "Timely servicing ensures better fuel efficiency, smoother driving, and fewer unexpected repairs in the future."
-    ],
-    bullets: [
-      "Early problem detection",
-      "Improved fuel efficiency",
-      "Extended engine life",
-      "Cost-effective maintenance"
-    ]
-  },
-  
-  content4: {
-    heading: "Expert Engine Diagnostics Service",
-    greenHeading: "Advanced tools for accurate results",
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ]
-  },
-  
-  content5: {
-    heading: "Reliable Engine Repair Solutions",
-    greenHeading: "Quality repairs you can trust",
-    paragraph: [
-      "From minor fixes to major engine overhauls, we provide reliable repair services for all vehicle types.",
-      "We focus on long-lasting solutions using high-quality parts and professional workmanship."
-    ],
-    bullets: [
-      "Complete engine repair",
-      "High-quality spare parts",
-      "Experienced mechanics",
-      "Long-term reliability"
-    ]
-  },
-  
-    content6: {
+ 
+    content3: {
       heading: "Our Services",
   
       greenHeading: "Complete Engine Repair Solutions",
@@ -12655,86 +6629,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ]
 },
 
-green_slider2:{
-   img: "/vogue fix my motor image 14.jpg",
-  items:  [
-  {
-    title: "detail page Lorem Ipsum Has Been In",
-    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
-
-In modern development workflow.`
-  },
-
-  {
-    title: "detail page Trusted Car Repair Experts",
-    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
-
-Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
-
-We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
-  },
-
-  {
-    title: "detail page  Fast & Professional Service",
-    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
-
-Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
-
- Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
-
-Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
-  },
-  {
-  title: "detail page Advanced Engine Diagnostics",
-  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
-
-Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
-
-Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
-
-We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
-},
-
-{
-  title: "detail page Quality Parts & Reliable Repairs",
-  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
-
-Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
-
-Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
-
-We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
-},
-
-{
-  title: "detail page  Customer Satisfaction Guaranteed",
-  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
-
-We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
-
-We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
-
-Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
-},
-]
-}, 
- discription: {
-    heading: "Expert Engine Diagnostics Service  detail page",
- 
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ],
-    image:"/3.jpg"
-  },
   },
 
 
@@ -12771,7 +6666,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     id: 37,
     name: "Suspension Service",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Suspension-Service",
+    img:"/suspension.jpg",
       Reviews:[
        {
     id: 1,
@@ -12798,94 +6694,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ],
 
 contents:{
-  content1: {
-      heading: "About Us",
-  
-      greenHeading: "Trusted Engine Specialists",
-  
-      paragraph: [
-        "We provide professional engine diagnostics, repairs and maintenance services for all makes and models.",
-        
-        "From minor engine faults to major repairs, our certified technicians focus on quality workmanship, honest advice and long-term vehicle performance."
-      ],
-  
-      bullets: [
-        "Advanced engine diagnostics",
-        "Certified repair technicians",
-        "Quality parts and workmanship",
-        "Affordable and transparent pricing"
-      ]
-    },
-  
-  
-  
-    content2: {
-      heading: "Our Services",
-  
-      greenHeading: "Complete Engine Repair Solutions",
-  
-      paragraph: [
-        "Whether your vehicle has warning lights, overheating problems or reduced performance, we diagnose and fix issues efficiently.",
-  
-        "We offer preventative maintenance and full engine repair solutions to keep your car reliable and road ready."
-      ],
-  
-      bullets: [
-        "Engine diagnostics",
-        "Timing belt replacement",
-        "Cooling system repair",
-        "Oil leak repairs",
-        "Engine rebuild services"
-      ]
-    },
-  
-  
-  content3: {
-    heading: "Why Regular Engine Checkups Matter",
-    greenHeading: "Prevent breakdowns before they happen",
-    paragraph: [
-      "Your engine is the heart of your vehicle. Regular inspections help detect issues early and improve long-term performance.",
-      "Timely servicing ensures better fuel efficiency, smoother driving, and fewer unexpected repairs in the future."
-    ],
-    bullets: [
-      "Early problem detection",
-      "Improved fuel efficiency",
-      "Extended engine life",
-      "Cost-effective maintenance"
-    ]
-  },
-  
-  content4: {
-    heading: "Expert Engine Diagnostics Service",
-    greenHeading: "Advanced tools for accurate results",
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ]
-  },
-  
-  content5: {
-    heading: "Reliable Engine Repair Solutions",
-    greenHeading: "Quality repairs you can trust",
-    paragraph: [
-      "From minor fixes to major engine overhauls, we provide reliable repair services for all vehicle types.",
-      "We focus on long-lasting solutions using high-quality parts and professional workmanship."
-    ],
-    bullets: [
-      "Complete engine repair",
-      "High-quality spare parts",
-      "Experienced mechanics",
-      "Long-term reliability"
-    ]
-  },
-  
-    content6: {
+ 
+    content3: {
       heading: "Our Services",
   
       greenHeading: "Complete Engine Repair Solutions",
@@ -12996,86 +6806,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ]
 },
 
-green_slider2:{
-   img: "/vogue fix my motor image 22.jpg",
-  items:  [
-  {
-    title: "detail page Lorem Ipsum Has Been In",
-    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
-
-In modern development workflow.`
-  },
-
-  {
-    title: "detail page Trusted Car Repair Experts",
-    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
-
-Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
-
-We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
-  },
-
-  {
-    title: "detail page  Fast & Professional Service",
-    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
-
-Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
-
- Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
-
-Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
-  },
-  {
-  title: "detail page Advanced Engine Diagnostics",
-  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
-
-Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
-
-Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
-
-We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
-},
-
-{
-  title: "detail page Quality Parts & Reliable Repairs",
-  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
-
-Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
-
-Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
-
-We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
-},
-
-{
-  title: "detail page  Customer Satisfaction Guaranteed",
-  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
-
-We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
-
-We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
-
-Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
-},
-]
-},
-  discription: {
-    heading: "Expert Engine Diagnostics Service  detail page",
- 
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ],
-    image:"/3.jpg"
-  },
   },
 
 
@@ -13104,7 +6835,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     id: 38,
     name: "Wheel Alignment",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
-    slug: "Transmission-Repair",
+    slug: "Wheel-Alignment",
+    img:"/wheel aligment.jpg",
       Reviews:[
        {
     id: 1,
@@ -13131,94 +6863,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ],
 
 contents:{
-  content1: {
-      heading: "About Us",
-  
-      greenHeading: "Trusted Engine Specialists",
-  
-      paragraph: [
-        "We provide professional engine diagnostics, repairs and maintenance services for all makes and models.",
-        
-        "From minor engine faults to major repairs, our certified technicians focus on quality workmanship, honest advice and long-term vehicle performance."
-      ],
-  
-      bullets: [
-        "Advanced engine diagnostics",
-        "Certified repair technicians",
-        "Quality parts and workmanship",
-        "Affordable and transparent pricing"
-      ]
-    },
-  
-  
-  
-    content2: {
-      heading: "Our Services",
-  
-      greenHeading: "Complete Engine Repair Solutions",
-  
-      paragraph: [
-        "Whether your vehicle has warning lights, overheating problems or reduced performance, we diagnose and fix issues efficiently.",
-  
-        "We offer preventative maintenance and full engine repair solutions to keep your car reliable and road ready."
-      ],
-  
-      bullets: [
-        "Engine diagnostics",
-        "Timing belt replacement",
-        "Cooling system repair",
-        "Oil leak repairs",
-        "Engine rebuild services"
-      ]
-    },
-  
-  
-  content3: {
-    heading: "Why Regular Engine Checkups Matter",
-    greenHeading: "Prevent breakdowns before they happen",
-    paragraph: [
-      "Your engine is the heart of your vehicle. Regular inspections help detect issues early and improve long-term performance.",
-      "Timely servicing ensures better fuel efficiency, smoother driving, and fewer unexpected repairs in the future."
-    ],
-    bullets: [
-      "Early problem detection",
-      "Improved fuel efficiency",
-      "Extended engine life",
-      "Cost-effective maintenance"
-    ]
-  },
-  
-  content4: {
-    heading: "Expert Engine Diagnostics Service",
-    greenHeading: "Advanced tools for accurate results",
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ]
-  },
-  
-  content5: {
-    heading: "Reliable Engine Repair Solutions",
-    greenHeading: "Quality repairs you can trust",
-    paragraph: [
-      "From minor fixes to major engine overhauls, we provide reliable repair services for all vehicle types.",
-      "We focus on long-lasting solutions using high-quality parts and professional workmanship."
-    ],
-    bullets: [
-      "Complete engine repair",
-      "High-quality spare parts",
-      "Experienced mechanics",
-      "Long-term reliability"
-    ]
-  },
-  
-    content6: {
+
+    content3: {
       heading: "Our Services",
   
       greenHeading: "Complete Engine Repair Solutions",
@@ -13330,86 +6976,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ]
 },
 
-green_slider2:{
-   img: "/vogue fix my motor image 22.jpg",
-  items:  [
-  {
-    title: "detail page Lorem Ipsum Has Been In",
-    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
-
-In modern development workflow.`
-  },
-
-  {
-    title: "detail page Trusted Car Repair Experts",
-    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
-
-Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
-
-We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
-  },
-
-  {
-    title: "detail page  Fast & Professional Service",
-    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
-
-Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
-
- Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
-
-Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
-  },
-  {
-  title: "detail page Advanced Engine Diagnostics",
-  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
-
-Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
-
-Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
-
-We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
-},
-
-{
-  title: "detail page Quality Parts & Reliable Repairs",
-  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
-
-Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
-
-Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
-
-We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
-},
-
-{
-  title: "detail page  Customer Satisfaction Guaranteed",
-  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
-
-We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
-
-We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
-
-Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
-},
-]
-},
-  discription: {
-    heading: "Expert Engine Diagnostics Service  detail page",
- 
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ],
-    image:"/3.jpg"
-  },
     },
 
 
@@ -13455,7 +7022,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     id: 39,
     name: "AC Gas Refill Service",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    slug: "AC-Gas-Refill-Service",
+    img:"/5894cc3d25139ce6d0c8883c11032a4e11db8154.jpg",
       Reviews:[
        {
     id: 1,
@@ -13482,94 +7050,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ],
 
 contents:{
-  content1: {
-      heading: "About Us  detail page",
-  
-      greenHeading: "Trusted Engine Specialists",
-  
-      paragraph: [
-        "We provide professional engine diagnostics, repairs and maintenance services for all makes and models.",
-        
-        "From minor engine faults to major repairs, our certified technicians focus on quality workmanship, honest advice and long-term vehicle performance."
-      ],
-  
-      bullets: [
-        "Advanced engine diagnostics",
-        "Certified repair technicians",
-        "Quality parts and workmanship",
-        "Affordable and transparent pricing"
-      ]
-    },
-  
-  
-  
-    content2: {
-      heading: "Our Services  detail page",
-  
-      greenHeading: "Complete Engine Repair Solutions",
-  
-      paragraph: [
-        "Whether your vehicle has warning lights, overheating problems or reduced performance, we diagnose and fix issues efficiently.",
-  
-        "We offer preventative maintenance and full engine repair solutions to keep your car reliable and road ready."
-      ],
-  
-      bullets: [
-        "Engine diagnostics",
-        "Timing belt replacement",
-        "Cooling system repair",
-        "Oil leak repairs",
-        "Engine rebuild services"
-      ]
-    },
-  
-  
-  content3: {
-    heading: "Why Regular Engine Checkups Matter  detail page",
-    greenHeading: "Prevent breakdowns before they happen",
-    paragraph: [
-      "Your engine is the heart of your vehicle. Regular inspections help detect issues early and improve long-term performance.",
-      "Timely servicing ensures better fuel efficiency, smoother driving, and fewer unexpected repairs in the future."
-    ],
-    bullets: [
-      "Early problem detection",
-      "Improved fuel efficiency",
-      "Extended engine life",
-      "Cost-effective maintenance"
-    ]
-  },
-  
-  content4: {
-    heading: "Expert Engine Diagnostics Service  detail page",
-    greenHeading: "Advanced tools for accurate results",
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ]
-  },
-  
-  content5: {
-    heading: "Reliable Engine Repair Solutions  detail page",
-    greenHeading: "Quality repairs you can trust",
-    paragraph: [
-      "From minor fixes to major engine overhauls, we provide reliable repair services for all vehicle types.",
-      "We focus on long-lasting solutions using high-quality parts and professional workmanship."
-    ],
-    bullets: [
-      "Complete engine repair",
-      "High-quality spare parts",
-      "Experienced mechanics",
-      "Long-term reliability"
-    ]
-  },
-  
-    content6: {
+
+    content3: {
       heading: "Our Services  detail page",
   
       greenHeading: "Complete Engine Repair Solutions",
@@ -13681,86 +7163,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ]
 },
 
-green_slider2:{
-   img: "/vogue fix my motor image 22.jpg",
-  items:  [
-  {
-    title: "detail page Lorem Ipsum Has Been In",
-    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
-
-In modern development workflow.`
-  },
-
-  {
-    title: "detail page Trusted Car Repair Experts",
-    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
-
-Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
-
-We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
-  },
-
-  {
-    title: "detail page  Fast & Professional Service",
-    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
-
-Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
-
- Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
-
-Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
-  },
-  {
-  title: "detail page Advanced Engine Diagnostics",
-  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
-
-Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
-
-Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
-
-We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
-},
-
-{
-  title: "detail page Quality Parts & Reliable Repairs",
-  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
-
-Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
-
-Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
-
-We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
-},
-
-{
-  title: "detail page  Customer Satisfaction Guaranteed",
-  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
-
-We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
-
-We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
-
-Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
-},
-]
-},
-  discription: {
-    heading: "Expert Engine Diagnostics Service  detail page",
- 
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ],
-    image:"/3.jpg"
-  },
   },
 
 
@@ -13829,7 +7232,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     id: 40,
     name: "Timing Chain Replacement",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Timing-Chain-Replacement",
+    img:"/e42f4dccba8cfea020c6c73d385c038ca273c78b.jpg",
     Reviews:[
        {
     id: 1,
@@ -13856,94 +7260,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ],
 
 contents:{
-  content1: {
-      heading: "About Us detail page",
-  
-      greenHeading: "Trusted Engine Specialists",
-  
-      paragraph: [
-        "We provide professional engine diagnostics, repairs and maintenance services for all makes and models.",
-        
-        "From minor engine faults to major repairs, our certified technicians focus on quality workmanship, honest advice and long-term vehicle performance."
-      ],
-  
-      bullets: [
-        "Advanced engine diagnostics",
-        "Certified repair technicians",
-        "Quality parts and workmanship",
-        "Affordable and transparent pricing"
-      ]
-    },
-  
-  
-  
-    content2: {
-      heading: "Our Services  detail page",
-  
-      greenHeading: "Complete Engine Repair Solutions",
-  
-      paragraph: [
-        "Whether your vehicle has warning lights, overheating problems or reduced performance, we diagnose and fix issues efficiently.",
-  
-        "We offer preventative maintenance and full engine repair solutions to keep your car reliable and road ready."
-      ],
-  
-      bullets: [
-        "Engine diagnostics",
-        "Timing belt replacement",
-        "Cooling system repair",
-        "Oil leak repairs",
-        "Engine rebuild services"
-      ]
-    },
-  
-  
-  content3: {
-    heading: "Why Regular Engine Checkups Matter  detail page",
-    greenHeading: "Prevent breakdowns before they happen",
-    paragraph: [
-      "Your engine is the heart of your vehicle. Regular inspections help detect issues early and improve long-term performance.",
-      "Timely servicing ensures better fuel efficiency, smoother driving, and fewer unexpected repairs in the future."
-    ],
-    bullets: [
-      "Early problem detection",
-      "Improved fuel efficiency",
-      "Extended engine life",
-      "Cost-effective maintenance"
-    ]
-  },
-  
-  content4: {
-    heading: "Expert Engine Diagnostics Service  detail page",
-    greenHeading: "Advanced tools for accurate results",
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ]
-  },
-  
-  content5: {
-    heading: "Reliable Engine Repair Solutions  detail page",
-    greenHeading: "Quality repairs you can trust",
-    paragraph: [
-      "From minor fixes to major engine overhauls, we provide reliable repair services for all vehicle types.",
-      "We focus on long-lasting solutions using high-quality parts and professional workmanship."
-    ],
-    bullets: [
-      "Complete engine repair",
-      "High-quality spare parts",
-      "Experienced mechanics",
-      "Long-term reliability"
-    ]
-  },
-  
-    content6: {
+ 
+    content3: {
       heading: "Our Services  detail page",
   
       greenHeading: "Complete Engine Repair Solutions",
@@ -14055,86 +7373,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ]
 },
 
-green_slider2:{
-   img: "/vogue fix my motor image 22.jpg",
-  items:  [
-  {
-    title: "detail page Lorem Ipsum Has Been In",
-    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
-
-In modern development workflow.`
-  },
-
-  {
-    title: "detail page Trusted Car Repair Experts",
-    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
-
-Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
-
-We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
-  },
-
-  {
-    title: "detail page  Fast & Professional Service",
-    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
-
-Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
-
- Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
-
-Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
-  },
-  {
-  title: "detail page Advanced Engine Diagnostics",
-  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
-
-Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
-
-Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
-
-We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
-},
-
-{
-  title: "detail page Quality Parts & Reliable Repairs",
-  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
-
-Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
-
-Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
-
-We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
-},
-
-{
-  title: "detail page  Customer Satisfaction Guaranteed",
-  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
-
-We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
-
-We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
-
-Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
-},
-]
-},
-discription: {
-    heading: "Expert Engine Diagnostics Service  detail page",
- 
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ],
-    image:"/vogue fix my motor image 18.jpg"
-  },
 
 
   },
@@ -14176,6 +7415,7 @@ discription: {
     name: "Oil Change Service",
     text: "Professional engine oil replacement with filter change to improve performance and engine life.",
     slug: "oil-change-service",
+    img:"/Oil Change.jpg",
       Reviews:[
        {
     id: 1,
@@ -14202,94 +7442,8 @@ discription: {
 ],
 
 contents:{
-  content1: {
-      heading: "About Us",
-  
-      greenHeading: "Trusted Engine Specialists",
-  
-      paragraph: [
-        "We provide professional engine diagnostics, repairs and maintenance services for all makes and models.",
-        
-        "From minor engine faults to major repairs, our certified technicians focus on quality workmanship, honest advice and long-term vehicle performance."
-      ],
-  
-      bullets: [
-        "Advanced engine diagnostics",
-        "Certified repair technicians",
-        "Quality parts and workmanship",
-        "Affordable and transparent pricing"
-      ]
-    },
-  
-  
-  
-    content2: {
-      heading: "Our Services",
-  
-      greenHeading: "Complete Engine Repair Solutions",
-  
-      paragraph: [
-        "Whether your vehicle has warning lights, overheating problems or reduced performance, we diagnose and fix issues efficiently.",
-  
-        "We offer preventative maintenance and full engine repair solutions to keep your car reliable and road ready."
-      ],
-  
-      bullets: [
-        "Engine diagnostics",
-        "Timing belt replacement",
-        "Cooling system repair",
-        "Oil leak repairs",
-        "Engine rebuild services"
-      ]
-    },
-  
-  
-  content3: {
-    heading: "Why Regular Engine Checkups Matter",
-    greenHeading: "Prevent breakdowns before they happen",
-    paragraph: [
-      "Your engine is the heart of your vehicle. Regular inspections help detect issues early and improve long-term performance.",
-      "Timely servicing ensures better fuel efficiency, smoother driving, and fewer unexpected repairs in the future."
-    ],
-    bullets: [
-      "Early problem detection",
-      "Improved fuel efficiency",
-      "Extended engine life",
-      "Cost-effective maintenance"
-    ]
-  },
-  
-  content4: {
-    heading: "Expert Engine Diagnostics Service",
-    greenHeading: "Advanced tools for accurate results",
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ]
-  },
-  
-  content5: {
-    heading: "Reliable Engine Repair Solutions",
-    greenHeading: "Quality repairs you can trust",
-    paragraph: [
-      "From minor fixes to major engine overhauls, we provide reliable repair services for all vehicle types.",
-      "We focus on long-lasting solutions using high-quality parts and professional workmanship."
-    ],
-    bullets: [
-      "Complete engine repair",
-      "High-quality spare parts",
-      "Experienced mechanics",
-      "Long-term reliability"
-    ]
-  },
-  
-    content6: {
+ 
+    content3: {
       heading: "Our Services",
   
       greenHeading: "Complete Engine Repair Solutions",
@@ -14400,86 +7554,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ]
 },
 
-green_slider2:{
-   img: "/vogue fix my motor image 22.jpg",
-  items:  [
-  {
-    title: "detail page Lorem Ipsum Has Been In",
-    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
-
-In modern development workflow.`
-  },
-
-  {
-    title: "detail page Trusted Car Repair Experts",
-    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
-
-Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
-
-We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
-  },
-
-  {
-    title: "detail page  Fast & Professional Service",
-    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
-
-Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
-
- Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
-
-Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
-  },
-  {
-  title: "detail page Advanced Engine Diagnostics",
-  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
-
-Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
-
-Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
-
-We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
-},
-
-{
-  title: "detail page Quality Parts & Reliable Repairs",
-  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
-
-Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
-
-Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
-
-We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
-},
-
-{
-  title: "detail page  Customer Satisfaction Guaranteed",
-  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
-
-We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
-
-We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
-
-Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
-},
-]
-},
-  discription: {
-    heading: "Expert Engine Diagnostics Service  detail page",
- 
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ],
-    image:"/vogue fix my motor image 18.jpg"
-  },
   },
 
 
@@ -14519,7 +7594,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     id: 42,
     name: "Head Gasket Repair",
     text: "Fine tuning service for better fuel efficiency, smoother acceleration, and optimized power output.",
-    slug: "Engine-Tuning",
+    slug: "Head-Gasket-Repair",
+    img:"/b08253f77d1194ed361ee8793e00aa5a5f887531.jpg",
       Reviews:[
        {
     id: 1,
@@ -14550,94 +7626,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 
 
 contents:{
-  content1: {
-      heading: "About Us",
-  
-      greenHeading: "Trusted Engine Specialists",
-  
-      paragraph: [
-        "We provide professional engine diagnostics, repairs and maintenance services for all makes and models.",
-        
-        "From minor engine faults to major repairs, our certified technicians focus on quality workmanship, honest advice and long-term vehicle performance."
-      ],
-  
-      bullets: [
-        "Advanced engine diagnostics",
-        "Certified repair technicians",
-        "Quality parts and workmanship",
-        "Affordable and transparent pricing"
-      ]
-    },
-  
-  
-  
-    content2: {
-      heading: "Our Services",
-  
-      greenHeading: "Complete Engine Repair Solutions",
-  
-      paragraph: [
-        "Whether your vehicle has warning lights, overheating problems or reduced performance, we diagnose and fix issues efficiently.",
-  
-        "We offer preventative maintenance and full engine repair solutions to keep your car reliable and road ready."
-      ],
-  
-      bullets: [
-        "Engine diagnostics",
-        "Timing belt replacement",
-        "Cooling system repair",
-        "Oil leak repairs",
-        "Engine rebuild services"
-      ]
-    },
-  
-  
-  content3: {
-    heading: "Why Regular Engine Checkups Matter",
-    greenHeading: "Prevent breakdowns before they happen",
-    paragraph: [
-      "Your engine is the heart of your vehicle. Regular inspections help detect issues early and improve long-term performance.",
-      "Timely servicing ensures better fuel efficiency, smoother driving, and fewer unexpected repairs in the future."
-    ],
-    bullets: [
-      "Early problem detection",
-      "Improved fuel efficiency",
-      "Extended engine life",
-      "Cost-effective maintenance"
-    ]
-  },
-  
-  content4: {
-    heading: "Expert Engine Diagnostics Service",
-    greenHeading: "Advanced tools for accurate results",
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ]
-  },
-  
-  content5: {
-    heading: "Reliable Engine Repair Solutions",
-    greenHeading: "Quality repairs you can trust",
-    paragraph: [
-      "From minor fixes to major engine overhauls, we provide reliable repair services for all vehicle types.",
-      "We focus on long-lasting solutions using high-quality parts and professional workmanship."
-    ],
-    bullets: [
-      "Complete engine repair",
-      "High-quality spare parts",
-      "Experienced mechanics",
-      "Long-term reliability"
-    ]
-  },
-  
-    content6: {
+   content3: {
       heading: "Our Services",
   
       greenHeading: "Complete Engine Repair Solutions",
@@ -14749,86 +7738,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ]
 },
 
-green_slider2:{
-   img: "/wowimage.jpg",
-  items:  [
-  {
-    title: "detail page Lorem Ipsum Has Been In",
-    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
-
-In modern development workflow.`
-  },
-
-  {
-    title: "detail page Trusted Car Repair Experts",
-    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
-
-Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
-
-We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
-  },
-
-  {
-    title: "detail page  Fast & Professional Service",
-    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
-
-Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
-
- Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
-
-Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
-  },
-  {
-  title: "detail page Advanced Engine Diagnostics",
-  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
-
-Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
-
-Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
-
-We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
-},
-
-{
-  title: "detail page Quality Parts & Reliable Repairs",
-  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
-
-Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
-
-Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
-
-We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
-},
-
-{
-  title: "detail page  Customer Satisfaction Guaranteed",
-  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
-
-We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
-
-We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
-
-Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
-},
-]
-}, 
- discription: {
-    heading: "Expert Engine Diagnostics Service  detail page",
- 
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ],
-    image:"/vogue fix my motor image 18.jpg"
-  },
   },
 
 
@@ -14865,7 +7775,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     id: 43,
     name: "Transmission Service",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Transmission-Service",
+    img:"/Transmission Service.avif",
       Reviews:[
        {
     id: 1,
@@ -14892,94 +7803,8 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ],
 
 contents:{
-  content1: {
-      heading: "About Us",
-  
-      greenHeading: "Trusted Engine Specialists",
-  
-      paragraph: [
-        "We provide professional engine diagnostics, repairs and maintenance services for all makes and models.",
-        
-        "From minor engine faults to major repairs, our certified technicians focus on quality workmanship, honest advice and long-term vehicle performance."
-      ],
-  
-      bullets: [
-        "Advanced engine diagnostics",
-        "Certified repair technicians",
-        "Quality parts and workmanship",
-        "Affordable and transparent pricing"
-      ]
-    },
-  
-  
-  
-    content2: {
-      heading: "Our Services",
-  
-      greenHeading: "Complete Engine Repair Solutions",
-  
-      paragraph: [
-        "Whether your vehicle has warning lights, overheating problems or reduced performance, we diagnose and fix issues efficiently.",
-  
-        "We offer preventative maintenance and full engine repair solutions to keep your car reliable and road ready."
-      ],
-  
-      bullets: [
-        "Engine diagnostics",
-        "Timing belt replacement",
-        "Cooling system repair",
-        "Oil leak repairs",
-        "Engine rebuild services"
-      ]
-    },
-  
-  
-  content3: {
-    heading: "Why Regular Engine Checkups Matter",
-    greenHeading: "Prevent breakdowns before they happen",
-    paragraph: [
-      "Your engine is the heart of your vehicle. Regular inspections help detect issues early and improve long-term performance.",
-      "Timely servicing ensures better fuel efficiency, smoother driving, and fewer unexpected repairs in the future."
-    ],
-    bullets: [
-      "Early problem detection",
-      "Improved fuel efficiency",
-      "Extended engine life",
-      "Cost-effective maintenance"
-    ]
-  },
-  
-  content4: {
-    heading: "Expert Engine Diagnostics Service",
-    greenHeading: "Advanced tools for accurate results",
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ]
-  },
-  
-  content5: {
-    heading: "Reliable Engine Repair Solutions",
-    greenHeading: "Quality repairs you can trust",
-    paragraph: [
-      "From minor fixes to major engine overhauls, we provide reliable repair services for all vehicle types.",
-      "We focus on long-lasting solutions using high-quality parts and professional workmanship."
-    ],
-    bullets: [
-      "Complete engine repair",
-      "High-quality spare parts",
-      "Experienced mechanics",
-      "Long-term reliability"
-    ]
-  },
-  
-    content6: {
+
+    content3: {
       heading: "Our Services",
   
       greenHeading: "Complete Engine Repair Solutions",
@@ -15090,8 +7915,141 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 ]
 },
 
-green_slider2:{
-   img: "/wowimage.jpg",
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    id: 45,
+    name: "Air Conditioning Service",
+    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
+    slug: "Air-Conditioning-Service",
+    img:"/5894cc3d25139ce6d0c8883c11032a4e11db8154.jpg",
+    Reviews:[
+       {
+    id: 1,
+    name: "Dilpreet Kaur",
+    time: "a day ago",
+    text: "Thank you so much. Really like the service and everyone in the staff. Friendly staff.",
+    rating: 5
+  },
+  {
+    id: 2,
+    name: "Mohit Pal",
+    time: "a day ago",
+    text: "I can not thanks enough to vogue technics fixing my ford transit van vogue technics done engine rebuild for our Ford transit van kept us informed through out the process till they finish the job and road tested i came back today for interim service very happy with service thanks to vic and team vogue",
+    rating: 5
+  },
+  {
+    id: 3,
+    name: "JP B",
+    time: "2 days ago",
+    text: "I take all my vans and personal car to Vogue after discovering them on Google. Az and Jack are always very helpful and informative, they are also fair with pricing for me. Very honest guys, I've stopped going to any other garages now. So far they've worked on 12 vehicles of mine and never let me down. Cheers",
+    rating: 5
+  },
+ 
+],
+
+contents:{
+ 
+  
+    content3: {
+      heading: "Our Services  detail page",
+  
+      greenHeading: "Complete Engine Repair Solutions",
+  
+      paragraph: [
+        "Whether your vehicle has warning lights, overheating problems or reduced performance, we diagnose and fix issues efficiently.",
+  
+        "We offer preventative maintenance and full engine repair solutions to keep your car reliable and road ready."
+      ],
+  
+      bullets: [
+        "Engine diagnostics",
+        "Timing belt replacement",
+        "Cooling system repair",
+        "Oil leak repairs",
+        "Engine rebuild services"
+      ]
+    },
+},
+faq:[
+  {
+    id: 1,
+    question: "detail page Why choose Vogue Technics?",
+    answer:
+      "We combine over 20 years of experience with modern diagnostic tools and affordable pricing."
+  },
+  {
+    id: 2,
+    question: "detail page Book an Appointment with Us",
+    answer:
+      "You can book easily through our website or contact our support team."
+  },
+  {
+    id: 3,
+    question: "How to Save on Engine Replacements?",
+    answer:
+      "Choose reconditioned engines and compare quotes to save money."
+  },
+  {
+    id: 4,
+    question: "Save Up to 40% and Warranty with Every Engine",
+    answer:
+      "We provide warranty and cost-effective solutions for all engines."
+  }
+],
+green_slider1:{
+   img: "/description.jpg",
   items:  [
   {
     title: "detail page Lorem Ipsum Has Been In",
@@ -15155,38 +8113,11 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 ]
 },
-  discription: {
-    heading: "Expert Engine Diagnostics Service  detail page",
- 
-    paragraph: [
-      "We use modern diagnostic equipment to quickly identify engine faults and performance issues with high accuracy.",
-      "Our trained technicians ensure every problem is properly analyzed before recommending any repair solution."
-    ],
-    bullets: [
-      "Computerized diagnostics",
-      "Skilled technicians",
-      "Accurate fault analysis",
-      "Fast service turnaround"
-    ],
-    image:"/vogue fix my motor image 17.jpg"
+
+
+
+
   },
-  },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

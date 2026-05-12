@@ -29,7 +29,7 @@ export default async function Blog_detail_page({ params }) {
                 </div>
               </div>
               <div className="w-full">
-                  <div className="h-[400px] mt-5">
+                  <div className="h-[480px] mt-5">
                 <img src={blog.image3}  className="w-full h-full object-cover"/>
               </div>
               </div>

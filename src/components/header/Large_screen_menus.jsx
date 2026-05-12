@@ -29,14 +29,15 @@ export default function Large_screen_menus(){
         
  
     return(
-    <div className="flex flex-wrap w-full items-center">
-          
+     
+    <div className="flex flex-wrap w-full items-center  ">
+         
               <div className="w-1/24">
               </div>
               <div className="w-5/24">
               <Link href="/">
                     <img src="/logo.svg" className="w-22" alt="Logo" />
-                 </Link>    
+              </Link>    
               </div>
               <div className="w-14/24 text-white">
 

@@ -1,42 +1,109 @@
 export const locations = [
   { id: 1, name: "Chelmsford", slug: "chelmsford",
+    green_slider:{
+   img: "/vogue fix my motor image 9.jpg",
+  items:  [
+  {
+    title: "detail page Lorem Ipsum Has Been In",
+    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
+
+In modern development workflow.`
+  },
+
+  {
+    title: "detail page Trusted Car Repair Experts",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "detail page  Fast & Professional Service",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "detail page Advanced Engine Diagnostics",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "detail page Quality Parts & Reliable Repairs",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "detail page  Customer Satisfaction Guaranteed",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+
   servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Initial-Diagnostics",
+    img:"/Initial Diagnostics.jpeg",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    slug: "Cam-Belts",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Welding-Services",
   },
    {
     id: 19,
     name: "Locking Wheel Nut Removal / Replacement",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    slug: "Locking-Wheel-Nut-Removal-Replacement",
   },
    
   {
     id: 20,
     name: "24/7 Vehicle Recovery",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    slug: "24-7-Vehicle-Recovery",
   },
    {
     id: 21,
     name: "Valeting Services",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Valeting-Services",
   },
 
 ],
@@ -79,37 +146,7 @@ requestqoute:{
   image:"/vogue fix my motor image 14.jpg"
 }
 ,
-    paragraph1:  {
-    black_heading: "Precision Engine Rebuilds",
-    green_heading: "Full Rotating Assembly Balancing",
-    p: [
-      "At Vogue Technics, every engine rebuild includes dynamic balancing of the crankshaft, rods, and pistons. This eliminates harmonic vibrations that destroy bearings and ensures silky smooth operation up to redline. We use a high-speed balancer for race-grade accuracy.",
-      "Our machinists measure each connecting rod for stretch and twist before assembly. Rods that fail inspection are replaced with forged units from trusted brands like Manley or Carrillo. This attention to detail prevents catastrophic failures at high RPM.",
-      "We store all balanced assemblies in foam-lined cases until final assembly. No dust, no scratches, no shortcuts.",
-    ],
-    lists: [
-      "Crankshaft end play set to 0.002-0.004 inches",
-      "Piston ring gap files used for custom gaps",
-      "All hardware torqued with Snap-on digital wrench",
-      "Final balance sheet provided to customer",
-    ],
-  },
-  paragraph2:
-  {
-    black_heading: "Same-Day Oil Service",
-    green_heading: "Full Synthetic + OEM Filter",
-    p: [
-      "Vogue Technics completes a full oil change in under 45 minutes using only European or Japanese full synthetic oils. We drain hot oil to remove suspended contaminants and replace the crush washer on every drain plug to prevent future leaks.",
-      "Our oil service includes a complimentary multi-point inspection. We check air filters, cabin filters, tire pressures, and all fluid levels. Any issues are photographed and sent to you via text message with our recommended repair plan.",
-      "We reset your oil life monitor and record the service in our digital history system.",
-    ],
-    lists: [
-      "5W-30, 5W-40, or 0W-20 in stock",
-      "Mann, Mahle, or WIX filters used",
-      "Free top-off between services",
-      "Sticker placed on windshield with next due date",
-    ],
-  },
+   
      Reviews:[
        {
     id: 1,
@@ -177,43 +214,113 @@ requestqoute:{
 
 
   { id: 2, name: "Colchester", slug: "colchester",
-    servicesData:[
+        green_slider:{
+   img: "/vogue fix my motor image 9.jpg",
+  items:  [
+  {
+    title: "detail page Lorem Ipsum Has Been In",
+    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
+
+In modern development workflow.`
+  },
+
+  {
+    title: "detail page Trusted Car Repair Experts",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "detail page  Fast & Professional Service",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "detail page Advanced Engine Diagnostics",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "detail page Quality Parts & Reliable Repairs",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "detail page  Customer Satisfaction Guaranteed",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+   servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Initial-Diagnostics", 
+     img:"/Initial Diagnostics.jpeg",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    img:"/Cam Belts.jpg",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Welding-Services",
+    img:"/Welding Services.jpg",
   },
    {
-    id: 19,
-    name: "Locking Wheel Nut Removal / Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+      id: 22,
+      name: "Diagnostics",
+      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+      slug: "Diagnostics",
+      img:"/Diagnostics.jpg",
   },
    
-  {
-    id: 20,
-    name: "24/7 Vehicle Recovery",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+ {
+    id: 25,
+    name: "Alternator Replacement",
+    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.jpg",
   },
-   {
-    id: 21,
-    name: "Valeting Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    {
+       id: 41,
+       name: "Oil Change Service",
+       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+       slug: "oil-change-service",
+       img:"/Oil Change.jpg",
   },
 
 ],
@@ -258,37 +365,7 @@ faq:[
   image:"/vogue fix my motor image 15.jpg"
 }
 ,
-      paragraph1:  {
-    black_heading: "Precision Engine Rebuilds",
-    green_heading: "Full Rotating Assembly Balancing",
-    p: [
-      "At Vogue Technics, every engine rebuild includes dynamic balancing of the crankshaft, rods, and pistons. This eliminates harmonic vibrations that destroy bearings and ensures silky smooth operation up to redline. We use a high-speed balancer for race-grade accuracy.",
-      "Our machinists measure each connecting rod for stretch and twist before assembly. Rods that fail inspection are replaced with forged units from trusted brands like Manley or Carrillo. This attention to detail prevents catastrophic failures at high RPM.",
-      "We store all balanced assemblies in foam-lined cases until final assembly. No dust, no scratches, no shortcuts.",
-    ],
-    lists: [
-      "Crankshaft end play set to 0.002-0.004 inches",
-      "Piston ring gap files used for custom gaps",
-      "All hardware torqued with Snap-on digital wrench",
-      "Final balance sheet provided to customer",
-    ],
-  },
-  paragraph2:
-  {
-    black_heading: "Same-Day Oil Service",
-    green_heading: "Full Synthetic + OEM Filter",
-    p: [
-      "Vogue Technics completes a full oil change in under 45 minutes using only European or Japanese full synthetic oils. We drain hot oil to remove suspended contaminants and replace the crush washer on every drain plug to prevent future leaks.",
-      "Our oil service includes a complimentary multi-point inspection. We check air filters, cabin filters, tire pressures, and all fluid levels. Any issues are photographed and sent to you via text message with our recommended repair plan.",
-      "We reset your oil life monitor and record the service in our digital history system.",
-    ],
-    lists: [
-      "5W-30, 5W-40, or 0W-20 in stock",
-      "Mann, Mahle, or WIX filters used",
-      "Free top-off between services",
-      "Sticker placed on windshield with next due date",
-    ],
-  },
+     
      Reviews:[
        {
     id: 1,
@@ -355,43 +432,113 @@ faq:[
 
 
   { id: 3, name: "Southend-on-Sea", slug: "southend-on-sea",
-    servicesData:[
+        green_slider:{
+   img: "/vogue fix my motor image 9.jpg",
+  items:  [
+  {
+    title: "detail page Lorem Ipsum Has Been In",
+    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
+
+In modern development workflow.`
+  },
+
+  {
+    title: "detail page Trusted Car Repair Experts",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "detail page  Fast & Professional Service",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "detail page Advanced Engine Diagnostics",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "detail page Quality Parts & Reliable Repairs",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "detail page  Customer Satisfaction Guaranteed",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+   servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Initial-Diagnostics", 
+     img:"/Initial Diagnostics.jpeg",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    img:"/Cam Belts.jpg",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Welding-Services",
+    img:"/Welding Services.jpg",
   },
    {
-    id: 19,
-    name: "Locking Wheel Nut Removal / Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+      id: 22,
+      name: "Diagnostics",
+      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+      slug: "Diagnostics",
+      img:"/Diagnostics.jpg",
   },
    
-  {
-    id: 20,
-    name: "24/7 Vehicle Recovery",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+ {
+    id: 25,
+    name: "Alternator Replacement",
+    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.jpg",
   },
-   {
-    id: 21,
-    name: "Valeting Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    {
+       id: 41,
+       name: "Oil Change Service",
+       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+       slug: "oil-change-service",
+       img:"/Oil Change.jpg",
   },
 
 ],
@@ -435,37 +582,7 @@ requestqoute:{
   ],
   image:"/vogue fix my motor image 17.jpg"
 },
-      paragraph1:  {
-    black_heading: "Precision Engine Rebuilds",
-    green_heading: "Full Rotating Assembly Balancing",
-    p: [
-      "At Vogue Technics, every engine rebuild includes dynamic balancing of the crankshaft, rods, and pistons. This eliminates harmonic vibrations that destroy bearings and ensures silky smooth operation up to redline. We use a high-speed balancer for race-grade accuracy.",
-      "Our machinists measure each connecting rod for stretch and twist before assembly. Rods that fail inspection are replaced with forged units from trusted brands like Manley or Carrillo. This attention to detail prevents catastrophic failures at high RPM.",
-      "We store all balanced assemblies in foam-lined cases until final assembly. No dust, no scratches, no shortcuts.",
-    ],
-    lists: [
-      "Crankshaft end play set to 0.002-0.004 inches",
-      "Piston ring gap files used for custom gaps",
-      "All hardware torqued with Snap-on digital wrench",
-      "Final balance sheet provided to customer",
-    ],
-  },
-  paragraph2:
-  {
-    black_heading: "Same-Day Oil Service",
-    green_heading: "Full Synthetic + OEM Filter",
-    p: [
-      "Vogue Technics completes a full oil change in under 45 minutes using only European or Japanese full synthetic oils. We drain hot oil to remove suspended contaminants and replace the crush washer on every drain plug to prevent future leaks.",
-      "Our oil service includes a complimentary multi-point inspection. We check air filters, cabin filters, tire pressures, and all fluid levels. Any issues are photographed and sent to you via text message with our recommended repair plan.",
-      "We reset your oil life monitor and record the service in our digital history system.",
-    ],
-    lists: [
-      "5W-30, 5W-40, or 0W-20 in stock",
-      "Mann, Mahle, or WIX filters used",
-      "Free top-off between services",
-      "Sticker placed on windshield with next due date",
-    ],
-  },
+    
        Reviews:[
        {
     id: 1,
@@ -511,43 +628,113 @@ requestqoute:{
 
 
   { id: 4, name: "Basildon", slug: "basildon",
-    servicesData:[
+        green_slider:{
+   img: "/vogue fix my motor image 9.jpg",
+  items:  [
+  {
+    title: "detail page Lorem Ipsum Has Been In",
+    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
+
+In modern development workflow.`
+  },
+
+  {
+    title: "detail page Trusted Car Repair Experts",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "detail page  Fast & Professional Service",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "detail page Advanced Engine Diagnostics",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "detail page Quality Parts & Reliable Repairs",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "detail page  Customer Satisfaction Guaranteed",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+  servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Initial-Diagnostics", 
+     img:"/Initial Diagnostics.jpeg",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    img:"/Cam Belts.jpg",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Welding-Services",
+    img:"/Welding Services.jpg",
   },
    {
-    id: 19,
-    name: "Locking Wheel Nut Removal / Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+      id: 22,
+      name: "Diagnostics",
+      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+      slug: "Diagnostics",
+      img:"/Diagnostics.jpg",
   },
    
-  {
-    id: 20,
-    name: "24/7 Vehicle Recovery",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+ {
+    id: 25,
+    name: "Alternator Replacement",
+    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.jpg",
   },
-   {
-    id: 21,
-    name: "Valeting Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    {
+       id: 41,
+       name: "Oil Change Service",
+       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+       slug: "oil-change-service",
+       img:"/Oil Change.jpg",
   },
 
 ],
@@ -590,37 +777,7 @@ faq:[
   ],
   image:"/vogue fix my motor image 18.jpg"
 },
-      paragraph1:  {
-    black_heading: "Precision Engine Rebuilds",
-    green_heading: "Full Rotating Assembly Balancing",
-    p: [
-      "At Vogue Technics, every engine rebuild includes dynamic balancing of the crankshaft, rods, and pistons. This eliminates harmonic vibrations that destroy bearings and ensures silky smooth operation up to redline. We use a high-speed balancer for race-grade accuracy.",
-      "Our machinists measure each connecting rod for stretch and twist before assembly. Rods that fail inspection are replaced with forged units from trusted brands like Manley or Carrillo. This attention to detail prevents catastrophic failures at high RPM.",
-      "We store all balanced assemblies in foam-lined cases until final assembly. No dust, no scratches, no shortcuts.",
-    ],
-    lists: [
-      "Crankshaft end play set to 0.002-0.004 inches",
-      "Piston ring gap files used for custom gaps",
-      "All hardware torqued with Snap-on digital wrench",
-      "Final balance sheet provided to customer",
-    ],
-  },
-  paragraph2:
-  {
-    black_heading: "Same-Day Oil Service",
-    green_heading: "Full Synthetic + OEM Filter",
-    p: [
-      "Vogue Technics completes a full oil change in under 45 minutes using only European or Japanese full synthetic oils. We drain hot oil to remove suspended contaminants and replace the crush washer on every drain plug to prevent future leaks.",
-      "Our oil service includes a complimentary multi-point inspection. We check air filters, cabin filters, tire pressures, and all fluid levels. Any issues are photographed and sent to you via text message with our recommended repair plan.",
-      "We reset your oil life monitor and record the service in our digital history system.",
-    ],
-    lists: [
-      "5W-30, 5W-40, or 0W-20 in stock",
-      "Mann, Mahle, or WIX filters used",
-      "Free top-off between services",
-      "Sticker placed on windshield with next due date",
-    ],
-  },
+    
       Reviews:[
        {
     id: 1,
@@ -668,43 +825,113 @@ faq:[
 
 
   { id: 5, name: "Harlow", slug: "harlow",
-    servicesData:[
+        green_slider:{
+   img: "/vogue fix my motor image 9.jpg",
+  items:  [
+  {
+    title: "detail page Lorem Ipsum Has Been In",
+    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
+
+In modern development workflow.`
+  },
+
+  {
+    title: "detail page Trusted Car Repair Experts",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "detail page  Fast & Professional Service",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "detail page Advanced Engine Diagnostics",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "detail page Quality Parts & Reliable Repairs",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "detail page  Customer Satisfaction Guaranteed",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+  servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Initial-Diagnostics", 
+     img:"/Initial Diagnostics.jpeg",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    img:"/Cam Belts.jpg",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Welding-Services",
+    img:"/Welding Services.jpg",
   },
    {
-    id: 19,
-    name: "Locking Wheel Nut Removal / Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+      id: 22,
+      name: "Diagnostics",
+      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+      slug: "Diagnostics",
+      img:"/Diagnostics.jpg",
   },
    
-  {
-    id: 20,
-    name: "24/7 Vehicle Recovery",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+ {
+    id: 25,
+    name: "Alternator Replacement",
+    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.jpg",
   },
-   {
-    id: 21,
-    name: "Valeting Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    {
+       id: 41,
+       name: "Oil Change Service",
+       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+       slug: "oil-change-service",
+       img:"/Oil Change.jpg",
   },
 
 ],
@@ -747,37 +974,7 @@ requestqoute:{
   ],
   image:"/wowimage.jpg"
 },
-      paragraph1:  {
-    black_heading: "Precision Engine Rebuilds",
-    green_heading: "Full Rotating Assembly Balancing",
-    p: [
-      "At Vogue Technics, every engine rebuild includes dynamic balancing of the crankshaft, rods, and pistons. This eliminates harmonic vibrations that destroy bearings and ensures silky smooth operation up to redline. We use a high-speed balancer for race-grade accuracy.",
-      "Our machinists measure each connecting rod for stretch and twist before assembly. Rods that fail inspection are replaced with forged units from trusted brands like Manley or Carrillo. This attention to detail prevents catastrophic failures at high RPM.",
-      "We store all balanced assemblies in foam-lined cases until final assembly. No dust, no scratches, no shortcuts.",
-    ],
-    lists: [
-      "Crankshaft end play set to 0.002-0.004 inches",
-      "Piston ring gap files used for custom gaps",
-      "All hardware torqued with Snap-on digital wrench",
-      "Final balance sheet provided to customer",
-    ],
-  },
-  paragraph2:
-  {
-    black_heading: "Same-Day Oil Service",
-    green_heading: "Full Synthetic + OEM Filter",
-    p: [
-      "Vogue Technics completes a full oil change in under 45 minutes using only European or Japanese full synthetic oils. We drain hot oil to remove suspended contaminants and replace the crush washer on every drain plug to prevent future leaks.",
-      "Our oil service includes a complimentary multi-point inspection. We check air filters, cabin filters, tire pressures, and all fluid levels. Any issues are photographed and sent to you via text message with our recommended repair plan.",
-      "We reset your oil life monitor and record the service in our digital history system.",
-    ],
-    lists: [
-      "5W-30, 5W-40, or 0W-20 in stock",
-      "Mann, Mahle, or WIX filters used",
-      "Free top-off between services",
-      "Sticker placed on windshield with next due date",
-    ],
-  },
+    
      Reviews:[
        {
     id: 1,
@@ -872,43 +1069,113 @@ requestqoute:{
 
 
   { id: 6, name: "Brentwood", slug: "brentwood",
-    servicesData:[
+          green_slider:{
+   img: "/vogue fix my motor image 9.jpg",
+  items:  [
+  {
+    title: "detail page Lorem Ipsum Has Been In",
+    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
+
+In modern development workflow.`
+  },
+
+  {
+    title: "detail page Trusted Car Repair Experts",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "detail page  Fast & Professional Service",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "detail page Advanced Engine Diagnostics",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "detail page Quality Parts & Reliable Repairs",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "detail page  Customer Satisfaction Guaranteed",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+ servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Initial-Diagnostics", 
+     img:"/Initial Diagnostics.jpeg",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    img:"/Cam Belts.jpg",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Welding-Services",
+    img:"/Welding Services.jpg",
   },
    {
-    id: 19,
-    name: "Locking Wheel Nut Removal / Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+      id: 22,
+      name: "Diagnostics",
+      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+      slug: "Diagnostics",
+      img:"/Diagnostics.jpg",
   },
    
-  {
-    id: 20,
-    name: "24/7 Vehicle Recovery",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+ {
+    id: 25,
+    name: "Alternator Replacement",
+    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.jpg",
   },
-   {
-    id: 21,
-    name: "Valeting Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    {
+       id: 41,
+       name: "Oil Change Service",
+       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+       slug: "oil-change-service",
+       img:"/Oil Change.jpg",
   },
 
 ],
@@ -952,38 +1219,7 @@ faq:[
   ],
   image:"/vogue fix my motor image 20.jpg"
 },
-      paragraph1:  {
-    black_heading: "Precision Engine Rebuilds",
-    green_heading: "Full Rotating Assembly Balancing",
-    p: [
-      "At Vogue Technics, every engine rebuild includes dynamic balancing of the crankshaft, rods, and pistons. This eliminates harmonic vibrations that destroy bearings and ensures silky smooth operation up to redline. We use a high-speed balancer for race-grade accuracy.",
-      "Our machinists measure each connecting rod for stretch and twist before assembly. Rods that fail inspection are replaced with forged units from trusted brands like Manley or Carrillo. This attention to detail prevents catastrophic failures at high RPM.",
-      "We store all balanced assemblies in foam-lined cases until final assembly. No dust, no scratches, no shortcuts.",
-    ],
-    lists: [
-      "Crankshaft end play set to 0.002-0.004 inches",
-      "Piston ring gap files used for custom gaps",
-      "All hardware torqued with Snap-on digital wrench",
-      "Final balance sheet provided to customer",
-    ],
-  },
-  paragraph2:
-  {
-    black_heading: "Same-Day Oil Service",
-    green_heading: "Full Synthetic + OEM Filter",
-    p: [
-      "Vogue Technics completes a full oil change in under 45 minutes using only European or Japanese full synthetic oils. We drain hot oil to remove suspended contaminants and replace the crush washer on every drain plug to prevent future leaks.",
-      "Our oil service includes a complimentary multi-point inspection. We check air filters, cabin filters, tire pressures, and all fluid levels. Any issues are photographed and sent to you via text message with our recommended repair plan.",
-      "We reset your oil life monitor and record the service in our digital history system.",
-    ],
-    lists: [
-      "5W-30, 5W-40, or 0W-20 in stock",
-      "Mann, Mahle, or WIX filters used",
-      "Free top-off between services",
-      "Sticker placed on windshield with next due date",
-    ],
-  },
-      Reviews:[
+       Reviews:[
        {
     id: 1,
     name: "James Curran (Addicks10)",
@@ -1060,43 +1296,113 @@ faq:[
 
 
   { id: 7, name: "Billericay", slug: "billericay",
-    servicesData:[
+          green_slider:{
+   img: "/vogue fix my motor image 9.jpg",
+  items:  [
+  {
+    title: "detail page Lorem Ipsum Has Been In",
+    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
+
+In modern development workflow.`
+  },
+
+  {
+    title: "detail page Trusted Car Repair Experts",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "detail page  Fast & Professional Service",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "detail page Advanced Engine Diagnostics",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "detail page Quality Parts & Reliable Repairs",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "detail page  Customer Satisfaction Guaranteed",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+ servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Initial-Diagnostics", 
+     img:"/Initial Diagnostics.jpeg",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    img:"/Cam Belts.jpg",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Welding-Services",
+    img:"/Welding Services.jpg",
   },
    {
-    id: 19,
-    name: "Locking Wheel Nut Removal / Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+      id: 22,
+      name: "Diagnostics",
+      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+      slug: "Diagnostics",
+      img:"/Diagnostics.jpg",
   },
    
-  {
-    id: 20,
-    name: "24/7 Vehicle Recovery",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+ {
+    id: 25,
+    name: "Alternator Replacement",
+    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.jpg",
   },
-   {
-    id: 21,
-    name: "Valeting Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    {
+       id: 41,
+       name: "Oil Change Service",
+       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+       slug: "oil-change-service",
+       img:"/Oil Change.jpg",
   },
 
 ],
@@ -1140,37 +1446,7 @@ faq:[
   image:"/vogue fix my motor image 21.jpg"
 }
 ,
-      paragraph1:  {
-    black_heading: "Precision Engine Rebuilds",
-    green_heading: "Full Rotating Assembly Balancing",
-    p: [
-      "At Vogue Technics, every engine rebuild includes dynamic balancing of the crankshaft, rods, and pistons. This eliminates harmonic vibrations that destroy bearings and ensures silky smooth operation up to redline. We use a high-speed balancer for race-grade accuracy.",
-      "Our machinists measure each connecting rod for stretch and twist before assembly. Rods that fail inspection are replaced with forged units from trusted brands like Manley or Carrillo. This attention to detail prevents catastrophic failures at high RPM.",
-      "We store all balanced assemblies in foam-lined cases until final assembly. No dust, no scratches, no shortcuts.",
-    ],
-    lists: [
-      "Crankshaft end play set to 0.002-0.004 inches",
-      "Piston ring gap files used for custom gaps",
-      "All hardware torqued with Snap-on digital wrench",
-      "Final balance sheet provided to customer",
-    ],
-  },
-  paragraph2:
-  {
-    black_heading: "Same-Day Oil Service",
-    green_heading: "Full Synthetic + OEM Filter",
-    p: [
-      "Vogue Technics completes a full oil change in under 45 minutes using only European or Japanese full synthetic oils. We drain hot oil to remove suspended contaminants and replace the crush washer on every drain plug to prevent future leaks.",
-      "Our oil service includes a complimentary multi-point inspection. We check air filters, cabin filters, tire pressures, and all fluid levels. Any issues are photographed and sent to you via text message with our recommended repair plan.",
-      "We reset your oil life monitor and record the service in our digital history system.",
-    ],
-    lists: [
-      "5W-30, 5W-40, or 0W-20 in stock",
-      "Mann, Mahle, or WIX filters used",
-      "Free top-off between services",
-      "Sticker placed on windshield with next due date",
-    ],
-  },
+  
      Reviews:[
        {
     id: 1,
@@ -1226,43 +1502,113 @@ faq:[
 
 
   { id: 8, name: "Grays", slug: "grays",
-    servicesData:[
+          green_slider:{
+   img: "/vogue fix my motor image 9.jpg",
+  items:  [
+  {
+    title: "detail page Lorem Ipsum Has Been In",
+    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
+
+In modern development workflow.`
+  },
+
+  {
+    title: "detail page Trusted Car Repair Experts",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "detail page  Fast & Professional Service",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "detail page Advanced Engine Diagnostics",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "detail page Quality Parts & Reliable Repairs",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "detail page  Customer Satisfaction Guaranteed",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+ servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Initial-Diagnostics", 
+     img:"/Initial Diagnostics.jpeg",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    img:"/Cam Belts.jpg",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Welding-Services",
+    img:"/Welding Services.jpg",
   },
    {
-    id: 19,
-    name: "Locking Wheel Nut Removal / Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+      id: 22,
+      name: "Diagnostics",
+      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+      slug: "Diagnostics",
+      img:"/Diagnostics.jpg",
   },
    
-  {
-    id: 20,
-    name: "24/7 Vehicle Recovery",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+ {
+    id: 25,
+    name: "Alternator Replacement",
+    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.jpg",
   },
-   {
-    id: 21,
-    name: "Valeting Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    {
+       id: 41,
+       name: "Oil Change Service",
+       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+       slug: "oil-change-service",
+       img:"/Oil Change.jpg",
   },
 
 ],
@@ -1305,37 +1651,7 @@ faq:[
   ],
   image:"/vogue fix my motor image 22.jpg"
 },
-      paragraph1:  {
-    black_heading: "Precision Engine Rebuilds",
-    green_heading: "Full Rotating Assembly Balancing",
-    p: [
-      "At Vogue Technics, every engine rebuild includes dynamic balancing of the crankshaft, rods, and pistons. This eliminates harmonic vibrations that destroy bearings and ensures silky smooth operation up to redline. We use a high-speed balancer for race-grade accuracy.",
-      "Our machinists measure each connecting rod for stretch and twist before assembly. Rods that fail inspection are replaced with forged units from trusted brands like Manley or Carrillo. This attention to detail prevents catastrophic failures at high RPM.",
-      "We store all balanced assemblies in foam-lined cases until final assembly. No dust, no scratches, no shortcuts.",
-    ],
-    lists: [
-      "Crankshaft end play set to 0.002-0.004 inches",
-      "Piston ring gap files used for custom gaps",
-      "All hardware torqued with Snap-on digital wrench",
-      "Final balance sheet provided to customer",
-    ],
-  },
-  paragraph2:
-  {
-    black_heading: "Same-Day Oil Service",
-    green_heading: "Full Synthetic + OEM Filter",
-    p: [
-      "Vogue Technics completes a full oil change in under 45 minutes using only European or Japanese full synthetic oils. We drain hot oil to remove suspended contaminants and replace the crush washer on every drain plug to prevent future leaks.",
-      "Our oil service includes a complimentary multi-point inspection. We check air filters, cabin filters, tire pressures, and all fluid levels. Any issues are photographed and sent to you via text message with our recommended repair plan.",
-      "We reset your oil life monitor and record the service in our digital history system.",
-    ],
-    lists: [
-      "5W-30, 5W-40, or 0W-20 in stock",
-      "Mann, Mahle, or WIX filters used",
-      "Free top-off between services",
-      "Sticker placed on windshield with next due date",
-    ],
-  },
+    
      Reviews:[
        {
     id: 1,
@@ -1392,43 +1708,113 @@ faq:[
 
 
   { id: 9, name: "Epping", slug: "epping" ,
-    servicesData:[
+          green_slider:{
+   img: "/vogue fix my motor image 9.jpg",
+  items:  [
+  {
+    title: "detail page Lorem Ipsum Has Been In",
+    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
+
+In modern development workflow.`
+  },
+
+  {
+    title: "detail page Trusted Car Repair Experts",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "detail page  Fast & Professional Service",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "detail page Advanced Engine Diagnostics",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "detail page Quality Parts & Reliable Repairs",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "detail page  Customer Satisfaction Guaranteed",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+ servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Initial-Diagnostics", 
+     img:"/Initial Diagnostics.jpeg",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    img:"/Cam Belts.jpg",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Welding-Services",
+    img:"/Welding Services.jpg",
   },
    {
-    id: 19,
-    name: "Locking Wheel Nut Removal / Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+      id: 22,
+      name: "Diagnostics",
+      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+      slug: "Diagnostics",
+      img:"/Diagnostics.jpg",
   },
    
-  {
-    id: 20,
-    name: "24/7 Vehicle Recovery",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+ {
+    id: 25,
+    name: "Alternator Replacement",
+    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.jpg",
   },
-   {
-    id: 21,
-    name: "Valeting Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    {
+       id: 41,
+       name: "Oil Change Service",
+       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+       slug: "oil-change-service",
+       img:"/Oil Change.jpg",
   },
 
 ],
@@ -1471,37 +1857,7 @@ requestqoute:{
   ],
   image:"/3.jpg"
 },
-      paragraph1:  {
-    black_heading: "Precision Engine Rebuilds",
-    green_heading: "Full Rotating Assembly Balancing",
-    p: [
-      "At Vogue Technics, every engine rebuild includes dynamic balancing of the crankshaft, rods, and pistons. This eliminates harmonic vibrations that destroy bearings and ensures silky smooth operation up to redline. We use a high-speed balancer for race-grade accuracy.",
-      "Our machinists measure each connecting rod for stretch and twist before assembly. Rods that fail inspection are replaced with forged units from trusted brands like Manley or Carrillo. This attention to detail prevents catastrophic failures at high RPM.",
-      "We store all balanced assemblies in foam-lined cases until final assembly. No dust, no scratches, no shortcuts.",
-    ],
-    lists: [
-      "Crankshaft end play set to 0.002-0.004 inches",
-      "Piston ring gap files used for custom gaps",
-      "All hardware torqued with Snap-on digital wrench",
-      "Final balance sheet provided to customer",
-    ],
-  },
-  paragraph2:
-  {
-    black_heading: "Same-Day Oil Service",
-    green_heading: "Full Synthetic + OEM Filter",
-    p: [
-      "Vogue Technics completes a full oil change in under 45 minutes using only European or Japanese full synthetic oils. We drain hot oil to remove suspended contaminants and replace the crush washer on every drain plug to prevent future leaks.",
-      "Our oil service includes a complimentary multi-point inspection. We check air filters, cabin filters, tire pressures, and all fluid levels. Any issues are photographed and sent to you via text message with our recommended repair plan.",
-      "We reset your oil life monitor and record the service in our digital history system.",
-    ],
-    lists: [
-      "5W-30, 5W-40, or 0W-20 in stock",
-      "Mann, Mahle, or WIX filters used",
-      "Free top-off between services",
-      "Sticker placed on windshield with next due date",
-    ],
-  },
+      
       Reviews:[
        {
     id: 1,
@@ -1555,43 +1911,113 @@ requestqoute:{
 
 
   { id: 10, name: "Loughton", slug: "loughton",
-    servicesData:[
+          green_slider:{
+   img: "/vogue fix my motor image 9.jpg",
+  items:  [
+  {
+    title: "detail page Lorem Ipsum Has Been In",
+    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
+
+In modern development workflow.`
+  },
+
+  {
+    title: "detail page Trusted Car Repair Experts",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "detail page  Fast & Professional Service",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "detail page Advanced Engine Diagnostics",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "detail page Quality Parts & Reliable Repairs",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "detail page  Customer Satisfaction Guaranteed",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+  servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Initial-Diagnostics", 
+     img:"/Initial Diagnostics.jpeg",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    img:"/Cam Belts.jpg",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Welding-Services",
+    img:"/Welding Services.jpg",
   },
    {
-    id: 19,
-    name: "Locking Wheel Nut Removal / Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+      id: 22,
+      name: "Diagnostics",
+      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+      slug: "Diagnostics",
+      img:"/Diagnostics.jpg",
   },
    
-  {
-    id: 20,
-    name: "24/7 Vehicle Recovery",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+ {
+    id: 25,
+    name: "Alternator Replacement",
+    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.jpg",
   },
-   {
-    id: 21,
-    name: "Valeting Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    {
+       id: 41,
+       name: "Oil Change Service",
+       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+       slug: "oil-change-service",
+       img:"/Oil Change.jpg",
   },
 
 ],
@@ -1632,37 +2058,7 @@ faq:[
   ],
   image:"/slider_section_image.jpg"
 },
-      paragraph1:  {
-    black_heading: "Precision Engine Rebuilds",
-    green_heading: "Full Rotating Assembly Balancing",
-    p: [
-      "At Vogue Technics, every engine rebuild includes dynamic balancing of the crankshaft, rods, and pistons. This eliminates harmonic vibrations that destroy bearings and ensures silky smooth operation up to redline. We use a high-speed balancer for race-grade accuracy.",
-      "Our machinists measure each connecting rod for stretch and twist before assembly. Rods that fail inspection are replaced with forged units from trusted brands like Manley or Carrillo. This attention to detail prevents catastrophic failures at high RPM.",
-      "We store all balanced assemblies in foam-lined cases until final assembly. No dust, no scratches, no shortcuts.",
-    ],
-    lists: [
-      "Crankshaft end play set to 0.002-0.004 inches",
-      "Piston ring gap files used for custom gaps",
-      "All hardware torqued with Snap-on digital wrench",
-      "Final balance sheet provided to customer",
-    ],
-  },
-  paragraph2:
-  {
-    black_heading: "Same-Day Oil Service",
-    green_heading: "Full Synthetic + OEM Filter",
-    p: [
-      "Vogue Technics completes a full oil change in under 45 minutes using only European or Japanese full synthetic oils. We drain hot oil to remove suspended contaminants and replace the crush washer on every drain plug to prevent future leaks.",
-      "Our oil service includes a complimentary multi-point inspection. We check air filters, cabin filters, tire pressures, and all fluid levels. Any issues are photographed and sent to you via text message with our recommended repair plan.",
-      "We reset your oil life monitor and record the service in our digital history system.",
-    ],
-    lists: [
-      "5W-30, 5W-40, or 0W-20 in stock",
-      "Mann, Mahle, or WIX filters used",
-      "Free top-off between services",
-      "Sticker placed on windshield with next due date",
-    ],
-  },
+   
       Reviews:[
        {
     id: 1,
@@ -1709,44 +2105,113 @@ faq:[
 
 
   { id: 11, name: "Witham", slug: "witham",
-    
-servicesData:[
+          green_slider:{
+   img: "/vogue fix my motor image 9.jpg",
+  items:  [
+  {
+    title: "detail page Lorem Ipsum Has Been In",
+    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
+
+In modern development workflow.`
+  },
+
+  {
+    title: "detail page Trusted Car Repair Experts",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "detail page  Fast & Professional Service",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "detail page Advanced Engine Diagnostics",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "detail page Quality Parts & Reliable Repairs",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "detail page  Customer Satisfaction Guaranteed",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+ servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Initial-Diagnostics", 
+     img:"/Initial Diagnostics.jpeg",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    img:"/Cam Belts.jpg",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Welding-Services",
+    img:"/Welding Services.jpg",
   },
    {
-    id: 19,
-    name: "Locking Wheel Nut Removal / Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+      id: 22,
+      name: "Diagnostics",
+      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+      slug: "Diagnostics",
+      img:"/Diagnostics.jpg",
   },
    
-  {
-    id: 20,
-    name: "24/7 Vehicle Recovery",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+ {
+    id: 25,
+    name: "Alternator Replacement",
+    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.jpg",
   },
-   {
-    id: 21,
-    name: "Valeting Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    {
+       id: 41,
+       name: "Oil Change Service",
+       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+       slug: "oil-change-service",
+       img:"/Oil Change.jpg",
   },
 
 ],
@@ -1787,38 +2252,7 @@ faq:[
   ],
   image:"/description.jpg"
 },
-    paragraph1:
   
-  {
-    black_heading: "Cylinder Head Resurfacing",
-    green_heading: "Mirror Finish for MLS Gaskets",
-    p: [
-      "Vogue Technics uses a CNC cylinder head resurfacer that achieves a 20 Ra finish or better. This ultra-smooth surface allows multi-layer steel gaskets to seal perfectly without additional sealants. We also pressure test every head for cracks before machining.",
-      "After surfacing, we vacuum-test each valve seat for leakage. Any seat that fails is cut with a Serdi valve machine to a perfect 3-angle profile. This restores compression and prevents hot-start issues common on high-mileage engines.",
-      "All heads are bagged and tagged with the RA measurement for your records.",
-    ],
-    lists: [
-      "Deck height checked with precision straightedge",
-      "Cam bore alignment verified",
-      "New valve stem seals always installed",
-      "Surface photograph included in final report",
-    ],
-  },
-  paragraph2: {
-    black_heading: "Transmission Fluid Flush",
-    green_heading: "Hot Exchange Machine Used",
-    p: [
-      "Vogue Technics performs transmission flushes using a heated exchange machine that replaces 100% of old fluid, including torque converter oil. We never do a simple drain-and-fill, which leaves up to 40% of contaminated fluid behind. Fresh fluid extends transmission life significantly.",
-      "We use only manufacturer-approved fluids, whether it's Dexron VI, Mercon LV, or ZF Lifeguard. After the flush, we reset transmission adaptations using a professional scan tool, ensuring smooth shifts within the first few miles of driving.",
-      "A magnetic drain plug is installed if your transmission has a reusable pan.",
-    ],
-    lists: [
-      "New filter installed on serviceable units",
-      "Pan inspected for clutch material",
-      "Cooler line pressure tested",
-      "Shift adaptation reset completed",
-    ],
-  },
        Reviews:[
        {
     id: 1,
@@ -1863,43 +2297,113 @@ faq:[
 
 
   { id: 12, name: "Maldon", slug: "maldon",
-    servicesData:[
+          green_slider:{
+   img: "/vogue fix my motor image 9.jpg",
+  items:  [
+  {
+    title: "detail page Lorem Ipsum Has Been In",
+    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
+
+In modern development workflow.`
+  },
+
+  {
+    title: "detail page Trusted Car Repair Experts",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "detail page  Fast & Professional Service",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "detail page Advanced Engine Diagnostics",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "detail page Quality Parts & Reliable Repairs",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "detail page  Customer Satisfaction Guaranteed",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+ servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Initial-Diagnostics", 
+     img:"/Initial Diagnostics.jpeg",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    img:"/Cam Belts.jpg",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Welding-Services",
+    img:"/Welding Services.jpg",
   },
    {
-    id: 19,
-    name: "Locking Wheel Nut Removal / Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+      id: 22,
+      name: "Diagnostics",
+      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+      slug: "Diagnostics",
+      img:"/Diagnostics.jpg",
   },
    
-  {
-    id: 20,
-    name: "24/7 Vehicle Recovery",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+ {
+    id: 25,
+    name: "Alternator Replacement",
+    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.jpg",
   },
-   {
-    id: 21,
-    name: "Valeting Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    {
+       id: 41,
+       name: "Oil Change Service",
+       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+       slug: "oil-change-service",
+       img:"/Oil Change.jpg",
   },
 
 ],
@@ -1941,38 +2445,7 @@ faq:[
   ],
   image:"/2.jpg"
 },
-     paragraph1:
-  
-  {
-    black_heading: "Cylinder Head Resurfacing",
-    green_heading: "Mirror Finish for MLS Gaskets",
-    p: [
-      "Vogue Technics uses a CNC cylinder head resurfacer that achieves a 20 Ra finish or better. This ultra-smooth surface allows multi-layer steel gaskets to seal perfectly without additional sealants. We also pressure test every head for cracks before machining.",
-      "After surfacing, we vacuum-test each valve seat for leakage. Any seat that fails is cut with a Serdi valve machine to a perfect 3-angle profile. This restores compression and prevents hot-start issues common on high-mileage engines.",
-      "All heads are bagged and tagged with the RA measurement for your records.",
-    ],
-    lists: [
-      "Deck height checked with precision straightedge",
-      "Cam bore alignment verified",
-      "New valve stem seals always installed",
-      "Surface photograph included in final report",
-    ],
-  },
-  paragraph2: {
-    black_heading: "Transmission Fluid Flush",
-    green_heading: "Hot Exchange Machine Used",
-    p: [
-      "Vogue Technics performs transmission flushes using a heated exchange machine that replaces 100% of old fluid, including torque converter oil. We never do a simple drain-and-fill, which leaves up to 40% of contaminated fluid behind. Fresh fluid extends transmission life significantly.",
-      "We use only manufacturer-approved fluids, whether it's Dexron VI, Mercon LV, or ZF Lifeguard. After the flush, we reset transmission adaptations using a professional scan tool, ensuring smooth shifts within the first few miles of driving.",
-      "A magnetic drain plug is installed if your transmission has a reusable pan.",
-    ],
-    lists: [
-      "New filter installed on serviceable units",
-      "Pan inspected for clutch material",
-      "Cooler line pressure tested",
-      "Shift adaptation reset completed",
-    ],
-  },
+    
       Reviews:[
        {
     id: 1,
@@ -2020,46 +2493,116 @@ faq:[
 
 
   { id: 13, name: "Rayleigh", slug: "rayleigh",
-  servicesData:[
+          green_slider:{
+   img: "/vogue fix my motor image 9.jpg",
+  items:  [
+  {
+    title: "detail page Lorem Ipsum Has Been In",
+    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
+
+In modern development workflow.`
+  },
+
+  {
+    title: "detail page Trusted Car Repair Experts",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "detail page  Fast & Professional Service",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "detail page Advanced Engine Diagnostics",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "detail page Quality Parts & Reliable Repairs",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "detail page  Customer Satisfaction Guaranteed",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+ servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Initial-Diagnostics", 
+     img:"/Initial Diagnostics.jpeg",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    img:"/Cam Belts.jpg",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Welding-Services",
+    img:"/Welding Services.jpg",
   },
    {
-    id: 19,
-    name: "Locking Wheel Nut Removal / Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+      id: 22,
+      name: "Diagnostics",
+      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+      slug: "Diagnostics",
+      img:"/Diagnostics.jpg",
   },
    
-  {
-    id: 20,
-    name: "24/7 Vehicle Recovery",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+ {
+    id: 25,
+    name: "Alternator Replacement",
+    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.jpg",
   },
-   {
-    id: 21,
-    name: "Valeting Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    {
+       id: 41,
+       name: "Oil Change Service",
+       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+       slug: "oil-change-service",
+       img:"/Oil Change.jpg",
   },
 
-],  
+],
 faq:[
   {
     id: 1,
@@ -2098,38 +2641,7 @@ faq:[
   image:"/vogue fix my motor image 9.jpg"
 }
 ,
-     paragraph1:
   
-  {
-    black_heading: "Cylinder Head Resurfacing",
-    green_heading: "Mirror Finish for MLS Gaskets",
-    p: [
-      "Vogue Technics uses a CNC cylinder head resurfacer that achieves a 20 Ra finish or better. This ultra-smooth surface allows multi-layer steel gaskets to seal perfectly without additional sealants. We also pressure test every head for cracks before machining.",
-      "After surfacing, we vacuum-test each valve seat for leakage. Any seat that fails is cut with a Serdi valve machine to a perfect 3-angle profile. This restores compression and prevents hot-start issues common on high-mileage engines.",
-      "All heads are bagged and tagged with the RA measurement for your records.",
-    ],
-    lists: [
-      "Deck height checked with precision straightedge",
-      "Cam bore alignment verified",
-      "New valve stem seals always installed",
-      "Surface photograph included in final report",
-    ],
-  },
-  paragraph2: {
-    black_heading: "Transmission Fluid Flush",
-    green_heading: "Hot Exchange Machine Used",
-    p: [
-      "Vogue Technics performs transmission flushes using a heated exchange machine that replaces 100% of old fluid, including torque converter oil. We never do a simple drain-and-fill, which leaves up to 40% of contaminated fluid behind. Fresh fluid extends transmission life significantly.",
-      "We use only manufacturer-approved fluids, whether it's Dexron VI, Mercon LV, or ZF Lifeguard. After the flush, we reset transmission adaptations using a professional scan tool, ensuring smooth shifts within the first few miles of driving.",
-      "A magnetic drain plug is installed if your transmission has a reusable pan.",
-    ],
-    lists: [
-      "New filter installed on serviceable units",
-      "Pan inspected for clutch material",
-      "Cooler line pressure tested",
-      "Shift adaptation reset completed",
-    ],
-  },
       Reviews:[
        {
     id: 1,
@@ -2180,43 +2692,113 @@ faq:[
 
 
   { id: 14, name: "Wickford", slug: "wickford",
-  servicesData:[
+          green_slider:{
+   img: "/vogue fix my motor image 9.jpg",
+  items:  [
+  {
+    title: "detail page Lorem Ipsum Has Been In",
+    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
+
+In modern development workflow.`
+  },
+
+  {
+    title: "detail page Trusted Car Repair Experts",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "detail page  Fast & Professional Service",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "detail page Advanced Engine Diagnostics",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "detail page Quality Parts & Reliable Repairs",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "detail page  Customer Satisfaction Guaranteed",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+ servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Initial-Diagnostics", 
+     img:"/Initial Diagnostics.jpeg",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    img:"/Cam Belts.jpg",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Welding-Services",
+    img:"/Welding Services.jpg",
   },
    {
-    id: 19,
-    name: "Locking Wheel Nut Removal / Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+      id: 22,
+      name: "Diagnostics",
+      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+      slug: "Diagnostics",
+      img:"/Diagnostics.jpg",
   },
    
-  {
-    id: 20,
-    name: "24/7 Vehicle Recovery",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+ {
+    id: 25,
+    name: "Alternator Replacement",
+    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.jpg",
   },
-   {
-    id: 21,
-    name: "Valeting Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    {
+       id: 41,
+       name: "Oil Change Service",
+       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+       slug: "oil-change-service",
+       img:"/Oil Change.jpg",
   },
 
 ],
@@ -2260,38 +2842,7 @@ served:{
   image:"/1.jpg"
 }
 ,
-     paragraph1:
-  
-  {
-    black_heading: "Cylinder Head Resurfacing",
-    green_heading: "Mirror Finish for MLS Gaskets",
-    p: [
-      "Vogue Technics uses a CNC cylinder head resurfacer that achieves a 20 Ra finish or better. This ultra-smooth surface allows multi-layer steel gaskets to seal perfectly without additional sealants. We also pressure test every head for cracks before machining.",
-      "After surfacing, we vacuum-test each valve seat for leakage. Any seat that fails is cut with a Serdi valve machine to a perfect 3-angle profile. This restores compression and prevents hot-start issues common on high-mileage engines.",
-      "All heads are bagged and tagged with the RA measurement for your records.",
-    ],
-    lists: [
-      "Deck height checked with precision straightedge",
-      "Cam bore alignment verified",
-      "New valve stem seals always installed",
-      "Surface photograph included in final report",
-    ],
-  },
-  paragraph2: {
-    black_heading: "Transmission Fluid Flush",
-    green_heading: "Hot Exchange Machine Used",
-    p: [
-      "Vogue Technics performs transmission flushes using a heated exchange machine that replaces 100% of old fluid, including torque converter oil. We never do a simple drain-and-fill, which leaves up to 40% of contaminated fluid behind. Fresh fluid extends transmission life significantly.",
-      "We use only manufacturer-approved fluids, whether it's Dexron VI, Mercon LV, or ZF Lifeguard. After the flush, we reset transmission adaptations using a professional scan tool, ensuring smooth shifts within the first few miles of driving.",
-      "A magnetic drain plug is installed if your transmission has a reusable pan.",
-    ],
-    lists: [
-      "New filter installed on serviceable units",
-      "Pan inspected for clutch material",
-      "Cooler line pressure tested",
-      "Shift adaptation reset completed",
-    ],
-  },
+   
       Reviews:[
        {
     id: 1,
@@ -2339,43 +2890,113 @@ served:{
 
 
   { id: 15, name: "Canvey Island", slug: "canvey-island",
-    servicesData:[
+          green_slider:{
+   img: "/vogue fix my motor image 9.jpg",
+  items:  [
+  {
+    title: "detail page Lorem Ipsum Has Been In",
+    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
+
+In modern development workflow.`
+  },
+
+  {
+    title: "detail page Trusted Car Repair Experts",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "detail page  Fast & Professional Service",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "detail page Advanced Engine Diagnostics",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "detail page Quality Parts & Reliable Repairs",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "detail page  Customer Satisfaction Guaranteed",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+  servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Initial-Diagnostics", 
+     img:"/Initial Diagnostics.jpeg",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    img:"/Cam Belts.jpg",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Welding-Services",
+    img:"/Welding Services.jpg",
   },
    {
-    id: 19,
-    name: "Locking Wheel Nut Removal / Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+      id: 22,
+      name: "Diagnostics",
+      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+      slug: "Diagnostics",
+      img:"/Diagnostics.jpg",
   },
    
-  {
-    id: 20,
-    name: "24/7 Vehicle Recovery",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+ {
+    id: 25,
+    name: "Alternator Replacement",
+    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.jpg",
   },
-   {
-    id: 21,
-    name: "Valeting Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    {
+       id: 41,
+       name: "Oil Change Service",
+       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+       slug: "oil-change-service",
+       img:"/Oil Change.jpg",
   },
 
 ],
@@ -2418,39 +3039,7 @@ requestqoute:{
   ],
   image:"/vogue fix my motor image 14.jpg"
 },
-     paragraph1:
   
-  {
-    black_heading: "Cylinder Head Resurfacing",
-    green_heading: "Mirror Finish for MLS Gaskets",
-    p: [
-      "Vogue Technics uses a CNC cylinder head resurfacer that achieves a 20 Ra finish or better. This ultra-smooth surface allows multi-layer steel gaskets to seal perfectly without additional sealants. We also pressure test every head for cracks before machining.",
-      "After surfacing, we vacuum-test each valve seat for leakage. Any seat that fails is cut with a Serdi valve machine to a perfect 3-angle profile. This restores compression and prevents hot-start issues common on high-mileage engines.",
-      "All heads are bagged and tagged with the RA measurement for your records.",
-    ],
-    lists: [
-      "Deck height checked with precision straightedge",
-      "Cam bore alignment verified",
-      "New valve stem seals always installed",
-      "Surface photograph included in final report",
-    ],
-  },
-  paragraph2: {
-    black_heading: "Transmission Fluid Flush",
-    green_heading: "Hot Exchange Machine Used",
-    p: [
-      "Vogue Technics performs transmission flushes using a heated exchange machine that replaces 100% of old fluid, including torque converter oil. We never do a simple drain-and-fill, which leaves up to 40% of contaminated fluid behind. Fresh fluid extends transmission life significantly.",
-      "We use only manufacturer-approved fluids, whether it's Dexron VI, Mercon LV, or ZF Lifeguard. After the flush, we reset transmission adaptations using a professional scan tool, ensuring smooth shifts within the first few miles of driving.",
-      "A magnetic drain plug is installed if your transmission has a reusable pan.",
-    ],
-    lists: [
-      "New filter installed on serviceable units",
-      "Pan inspected for clutch material",
-      "Cooler line pressure tested",
-      "Shift adaptation reset completed",
-    ],
-  },
-
 
        Reviews:[
        {
@@ -2500,43 +3089,113 @@ requestqoute:{
 
 
   { id: 16, name: "South Benfleet", slug: "south-benfleet",
-    servicesData:[
+          green_slider:{
+   img: "/vogue fix my motor image 9.jpg",
+  items:  [
+  {
+    title: "detail page Lorem Ipsum Has Been In",
+    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
+
+In modern development workflow.`
+  },
+
+  {
+    title: "detail page Trusted Car Repair Experts",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "detail page  Fast & Professional Service",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "detail page Advanced Engine Diagnostics",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "detail page Quality Parts & Reliable Repairs",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "detail page  Customer Satisfaction Guaranteed",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+  servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Initial-Diagnostics", 
+     img:"/Initial Diagnostics.jpeg",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    img:"/Cam Belts.jpg",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Welding-Services",
+    img:"/Welding Services.jpg",
   },
    {
-    id: 19,
-    name: "Locking Wheel Nut Removal / Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+      id: 22,
+      name: "Diagnostics",
+      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+      slug: "Diagnostics",
+      img:"/Diagnostics.jpg",
   },
    
-  {
-    id: 20,
-    name: "24/7 Vehicle Recovery",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+ {
+    id: 25,
+    name: "Alternator Replacement",
+    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.jpg",
   },
-   {
-    id: 21,
-    name: "Valeting Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    {
+       id: 41,
+       name: "Oil Change Service",
+       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+       slug: "oil-change-service",
+       img:"/Oil Change.jpg",
   },
 
 ],
@@ -2579,39 +3238,7 @@ requestqoute:{
   image:"/vogue fix my motor image 15.jpg"
 }
 ,
-     paragraph1:
-  
-  {
-    black_heading: "Cylinder Head Resurfacing",
-    green_heading: "Mirror Finish for MLS Gaskets",
-    p: [
-      "Vogue Technics uses a CNC cylinder head resurfacer that achieves a 20 Ra finish or better. This ultra-smooth surface allows multi-layer steel gaskets to seal perfectly without additional sealants. We also pressure test every head for cracks before machining.",
-      "After surfacing, we vacuum-test each valve seat for leakage. Any seat that fails is cut with a Serdi valve machine to a perfect 3-angle profile. This restores compression and prevents hot-start issues common on high-mileage engines.",
-      "All heads are bagged and tagged with the RA measurement for your records.",
-    ],
-    lists: [
-      "Deck height checked with precision straightedge",
-      "Cam bore alignment verified",
-      "New valve stem seals always installed",
-      "Surface photograph included in final report",
-    ],
-  },
-  paragraph2: {
-    black_heading: "Transmission Fluid Flush",
-    green_heading: "Hot Exchange Machine Used",
-    p: [
-      "Vogue Technics performs transmission flushes using a heated exchange machine that replaces 100% of old fluid, including torque converter oil. We never do a simple drain-and-fill, which leaves up to 40% of contaminated fluid behind. Fresh fluid extends transmission life significantly.",
-      "We use only manufacturer-approved fluids, whether it's Dexron VI, Mercon LV, or ZF Lifeguard. After the flush, we reset transmission adaptations using a professional scan tool, ensuring smooth shifts within the first few miles of driving.",
-      "A magnetic drain plug is installed if your transmission has a reusable pan.",
-    ],
-    lists: [
-      "New filter installed on serviceable units",
-      "Pan inspected for clutch material",
-      "Cooler line pressure tested",
-      "Shift adaptation reset completed",
-    ],
-  },
-       Reviews:[
+        Reviews:[
        {
     id: 1,
     name: "Jonas Sabaitis",
@@ -2674,43 +3301,113 @@ requestqoute:{
 
    },
   { id: 17, name: "Stanford-le-Hope", slug: "stanford-le-hope",
-    servicesData:[
+          green_slider:{
+   img: "/vogue fix my motor image 9.jpg",
+  items:  [
+  {
+    title: "detail page Lorem Ipsum Has Been In",
+    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
+
+In modern development workflow.`
+  },
+
+  {
+    title: "detail page Trusted Car Repair Experts",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "detail page  Fast & Professional Service",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "detail page Advanced Engine Diagnostics",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "detail page Quality Parts & Reliable Repairs",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "detail page  Customer Satisfaction Guaranteed",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+ servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Initial-Diagnostics", 
+     img:"/Initial Diagnostics.jpeg",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    img:"/Cam Belts.jpg",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Welding-Services",
+    img:"/Welding Services.jpg",
   },
    {
-    id: 19,
-    name: "Locking Wheel Nut Removal / Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+      id: 22,
+      name: "Diagnostics",
+      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+      slug: "Diagnostics",
+      img:"/Diagnostics.jpg",
   },
    
-  {
-    id: 20,
-    name: "24/7 Vehicle Recovery",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+ {
+    id: 25,
+    name: "Alternator Replacement",
+    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.jpg",
   },
-   {
-    id: 21,
-    name: "Valeting Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    {
+       id: 41,
+       name: "Oil Change Service",
+       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+       slug: "oil-change-service",
+       img:"/Oil Change.jpg",
   },
 
 ],
@@ -2751,39 +3448,7 @@ faq:[
   ],
   image:"/vogue fix my motor image 17.jpg"
 },
- paragraph1:
-  
-  {
-    black_heading: "Cylinder Head Resurfacing",
-    green_heading: "Mirror Finish for MLS Gaskets",
-    p: [
-      "Vogue Technics uses a CNC cylinder head resurfacer that achieves a 20 Ra finish or better. This ultra-smooth surface allows multi-layer steel gaskets to seal perfectly without additional sealants. We also pressure test every head for cracks before machining.",
-      "After surfacing, we vacuum-test each valve seat for leakage. Any seat that fails is cut with a Serdi valve machine to a perfect 3-angle profile. This restores compression and prevents hot-start issues common on high-mileage engines.",
-      "All heads are bagged and tagged with the RA measurement for your records.",
-    ],
-    lists: [
-      "Deck height checked with precision straightedge",
-      "Cam bore alignment verified",
-      "New valve stem seals always installed",
-      "Surface photograph included in final report",
-    ],
-  },
-  paragraph2: {
-    black_heading: "Transmission Fluid Flush",
-    green_heading: "Hot Exchange Machine Used",
-    p: [
-      "Vogue Technics performs transmission flushes using a heated exchange machine that replaces 100% of old fluid, including torque converter oil. We never do a simple drain-and-fill, which leaves up to 40% of contaminated fluid behind. Fresh fluid extends transmission life significantly.",
-      "We use only manufacturer-approved fluids, whether it's Dexron VI, Mercon LV, or ZF Lifeguard. After the flush, we reset transmission adaptations using a professional scan tool, ensuring smooth shifts within the first few miles of driving.",
-      "A magnetic drain plug is installed if your transmission has a reusable pan.",
-    ],
-    lists: [
-      "New filter installed on serviceable units",
-      "Pan inspected for clutch material",
-      "Cooler line pressure tested",
-      "Shift adaptation reset completed",
-    ],
-  },
-      Reviews:[
+    Reviews:[
        {
     id: 1,
     name: "RAPHAEL AGYEMANG",
@@ -2833,43 +3498,113 @@ faq:[
 
 
   { id: 18, name: "Tilbury", slug: "tilbury",
-  servicesData:[
+          green_slider:{
+   img: "/vogue fix my motor image 9.jpg",
+  items:  [
+  {
+    title: "detail page Lorem Ipsum Has Been In",
+    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
+
+In modern development workflow.`
+  },
+
+  {
+    title: "detail page Trusted Car Repair Experts",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "detail page  Fast & Professional Service",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "detail page Advanced Engine Diagnostics",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "detail page Quality Parts & Reliable Repairs",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "detail page  Customer Satisfaction Guaranteed",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+ servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Initial-Diagnostics", 
+     img:"/Initial Diagnostics.jpeg",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    img:"/Cam Belts.jpg",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Welding-Services",
+    img:"/Welding Services.jpg",
   },
    {
-    id: 19,
-    name: "Locking Wheel Nut Removal / Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+      id: 22,
+      name: "Diagnostics",
+      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+      slug: "Diagnostics",
+      img:"/Diagnostics.jpg",
   },
    
-  {
-    id: 20,
-    name: "24/7 Vehicle Recovery",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+ {
+    id: 25,
+    name: "Alternator Replacement",
+    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.jpg",
   },
-   {
-    id: 21,
-    name: "Valeting Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    {
+       id: 41,
+       name: "Oil Change Service",
+       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+       slug: "oil-change-service",
+       img:"/Oil Change.jpg",
   },
 
 ],
@@ -2913,39 +3648,7 @@ served:{
   image:"/vogue fix my motor image 18.jpg"
 }
 ,
-     paragraph1:
-  
-  {
-    black_heading: "Cylinder Head Resurfacing",
-    green_heading: "Mirror Finish for MLS Gaskets",
-    p: [
-      "Vogue Technics uses a CNC cylinder head resurfacer that achieves a 20 Ra finish or better. This ultra-smooth surface allows multi-layer steel gaskets to seal perfectly without additional sealants. We also pressure test every head for cracks before machining.",
-      "After surfacing, we vacuum-test each valve seat for leakage. Any seat that fails is cut with a Serdi valve machine to a perfect 3-angle profile. This restores compression and prevents hot-start issues common on high-mileage engines.",
-      "All heads are bagged and tagged with the RA measurement for your records.",
-    ],
-    lists: [
-      "Deck height checked with precision straightedge",
-      "Cam bore alignment verified",
-      "New valve stem seals always installed",
-      "Surface photograph included in final report",
-    ],
-  },
-  paragraph2: {
-    black_heading: "Transmission Fluid Flush",
-    green_heading: "Hot Exchange Machine Used",
-    p: [
-      "Vogue Technics performs transmission flushes using a heated exchange machine that replaces 100% of old fluid, including torque converter oil. We never do a simple drain-and-fill, which leaves up to 40% of contaminated fluid behind. Fresh fluid extends transmission life significantly.",
-      "We use only manufacturer-approved fluids, whether it's Dexron VI, Mercon LV, or ZF Lifeguard. After the flush, we reset transmission adaptations using a professional scan tool, ensuring smooth shifts within the first few miles of driving.",
-      "A magnetic drain plug is installed if your transmission has a reusable pan.",
-    ],
-    lists: [
-      "New filter installed on serviceable units",
-      "Pan inspected for clutch material",
-      "Cooler line pressure tested",
-      "Shift adaptation reset completed",
-    ],
-  },
-      Reviews:[
+   Reviews:[
        {
     id: 1,
     name: "Bogdan Marian",
@@ -2994,43 +3697,113 @@ served:{
 
 
   { id: 19, name: "Clacton-on-Sea", slug: "clacton-on-sea",
-    servicesData:[
+          green_slider:{
+   img: "/vogue fix my motor image 9.jpg",
+  items:  [
+  {
+    title: "detail page Lorem Ipsum Has Been In",
+    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
+
+In modern development workflow.`
+  },
+
+  {
+    title: "detail page Trusted Car Repair Experts",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "detail page  Fast & Professional Service",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "detail page Advanced Engine Diagnostics",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "detail page Quality Parts & Reliable Repairs",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "detail page  Customer Satisfaction Guaranteed",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+ servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Initial-Diagnostics", 
+     img:"/Initial Diagnostics.jpeg",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    img:"/Cam Belts.jpg",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Welding-Services",
+    img:"/Welding Services.jpg",
   },
    {
-    id: 19,
-    name: "Locking Wheel Nut Removal / Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+      id: 22,
+      name: "Diagnostics",
+      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+      slug: "Diagnostics",
+      img:"/Diagnostics.jpg",
   },
    
-  {
-    id: 20,
-    name: "24/7 Vehicle Recovery",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+ {
+    id: 25,
+    name: "Alternator Replacement",
+    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.jpg",
   },
-   {
-    id: 21,
-    name: "Valeting Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    {
+       id: 41,
+       name: "Oil Change Service",
+       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+       slug: "oil-change-service",
+       img:"/Oil Change.jpg",
   },
 
 ],
@@ -3072,38 +3845,7 @@ faq:[
   ],
   image:"/wowimage.jpg"
 },
- paragraph1:
-  
-  {
-    black_heading: "Cylinder Head Resurfacing",
-    green_heading: "Mirror Finish for MLS Gaskets",
-    p: [
-      "Vogue Technics uses a CNC cylinder head resurfacer that achieves a 20 Ra finish or better. This ultra-smooth surface allows multi-layer steel gaskets to seal perfectly without additional sealants. We also pressure test every head for cracks before machining.",
-      "After surfacing, we vacuum-test each valve seat for leakage. Any seat that fails is cut with a Serdi valve machine to a perfect 3-angle profile. This restores compression and prevents hot-start issues common on high-mileage engines.",
-      "All heads are bagged and tagged with the RA measurement for your records.",
-    ],
-    lists: [
-      "Deck height checked with precision straightedge",
-      "Cam bore alignment verified",
-      "New valve stem seals always installed",
-      "Surface photograph included in final report",
-    ],
-  },
-  paragraph2: {
-    black_heading: "Transmission Fluid Flush",
-    green_heading: "Hot Exchange Machine Used",
-    p: [
-      "Vogue Technics performs transmission flushes using a heated exchange machine that replaces 100% of old fluid, including torque converter oil. We never do a simple drain-and-fill, which leaves up to 40% of contaminated fluid behind. Fresh fluid extends transmission life significantly.",
-      "We use only manufacturer-approved fluids, whether it's Dexron VI, Mercon LV, or ZF Lifeguard. After the flush, we reset transmission adaptations using a professional scan tool, ensuring smooth shifts within the first few miles of driving.",
-      "A magnetic drain plug is installed if your transmission has a reusable pan.",
-    ],
-    lists: [
-      "New filter installed on serviceable units",
-      "Pan inspected for clutch material",
-      "Cooler line pressure tested",
-      "Shift adaptation reset completed",
-    ],
-  },
+
       Reviews:[
        {
     id: 1,
@@ -3156,43 +3898,113 @@ faq:[
 
 
   { id: 20, name: "Frinton-on-Sea", slug: "frinton-on-sea" ,
-    servicesData:[
+          green_slider:{
+   img: "/vogue fix my motor image 9.jpg",
+  items:  [
+  {
+    title: "detail page Lorem Ipsum Has Been In",
+    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
+
+In modern development workflow.`
+  },
+
+  {
+    title: "detail page Trusted Car Repair Experts",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "detail page  Fast & Professional Service",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "detail page Advanced Engine Diagnostics",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "detail page Quality Parts & Reliable Repairs",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "detail page  Customer Satisfaction Guaranteed",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+ servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Initial-Diagnostics", 
+     img:"/Initial Diagnostics.jpeg",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    img:"/Cam Belts.jpg",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Welding-Services",
+    img:"/Welding Services.jpg",
   },
    {
-    id: 19,
-    name: "Locking Wheel Nut Removal / Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+      id: 22,
+      name: "Diagnostics",
+      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+      slug: "Diagnostics",
+      img:"/Diagnostics.jpg",
   },
    
-  {
-    id: 20,
-    name: "24/7 Vehicle Recovery",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+ {
+    id: 25,
+    name: "Alternator Replacement",
+    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.jpg",
   },
-   {
-    id: 21,
-    name: "Valeting Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    {
+       id: 41,
+       name: "Oil Change Service",
+       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+       slug: "oil-change-service",
+       img:"/Oil Change.jpg",
   },
 
 ],
@@ -3235,38 +4047,7 @@ faq:[
   ],
   image:"/vogue fix my motor image 20.jpg"
 }
-, paragraph1:
-  
-  {
-    black_heading: "Cylinder Head Resurfacing",
-    green_heading: "Mirror Finish for MLS Gaskets",
-    p: [
-      "Vogue Technics uses a CNC cylinder head resurfacer that achieves a 20 Ra finish or better. This ultra-smooth surface allows multi-layer steel gaskets to seal perfectly without additional sealants. We also pressure test every head for cracks before machining.",
-      "After surfacing, we vacuum-test each valve seat for leakage. Any seat that fails is cut with a Serdi valve machine to a perfect 3-angle profile. This restores compression and prevents hot-start issues common on high-mileage engines.",
-      "All heads are bagged and tagged with the RA measurement for your records.",
-    ],
-    lists: [
-      "Deck height checked with precision straightedge",
-      "Cam bore alignment verified",
-      "New valve stem seals always installed",
-      "Surface photograph included in final report",
-    ],
-  },
-  paragraph2: {
-    black_heading: "Transmission Fluid Flush",
-    green_heading: "Hot Exchange Machine Used",
-    p: [
-      "Vogue Technics performs transmission flushes using a heated exchange machine that replaces 100% of old fluid, including torque converter oil. We never do a simple drain-and-fill, which leaves up to 40% of contaminated fluid behind. Fresh fluid extends transmission life significantly.",
-      "We use only manufacturer-approved fluids, whether it's Dexron VI, Mercon LV, or ZF Lifeguard. After the flush, we reset transmission adaptations using a professional scan tool, ensuring smooth shifts within the first few miles of driving.",
-      "A magnetic drain plug is installed if your transmission has a reusable pan.",
-    ],
-    lists: [
-      "New filter installed on serviceable units",
-      "Pan inspected for clutch material",
-      "Cooler line pressure tested",
-      "Shift adaptation reset completed",
-    ],
-  },
+,
       Reviews:[
        {
     id: 1,
@@ -3312,43 +4093,113 @@ faq:[
 
 
   { id: 21, name: "Walton-on-the-Naze", slug: "walton-on-the-naze",
-   servicesData:[
+          green_slider:{
+   img: "/vogue fix my motor image 9.jpg",
+  items:  [
+  {
+    title: "detail page Lorem Ipsum Has Been In",
+    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
+
+In modern development workflow.`
+  },
+
+  {
+    title: "detail page Trusted Car Repair Experts",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "detail page  Fast & Professional Service",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "detail page Advanced Engine Diagnostics",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "detail page Quality Parts & Reliable Repairs",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "detail page  Customer Satisfaction Guaranteed",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+ servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Initial-Diagnostics", 
+     img:"/Initial Diagnostics.jpeg",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    img:"/Cam Belts.jpg",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Welding-Services",
+    img:"/Welding Services.jpg",
   },
    {
-    id: 19,
-    name: "Locking Wheel Nut Removal / Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+      id: 22,
+      name: "Diagnostics",
+      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+      slug: "Diagnostics",
+      img:"/Diagnostics.jpg",
   },
    
-  {
-    id: 20,
-    name: "24/7 Vehicle Recovery",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+ {
+    id: 25,
+    name: "Alternator Replacement",
+    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.jpg",
   },
-   {
-    id: 21,
-    name: "Valeting Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    {
+       id: 41,
+       name: "Oil Change Service",
+       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+       slug: "oil-change-service",
+       img:"/Oil Change.jpg",
   },
 
 ],
@@ -3390,36 +4241,7 @@ requestqoute:{
     "Economy tune for better MPG"
   ],
   image:"/vogue fix my motor image 21.jpg"
-}, paragraph1:{
-    black_heading: "Timing Belt Replacement",
-    green_heading: "Full Kit Including Water Pump",
-    p: [
-      "Vogue Technics only installs complete timing belt kits with a new water pump, tensioner, and idler pulleys. Reusing an old water pump is a false economy; we've seen too many fail within 10,000 miles. Our labor warranty covers the entire job for 2 years or 24,000 miles.",
-      "Before closing the engine, we rotate the crankshaft two full turns and re-check all timing marks. Then we perform a cylinder leakage test to confirm no valves contacted pistons. This double-check process has saved dozens of engines from interference damage.",
-      "We also replace the camshaft and crankshaft seals during this job at no extra labor.",
-    ],
-    lists: [
-      "Gates, Continental, or Dayco kits used",
-      "Crankshaft bolt replaced on stretch-to-yield designs",
-      "Timing cover gaskets renewed",
-      "Belt tension verified with tension gauge",
-    ],
-  },
-  paragraph2:{
-    black_heading: "Diagnostic Smoke Testing",
-    green_heading: "Find Vacuum & EVAP Leaks Fast",
-    p: [
-      "Vogue Technics uses an industrial-grade smoke machine to locate intake vacuum leaks and EVAP system leaks in minutes. Unlike guesswork, smoke visibly escapes from cracked hoses, failed gaskets, or broken purge valves. This saves hours of labor and avoids unnecessary part replacements.",
-      "We also perform a propane enrichment test alongside smoke testing to confirm running condition. A small propane leak into the intake will cause idle changes, pinpointing even the tiniest cracks that smoke might miss. This dual-method approach is industry-leading.",
-      "All found leaks are photographed with a UV light that makes smoke visible for your repair estimate.",
-    ],
-    lists: [
-      "EVAP system tested up to 15 inches of vacuum",
-      "Intake manifold runner seals checked",
-      "Brake booster hose inspected",
-      "PCV system integrity verified",
-    ],
-  },
+},
      Reviews:[
        {
     id: 1,
@@ -3472,43 +4294,113 @@ requestqoute:{
 
 
   { id: 22, name: "Castle Point", slug: "castle-point",
-    servicesData:[
+          green_slider:{
+   img: "/vogue fix my motor image 9.jpg",
+  items:  [
+  {
+    title: "detail page Lorem Ipsum Has Been In",
+    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
+
+In modern development workflow.`
+  },
+
+  {
+    title: "detail page Trusted Car Repair Experts",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "detail page  Fast & Professional Service",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "detail page Advanced Engine Diagnostics",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "detail page Quality Parts & Reliable Repairs",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "detail page  Customer Satisfaction Guaranteed",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+  servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Initial-Diagnostics", 
+     img:"/Initial Diagnostics.jpeg",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    img:"/Cam Belts.jpg",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Welding-Services",
+    img:"/Welding Services.jpg",
   },
    {
-    id: 19,
-    name: "Locking Wheel Nut Removal / Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+      id: 22,
+      name: "Diagnostics",
+      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+      slug: "Diagnostics",
+      img:"/Diagnostics.jpg",
   },
    
-  {
-    id: 20,
-    name: "24/7 Vehicle Recovery",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+ {
+    id: 25,
+    name: "Alternator Replacement",
+    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.jpg",
   },
-   {
-    id: 21,
-    name: "Valeting Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    {
+       id: 41,
+       name: "Oil Change Service",
+       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+       slug: "oil-change-service",
+       img:"/Oil Change.jpg",
   },
 
 ],
@@ -3551,36 +4443,7 @@ requestqoute:{
     "Rear main seal repair"
   ],
   image:"/vogue fix my motor image 22.jpg"
-},   paragraph1:{
-    black_heading: "Timing Belt Replacement",
-    green_heading: "Full Kit Including Water Pump",
-    p: [
-      "Vogue Technics only installs complete timing belt kits with a new water pump, tensioner, and idler pulleys. Reusing an old water pump is a false economy; we've seen too many fail within 10,000 miles. Our labor warranty covers the entire job for 2 years or 24,000 miles.",
-      "Before closing the engine, we rotate the crankshaft two full turns and re-check all timing marks. Then we perform a cylinder leakage test to confirm no valves contacted pistons. This double-check process has saved dozens of engines from interference damage.",
-      "We also replace the camshaft and crankshaft seals during this job at no extra labor.",
-    ],
-    lists: [
-      "Gates, Continental, or Dayco kits used",
-      "Crankshaft bolt replaced on stretch-to-yield designs",
-      "Timing cover gaskets renewed",
-      "Belt tension verified with tension gauge",
-    ],
-  },
-  paragraph2:{
-    black_heading: "Diagnostic Smoke Testing",
-    green_heading: "Find Vacuum & EVAP Leaks Fast",
-    p: [
-      "Vogue Technics uses an industrial-grade smoke machine to locate intake vacuum leaks and EVAP system leaks in minutes. Unlike guesswork, smoke visibly escapes from cracked hoses, failed gaskets, or broken purge valves. This saves hours of labor and avoids unnecessary part replacements.",
-      "We also perform a propane enrichment test alongside smoke testing to confirm running condition. A small propane leak into the intake will cause idle changes, pinpointing even the tiniest cracks that smoke might miss. This dual-method approach is industry-leading.",
-      "All found leaks are photographed with a UV light that makes smoke visible for your repair estimate.",
-    ],
-    lists: [
-      "EVAP system tested up to 15 inches of vacuum",
-      "Intake manifold runner seals checked",
-      "Brake booster hose inspected",
-      "PCV system integrity verified",
-    ],
-  },
+}, 
        Reviews:[
        {
     id: 1,
@@ -3629,43 +4492,113 @@ requestqoute:{
 
 
   { id: 23, name: "Epping Forest", slug: "epping-forest",
-    servicesData:[
+          green_slider:{
+   img: "/vogue fix my motor image 9.jpg",
+  items:  [
+  {
+    title: "detail page Lorem Ipsum Has Been In",
+    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
+
+In modern development workflow.`
+  },
+
+  {
+    title: "detail page Trusted Car Repair Experts",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "detail page  Fast & Professional Service",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "detail page Advanced Engine Diagnostics",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "detail page Quality Parts & Reliable Repairs",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "detail page  Customer Satisfaction Guaranteed",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+ servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Initial-Diagnostics", 
+     img:"/Initial Diagnostics.jpeg",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    img:"/Cam Belts.jpg",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Welding-Services",
+    img:"/Welding Services.jpg",
   },
    {
-    id: 19,
-    name: "Locking Wheel Nut Removal / Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+      id: 22,
+      name: "Diagnostics",
+      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+      slug: "Diagnostics",
+      img:"/Diagnostics.jpg",
   },
    
-  {
-    id: 20,
-    name: "24/7 Vehicle Recovery",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+ {
+    id: 25,
+    name: "Alternator Replacement",
+    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.jpg",
   },
-   {
-    id: 21,
-    name: "Valeting Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    {
+       id: 41,
+       name: "Oil Change Service",
+       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+       slug: "oil-change-service",
+       img:"/Oil Change.jpg",
   },
 
 ],
@@ -3706,36 +4639,7 @@ served:{
     "Number plate and mirror compliance"
   ],
   image:"/3.jpg"
-},   paragraph1:{
-    black_heading: "Timing Belt Replacement",
-    green_heading: "Full Kit Including Water Pump",
-    p: [
-      "Vogue Technics only installs complete timing belt kits with a new water pump, tensioner, and idler pulleys. Reusing an old water pump is a false economy; we've seen too many fail within 10,000 miles. Our labor warranty covers the entire job for 2 years or 24,000 miles.",
-      "Before closing the engine, we rotate the crankshaft two full turns and re-check all timing marks. Then we perform a cylinder leakage test to confirm no valves contacted pistons. This double-check process has saved dozens of engines from interference damage.",
-      "We also replace the camshaft and crankshaft seals during this job at no extra labor.",
-    ],
-    lists: [
-      "Gates, Continental, or Dayco kits used",
-      "Crankshaft bolt replaced on stretch-to-yield designs",
-      "Timing cover gaskets renewed",
-      "Belt tension verified with tension gauge",
-    ],
-  },
-  paragraph2:{
-    black_heading: "Diagnostic Smoke Testing",
-    green_heading: "Find Vacuum & EVAP Leaks Fast",
-    p: [
-      "Vogue Technics uses an industrial-grade smoke machine to locate intake vacuum leaks and EVAP system leaks in minutes. Unlike guesswork, smoke visibly escapes from cracked hoses, failed gaskets, or broken purge valves. This saves hours of labor and avoids unnecessary part replacements.",
-      "We also perform a propane enrichment test alongside smoke testing to confirm running condition. A small propane leak into the intake will cause idle changes, pinpointing even the tiniest cracks that smoke might miss. This dual-method approach is industry-leading.",
-      "All found leaks are photographed with a UV light that makes smoke visible for your repair estimate.",
-    ],
-    lists: [
-      "EVAP system tested up to 15 inches of vacuum",
-      "Intake manifold runner seals checked",
-      "Brake booster hose inspected",
-      "PCV system integrity verified",
-    ],
-  },
+}, 
       Reviews:[
        {
     id: 1,
@@ -3789,43 +4693,113 @@ served:{
 
 
   { id: 24, name: "Rochford", slug: "rochford", 
-  servicesData:[
+          green_slider:{
+   img: "/vogue fix my motor image 9.jpg",
+  items:  [
+  {
+    title: "detail page Lorem Ipsum Has Been In",
+    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
+
+In modern development workflow.`
+  },
+
+  {
+    title: "detail page Trusted Car Repair Experts",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "detail page  Fast & Professional Service",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "detail page Advanced Engine Diagnostics",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "detail page Quality Parts & Reliable Repairs",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "detail page  Customer Satisfaction Guaranteed",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+ servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Initial-Diagnostics", 
+     img:"/Initial Diagnostics.jpeg",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    img:"/Cam Belts.jpg",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Welding-Services",
+    img:"/Welding Services.jpg",
   },
    {
-    id: 19,
-    name: "Locking Wheel Nut Removal / Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+      id: 22,
+      name: "Diagnostics",
+      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+      slug: "Diagnostics",
+      img:"/Diagnostics.jpg",
   },
    
-  {
-    id: 20,
-    name: "24/7 Vehicle Recovery",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+ {
+    id: 25,
+    name: "Alternator Replacement",
+    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.jpg",
   },
-   {
-    id: 21,
-    name: "Valeting Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    {
+       id: 41,
+       name: "Oil Change Service",
+       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+       slug: "oil-change-service",
+       img:"/Oil Change.jpg",
   },
 
 ],
@@ -3867,36 +4841,7 @@ served:{
   ],
   image:"/slider_section_image.jpg"
 }
-,   paragraph1:{
-    black_heading: "Timing Belt Replacement",
-    green_heading: "Full Kit Including Water Pump",
-    p: [
-      "Vogue Technics only installs complete timing belt kits with a new water pump, tensioner, and idler pulleys. Reusing an old water pump is a false economy; we've seen too many fail within 10,000 miles. Our labor warranty covers the entire job for 2 years or 24,000 miles.",
-      "Before closing the engine, we rotate the crankshaft two full turns and re-check all timing marks. Then we perform a cylinder leakage test to confirm no valves contacted pistons. This double-check process has saved dozens of engines from interference damage.",
-      "We also replace the camshaft and crankshaft seals during this job at no extra labor.",
-    ],
-    lists: [
-      "Gates, Continental, or Dayco kits used",
-      "Crankshaft bolt replaced on stretch-to-yield designs",
-      "Timing cover gaskets renewed",
-      "Belt tension verified with tension gauge",
-    ],
-  },
-  paragraph2:{
-    black_heading: "Diagnostic Smoke Testing",
-    green_heading: "Find Vacuum & EVAP Leaks Fast",
-    p: [
-      "Vogue Technics uses an industrial-grade smoke machine to locate intake vacuum leaks and EVAP system leaks in minutes. Unlike guesswork, smoke visibly escapes from cracked hoses, failed gaskets, or broken purge valves. This saves hours of labor and avoids unnecessary part replacements.",
-      "We also perform a propane enrichment test alongside smoke testing to confirm running condition. A small propane leak into the intake will cause idle changes, pinpointing even the tiniest cracks that smoke might miss. This dual-method approach is industry-leading.",
-      "All found leaks are photographed with a UV light that makes smoke visible for your repair estimate.",
-    ],
-    lists: [
-      "EVAP system tested up to 15 inches of vacuum",
-      "Intake manifold runner seals checked",
-      "Brake booster hose inspected",
-      "PCV system integrity verified",
-    ],
-  },
+, 
       Reviews:[
        {
     id: 1,
@@ -3983,43 +4928,113 @@ served:{
 
 
   { id: 25, name: "Tendring", slug: "tendring",
-    servicesData:[
+          green_slider:{
+   img: "/vogue fix my motor image 9.jpg",
+  items:  [
+  {
+    title: "detail page Lorem Ipsum Has Been In",
+    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
+
+In modern development workflow.`
+  },
+
+  {
+    title: "detail page Trusted Car Repair Experts",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "detail page  Fast & Professional Service",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "detail page Advanced Engine Diagnostics",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "detail page Quality Parts & Reliable Repairs",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "detail page  Customer Satisfaction Guaranteed",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+  servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Initial-Diagnostics", 
+     img:"/Initial Diagnostics.jpeg",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    img:"/Cam Belts.jpg",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Welding-Services",
+    img:"/Welding Services.jpg",
   },
    {
-    id: 19,
-    name: "Locking Wheel Nut Removal / Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+      id: 22,
+      name: "Diagnostics",
+      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+      slug: "Diagnostics",
+      img:"/Diagnostics.jpg",
   },
    
-  {
-    id: 20,
-    name: "24/7 Vehicle Recovery",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+ {
+    id: 25,
+    name: "Alternator Replacement",
+    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.jpg",
   },
-   {
-    id: 21,
-    name: "Valeting Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    {
+       id: 41,
+       name: "Oil Change Service",
+       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+       slug: "oil-change-service",
+       img:"/Oil Change.jpg",
   },
 
 ],
@@ -4061,36 +5076,7 @@ faq:[
   ],
   image:"/slider_section_image.jpg"
 },
-        paragraph1:{
-    black_heading: "Timing Belt Replacement",
-    green_heading: "Full Kit Including Water Pump",
-    p: [
-      "Vogue Technics only installs complete timing belt kits with a new water pump, tensioner, and idler pulleys. Reusing an old water pump is a false economy; we've seen too many fail within 10,000 miles. Our labor warranty covers the entire job for 2 years or 24,000 miles.",
-      "Before closing the engine, we rotate the crankshaft two full turns and re-check all timing marks. Then we perform a cylinder leakage test to confirm no valves contacted pistons. This double-check process has saved dozens of engines from interference damage.",
-      "We also replace the camshaft and crankshaft seals during this job at no extra labor.",
-    ],
-    lists: [
-      "Gates, Continental, or Dayco kits used",
-      "Crankshaft bolt replaced on stretch-to-yield designs",
-      "Timing cover gaskets renewed",
-      "Belt tension verified with tension gauge",
-    ],
-  },
-  paragraph2:{
-    black_heading: "Diagnostic Smoke Testing",
-    green_heading: "Find Vacuum & EVAP Leaks Fast",
-    p: [
-      "Vogue Technics uses an industrial-grade smoke machine to locate intake vacuum leaks and EVAP system leaks in minutes. Unlike guesswork, smoke visibly escapes from cracked hoses, failed gaskets, or broken purge valves. This saves hours of labor and avoids unnecessary part replacements.",
-      "We also perform a propane enrichment test alongside smoke testing to confirm running condition. A small propane leak into the intake will cause idle changes, pinpointing even the tiniest cracks that smoke might miss. This dual-method approach is industry-leading.",
-      "All found leaks are photographed with a UV light that makes smoke visible for your repair estimate.",
-    ],
-    lists: [
-      "EVAP system tested up to 15 inches of vacuum",
-      "Intake manifold runner seals checked",
-      "Brake booster hose inspected",
-      "PCV system integrity verified",
-    ],
-  },
+    
       Reviews:[
        {
     id: 1,
@@ -4141,43 +5127,113 @@ faq:[
 
 
   { id: 26, name: "Uttlesford", slug: "uttlesford",
-  servicesData:[
+          green_slider:{
+   img: "/vogue fix my motor image 9.jpg",
+  items:  [
+  {
+    title: "detail page Lorem Ipsum Has Been In",
+    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
+
+In modern development workflow.`
+  },
+
+  {
+    title: "detail page Trusted Car Repair Experts",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "detail page  Fast & Professional Service",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "detail page Advanced Engine Diagnostics",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "detail page Quality Parts & Reliable Repairs",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "detail page  Customer Satisfaction Guaranteed",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+ servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Initial-Diagnostics", 
+     img:"/Initial Diagnostics.jpeg",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    img:"/Cam Belts.jpg",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Welding-Services",
+    img:"/Welding Services.jpg",
   },
    {
-    id: 19,
-    name: "Locking Wheel Nut Removal / Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+      id: 22,
+      name: "Diagnostics",
+      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+      slug: "Diagnostics",
+      img:"/Diagnostics.jpg",
   },
    
-  {
-    id: 20,
-    name: "24/7 Vehicle Recovery",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+ {
+    id: 25,
+    name: "Alternator Replacement",
+    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.jpg",
   },
-   {
-    id: 21,
-    name: "Valeting Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    {
+       id: 41,
+       name: "Oil Change Service",
+       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+       slug: "oil-change-service",
+       img:"/Oil Change.jpg",
   },
 
 ],
@@ -4219,36 +5275,7 @@ served:{
   ],
   image:"/slider_section_image.jpg"
 }
-,    paragraph1:{
-    black_heading: "Timing Belt Replacement",
-    green_heading: "Full Kit Including Water Pump",
-    p: [
-      "Vogue Technics only installs complete timing belt kits with a new water pump, tensioner, and idler pulleys. Reusing an old water pump is a false economy; we've seen too many fail within 10,000 miles. Our labor warranty covers the entire job for 2 years or 24,000 miles.",
-      "Before closing the engine, we rotate the crankshaft two full turns and re-check all timing marks. Then we perform a cylinder leakage test to confirm no valves contacted pistons. This double-check process has saved dozens of engines from interference damage.",
-      "We also replace the camshaft and crankshaft seals during this job at no extra labor.",
-    ],
-    lists: [
-      "Gates, Continental, or Dayco kits used",
-      "Crankshaft bolt replaced on stretch-to-yield designs",
-      "Timing cover gaskets renewed",
-      "Belt tension verified with tension gauge",
-    ],
-  },
-  paragraph2:{
-    black_heading: "Diagnostic Smoke Testing",
-    green_heading: "Find Vacuum & EVAP Leaks Fast",
-    p: [
-      "Vogue Technics uses an industrial-grade smoke machine to locate intake vacuum leaks and EVAP system leaks in minutes. Unlike guesswork, smoke visibly escapes from cracked hoses, failed gaskets, or broken purge valves. This saves hours of labor and avoids unnecessary part replacements.",
-      "We also perform a propane enrichment test alongside smoke testing to confirm running condition. A small propane leak into the intake will cause idle changes, pinpointing even the tiniest cracks that smoke might miss. This dual-method approach is industry-leading.",
-      "All found leaks are photographed with a UV light that makes smoke visible for your repair estimate.",
-    ],
-    lists: [
-      "EVAP system tested up to 15 inches of vacuum",
-      "Intake manifold runner seals checked",
-      "Brake booster hose inspected",
-      "PCV system integrity verified",
-    ],
-  },
+, 
       Reviews:[
        {
     id: 1,
@@ -4292,43 +5319,113 @@ served:{
 
 
   { id: 27, name: "Romford", slug: "romford",
-   servicesData:[
+          green_slider:{
+   img: "/vogue fix my motor image 9.jpg",
+  items:  [
+  {
+    title: "detail page Lorem Ipsum Has Been In",
+    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
+
+In modern development workflow.`
+  },
+
+  {
+    title: "detail page Trusted Car Repair Experts",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "detail page  Fast & Professional Service",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "detail page Advanced Engine Diagnostics",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "detail page Quality Parts & Reliable Repairs",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "detail page  Customer Satisfaction Guaranteed",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+ servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Initial-Diagnostics", 
+     img:"/Initial Diagnostics.jpeg",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    img:"/Cam Belts.jpg",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Welding-Services",
+    img:"/Welding Services.jpg",
   },
    {
-    id: 19,
-    name: "Locking Wheel Nut Removal / Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+      id: 22,
+      name: "Diagnostics",
+      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+      slug: "Diagnostics",
+      img:"/Diagnostics.jpg",
   },
    
-  {
-    id: 20,
-    name: "24/7 Vehicle Recovery",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+ {
+    id: 25,
+    name: "Alternator Replacement",
+    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.jpg",
   },
-   {
-    id: 21,
-    name: "Valeting Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    {
+       id: 41,
+       name: "Oil Change Service",
+       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+       slug: "oil-change-service",
+       img:"/Oil Change.jpg",
   },
 
 ],
@@ -4370,37 +5467,7 @@ served:{
     "Differential pressure sensor check"
   ],
   image:"/description.jpg"
-},    paragraph1:{
-    black_heading: "Timing Belt Replacement",
-    green_heading: "Full Kit Including Water Pump",
-    p: [
-      "Vogue Technics only installs complete timing belt kits with a new water pump, tensioner, and idler pulleys. Reusing an old water pump is a false economy; we've seen too many fail within 10,000 miles. Our labor warranty covers the entire job for 2 years or 24,000 miles.",
-      "Before closing the engine, we rotate the crankshaft two full turns and re-check all timing marks. Then we perform a cylinder leakage test to confirm no valves contacted pistons. This double-check process has saved dozens of engines from interference damage.",
-      "We also replace the camshaft and crankshaft seals during this job at no extra labor.",
-    ],
-    lists: [
-      "Gates, Continental, or Dayco kits used",
-      "Crankshaft bolt replaced on stretch-to-yield designs",
-      "Timing cover gaskets renewed",
-      "Belt tension verified with tension gauge",
-    ],
-  },
-  paragraph2:{
-    black_heading: "Diagnostic Smoke Testing",
-    green_heading: "Find Vacuum & EVAP Leaks Fast",
-    p: [
-      "Vogue Technics uses an industrial-grade smoke machine to locate intake vacuum leaks and EVAP system leaks in minutes. Unlike guesswork, smoke visibly escapes from cracked hoses, failed gaskets, or broken purge valves. This saves hours of labor and avoids unnecessary part replacements.",
-      "We also perform a propane enrichment test alongside smoke testing to confirm running condition. A small propane leak into the intake will cause idle changes, pinpointing even the tiniest cracks that smoke might miss. This dual-method approach is industry-leading.",
-      "All found leaks are photographed with a UV light that makes smoke visible for your repair estimate.",
-    ],
-    lists: [
-      "EVAP system tested up to 15 inches of vacuum",
-      "Intake manifold runner seals checked",
-      "Brake booster hose inspected",
-      "PCV system integrity verified",
-    ],
-  },
-      Reviews:[
+},       Reviews:[
        {
     id: 1,
     name: "Wassim Abdallah",
@@ -4443,43 +5510,113 @@ served:{
 
 
   { id: 28, name: "Ilford", slug: "ilford",
-    servicesData:[
+          green_slider:{
+   img: "/vogue fix my motor image 9.jpg",
+  items:  [
+  {
+    title: "detail page Lorem Ipsum Has Been In",
+    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
+
+In modern development workflow.`
+  },
+
+  {
+    title: "detail page Trusted Car Repair Experts",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "detail page  Fast & Professional Service",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "detail page Advanced Engine Diagnostics",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "detail page Quality Parts & Reliable Repairs",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "detail page  Customer Satisfaction Guaranteed",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+ servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Initial-Diagnostics", 
+     img:"/Initial Diagnostics.jpeg",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    img:"/Cam Belts.jpg",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Welding-Services",
+    img:"/Welding Services.jpg",
   },
    {
-    id: 19,
-    name: "Locking Wheel Nut Removal / Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+      id: 22,
+      name: "Diagnostics",
+      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+      slug: "Diagnostics",
+      img:"/Diagnostics.jpg",
   },
    
-  {
-    id: 20,
-    name: "24/7 Vehicle Recovery",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+ {
+    id: 25,
+    name: "Alternator Replacement",
+    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.jpg",
   },
-   {
-    id: 21,
-    name: "Valeting Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    {
+       id: 41,
+       name: "Oil Change Service",
+       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+       slug: "oil-change-service",
+       img:"/Oil Change.jpg",
   },
 
 ],
@@ -4522,37 +5659,7 @@ served:{
   ],
   image:"/2.jpg"
 }
-,  paragraph1:{
-    black_heading: "Timing Belt Replacement",
-    green_heading: "Full Kit Including Water Pump",
-    p: [
-      "Vogue Technics only installs complete timing belt kits with a new water pump, tensioner, and idler pulleys. Reusing an old water pump is a false economy; we've seen too many fail within 10,000 miles. Our labor warranty covers the entire job for 2 years or 24,000 miles.",
-      "Before closing the engine, we rotate the crankshaft two full turns and re-check all timing marks. Then we perform a cylinder leakage test to confirm no valves contacted pistons. This double-check process has saved dozens of engines from interference damage.",
-      "We also replace the camshaft and crankshaft seals during this job at no extra labor.",
-    ],
-    lists: [
-      "Gates, Continental, or Dayco kits used",
-      "Crankshaft bolt replaced on stretch-to-yield designs",
-      "Timing cover gaskets renewed",
-      "Belt tension verified with tension gauge",
-    ],
-  },
-  paragraph2:{
-    black_heading: "Diagnostic Smoke Testing",
-    green_heading: "Find Vacuum & EVAP Leaks Fast",
-    p: [
-      "Vogue Technics uses an industrial-grade smoke machine to locate intake vacuum leaks and EVAP system leaks in minutes. Unlike guesswork, smoke visibly escapes from cracked hoses, failed gaskets, or broken purge valves. This saves hours of labor and avoids unnecessary part replacements.",
-      "We also perform a propane enrichment test alongside smoke testing to confirm running condition. A small propane leak into the intake will cause idle changes, pinpointing even the tiniest cracks that smoke might miss. This dual-method approach is industry-leading.",
-      "All found leaks are photographed with a UV light that makes smoke visible for your repair estimate.",
-    ],
-    lists: [
-      "EVAP system tested up to 15 inches of vacuum",
-      "Intake manifold runner seals checked",
-      "Brake booster hose inspected",
-      "PCV system integrity verified",
-    ],
-  },
-      Reviews:[
+,    Reviews:[
        {
     id: 1,
     name: "Adelina Berdilo",
@@ -4596,43 +5703,113 @@ served:{
 
 
   { id: 29, name: "Barking", slug: "barking",
-    servicesData:[
+          green_slider:{
+   img: "/vogue fix my motor image 9.jpg",
+  items:  [
+  {
+    title: "detail page Lorem Ipsum Has Been In",
+    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
+
+In modern development workflow.`
+  },
+
+  {
+    title: "detail page Trusted Car Repair Experts",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "detail page  Fast & Professional Service",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "detail page Advanced Engine Diagnostics",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "detail page Quality Parts & Reliable Repairs",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "detail page  Customer Satisfaction Guaranteed",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+ servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Initial-Diagnostics", 
+     img:"/Initial Diagnostics.jpeg",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    img:"/Cam Belts.jpg",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Welding-Services",
+    img:"/Welding Services.jpg",
   },
    {
-    id: 19,
-    name: "Locking Wheel Nut Removal / Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+      id: 22,
+      name: "Diagnostics",
+      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+      slug: "Diagnostics",
+      img:"/Diagnostics.jpg",
   },
    
-  {
-    id: 20,
-    name: "24/7 Vehicle Recovery",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+ {
+    id: 25,
+    name: "Alternator Replacement",
+    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.jpg",
   },
-   {
-    id: 21,
-    name: "Valeting Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    {
+       id: 41,
+       name: "Oil Change Service",
+       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+       slug: "oil-change-service",
+       img:"/Oil Change.jpg",
   },
 
 ],
@@ -4676,36 +5853,6 @@ faq:[
   image:"/vogue fix my motor image 9.jpg"
 }
 ,
-        paragraph1:{
-    black_heading: "Timing Belt Replacement",
-    green_heading: "Full Kit Including Water Pump",
-    p: [
-      "Vogue Technics only installs complete timing belt kits with a new water pump, tensioner, and idler pulleys. Reusing an old water pump is a false economy; we've seen too many fail within 10,000 miles. Our labor warranty covers the entire job for 2 years or 24,000 miles.",
-      "Before closing the engine, we rotate the crankshaft two full turns and re-check all timing marks. Then we perform a cylinder leakage test to confirm no valves contacted pistons. This double-check process has saved dozens of engines from interference damage.",
-      "We also replace the camshaft and crankshaft seals during this job at no extra labor.",
-    ],
-    lists: [
-      "Gates, Continental, or Dayco kits used",
-      "Crankshaft bolt replaced on stretch-to-yield designs",
-      "Timing cover gaskets renewed",
-      "Belt tension verified with tension gauge",
-    ],
-  },
-  paragraph2:{
-    black_heading: "Diagnostic Smoke Testing",
-    green_heading: "Find Vacuum & EVAP Leaks Fast",
-    p: [
-      "Vogue Technics uses an industrial-grade smoke machine to locate intake vacuum leaks and EVAP system leaks in minutes. Unlike guesswork, smoke visibly escapes from cracked hoses, failed gaskets, or broken purge valves. This saves hours of labor and avoids unnecessary part replacements.",
-      "We also perform a propane enrichment test alongside smoke testing to confirm running condition. A small propane leak into the intake will cause idle changes, pinpointing even the tiniest cracks that smoke might miss. This dual-method approach is industry-leading.",
-      "All found leaks are photographed with a UV light that makes smoke visible for your repair estimate.",
-    ],
-    lists: [
-      "EVAP system tested up to 15 inches of vacuum",
-      "Intake manifold runner seals checked",
-      "Brake booster hose inspected",
-      "PCV system integrity verified",
-    ],
-  },
       Reviews:[
        {
     id: 1,
@@ -4753,43 +5900,113 @@ faq:[
 
 
   { id: 30, name: "Dagenham", slug: "dagenham",
-  servicesData:[
+          green_slider:{
+   img: "/vogue fix my motor image 9.jpg",
+  items:  [
+  {
+    title: "detail page Lorem Ipsum Has Been In",
+    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
+
+In modern development workflow.`
+  },
+
+  {
+    title: "detail page Trusted Car Repair Experts",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "detail page  Fast & Professional Service",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "detail page Advanced Engine Diagnostics",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "detail page Quality Parts & Reliable Repairs",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "detail page  Customer Satisfaction Guaranteed",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+ servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Initial-Diagnostics", 
+     img:"/Initial Diagnostics.jpeg",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    img:"/Cam Belts.jpg",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Welding-Services",
+    img:"/Welding Services.jpg",
   },
    {
-    id: 19,
-    name: "Locking Wheel Nut Removal / Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+      id: 22,
+      name: "Diagnostics",
+      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+      slug: "Diagnostics",
+      img:"/Diagnostics.jpg",
   },
    
-  {
-    id: 20,
-    name: "24/7 Vehicle Recovery",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+ {
+    id: 25,
+    name: "Alternator Replacement",
+    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.jpg",
   },
-   {
-    id: 21,
-    name: "Valeting Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    {
+       id: 41,
+       name: "Oil Change Service",
+       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+       slug: "oil-change-service",
+       img:"/Oil Change.jpg",
   },
 
 ],
@@ -4831,36 +6048,7 @@ served:{
   ],
   image:"/1.jpg"
 }
-,    paragraph1:{
-    black_heading: "Timing Belt Replacement",
-    green_heading: "Full Kit Including Water Pump",
-    p: [
-      "Vogue Technics only installs complete timing belt kits with a new water pump, tensioner, and idler pulleys. Reusing an old water pump is a false economy; we've seen too many fail within 10,000 miles. Our labor warranty covers the entire job for 2 years or 24,000 miles.",
-      "Before closing the engine, we rotate the crankshaft two full turns and re-check all timing marks. Then we perform a cylinder leakage test to confirm no valves contacted pistons. This double-check process has saved dozens of engines from interference damage.",
-      "We also replace the camshaft and crankshaft seals during this job at no extra labor.",
-    ],
-    lists: [
-      "Gates, Continental, or Dayco kits used",
-      "Crankshaft bolt replaced on stretch-to-yield designs",
-      "Timing cover gaskets renewed",
-      "Belt tension verified with tension gauge",
-    ],
-  },
-  paragraph2:{
-    black_heading: "Diagnostic Smoke Testing",
-    green_heading: "Find Vacuum & EVAP Leaks Fast",
-    p: [
-      "Vogue Technics uses an industrial-grade smoke machine to locate intake vacuum leaks and EVAP system leaks in minutes. Unlike guesswork, smoke visibly escapes from cracked hoses, failed gaskets, or broken purge valves. This saves hours of labor and avoids unnecessary part replacements.",
-      "We also perform a propane enrichment test alongside smoke testing to confirm running condition. A small propane leak into the intake will cause idle changes, pinpointing even the tiniest cracks that smoke might miss. This dual-method approach is industry-leading.",
-      "All found leaks are photographed with a UV light that makes smoke visible for your repair estimate.",
-    ],
-    lists: [
-      "EVAP system tested up to 15 inches of vacuum",
-      "Intake manifold runner seals checked",
-      "Brake booster hose inspected",
-      "PCV system integrity verified",
-    ],
-  },
+,  
       Reviews:[
        {
     id: 1,
@@ -4924,43 +6112,113 @@ served:{
 
 
   { id: 31, name: "Rainham", slug: "rainham",
-  servicesData:[
+          green_slider:{
+   img: "/vogue fix my motor image 9.jpg",
+  items:  [
+  {
+    title: "detail page Lorem Ipsum Has Been In",
+    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
+
+In modern development workflow.`
+  },
+
+  {
+    title: "detail page Trusted Car Repair Experts",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "detail page  Fast & Professional Service",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "detail page Advanced Engine Diagnostics",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "detail page Quality Parts & Reliable Repairs",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "detail page  Customer Satisfaction Guaranteed",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+ servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Initial-Diagnostics", 
+     img:"/Initial Diagnostics.jpeg",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    img:"/Cam Belts.jpg",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Welding-Services",
+    img:"/Welding Services.jpg",
   },
    {
-    id: 19,
-    name: "Locking Wheel Nut Removal / Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+      id: 22,
+      name: "Diagnostics",
+      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+      slug: "Diagnostics",
+      img:"/Diagnostics.jpg",
   },
    
-  {
-    id: 20,
-    name: "24/7 Vehicle Recovery",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+ {
+    id: 25,
+    name: "Alternator Replacement",
+    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.jpg",
   },
-   {
-    id: 21,
-    name: "Valeting Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    {
+       id: 41,
+       name: "Oil Change Service",
+       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+       slug: "oil-change-service",
+       img:"/Oil Change.jpg",
   },
 
 ],
@@ -5002,36 +6260,7 @@ served:{
     "Light bulb and fuse replacement"
   ],
   image:"/vogue fix my motor image 14.jpg"
-}, paragraph1:  {
-    black_heading: "Carbon Cleaning (Walnut Blasting)",
-    green_heading: "For Direct Injection Engines",
-    p: [
-      "On BMW, Audi, Mercedes, and other direct-injection engines, Vogue Technics performs walnut blasting to remove rock-hard carbon deposits from intake valves. This restores airflow, eliminates cold-start misfires, and can recover 15-20 horsepower. We scope the valves before and after to show you the difference.",
-      "The process takes 4-6 hours and includes removing the intake manifold, sealing each port with a custom adapter, and blasting with crushed walnut shells. We then vacuum all debris and replace intake manifold gaskets with genuine parts. Your engine will idle like new again.",
-      "We recommend this service every 60,000 to 80,000 kilometers for GDI engines.",
-    ],
-    lists: [
-      "Before/after borescope images provided",
-      "Intake manifold removed and cleaned separately",
-      "Fuel injectors ultrasonically cleaned during service",
-      "Throttle body recalibrated after reassembly",
-    ],
-  },
-  paragraph2: {
-    black_heading: "Brake Fluid Flush",
-    green_heading: "Moisture Content Tested First",
-    p: [
-      "Vogue Technics tests your brake fluid with a digital refractometer before recommending a flush. Fluid with more than 2% water content has a dangerously lowered boiling point, risking brake fade during hard stops. Old fluid also corrodes ABS pumps from the inside, leading to $2,000+ repairs.",
-      "Our flush machine pushes fresh DOT 4 or DOT 5.1 fluid through all four calipers until clear fluid streams out. We bleed in the correct sequence per manufacturer, and we use a pressure bleeder to avoid aerating the system. Pedal feel is dramatically improved afterward.",
-      "We also inspect all rubber brake hoses for cracking during this service.",
-    ],
-    lists: [
-      "ATE, Brembo, or OEM fluid used",
-      "Bleeder screws replaced if corroded",
-      "Brake pedal height adjusted",
-      "ABS pump cycled with scan tool after flush",
-    ],
-  },
+},
       Reviews:[
        {
     id: 1,
@@ -5087,43 +6316,113 @@ served:{
 
 
   { id: 32, name: "Upminster", slug: "upminster",
-  servicesData:[
+          green_slider:{
+   img: "/vogue fix my motor image 9.jpg",
+  items:  [
+  {
+    title: "detail page Lorem Ipsum Has Been In",
+    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
+
+In modern development workflow.`
+  },
+
+  {
+    title: "detail page Trusted Car Repair Experts",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "detail page  Fast & Professional Service",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "detail page Advanced Engine Diagnostics",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "detail page Quality Parts & Reliable Repairs",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "detail page  Customer Satisfaction Guaranteed",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+ servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Initial-Diagnostics", 
+     img:"/Initial Diagnostics.jpeg",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    img:"/Cam Belts.jpg",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Welding-Services",
+    img:"/Welding Services.jpg",
   },
    {
-    id: 19,
-    name: "Locking Wheel Nut Removal / Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+      id: 22,
+      name: "Diagnostics",
+      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+      slug: "Diagnostics",
+      img:"/Diagnostics.jpg",
   },
    
-  {
-    id: 20,
-    name: "24/7 Vehicle Recovery",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+ {
+    id: 25,
+    name: "Alternator Replacement",
+    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.jpg",
   },
-   {
-    id: 21,
-    name: "Valeting Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    {
+       id: 41,
+       name: "Oil Change Service",
+       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+       slug: "oil-change-service",
+       img:"/Oil Change.jpg",
   },
 
 ],
@@ -5165,36 +6464,7 @@ served:{
     "Coolant flush and refill"
   ],
   image:"/vogue fix my motor image 15.jpg"
-},  paragraph1:  {
-    black_heading: "Carbon Cleaning (Walnut Blasting)",
-    green_heading: "For Direct Injection Engines",
-    p: [
-      "On BMW, Audi, Mercedes, and other direct-injection engines, Vogue Technics performs walnut blasting to remove rock-hard carbon deposits from intake valves. This restores airflow, eliminates cold-start misfires, and can recover 15-20 horsepower. We scope the valves before and after to show you the difference.",
-      "The process takes 4-6 hours and includes removing the intake manifold, sealing each port with a custom adapter, and blasting with crushed walnut shells. We then vacuum all debris and replace intake manifold gaskets with genuine parts. Your engine will idle like new again.",
-      "We recommend this service every 60,000 to 80,000 kilometers for GDI engines.",
-    ],
-    lists: [
-      "Before/after borescope images provided",
-      "Intake manifold removed and cleaned separately",
-      "Fuel injectors ultrasonically cleaned during service",
-      "Throttle body recalibrated after reassembly",
-    ],
-  },
-  paragraph2: {
-    black_heading: "Brake Fluid Flush",
-    green_heading: "Moisture Content Tested First",
-    p: [
-      "Vogue Technics tests your brake fluid with a digital refractometer before recommending a flush. Fluid with more than 2% water content has a dangerously lowered boiling point, risking brake fade during hard stops. Old fluid also corrodes ABS pumps from the inside, leading to $2,000+ repairs.",
-      "Our flush machine pushes fresh DOT 4 or DOT 5.1 fluid through all four calipers until clear fluid streams out. We bleed in the correct sequence per manufacturer, and we use a pressure bleeder to avoid aerating the system. Pedal feel is dramatically improved afterward.",
-      "We also inspect all rubber brake hoses for cracking during this service.",
-    ],
-    lists: [
-      "ATE, Brembo, or OEM fluid used",
-      "Bleeder screws replaced if corroded",
-      "Brake pedal height adjusted",
-      "ABS pump cycled with scan tool after flush",
-    ],
-  },
+}, 
       Reviews:[
        {
     id: 1,
@@ -5248,43 +6518,113 @@ served:{
 
 
   { id: 33, name: "Chadwell Heath", slug: "chadwell-heath",
-    servicesData:[
+          green_slider:{
+   img: "/vogue fix my motor image 9.jpg",
+  items:  [
+  {
+    title: "detail page Lorem Ipsum Has Been In",
+    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
+
+In modern development workflow.`
+  },
+
+  {
+    title: "detail page Trusted Car Repair Experts",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "detail page  Fast & Professional Service",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "detail page Advanced Engine Diagnostics",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "detail page Quality Parts & Reliable Repairs",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "detail page  Customer Satisfaction Guaranteed",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+ servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Initial-Diagnostics", 
+     img:"/Initial Diagnostics.jpeg",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    img:"/Cam Belts.jpg",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Welding-Services",
+    img:"/Welding Services.jpg",
   },
    {
-    id: 19,
-    name: "Locking Wheel Nut Removal / Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+      id: 22,
+      name: "Diagnostics",
+      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+      slug: "Diagnostics",
+      img:"/Diagnostics.jpg",
   },
    
-  {
-    id: 20,
-    name: "24/7 Vehicle Recovery",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+ {
+    id: 25,
+    name: "Alternator Replacement",
+    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.jpg",
   },
-   {
-    id: 21,
-    name: "Valeting Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    {
+       id: 41,
+       name: "Oil Change Service",
+       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+       slug: "oil-change-service",
+       img:"/Oil Change.jpg",
   },
 
 ],
@@ -5327,36 +6667,7 @@ served:{
     "Full gearbox rebuild with warranty"
   ],
   image:"/vogue fix my motor image 17.jpg"
-}, paragraph1:  {
-    black_heading: "Carbon Cleaning (Walnut Blasting)",
-    green_heading: "For Direct Injection Engines",
-    p: [
-      "On BMW, Audi, Mercedes, and other direct-injection engines, Vogue Technics performs walnut blasting to remove rock-hard carbon deposits from intake valves. This restores airflow, eliminates cold-start misfires, and can recover 15-20 horsepower. We scope the valves before and after to show you the difference.",
-      "The process takes 4-6 hours and includes removing the intake manifold, sealing each port with a custom adapter, and blasting with crushed walnut shells. We then vacuum all debris and replace intake manifold gaskets with genuine parts. Your engine will idle like new again.",
-      "We recommend this service every 60,000 to 80,000 kilometers for GDI engines.",
-    ],
-    lists: [
-      "Before/after borescope images provided",
-      "Intake manifold removed and cleaned separately",
-      "Fuel injectors ultrasonically cleaned during service",
-      "Throttle body recalibrated after reassembly",
-    ],
-  },
-  paragraph2: {
-    black_heading: "Brake Fluid Flush",
-    green_heading: "Moisture Content Tested First",
-    p: [
-      "Vogue Technics tests your brake fluid with a digital refractometer before recommending a flush. Fluid with more than 2% water content has a dangerously lowered boiling point, risking brake fade during hard stops. Old fluid also corrodes ABS pumps from the inside, leading to $2,000+ repairs.",
-      "Our flush machine pushes fresh DOT 4 or DOT 5.1 fluid through all four calipers until clear fluid streams out. We bleed in the correct sequence per manufacturer, and we use a pressure bleeder to avoid aerating the system. Pedal feel is dramatically improved afterward.",
-      "We also inspect all rubber brake hoses for cracking during this service.",
-    ],
-    lists: [
-      "ATE, Brembo, or OEM fluid used",
-      "Bleeder screws replaced if corroded",
-      "Brake pedal height adjusted",
-      "ABS pump cycled with scan tool after flush",
-    ],
-  },
+},
        Reviews:[
        {
     id: 1,
@@ -5398,43 +6709,113 @@ served:{
 
 
   { id: 34, name: "Chigwell", slug: "chigwell",
-    servicesData:[
+          green_slider:{
+   img: "/vogue fix my motor image 9.jpg",
+  items:  [
+  {
+    title: "detail page Lorem Ipsum Has Been In",
+    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
+
+In modern development workflow.`
+  },
+
+  {
+    title: "detail page Trusted Car Repair Experts",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "detail page  Fast & Professional Service",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "detail page Advanced Engine Diagnostics",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "detail page Quality Parts & Reliable Repairs",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "detail page  Customer Satisfaction Guaranteed",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+ servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Initial-Diagnostics", 
+     img:"/Initial Diagnostics.jpeg",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    img:"/Cam Belts.jpg",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Welding-Services",
+    img:"/Welding Services.jpg",
   },
    {
-    id: 19,
-    name: "Locking Wheel Nut Removal / Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+      id: 22,
+      name: "Diagnostics",
+      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+      slug: "Diagnostics",
+      img:"/Diagnostics.jpg",
   },
    
-  {
-    id: 20,
-    name: "24/7 Vehicle Recovery",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+ {
+    id: 25,
+    name: "Alternator Replacement",
+    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.jpg",
   },
-   {
-    id: 21,
-    name: "Valeting Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    {
+       id: 41,
+       name: "Oil Change Service",
+       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+       slug: "oil-change-service",
+       img:"/Oil Change.jpg",
   },
 
 ],
@@ -5476,37 +6857,7 @@ faq:[
     "Cabin air filter change"
   ],
   image:"/vogue fix my motor image 18.jpg"
-}, paragraph1:  {
-    black_heading: "Carbon Cleaning (Walnut Blasting)",
-    green_heading: "For Direct Injection Engines",
-    p: [
-      "On BMW, Audi, Mercedes, and other direct-injection engines, Vogue Technics performs walnut blasting to remove rock-hard carbon deposits from intake valves. This restores airflow, eliminates cold-start misfires, and can recover 15-20 horsepower. We scope the valves before and after to show you the difference.",
-      "The process takes 4-6 hours and includes removing the intake manifold, sealing each port with a custom adapter, and blasting with crushed walnut shells. We then vacuum all debris and replace intake manifold gaskets with genuine parts. Your engine will idle like new again.",
-      "We recommend this service every 60,000 to 80,000 kilometers for GDI engines.",
-    ],
-    lists: [
-      "Before/after borescope images provided",
-      "Intake manifold removed and cleaned separately",
-      "Fuel injectors ultrasonically cleaned during service",
-      "Throttle body recalibrated after reassembly",
-    ],
-  },
-  paragraph2: {
-    black_heading: "Brake Fluid Flush",
-    green_heading: "Moisture Content Tested First",
-    p: [
-      "Vogue Technics tests your brake fluid with a digital refractometer before recommending a flush. Fluid with more than 2% water content has a dangerously lowered boiling point, risking brake fade during hard stops. Old fluid also corrodes ABS pumps from the inside, leading to $2,000+ repairs.",
-      "Our flush machine pushes fresh DOT 4 or DOT 5.1 fluid through all four calipers until clear fluid streams out. We bleed in the correct sequence per manufacturer, and we use a pressure bleeder to avoid aerating the system. Pedal feel is dramatically improved afterward.",
-      "We also inspect all rubber brake hoses for cracking during this service.",
-    ],
-    lists: [
-      "ATE, Brembo, or OEM fluid used",
-      "Bleeder screws replaced if corroded",
-      "Brake pedal height adjusted",
-      "ABS pump cycled with scan tool after flush",
-    ],
-  },
-      Reviews:[
+},      Reviews:[
        {
     id: 1,
     name: "Dilpreet Kaur",
@@ -5562,43 +6913,113 @@ faq:[
 
 
   { id: 35, name: "Woodford", slug: "woodford",
-    servicesData:[
+          green_slider:{
+   img: "/vogue fix my motor image 9.jpg",
+  items:  [
+  {
+    title: "detail page Lorem Ipsum Has Been In",
+    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
+
+In modern development workflow.`
+  },
+
+  {
+    title: "detail page Trusted Car Repair Experts",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "detail page  Fast & Professional Service",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "detail page Advanced Engine Diagnostics",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "detail page Quality Parts & Reliable Repairs",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "detail page  Customer Satisfaction Guaranteed",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+ servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Initial-Diagnostics", 
+     img:"/Initial Diagnostics.jpeg",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    img:"/Cam Belts.jpg",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Welding-Services",
+    img:"/Welding Services.jpg",
   },
    {
-    id: 19,
-    name: "Locking Wheel Nut Removal / Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+      id: 22,
+      name: "Diagnostics",
+      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+      slug: "Diagnostics",
+      img:"/Diagnostics.jpg",
   },
    
-  {
-    id: 20,
-    name: "24/7 Vehicle Recovery",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+ {
+    id: 25,
+    name: "Alternator Replacement",
+    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.jpg",
   },
-   {
-    id: 21,
-    name: "Valeting Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    {
+       id: 41,
+       name: "Oil Change Service",
+       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+       slug: "oil-change-service",
+       img:"/Oil Change.jpg",
   },
 
 ],
@@ -5641,36 +7062,7 @@ served:{
     "Custom exhaust fabrication available"
   ],
   image:"/wowimage.jpg"
-},   paragraph1:  {
-    black_heading: "Carbon Cleaning (Walnut Blasting)",
-    green_heading: "For Direct Injection Engines",
-    p: [
-      "On BMW, Audi, Mercedes, and other direct-injection engines, Vogue Technics performs walnut blasting to remove rock-hard carbon deposits from intake valves. This restores airflow, eliminates cold-start misfires, and can recover 15-20 horsepower. We scope the valves before and after to show you the difference.",
-      "The process takes 4-6 hours and includes removing the intake manifold, sealing each port with a custom adapter, and blasting with crushed walnut shells. We then vacuum all debris and replace intake manifold gaskets with genuine parts. Your engine will idle like new again.",
-      "We recommend this service every 60,000 to 80,000 kilometers for GDI engines.",
-    ],
-    lists: [
-      "Before/after borescope images provided",
-      "Intake manifold removed and cleaned separately",
-      "Fuel injectors ultrasonically cleaned during service",
-      "Throttle body recalibrated after reassembly",
-    ],
-  },
-  paragraph2: {
-    black_heading: "Brake Fluid Flush",
-    green_heading: "Moisture Content Tested First",
-    p: [
-      "Vogue Technics tests your brake fluid with a digital refractometer before recommending a flush. Fluid with more than 2% water content has a dangerously lowered boiling point, risking brake fade during hard stops. Old fluid also corrodes ABS pumps from the inside, leading to $2,000+ repairs.",
-      "Our flush machine pushes fresh DOT 4 or DOT 5.1 fluid through all four calipers until clear fluid streams out. We bleed in the correct sequence per manufacturer, and we use a pressure bleeder to avoid aerating the system. Pedal feel is dramatically improved afterward.",
-      "We also inspect all rubber brake hoses for cracking during this service.",
-    ],
-    lists: [
-      "ATE, Brembo, or OEM fluid used",
-      "Bleeder screws replaced if corroded",
-      "Brake pedal height adjusted",
-      "ABS pump cycled with scan tool after flush",
-    ],
-  },
+},
       Reviews:[
        {
     id: 1,
@@ -5721,47 +7113,116 @@ served:{
 
 
   { id: 36, name: "Chingford", slug: "chingford",
-servicesData:[
+          green_slider:{
+   img: "/vogue fix my motor image 9.jpg",
+  items:  [
+  {
+    title: "detail page Lorem Ipsum Has Been In",
+    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
+
+In modern development workflow.`
+  },
+
+  {
+    title: "detail page Trusted Car Repair Experts",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "detail page  Fast & Professional Service",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "detail page Advanced Engine Diagnostics",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "detail page Quality Parts & Reliable Repairs",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "detail page  Customer Satisfaction Guaranteed",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+ servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Initial-Diagnostics", 
+     img:"/Initial Diagnostics.jpeg",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    img:"/Cam Belts.jpg",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Welding-Services",
+    img:"/Welding Services.jpg",
   },
    {
-    id: 19,
-    name: "Locking Wheel Nut Removal / Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+      id: 22,
+      name: "Diagnostics",
+      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+      slug: "Diagnostics",
+      img:"/Diagnostics.jpg",
   },
    
-  {
-    id: 20,
-    name: "24/7 Vehicle Recovery",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+ {
+    id: 25,
+    name: "Alternator Replacement",
+    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.jpg",
   },
-   {
-    id: 21,
-    name: "Valeting Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    {
+       id: 41,
+       name: "Oil Change Service",
+       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+       slug: "oil-change-service",
+       img:"/Oil Change.jpg",
   },
 
 ],
-
 faq:[
   {
     id: 1,
@@ -5799,36 +7260,7 @@ faq:[
     "Multi-point inspection included"
   ],
   image:"/vogue fix my motor image 20.jpg"
-}, paragraph1:  {
-    black_heading: "Carbon Cleaning (Walnut Blasting)",
-    green_heading: "For Direct Injection Engines",
-    p: [
-      "On BMW, Audi, Mercedes, and other direct-injection engines, Vogue Technics performs walnut blasting to remove rock-hard carbon deposits from intake valves. This restores airflow, eliminates cold-start misfires, and can recover 15-20 horsepower. We scope the valves before and after to show you the difference.",
-      "The process takes 4-6 hours and includes removing the intake manifold, sealing each port with a custom adapter, and blasting with crushed walnut shells. We then vacuum all debris and replace intake manifold gaskets with genuine parts. Your engine will idle like new again.",
-      "We recommend this service every 60,000 to 80,000 kilometers for GDI engines.",
-    ],
-    lists: [
-      "Before/after borescope images provided",
-      "Intake manifold removed and cleaned separately",
-      "Fuel injectors ultrasonically cleaned during service",
-      "Throttle body recalibrated after reassembly",
-    ],
-  },
-  paragraph2: {
-    black_heading: "Brake Fluid Flush",
-    green_heading: "Moisture Content Tested First",
-    p: [
-      "Vogue Technics tests your brake fluid with a digital refractometer before recommending a flush. Fluid with more than 2% water content has a dangerously lowered boiling point, risking brake fade during hard stops. Old fluid also corrodes ABS pumps from the inside, leading to $2,000+ repairs.",
-      "Our flush machine pushes fresh DOT 4 or DOT 5.1 fluid through all four calipers until clear fluid streams out. We bleed in the correct sequence per manufacturer, and we use a pressure bleeder to avoid aerating the system. Pedal feel is dramatically improved afterward.",
-      "We also inspect all rubber brake hoses for cracking during this service.",
-    ],
-    lists: [
-      "ATE, Brembo, or OEM fluid used",
-      "Bleeder screws replaced if corroded",
-      "Brake pedal height adjusted",
-      "ABS pump cycled with scan tool after flush",
-    ],
-  },
+},
        Reviews:[
        {
     id: 1,
@@ -5879,43 +7311,113 @@ faq:[
 
 
   { id: 37, name: "Walthamstow", slug: "walthamstow",
-        servicesData:[
+          green_slider:{
+   img: "/vogue fix my motor image 9.jpg",
+  items:  [
+  {
+    title: "detail page Lorem Ipsum Has Been In",
+    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
+
+In modern development workflow.`
+  },
+
+  {
+    title: "detail page Trusted Car Repair Experts",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "detail page  Fast & Professional Service",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "detail page Advanced Engine Diagnostics",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "detail page Quality Parts & Reliable Repairs",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "detail page  Customer Satisfaction Guaranteed",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+  servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Initial-Diagnostics", 
+     img:"/Initial Diagnostics.jpeg",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    img:"/Cam Belts.jpg",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Welding-Services",
+    img:"/Welding Services.jpg",
   },
    {
-    id: 19,
-    name: "Locking Wheel Nut Removal / Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+      id: 22,
+      name: "Diagnostics",
+      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+      slug: "Diagnostics",
+      img:"/Diagnostics.jpg",
   },
    
-  {
-    id: 20,
-    name: "24/7 Vehicle Recovery",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+ {
+    id: 25,
+    name: "Alternator Replacement",
+    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.jpg",
   },
-   {
-    id: 21,
-    name: "Valeting Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    {
+       id: 41,
+       name: "Oil Change Service",
+       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+       slug: "oil-change-service",
+       img:"/Oil Change.jpg",
   },
 
 ],
@@ -5957,36 +7459,7 @@ requestqoute:{
     "Wheel alignment after suspension work"
   ],
   image:"/vogue fix my motor image 21.jpg"
-}, paragraph1:  {
-    black_heading: "Carbon Cleaning (Walnut Blasting)",
-    green_heading: "For Direct Injection Engines",
-    p: [
-      "On BMW, Audi, Mercedes, and other direct-injection engines, Vogue Technics performs walnut blasting to remove rock-hard carbon deposits from intake valves. This restores airflow, eliminates cold-start misfires, and can recover 15-20 horsepower. We scope the valves before and after to show you the difference.",
-      "The process takes 4-6 hours and includes removing the intake manifold, sealing each port with a custom adapter, and blasting with crushed walnut shells. We then vacuum all debris and replace intake manifold gaskets with genuine parts. Your engine will idle like new again.",
-      "We recommend this service every 60,000 to 80,000 kilometers for GDI engines.",
-    ],
-    lists: [
-      "Before/after borescope images provided",
-      "Intake manifold removed and cleaned separately",
-      "Fuel injectors ultrasonically cleaned during service",
-      "Throttle body recalibrated after reassembly",
-    ],
-  },
-  paragraph2: {
-    black_heading: "Brake Fluid Flush",
-    green_heading: "Moisture Content Tested First",
-    p: [
-      "Vogue Technics tests your brake fluid with a digital refractometer before recommending a flush. Fluid with more than 2% water content has a dangerously lowered boiling point, risking brake fade during hard stops. Old fluid also corrodes ABS pumps from the inside, leading to $2,000+ repairs.",
-      "Our flush machine pushes fresh DOT 4 or DOT 5.1 fluid through all four calipers until clear fluid streams out. We bleed in the correct sequence per manufacturer, and we use a pressure bleeder to avoid aerating the system. Pedal feel is dramatically improved afterward.",
-      "We also inspect all rubber brake hoses for cracking during this service.",
-    ],
-    lists: [
-      "ATE, Brembo, or OEM fluid used",
-      "Bleeder screws replaced if corroded",
-      "Brake pedal height adjusted",
-      "ABS pump cycled with scan tool after flush",
-    ],
-  },
+},
       Reviews:[
        {
     id: 1,
@@ -6033,43 +7506,113 @@ requestqoute:{
 
 
   { id: 38, name: "Tottenham", slug: "tottenham",
-    servicesData:[
+          green_slider:{
+   img: "/vogue fix my motor image 9.jpg",
+  items:  [
+  {
+    title: "detail page Lorem Ipsum Has Been In",
+    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
+
+In modern development workflow.`
+  },
+
+  {
+    title: "detail page Trusted Car Repair Experts",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "detail page  Fast & Professional Service",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "detail page Advanced Engine Diagnostics",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "detail page Quality Parts & Reliable Repairs",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "detail page  Customer Satisfaction Guaranteed",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+ servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Initial-Diagnostics", 
+     img:"/Initial Diagnostics.jpeg",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    img:"/Cam Belts.jpg",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Welding-Services",
+    img:"/Welding Services.jpg",
   },
    {
-    id: 19,
-    name: "Locking Wheel Nut Removal / Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+      id: 22,
+      name: "Diagnostics",
+      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+      slug: "Diagnostics",
+      img:"/Diagnostics.jpg",
   },
    
-  {
-    id: 20,
-    name: "24/7 Vehicle Recovery",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+ {
+    id: 25,
+    name: "Alternator Replacement",
+    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.jpg",
   },
-   {
-    id: 21,
-    name: "Valeting Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    {
+       id: 41,
+       name: "Oil Change Service",
+       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+       slug: "oil-change-service",
+       img:"/Oil Change.jpg",
   },
 
 ],
@@ -6113,36 +7656,7 @@ served:{
   ],
   image:"/1.jpg"
 },
-     paragraph1:  {
-    black_heading: "Carbon Cleaning (Walnut Blasting)",
-    green_heading: "For Direct Injection Engines",
-    p: [
-      "On BMW, Audi, Mercedes, and other direct-injection engines, Vogue Technics performs walnut blasting to remove rock-hard carbon deposits from intake valves. This restores airflow, eliminates cold-start misfires, and can recover 15-20 horsepower. We scope the valves before and after to show you the difference.",
-      "The process takes 4-6 hours and includes removing the intake manifold, sealing each port with a custom adapter, and blasting with crushed walnut shells. We then vacuum all debris and replace intake manifold gaskets with genuine parts. Your engine will idle like new again.",
-      "We recommend this service every 60,000 to 80,000 kilometers for GDI engines.",
-    ],
-    lists: [
-      "Before/after borescope images provided",
-      "Intake manifold removed and cleaned separately",
-      "Fuel injectors ultrasonically cleaned during service",
-      "Throttle body recalibrated after reassembly",
-    ],
-  },
-  paragraph2: {
-    black_heading: "Brake Fluid Flush",
-    green_heading: "Moisture Content Tested First",
-    p: [
-      "Vogue Technics tests your brake fluid with a digital refractometer before recommending a flush. Fluid with more than 2% water content has a dangerously lowered boiling point, risking brake fade during hard stops. Old fluid also corrodes ABS pumps from the inside, leading to $2,000+ repairs.",
-      "Our flush machine pushes fresh DOT 4 or DOT 5.1 fluid through all four calipers until clear fluid streams out. We bleed in the correct sequence per manufacturer, and we use a pressure bleeder to avoid aerating the system. Pedal feel is dramatically improved afterward.",
-      "We also inspect all rubber brake hoses for cracking during this service.",
-    ],
-    lists: [
-      "ATE, Brembo, or OEM fluid used",
-      "Bleeder screws replaced if corroded",
-      "Brake pedal height adjusted",
-      "ABS pump cycled with scan tool after flush",
-    ],
-  },
+  
       Reviews:[
        {
     id: 1,
@@ -6194,43 +7708,113 @@ served:{
 
 
   { id: 39, name: "Stratford", slug: "stratford",
-    servicesData:[
+          green_slider:{
+   img: "/vogue fix my motor image 9.jpg",
+  items:  [
+  {
+    title: "detail page Lorem Ipsum Has Been In",
+    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
+
+In modern development workflow.`
+  },
+
+  {
+    title: "detail page Trusted Car Repair Experts",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "detail page  Fast & Professional Service",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "detail page Advanced Engine Diagnostics",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "detail page Quality Parts & Reliable Repairs",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "detail page  Customer Satisfaction Guaranteed",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+ servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Initial-Diagnostics", 
+     img:"/Initial Diagnostics.jpeg",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    img:"/Cam Belts.jpg",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Welding-Services",
+    img:"/Welding Services.jpg",
   },
    {
-    id: 19,
-    name: "Locking Wheel Nut Removal / Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+      id: 22,
+      name: "Diagnostics",
+      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+      slug: "Diagnostics",
+      img:"/Diagnostics.jpg",
   },
    
-  {
-    id: 20,
-    name: "24/7 Vehicle Recovery",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+ {
+    id: 25,
+    name: "Alternator Replacement",
+    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.jpg",
   },
-   {
-    id: 21,
-    name: "Valeting Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    {
+       id: 41,
+       name: "Oil Change Service",
+       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+       slug: "oil-change-service",
+       img:"/Oil Change.jpg",
   },
 
 ],
@@ -6273,36 +7857,7 @@ requestqoute:{
   ],
   image:"/vogue fix my motor image 9.jpg"
 }
-, paragraph1:  {
-    black_heading: "Carbon Cleaning (Walnut Blasting)",
-    green_heading: "For Direct Injection Engines",
-    p: [
-      "On BMW, Audi, Mercedes, and other direct-injection engines, Vogue Technics performs walnut blasting to remove rock-hard carbon deposits from intake valves. This restores airflow, eliminates cold-start misfires, and can recover 15-20 horsepower. We scope the valves before and after to show you the difference.",
-      "The process takes 4-6 hours and includes removing the intake manifold, sealing each port with a custom adapter, and blasting with crushed walnut shells. We then vacuum all debris and replace intake manifold gaskets with genuine parts. Your engine will idle like new again.",
-      "We recommend this service every 60,000 to 80,000 kilometers for GDI engines.",
-    ],
-    lists: [
-      "Before/after borescope images provided",
-      "Intake manifold removed and cleaned separately",
-      "Fuel injectors ultrasonically cleaned during service",
-      "Throttle body recalibrated after reassembly",
-    ],
-  },
-  paragraph2: {
-    black_heading: "Brake Fluid Flush",
-    green_heading: "Moisture Content Tested First",
-    p: [
-      "Vogue Technics tests your brake fluid with a digital refractometer before recommending a flush. Fluid with more than 2% water content has a dangerously lowered boiling point, risking brake fade during hard stops. Old fluid also corrodes ABS pumps from the inside, leading to $2,000+ repairs.",
-      "Our flush machine pushes fresh DOT 4 or DOT 5.1 fluid through all four calipers until clear fluid streams out. We bleed in the correct sequence per manufacturer, and we use a pressure bleeder to avoid aerating the system. Pedal feel is dramatically improved afterward.",
-      "We also inspect all rubber brake hoses for cracking during this service.",
-    ],
-    lists: [
-      "ATE, Brembo, or OEM fluid used",
-      "Bleeder screws replaced if corroded",
-      "Brake pedal height adjusted",
-      "ABS pump cycled with scan tool after flush",
-    ],
-  },
+,
       Reviews:[
        {
     id: 1,
@@ -6356,43 +7911,113 @@ requestqoute:{
 
 
   { id: 40, name: "Hackney", slug: "hackney",
-    servicesData:[
+          green_slider:{
+   img: "/vogue fix my motor image 9.jpg",
+  items:  [
+  {
+    title: "detail page Lorem Ipsum Has Been In",
+    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
+
+In modern development workflow.`
+  },
+
+  {
+    title: "detail page Trusted Car Repair Experts",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "detail page  Fast & Professional Service",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "detail page Advanced Engine Diagnostics",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "detail page Quality Parts & Reliable Repairs",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "detail page  Customer Satisfaction Guaranteed",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+ servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Initial-Diagnostics", 
+     img:"/Initial Diagnostics.jpeg",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    img:"/Cam Belts.jpg",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Welding-Services",
+    img:"/Welding Services.jpg",
   },
    {
-    id: 19,
-    name: "Locking Wheel Nut Removal / Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+      id: 22,
+      name: "Diagnostics",
+      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+      slug: "Diagnostics",
+      img:"/Diagnostics.jpg",
   },
    
-  {
-    id: 20,
-    name: "24/7 Vehicle Recovery",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+ {
+    id: 25,
+    name: "Alternator Replacement",
+    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.jpg",
   },
-   {
-    id: 21,
-    name: "Valeting Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    {
+       id: 41,
+       name: "Oil Change Service",
+       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+       slug: "oil-change-service",
+       img:"/Oil Change.jpg",
   },
 
 ],
@@ -6436,38 +8061,7 @@ served:{
   ],
   image:"/2.jpg"
 }
-,   paragraph1:
-  {
-    black_heading: "Short Block Assembly",
-    green_heading: "Blueprinting & Clearance Verification",
-    p: [
-      "At Vogue Technics, a short block rebuild includes measuring main bearing clearance with Plastigage and a dial bore gauge. We set oil clearance to the tight side of factory spec for performance builds, or the loose side for high-mileage reliability. Every measurement is recorded on a build sheet.",
-      "We install piston rings with end gaps tailored to your engine's use: tighter for naturally aspirated street engines, wider for forced induction or nitrous. Ring gaps are filed by hand using a ProForm tool, then verified with feeler gauges at three depths in the bore.",
-      "All oil gallery plugs are removed, threads chased, and reinstalled with thread sealant.",
-    ],
-    lists: [
-      "Crankshaft micro-polished before assembly",
-      "Connecting rod bolt stretch measured",
-      "Piston-to-wall clearance set with micrometer",
-      "Rear main seal installed with installation sleeve",
-    ],
-  },
-  paragraph2:{
-    black_heading: "Cooling System Pressure Test",
-    green_heading: "Find Hidden Leaks Before Overheat",
-    p: [
-      "Vogue Technics pressurizes your cooling system to 16-20 PSI, then monitors for drop over 30 minutes. This test finds pinhole leaks in radiators, heater cores, and water pump seals that wouldn't leak under normal idle conditions. We also check for combustion gases in coolant using a chemical block tester.",
-      "If a head gasket failure is suspected, we perform a cylinder leak-down test with the coolant system pressurized. Bubbles in the radiator or expansion tank confirm the diagnosis before any disassembly. This saves customers from unnecessary engine teardowns.",
-      "All radiator caps are tested separately for proper pressure release.",
-    ],
-    lists: [
-      "Thermostat opening temperature verified",
-      "Electric cooling fan operation tested",
-      "Coolant concentration checked with refractometer",
-      "Water pump weep hole inspected",
-    ],
-  },
-
+,
      Reviews:[
        {
     id: 1,
@@ -6510,43 +8104,113 @@ served:{
 
 
   { id: 41, name: "Whitechapel", slug: "whitechapel",
-    servicesData:[
+          green_slider:{
+   img: "/vogue fix my motor image 9.jpg",
+  items:  [
+  {
+    title: "detail page Lorem Ipsum Has Been In",
+    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
+
+In modern development workflow.`
+  },
+
+  {
+    title: "detail page Trusted Car Repair Experts",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "detail page  Fast & Professional Service",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "detail page Advanced Engine Diagnostics",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "detail page Quality Parts & Reliable Repairs",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "detail page  Customer Satisfaction Guaranteed",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+ servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Initial-Diagnostics", 
+     img:"/Initial Diagnostics.jpeg",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    img:"/Cam Belts.jpg",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Welding-Services",
+    img:"/Welding Services.jpg",
   },
    {
-    id: 19,
-    name: "Locking Wheel Nut Removal / Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+      id: 22,
+      name: "Diagnostics",
+      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+      slug: "Diagnostics",
+      img:"/Diagnostics.jpg",
   },
    
-  {
-    id: 20,
-    name: "24/7 Vehicle Recovery",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+ {
+    id: 25,
+    name: "Alternator Replacement",
+    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.jpg",
   },
-   {
-    id: 21,
-    name: "Valeting Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    {
+       id: 41,
+       name: "Oil Change Service",
+       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+       slug: "oil-change-service",
+       img:"/Oil Change.jpg",
   },
 
 ],
@@ -6589,38 +8253,7 @@ served:{
   ],
   image:"/description.jpg"
 }
-,  paragraph1:
-  {
-    black_heading: "Short Block Assembly",
-    green_heading: "Blueprinting & Clearance Verification",
-    p: [
-      "At Vogue Technics, a short block rebuild includes measuring main bearing clearance with Plastigage and a dial bore gauge. We set oil clearance to the tight side of factory spec for performance builds, or the loose side for high-mileage reliability. Every measurement is recorded on a build sheet.",
-      "We install piston rings with end gaps tailored to your engine's use: tighter for naturally aspirated street engines, wider for forced induction or nitrous. Ring gaps are filed by hand using a ProForm tool, then verified with feeler gauges at three depths in the bore.",
-      "All oil gallery plugs are removed, threads chased, and reinstalled with thread sealant.",
-    ],
-    lists: [
-      "Crankshaft micro-polished before assembly",
-      "Connecting rod bolt stretch measured",
-      "Piston-to-wall clearance set with micrometer",
-      "Rear main seal installed with installation sleeve",
-    ],
-  },
-  paragraph2:{
-    black_heading: "Cooling System Pressure Test",
-    green_heading: "Find Hidden Leaks Before Overheat",
-    p: [
-      "Vogue Technics pressurizes your cooling system to 16-20 PSI, then monitors for drop over 30 minutes. This test finds pinhole leaks in radiators, heater cores, and water pump seals that wouldn't leak under normal idle conditions. We also check for combustion gases in coolant using a chemical block tester.",
-      "If a head gasket failure is suspected, we perform a cylinder leak-down test with the coolant system pressurized. Bubbles in the radiator or expansion tank confirm the diagnosis before any disassembly. This saves customers from unnecessary engine teardowns.",
-      "All radiator caps are tested separately for proper pressure release.",
-    ],
-    lists: [
-      "Thermostat opening temperature verified",
-      "Electric cooling fan operation tested",
-      "Coolant concentration checked with refractometer",
-      "Water pump weep hole inspected",
-    ],
-  },
-
+, 
       Reviews:[
        {
     id: 1,
@@ -6667,43 +8300,113 @@ served:{
 
 
   { id: 42, name: "Mile End", slug: "mile-end",
-    servicesData:[
+          green_slider:{
+   img: "/vogue fix my motor image 9.jpg",
+  items:  [
+  {
+    title: "detail page Lorem Ipsum Has Been In",
+    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
+
+In modern development workflow.`
+  },
+
+  {
+    title: "detail page Trusted Car Repair Experts",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "detail page  Fast & Professional Service",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "detail page Advanced Engine Diagnostics",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "detail page Quality Parts & Reliable Repairs",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "detail page  Customer Satisfaction Guaranteed",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+ servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Initial-Diagnostics", 
+     img:"/Initial Diagnostics.jpeg",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    img:"/Cam Belts.jpg",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Welding-Services",
+    img:"/Welding Services.jpg",
   },
    {
-    id: 19,
-    name: "Locking Wheel Nut Removal / Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+      id: 22,
+      name: "Diagnostics",
+      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+      slug: "Diagnostics",
+      img:"/Diagnostics.jpg",
   },
    
-  {
-    id: 20,
-    name: "24/7 Vehicle Recovery",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+ {
+    id: 25,
+    name: "Alternator Replacement",
+    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.jpg",
   },
-   {
-    id: 21,
-    name: "Valeting Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    {
+       id: 41,
+       name: "Oil Change Service",
+       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+       slug: "oil-change-service",
+       img:"/Oil Change.jpg",
   },
 
 ],
@@ -6746,38 +8449,7 @@ served:{
   ],
   image:"/slider_section_image.jpg"
 },
-        paragraph1:
-  {
-    black_heading: "Short Block Assembly",
-    green_heading: "Blueprinting & Clearance Verification",
-    p: [
-      "At Vogue Technics, a short block rebuild includes measuring main bearing clearance with Plastigage and a dial bore gauge. We set oil clearance to the tight side of factory spec for performance builds, or the loose side for high-mileage reliability. Every measurement is recorded on a build sheet.",
-      "We install piston rings with end gaps tailored to your engine's use: tighter for naturally aspirated street engines, wider for forced induction or nitrous. Ring gaps are filed by hand using a ProForm tool, then verified with feeler gauges at three depths in the bore.",
-      "All oil gallery plugs are removed, threads chased, and reinstalled with thread sealant.",
-    ],
-    lists: [
-      "Crankshaft micro-polished before assembly",
-      "Connecting rod bolt stretch measured",
-      "Piston-to-wall clearance set with micrometer",
-      "Rear main seal installed with installation sleeve",
-    ],
-  },
-  paragraph2:{
-    black_heading: "Cooling System Pressure Test",
-    green_heading: "Find Hidden Leaks Before Overheat",
-    p: [
-      "Vogue Technics pressurizes your cooling system to 16-20 PSI, then monitors for drop over 30 minutes. This test finds pinhole leaks in radiators, heater cores, and water pump seals that wouldn't leak under normal idle conditions. We also check for combustion gases in coolant using a chemical block tester.",
-      "If a head gasket failure is suspected, we perform a cylinder leak-down test with the coolant system pressurized. Bubbles in the radiator or expansion tank confirm the diagnosis before any disassembly. This saves customers from unnecessary engine teardowns.",
-      "All radiator caps are tested separately for proper pressure release.",
-    ],
-    lists: [
-      "Thermostat opening temperature verified",
-      "Electric cooling fan operation tested",
-      "Coolant concentration checked with refractometer",
-      "Water pump weep hole inspected",
-    ],
-  },
-
+   
         Reviews:[
        {
     id: 1,
@@ -6831,43 +8503,113 @@ served:{
 
 
   { id: 43, name: "Canary Wharf", slug: "canary-wharf",
-    servicesData:[
+          green_slider:{
+   img: "/vogue fix my motor image 9.jpg",
+  items:  [
+  {
+    title: "detail page Lorem Ipsum Has Been In",
+    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
+
+In modern development workflow.`
+  },
+
+  {
+    title: "detail page Trusted Car Repair Experts",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "detail page  Fast & Professional Service",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "detail page Advanced Engine Diagnostics",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "detail page Quality Parts & Reliable Repairs",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "detail page  Customer Satisfaction Guaranteed",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+ servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Initial-Diagnostics", 
+     img:"/Initial Diagnostics.jpeg",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    img:"/Cam Belts.jpg",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Welding-Services",
+    img:"/Welding Services.jpg",
   },
    {
-    id: 19,
-    name: "Locking Wheel Nut Removal / Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+      id: 22,
+      name: "Diagnostics",
+      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+      slug: "Diagnostics",
+      img:"/Diagnostics.jpg",
   },
    
-  {
-    id: 20,
-    name: "24/7 Vehicle Recovery",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+ {
+    id: 25,
+    name: "Alternator Replacement",
+    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.jpg",
   },
-   {
-    id: 21,
-    name: "Valeting Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    {
+       id: 41,
+       name: "Oil Change Service",
+       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+       slug: "oil-change-service",
+       img:"/Oil Change.jpg",
   },
 
 ],
@@ -6911,38 +8653,7 @@ requestqoute:{
   ],
   image:"/3.jpg"
 }
-,  paragraph1:
-  {
-    black_heading: "Short Block Assembly",
-    green_heading: "Blueprinting & Clearance Verification",
-    p: [
-      "At Vogue Technics, a short block rebuild includes measuring main bearing clearance with Plastigage and a dial bore gauge. We set oil clearance to the tight side of factory spec for performance builds, or the loose side for high-mileage reliability. Every measurement is recorded on a build sheet.",
-      "We install piston rings with end gaps tailored to your engine's use: tighter for naturally aspirated street engines, wider for forced induction or nitrous. Ring gaps are filed by hand using a ProForm tool, then verified with feeler gauges at three depths in the bore.",
-      "All oil gallery plugs are removed, threads chased, and reinstalled with thread sealant.",
-    ],
-    lists: [
-      "Crankshaft micro-polished before assembly",
-      "Connecting rod bolt stretch measured",
-      "Piston-to-wall clearance set with micrometer",
-      "Rear main seal installed with installation sleeve",
-    ],
-  },
-  paragraph2:{
-    black_heading: "Cooling System Pressure Test",
-    green_heading: "Find Hidden Leaks Before Overheat",
-    p: [
-      "Vogue Technics pressurizes your cooling system to 16-20 PSI, then monitors for drop over 30 minutes. This test finds pinhole leaks in radiators, heater cores, and water pump seals that wouldn't leak under normal idle conditions. We also check for combustion gases in coolant using a chemical block tester.",
-      "If a head gasket failure is suspected, we perform a cylinder leak-down test with the coolant system pressurized. Bubbles in the radiator or expansion tank confirm the diagnosis before any disassembly. This saves customers from unnecessary engine teardowns.",
-      "All radiator caps are tested separately for proper pressure release.",
-    ],
-    lists: [
-      "Thermostat opening temperature verified",
-      "Electric cooling fan operation tested",
-      "Coolant concentration checked with refractometer",
-      "Water pump weep hole inspected",
-    ],
-  },
-
+,
        Reviews:[
        {
     id: 1,
@@ -6992,43 +8703,113 @@ requestqoute:{
 
 
   { id: 44, name: "Charlton", slug: "charlton",
-    servicesData:[
+          green_slider:{
+   img: "/vogue fix my motor image 9.jpg",
+  items:  [
+  {
+    title: "detail page Lorem Ipsum Has Been In",
+    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
+
+In modern development workflow.`
+  },
+
+  {
+    title: "detail page Trusted Car Repair Experts",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "detail page  Fast & Professional Service",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "detail page Advanced Engine Diagnostics",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "detail page Quality Parts & Reliable Repairs",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "detail page  Customer Satisfaction Guaranteed",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+  servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Initial-Diagnostics", 
+     img:"/Initial Diagnostics.jpeg",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    img:"/Cam Belts.jpg",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Welding-Services",
+    img:"/Welding Services.jpg",
   },
    {
-    id: 19,
-    name: "Locking Wheel Nut Removal / Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+      id: 22,
+      name: "Diagnostics",
+      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+      slug: "Diagnostics",
+      img:"/Diagnostics.jpg",
   },
    
-  {
-    id: 20,
-    name: "24/7 Vehicle Recovery",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+ {
+    id: 25,
+    name: "Alternator Replacement",
+    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.jpg",
   },
-   {
-    id: 21,
-    name: "Valeting Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    {
+       id: 41,
+       name: "Oil Change Service",
+       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+       slug: "oil-change-service",
+       img:"/Oil Change.jpg",
   },
 
 ],
@@ -7071,38 +8852,7 @@ faq:[
   image:"/vogue fix my motor image 22.jpg"
 }
 ,
-        paragraph1:
-  {
-    black_heading: "Short Block Assembly",
-    green_heading: "Blueprinting & Clearance Verification",
-    p: [
-      "At Vogue Technics, a short block rebuild includes measuring main bearing clearance with Plastigage and a dial bore gauge. We set oil clearance to the tight side of factory spec for performance builds, or the loose side for high-mileage reliability. Every measurement is recorded on a build sheet.",
-      "We install piston rings with end gaps tailored to your engine's use: tighter for naturally aspirated street engines, wider for forced induction or nitrous. Ring gaps are filed by hand using a ProForm tool, then verified with feeler gauges at three depths in the bore.",
-      "All oil gallery plugs are removed, threads chased, and reinstalled with thread sealant.",
-    ],
-    lists: [
-      "Crankshaft micro-polished before assembly",
-      "Connecting rod bolt stretch measured",
-      "Piston-to-wall clearance set with micrometer",
-      "Rear main seal installed with installation sleeve",
-    ],
-  },
-  paragraph2:{
-    black_heading: "Cooling System Pressure Test",
-    green_heading: "Find Hidden Leaks Before Overheat",
-    p: [
-      "Vogue Technics pressurizes your cooling system to 16-20 PSI, then monitors for drop over 30 minutes. This test finds pinhole leaks in radiators, heater cores, and water pump seals that wouldn't leak under normal idle conditions. We also check for combustion gases in coolant using a chemical block tester.",
-      "If a head gasket failure is suspected, we perform a cylinder leak-down test with the coolant system pressurized. Bubbles in the radiator or expansion tank confirm the diagnosis before any disassembly. This saves customers from unnecessary engine teardowns.",
-      "All radiator caps are tested separately for proper pressure release.",
-    ],
-    lists: [
-      "Thermostat opening temperature verified",
-      "Electric cooling fan operation tested",
-      "Coolant concentration checked with refractometer",
-      "Water pump weep hole inspected",
-    ],
-  },
-
+   
      Reviews:[
        {
     id: 1,
@@ -7147,43 +8897,113 @@ faq:[
 
 
   { id: 45, name: "Greenwich", slug: "greenwich",
-    servicesData:[
+          green_slider:{
+   img: "/vogue fix my motor image 9.jpg",
+  items:  [
+  {
+    title: "detail page Lorem Ipsum Has Been In",
+    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
+
+In modern development workflow.`
+  },
+
+  {
+    title: "detail page Trusted Car Repair Experts",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "detail page  Fast & Professional Service",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "detail page Advanced Engine Diagnostics",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "detail page Quality Parts & Reliable Repairs",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "detail page  Customer Satisfaction Guaranteed",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+ servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Initial-Diagnostics", 
+     img:"/Initial Diagnostics.jpeg",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    img:"/Cam Belts.jpg",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Welding-Services",
+    img:"/Welding Services.jpg",
   },
    {
-    id: 19,
-    name: "Locking Wheel Nut Removal / Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+      id: 22,
+      name: "Diagnostics",
+      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+      slug: "Diagnostics",
+      img:"/Diagnostics.jpg",
   },
    
-  {
-    id: 20,
-    name: "24/7 Vehicle Recovery",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+ {
+    id: 25,
+    name: "Alternator Replacement",
+    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.jpg",
   },
-   {
-    id: 21,
-    name: "Valeting Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    {
+       id: 41,
+       name: "Oil Change Service",
+       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+       slug: "oil-change-service",
+       img:"/Oil Change.jpg",
   },
 
 ],
@@ -7226,38 +9046,7 @@ faq:[
   ],
   image:"/vogue fix my motor image 21.jpg"
 },
-        paragraph1:
-  {
-    black_heading: "Short Block Assembly",
-    green_heading: "Blueprinting & Clearance Verification",
-    p: [
-      "At Vogue Technics, a short block rebuild includes measuring main bearing clearance with Plastigage and a dial bore gauge. We set oil clearance to the tight side of factory spec for performance builds, or the loose side for high-mileage reliability. Every measurement is recorded on a build sheet.",
-      "We install piston rings with end gaps tailored to your engine's use: tighter for naturally aspirated street engines, wider for forced induction or nitrous. Ring gaps are filed by hand using a ProForm tool, then verified with feeler gauges at three depths in the bore.",
-      "All oil gallery plugs are removed, threads chased, and reinstalled with thread sealant.",
-    ],
-    lists: [
-      "Crankshaft micro-polished before assembly",
-      "Connecting rod bolt stretch measured",
-      "Piston-to-wall clearance set with micrometer",
-      "Rear main seal installed with installation sleeve",
-    ],
-  },
-  paragraph2:{
-    black_heading: "Cooling System Pressure Test",
-    green_heading: "Find Hidden Leaks Before Overheat",
-    p: [
-      "Vogue Technics pressurizes your cooling system to 16-20 PSI, then monitors for drop over 30 minutes. This test finds pinhole leaks in radiators, heater cores, and water pump seals that wouldn't leak under normal idle conditions. We also check for combustion gases in coolant using a chemical block tester.",
-      "If a head gasket failure is suspected, we perform a cylinder leak-down test with the coolant system pressurized. Bubbles in the radiator or expansion tank confirm the diagnosis before any disassembly. This saves customers from unnecessary engine teardowns.",
-      "All radiator caps are tested separately for proper pressure release.",
-    ],
-    lists: [
-      "Thermostat opening temperature verified",
-      "Electric cooling fan operation tested",
-      "Coolant concentration checked with refractometer",
-      "Water pump weep hole inspected",
-    ],
-  },
-
+   
      Reviews:[
        {
     id: 1,
@@ -7299,43 +9088,113 @@ faq:[
 
 
   { id: 46, name: "Dartford", slug: "dartford",
-    servicesData:[
+          green_slider:{
+   img: "/vogue fix my motor image 9.jpg",
+  items:  [
+  {
+    title: "detail page Lorem Ipsum Has Been In",
+    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
+
+In modern development workflow.`
+  },
+
+  {
+    title: "detail page Trusted Car Repair Experts",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "detail page  Fast & Professional Service",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "detail page Advanced Engine Diagnostics",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "detail page Quality Parts & Reliable Repairs",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "detail page  Customer Satisfaction Guaranteed",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+  servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Initial-Diagnostics", 
+     img:"/Initial Diagnostics.jpeg",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    img:"/Cam Belts.jpg",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Welding-Services",
+    img:"/Welding Services.jpg",
   },
    {
-    id: 19,
-    name: "Locking Wheel Nut Removal / Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+      id: 22,
+      name: "Diagnostics",
+      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+      slug: "Diagnostics",
+      img:"/Diagnostics.jpg",
   },
    
-  {
-    id: 20,
-    name: "24/7 Vehicle Recovery",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+ {
+    id: 25,
+    name: "Alternator Replacement",
+    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.jpg",
   },
-   {
-    id: 21,
-    name: "Valeting Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    {
+       id: 41,
+       name: "Oil Change Service",
+       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+       slug: "oil-change-service",
+       img:"/Oil Change.jpg",
   },
 
 ],
@@ -7379,37 +9238,7 @@ faq:[
   image:"/vogue fix my motor image 20.jpg"
 }
 ,
-        paragraph1:
-  {
-    black_heading: "Short Block Assembly",
-    green_heading: "Blueprinting & Clearance Verification",
-    p: [
-      "At Vogue Technics, a short block rebuild includes measuring main bearing clearance with Plastigage and a dial bore gauge. We set oil clearance to the tight side of factory spec for performance builds, or the loose side for high-mileage reliability. Every measurement is recorded on a build sheet.",
-      "We install piston rings with end gaps tailored to your engine's use: tighter for naturally aspirated street engines, wider for forced induction or nitrous. Ring gaps are filed by hand using a ProForm tool, then verified with feeler gauges at three depths in the bore.",
-      "All oil gallery plugs are removed, threads chased, and reinstalled with thread sealant.",
-    ],
-    lists: [
-      "Crankshaft micro-polished before assembly",
-      "Connecting rod bolt stretch measured",
-      "Piston-to-wall clearance set with micrometer",
-      "Rear main seal installed with installation sleeve",
-    ],
-  },
-  paragraph2:{
-    black_heading: "Cooling System Pressure Test",
-    green_heading: "Find Hidden Leaks Before Overheat",
-    p: [
-      "Vogue Technics pressurizes your cooling system to 16-20 PSI, then monitors for drop over 30 minutes. This test finds pinhole leaks in radiators, heater cores, and water pump seals that wouldn't leak under normal idle conditions. We also check for combustion gases in coolant using a chemical block tester.",
-      "If a head gasket failure is suspected, we perform a cylinder leak-down test with the coolant system pressurized. Bubbles in the radiator or expansion tank confirm the diagnosis before any disassembly. This saves customers from unnecessary engine teardowns.",
-      "All radiator caps are tested separately for proper pressure release.",
-    ],
-    lists: [
-      "Thermostat opening temperature verified",
-      "Electric cooling fan operation tested",
-      "Coolant concentration checked with refractometer",
-      "Water pump weep hole inspected",
-    ],
-  },
+    
 
       Reviews:[
        {
@@ -7462,43 +9291,113 @@ faq:[
 
 
   { id: 47, name: "Erith", slug: "erith",
-    servicesData:[
+          green_slider:{
+   img: "/vogue fix my motor image 9.jpg",
+  items:  [
+  {
+    title: "detail page Lorem Ipsum Has Been In",
+    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
+
+In modern development workflow.`
+  },
+
+  {
+    title: "detail page Trusted Car Repair Experts",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "detail page  Fast & Professional Service",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "detail page Advanced Engine Diagnostics",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "detail page Quality Parts & Reliable Repairs",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "detail page  Customer Satisfaction Guaranteed",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+  servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Initial-Diagnostics", 
+     img:"/Initial Diagnostics.jpeg",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    img:"/Cam Belts.jpg",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Welding-Services",
+    img:"/Welding Services.jpg",
   },
    {
-    id: 19,
-    name: "Locking Wheel Nut Removal / Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+      id: 22,
+      name: "Diagnostics",
+      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+      slug: "Diagnostics",
+      img:"/Diagnostics.jpg",
   },
    
-  {
-    id: 20,
-    name: "24/7 Vehicle Recovery",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+ {
+    id: 25,
+    name: "Alternator Replacement",
+    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.jpg",
   },
-   {
-    id: 21,
-    name: "Valeting Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    {
+       id: 41,
+       name: "Oil Change Service",
+       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+       slug: "oil-change-service",
+       img:"/Oil Change.jpg",
   },
 
 ],
@@ -7540,38 +9439,7 @@ faq:[
   ],
   image:"/wowimage.jpg"
 },
-        paragraph1:
-  {
-    black_heading: "Short Block Assembly",
-    green_heading: "Blueprinting & Clearance Verification",
-    p: [
-      "At Vogue Technics, a short block rebuild includes measuring main bearing clearance with Plastigage and a dial bore gauge. We set oil clearance to the tight side of factory spec for performance builds, or the loose side for high-mileage reliability. Every measurement is recorded on a build sheet.",
-      "We install piston rings with end gaps tailored to your engine's use: tighter for naturally aspirated street engines, wider for forced induction or nitrous. Ring gaps are filed by hand using a ProForm tool, then verified with feeler gauges at three depths in the bore.",
-      "All oil gallery plugs are removed, threads chased, and reinstalled with thread sealant.",
-    ],
-    lists: [
-      "Crankshaft micro-polished before assembly",
-      "Connecting rod bolt stretch measured",
-      "Piston-to-wall clearance set with micrometer",
-      "Rear main seal installed with installation sleeve",
-    ],
-  },
-  paragraph2:{
-    black_heading: "Cooling System Pressure Test",
-    green_heading: "Find Hidden Leaks Before Overheat",
-    p: [
-      "Vogue Technics pressurizes your cooling system to 16-20 PSI, then monitors for drop over 30 minutes. This test finds pinhole leaks in radiators, heater cores, and water pump seals that wouldn't leak under normal idle conditions. We also check for combustion gases in coolant using a chemical block tester.",
-      "If a head gasket failure is suspected, we perform a cylinder leak-down test with the coolant system pressurized. Bubbles in the radiator or expansion tank confirm the diagnosis before any disassembly. This saves customers from unnecessary engine teardowns.",
-      "All radiator caps are tested separately for proper pressure release.",
-    ],
-    lists: [
-      "Thermostat opening temperature verified",
-      "Electric cooling fan operation tested",
-      "Coolant concentration checked with refractometer",
-      "Water pump weep hole inspected",
-    ],
-  },
-
+       
        Reviews:[
        {
     id: 1,
@@ -7621,43 +9489,113 @@ faq:[
 
 
   { id: 48, name: "Bexleyheath", slug: "bexleyheath" ,
-    servicesData:[
+          green_slider:{
+   img: "/vogue fix my motor image 9.jpg",
+  items:  [
+  {
+    title: "detail page Lorem Ipsum Has Been In",
+    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
+
+In modern development workflow.`
+  },
+
+  {
+    title: "detail page Trusted Car Repair Experts",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "detail page  Fast & Professional Service",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "detail page Advanced Engine Diagnostics",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "detail page Quality Parts & Reliable Repairs",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "detail page  Customer Satisfaction Guaranteed",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+  servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Initial-Diagnostics", 
+     img:"/Initial Diagnostics.jpeg",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    img:"/Cam Belts.jpg",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Welding-Services",
+    img:"/Welding Services.jpg",
   },
    {
-    id: 19,
-    name: "Locking Wheel Nut Removal / Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+      id: 22,
+      name: "Diagnostics",
+      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+      slug: "Diagnostics",
+      img:"/Diagnostics.jpg",
   },
    
-  {
-    id: 20,
-    name: "24/7 Vehicle Recovery",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+ {
+    id: 25,
+    name: "Alternator Replacement",
+    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.jpg",
   },
-   {
-    id: 21,
-    name: "Valeting Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    {
+       id: 41,
+       name: "Oil Change Service",
+       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+       slug: "oil-change-service",
+       img:"/Oil Change.jpg",
   },
 
 ],
@@ -7701,38 +9639,7 @@ served:{
   ],
   image:"/vogue fix my motor image 18.jpg"
 },
-        paragraph1:
-  {
-    black_heading: "Short Block Assembly",
-    green_heading: "Blueprinting & Clearance Verification",
-    p: [
-      "At Vogue Technics, a short block rebuild includes measuring main bearing clearance with Plastigage and a dial bore gauge. We set oil clearance to the tight side of factory spec for performance builds, or the loose side for high-mileage reliability. Every measurement is recorded on a build sheet.",
-      "We install piston rings with end gaps tailored to your engine's use: tighter for naturally aspirated street engines, wider for forced induction or nitrous. Ring gaps are filed by hand using a ProForm tool, then verified with feeler gauges at three depths in the bore.",
-      "All oil gallery plugs are removed, threads chased, and reinstalled with thread sealant.",
-    ],
-    lists: [
-      "Crankshaft micro-polished before assembly",
-      "Connecting rod bolt stretch measured",
-      "Piston-to-wall clearance set with micrometer",
-      "Rear main seal installed with installation sleeve",
-    ],
-  },
-  paragraph2:{
-    black_heading: "Cooling System Pressure Test",
-    green_heading: "Find Hidden Leaks Before Overheat",
-    p: [
-      "Vogue Technics pressurizes your cooling system to 16-20 PSI, then monitors for drop over 30 minutes. This test finds pinhole leaks in radiators, heater cores, and water pump seals that wouldn't leak under normal idle conditions. We also check for combustion gases in coolant using a chemical block tester.",
-      "If a head gasket failure is suspected, we perform a cylinder leak-down test with the coolant system pressurized. Bubbles in the radiator or expansion tank confirm the diagnosis before any disassembly. This saves customers from unnecessary engine teardowns.",
-      "All radiator caps are tested separately for proper pressure release.",
-    ],
-    lists: [
-      "Thermostat opening temperature verified",
-      "Electric cooling fan operation tested",
-      "Coolant concentration checked with refractometer",
-      "Water pump weep hole inspected",
-    ],
-  },
-
+    
         Reviews:[
        {
     id: 1,
@@ -7791,43 +9698,113 @@ served:{
 
 
   { id: 49, name: "Gravesend", slug: "gravesend",
-    servicesData:[
+          green_slider:{
+   img: "/vogue fix my motor image 9.jpg",
+  items:  [
+  {
+    title: "detail page Lorem Ipsum Has Been In",
+    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
+
+In modern development workflow.`
+  },
+
+  {
+    title: "detail page Trusted Car Repair Experts",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "detail page  Fast & Professional Service",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "detail page Advanced Engine Diagnostics",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "detail page Quality Parts & Reliable Repairs",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "detail page  Customer Satisfaction Guaranteed",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+ servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    slug: "Initial-Diagnostics", 
+     img:"/Initial Diagnostics.jpeg",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+    img:"/Cam Belts.jpg",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Brake-Service",
+    slug: "Welding-Services",
+    img:"/Welding Services.jpg",
   },
    {
-    id: 19,
-    name: "Locking Wheel Nut Removal / Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+      id: 22,
+      name: "Diagnostics",
+      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+      slug: "Diagnostics",
+      img:"/Diagnostics.jpg",
   },
    
-  {
-    id: 20,
-    name: "24/7 Vehicle Recovery",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Battery-Check",
+ {
+    id: 25,
+    name: "Alternator Replacement",
+    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.jpg",
   },
-   {
-    id: 21,
-    name: "Valeting Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Engine-Repair",
+    {
+       id: 41,
+       name: "Oil Change Service",
+       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+       slug: "oil-change-service",
+       img:"/Oil Change.jpg",
   },
 
 ],
@@ -7870,38 +9847,7 @@ requestqoute:{
   ],
   image:"/vogue fix my motor image 17.jpg"
 },
-        paragraph1:
-  {
-    black_heading: "Short Block Assembly",
-    green_heading: "Blueprinting & Clearance Verification",
-    p: [
-      "At Vogue Technics, a short block rebuild includes measuring main bearing clearance with Plastigage and a dial bore gauge. We set oil clearance to the tight side of factory spec for performance builds, or the loose side for high-mileage reliability. Every measurement is recorded on a build sheet.",
-      "We install piston rings with end gaps tailored to your engine's use: tighter for naturally aspirated street engines, wider for forced induction or nitrous. Ring gaps are filed by hand using a ProForm tool, then verified with feeler gauges at three depths in the bore.",
-      "All oil gallery plugs are removed, threads chased, and reinstalled with thread sealant.",
-    ],
-    lists: [
-      "Crankshaft micro-polished before assembly",
-      "Connecting rod bolt stretch measured",
-      "Piston-to-wall clearance set with micrometer",
-      "Rear main seal installed with installation sleeve",
-    ],
-  },
-  paragraph2:{
-    black_heading: "Cooling System Pressure Test",
-    green_heading: "Find Hidden Leaks Before Overheat",
-    p: [
-      "Vogue Technics pressurizes your cooling system to 16-20 PSI, then monitors for drop over 30 minutes. This test finds pinhole leaks in radiators, heater cores, and water pump seals that wouldn't leak under normal idle conditions. We also check for combustion gases in coolant using a chemical block tester.",
-      "If a head gasket failure is suspected, we perform a cylinder leak-down test with the coolant system pressurized. Bubbles in the radiator or expansion tank confirm the diagnosis before any disassembly. This saves customers from unnecessary engine teardowns.",
-      "All radiator caps are tested separately for proper pressure release.",
-    ],
-    lists: [
-      "Thermostat opening temperature verified",
-      "Electric cooling fan operation tested",
-      "Coolant concentration checked with refractometer",
-      "Water pump weep hole inspected",
-    ],
-  },
-
+    
       Reviews:[
        {
     id: 1,

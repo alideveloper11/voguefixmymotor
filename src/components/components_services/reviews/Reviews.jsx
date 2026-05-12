@@ -1,10 +1,16 @@
+"use client";
+import { motion } from "framer-motion";
 import StarIcon from "@mui/icons-material/Star";
 import StarBorderIcon from "@mui/icons-material/StarBorder";
 import reviewsData from "@/lib/services_data/reviewsData";
 
 export default function Reviews() {
   return (
-    <div className="flex flex-wrap w-full text-sm">
+    <motion.div
+            initial={{ opacity: 0, y: 80, scale: 0.95 }}
+      whileInView={{ opacity: 1, y: 0, scale: 1 }}
+      transition={{ duration: 0.7, ease: "easeOut" }}
+      viewport={{ once: true, amount: 0.3 }} className="flex flex-wrap w-full text-sm">
 
       <div className="w-full text-center text-black">
         <p className="text-3xl mt-5 font-bold">Reviews</p>
@@ -65,6 +71,6 @@ export default function Reviews() {
 
       </div>
     
-    </div>
+    </motion.div>
   );
 }

@@ -3,7 +3,7 @@ import blogs_data from "@/lib/blogs_data/blogs_data";
 import Link from "next/link";
 export default function Blogs(){
     return(
-        <div className="w-full flex flex-wrap justify-center mt-6 ml-6 m6-6">
+        <div className="w-full flex flex-wrap justify-center mt-6 ml-10 mr-4">
                 {blogs_data.map((blog) => (
                
                   <div  key={blog.id}  className="w-full sm:w-full md:w-6/12 h-[auto] lg:w-4/12 flex justify-center items-center">

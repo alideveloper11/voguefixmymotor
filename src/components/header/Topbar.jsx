@@ -14,10 +14,10 @@ export default function Topbar() {
       {largeScreen && (
         <div className="flex flex-wrap w-full h-10 text-white items-center">
       
-          <div className="w-4/24">
+          <div className="w-4/24 ">
           <Link href="tel:+01375531355">
 
-            <p className="text-center font-bold items-center"><PhoneIcon style={{color:"#059669", fontSize:"20px"}} /> 01375531355</p>
+            <p className="text-center font-bold items-center ml-6"><PhoneIcon style={{color:"#059669", fontSize:"20px"}} /> 01375531355</p>
           </Link>
           </div>
             

@@ -1,4 +1,5 @@
 "use client";
+import { motion } from "framer-motion";
 import Collapse from "@mui/material/Collapse";
 import { useState } from "react";
 import faq_data from "@/lib/Areas_data/faq_data";
@@ -15,7 +16,11 @@ export default function FAQ() {
 
   return (
       
-                   <div className="flex flex-wrap w-full bg-gray-100">
+                   <motion.div
+  initial={{ opacity: 0, x: 100 }}
+  whileInView={{ opacity: 1, x: 0 }}
+  transition={{ duration: 0.8 }}
+  viewport={{ once: true }} className="flex flex-wrap w-full bg-gray-100">
                           
                    <div className="w-4/24 text-center"></div>  
                     <div className="w-16/24 text-center">
@@ -56,19 +61,11 @@ export default function FAQ() {
                 />
               </div>
 
-              {/* Answer (Simple conditional render) */}
+             
               <Collapse in={isOpen} timeout="auto" unmountOnExit>
-  <div className="p-5 text-left text-gray-600">
+  <div className="p-5 py-8 text-left text-gray-600 ">
     {item.answer}
-
-    <div className="mt-5">
-      <button
-        className="text-white font-bold py-2 px-4 rounded bg-[#088D50] hover:bg-green-800"
-
-      >
-        Get Instant Quote
-      </button>
-    </div>
+   
   </div>
 </Collapse>
  
@@ -77,6 +74,6 @@ export default function FAQ() {
         })}
       </div>
     </div>
-    </div></div>
+    </div></motion.div>
   );
 }

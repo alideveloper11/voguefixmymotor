@@ -5,11 +5,11 @@ const LatestVideosData = [
     date: "Mar 15 2025",
     link: "https://youtube.com/embed/DFFsmt2I5LQ?si=kqB7uZln5MU074ID",
   },
-  {
+   {
     id: 2,
-    name: "Another Range Rover Engine Replacement Done | Vogue Technics",
-    date: "Dec 29 2022",
-    link: "https://youtube.com/embed/z2UwmbmwZLk?si=PkhQywWWYAZdNhI-",
+    name: "Ford Kuga Engine Rebuild I Vogue Technics I Customer Feedback",
+    date: "Jul 1 2025",
+    link: "https://youtube.com/embed/3t5Bw9hDD78?si=J5zfryRVekxdh_gD",
   },
   {
     id: 3,

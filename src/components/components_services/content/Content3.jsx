@@ -1,9 +1,17 @@
+"use client";
+import { motion } from "framer-motion";
+
 import { getcontent3 } from "@/lib/services_data/content_data";
 const data = getcontent3();
 export default function Content3(){
 
 return (
-  <div className="flex w-full flex-wrap mb-8">
+  <motion.div
+  initial={{ opacity: 0, x: 100 }}
+  whileInView={{ opacity: 1, x: 0 }}
+  transition={{ duration: 0.8 }}
+  viewport={{ once: true }}
+   className="flex w-full flex-wrap mb-8">
         <div className="w-full text-left mt-5 ml-5 mr-5">
           <p className="block md:inline font-bold" style={{fontSize:"20px"}}>{data.heading},</p>
           <p className="block md:inline  font-bold"  style={{fontSize:"20px", color:"#059669"}}>{data.greenHeading}</p>
@@ -26,7 +34,7 @@ return (
         
       
 
-  </div>
+  </motion.div>
 //   <div>
 //     <h1>{data.heading}</h1>
 //     <h2>{data.greenHeading}</h2>

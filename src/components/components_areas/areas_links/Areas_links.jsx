@@ -1,8 +1,16 @@
+"use client";
+import { motion } from "framer-motion";
+
 import { locations } from "@/lib/Areas_data/areas_list";
 import Link from "next/link";
 export default function Areas_links() {
   return (
-    <div  id="areas" className="flex flex-wrap">
+    <motion.div
+            initial={{ opacity: 0, y: 80, scale: 0.95 }}
+      whileInView={{ opacity: 1, y: 0, scale: 1 }}
+      transition={{ duration: 0.7, ease: "easeOut" }}
+      viewport={{ once: true, amount: 0.3 }}
+       id="areas" className="flex flex-wrap">
       <div className="w-full">
         <div className="w-full">
             <center>
@@ -30,6 +38,6 @@ export default function Areas_links() {
           ))}
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }

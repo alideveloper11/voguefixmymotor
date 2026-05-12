@@ -6,10 +6,10 @@ export default function Herosection()
           <>
     <div className="flex  flex-wrap  h-[400px] items-center justify-center" id="second_hero_section">
       <div className="w-full items-center justify-center">
-            <p className="text-white font-bold text-[20px]">
+            <p className="text-white font-bold text-16 md:text-[20px]">
               Quick Engine Repairs & Maintenance
             </p>
-            <p className="text-white">
+            <p className="text-white text-sm md:text-[16px] ml-10 mr-10">
               We handle small issues early with accurate diagnostics and dependable repairs.
             </p>
             

@@ -1,8 +1,15 @@
+"use client";
+
+import { motion } from "framer-motion";
 import { locations } from "@/lib/areas_list";
 import Link from "next/link";
 export default function Areas_links() {
   return (
-    <div className="m-10">
+      <motion.div
+  initial={{ opacity: 0, x: 100 }}
+  whileInView={{ opacity: 1, x: 0 }}
+  transition={{ duration: 0.8 }}
+  viewport={{ once: true }} className="m-10">
     <div className="flex flex-wrap ">
       <div className="w-full">
         <div className="w-full">
@@ -16,7 +23,7 @@ export default function Areas_links() {
           {locations.map((item, index) => (
             <div
               key={item.id}
-              className="w-4/12 md:w-5/25 mb-5 text-center flex items-center justify-center"
+              className="w-6/12 md:w-4/12 lg:w-3/12 mb-5 text-center flex items-center justify-center"
             >
                <Link href={`/areas/${item.slug}`}>  
             <button
@@ -37,7 +44,7 @@ className="
 cursor-pointer
 block
 mx-auto
-mb-10
+mt-5
 bg-[#088751]
 text-white
 px-12
@@ -50,6 +57,6 @@ Find More
         </div>
       </div>
     </div>
-    </div>
+    </motion.div>
   );
 }

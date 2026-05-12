@@ -3,8 +3,8 @@ export default function Top_component(){
         <div className="flex flex-wrap">
             <div className="w-full md:w-6/12">
                 <div className="m-10">
-                    <h1 className="text-2xl font-bold">About us </h1>
-                    <p className="mt-5 text-justify">
+                    <h1 className="text-2xl ml-5 font-bold">About us </h1>
+                    <p className="mt-5 ml-5 text-justify">
                         orem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Pellentesque fringilla arcu posuere mattis pharetra. Aenean laoreet pretium feugiat.
                          Aenean ac rhoncus lectus. Pellentesque condimentum leo turpis, 
@@ -16,23 +16,23 @@ export default function Top_component(){
                          vulputate vulputate. Fusce eu aliquam elit. Praesent vehicula cursus tincidunt. 
                         Ut malesuada ut nisi ut consectetur. Nulla molestie tortor nec convallis rutrum.
                     </p>
-                     <p className="mt-5 text-justify">
+                     <p className="mt-5 ml-5 text-justify">
                         orem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Pellentesque fringilla arcu posuere mattis pharetra. Aenean laoreet pretium feugiat.
                        Ut malesuada ut nisi ut consectetur. Nulla molestie tortor nec convallis rutrum.
                     </p>
-                    <p className="mt-5 text-justify">
+                    <p className="mt-5 ml-5 text-justify">
                         orem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Pellentesque fringilla arcu posuere mattis pharetra. Aenean laoreet pretium feugiat.
                        Ut malesuada ut nisi ut consectetur. Nulla molestie tortor nec convallis rutrum.
                     </p>
-                    <p className="mt-5 text-justify">
+                    <p className="mt-5 ml-5 text-justify">
                         orem ipsum dolor sit amet, esuada ut nisi ut consectetur. Nulla molestie tortor nec convallis rutrum.
                     </p>
                 </div>
             </div>
             <div className="w-full md:w-6/12">
-                <div className="m-10 h-[400px]">
+                <div className="m-10  h-[400px] mr-15">
                    
                     <img src="\vogue fix my motor image 17.jpg" className="h-full w-full object-cover" style={{width:"100%", borderRadius:"10px"}} alt="slider_section_image" />
             

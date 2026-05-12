@@ -1,3 +1,4 @@
+
 import KeyIcon from '@mui/icons-material/Key';
 import SecurityIcon from '@mui/icons-material/Security';
 import WatchLaterIcon from '@mui/icons-material/WatchLater';
@@ -6,7 +7,9 @@ import StarIcon from '@mui/icons-material/Star';
 
 export default function why_choose(){
     return(
-        <div className="flex flex-wrap  m-10 text-left">
+ <div
+  
+ className="flex flex-wrap  m-10 md:mx-16 text-left">
 
          <div className="w-full md:w-1/2">
                 <h1 className="font-bold text-[20px]">

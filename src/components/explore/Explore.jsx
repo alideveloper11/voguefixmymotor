@@ -1,8 +1,24 @@
+"use client";
+import { motion } from "framer-motion";
 export default function Explore()
 {
 return(
-  <div className="flex w-full flex-wrap  bg-[#F3F4F6]">
-        <div className="flex w-full flex-wrap mt-20 ml-20 mr-20 mb-5">
+  <motion.div
+   initial={{
+    opacity: 0,
+    x: 80,
+    filter: "blur(8px)",
+  }}
+  whileInView={{
+    opacity: 1,
+    x: 0,
+    filter: "blur(0px)",
+  }}
+  transition={{
+    duration: 0.8,
+  }}
+ className="flex w-full flex-wrap bg-[#F3F4F6]">
+        <div className="flex w-full flex-wrap mt-20 ml-16 mr-16 mb-5">
              <div className=" text-left w-full md:w-6/12">
 
                 <p className="font-bold text-[28px]">
@@ -21,31 +37,14 @@ return(
                     </div>
             </div>  
             <div className="flex w-full md:w-6/12 flex-wrap ">
-                <div className="mb-10" style={{width:"100%"}}>
+                <div className="mb-10 flex justify-end items-end" style={{width:"100%"}}>
                     <img src="/explore/1.jpg" alt="" className="w-full object-cover rounded  h-[350px] lg:h-[450px] md:h-[400px]"  style={{borderRadius:"10px", width:"100%"}} />
                 </div>
             </div>  
 
 
       
-            <div className=" w-full md:w-6/12 flex-wrap grid">
-                 <div className="mb-10" style={{width:"100%"}}>
-                    <img src="/explore/3.jpg" className="w-full object-cover rounded  h-[350px] lg:h-[450px] md:h-[400px]" alt="" style={{borderRadius:"10px" , width:"100%"}} />
-                </div>
-            </div> 
-            <div className="flex w-full md:w-6/12 flex-wrap">
-                <p className="text-left ml-5 mr-5">
-                   Results speak louder than words. So take a closer look at the quality behind every repair we complete. From engine diagnostics to full restorations, our gallery showcases real vehicles worked on by our experienced technicians.
-               
-               ontrary to popular belief, Lorem Ipsum is not simply random text. 
-               It has roots in a piece of classical Latin literature from 45 BC,
-                making it over 2000 years old. Richard McClintock,
-                a Latin professor at Hampden-Sydney College in Virginia,
-                 looked up one of the more obscure Latin words, consectetur, 
-                 from a Lorem Ipsum passage, and going through the cites of the word 
-                 in classical literature, discovered the undoubtable source. </p>
-            </div> 
         </div>
-    </div>
+    </motion.div>
     );
 }

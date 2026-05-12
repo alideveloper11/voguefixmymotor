@@ -1,4 +1,5 @@
 "use client";
+import { motion } from "framer-motion";
 import slides from "@/lib/services_data/green_slider1";
 
 import { useEffect, useState } from "react";
@@ -19,7 +20,12 @@ export default function Green_slider1() {
 
   return (
 
-        <div className="flex w-full flex-wrap ">
+        <motion.div
+  initial={{ opacity: 0, x: -100 }}
+  whileInView={{ opacity: 1, x: 0 }}
+  transition={{ duration: 0.8 }}
+  viewport={{ once: true }}
+   className="flex w-full flex-wrap ">
             <div className="w-full md:w-12/24 text-left text-white h-[650px]" style={{background:"linear-gradient(127.87deg, #000000 -0.59%, #16A34A 86.16%)"}}>
                 <div className=" m-10 mb-0 md:ml-20 md:mr-20 md:mr-20 ">
                         <h1 className="text-2xl md:text-3xl font-bold">{slides[current].title}</h1>
@@ -46,6 +52,6 @@ export default function Green_slider1() {
                     <img src="/vogue fix my motor image 9.jpg"  className="w-full object-cover" style={{width:"100%", height:"100%"}} alt="slider_section_image" />
                 </div>
             </div>
-        </div>
+        </motion.div>
   );
 }

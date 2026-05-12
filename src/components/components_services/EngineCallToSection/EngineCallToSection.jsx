@@ -1,16 +1,23 @@
+"use client";
+import { motion } from "framer-motion";
+
 export default function EngineCallToSection()
 {
         return(
             
-                            <div id="engin_call_to_section" className="flex flex-wrap w-full " style={{ height: "450px" }}>
+                            <motion.div initial={{ opacity: 0, x: -100 }}
+  whileInView={{ opacity: 1, x: 0 }}
+  transition={{ duration: 0.8 }}
+  viewport={{ once: true }}
+                             id="engin_call_to_section" className="flex flex-wrap w-full " style={{ height: "450px" }}>
                                  <div className="w-full sm:w-24/24 md:w-12/24 lg:w-12/24 flex items-center justify-center">
-                                 <div style={{width:"90%"}} className=" items-center justify-center">
-                                        <h1 className="text-left md:ml-20 text-white font-bold" style={{fontSize:"30px"}}>
+                                 <div style={{width:"90%"}} className=" md:ml-15 md:mr-5  items-center justify-center">
+                                        <h1 className="text-left  text-white font-bold" style={{fontSize:"30px"}}>
                                         Engine Problems? <br />
                                         Fix Them Properly
                                         </h1>
                                         
-                                        <p  className="text-left text-white  md:ml-20  " style={{fontSize:"12px"}} >
+                                        <p  className="text-left text-white  " style={{fontSize:"12px"}} >
                                                 Is your car losing power, overheating,
                                                  or making unusual engine noises? 
                                                  Delaying engine diagnostics can cause
@@ -19,7 +26,7 @@ export default function EngineCallToSection()
                                                    </div>
                                  </div>
                                  <div className="w-full sm:w-24/24 md:w-12/24 lg:w-12/24 flex items-center justify-center">
-                                 <div style={{backgroundColor:"black", width:"90%", borderRadius:"10px"}} >
+                                 <div style={{backgroundColor:"black", width:"90%", borderRadius:"10px"}} className="md:mr-15" >
                                  <div className="flex border rounded overflow-hidden max-w-xl" style={{borderColor:"#FFCB05", margin:"20px"}}>
                                        
                                         <button className="bg-blue-900 text-white px-4 items-center justify-center ">
@@ -40,7 +47,7 @@ export default function EngineCallToSection()
                                  </div>
                                  
 
-                            </div>
+                            </motion.div>
                            
         )
 }
