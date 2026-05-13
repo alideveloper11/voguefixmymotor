@@ -12,7 +12,7 @@ export default function Footer(){
     return(
         <div className="flex flex-wrap w-full bg-black " style={{fontSize:"14px"}}>
             
-            <div className="md:w-2/24 w-1/19">
+            <div className="md:w-1/24 w-1/19">
             </div>
             <div className="w-20/24">
                 <div className="flex flex-wrap w-full mt-5">
@@ -86,7 +86,10 @@ export default function Footer(){
                         </div>
                     </div>
                 </div>
-                 <div className="mt-10" style={{height:"3px", backgroundColor:"#1F2937"}}></div>
+                 
+             </div>
+             <div className="w-full ml-13 mr-18">
+                <div className="mt-10 w-full" style={{height:"3px", backgroundColor:"#1F2937"}}></div>
                  
             <div className="flex flex-wrap w-full bg-black " style={{fontSize:"14px"}}>
                   
