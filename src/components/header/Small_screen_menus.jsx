@@ -52,8 +52,9 @@ export default function Small_screen_menus(){
               <div className="w-1/24">
               </div>
               <div className="w-5/24">
+                <Link href="/">
                     <img src="/logo.svg" className="w-13" alt="Logo" />
-                     
+                     </Link>
               </div>
               <div className="w-14/24 text-white">
 

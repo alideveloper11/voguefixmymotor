@@ -5,17 +5,18 @@ import WatchLaterIcon from '@mui/icons-material/WatchLater';
 import StarIcon from '@mui/icons-material/Star';
 
 
+import Link from "next/link";
 export default function why_choose(){
     return(
  <div
   
- className="flex flex-wrap  m-10 md:mx-16 text-left">
+ className="flex flex-wrap  m-6 md:mx-16 text-left">
 
          <div className="w-full md:w-1/2">
-                <h1 className="font-bold text-[20px]">
+                <h1 className="font-bold text-3xl md:text-4xl">
                     Why Choose Vogue Fix My Motor?
                 </h1>
-                <p className="text-[14px] text-[#6B7280]">Our mission is to provide excellent auto services with a focus on quality, reliability, and
+                <p className="text-[14px] mt-4 text-[#6B7280]">Our mission is to provide excellent auto services with a focus on quality, reliability, and
                     customer satisfaction. Heres why we stand out:
                     </p>
                     
@@ -67,7 +68,7 @@ export default function why_choose(){
                </div>
                
 <div className="w-full md:w-1/2">
-  <div className="flex justify-center">
+  <div className="flex justify-start">
     
     <div className="w-full flex justify-center mt-5 md:mt-0">
     <div className="w-full"  style={{width:"100%"}}>
@@ -76,26 +77,32 @@ export default function why_choose(){
     </div>
     
   </div>
-  <div className="w-full mt-3">
+  <div className="w-full mt-3 text-left">
             <p className="text-[20px]">Ready for Your Next Step?</p>
             <p className='text-[12px] text-[#4B5563]'>Book a diagnostic or get expert advice from our highly trained technicians. 
                 Trust us forreliable auto services every time.</p>
-                        <p>
-            <button
+                       
+            <div className="w-full flex justify-start items-left ">
+              <Link href="contact/">
+          <button
             className="
             block
-            mx-auto
+            mt-5
             bg-[#088751]
             text-white
             px-12
             py-3
-            rounded
+            rounded-lg
+            font-bold
             hover:bg-green-800
             "
             >
             Get Qoutation
-            </button></p>
+            </button>
+            </Link>
         </div>
+        </div>
+        
 </div>
           </div>
         

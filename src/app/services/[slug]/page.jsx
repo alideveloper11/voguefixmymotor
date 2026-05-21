@@ -4,7 +4,7 @@ import Reviews from "@/components/components_reviews/reviews/Reviews";
 import Content3 from "../../../components/components_services/detail_page/content/Content3";
 import FAQ from "../../../components/components_services/detail_page/faq/FAQ";
 import SaleParts from "@/components/saleparts/SaleParts";
-
+import { notFound } from "next/navigation";
 import EngineCallToSection from "@/components/EngineCallToSection/EngineCallToSection";
 import LatestVideos from "@/components/latest_videos/Latest_videos";
 import Green_slider1 from "../../../components/components_services/detail_page/green_slider/Green_slider1";
@@ -13,6 +13,9 @@ export default async function ServiceDetail({ params }) {
   const service = servicesData.find(
     (item) => item.slug === slug
   );
+   if (!service) {
+    notFound();
+  }
   return (
     <div className="flex flex-wrap w-full">
     <div className="w-24/24 text-center"><Herosection  name={service.name} text={service.text}  /></div> 

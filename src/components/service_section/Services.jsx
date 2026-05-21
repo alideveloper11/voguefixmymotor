@@ -72,7 +72,7 @@ export default function Services()
                             
                       
                             <button
-                            className=" group-hover:border-[white] group-hover:text-white block mb-5 mx-auto mt-3 font-bold border border-[#046b3f] hover:bg-[#046b3f]  cursor-pointer text-[#046b3f] hover:text-white px-12 py-[7px] rounded">
+                            className=" group-hover:border-[white] group-hover:text-white block mb-5 mx-auto mt-3 font-bold border border-[#046b3f] hover:bg-[#046b3f]  cursor-pointer text-[#046b3f] hover:text-white px-12 py-[7px] rounded-lg">
                             read more
                             </button> 
                            </div>
@@ -86,9 +86,9 @@ export default function Services()
                
                         <div className="w-24/24 py-7">
                         
-<Link href="/services#services">
+<Link href="/services">
                          <button
-                            className="block mx-auto mt-3 font-bold bg-[#088751] hover:bg-[#046b3f]  cursor-pointer text-white px-17 py-[7px] rounded">
+                            className="block mx-auto mt-3 font-bold bg-[#088751] hover:bg-[#046b3f]  cursor-pointer text-white px-17 py-[7px] rounded-lg">
                             View All Services
                             </button></Link>
                         </div> 

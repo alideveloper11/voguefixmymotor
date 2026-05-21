@@ -1,9 +1,9 @@
-
+import Link from "next/link";
 export default function Requestaqoute({content}) {
   return (
     <div>
     <div className=" w-full">
-          <div className="flex  flex-wrap m-10">
+          <div className="flex  flex-wrap m-10 md:mx-16">
              <div className=" w-full md:w-1/2">
               <div  style={{width:"100%"}}   className="md:h-[400px]">
                     <img src={content.image} className="h-full w-full object-cover" style={{width:"100%", borderRadius:"10px 0px 0px 10px"}} alt="slider_section_image" />
@@ -24,11 +24,11 @@ export default function Requestaqoute({content}) {
                                               </div>
                                         <div className="w-24/24">
                         
-
+   <Link href="/contact">
                         <button className="border mt-5  px-4 py-2 rounded mb-2 bg-[#059669] hover:bg-[#0b5a41]"  
                         style={{ fontSize:"14px", color:"white", fontWeight:"bold" , width:"200px"}}>
-                           read more
-                           </button>
+                           Request A Quote
+                           </button></Link>
                         </div> 
 
             </div>

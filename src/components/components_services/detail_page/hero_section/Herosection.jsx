@@ -1,6 +1,8 @@
 
 
 import CallIcon from '@mui/icons-material/Call';
+
+import Link from "next/link";
 export default function Herosection(props)
 {
         return(
@@ -8,7 +10,7 @@ export default function Herosection(props)
           <>
     <div className="flex  flex-wrap  h-[400px] items-center justify-center" id="second_hero_section">
       <div className="w-full items-center justify-center">
-            <p className="text-white font-bold  text-16 md:text-[20px]">
+            <p className="text-white font-bold  text-2xl md:text-3xl">
                {props.name}
             </p>
             <p className="text-white   text-sm md:text-[16px] ml-10 mr-10 ">
@@ -20,10 +22,17 @@ export default function Herosection(props)
               <p className="text-white  font-bold ">Enter your registration for an instant quote</p>
             <div className="flex  items-center justify-center">
               
-                                             <button className="m-1 ml-3 text-white bg-[#009051] hover:bg-[#05824b] mb-3 font-semibold text-[10px] md:text-lg px-6 w-[60%] md:w-[40%] rounded-sm h-[35px] shadow">
-                                              <CallIcon  fontSize="small"  />1374531355</button>
-                                             <button className="m-1 mr-3 text-white bg-black hover:bg-[#434a47] border-[2px] border-white mb-3 font-semibold text-[10px] md:text-lg px-6 w-[60%]  md:w-[40%]  rounded-sm h-[35px]  shadow">Request A Qoute</button>
-                                                  
+                                           
+                                             <Link
+  href="tel:1374531355"
+  className="m-1 ml-3 text-white bg-[#009051] hover:bg-[#05824b] mb-3 font-semibold text-[10px] md:text-lg px-6 w-[60%] md:w-[40%] rounded-sm h-[35px] shadow flex items-center justify-center gap-2"
+>
+  <CallIcon fontSize="small" />
+  1374531355
+</Link>
+                 <Link href="/contact" className="m-1 mr-3 text-white bg-black hover:bg-[#434a47] border-[2px] border-white mb-3 font-semibold text-[10px] md:text-lg px-6 w-[60%] md:w-[40%] rounded-sm h-[35px] shadow flex items-center justify-center">
+  Request A Quote
+</Link>                    
             </div> 
                                                   
             <div className="flex items-center justify-center">

@@ -1,12 +1,10 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { useMediaQuery } from "@mui/material";
 import Large_screen_menus from "./Large_screen_menus";
 import Small_screen_menus from "./Small_screen_menus";
-export default function Menus() {
-  const largeScreen = useMediaQuery("(min-width:1000px)");
 
+export default function Menus() {
   const [fixed, setFixed] = useState(false);
 
   const menuRef = useRef(null);
@@ -15,11 +13,7 @@ export default function Menus() {
     const menuOffsetTop = menuRef.current.offsetTop;
 
     const handleScroll = () => {
-      if (window.scrollY >= menuOffsetTop) {
-        setFixed(true);
-      } else {
-        setFixed(false);
-      }
+      setFixed(window.scrollY >= menuOffsetTop);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -39,7 +33,13 @@ export default function Menus() {
         }`}
       >
         <div className="w-full text-center p-2">
-          {largeScreen ? <Large_screen_menus /> : <Small_screen_menus />}
+          <div className="hidden lg:block">
+            <Large_screen_menus />
+          </div>
+
+          <div className="block lg:hidden">
+            <Small_screen_menus />
+          </div>
         </div>
       </div>
     </>

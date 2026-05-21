@@ -6,7 +6,7 @@ import Content3 from "../../components/components_services/content/Content3";
 import Green_slider1 from "../../components/components_services/green_slider/Green_slider1";
 import SaleParts from "../../components/components_services/saleparts/SaleParts";
 import Latest_videos from "../../components/components_services/latest_videos/Latest_videos";
-import SalePartsEngineCallToSection from "../../components/components_services/EngineCallToSection/EngineCallToSection";
+import SalePartsEngineCallToSection from "../../components/EngineCallToSection/EngineCallToSection";
 import FAQ from "../../components/components_services/faq/FAQ";
 import Areas_links from "../../components/components_services/areas_links/Areas_links";
 import reviewsData from "@/lib/services_data/reviewsData";

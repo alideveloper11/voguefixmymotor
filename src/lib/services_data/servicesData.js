@@ -4,7 +4,7 @@ const servicesData = [
   {
     id: 1,
     name: "Initial Diagnostics",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
+    text: "Identify engine faults quickly using advanced diagnostic tools for accurate repairs and smooth performance.",
     slug: "Initial-Diagnostics",
     img:"/Initial Diagnostics.jpeg",
     Reviews:[
@@ -183,7 +183,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
   {
     id: 2,
     name: "Vehicle Health Check",
-    text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+    text: "Comprehensive inspection of key vehicle systems to ensure safety, reliability, and roadworthiness.",
     slug: "Vehicle-Health-Check",
     img:"/Vehicle Health Check.jpg",
       Reviews:[
@@ -358,7 +358,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
   {
     id: 3,
     name: "Visual Inspection",
-    text: "Fine tuning service for better fuel efficiency, smoother acceleration, and optimized power output.",
+    text: "Thorough visual checks to detect wear, leaks, damage, and potential mechanical issues early.",
     slug: "Visual-Inspection",
     img:"/Visual Inspection.jpg",
       Reviews:[
@@ -536,7 +536,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
   {
     id: 4,
     name: "Interim Service",
-    text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
+    text: "Routine maintenance service including oil, filters, and essential checks for everyday driving reliability.",
     slug: "Interim-Service",
     img:"/Interim Service.jpg",
       Reviews:[
@@ -700,7 +700,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
   {
     id: 5,
     name: "Major Service",
-    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    text: "Complete servicing package covering fluids, filters, brakes, and detailed component inspections.",
     slug: "Major-Service",
     img:"/Major Service.jpg",
       Reviews:[
@@ -921,7 +921,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
   {
     id: 7,
     name: "Annual Service",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
+    text: "Yearly maintenance service designed to keep your vehicle efficient, safe, and running smoothly.",
     slug: "Annual-Service",
     img:"/Annual Service.jpg",
     Reviews:[
@@ -1101,7 +1101,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
   {
     id: 8,
     name: "Van Repairs and Services",
-    text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+    text: "Professional van maintenance and repair solutions for dependable business and daily use.",
     slug: "Van-Repairs-Services",
     img:"/Van Repairs and Services.webp",
       Reviews:[
@@ -1282,7 +1282,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     id: 9,
     name: "Auto Electrical Services",
     img:"/Auto Electrical Services.jpg",
-    text: "Fine tuning service for better fuel efficiency, smoother acceleration, and optimized power output.",
+    text: "Diagnosis and repair of electrical faults, wiring issues, lighting, and charging systems.",
     slug: "Auto-Electrical-Services",
       Reviews:[
        {
@@ -1462,7 +1462,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
   {
     id: 10,
     name: "Hybrid and EV Repairs and Services",
-    text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
+    text: "Specialist repairs and maintenance for hybrid and electric vehicles using advanced diagnostics.",
     slug: "Hybrid-EV-Repairs-Services",
     img:"/Hybrid and EV Repairs and Services.png",
       Reviews:[
@@ -1630,7 +1630,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
   {
     id: 11,
     name: "Timing Belts",
-    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    text: "Timing belt inspection and replacement to prevent engine damage and maintain performance.",
     slug: "Timing-Belts",
     img:"/Timing Belts.jpeg",
       Reviews:[
@@ -1816,7 +1816,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
   {
     id: 12,
     name: "Cam Belts",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
+    text: "Professional cambelt replacement services to ensure accurate engine timing and reliability.",
     slug: "Cam-Belts",
     img:"/Cam Belts.jpg",
       Reviews:[
@@ -2154,7 +2154,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
   {
     id: 13,
     name: "Wet Belt",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
+    text: "Wet belt inspection and replacement services to protect engine performance and longevity.",
     slug: "Wet-Belt",
     img:"/Wet Belt.webp",
       Reviews:[
@@ -2363,7 +2363,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
   {
     id: 14,
     name: "All Repairs and Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
+    text: "Complete vehicle repair and maintenance solutions for all makes and models.",
     slug: "All-Repairs-Services",
     img:"/All Repairs and Services.png",
     Reviews:[
@@ -2544,7 +2544,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
   {
     id: 15,
     name: "Fuel System Cleaning",
-    text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+    text: "Deep cleaning of fuel injectors and fuel systems for improved efficiency and smoother driving.",
     slug: "Fuel-System-Cleaning",
     img:"/Fuel System Cleaning.jpg",
       Reviews:[
@@ -2724,7 +2724,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
   {
     id: 16,
     name: "AdBlue Services",
-    text: "Fine tuning service for better fuel efficiency, smoother acceleration, and optimized power output.",
+    text: "AdBlue diagnostics, refills, and system repairs to maintain emissions compliance and performance.",
     slug: "AdBlue-Services",
     img:"/adblue serivice.jpg",
       Reviews:[
@@ -2906,7 +2906,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
   {
     id: 17,
     name: "Welding Services",
-    text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
+    text: "High-quality welding repairs for exhausts, bodywork, and structural vehicle components.",
     slug: "Welding-Services",
     img:"/Welding Services.jpg",
       Reviews:[
@@ -3075,7 +3075,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
   {
     id: 18,
     name: "NOx Sensor Repair",
-    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    text: "Diagnosis and replacement of faulty NOx sensors to restore engine efficiency and emissions control.",
     slug: "NOx-Sensor-Repair",
     img:"/NOx Sensor Repair.webp",
       Reviews:[
@@ -3263,7 +3263,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
   {
     id: 19,
     name: "Locking Wheel Nut Removal / Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
+    text: "Safe removal and replacement of damaged or lost locking wheel nuts without wheel damage.",
     slug: "Locking-Wheel-Nut-Removal-Replacement",
     img:"/Locking Wheel Nut Removal - Replacement.jpeg",
       Reviews:[
@@ -3485,7 +3485,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
   {
     id: 20,
     name: "24/7 Vehicle Recovery",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
+    text: "Fast and reliable roadside recovery services available day and night when you need assistance.",
     slug: "24-7-Vehicle-Recovery",
     img:"/24-7 Vehicle Recovery.jpg",
       Reviews:[
@@ -3695,7 +3695,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
   {
     id: 21,
     name: "Valeting Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
+    text: "Professional interior and exterior vehicle cleaning for a fresh, polished finish.",
     slug: "Valeting-Services",
     img:"/Valeting Service.jpg",
     Reviews:[
@@ -3874,7 +3874,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
   {
     id: 22,
     name: "Diagnostics",
-    text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+    text: "Advanced vehicle diagnostics to accurately identify warning lights and hidden mechanical faults.",
     slug: "Diagnostics",
     img:"/Diagnostics.jpg",
       Reviews:[
@@ -4055,7 +4055,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
   {
     id: 23,
     name: "Water Pump Replacement",
-    text: "Fine tuning service for better fuel efficiency, smoother acceleration, and optimized power output.",
+    text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
     slug: "Water-Pump-Replacement",
     img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.jpg",
       Reviews:[
@@ -4063,7 +4063,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     id: 1,
     name: "Dene Taylor",
     time: "3 years ago",
-    text: "My range rover broken down got hole on block I find vogue technic they pickup super quick fix it in 10 days great help thanks to Vic",
+    text: "Routine servicing to maintain vehicle performance, reliability, and long-term engine health.",
     rating: 5
   },
   {
@@ -4238,7 +4238,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
   {
     id: 24,
     name: "General Service",
-    text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
+    text: "Routine servicing to maintain vehicle performance, reliability, and long-term engine health.",
     slug: "General-Service",
     img:"/gernal service.avif",
       Reviews:[
@@ -4407,7 +4407,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
   {
     id: 25,
     name: "Alternator Replacement",
-    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    text: "Alternator testing and replacement to restore reliable battery charging and electrical performance.",
     slug: "Alternator-Replacement",
     img:"/Alternator Replacement.jpg",
       Reviews:[
@@ -4593,7 +4593,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
   {
     id: 26,
     name: "Engine Rebuild",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
+    text: "Complete engine rebuild services to restore power, reliability, and long-term performance.",
     slug: "Engine-Rebuild",
     img:"/Engine rebuild.png",
       Reviews:[
@@ -4797,7 +4797,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
   {
     id: 27,
     name: "Battery Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
+    text: "Battery testing and replacement services for dependable starting power in all conditions.",
     slug: "Battery-Replacement",
     img:"/Battery Replacement.avif",
       Reviews:[
@@ -5007,7 +5007,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
   {
     id: 28,
     name: "Clutch Replacement",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
+    text: "Professional clutch repair and replacement for smoother gear changes and driving control.",
     slug: "Clutch-Replacement",
     img:"/f184d927a7134700f54e21657884675da9b63340.jpg",
     Reviews:[
@@ -5189,7 +5189,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
   {
     id: 29,
     name: "Engine Flush",
-    text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+    text: "Engine flushing service to remove sludge deposits and improve engine cleanliness and efficiency.",
     slug: "Engine-Flush",
     img:"/Engine Flush.webp",
       Reviews:[
@@ -5369,7 +5369,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
   {
     id: 30,
     name: "Brake Services",
-    text: "Fine tuning service for better fuel efficiency, smoother acceleration, and optimized power output.",
+    text: "Brake inspections, repairs, and replacements to ensure maximum stopping power and safety.",
     slug: "Brake-Services",
     img:"/Brake Services.jpg",
       Reviews:[
@@ -5551,7 +5551,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
   {
     id: 31,
     name: "Turbo Replacement",
-    text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
+    text: "Turbocharger diagnostics and replacement services for restored engine power and efficiency.",
     slug: "Turbo-Replacement",
     img:"/Turbo Replacement.webp",
       Reviews:[
@@ -5719,7 +5719,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
   {
     id: 32,
     name: "Performance Upgrades",
-    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    text: "Custom performance upgrades to improve horsepower, acceleration, and overall driving experience.",
     slug: "Performance-Upgrades",
     img:"/Performance Upgrades.webp",
       Reviews:[
@@ -5906,7 +5906,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
   {
     id: 33,
     name: "DPF Cleaning Service",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
+    text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
     slug: "DPF-Cleaning-Service",
     img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.png",
       Reviews:[
@@ -6121,7 +6121,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     {
     id: 34,
     name: "MOT Testing",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
+    text: "Certified MOT testing services to ensure your vehicle meets all legal safety standards.",
     slug: "MOT-Testing",
     img:"/MOT Testing.jpg",
     Reviews:[
@@ -6303,7 +6303,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
   {
     id: 35,
     name: "Exhaust Repair",
-    text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+    text: "Exhaust inspections and repairs to reduce noise and maintain proper engine performance.",
     slug: "Exhaust-Repair",
     img:"/Exhaust Repair.jpg",
       Reviews:[
@@ -6483,7 +6483,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
   {
     id: 36,
     name: "Tyre Replacement",
-    text: "Fine tuning service for better fuel efficiency, smoother acceleration, and optimized power output.",
+    text: "Tyre fitting and replacement services for improved grip, safety, and driving comfort.",
     slug: "Tyre-Replacement",
     img:"/tyre replacement.jpg",
       Reviews:[
@@ -6665,7 +6665,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
   {
     id: 37,
     name: "Suspension Service",
-    text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
+    text: "Inspection and repair of suspension components for smoother handling and ride comfort.",
     slug: "Suspension-Service",
     img:"/suspension.jpg",
       Reviews:[
@@ -6834,7 +6834,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
   {
     id: 38,
     name: "Wheel Alignment",
-    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    text: "Precise wheel alignment services to improve handling and extend tyre life.",
     slug: "Wheel-Alignment",
     img:"/wheel aligment.jpg",
       Reviews:[
@@ -7021,7 +7021,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
   {
     id: 39,
     name: "AC Gas Refill Service",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
+    text: "Air conditioning gas refill services to restore cooling performance and cabin comfort.",
     slug: "AC-Gas-Refill-Service",
     img:"/5894cc3d25139ce6d0c8883c11032a4e11db8154.jpg",
       Reviews:[
@@ -7231,7 +7231,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
   {
     id: 40,
     name: "Timing Chain Replacement",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
+    text: "Timing chain replacement services to maintain accurate engine timing and prevent failures.",
     slug: "Timing-Chain-Replacement",
     img:"/e42f4dccba8cfea020c6c73d385c038ca273c78b.jpg",
     Reviews:[
@@ -7413,7 +7413,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
   {
     id: 41,
     name: "Oil Change Service",
-    text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+    text: "Professional oil and filter changes to protect your engine and improve performance.",
     slug: "oil-change-service",
     img:"/Oil Change.jpg",
       Reviews:[
@@ -7593,7 +7593,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
   {
     id: 42,
     name: "Head Gasket Repair",
-    text: "Fine tuning service for better fuel efficiency, smoother acceleration, and optimized power output.",
+    text: "Reliable head gasket repairs to prevent overheating and restore engine efficiency.",
     slug: "Head-Gasket-Repair",
     img:"/b08253f77d1194ed361ee8793e00aa5a5f887531.jpg",
       Reviews:[
@@ -7774,7 +7774,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
   {
     id: 43,
     name: "Transmission Service",
-    text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
+    text: "Transmission servicing and repairs for smoother gear shifting and reliable driving performance.",
     slug: "Transmission-Service",
     img:"/Transmission Service.avif",
       Reviews:[
@@ -7971,7 +7971,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 {
     id: 45,
     name: "Air Conditioning Service",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
+    text: "Complete air conditioning servicing for efficient cooling and improved cabin air quality.",
     slug: "Air-Conditioning-Service",
     img:"/5894cc3d25139ce6d0c8883c11032a4e11db8154.jpg",
     Reviews:[

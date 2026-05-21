@@ -4,7 +4,10 @@ import { FormEvent } from "react";
 import {useState} from 'react'
 import servicesData from "@/lib/services_data/servicesData";
 import { useRef, useEffect } from "react";
+import { useRouter } from "next/navigation";
+
 export default function HeroSection(){
+  const router = useRouter();
     const [name,setName]=useState("");
   const [email,setEmail]=useState("");
   const [phone, setPhone] = useState("");
@@ -13,6 +16,7 @@ export default function HeroSection(){
  const [error, setError] = useState<Record<string, string>>({});
 const [open, setOpen] = useState(false);
 const [selectedService, setSelectedService] = useState("");
+const [loading, setLoading] = useState(false);
 const dropdownRef = useRef<HTMLDivElement | null>(null);
 useEffect(() => {
   function handleClickOutside(event: MouseEvent) {
@@ -30,49 +34,101 @@ useEffect(() => {
     document.removeEventListener("mousedown", handleClickOutside);
   };
 }, []);
-  function form_validation(e: FormEvent<HTMLFormElement>) {
-    e.preventDefault();
-  
-    let newErrors: {
-  email?: string;
-  name?: string;
-  phone?: string;
-  postcode?: string;
-  registration?: string;
-} = {};
-  
-    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-      console.log("email error");
-      newErrors.email = "Please enter a valid email address.";
+ async function form_validation(e: FormEvent<HTMLFormElement>) {
+  e.preventDefault();
 
-    }
-  
-    if (!/^[A-Za-z ]*$/.test(name)) {
-      console.log("name error");
-      newErrors.name = "Name can only contain letters and spaces.";
-    }
-    if (!/^\d{11}$/.test(phone)) {
-    newErrors.phone = "Please enter a valid 11-digit phone number.";
+  let newErrors: {
+    email?: string;
+    name?: string;
+    phone?: string;
+    postcode?: string;
+    registration?: string;
+    service?: string;
+  } = {};
+
+  // EMAIL VALIDATION
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+    newErrors.email = "Please enter a valid email address.";
   }
 
-if (!/^[A-Za-z0-9 ]+$/.test(postcode)) {
-  newErrors.postcode =
-    "Postcode can only contain letters, numbers, and spaces.";
-}
-if (!/^[A-Za-z0-9 ]+$/.test(registration)) {
-  newErrors.registration =
-    "Registration can only contain letters, numbers, and spaces.";
-}
-  
-    setError(newErrors);
-  
-    // console.log("button clicked");
-    // console.log("FINAL ERROR OBJECT:", newErrors);
+  // NAME VALIDATION
+  if (!/^[A-Za-z ]*$/.test(name)) {
+    newErrors.name = "Name can only contain letters and spaces.";
   }
+
+  // PHONE VALIDATION
+  if (!/^\d{11}$/.test(phone)) {
+    newErrors.phone = "Please enter a valid UK phone number (11 digits required).";
+  }
+
+  // POSTCODE VALIDATION
+  if (!/^[A-Za-z0-9 ]+$/.test(postcode)) {
+    newErrors.postcode = "Postcode can only contain letters, numbers, and spaces.";
+  }
+
+  // REGISTRATION VALIDATION
+  if (!/^[A-Za-z0-9 ]+$/.test(registration)) {
+    newErrors.registration = "Registration can only contain letters, numbers, and spaces.";
+  }
+
+  // SERVICE VALIDATION
+  if (!selectedService) {
+    newErrors.service = "Please select a service.";
+  }
+
+  setError(newErrors);
+
+  // AGAR KOI ERROR NAHI HAI
+  if (Object.keys(newErrors).length === 0) {
+    try {
+      setLoading(true);
+      
+      const serviceName = servicesData.find(
+        (s) => s.slug === selectedService
+      )?.name;
+      
+      // PAYLOAD BANAO (BOSS WALA FORMAT)
+      const payload = {
+        website_name: "ford-engines",
+        name: name,
+        phone: phone,
+        email: email,
+        postcode: postcode,
+        vrm: registration,
+        issue: serviceName,
+        browser: navigator.userAgent,
+        ip_address: "Client-Side",
+      };
+      
+      // API CALL - YE NAYA HAI
+      const response = await fetch("/api/quote", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(payload),
+      });
+      
+      const data = await response.json();
+      
+      if (response.ok) {
+        router.push("/thank-you");
+      } else {
+        alert(data.error || "Something went wrong");
+      }
+      
+    } catch (error) {
+      console.log(error);
+      alert("Server Error. Please try again later.");
+    } finally {
+      setLoading(false);
+    }
+  }
+}
     return(
           <form onSubmit={form_validation}>
    
-                <div className="flex flex-wrap h-[900px] md:h-[600px]" id="hero_section">
+                <div className="flex flex-wrap min-h-[700px] md:h-[600px]" id="hero_section">
                  <div className="w-full md:w-6/12  flex items-center justify-center">
                         <div className="m-6 md:m-15">
                             <p className="font-bold text-left text-white text-[40px]">
@@ -86,8 +142,8 @@ if (!/^[A-Za-z0-9 ]+$/.test(registration)) {
                         </div>
                  </div>
                  <div className="w-full md:w-6/12  flex items-center justify-center text-sm">
-                                <div className="w-full mr-0 md:mr-14">
-                                   <div className="" style={{backgroundColor:"black", borderRadius:"10px"}} >
+                                <div className="w-full mr-0 md:mr-9">
+                                   <div className="m-6" style={{backgroundColor:"black", borderRadius:"10px"}} >
                                        
                                       
                                      <div className="w-full text-left p-0 m-0 ">
@@ -107,9 +163,17 @@ if (!/^[A-Za-z0-9 ]+$/.test(registration)) {
                                                     type="text"
                                                     required
                                                     value={registration}
-                                                    onChange={(e) => setRegistration(e.target.value)}
+                                                    onChange={(e) => {
+    const value = e.target.value;
+
+    // remove special characters
+    const filtered = value.replace(/[^A-Za-z0-9 ]/g, "");
+
+    // convert to uppercase
+    setRegistration(filtered.toUpperCase());
+  }}
                                                     placeholder="Enter Registration"
-                                                    className="flex-1 px-4 py-4 w-full outline-none text-black placeholder-black"
+                                                    className="flex-1 px-4 py- registration w-full outline-none text-black"
                                                     style={{ backgroundColor: "#FFCB05" }}
                                                     />
                                  
@@ -158,7 +222,7 @@ if (!/^[A-Za-z0-9 ]+$/.test(registration)) {
                                    <div className="w-full md:w-11/24 mt-4">
                        <label className="text-sm text-white font-medium">Phone Number  <span style={{color:"red"}}>*</span></label>
                                                    <input
-                                                        type="number"
+                                                        type="tel"
                                                         value={phone}
                                                         required
                                                         placeholder="01708 123456"
@@ -192,6 +256,7 @@ if (!/^[A-Za-z0-9 ]+$/.test(registration)) {
                                                                             <label className="block text-sm text-white mt-2 mb-2 font-medium">
                                                                             Select Service <span style={{color:"red"}}>*</span>
                                                                             </label>
+                                                                            
 <div className="relative w-full mt-2" ref={dropdownRef}>
 
   {/* SELECT BOX */}
@@ -204,7 +269,9 @@ if (!/^[A-Za-z0-9 ]+$/.test(registration)) {
       ? servicesData.find((s) => s.slug === selectedService)?.name
       : "Select Services"}
   </div>
-
+   {!open && error.service && (
+                                                     <p style={{ color: "red" }}>{error.service}</p>
+                                                   )}
   {/* DROPDOWN */}
   {open && (
   <div
@@ -232,24 +299,29 @@ if (!/^[A-Za-z0-9 ]+$/.test(registration)) {
         >
           {service.name}
         </div>
+
       ))}
+
+      
     </div>
+  
+                                             
   </div>
 
   )}
 
 </div>
                <div className="w-full mt-5">
-  <button
-    type="submit"
-    className="w-full mt-5 mb-5 pt-2 pb-2 text-white cursor-pointer font-bold rounded-md"
-    style={{
-      background:
-        "radial-gradient(53.6% 50% at 46.4% 50%, #00BC71 0%, #036F3D 100%)",
-    }}
-  >
-    Get Quotation
-  </button>
+<button
+  type="submit"
+  disabled={loading}
+  className="w-full mt-5 mb-5 pt-2 pb-2 text-white cursor-pointer font-bold rounded-md"
+  style={{
+    background: "radial-gradient(53.6% 50% at 46.4% 50%, #00BC71 0%, #036F3D 100%)",
+  }}
+>
+  {loading ? "Sending..." : "Get Quotation"}
+</button>
 </div>
                                                                                      
                                                                     </div>

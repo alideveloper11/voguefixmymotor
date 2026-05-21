@@ -1,5 +1,7 @@
 export const locations = [
   { id: 1, name: "Chelmsford", slug: "chelmsford",
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
     green_slider:{
    img: "/vogue fix my motor image 9.jpg",
   items:  [
@@ -214,6 +216,8 @@ requestqoute:{
 
 
   { id: 2, name: "Colchester", slug: "colchester",
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
         green_slider:{
    img: "/vogue fix my motor image 9.jpg",
   items:  [
@@ -432,6 +436,8 @@ faq:[
 
 
   { id: 3, name: "Southend-on-Sea", slug: "southend-on-sea",
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
         green_slider:{
    img: "/vogue fix my motor image 9.jpg",
   items:  [
@@ -628,6 +634,8 @@ requestqoute:{
 
 
   { id: 4, name: "Basildon", slug: "basildon",
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
         green_slider:{
    img: "/vogue fix my motor image 9.jpg",
   items:  [
@@ -825,6 +833,8 @@ faq:[
 
 
   { id: 5, name: "Harlow", slug: "harlow",
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
         green_slider:{
    img: "/vogue fix my motor image 9.jpg",
   items:  [
@@ -1069,6 +1079,8 @@ requestqoute:{
 
 
   { id: 6, name: "Brentwood", slug: "brentwood",
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
    img: "/vogue fix my motor image 9.jpg",
   items:  [
@@ -1296,6 +1308,8 @@ faq:[
 
 
   { id: 7, name: "Billericay", slug: "billericay",
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
    img: "/vogue fix my motor image 9.jpg",
   items:  [
@@ -1502,6 +1516,8 @@ faq:[
 
 
   { id: 8, name: "Grays", slug: "grays",
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
    img: "/vogue fix my motor image 9.jpg",
   items:  [
@@ -1708,6 +1724,8 @@ faq:[
 
 
   { id: 9, name: "Epping", slug: "epping" ,
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
    img: "/vogue fix my motor image 9.jpg",
   items:  [
@@ -1911,6 +1929,8 @@ requestqoute:{
 
 
   { id: 10, name: "Loughton", slug: "loughton",
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
    img: "/vogue fix my motor image 9.jpg",
   items:  [
@@ -2105,6 +2125,8 @@ faq:[
 
 
   { id: 11, name: "Witham", slug: "witham",
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
    img: "/vogue fix my motor image 9.jpg",
   items:  [
@@ -2297,6 +2319,8 @@ faq:[
 
 
   { id: 12, name: "Maldon", slug: "maldon",
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
    img: "/vogue fix my motor image 9.jpg",
   items:  [
@@ -2493,6 +2517,8 @@ faq:[
 
 
   { id: 13, name: "Rayleigh", slug: "rayleigh",
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
    img: "/vogue fix my motor image 9.jpg",
   items:  [
@@ -2692,6 +2718,8 @@ faq:[
 
 
   { id: 14, name: "Wickford", slug: "wickford",
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
    img: "/vogue fix my motor image 9.jpg",
   items:  [
@@ -2890,6 +2918,8 @@ served:{
 
 
   { id: 15, name: "Canvey Island", slug: "canvey-island",
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
    img: "/vogue fix my motor image 9.jpg",
   items:  [
@@ -3089,6 +3119,8 @@ requestqoute:{
 
 
   { id: 16, name: "South Benfleet", slug: "south-benfleet",
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
    img: "/vogue fix my motor image 9.jpg",
   items:  [
@@ -3301,6 +3333,8 @@ requestqoute:{
 
    },
   { id: 17, name: "Stanford-le-Hope", slug: "stanford-le-hope",
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
    img: "/vogue fix my motor image 9.jpg",
   items:  [
@@ -3498,6 +3532,8 @@ faq:[
 
 
   { id: 18, name: "Tilbury", slug: "tilbury",
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
    img: "/vogue fix my motor image 9.jpg",
   items:  [
@@ -3697,6 +3733,8 @@ served:{
 
 
   { id: 19, name: "Clacton-on-Sea", slug: "clacton-on-sea",
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
    img: "/vogue fix my motor image 9.jpg",
   items:  [
@@ -3898,6 +3936,8 @@ faq:[
 
 
   { id: 20, name: "Frinton-on-Sea", slug: "frinton-on-sea" ,
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
    img: "/vogue fix my motor image 9.jpg",
   items:  [
@@ -4093,6 +4133,8 @@ faq:[
 
 
   { id: 21, name: "Walton-on-the-Naze", slug: "walton-on-the-naze",
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
    img: "/vogue fix my motor image 9.jpg",
   items:  [
@@ -4294,6 +4336,8 @@ requestqoute:{
 
 
   { id: 22, name: "Castle Point", slug: "castle-point",
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
    img: "/vogue fix my motor image 9.jpg",
   items:  [
@@ -4492,6 +4536,8 @@ requestqoute:{
 
 
   { id: 23, name: "Epping Forest", slug: "epping-forest",
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
    img: "/vogue fix my motor image 9.jpg",
   items:  [
@@ -4693,6 +4739,8 @@ served:{
 
 
   { id: 24, name: "Rochford", slug: "rochford", 
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
    img: "/vogue fix my motor image 9.jpg",
   items:  [
@@ -4928,6 +4976,8 @@ served:{
 
 
   { id: 25, name: "Tendring", slug: "tendring",
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
    img: "/vogue fix my motor image 9.jpg",
   items:  [
@@ -5127,6 +5177,8 @@ faq:[
 
 
   { id: 26, name: "Uttlesford", slug: "uttlesford",
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
    img: "/vogue fix my motor image 9.jpg",
   items:  [
@@ -5319,6 +5371,8 @@ served:{
 
 
   { id: 27, name: "Romford", slug: "romford",
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
    img: "/vogue fix my motor image 9.jpg",
   items:  [
@@ -5510,6 +5564,8 @@ served:{
 
 
   { id: 28, name: "Ilford", slug: "ilford",
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
    img: "/vogue fix my motor image 9.jpg",
   items:  [
@@ -5703,6 +5759,8 @@ served:{
 
 
   { id: 29, name: "Barking", slug: "barking",
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
    img: "/vogue fix my motor image 9.jpg",
   items:  [
@@ -5900,6 +5958,8 @@ faq:[
 
 
   { id: 30, name: "Dagenham", slug: "dagenham",
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
    img: "/vogue fix my motor image 9.jpg",
   items:  [
@@ -6112,6 +6172,8 @@ served:{
 
 
   { id: 31, name: "Rainham", slug: "rainham",
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
    img: "/vogue fix my motor image 9.jpg",
   items:  [
@@ -6316,6 +6378,8 @@ served:{
 
 
   { id: 32, name: "Upminster", slug: "upminster",
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
    img: "/vogue fix my motor image 9.jpg",
   items:  [
@@ -6518,6 +6582,8 @@ served:{
 
 
   { id: 33, name: "Chadwell Heath", slug: "chadwell-heath",
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
    img: "/vogue fix my motor image 9.jpg",
   items:  [
@@ -6709,6 +6775,8 @@ served:{
 
 
   { id: 34, name: "Chigwell", slug: "chigwell",
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
    img: "/vogue fix my motor image 9.jpg",
   items:  [
@@ -6913,6 +6981,8 @@ faq:[
 
 
   { id: 35, name: "Woodford", slug: "woodford",
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
    img: "/vogue fix my motor image 9.jpg",
   items:  [
@@ -7113,6 +7183,8 @@ served:{
 
 
   { id: 36, name: "Chingford", slug: "chingford",
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
    img: "/vogue fix my motor image 9.jpg",
   items:  [
@@ -7311,6 +7383,8 @@ faq:[
 
 
   { id: 37, name: "Walthamstow", slug: "walthamstow",
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
    img: "/vogue fix my motor image 9.jpg",
   items:  [
@@ -7506,6 +7580,8 @@ requestqoute:{
 
 
   { id: 38, name: "Tottenham", slug: "tottenham",
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
    img: "/vogue fix my motor image 9.jpg",
   items:  [
@@ -7708,6 +7784,8 @@ served:{
 
 
   { id: 39, name: "Stratford", slug: "stratford",
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
    img: "/vogue fix my motor image 9.jpg",
   items:  [
@@ -7911,6 +7989,8 @@ requestqoute:{
 
 
   { id: 40, name: "Hackney", slug: "hackney",
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
    img: "/vogue fix my motor image 9.jpg",
   items:  [
@@ -8104,6 +8184,8 @@ served:{
 
 
   { id: 41, name: "Whitechapel", slug: "whitechapel",
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
    img: "/vogue fix my motor image 9.jpg",
   items:  [
@@ -8300,6 +8382,8 @@ served:{
 
 
   { id: 42, name: "Mile End", slug: "mile-end",
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
    img: "/vogue fix my motor image 9.jpg",
   items:  [
@@ -8503,6 +8587,8 @@ served:{
 
 
   { id: 43, name: "Canary Wharf", slug: "canary-wharf",
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
    img: "/vogue fix my motor image 9.jpg",
   items:  [
@@ -8703,6 +8789,8 @@ requestqoute:{
 
 
   { id: 44, name: "Charlton", slug: "charlton",
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
    img: "/vogue fix my motor image 9.jpg",
   items:  [
@@ -8897,6 +8985,8 @@ faq:[
 
 
   { id: 45, name: "Greenwich", slug: "greenwich",
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
    img: "/vogue fix my motor image 9.jpg",
   items:  [
@@ -9088,6 +9178,8 @@ faq:[
 
 
   { id: 46, name: "Dartford", slug: "dartford",
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
    img: "/vogue fix my motor image 9.jpg",
   items:  [
@@ -9291,6 +9383,8 @@ faq:[
 
 
   { id: 47, name: "Erith", slug: "erith",
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
    img: "/vogue fix my motor image 9.jpg",
   items:  [
@@ -9489,6 +9583,8 @@ faq:[
 
 
   { id: 48, name: "Bexleyheath", slug: "bexleyheath" ,
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
    img: "/vogue fix my motor image 9.jpg",
   items:  [
@@ -9698,6 +9794,8 @@ served:{
 
 
   { id: 49, name: "Gravesend", slug: "gravesend",
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
    img: "/vogue fix my motor image 9.jpg",
   items:  [

@@ -11,8 +11,8 @@ return (
   whileInView={{ opacity: 1, x: 0 }}
   transition={{ duration: 0.8 }}
   viewport={{ once: true }}
-   className="flex w-full flex-wrap mb-8">
-        <div className="w-full text-left mt-5 ml-5 mr-5">
+   className="flex w-full flex-wrap mb-8 mt-5">
+        <div className="w-full text-left mx-5 md:mx-15">
           <p className="block md:inline font-bold" style={{fontSize:"20px"}}>{data.heading},</p>
           <p className="block md:inline  font-bold"  style={{fontSize:"20px", color:"#059669"}}>{data.greenHeading}</p>
         </div>  
@@ -20,12 +20,12 @@ return (
         <div className="w-full text-left">
            {data.paragraph.map((item,index)=>(
 //    
-          <p  key={index} className="mt-5 ml-5 mr-5"> {item} </p>
+          <p  key={index} className="mt-5 mx-5 md:mx-15"> {item}  </p>
            ))}
         </div>
         
         <div className="w-full text-left">
-        <ul className="list-disc ml-10 mt-5">
+        <ul className="list-disc mx-10 md:mx-20 mt-5">
   {data.bullets.map((item,index)=>(
     <li key={index}>{item}</li>
   ))}

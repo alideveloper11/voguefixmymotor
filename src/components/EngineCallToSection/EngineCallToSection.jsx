@@ -1,8 +1,21 @@
 "use client";
+
+import { useState } from "react";
+import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
 
 export default function EngineCallToSection()
 {
+         const [regNumber, setRegNumber] = useState("");
+         
+  const router = useRouter();
+
+  const handleSubmit = () => {
+    if (!regNumber) return;
+
+    // redirect with query param
+    router.push(`/contact?reg=${encodeURIComponent(regNumber)}`);
+  };
         return(
             
                             <motion.div initial={{ opacity: 0, x: -100 }}
@@ -35,14 +48,23 @@ export default function EngineCallToSection()
                                         </button>
 
 
-                                        <input
-                                        type="text"
-                                        placeholder="Enter Registration"
-                                        className="flex-1 px-4 py-4 outline-none text-white"
-                                        style={{ backgroundColor:" rgba(255,255,255,0.32)"}}
-                                        />
-                                         
-  </div>                                       <center><button style={{display:"block", background: "radial-gradient(53.6% 50% at 46.4% 50%, #00BC71 0%, #036F3D 100%) ",width:"90%",  margin:"20px", borderRadius:"10px"}} className="mt-5 mb-5 pt-2 pb-2 text-white text-bold">Get Qoutation</button></center>
+                                    <input
+  type="text"
+  value={regNumber}
+  onChange={(e) => {
+    const value = e.target.value;
+
+    // remove special characters
+    const filtered = value.replace(/[^A-Za-z0-9 ]/g, "");
+
+    // convert to uppercase
+    setRegNumber(filtered.toUpperCase());
+  }}
+  placeholder="Enter Registration"
+  className="flex-1 px-4 py-4 outline-none text-white"
+  style={{ backgroundColor: "rgba(255,255,255,0.32)" }}
+/>
+  </div>                                       <center><button  onClick={handleSubmit} style={{display:"block", background: "radial-gradient(53.6% 50% at 46.4% 50%, #00BC71 0%, #036F3D 100%) ",width:"90%",  margin:"20px", borderRadius:"10px"}} className="mt-5 mb-5 pt-2 pb-2 text-white text-bold">Get Qoutation</button></center>
 </div>
                                  </div>
                                  
