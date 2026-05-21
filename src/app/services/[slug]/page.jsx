@@ -1,6 +1,6 @@
 import servicesData from "@/lib/services_data/servicesData";
 import Herosection from "../../../components/components_services/detail_page/hero_section/Herosection";
-import Reviews from "../../../components/components_services/detail_page/reviews/Reviews";
+import Reviews from "@/components/components_reviews/reviews/Reviews";
 import Content3 from "../../../components/components_services/detail_page/content/Content3";
 import FAQ from "../../../components/components_services/detail_page/faq/FAQ";
 import SaleParts from "@/components/saleparts/SaleParts";
@@ -16,7 +16,7 @@ export default async function ServiceDetail({ params }) {
   return (
     <div className="flex flex-wrap w-full">
     <div className="w-24/24 text-center"><Herosection  name={service.name} text={service.text}  /></div> 
-    <div className="w-24/24 text-center"><Reviews reviews={service.Reviews} /></div>
+    <div className="w-24/24 text-center"><Reviews reviewsData={service.Reviews} /></div>
        
     <div className="w-24/24 text-center"><SaleParts /></div> 
    <div className="w-24/24 text-center"><Green_slider1 slides={service.green_slider1.items} image={service.green_slider1.img} /></div>  

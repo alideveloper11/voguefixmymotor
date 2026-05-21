@@ -3,6 +3,7 @@
 import { FormEvent } from "react";
 import {useState} from 'react'
 import servicesData from "@/lib/services_data/servicesData";
+import { useRef, useEffect } from "react";
 export default function HeroSection(){
     const [name,setName]=useState("");
   const [email,setEmail]=useState("");
@@ -10,7 +11,25 @@ export default function HeroSection(){
   const [postcode, setPostcode] = useState("");
   const [registration, setRegistration] = useState("");
  const [error, setError] = useState<Record<string, string>>({});
+const [open, setOpen] = useState(false);
+const [selectedService, setSelectedService] = useState("");
+const dropdownRef = useRef<HTMLDivElement | null>(null);
+useEffect(() => {
+  function handleClickOutside(event: MouseEvent) {
+    if (
+      dropdownRef.current &&
+      !dropdownRef.current.contains(event.target as Node)
+    ) {
+      setOpen(false);
+    }
+  }
 
+  document.addEventListener("mousedown", handleClickOutside);
+
+  return () => {
+    document.removeEventListener("mousedown", handleClickOutside);
+  };
+}, []);
   function form_validation(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
   
@@ -53,7 +72,7 @@ if (!/^[A-Za-z0-9 ]+$/.test(registration)) {
     return(
           <form onSubmit={form_validation}>
    
-                <div className="flex flex-wrap h-[900px] md:h-[600px] md:flex-nowrap" id="hero_section">
+                <div className="flex flex-wrap h-[900px] md:h-[600px]" id="hero_section">
                  <div className="w-full md:w-6/12  flex items-center justify-center">
                         <div className="m-6 md:m-15">
                             <p className="font-bold text-left text-white text-[40px]">
@@ -67,10 +86,16 @@ if (!/^[A-Za-z0-9 ]+$/.test(registration)) {
                         </div>
                  </div>
                  <div className="w-full md:w-6/12  flex items-center justify-center text-sm">
-
-                                   <div className=" w-[90%] md:w-[80%]" style={{backgroundColor:"black", borderRadius:"10px"}} >
-                                    <p className="text-left font-bold text-white mt-4 ml-5">Get a Quick Qoute</p>
-                                            <div className="flex border rounded overflow-hidden max-w-xl mt-2 ml-5 mr-5 mb-5" style={{borderColor:"#FFCB05"}}>
+                                <div className="w-full mr-0 md:mr-14">
+                                   <div className="" style={{backgroundColor:"black", borderRadius:"10px"}} >
+                                       
+                                      
+                                     <div className="w-full text-left p-0 m-0 ">
+                                      
+                                                                               <div className="p-5">
+                                                                                <p className="text-left font-bold text-white mt-4">Get a Quick Qoute</p>
+                                        
+                                                                                 <div className="flex border rounded overflow-hidden w-full mt-2" style={{borderColor:"#FFCB05"}}>
                                                 
                                                     <button className="bg-blue-900 text-white px-4 items-center justify-center ">
                                                     <div><img src="/Vector.svg" alt="flag"  className="mt-2"/></div>
@@ -84,7 +109,7 @@ if (!/^[A-Za-z0-9 ]+$/.test(registration)) {
                                                     value={registration}
                                                     onChange={(e) => setRegistration(e.target.value)}
                                                     placeholder="Enter Registration"
-                                                    className="flex-1 px-4 py-4 outline-none text-black placeholder-black"
+                                                    className="flex-1 px-4 py-4 w-full outline-none text-black placeholder-black"
                                                     style={{ backgroundColor: "#FFCB05" }}
                                                     />
                                  
@@ -93,11 +118,9 @@ if (!/^[A-Za-z0-9 ]+$/.test(registration)) {
                                                  {error.registration && (
                                 <p style={{ color: "red" }}>{error.registration}</p>
                                 )}
-                                            <div className="flex flex-wrap text-left">
-                                                
-                                                <div className="w-10/24 mt-3 md:ml-5">
-                                                <div className="mt-3">
-                                                    <label className=" text-sm text-white font-medium">Full Name <span style={{color:"red"}}>*</span></label>
+                                <div className="flex flex-wrap">
+                                  <div className="w-full md:w-11/24 mt-4">
+   <label className=" text-sm text-white font-medium">Full Name <span style={{color:"red"}}>*</span></label>
                                                     <input
                                                     type="text"
                                                     value={name} 
@@ -112,29 +135,10 @@ if (!/^[A-Za-z0-9 ]+$/.test(registration)) {
                                                    {error.name && (
                                                      <p style={{ color: "red" }}>{error.name}</p>
                                                    )}
-                                                </div>
-
-                                                {/* Phone Number */}
-                                                <div className="mt-3">
-                                                    <label className="text-sm text-white font-medium">Phone Number  <span style={{color:"red"}}>*</span></label>
-                                                   <input
-                                                        type="number"
-                                                        value={phone}
-                                                        required
-                                                        placeholder="01708 123456"
-                                                        className="border rounded-md placeholder-white text-white w-full p-2 outline-none"
-                                                        style={{ backgroundColor: "rgba(255, 255, 255, 0.26)", borderColor:"rgba(255, 255, 255, 0.15)" }}
-                                                        onChange={(e) => setPhone(e.target.value)}
-                                                        />
-                                                        {error.phone && <p style={{ color: "red" }}>{error.phone}</p>}
-                                                </div>
-                                                </div>
-                                        
-                                    <div className="w-11/24 mt-3 ml-2 justify-end ">
-                                    
-
-                                     <div className="mt-3">
-                                         <label className=" text-sm text-white font-medium">Email Address <span style={{color:"red"}}>*</span></label>
+                                  </div>
+                                  <div className="w-full md:w-2/24 md:mt-4"></div>
+                                  <div className="w-full md:w-11/24 mt-4">
+  <label className=" text-sm text-white font-medium">Email Address <span style={{color:"red"}}>*</span></label>
                                         <input
                                         type="email"
                                          required
@@ -150,11 +154,24 @@ if (!/^[A-Za-z0-9 ]+$/.test(registration)) {
                                          {error.email && (
                                            <p style={{ color: "red" }}>{error.email}</p>
                                          )}
-                                    </div>
-
-
-                                     <div className="mt-3">
-                                         <label className=" text-sm text-white  font-medium">Postcode  <span style={{color:"red"}}>*</span></label>
+                                  </div>
+                                   <div className="w-full md:w-11/24 mt-4">
+                       <label className="text-sm text-white font-medium">Phone Number  <span style={{color:"red"}}>*</span></label>
+                                                   <input
+                                                        type="number"
+                                                        value={phone}
+                                                        required
+                                                        placeholder="01708 123456"
+                                                        className="border rounded-md placeholder-white text-white w-full p-2 outline-none"
+                                                        style={{ backgroundColor: "rgba(255, 255, 255, 0.26)", borderColor:"rgba(255, 255, 255, 0.15)" }}
+                                                        onChange={(e) => setPhone(e.target.value)}
+                                                        />
+                                                        {error.phone && <p style={{ color: "red" }}>{error.phone}</p>}
+                                             
+                                  </div>
+                                  <div className="w-full md:w-2/24 md:mt-4"></div>
+                                  <div className="w-full md:w-11/24 mt-4">
+<label className=" text-sm text-white  font-medium">Postcode  <span style={{color:"red"}}>*</span></label>
                                         <input
                                             type="text"
                                             required
@@ -170,44 +187,76 @@ if (!/^[A-Za-z0-9 ]+$/.test(registration)) {
                                             {error.postcode && (
   <p style={{ color: "red" }}>{error.postcode}</p>
 )}
-                                    </div>
-
-
-                                    </div>
-                                     <div className="w-full text-left">
-                                                                                <div style={{width:"95%", padding:"20px"}}>
+                                  </div>
+                                </div>
                                                                             <label className="block text-sm text-white mt-2 mb-2 font-medium">
                                                                             Select Service <span style={{color:"red"}}>*</span>
                                                                             </label>
-<select
-  required
-  style={{ backgroundColor: "rgba(255, 255, 255, 0.48)" }}
-  className="w-full p-3 rounded-md text-white overflow-hidden"
->
-   <option value="" disabled>
-    Select Services
-  </option>
+<div className="relative w-full mt-2" ref={dropdownRef}>
 
-  {servicesData.map((services) => (
-    <option
-  key={services.id}
-  value={services.slug}
-  style={{
-    backgroundColor: "#000",
-    color: "#fff",
-  }}
->
-  {services.name}
-</option>
-  ))}
-</select>
-                                                                    
+  {/* SELECT BOX */}
+  <div
+    onClick={() => setOpen(!open)}
+    className="w-full py-3 px-4 rounded-lg cursor-pointer text-white"
+    style={{ backgroundColor: "rgba(255,255,255,0.48)" }}
+  >
+    {selectedService
+      ? servicesData.find((s) => s.slug === selectedService)?.name
+      : "Select Services"}
+  </div>
+
+  {/* DROPDOWN */}
+  {open && (
+  <div
+    className="absolute left-0 w-full mt-1 shadow-lg z-50  rounded-lg overflow-hidden"
+    style={{
+       backgroundColor: "#cfcfcf",
+      color:"black"
+    }}
+  >
+    <div
+     className="custom-scrollbar"
+      style={{
+        maxHeight: "180px",
+        overflowY: "auto",
+      }}
+    >
+      {servicesData.map((service) => (
+        <div
+          key={service.id}
+          onClick={() => {
+            setSelectedService(service.slug);
+            setOpen(false);
+          }}
+          className="px-4 py-3 text-black cursor-pointer border-b border-gray-700 hover:bg-black hover:text-white"
+        >
+          {service.name}
+        </div>
+      ))}
+    </div>
+  </div>
+
+  )}
+
+</div>
+               <div className="w-full mt-5">
+  <button
+    type="submit"
+    className="w-full mt-5 mb-5 pt-2 pb-2 text-white cursor-pointer font-bold rounded-md"
+    style={{
+      background:
+        "radial-gradient(53.6% 50% at 46.4% 50%, #00BC71 0%, #036F3D 100%)",
+    }}
+  >
+    Get Quotation
+  </button>
+</div>
+                                                                                     
                                                                     </div>
-                                                                    </div>
+                                                                 
                                 </div>
-                                <div>
-                                 <center><button type="submit" style={{display:"block", background: "radial-gradient(53.6% 50% at 46.4% 50%, #00BC71 0%, #036F3D 100%) ", padding:"10px 50px",  margin:"20px", borderRadius:"10px"}} className="mt-5 mb-5 pt-2 pb-2 text-white cursor-pointer text-bold">Get Qoutation</button></center> 
                                 </div>
+                                 
                                 </div>
                  </div>
                  </div>
