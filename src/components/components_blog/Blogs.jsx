@@ -19,24 +19,24 @@ export default function Blogs(){
     />
     </div>
      <div>
-    <p className="text-md font-bold text-black m-2">
-                    {blog.date}
-                  </p>
+    <div className="text-sm font-bold text-black m-2"  dangerouslySetInnerHTML={{ __html:  blog.date }}>
+                   
+                  </div>
   </div>
    <div>
-    <p className="text-lg font-bold text-black m-2">
-                    {blog.heading}
-                  </p>
+    <div className="text-lg font-bold text-black m-2"  dangerouslySetInnerHTML={{ __html:  blog.heading }}>
+                
+                  </div>
   </div>
   <div>
-    <p className="text-sm text-black m-2">
-  {blog.text1.slice(0, 120)}...
-</p>
+    <div className="text-sm text-black m-2"  dangerouslySetInnerHTML={{ __html:  blog.text1.slice(0, 120) }} >
+ 
+</div>
   </div>
    <div>
-    <p className="text-md font-bold text-black m-2 cursor-pointer">
+    <div className="text-md font-bold text-black m-2 cursor-pointer">
                   <Link href={`/blog/${blog.slug}`} style={{textDecoration:"none"}}> Read More &gt;</Link> 
-                  </p>
+                  </div>
   </div>
   </div>
  

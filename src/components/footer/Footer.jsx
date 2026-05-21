@@ -17,7 +17,7 @@ export default function Footer(){
             <div className="w-20/24">
                 <div className="flex flex-wrap w-full mt-5">
                      <div className="w-full sm:w-24/24 md:w-12/24 lg:w-6/24  mt-5">
-                        <img src="/logo.svg" alt="Logo" />
+                        <Link href="/"><img src="/logo.svg" alt="Logo" /></Link> 
                         <p className="ml-2 md:ml-0 text-white mt-8" style={{fontFamily:"arial"}}>
                             Feel Free to call us in working hours Mon 
                             -Fri (8:00 -- 16:00). Our team will be
@@ -29,10 +29,9 @@ export default function Footer(){
                             </Link>
                         </p>
                         <p className="mt-10 text-black mb-5">
-                                <span className=" ml-1 text-center items-center" style={{padding:"11px 8px",backgroundColor:"#028D53", borderRadius:"50%"}}><FacebookIcon/></span>
-                                <span className="ml-3 text-center items-center" style={{padding:"11px 8px",backgroundColor:"#028D53", borderRadius:"50%"}}><InstagramIcon /></span>
-                                <span className="ml-3 text-center items-center" style={{padding:"11px 8px",backgroundColor:"#028D53", borderRadius:"50%"}}><LinkedInIcon /></span>
-                                <span className="ml-3 text-center items-center" style={{padding:"11px 8px",backgroundColor:"#028D53", borderRadius:"50%"}}><TwitterIcon/></span> 
+                               <Link href="https://www.facebook.com/voguetechnics"> <span className=" ml-1 text-center items-center bg-[#028D53] hover:bg-[#02693e]" style={{padding:"11px 8px", borderRadius:"50%"}}><FacebookIcon/></span></Link>
+                               <Link href="https://www.instagram.com/voguetechnics"><span className="ml-3 text-center items-center  bg-[#028D53] hover:bg-[#02693e]" style={{padding:"11px 8px", borderRadius:"50%"}}><InstagramIcon /></span></Link> 
+                               <Link href="https://x.com/VogueTechnics"><span className="ml-3 text-center items-center  bg-[#028D53] hover:bg-[#02693e]" style={{padding:"11px 8px", borderRadius:"50%"}}><TwitterIcon/></span> </Link>
 
                                  
                                  

@@ -39,7 +39,7 @@ export default function Areas_links() {
 
         </div>
         <div>
-  <Link href="/areas#areas">         
+  <Link href="/areas">         
 <button
 className="
 cursor-pointer
@@ -50,7 +50,7 @@ bg-[#088751]
 text-white
 px-12
 py-2
-rounded
+rounded-lg
 "
 >
 Find More

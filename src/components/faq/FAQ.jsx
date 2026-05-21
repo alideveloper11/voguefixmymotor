@@ -23,9 +23,9 @@ export default function FAQ() {
                         viewport={{ once: true }}
    className="flex flex-wrap w-full bg-gray-100">
                           
-                   <div className="w-4/24 text-center"></div>  
-                    <div className="w-16/24 text-center">
-    <div className=" py-16">
+                   <div className=" md:w-4/24 text-center"></div>  
+                    <div className=" w-full md:w-16/24 text-center">
+    <div className=" py-16 mx-7">
       <h2 className="text-center text-3xl font-bold mb-10">
         Frequently Asked Questions
       </h2>

@@ -1,6 +1,6 @@
 
 
-import Herosection from "../../components/components_areas/hero_section/Herosection";
+import Herosection from "../../components/components_services/hero_section/Herosection";
 import SaleParts from "../../components/components_areas/saleparts/SaleParts";
 import Latest_videos from "../../components/components_areas/latest_videos/Latest_videos";
 import SalePartsEngineCallToSection from "../../components/components_areas/EngineCallToSection/EngineCallToSection";

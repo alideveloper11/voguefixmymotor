@@ -51,15 +51,11 @@ export default function FAQ({ faq_data }) {
                     />
                   </div>
 
-                  <Collapse in={isOpen} timeout="auto" unmountOnExit>
+                  <Collapse className="py-2" in={isOpen} timeout="auto" unmountOnExit>
                     <div className="p-5 text-left text-gray-600">
                       {item.answer}
 
-                      <div className="mt-5">
-                        <button className="text-white font-bold py-2 px-4 rounded bg-[#088D50] hover:bg-green-800">
-                          Get Instant Quote
-                        </button>
-                      </div>
+                     
                     </div>
                   </Collapse>
 

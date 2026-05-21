@@ -131,3 +131,14 @@ body {
 .custom-scrollbar::-webkit-scrollbar-thumb:hover {
   background: #333;
 }
+
+input::placeholder,
+textarea::placeholder {
+  color: #9ca3af; /* light gray */
+  opacity: 1; /* keeps color visible in some browsers */
+}
+.registration::placeholder{
+    color: #535353; /* light gray */
+  opacity: 1; /* keeps color visible in some browsers */
+
+}

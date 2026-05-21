@@ -13,10 +13,10 @@ export default function Gallery() {
   const images = files.map((file) => `/gallery_images/${file}`);
   return (
     <div className="flex flex-wrap w-full">
-                        <div className="w-full">
+                        <div className="w-full mx-5 md:mx-11">
                           <center>
                                   <h1 className="mt-5 text-2xl font-bold">Workshop & Gallery</h1>
-                                  <p className="text-[#4B5563] text-sm">We provide specialist engine services and vehicle recovery in all surrounding areas.</p>
+                                  <p className="text-[#4B5563] mx-5 text-sm">We provide specialist engine services and vehicle recovery in all surrounding areas.</p>
                                 </center>
                                <div className="grid  md:grid-cols-3 gap-4 p-5">
                                 

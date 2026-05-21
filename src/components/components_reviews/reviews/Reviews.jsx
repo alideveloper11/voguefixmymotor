@@ -1,10 +1,12 @@
 "use client"
 import StarIcon from "@mui/icons-material/Star";
+import { usePathname } from "next/navigation";
 import StarBorderIcon from "@mui/icons-material/StarBorder";
-
+import Link from "next/link";
 import { useState } from "react";
 
 export default function Reviews({reviewsData}) {
+    const pathname = usePathname();
   const [expandedId, setExpandedId] = useState(null);
   return (
     <div className="flex flex-wrap w-full text-sm">
@@ -19,7 +21,7 @@ export default function Reviews({reviewsData}) {
          <div className="w-20/24">
         
     
-      <div className="w-full flex flex-wrap justify-center mt-6 ml-6 m6-6">
+      <div className="w-full flex flex-wrap justify-center mt-6 ">
         
         {reviewsData.map((review) => (
 
@@ -27,7 +29,7 @@ export default function Reviews({reviewsData}) {
   key={review.id}
   className="w-full sm:w-full md:w-6/12 lg:w-4/12 flex text-left"
 >
-            <div className=" w-full md:w-[80%] bg-[#F3FFF9] border border-gray-300 rounded-xl p-4" style={{margin:"20px 20px 20px 0px"}}>
+            <div className=" w-full md:w-[80%] bg-[#F3FFF9] border border-gray-300 rounded-xl p-4 my-3">
 
               <p className="font-bold text-2xl">{review.name}</p>
 
@@ -75,7 +77,13 @@ export default function Reviews({reviewsData}) {
      
 </div>
  <div className="w-full text-center text-black">
-
+  {pathname !== "/reviews" && (
+        <Link href="/reviews">
+                         <button
+                            className="block mb-5 mx-auto mt-3 font-bold border-2 border-[#088751]   hover:bg-[#046b3f] hover:text-white  cursor-pointer text-[#088751] px-17 py-[7px] rounded-lg">
+                            view more
+                            </button></Link>
+      )}
         
         </div>
 

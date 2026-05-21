@@ -1,5 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
+import Link from "next/link";
 export default function Explore()
 {
 return(
@@ -18,7 +19,7 @@ return(
     duration: 0.8,
   }}
  className="flex w-full flex-wrap bg-[#F3F4F6]">
-        <div className="flex w-full flex-wrap mt-20 ml-16 mr-16 mb-5">
+        <div className="flex w-full flex-wrap mt-20 mx-7 md:mx-16 mb-5">
              <div className=" text-left w-full md:w-6/12">
 
                 <p className="font-bold text-[28px]">
@@ -30,10 +31,12 @@ return(
                      our gallery showcases real vehicles worked on by our experienced technicians.
                 </p>
                 <div>
-                    <button className=" mb-10 md:mb-0 border px-4 py-2 rounded bg-[#059669] hover:bg-[#0b5a41]"
+                    <Link href="gallery/">
+                    <button className=" mb-10 md:mb-0 border px-4 py-2 rounded-lg bg-[#059669] hover:bg-[#0b5a41]"
                         style={{ fontSize:"14px", color:"white", fontWeight:"bold", width:"250px" }}>
                         View All Gallery
                     </button>
+                    </Link>
                     </div>
             </div>  
             <div className="flex w-full md:w-6/12 flex-wrap ">

@@ -1,52 +1,106 @@
 "use client"
 import { FormEvent } from "react";
-import {useState} from 'react'
+import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
+import { useSearchParams } from "next/navigation";
 export default function Contact(){
+  const [loading, setLoading] = useState(false);
+const [serverError, setServerError] = useState("");
+     const router = useRouter();
+      const searchParams = useSearchParams();
+  const regFromUrl = searchParams.get("reg") || "";
   const [name,setName]=useState("");
   const [email,setEmail]=useState("");
   const [phone, setPhone] = useState("");
   const [postcode, setPostcode] = useState("");
   const [registration, setRegistration] = useState("");
+  const [message, setMessage] = useState("");
   const [error, setError] = useState<Record<string, string>>({});
-  function form_validation(e: FormEvent<HTMLFormElement>) {
-    e.preventDefault();
-  
-    let newErrors: {
-  email?: string;
-  name?: string;
-  phone?: string;
-  postcode?: string;
-  registration?: string;
-} = {};
-  
-    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-      console.log("email error");
-      newErrors.email = "Please enter a valid email address.";
+async function form_validation(e: FormEvent<HTMLFormElement>) {
+  e.preventDefault();
 
-    }
-  
-    if (!/^[A-Za-z ]*$/.test(name)) {
-      console.log("name error");
-      newErrors.name = "Name can only contain letters and spaces.";
-    }
-    if (!/^\d{11}$/.test(phone)) {
-    newErrors.phone = "Please enter a valid 11-digit phone number.";
+  let newErrors: {
+    email?: string;
+    name?: string;
+    phone?: string;
+    postcode?: string;
+    registration?: string;
+  } = {};
+
+  // EMAIL VALIDATION
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+    newErrors.email = "Please enter a valid email address.";
   }
 
-if (!/^[A-Za-z0-9 ]+$/.test(postcode)) {
-  newErrors.postcode =
-    "Postcode can only contain letters, numbers, and spaces.";
-}
-if (!/^[A-Za-z0-9 ]+$/.test(registration)) {
-  newErrors.registration =
-    "Registration can only contain letters, numbers, and spaces.";
-}
-  
-    setError(newErrors);
-  
-    // console.log("button clicked");
-    // console.log("FINAL ERROR OBJECT:", newErrors);
+  // NAME VALIDATION
+  if (!/^[A-Za-z ]*$/.test(name)) {
+    newErrors.name = "Name can only contain letters and spaces.";
   }
+
+  // PHONE VALIDATION
+  if (!/^\d{11}$/.test(phone)) {
+    newErrors.phone = "Please enter a valid UK phone number (11 digits required).";
+  }
+
+  // POSTCODE VALIDATION
+  if (!/^[A-Za-z0-9 ]+$/.test(postcode)) {
+    newErrors.postcode = "Postcode can only contain letters, numbers, and spaces.";
+  }
+
+  // REGISTRATION VALIDATION
+  if (!/^[A-Za-z0-9 ]+$/.test(registration)) {
+    newErrors.registration = "Registration can only contain letters, numbers, and spaces.";
+  }
+
+  setError(newErrors);
+
+  // AGAR KOI ERROR NAHI HAI
+  if (Object.keys(newErrors).length === 0) {
+    try {
+      setLoading(true);
+      setServerError("");
+      
+      // PAYLOAD BANAO (CONTACT FORM KE HISAB SE)
+      const payload = {
+        website_name: "ford-engines",
+        name: name,
+        phone: phone,
+        email: email,
+        postcode: postcode,
+        vrm: registration,
+        issue: message,  // YAHAN MESSAGE HAI, SERVICE NAHI
+        browser: navigator.userAgent,
+        ip_address: "Client-Side",
+      };
+      
+      // API CALL
+      const response = await fetch("/api/quote", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(payload),
+      });
+      
+      const data = await response.json();
+      
+      if (response.ok) {
+        router.push("/thank-you");
+      } else {
+        alert(data.error || "Something went wrong");
+      }
+      
+    } catch (error: any) {
+      console.log(error);
+      alert("Server Error. Please try again later.");
+    } finally {
+      setLoading(false);
+    }
+  }
+}
+  useEffect(() => {
+    setRegistration(regFromUrl);
+  }, [regFromUrl]);
     return(
 
           <div className="flex flex-wrap w-full">
@@ -63,17 +117,54 @@ if (!/^[A-Za-z0-9 ]+$/.test(registration)) {
                                 </center>
                         </div>
                         </div>
-                        <div className="w-full md:w-1/2 ">
+                        <div className="w-full md:w-1/2 flex justify-center">
 
 
-                                    <div style={{backgroundColor:"white", width:"80%", borderRadius:"10px" }} className="m-10 shadow-2xl" >
+                                    <div style={{backgroundColor:"white", borderRadius:"10px" }} className="w-[85%] md:w-[80%] shadow-2xl" >
                                         
                                         <div className="bg-[#F3FFF9] rounded-t-[10px] rounded-b-[0px]">
-                                                                        <p className="text-left text-sm font-bold text-black mt-4 flex items-center p-5">BMW 1 Hatchback (E87) 116 i Petrol 122 hp / 90 kW 2007 - 2011 N43 B16 AA</p>
+                                                                      
                                                                         </div>
                                                                                  
                                                                                 <div className="flex flex-wrap text-left">
                                                                                     
+                                                                                          <div className="mt-3 w-full ">
+                                                                                        <div className="ml-5 mr-5">
+                                                                             <label className="mb-1 text-sm text-black font-medium">Reg Number  <span style={{color:"red"}}>*</span></label>
+                                                                                      
+                                                                                 <div className="flex border rounded overflow-hidden w-full mt-2" style={{borderColor:"#FFCB05"}}>
+                                                
+                                                    <button className="bg-blue-900 text-white px-4 items-center justify-center ">
+                                                    <div><img src="/Vector.svg" alt="flag"  className="mt-2"/></div>
+                                                    <div>UK</div>
+                                                    </button>
+
+
+                                                    <input
+                                                    type="text"
+                                                    required
+                                                    value={registration}
+                                                    onChange={(e) => {
+    const value = e.target.value;
+
+    // remove special characters
+    const filtered = value.replace(/[^A-Za-z0-9 ]/g, "");
+
+    // convert to uppercase
+    setRegistration(filtered.toUpperCase());
+  }}
+                                                    placeholder="Enter Registration"
+                                                    className="flex-1 px-4 py- registration w-full outline-none text-black"
+                                                    style={{ backgroundColor: "#FFCB05" }}
+                                                    />
+                                 
+                                                                                    
+                                            </div>   
+                                                 {error.registration && (
+                                <p style={{ color: "red" }}>{error.registration}</p>
+                                )}
+                                                                            </div>
+                                                                        </div>
                                                                                     <div className="w-12/24 mt-3">
                                                                                     
 
@@ -135,9 +226,16 @@ if (!/^[A-Za-z0-9 ]+$/.test(registration)) {
 
 
 
-                                                                                       <div className="mt-3 w-full ">
-                                                                                        <div className="ml-5 mr-5">
-                                                                            <label className="mb-1 text-sm text-black font-medium">Email  <span style={{color:"red"}}>*</span></label>
+                                                                                 
+                                                                                </div>
+                                                                                <div className="flex flex-wrap text-left">
+                                                                                    
+                                                                                    <div className="w-12/24 mt-3">
+                                                                                    
+
+                                                                                  
+                                                                                    <div className="mt-3 ml-5 mr-5">
+                                                                                        <label className="mb-1 text-sm text-black font-medium">Email  <span style={{color:"red"}}>*</span></label>
                                                                             <input
                                                                             type="email"
                                                                             required
@@ -152,28 +250,7 @@ if (!/^[A-Za-z0-9 ]+$/.test(registration)) {
                                                                                 {error.email && (
                                                                                 <p style={{ color: "red" }}>{error.email}</p>
                                                                                 )}
-                                                                            </div>
-                                                                        </div>
-                                                                                </div>
-                                                                                <div className="flex flex-wrap text-left">
-                                                                                    
-                                                                                    <div className="w-12/24 mt-3">
-                                                                                    
-
-                                                                                  
-                                                                                    <div className="mt-3 ml-5 mr-5">
-                                                                                        <label className="mb-1 text-sm text-black font-medium">Reg Number  <span style={{color:"red"}}>*</span></label>
-                                                                                        <input
-                                                                                        type="text"
-                                                                                        required
-                                                                                        value={registration}
-                                                                                        onChange={(e) => setRegistration(e.target.value)}
-                                                                                        placeholder="ABC"
-                                                                                        className="border border-[#4B5563] rounded-md placeholder-[#4B5563] text-black w-full  p-2 outline-none"
-                                                                                        />
-                                                                                         {error.registration && (
-                                                                                        <p style={{ color: "red" }}>{error.registration}</p>
-                                                                                        )}
+                                                                                       
                                                                                     </div>
                                                                                     </div>
                                                                             
@@ -209,15 +286,37 @@ if (!/^[A-Za-z0-9 ]+$/.test(registration)) {
                                                                                         <div className="ml-5 mr-5">
                                                                                         <label className="mb-1 text-sm text-black font-medium">Message  <span style={{color:"red"}}>*</span></label>
                                                                                         <textarea
-                                                                                        placeholder="Tell us how can we help you"
-                                                                                    
-                                                                                        className="border border-[#4B5563] h-[180px] rounded-md placeholder-[#4B5563] text-black  p-2 w-full outline-none"
-                                                                                        />
+  value={message}
+  onChange={(e) => setMessage(e.target.value)}
+  placeholder="Tell us how can we help you"
+  className="border border-[#4B5563] h-[180px] rounded-md placeholder-[#4B5563] text-black p-2 w-full outline-none"
+/>
                                                                                         </div>
                                                                                     </div>
                                                                                     </div>
                                                                     <div className="p-5 pt-1">
-                                                                    <center><button style={{display:"block", background: "radial-gradient(53.6% 50% at 46.4% 50%, #00BC71 0%, #036F3D 100%) ",width:"90%",  margin:"20px", borderRadius:"10px"}} className="mt-5 mb-5 pt-2 pb-2 text-white font-bold">Send Message</button></center>
+                                                                    <center><button
+  disabled={loading}
+  className={`mt-5 mb-5 pt-2 pb-2 text-white font-bold rounded-md
+  ${loading ? "opacity-50 cursor-not-allowed" : ""}
+  `}
+  style={{
+    display: "block",
+    background:
+      "radial-gradient(53.6% 50% at 46.4% 50%, #00BC71 0%, #036F3D 100%)",
+    width: "90%",
+    margin: "20px",
+  }}
+>
+  {loading ? "Sending..." : "Send Message"}
+</button>
+{
+  serverError && (
+    <p className="text-red-500 text-center">
+      {serverError}
+    </p>
+  )
+}</center>
                                                                     <div className="text-center text-[#4B5563] mt-1 mb-1 text-sm">
                                                                                                     We'll response to your message within 24 hours during bussiness days
                                                                    </div>
@@ -226,10 +325,10 @@ if (!/^[A-Za-z0-9 ]+$/.test(registration)) {
                                                                     </div>
                                                     </div>
                                                       <div className="w-full md:w-1/2">
-                                                      <div  className=" m-5 mt-10" >
+                                                      <div  className=" m-5 mt-10 ml-10 md:mr-5" >
                                                             <div>
                                                                <h1 className="font-bold text-lg ">Contact Information</h1>
-                                                               <p className="pt-2">
+                                                               <p className="pt-2 w-[90%]">
                                                                 It is a long established fact that a reader be by the readable distracted layout.
                                                                 </p>
                                                             </div>
@@ -248,7 +347,7 @@ United Kingdom</p>
                                                                 <p className=" font-bold">01375 517170</p>
                                                                  <p className="text-[#90B99F] pt-3 text-[12px] font-bold">EMAIL:</p>
                                                                 
-                                                                <p className=" font-bold">info@selectprestige.co.uk</p>
+                                                                <p className=" font-bold text-sm">info@selectprestige.co.uk</p>
                                                                 </div>
                                                             </div>
                                                                <div className="w-7/12">
@@ -274,7 +373,7 @@ United Kingdom</p>
                                                                             </div>
                                                                 </div>
                                                                 
-                                                               <div className="w-full mt-4">
+                                                               <div className=" w-[95%] md:w-[92%] mt-4">
                                        <iframe
   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1918.840526322696!2d0.29315567556610106!3d51.47451701310638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8b7a2859bba33%3A0xd64a87b00877a1d!2sVogue%20Technics!5e1!3m2!1sen!2s!4v1778063921624!5m2!1sen!2s"
   width="100%"
