@@ -46,7 +46,7 @@ export default function TopMakes() {
     <section className="bg-gray-100 py-16 overflow-hidden">
 
       <h2 className="text-center text-3xl font-bold mb-12">
-        Top Makes We Work On
+        Top Car Makes We Repair in Grays, Essex
       </h2>
 
       <div className="overflow-hidden w-full">
@@ -59,13 +59,13 @@ export default function TopMakes() {
           {/* FIRST SET */}
           {images.map((img) => (
             <div
-              key={img}
+              key={img.src}
               className="min-w-[256px] bg-white rounded-lg p-5 shadow-md"
             >
               <div className="relative w-full h-[120px]">
                 <Image
-                  src={img}
-                  alt="logo"
+                  src={img.src}
+                  alt={`${img.name} engine repair - Vogue Fix My Motor Grays Essex`}
                   fill
                   className="object-contain"
                 />
@@ -76,13 +76,13 @@ export default function TopMakes() {
           {/* DUPLICATE SET */}
           {images.map((img) => (
             <div
-              key={"dup-" + img}
+              key={"dup-" + img.src}
               className="min-w-[256px] bg-white rounded-lg p-5 shadow-md"
             >
               <div className="relative w-full h-[120px]">
                 <Image
-                  src={img}
-                  alt="logo"
+                  src={img.src}
+                  alt={`${img.name} engine repair - Vogue Fix My Motor Grays Essex`}
                   fill
                   className="object-contain"
                 />

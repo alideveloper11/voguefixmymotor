@@ -62,10 +62,10 @@ export default function FAQ() {
               </div>
 
              
-              <Collapse in={isOpen} timeout="auto" unmountOnExit>
+              <Collapse in={isOpen} timeout="auto">
   <div className="p-5 py-8 text-left text-gray-600 ">
     {item.answer}
-   
+
   </div>
 </Collapse>
  

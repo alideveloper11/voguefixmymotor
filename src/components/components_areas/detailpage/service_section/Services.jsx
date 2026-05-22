@@ -19,13 +19,11 @@ export default function Services({servicesData})
                                          <div className="w-full flex flex-wrap justify-center mt-6 md:ml-6 m6-6">
                                             <div className="w-full text-center text-black">
                                            <div className="mt-5">
-                                            <p className="text-2xl font-bold">Current Solutions of Your Modern Problems</p>
-                                             <center><p className=" w-full md:w-[60%]  lg:w-[40%] text-center " 
+                                            <h2 className="text-2xl font-bold">Car Repair & Engine Services Available in Your Area</h2>
+                                             <center><p className=" w-full md:w-[60%]  lg:w-[40%] text-center "
                                              style={{ fontSize:"14px",marginBottom:"20px", marginTop:"10px", color:"#9794B5"}}>
-                              
-                    
-                                              salmanLorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae suscipit incidunt, voluptas
-                                             fugit vero aperiam quas.</p>
+                                              Vogue Fix My Motor offers a full range of engine repair and car services to customers across Essex. Browse our services below and book online for a free quote.
+                                              </p>
                                               </center>
                                             </div>
                                            
@@ -44,7 +42,7 @@ export default function Services({servicesData})
                                                         <img
                                                        
                                                             src={services.img}
-                                                            alt="services vogue technics "
+                                                            alt={`${services.name} - Vogue Fix My Motor`}
                                                             className=" h-[230px] w-fullobject-cover serviceimg"
                                                           
                                                              />

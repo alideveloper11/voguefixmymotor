@@ -131,13 +131,13 @@ useEffect(() => {
                 <div className="flex flex-wrap min-h-[700px] md:h-[600px]" id="hero_section">
                  <div className="w-full md:w-6/12  flex items-center justify-center">
                         <div className="m-6 md:m-15">
-                            <p className="font-bold text-left text-white text-[40px]">
-                                Reliable Car Repair Services You Can Trust.
-                            </p>
+                            <h1 className="font-bold text-left text-white text-[40px]">
+                                Expert Engine Repair & Diagnostics in Grays, Essex
+                            </h1>
                             <p className="font-bold text-left text-white text-[12px] mt-3">
-                                Welcome to Vogue Fix My Motor, your trusted partner for expert auto services.
-                                Whether you're in need of a simple car 
-                                auto repair service or a complete engine overhaul, we've got you covered.
+                                Welcome to Vogue Fix My Motor — Grays&apos; trusted engine repair and car diagnostics specialists.
+                                Serving Grays, Tilbury, Purfleet, Ockendon, Hornchurch and all areas within 10 miles.
+                                Get a free quote and have your vehicle back on the road fast.
                             </p>
                         </div>
                  </div>
@@ -149,7 +149,7 @@ useEffect(() => {
                                      <div className="w-full text-left p-0 m-0 ">
                                       
                                                                                <div className="p-5">
-                                                                                <p className="text-left font-bold text-white mt-4">Get a Quick Qoute</p>
+                                                                                <p className="text-left font-bold text-white mt-4">Get a Free Quote</p>
                                         
                                                                                  <div className="flex border rounded overflow-hidden w-full mt-2" style={{borderColor:"#FFCB05"}}>
                                                 

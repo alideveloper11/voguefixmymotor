@@ -11,7 +11,7 @@ export default function Requestaqoute({content}) {
           </div>
           <div className=" w-full md:w-1/2 bg-[#F3FFF9] shadow-2xl" style={{borderRadius:"0px 10px 10px 0px"}}>
             <div className="m-5 text-left ">
-                   <h1 className="text-2xl md:text-3xl font-bold">{content.heading}</h1>
+                   <h2 className="text-2xl md:text-3xl font-bold">{content.heading}</h2>
                                           <p className="mt-5">
                                               {content.paragraph}
                                           </p>

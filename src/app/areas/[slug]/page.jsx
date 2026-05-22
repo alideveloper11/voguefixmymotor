@@ -1,4 +1,5 @@
 import { locations } from "@/lib/Areas_data/areas_list";
+import areaUniqueSlides from "@/lib/Areas_data/areaUniqueSlides";
 import Reviews from "@/components/components_reviews/reviews/Reviews";
 import Latest_videos from "@/components/components_areas/latest_videos/Latest_videos";
 import Servedincity from "../../../components/components_areas/detailpage/servedincity/Servedincity";
@@ -18,13 +19,17 @@ export default async function ServiceDetail({ params }) {
     if (!areas) {
     notFound();
   }
+  const uniqueSlide = areaUniqueSlides[areas.slug];
+  const mergedSlides = uniqueSlide
+    ? [uniqueSlide, ...areas.green_slider.items.slice(1)]
+    : areas.green_slider.items;
   return (
-    <div className="flex flex-wrap w-full"> 
-    
-     <div className="w-24/24 text-center"><Herosection area={areas} /></div>       
-      <div className="w-24/24 text-center"><Reviews reviewsData={areas.Reviews} /></div>   
-      <div className="w-24/24 text-center"><Servedincity content={areas.served} /></div>     
-      <div className="w-24/24 text-center"><Green_slider slides={areas.green_slider.items} image={areas.green_slider.img} /></div>  
+    <div className="flex flex-wrap w-full">
+
+     <div className="w-24/24 text-center"><Herosection area={areas} /></div>
+      <div className="w-24/24 text-center"><Reviews reviewsData={areas.Reviews} /></div>
+      <div className="w-24/24 text-center"><Servedincity content={areas.served} /></div>
+      <div className="w-24/24 text-center"><Green_slider slides={mergedSlides} image={areas.green_slider.img} /></div>  
         
         <div className="w-24/24 text-center"><Requestaqoute content={areas.requestqoute} /></div> 
           <div className="w-24/24 text-center"><EngineCallToSection /></div> 

@@ -22,11 +22,11 @@ export default function Latest_videos() {
     <section className="w-full bg-[#F3F4F6] ">
  
       <div className="py-5 mx-6 md:mx-15 max-w-[1728px] px-0">
-<div className=""><center> 
-  <h1 className="font-bold text-[25px] md:text-[30px] ">
-    Latest Videos
-  </h1>
-  <p>check what is going on in the garage</p></center> 
+<div className=""><center>
+  <h2 className="font-bold text-[25px] md:text-[30px] ">
+    Latest Videos from Vogue Fix My Motor
+  </h2>
+  <p className="text-[#4B5563] text-sm mt-1">Watch our latest engine repairs, customer feedback, and workshop updates from our Grays, Essex garage.</p></center>
 </div>
         <div className="grid mt-5 grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
 

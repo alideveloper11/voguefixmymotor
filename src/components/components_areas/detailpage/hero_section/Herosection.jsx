@@ -8,11 +8,11 @@ export default function Herosection({area})
           <>
     <div className="flex  flex-wrap  h-[400px] items-center justify-center" id="second_hero_section">
       <div className="w-full items-center justify-center">
-            <p className="text-white font-bold  text-2xl md:text-3xl">
-              {area.heading}
-            </p>
+            <h1 className="text-white font-bold  text-2xl md:text-3xl">
+              Engine Repair &amp; Car Services in {area.name}, Essex
+            </h1>
             <p className="text-white   text-sm md:text-[16px] ml-10 mr-10  ">
-             {area.text}
+             Vogue Fix My Motor provides expert engine repair, diagnostics, and car servicing for customers in {area.name} and surrounding Essex areas. Get a free quote today.
              </p>
             
       <div className="w-full ">

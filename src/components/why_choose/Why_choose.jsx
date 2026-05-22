@@ -13,54 +13,54 @@ export default function why_choose(){
  className="flex flex-wrap  m-6 md:mx-16 text-left">
 
          <div className="w-full md:w-1/2">
-                <h1 className="font-bold text-3xl md:text-4xl">
+                <h2 className="font-bold text-3xl md:text-4xl">
                     Why Choose Vogue Fix My Motor?
-                </h1>
-                <p className="text-[14px] mt-4 text-[#6B7280]">Our mission is to provide excellent auto services with a focus on quality, reliability, and
-                    customer satisfaction. Heres why we stand out:
+                </h2>
+                <p className="text-[14px] mt-4 text-[#6B7280]">Based in Grays, Essex, our mission is to provide expert engine repair and diagnostics with a focus on quality, reliability, and
+                    customer satisfaction. Here&apos;s why drivers across Grays, Tilbury, Purfleet and surrounding areas trust us:
                     </p>
-                    
+
           <div className=" text-left flex flex-wrap gap-6 ">
                <div className="w-full md:w-11/24 mt-5">
 
 <KeyIcon sx={{ transform: "rotate(300deg) scaleX(-1)", fontSize: 30 }} className="text-[#028D53]" />
-               <p className="font-bold text-[20px] mt-2">Comprehensive Diagnostics</p>
+               <p className="font-bold text-[20px] mt-2">Comprehensive Engine Diagnostics</p>
                <p className="mt-2 text-[14px]">
-                We use state-of-the-art tools to perform
-                precise engine diagnostics, ensuring
-                your car runs optimally.
+                We use state-of-the-art scanning tools to perform
+                precise engine diagnostics, identifying faults fast and
+                ensuring your car runs at its best.
                </p>
-               </div>  
+               </div>
                <div className="w-full lg:w-11/24 mt-5">
                     <SecurityIcon sx={{fontSize: 30 }}  className="text-[#028D53]"  />
                     <p className="font-bold text-[20px] mt-2">Experienced Technicians</p>
                <p className="mt-2 text-[14px]">
-               With years of experience in motor vehicle
-                    service, we tackle even the most
-                    complex engine issues.
+               Our team brings years of hands-on experience in engine repair
+                    and motor vehicle servicing, tackling even the most
+                    complex engine problems with confidence.
                </p>
-               </div>    
+               </div>
                  <div className="w-full lg:w-11/24 mt-5">
 
 
                     <WatchLaterIcon sx={{fontSize: 30 }}  className="text-[#028D53]"  />
-               <p className="font-bold text-[20px] mt-2">Trustworthy Repairs</p>
+               <p className="font-bold text-[20px] mt-2">Fast Turnaround Times</p>
                <p className="mt-2 text-[14px]">
-                Our customers trust us because we
-                always provide honest assessments and
-                top quality repairs.
+                We understand your time matters. Our efficient
+                workflow means most repairs are completed quickly
+                so you&apos;re back on the road with minimal disruption.
                </p>
-               </div>  
+               </div>
 
                <div className="w-full lg:w-11/24 mt-5">
 
                     <StarIcon sx={{fontSize: 30 }}  className="text-[#028D53]"  />
-                 
-               <p className="font-bold text-[20px] mt-2">Trustworthy Repairs</p>
+
+               <p className="font-bold text-[20px] mt-2">Honest & Transparent Service</p>
                <p className="mt-2 text-[14px]">
-                Our customers trust us because we
-                always provide honest assessments and
-                top quality repairs.
+                No hidden charges, no unnecessary work. We provide
+                honest assessments, clear pricing, and top-quality
+                repairs that customers across Essex rely on.
                </p>
                </div>
 
@@ -72,16 +72,16 @@ export default function why_choose(){
     
     <div className="w-full flex justify-center mt-5 md:mt-0">
     <div className="w-full"  style={{width:"100%"}}>
-      <img src="/explore/1.jpg" className="w-full h-[400px] object-cover rounded  rounded-[10px]"/>
+      <img src="/explore/1.jpg" alt="Engine repair technician at Vogue Fix My Motor, Grays Essex" className="w-full h-[400px] object-cover rounded  rounded-[10px]"/>
     </div>
     </div>
     
   </div>
   <div className="w-full mt-3 text-left">
-            <p className="text-[20px]">Ready for Your Next Step?</p>
-            <p className='text-[12px] text-[#4B5563]'>Book a diagnostic or get expert advice from our highly trained technicians. 
-                Trust us forreliable auto services every time.</p>
-                       
+            <p className="text-[20px]">Ready to Book Your Engine Diagnostic?</p>
+            <p className='text-[12px] text-[#4B5563]'>Book a diagnostic or get expert advice from our highly trained technicians in Grays, Essex.
+                Trust Vogue Fix My Motor for reliable engine repair every time.</p>
+
             <div className="w-full flex justify-start items-left ">
               <Link href="contact/">
           <button
@@ -97,7 +97,7 @@ export default function why_choose(){
             hover:bg-green-800
             "
             >
-            Get Qoutation
+            Get a Free Quote
             </button>
             </Link>
         </div>

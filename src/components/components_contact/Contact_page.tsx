@@ -110,10 +110,10 @@ async function form_validation(e: FormEvent<HTMLFormElement>) {
                         <div className="mt-3">
                             <center>
                                 <h1 className="font-bold text-lg md:text-2xl">
-                                    Contact Information
+                                    Contact Vogue Fix My Motor — Engine Repair in Grays, Essex
                                 </h1>
-                                
-                                <p className="text-sm text-[#4B5563]">Tell The Details So We Can Provide You Best Service</p>
+
+                                <p className="text-sm text-[#4B5563]">Fill in your details below and our team will get back to you with expert advice and a free quote.</p>
                                 </center>
                         </div>
                         </div>
@@ -318,7 +318,7 @@ async function form_validation(e: FormEvent<HTMLFormElement>) {
   )
 }</center>
                                                                     <div className="text-center text-[#4B5563] mt-1 mb-1 text-sm">
-                                                                                                    We'll response to your message within 24 hours during bussiness days
+                                                                                                    We'll respond to your message within 24 hours during business days
                                                                    </div>
                                                                     </div>
                                                                    
@@ -327,9 +327,9 @@ async function form_validation(e: FormEvent<HTMLFormElement>) {
                                                       <div className="w-full md:w-1/2">
                                                       <div  className=" m-5 mt-10 ml-10 md:mr-5" >
                                                             <div>
-                                                               <h1 className="font-bold text-lg ">Contact Information</h1>
+                                                               <h2 className="font-bold text-lg ">Get in Touch with Us</h2>
                                                                <p className="pt-2 w-[90%]">
-                                                                It is a long established fact that a reader be by the readable distracted layout.
+                                                                Have a question about your vehicle or want to book a repair? Contact our team at Vogue Fix My Motor in Grays, Essex. We service all makes and models across Essex and surrounding areas.
                                                                 </p>
                                                             </div>
                                                             <div className="flex">

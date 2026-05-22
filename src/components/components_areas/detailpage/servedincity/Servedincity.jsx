@@ -5,9 +5,9 @@ export default function Servedincity({content})
 
       <div className="w-full">
         <div className="mx-20 my-5 text-left">
-        <h1 className="font-bold text-2xl ">
+        <h2 className="font-bold text-2xl ">
             {content.heading}
-        </h1>
+        </h2>
         <p className="mt-5">
             {content.p1}
              </p>

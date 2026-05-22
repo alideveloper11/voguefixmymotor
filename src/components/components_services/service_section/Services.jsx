@@ -22,13 +22,11 @@ export default function Services()
                                          <div className="w-full flex flex-wrap justify-center mt-6 md:ml-6 m6-6">
                                             <div className="w-full text-center text-black">
                                            <div className="mt-5">
-                                            <p className="text-2xl font-bold">Current Solutions of Your Modern Problems</p>
-                                             <center><p className=" w-full md:w-[60%]  lg:w-[40%] text-center " 
+                                            <h2 className="text-2xl font-bold">All Car Repair & Engine Services in Grays, Essex</h2>
+                                             <center><p className=" w-full md:w-[60%]  lg:w-[40%] text-center "
                                              style={{ fontSize:"14px",marginBottom:"20px", marginTop:"10px", color:"#9794B5"}}>
-                              
-                    
-                                              salmanLorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae suscipit incidunt, voluptas
-                                             fugit vero aperiam quas.</p>
+                                              Browse all services offered by Vogue Fix My Motor. From engine diagnostics and timing chain replacement to DPF cleaning and air conditioning — expert repairs for all makes and models across Grays and surrounding Essex areas.
+                                              </p>
                                               </center>
                                             </div>
                                            
@@ -47,7 +45,7 @@ export default function Services()
                                                         <img
                                                        
                                                             src={services.img}
-                                                            alt="services vogue technics "
+                                                            alt={`${services.name} - Vogue Fix My Motor Grays Essex`}
                                                             className=" h-[230px] w-fullobject-cover serviceimg"
                                                           
                                                              />
