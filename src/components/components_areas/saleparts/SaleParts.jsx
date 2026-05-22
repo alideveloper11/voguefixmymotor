@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 
 import Image from "next/image";
-import saleParts from "@/lib/areas_data/SaleParts";
+import saleParts from "@/lib/Areas_data/SaleParts";
 
 import { useEffect, useRef, useState } from "react";
 
