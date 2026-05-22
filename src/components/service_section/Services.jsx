@@ -11,7 +11,7 @@ export default function Services()
   whileInView={{ opacity: 1, x: 0 }}
   transition={{ duration: 0.8 }}
   viewport={{ once: true }}
-                    className="flex flex-wrap w-full text-sm bg-[#F3F4F6]">
+                    className="flex flex-wrap w-full text-sm bg-[#F3F4F6] text-black" style={{colorScheme:"light"}}>
                
                     
            

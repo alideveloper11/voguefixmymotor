@@ -134,7 +134,7 @@ async function form_validation(e: FormEvent<HTMLFormElement>) {
                         <div className="w-full md:w-1/2 flex justify-center">
 
 
-                                    <div style={{backgroundColor:"white", borderRadius:"10px" }} className="w-[85%] md:w-[80%] shadow-2xl" >
+                                    <div style={{backgroundColor:"white", borderRadius:"10px", colorScheme:"light"}} className="w-[85%] md:w-[80%] shadow-2xl" >
                                         
                                         <div className="bg-[#F3FFF9] rounded-t-[10px] rounded-b-[0px]">
                                                                       
@@ -218,7 +218,7 @@ async function form_validation(e: FormEvent<HTMLFormElement>) {
                                                                              required
                                                                              onChange={(e) => { setPhone(e.target.value); clearError("phone"); }}
                                                                             placeholder="071234567800"
-                                                                            className="border border-[#4B5563]  rounded-md placeholder-[#4B5563] w-full black  p-2 outline-none"
+                                                                            className="border border-[#4B5563]  rounded-md placeholder-[#4B5563] w-full text-black  p-2 outline-none"
                                                                             />
                                                                              {error.phone && <p style={{ color: "red" }}>{error.phone}</p>}
                                                                         </div>
@@ -286,7 +286,7 @@ async function form_validation(e: FormEvent<HTMLFormElement>) {
                                                                             
                                                                             onChange={(e) => { setPostcode(e.target.value); clearError("postcode"); }}
                                                                             placeholder="RM20 4EL"
-                                                                            className="border border-[#4B5563]  rounded-md placeholder-[#4B5563] w-full black  p-2 outline-none"
+                                                                            className="border border-[#4B5563]  rounded-md placeholder-[#4B5563] w-full text-black  p-2 outline-none"
                                                                             />
                                                                             {error.postcode && (
                                                                                 <p style={{ color: "red" }}>{error.postcode}</p>
