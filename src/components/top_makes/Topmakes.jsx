@@ -67,6 +67,7 @@ export default function TopMakes() {
                   src={img.src}
                   alt={`${img.name} engine repair - Vogue Fix My Motor Grays Essex`}
                   fill
+                  sizes="256px"
                   className="object-contain"
                 />
               </div>
@@ -84,6 +85,7 @@ export default function TopMakes() {
                   src={img.src}
                   alt={`${img.name} engine repair - Vogue Fix My Motor Grays Essex`}
                   fill
+                  sizes="256px"
                   className="object-contain"
                 />
               </div>
