@@ -24,7 +24,7 @@ export default function Green_slider1() {
   initial={{ opacity: 0, x: 100 }}
   whileInView={{ opacity: 1, x: 0 }}
   transition={{ duration: 0.8 }}
-  viewport={{ once: true }} className="flex w-full flex-wrap ">
+  viewport={{ once: true }} className="flex w-full flex-wrap bg-white text-black" style={{colorScheme:"light"}}>
            <div className="w-full md:w-12/24">
                 <div  style={{width:"100%", height:"650px"}}>
                     <img src="/slider_section_image.jpg"  className="w-full object-cover" style={{width:"100%", height:"100%"}} alt="slider_section_image" />

@@ -9,7 +9,7 @@ export default function Reviews({reviewsData}) {
     const pathname = usePathname();
   const [expandedId, setExpandedId] = useState(null);
   return (
-    <div className="flex flex-wrap w-full text-sm text-black" style={{colorScheme:"light"}}>
+    <div className="flex flex-wrap w-full text-sm text-black bg-white" style={{colorScheme:"light"}}>
 
       <div className="w-full text-center text-black">
         <p className="text-3xl mt-5 font-bold">Reviews</p>

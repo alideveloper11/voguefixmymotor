@@ -17,9 +17,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      
-      <body>
+    <html lang="en" style={{colorScheme:"light"}}>
+
+      <body className="bg-white text-black">
         <div className="flex flex-wrap w-full">
           <div className="w-full">
             <Header />

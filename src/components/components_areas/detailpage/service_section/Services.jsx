@@ -21,7 +21,7 @@ export default function Services({servicesData})
                                            <div className="mt-5">
                                             <h2 className="text-2xl font-bold">Car Repair & Engine Services Available in Your Area</h2>
                                              <center><p className=" w-full md:w-[60%]  lg:w-[40%] text-center "
-                                             style={{ fontSize:"14px",marginBottom:"20px", marginTop:"10px", color:"#9794B5"}}>
+                                             style={{ fontSize:"14px",marginBottom:"20px", marginTop:"10px", color:"#4B5563"}}>
                                               Vogue Fix My Motor offers a full range of engine repair and car services to customers across Essex. Browse our services below and book online for a free quote.
                                               </p>
                                               </center>
@@ -35,7 +35,7 @@ export default function Services({servicesData})
                                      className="w-full h-full sm:w-full mb-5 md:w-6/12 lg:w-4/12 md:gap-0.5">
                                       
                                     <Link href={`/services/${services.slug}`}>   
-                                               <div className=" w-full min-h-[450px]  group bg-white rounded-xl w-full md:w-[90%] hover:bg-[#046b3f] cursor-pointer hover:text-white"
+                                               <div className=" w-full min-h-[450px]  group bg-white text-black rounded-xl w-full md:w-[90%] hover:bg-[#046b3f] cursor-pointer hover:text-white"
                                                 >
                                                   
                                                     <div className="img-wrapper " >

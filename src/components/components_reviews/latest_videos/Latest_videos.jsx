@@ -18,7 +18,7 @@ export default function Latest_videos() {
   const [activeVideo, setActiveVideo] = useState(null);
 
   return (
-    <section className="w-full bg-[#F3F4F6] ">
+    <section className="w-full bg-[#F3F4F6] text-black" style={{colorScheme:"light"}}>
 
       <div className=" mx-6 md:mx-15 max-w-[1728px] px-0 py-16">
 
@@ -36,7 +36,7 @@ export default function Latest_videos() {
             return (
               <div
                 key={video.id}
-                className="overflow-hidden w-full rounded-[10px] bg-white shadow-sm"
+                className="overflow-hidden w-full rounded-[10px] bg-white text-black shadow-sm"
               >
 
                 <div className="relative aspect-video bg-black">

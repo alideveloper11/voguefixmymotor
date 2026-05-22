@@ -10,7 +10,7 @@ export default function Areas_links() {
       whileInView={{ opacity: 1, y: 0, scale: 1 }}
       transition={{ duration: 0.7, ease: "easeOut" }}
       viewport={{ once: true, amount: 0.3 }}
-       id="areas" className="flex flex-wrap mx-10">
+       id="areas" className="flex flex-wrap w-full py-10 px-10 text-black bg-white" style={{colorScheme:"light"}}>
       <div className="flex flex-wrap ">
       <div className="w-full">
         <div className="w-full">

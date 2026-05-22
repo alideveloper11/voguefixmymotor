@@ -13,7 +13,7 @@ export default function FAQ({ faq_data }) {
   };
 
   return (
-    <div className="flex flex-wrap w-full bg-gray-100">
+    <div className="flex flex-wrap w-full bg-gray-100 text-black" style={{colorScheme:"light"}}>
 
       <div className="w-4/24 text-center"></div>
 

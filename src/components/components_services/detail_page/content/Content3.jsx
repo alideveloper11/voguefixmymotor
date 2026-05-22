@@ -1,7 +1,7 @@
 export default function Content3({ content }) {
 
   return (
-    <div className="flex w-full flex-wrap">
+    <div className="flex w-full flex-wrap pb-8 pt-5 bg-white text-black" style={{colorScheme:"light"}}>
 
        <div className="w-full text-left mx-5 md:mx-15">
                 <p className="block md:inline font-bold" style={{fontSize:"20px"}}>{content.heading},</p>

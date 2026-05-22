@@ -17,7 +17,7 @@ export default function Latest_videos() {
   const [activeVideo, setActiveVideo] = useState(null);
 
   return (
-    <section className="w-full bg-[#F3F4F6] ">
+    <section className="w-full bg-[#F3F4F6] text-black" style={{colorScheme:"light"}}>
  
       <div className="py-5 mx-6 md:mx-15 max-w-[1728px] px-0">
 <div className=""><center>

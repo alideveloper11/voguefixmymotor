@@ -7,9 +7,15 @@ export const metadata = {
   description: "Learn about Vogue Fix My Motor — Grays, Essex based engine repair and car servicing specialists. Trusted by thousands of customers across Essex. Honest pricing, quality parts, and warranty on all repairs.",
 };
 
-export default function About() {   
+export default function About() {
   return (
 <div className="flex flex-wrap w-full">
+            <div className="w-full flex flex-wrap h-[300px] items-center justify-center" id="second_hero_section">
+              <div className="w-full text-center">
+                <h1 className="text-white font-bold text-2xl md:text-3xl">About Vogue Fix My Motor</h1>
+                <p className="text-white text-sm md:text-base mt-2 mx-10">Engine Repair &amp; Car Servicing Specialists based in Grays, Essex — trusted by drivers across the region.</p>
+              </div>
+            </div>
             <div className="w-full">
                 <Top_component />
                 <Green_slider1 />

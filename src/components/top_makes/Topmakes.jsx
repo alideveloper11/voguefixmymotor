@@ -43,7 +43,7 @@ export default function TopMakes() {
   return () => cancelAnimationFrame(animationFrame);
 }, []);
   return (
-    <section className="bg-gray-100 py-16 overflow-hidden">
+    <section className="bg-gray-100 py-16 overflow-hidden text-black" style={{colorScheme:"light"}}>
 
       <h2 className="text-center text-3xl font-bold mb-12">
         Top Car Makes We Repair in Grays, Essex

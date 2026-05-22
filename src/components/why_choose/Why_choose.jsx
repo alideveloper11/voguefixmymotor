@@ -8,9 +8,7 @@ import StarIcon from '@mui/icons-material/Star';
 import Link from "next/link";
 export default function why_choose(){
     return(
- <div
-  
- className="flex flex-wrap  m-6 md:mx-16 text-left">
+ <div className="flex flex-wrap m-6 md:mx-16 text-left text-black bg-white" style={{colorScheme:"light"}}>
 
          <div className="w-full md:w-1/2">
                 <h2 className="font-bold text-3xl md:text-4xl">

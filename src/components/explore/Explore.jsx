@@ -18,7 +18,7 @@ return(
   transition={{
     duration: 0.8,
   }}
- className="flex w-full flex-wrap bg-[#F3F4F6]">
+ className="flex w-full flex-wrap bg-[#F3F4F6] text-black" style={{colorScheme:"light"}}>
         <div className="flex w-full flex-wrap mt-20 mx-7 md:mx-16 mb-5">
              <div className=" text-left w-full md:w-6/12">
 

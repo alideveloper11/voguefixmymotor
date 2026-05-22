@@ -20,7 +20,7 @@ export default function FAQ() {
   initial={{ opacity: 0, x: -100 }}
   whileInView={{ opacity: 1, x: 0 }}
   transition={{ duration: 0.8 }}
-  viewport={{ once: true }} className="flex flex-wrap w-full bg-gray-100">
+  viewport={{ once: true }} className="flex flex-wrap w-full bg-gray-100 text-black" style={{colorScheme:"light"}}>
                           
                    <div className="w-4/24 text-center"></div>  
                     <div className="w-16/24 text-center">

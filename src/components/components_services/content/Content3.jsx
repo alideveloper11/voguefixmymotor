@@ -11,7 +11,7 @@ return (
   whileInView={{ opacity: 1, x: 0 }}
   transition={{ duration: 0.8 }}
   viewport={{ once: true }}
-   className="flex w-full flex-wrap mb-8 mt-5">
+   className="flex w-full flex-wrap pb-8 pt-5 bg-white text-black" style={{colorScheme:"light"}}>
         <div className="w-full text-left mx-5 md:mx-15">
           <p className="block md:inline font-bold" style={{fontSize:"20px"}}>{data.heading},</p>
           <p className="block md:inline  font-bold"  style={{fontSize:"20px", color:"#059669"}}>{data.greenHeading}</p>

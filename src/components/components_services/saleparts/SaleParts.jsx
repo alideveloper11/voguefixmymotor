@@ -69,7 +69,7 @@ export default function SaleParts() {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.7 }}
       viewport={{ once: true }}
-      className="bg-gray-100 py-10 overflow-hidden"
+      className="bg-gray-100 py-10 overflow-hidden text-black" style={{colorScheme:"light"}}
     >
       <h2 className="text-center text-3xl font-bold mb-10">
         TOP PARTS FOR SALE
