@@ -34,6 +34,10 @@ useEffect(() => {
     document.removeEventListener("mousedown", handleClickOutside);
   };
 }, []);
+  function clearError(field: string) {
+    if (error[field]) setError((prev) => ({ ...prev, [field]: "" }));
+  }
+
  async function form_validation(e: FormEvent<HTMLFormElement>) {
   e.preventDefault();
 
@@ -46,30 +50,36 @@ useEffect(() => {
     service?: string;
   } = {};
 
-  // EMAIL VALIDATION
-  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-    newErrors.email = "Please enter a valid email address.";
-  }
-
   // NAME VALIDATION
-  if (!/^[A-Za-z ]*$/.test(name)) {
-    newErrors.name = "Name can only contain letters and spaces.";
-  }
+  if (!name.trim())
+    newErrors.name = "Full name is required.";
+  else if (name.trim().length < 2)
+    newErrors.name = "Name is too short.";
+  else if (!/^[A-Za-z\s'\-]+$/.test(name))
+    newErrors.name = "Name can only contain letters.";
 
   // PHONE VALIDATION
-  if (!/^\d{11}$/.test(phone)) {
-    newErrors.phone = "Please enter a valid UK phone number (11 digits required).";
-  }
+  const phoneDigits = phone.replace(/\D/g, "");
+  if (!phoneDigits)
+    newErrors.phone = "Phone number is required.";
+  else if (phoneDigits.length < 10)
+    newErrors.phone = "Please enter a valid phone number.";
+
+  // EMAIL VALIDATION
+  if (!email.trim())
+    newErrors.email = "Email address is required.";
+  else if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email))
+    newErrors.email = "Enter a valid email address.";
 
   // POSTCODE VALIDATION
-  if (!/^[A-Za-z0-9 ]+$/.test(postcode)) {
-    newErrors.postcode = "Postcode can only contain letters, numbers, and spaces.";
-  }
+  if (!postcode.trim())
+    newErrors.postcode = "Postcode is required.";
+  else if (!/^[A-Za-z0-9][A-Za-z0-9\s]{1,7}$/.test(postcode.trim()))
+    newErrors.postcode = "Enter a valid postcode.";
 
-  // REGISTRATION VALIDATION
-  if (!/^[A-Za-z0-9 ]+$/.test(registration)) {
-    newErrors.registration = "Registration can only contain letters, numbers, and spaces.";
-  }
+  // REGISTRATION VALIDATION (optional)
+  if (registration && !/^[A-Z0-9]{1,8}$/.test(registration))
+    newErrors.registration = "Registration must be alphanumeric only (max 8 characters).";
 
   // SERVICE VALIDATION
   if (!selectedService) {
@@ -126,7 +136,7 @@ useEffect(() => {
   }
 }
     return(
-          <form onSubmit={form_validation}>
+          <form onSubmit={form_validation} noValidate>
    
                 <div className="flex flex-wrap min-h-[700px] md:h-[600px]" id="hero_section">
                  <div className="w-full md:w-6/12  flex items-center justify-center">
@@ -195,6 +205,7 @@ useEffect(() => {
                                                     className="border rounded-md placeholder-white text-white  p-2 w-full outline-none"
                                                      onChange={(e) => {
                                                      setName(e.target.value);
+                                                     clearError("name");
                                                    }} />
                                                    {error.name && (
                                                      <p style={{ color: "red" }}>{error.name}</p>
@@ -213,6 +224,7 @@ useEffect(() => {
                                          name="email"
                                              onChange={(e) => {
                                            setEmail(e.target.value);
+                                           clearError("email");
                                          }}
                                          />
                                          {error.email && (
@@ -228,7 +240,7 @@ useEffect(() => {
                                                         placeholder="01708 123456"
                                                         className="border rounded-md placeholder-white text-white w-full p-2 outline-none"
                                                         style={{ backgroundColor: "rgba(255, 255, 255, 0.26)", borderColor:"rgba(255, 255, 255, 0.15)" }}
-                                                        onChange={(e) => setPhone(e.target.value)}
+                                                        onChange={(e) => { setPhone(e.target.value); clearError("phone"); }}
                                                         />
                                                         {error.phone && <p style={{ color: "red" }}>{error.phone}</p>}
                                              
@@ -240,7 +252,7 @@ useEffect(() => {
                                             type="text"
                                             required
                                             value={postcode}
-                                            onChange={(e) => setPostcode(e.target.value)}
+                                            onChange={(e) => { setPostcode(e.target.value); clearError("postcode"); }}
                                             placeholder="POSTCODE AB12"
                                             className="border rounded-md placeholder-white w-full text-white p-2 outline-none"
                                             style={{

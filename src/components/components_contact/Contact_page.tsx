@@ -16,6 +16,10 @@ const [serverError, setServerError] = useState("");
   const [registration, setRegistration] = useState("");
   const [message, setMessage] = useState("");
   const [error, setError] = useState<Record<string, string>>({});
+
+  function clearError(field: string) {
+    if (error[field]) setError((prev) => ({ ...prev, [field]: "" }));
+  }
 async function form_validation(e: FormEvent<HTMLFormElement>) {
   e.preventDefault();
 
@@ -25,36 +29,46 @@ async function form_validation(e: FormEvent<HTMLFormElement>) {
     phone?: string;
     postcode?: string;
     registration?: string;
+    message?: string;
   } = {};
 
-  // EMAIL VALIDATION
-  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-    newErrors.email = "Please enter a valid email address.";
-  }
-
   // NAME VALIDATION
-  if (!/^[A-Za-z ]*$/.test(name)) {
-    newErrors.name = "Name can only contain letters and spaces.";
-  }
+  if (!name.trim())
+    newErrors.name = "Full name is required.";
+  else if (name.trim().length < 2)
+    newErrors.name = "Name is too short.";
+  else if (!/^[A-Za-z\s'\-]+$/.test(name))
+    newErrors.name = "Name can only contain letters.";
 
   // PHONE VALIDATION
-  if (!/^\d{11}$/.test(phone)) {
-    newErrors.phone = "Please enter a valid UK phone number (11 digits required).";
-  }
+  const phoneDigits = phone.replace(/\D/g, "");
+  if (!phoneDigits)
+    newErrors.phone = "Phone number is required.";
+  else if (phoneDigits.length < 10)
+    newErrors.phone = "Please enter a valid phone number.";
 
-  // POSTCODE VALIDATION
-  if (!/^[A-Za-z0-9 ]+$/.test(postcode)) {
-    newErrors.postcode = "Postcode can only contain letters, numbers, and spaces.";
-  }
+  // EMAIL VALIDATION
+  if (!email.trim())
+    newErrors.email = "Email address is required.";
+  else if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email))
+    newErrors.email = "Enter a valid email address.";
 
-  // REGISTRATION VALIDATION
-  if (!/^[A-Za-z0-9 ]+$/.test(registration)) {
-    newErrors.registration = "Registration can only contain letters, numbers, and spaces.";
-  }
+  // REGISTRATION VALIDATION (optional)
+  if (registration && !/^[A-Z0-9]{1,8}$/.test(registration))
+    newErrors.registration = "Registration must be alphanumeric only (max 8 characters).";
+
+  // POSTCODE VALIDATION (optional)
+  if (postcode && !/^[A-Za-z0-9][A-Za-z0-9\s]{1,7}$/.test(postcode.trim()))
+    newErrors.postcode = "Enter a valid postcode.";
+
+  // MESSAGE VALIDATION
+  if (!message.trim())
+    newErrors.message = "Message is required.";
+  else if (message.trim().length < 10)
+    newErrors.message = "Please provide more detail (at least 10 characters).";
 
   setError(newErrors);
 
-  // AGAR KOI ERROR NAHI HAI
   if (Object.keys(newErrors).length === 0) {
     try {
       setLoading(true);
@@ -104,7 +118,7 @@ async function form_validation(e: FormEvent<HTMLFormElement>) {
     return(
 
           <div className="flex flex-wrap w-full">
-            <form  className="flex flex-wrap w-full" onSubmit={form_validation}>
+            <form  className="flex flex-wrap w-full" onSubmit={form_validation} noValidate>
    
                        <div className="w-full">
                         <div className="mt-3">
@@ -181,6 +195,7 @@ async function form_validation(e: FormEvent<HTMLFormElement>) {
                                                                                         className="border border-[#4B5563] rounded-md placeholder-[#4B5563] text-black  p-2 w-full outline-none"
                                                                                         onChange={(e) => {
                                                                                                 setName(e.target.value);
+                                                                                                clearError("name");
                                                                                             }}
                                                                                         />
                                                                                         {error.name && (
@@ -201,7 +216,7 @@ async function form_validation(e: FormEvent<HTMLFormElement>) {
                                                                             type="text"
                                                                              value={phone}
                                                                              required
-                                                                             onChange={(e) => setPhone(e.target.value)}
+                                                                             onChange={(e) => { setPhone(e.target.value); clearError("phone"); }}
                                                                             placeholder="071234567800"
                                                                             className="border border-[#4B5563]  rounded-md placeholder-[#4B5563] w-full black  p-2 outline-none"
                                                                             />
@@ -245,6 +260,7 @@ async function form_validation(e: FormEvent<HTMLFormElement>) {
                                                                                 name="email"
                                                                                     onChange={(e) => {
                                                                                 setEmail(e.target.value);
+                                                                                clearError("email");
                                                                                 }}
                                                                                 />
                                                                                 {error.email && (
@@ -268,7 +284,7 @@ async function form_validation(e: FormEvent<HTMLFormElement>) {
                                             
                                                                             value={postcode}
                                                                             
-                                                                            onChange={(e) => setPostcode(e.target.value)}
+                                                                            onChange={(e) => { setPostcode(e.target.value); clearError("postcode"); }}
                                                                             placeholder="RM20 4EL"
                                                                             className="border border-[#4B5563]  rounded-md placeholder-[#4B5563] w-full black  p-2 outline-none"
                                                                             />
@@ -287,10 +303,11 @@ async function form_validation(e: FormEvent<HTMLFormElement>) {
                                                                                         <label className="mb-1 text-sm text-black font-medium">Message  <span style={{color:"red"}}>*</span></label>
                                                                                         <textarea
   value={message}
-  onChange={(e) => setMessage(e.target.value)}
-  placeholder="Tell us how can we help you"
+  onChange={(e) => { setMessage(e.target.value); clearError("message"); }}
+  placeholder="Tell us how can we help you (at least 10 characters)"
   className="border border-[#4B5563] h-[180px] rounded-md placeholder-[#4B5563] text-black p-2 w-full outline-none"
 />
+{error.message && <p style={{ color: "red" }}>{error.message}</p>}
                                                                                         </div>
                                                                                     </div>
                                                                                     </div>
