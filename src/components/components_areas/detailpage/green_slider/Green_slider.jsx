@@ -22,13 +22,16 @@ export default function Green_slider({ slides,  image }) {
 
         <div className="flex w-full flex-wrap ">
             <div className="w-full md:w-12/24 text-left text-white h-[650px]" style={{background:"linear-gradient(127.87deg, #000000 -0.59%, #16A34A 86.16%)"}}>
-                <div className=" m-10 mb-0 md:ml-20 md:mr-20 md:mr-20 ">
-                        <h1 className="text-2xl md:text-3xl font-bold"> {safeSlides[current].title}</h1>
-                        <p className="mt-10 overflow-hidden  h-[410px]">
-                             {safeSlides[current].text}
-                             ....
-                        </p>
-                        
+                <div className=" m-10 mb-0 md:ml-20 md:mr-20 md:mr-20 relative" style={{height:"510px"}}>
+                  {safeSlides.map((slide, index) => (
+                    <div key={index} className={`absolute inset-0 transition-opacity duration-500 ${current === index ? "opacity-100" : "opacity-0 pointer-events-none"}`}>
+                      <h2 className="text-2xl md:text-3xl font-bold">{slide.title}</h2>
+                      <p className="mt-10 overflow-hidden h-[410px]">
+                        {slide.text}
+                        ....
+                      </p>
+                    </div>
+                  ))}
                 </div>
                 <div className="mt-5 m-10 mb-0 md:ml-20 md:mr-20 md:mr-20">
                 {safeSlides.map((_, index) => (

@@ -1,63 +1,67 @@
 const slider = [
   {
-    title: "abnout 1 Lorem Ipsum Has Been In",
-    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    title: "Our Story — Vogue Fix My Motor, Grays Essex",
+    text: `Vogue Fix My Motor was founded with a simple but powerful mission: to provide honest, expert car repair and engine services to the local community in Grays, Essex. Over the years, we have grown into one of the most trusted independent workshops in the area, serving thousands of satisfied customers across Essex and beyond.
 
-Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
+From day one, we have prioritised quality workmanship, transparent pricing, and genuine customer care. We believe that trust is earned, not given — and we work hard to earn it with every vehicle that comes through our doors. Our customers return to us time and time again because they know they will receive honest advice, fair pricing, and repairs that last.
 
-In modern development workflow.`
+Our team consists of experienced, qualified technicians who are passionate about what they do. We invest in the latest diagnostic equipment and keep our skills up to date with modern automotive technology, ensuring we can service everything from classic vehicles to the latest models.
+
+We are proud to be a part of the Grays community and look forward to keeping drivers safely on the road for many years to come.`
   },
 
   {
-    title: "avouts 1 Trusted Car Repair Experts",
-    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+    title: "Our Commitment to Quality at Vogue Fix My Motor",
+    text: `At Vogue Fix My Motor, quality is not just a word — it is the foundation of everything we do. From the parts we use to the processes we follow, every aspect of our service is designed to deliver the best possible outcome for your vehicle.
 
-Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+We only use genuine, high-quality, and manufacturer-approved components for all repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality. We believe that using the right parts is just as important as the skill of the technician fitting them.
 
-We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+Our goal is to build long-term trust with our customers. We believe that vehicle maintenance should never be stressful, so we focus on clear communication, efficient diagnosis, and repairs that stand the test of time.
+
+Every vehicle that leaves our workshop has been tested thoroughly to ensure it is safe, reliable, and performing at its best. Your peace of mind is our top priority.`
   },
 
   {
-    title: "about 1 Fast & Professional Service",
-    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+    title: "State-of-the-Art Diagnostic Equipment",
+    text: `Modern vehicles are more complex than ever before, and accurate diagnosis is the foundation of an effective repair. At Vogue Fix My Motor, we use state-of-the-art OBD diagnostic scanning tools to read your vehicle's onboard computer system and identify faults with precision.
 
-Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+This technology allows us to pinpoint engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork. We diagnose the issue correctly the first time, saving you time and money by avoiding unnecessary part replacements.
 
- Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+Our technicians are trained to interpret diagnostic codes and convert them into practical, cost-effective repair solutions. We also provide customers with a full diagnostic report so you understand exactly what was found and what work was carried out.
 
-Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+Advanced diagnostics combined with skilled technicians means you always receive the right repair at the right price — every time you visit Vogue Fix My Motor in Grays, Essex.`
   },
   {
-  title: "about 1 Advanced Engine Diagnostics",
-  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+  title: "Serving Grays, Essex & All Surrounding Areas",
+  text: `Vogue Fix My Motor is proud to serve drivers from Grays and all surrounding areas in Essex. Our central location in Grays means we are easily accessible to customers from Tilbury, Purfleet, Ockendon, Hornchurch, Stanford-le-Hope, Corringham, Basildon, Chelmsford, Brentwood, and beyond.
 
-Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+No matter where you are within a 10-mile radius, our team is ready to help with any engine repair, diagnostic check, or car service you need. We understand that vehicle problems do not always happen at convenient times, which is why we aim to offer quick turnaround times and flexible booking options.
 
-Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+For customers who cannot bring their vehicle to us, we also offer a vehicle collection and delivery service across Essex. Our team will collect your car, carry out the required work, and return it to you once complete — all at no extra hassle to you.
 
-We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+Contact us today to book your appointment or get a free, no-obligation quote for any repair or service.`
 },
 
 {
-  title: "about 1 Quality Parts & Reliable Repairs",
-  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+  title: "Why Our Customers Recommend Us",
+  text: `The best measure of a great workshop is not what we say about ourselves — it is what our customers say about us. Vogue Fix My Motor has earned hundreds of five-star reviews from satisfied customers across Essex, and we are incredibly proud of the reputation we have built.
 
-Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+Our customers praise us for our transparency, our fair pricing, and the quality of our workmanship. Many of them have been coming to us for years, and many more have found us through word-of-mouth recommendations from friends and family.
 
-Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+We are particularly well known for our expertise with Range Rover and Land Rover engine repairs, as well as our work on BMW, Ford, Volkswagen, Audi, and Mercedes-Benz vehicles. Whatever you drive, our team brings the same level of skill and care to every job.
 
-We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+We welcome you to visit our workshop in Grays, read our reviews, and experience the Vogue Fix My Motor difference for yourself.`
 },
 
 {
-  title: "about 1 Customer Satisfaction Guaranteed",
-  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+  title: "Book Your Service at Vogue Fix My Motor Today",
+  text: `Booking a service or repair at Vogue Fix My Motor is quick and easy. You can contact us through our website, give us a call, or simply enter your vehicle registration for a free instant quote. We will confirm your appointment promptly and keep you updated throughout the entire repair process.
 
-We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+Whether you need a routine service, an urgent engine repair, or a full diagnostic check, our team is ready to help. We offer competitive pricing, quality workmanship, and a warranty on all repairs — giving you complete confidence every time you bring your vehicle to us.
 
-We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+Our workshop is open Monday to Friday from 9:00 AM to 6:00 PM and Saturday from 7:00 AM to 1:00 PM. We are conveniently located at Unit 1A Hedley Avenue, Grays, RM20 4EL — easily accessible from all surrounding Essex areas.
 
-Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+Call us today or use our online booking form to secure your appointment. We look forward to welcoming you to Vogue Fix My Motor.`
 }
 ];
 

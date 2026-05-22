@@ -22,13 +22,13 @@ return(
         <div className="flex w-full flex-wrap mt-20 mx-7 md:mx-16 mb-5">
              <div className=" text-left w-full md:w-6/12">
 
-                <p className="font-bold text-[28px]">
-                    Explore Our Repair
-                </p>
+                <h2 className="font-bold text-[28px]">
+                    Explore Our Repair Gallery
+                </h2>
                 <p className="text-left pt-5 pb-5">
-                   Results speak louder than words. So take a closer look at the quality behind
-                    every repair we complete. From engine diagnostics to full restorations,
-                     our gallery showcases real vehicles worked on by our experienced technicians.
+                   Results speak louder than words. Take a closer look at the quality behind
+                    every repair we complete in Grays, Essex. From engine diagnostics to full restorations,
+                    our gallery showcases real vehicles worked on by our experienced technicians.
                 </p>
                 <div>
                     <Link href="gallery/">
@@ -41,7 +41,7 @@ return(
             </div>  
             <div className="flex w-full md:w-6/12 flex-wrap ">
                 <div className="mb-10 flex justify-end items-end" style={{width:"100%"}}>
-                    <img src="/explore/1.jpg" alt="" className="w-full object-cover rounded  h-[350px] lg:h-[450px] md:h-[400px]"  style={{borderRadius:"10px", width:"100%"}} />
+                    <img src="/explore/1.jpg" alt="Car engine repair work at Vogue Fix My Motor, Grays Essex" className="w-full object-cover rounded  h-[350px] lg:h-[450px] md:h-[400px]"  style={{borderRadius:"10px", width:"100%"}} />
                 </div>
             </div>  
 

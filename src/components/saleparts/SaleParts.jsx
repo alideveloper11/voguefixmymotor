@@ -56,7 +56,7 @@ export default function SalePartsSlider() {
       className="bg-gray-100 py-10 overflow-hidden"
     >
       <h2 className="text-center text-3xl font-bold mb-10">
-        TOP PARTS FOR SALE
+        Quality Car Parts Available at Vogue Fix My Motor, Grays
       </h2>
 
       <div className="flex items-center gap-2 px-3">

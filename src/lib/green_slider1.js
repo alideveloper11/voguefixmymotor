@@ -1,18 +1,20 @@
 const slider = [
   {
-    title: "Lorem Ipsum Has Been In",
-    text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the standard placeholder text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Over the years, it has survived not only five centuries but also the transition into electronic typesetting, remaining essentially unchanged in structure and purpose. It became popular in desktop publishing during the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and later with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    title: "Engine Repair Specialists in Grays, Essex",
+    text: `Vogue Fix My Motor is Grays' trusted engine repair and diagnostics centre, serving drivers across Essex and beyond. Whether your vehicle is suffering from engine warning lights, power loss, overheating, or unusual noises, our experienced technicians are equipped to diagnose and repair the problem accurately.
 
-Designers and developers still use it today because it provides a natural-looking distribution of letters without distracting the viewer with readable content. This allows focus to remain on layout, typography, spacing, and visual hierarchy rather than actual meaning. It helps simulate real content flow in websites, mobile apps, and UI prototypes. Even though it is meaningless text, it closely resembles natural language in rhythm and structure.
+We use the latest OBD diagnostic scanning technology to read your vehicle's fault codes and pinpoint the exact cause of any issue. This means no guesswork, no unnecessary part replacements, and faster turnaround for you. Our workshop handles all makes and models, from hatchbacks to SUVs and commercial vehicles.
 
-In modern development workflow.`
+Located in Grays, we proudly serve customers from Tilbury, Purfleet, Ockendon, Hornchurch, Stanford-le-Hope, Corringham, and all surrounding areas within a 10-mile radius.
+
+Our goal is simple: get your car running safely and efficiently, at a price you can afford. Book your engine diagnostic today and experience the Vogue Fix My Motor difference.`
   },
 
   {
     title: "Trusted Car Repair Experts",
     text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
 
-Our goal is to build long-termbelieve that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+Our goal is to build long-term trust with our customers. We believe that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
 
 We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
   },

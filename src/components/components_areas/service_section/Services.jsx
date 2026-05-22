@@ -25,13 +25,11 @@ export default function Services()
                                          <div className="w-full flex flex-wrap justify-center mt-6 md:ml-6 m6-6">
                                             <div className="w-full text-center text-black">
                                            <div className="mt-5">
-                                            <p className="text-2xl font-bold">Current Solutions of Your Modern Problems</p>
-                                             <center><p className=" w-full md:w-[60%]  lg:w-[40%] text-center " 
+                                            <h2 className="text-2xl font-bold">All Car Repair & Engine Services Near Grays, Essex</h2>
+                                             <center><p className=" w-full md:w-[60%]  lg:w-[40%] text-center "
                                              style={{ fontSize:"14px",marginBottom:"20px", marginTop:"10px", color:"#9794B5"}}>
-                              
-                    
-                                              salmanLorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae suscipit incidunt, voluptas
-                                             fugit vero aperiam quas.</p>
+                                              Vogue Fix My Motor offers engine repair, diagnostics, and a full range of car services to customers across Essex. All makes and models welcome.
+                                              </p>
                                               </center>
                                             </div>
                                            
@@ -50,7 +48,7 @@ export default function Services()
                                                         <img
                                                        
                                                             src={services.img}
-                                                            alt="services vogue technics "
+                                                            alt={`${services.name} - Vogue Fix My Motor`}
                                                             className=" h-[230px] w-fullobject-cover serviceimg"
                                                           
                                                              />

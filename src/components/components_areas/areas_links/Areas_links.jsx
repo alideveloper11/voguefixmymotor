@@ -15,8 +15,8 @@ export default function Areas_links() {
       <div className="w-full">
         <div className="w-full">
             <center>
-              <h1 className="font-bold text-2xl mt-5">Areas We Cover</h1>
-            <p className="text-[#4B5563] text-sm mt-1 mb-8">We provide specialist engine services and vehicle recovery in all surrounding areas.</p>
+              <h2 className="font-bold text-2xl mt-5">Engine Repair Areas We Cover Near Grays, Essex</h2>
+            <p className="text-[#4B5563] text-sm mt-1 mb-8">Vogue Fix My Motor provides expert engine repair and car services across Grays and all surrounding areas within a 10-mile radius. Select your area below.</p>
             </center>
           </div>
         <div className="flex flex-wrap">

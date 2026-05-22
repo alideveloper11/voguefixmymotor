@@ -51,7 +51,7 @@ export default function FAQ({ faq_data }) {
                     />
                   </div>
 
-                  <Collapse className="py-2" in={isOpen} timeout="auto" unmountOnExit>
+                  <Collapse className="py-2" in={isOpen} timeout="auto">
                     <div className="p-5 text-left text-gray-600">
                       {item.answer}
 
