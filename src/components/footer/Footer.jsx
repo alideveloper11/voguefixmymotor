@@ -78,7 +78,7 @@ export default function Footer(){
                             7AM - 2 PM , Saturday
                             </span>
                         </li>
-                        <li  className="mt-4"><Link href="mailto:enquiry@voguefixmymotor.co.pk"><SendIcon style={{color:"#028D53"}} /><span> enquiry@voguefixmymotor.co.uk</span></Link></li>
+                        <li  className="mt-4"><Link href="mailto:sales@voguetechnics.co.uk"><SendIcon style={{color:"#028D53"}} /><span> sales@voguetechnics.co.uk</span></Link></li>
                         <li  className="mt-4 flex"><LocationOnIcon style={{color:"#028D53"}} /><p>Unit 1D Hedley Ave, Grays RM20 4EL United Kingdom</p>
                         </li>
                         </ul>
