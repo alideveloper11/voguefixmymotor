@@ -1,4 +1,5 @@
 "use client"
+import Link from "next/link";
 import { FormEvent } from "react";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
@@ -352,7 +353,7 @@ async function form_validation(e: FormEvent<HTMLFormElement>) {
                                                             <div className="flex">
                                                                 <div className="w-1/2">
                                                                 <p className="text-[#028D53] underline pt-3 font-bold">ADDRESS</p>
-                                                                <p className="pt-3 font-bold">Unit 1A Hedley Ave
+                                                                <p className="pt-3 font-bold">Unit 1D Hedley Ave
 Grays RM20 4EL
 United Kingdom</p>
                                                                 
@@ -361,10 +362,16 @@ United Kingdom</p>
                                                                 <p className="text-[#028D53] underline pt-3 font-bold">CONTACT</p>
                                                                 <p className="text-[#90B99F] pt-3 text-[12px] font-bold">PHONE:</p>
                                                                 
-                                                                <p className=" font-bold">01375 517170</p>
+                                                                <p className=" font-bold"><Link href="tel:+01375531355">
+                                                                01375 531355
+                                                                </Link>
+                                                                </p>
                                                                  <p className="text-[#90B99F] pt-3 text-[12px] font-bold">EMAIL:</p>
                                                                 
-                                                                <p className=" font-bold text-sm">info@selectprestige.co.uk</p>
+                                                                <p className=" font-bold text-sm">  <Link href="mailto:sales@voguetechnics.co.uk">
+                                                                sales@voguetechnics.co.uk
+                                                                </Link>
+                                                                </p>
                                                                 </div>
                                                             </div>
                                                                <div className="w-7/12">

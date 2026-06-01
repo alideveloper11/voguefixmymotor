@@ -26,8 +26,8 @@ export default function Topbar() {
           <p className="text-center font-bold " style={{color:"#059669"}}>|</p>
           </div>
           <div className="w-10/24 text-center font-bold">
-           <Link href="mailto:enquiry@voguefixmymotor.co.pk">
-            <p><EmailIcon style={{color:"#059669", fontSize:"20px"}} /> enquiry@voguefixmymotor.co.pk</p>
+           <Link href="mailto:sales@voguetechnics.co.uk">
+            <p><EmailIcon style={{color:"#059669", fontSize:"20px"}} />sales@voguetechnics.co.uk</p>
           </Link>
           </div>
 
@@ -56,9 +56,9 @@ export default function Topbar() {
                 
             
             <div className="w-16/24 text-center font-bold text-[10px]">
-            <Link href="mailto:enquiry@voguefixmymotor.co.pk">
+            <Link href="mailto:sales@voguetechnics.co.uk">
                 <p><EmailIcon style={{color:"#059669", fontSize:"13px" }} />  
-                enquiry@voguefixmymotor.co.pk</p>
+                sales@voguetechnics.co.uk</p>
                 </Link>
             </div>
 
