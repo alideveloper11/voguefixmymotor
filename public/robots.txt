@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://voguefixmymotor.co.uk
+
+# Sitemaps
+Sitemap: https://voguefixmymotor.co.uk/sitemap.xml
