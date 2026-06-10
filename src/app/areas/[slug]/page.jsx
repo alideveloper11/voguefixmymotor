@@ -1,4 +1,4 @@
-import { locations } from "@/lib/Areas_data/areas_list";
+import  { locations }  from "@/lib/Areas_data/areas_list";
 import areaUniqueSlides from "@/lib/Areas_data/areaUniqueSlides";
 import Reviews from "@/components/components_reviews/reviews/Reviews";
 import Latest_videos from "@/components/components_areas/latest_videos/Latest_videos";

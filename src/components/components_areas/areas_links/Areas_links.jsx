@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 
-import { locations } from "@/lib/Areas_data/areas_list";
+import  { locations } from "@/lib/Areas_data/areas_list";
 import Link from "next/link";
 export default function Areas_links() {
   return (
