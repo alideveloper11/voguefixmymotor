@@ -20,7 +20,7 @@ module.exports = {
         // BLOGS
         slugs.blogs.forEach((slug) => {
            paths.push({
-            loc: `/areas/${slug}`,
+            loc: `/blog/${slug}`,
             lastmod: new Date().toISOString(),
             changefreq: "weekly",
             priority: 0.6,
