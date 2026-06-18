@@ -44,66 +44,80 @@ export default function Large_screen_menus(){
 
                           <Box className="menuBox flex gap-3" style={{fontSize:"10px"}}>
                                      <Link href="/"><Button color="inherit" className="menu" style={{fontSize:"13px"}}>Home</Button></Link>
-       <Button
-  color="inherit"
-  className="menu"
-  style={{ fontSize: "13px" }}
+       
+       <div
+  className="relative py-[6px] menu"
+  onMouseEnter={() => setAnchorProducts(true)}
+  onMouseLeave={() => setAnchorProducts(false)}
+  onClick={handleCloseMenus}
+>
+   
+
+
+
+ <Link href="/services"  color="inherit"
+  
+  
   onMouseEnter={(e) => setAnchorProducts(e.currentTarget)}
+ className="menu text-[13px] flex items-center">
+  SERVICES
+  <ArrowDropDownIcon />
+</Link>
 
->
-  <Link href="/services" className="flex items-center">
-    Service
-    <ArrowDropDownIcon className="hover:text-[#D3D3D3]" />
-  </Link>
-</Button>
 
-<Menu
-  anchorEl={anchorProducts}
-  open={Boolean(anchorProducts)}
-  onClose={handleCloseMenus}
-  transitionDuration={200}
-  anchorOrigin={{
-    vertical: "bottom",
-    horizontal: "left",
-  }}
-  transformOrigin={{
-    vertical: "top",
-    horizontal: "left",
-  }}
-  slotProps={{
-    paper: {
-      sx: {
-        width: 300,
-        borderRadius: 3,
-        maxHeight: 350,      // ~10 items visible
-        overflowY: "auto",   // enables scroll
+  <div
+      className={`
+         absolute top-full left-0 
+       w-[300px] 
+        max-h-[350px] 
+        overflow-y-auto 
+        rounded-xl 
+        bg-[white] 
+         
+        shadow-lg 
+        z-50
 
-        // optional scrollbar styling
-        "&::-webkit-scrollbar": {
-          width: "6px",
-        },
-        "&::-webkit-scrollbar-thumb": {
-          background: "#ccc",
-          borderRadius: "10px",
-        },
-      },
-      onMouseLeave: handleCloseMenus, // closes when leaving dropdown
-    },
+        transition-all duration-300 ease-in-out
+        ${anchorProducts
+  ? "opacity-100 translate-y-0 scale-100"
+  : "opacity-0 -translate-y-3 scale-95 pointer-events-none"
+}
+        `}
+       
+      
+      style={{
+    scrollbarWidth: "thin",
+    scrollbarColor: "#ccc #ffffff ",
   }}
->
+    >
+
   {servicesData.map((services) => (
-  <MenuItem
+  <div
     key={services.id}
     onClick={handleCloseMenus}
-    style={{borderBottom:"1px solid #757575"}}
-    
+    style={{borderBottom:"1px solid #ccc"}}
+    className="px-4 
+py-2 
+text-[18px]
+text-black
+hover:bg-[#ccc] 
+cursor-pointer 
+border-b 
+border-[#ccc]
+text-left"
   >
     <Link href={`/services/${services.slug}`} className="w-full">
       {services.name}
     </Link>
-  </MenuItem>
+  </div>
 ))}
-</Menu>
+</div>
+</div>
+
+
+
+
+
                         
                                    <Link href="/areas"> <Button color="inherit" className="menu"  style={{fontSize:"13px"}}>Areas</Button></Link>
                                     <Link href="/gallery"> <Button color="inherit" className="menu"  style={{fontSize:"13px"}}>Gallery</Button></Link>
