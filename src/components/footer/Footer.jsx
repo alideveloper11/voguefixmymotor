@@ -20,7 +20,7 @@ export default function Footer(){
                         <Link href="/"><img src="/logo.svg" alt="Logo" /></Link> 
                         <p className="ml-2 md:ml-0 text-white mt-8" style={{fontFamily:"arial"}}>
                             Feel Free to call us in working hours Mon 
-                            -Fri (8:00 -- 16:00). Our team will be
+                            -Fri (9:00 AM –– 6:00 PM). Our team will be
                             happy to help answer your queries
                         </p>
                         <p className="text-white mt-5">
@@ -79,7 +79,11 @@ export default function Footer(){
                             </span>
                         </li>
                         <li  className="mt-4"><Link href="mailto:sales@voguetechnics.co.uk"><SendIcon style={{color:"#028D53"}} /><span> sales@voguetechnics.co.uk</span></Link></li>
-                        <li  className="mt-4 flex"><LocationOnIcon style={{color:"#028D53"}} /><p>Unit 1D Hedley Ave, Grays RM20 4EL United Kingdom</p>
+                        <li  className="mt-4">  <Link className="flex"
+                              href="https://www.google.com/maps/search/?api=1&query=UNIT+1+Hedley+Avenue+Grays+RM20+4EL+UK"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            ><LocationOnIcon style={{color:"#028D53"}} /><p>Unit 1D Hedley Ave, Grays RM20 4EL United Kingdom</p></Link>
                         </li>
                         </ul>
                         </div>
