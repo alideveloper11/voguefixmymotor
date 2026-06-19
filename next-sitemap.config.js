@@ -16,7 +16,6 @@ module.exports = {
                 priority: 0.8,
             });
         });
-
         // BLOGS
         slugs.blogs.forEach((slug) => {
            paths.push({
