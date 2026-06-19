@@ -2753,7 +2753,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     id: 16,
     name: "AdBlue Services",
     text: "AdBlue diagnostics, refills, and system repairs to maintain emissions compliance and performance.",
-    slug: "adBlue-services",
+    slug: "adblue-services",
     img:"/adblue serivice.jpg",
       Reviews:[
        {
@@ -3522,7 +3522,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     id: 20,
     name: "24/7 Vehicle Recovery",
     text: "Fast and reliable roadside recovery services available day and night when you need assistance.",
-    slug: "vehicle-Recovery",
+    slug: "vehicle-recovery",
     img:"/24-7 Vehicle Recovery.jpg",
       Reviews:[
        {
