@@ -1,9 +1,10 @@
 "use client"
 import Link from "next/link";
 import { FormEvent } from "react";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { useSearchParams } from "next/navigation";
+import { normalizeRegistration } from "@/lib/registration";
 export default function Contact(){
   const [loading, setLoading] = useState(false);
 const [serverError, setServerError] = useState("");
@@ -14,7 +15,7 @@ const [serverError, setServerError] = useState("");
   const [email,setEmail]=useState("");
   const [phone, setPhone] = useState("");
   const [postcode, setPostcode] = useState("");
-  const [registration, setRegistration] = useState("");
+  const [registration, setRegistration] = useState(() => normalizeRegistration(regFromUrl));
   const [message, setMessage] = useState("");
   const [error, setError] = useState<Record<string, string>>({});
 
@@ -24,7 +25,7 @@ const [serverError, setServerError] = useState("");
 async function form_validation(e: FormEvent<HTMLFormElement>) {
   e.preventDefault();
 
-  let newErrors: {
+  const newErrors: {
     email?: string;
     name?: string;
     phone?: string;
@@ -55,7 +56,10 @@ async function form_validation(e: FormEvent<HTMLFormElement>) {
     newErrors.email = "Enter a valid email address.";
 
   // REGISTRATION VALIDATION (optional)
-  if (registration && !/^[A-Z0-9]{1,8}$/.test(registration))
+  const normalizedRegistration = normalizeRegistration(registration);
+  if (registration && registration !== normalizedRegistration)
+    newErrors.registration = "Registration must be alphanumeric only (max 8 characters).";
+  else if (normalizedRegistration.length > 8)
     newErrors.registration = "Registration must be alphanumeric only (max 8 characters).";
 
   // POSTCODE VALIDATION (optional)
@@ -82,7 +86,7 @@ async function form_validation(e: FormEvent<HTMLFormElement>) {
         phone: phone,
         email: email,
         postcode: postcode,
-        vrm: registration,
+        vrm: normalizedRegistration,
         issue: message,  // YAHAN MESSAGE HAI, SERVICE NAHI
         browser: navigator.userAgent,
         ip_address: "Client-Side",
@@ -105,7 +109,7 @@ async function form_validation(e: FormEvent<HTMLFormElement>) {
         alert(data.error || "Something went wrong");
       }
       
-    } catch (error: any) {
+    } catch (error: unknown) {
       console.log(error);
       alert("Server Error. Please try again later.");
     } finally {
@@ -113,9 +117,6 @@ async function form_validation(e: FormEvent<HTMLFormElement>) {
     }
   }
 }
-  useEffect(() => {
-    setRegistration(regFromUrl);
-  }, [regFromUrl]);
     return(
 
           <div className="flex flex-wrap w-full">
@@ -160,13 +161,7 @@ async function form_validation(e: FormEvent<HTMLFormElement>) {
                                                     required
                                                     value={registration}
                                                     onChange={(e) => {
-    const value = e.target.value;
-
-    // remove special characters
-    const filtered = value.replace(/[^A-Za-z0-9 ]/g, "");
-
-    // convert to uppercase
-    setRegistration(filtered.toUpperCase());
+    setRegistration(normalizeRegistration(e.target.value));
   }}
                                                     placeholder="Enter Registration"
                                                     className="flex-1 px-4 py- registration w-full outline-none text-black"
@@ -336,7 +331,7 @@ async function form_validation(e: FormEvent<HTMLFormElement>) {
   )
 }</center>
                                                                     <div className="text-center text-[#4B5563] mt-1 mb-1 text-sm">
-                                                                                                    We'll respond to your message within 24 hours during business days
+                                                                                                    We&apos;ll respond to your message within 24 hours during business days
                                                                    </div>
                                                                     </div>
                                                                    

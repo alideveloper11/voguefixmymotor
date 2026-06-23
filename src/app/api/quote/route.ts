@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { normalizeRegistration } from "@/lib/registration";
 
 const PORTAL_URL = "https://portal.rangerovergarage.co.uk/api/quote";
 
@@ -22,6 +23,7 @@ export async function POST(request: NextRequest) {
 
         const fields: Record<string, string> = {
             ...body,
+            vrm: normalizeRegistration(String(body.vrm ?? "")),
             ip_address: (body.ip_address === "Client-Side" || !body.ip_address) ? ip : body.ip_address,
             browser: (body.browser === "Unknown" || !body.browser) ? userAgent : body.browser,
         };
