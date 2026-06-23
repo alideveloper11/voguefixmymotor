@@ -5,6 +5,7 @@ import {useState} from 'react'
 import servicesData from "@/lib/services_data/servicesData";
 import { useRef, useEffect } from "react";
 import { useRouter } from "next/navigation";
+import { normalizeRegistration } from "@/lib/registration";
 
 export default function HeroSection(){
   const router = useRouter();
@@ -41,7 +42,7 @@ useEffect(() => {
  async function form_validation(e: FormEvent<HTMLFormElement>) {
   e.preventDefault();
 
-  let newErrors: {
+  const newErrors: {
     email?: string;
     name?: string;
     phone?: string;
@@ -78,7 +79,10 @@ useEffect(() => {
     newErrors.postcode = "Enter a valid postcode.";
 
   // REGISTRATION VALIDATION (optional)
-  if (registration && !/^[A-Z0-9]{1,8}$/.test(registration))
+  const normalizedRegistration = normalizeRegistration(registration);
+  if (registration && registration !== normalizedRegistration)
+    newErrors.registration = "Registration must be alphanumeric only (max 8 characters).";
+  else if (normalizedRegistration.length > 8)
     newErrors.registration = "Registration must be alphanumeric only (max 8 characters).";
 
   // SERVICE VALIDATION
@@ -104,7 +108,7 @@ useEffect(() => {
         phone: phone,
         email: email,
         postcode: postcode,
-        vrm: registration,
+        vrm: normalizedRegistration,
         issue: serviceName,
         browser: navigator.userAgent,
         ip_address: "Client-Side",
@@ -174,13 +178,7 @@ useEffect(() => {
                                                     required
                                                     value={registration}
                                                     onChange={(e) => {
-    const value = e.target.value;
-
-    // remove special characters
-    const filtered = value.replace(/[^A-Za-z0-9 ]/g, "");
-
-    // convert to uppercase
-    setRegistration(filtered.toUpperCase());
+    setRegistration(normalizeRegistration(e.target.value));
   }}
                                                     placeholder="Enter Registration"
                                                     className="flex-1 px-4 py- registration w-full outline-none text-black"

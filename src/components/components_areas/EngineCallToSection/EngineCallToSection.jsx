@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
+import { normalizeRegistration } from "@/lib/registration";
 
 export default function EngineCallToSection()
 {
@@ -11,10 +12,11 @@ export default function EngineCallToSection()
   const router = useRouter();
 
   const handleSubmit = () => {
-    if (!regNumber) return;
+    const normalizedRegistration = normalizeRegistration(regNumber);
+    if (!normalizedRegistration) return;
 
     // redirect with query param
-    router.push(`/contact?reg=${encodeURIComponent(regNumber)}`);
+    router.push(`/contact?reg=${encodeURIComponent(normalizedRegistration)}`);
   };
         return(
             
@@ -52,13 +54,7 @@ export default function EngineCallToSection()
   type="text"
   value={regNumber}
   onChange={(e) => {
-    const value = e.target.value;
-
-    // remove special characters
-    const filtered = value.replace(/[^A-Za-z0-9 ]/g, "");
-
-    // convert to uppercase
-    setRegNumber(filtered.toUpperCase());
+    setRegNumber(normalizeRegistration(e.target.value));
   }}
   placeholder="Enter Registration"
   className="flex-1 px-4 py-4 outline-none text-white"
