@@ -29,21 +29,20 @@ export default function Large_screen_menus(){
         
  
     return(
-     
+     <div className="mx-12 ">
     <div className="flex flex-wrap w-full items-center  ">
          
-              <div className="w-1/24">
-              </div>
+              
               <div className="w-5/24">
               <Link href="/">
                     <img src="/logo.svg" className="w-22" alt="Logo" />
               </Link>    
               </div>
-              <div className="w-14/24 text-white">
+              <div className="w-15/24 text-white">
 
 
                           <Box className="menuBox flex gap-3" style={{fontSize:"10px"}}>
-                                     <Link href="/"><Button color="inherit" className="menu" style={{fontSize:"13px"}}>Home</Button></Link>
+                                     <Link href="/"><Button color="inherit" className="menu font-black" style={{fontSize:"13px",fontWeight:"600"}}>Home</Button></Link>
        
        <div
   className="relative py-[6px] menu"
@@ -59,7 +58,7 @@ export default function Large_screen_menus(){
   
   
   onMouseEnter={(e) => setAnchorProducts(e.currentTarget)}
- className="menu text-[13px] flex items-center">
+ className="menu text-[13px] font-bold flex items-center">
   SERVICES
   <ArrowDropDownIcon />
 </Link>
@@ -98,7 +97,7 @@ export default function Large_screen_menus(){
     style={{borderBottom:"1px solid #ccc"}}
     className="px-4 
 py-2 
-text-[18px]
+text-[14px]
 text-black
 hover:bg-[#ccc] 
 cursor-pointer 
@@ -106,7 +105,7 @@ border-b
 border-[#ccc]
 text-left"
   >
-    <Link href={`/services/${services.slug}`} className="w-full">
+    <Link href={`/services/${services.slug}`} className="w-full font-semibold">
       {services.name}
     </Link>
   </div>
@@ -119,18 +118,19 @@ text-left"
 
 
                         
-                                   <Link href="/areas"> <Button color="inherit" className="menu"  style={{fontSize:"13px"}}>Areas</Button></Link>
-                                    <Link href="/gallery"> <Button color="inherit" className="menu"  style={{fontSize:"13px"}}>Gallery</Button></Link>
-                                    <Link href="/about"> <Button color="inherit" className="menu"  style={{ fontSize: "13px", whiteSpace: "nowrap" }}>About Us</Button></Link>
+                                   <Link href="/areas"> <Button color="inherit" className="menu"  style={{fontSize:"13px",fontWeight:"bold"}}>Areas</Button></Link>
+                                    <Link href="/gallery"> <Button color="inherit" className="menu"  style={{fontSize:"13px",fontWeight:"bold"}}>Gallery</Button></Link>
+                                    <Link href="/about"> <Button color="inherit" className="menu"  style={{ fontSize: "13px",fontWeight:"bold", whiteSpace: "nowrap" }}>About Us</Button></Link>
                                   
-                                    <Link href="/reviews">  <Button color="inherit" className="menu"  style={{fontSize:"13px"}}>Reviews</Button></Link>
-                                   <Link href="/blog">  <Button color="inherit" className="menu"  style={{fontSize:"13px"}}>Blogs</Button></Link>
+                                    <Link href="/reviews">  <Button color="inherit" className="menu"  style={{fontSize:"13px",fontWeight:"bold"}}>Reviews</Button></Link>
+                                   <Link href="/blog">  <Button color="inherit" className="menu"  style={{fontSize:"13px",fontWeight:"bold"}}>Blogs</Button></Link>
                                     </Box>
               </div>
-              <div className="w-4/24 text-center">
+              <div className="w-4/24 flex justify-end text-center">
              <Link href="/contact">  <button id="get_Qoute" className="cursor-pointer">Contact</button></Link>
 
               </div>
+    </div>
     </div>
     );
 }

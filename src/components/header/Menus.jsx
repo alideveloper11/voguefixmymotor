@@ -24,11 +24,11 @@ export default function Menus() {
   }, []);
 
   return (
-    <>
+    <div>
       <div ref={menuRef}></div>
 
       <div
-        className={`w-full bg-black z-50 ${
+        className={`w-full border-b-[2px] border-b-white bg-black z-50 ${
           fixed ? "fixed top-0 left-0" : "relative"
         }`}
       >
@@ -42,6 +42,6 @@ export default function Menus() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }

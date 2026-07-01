@@ -6,17 +6,18 @@ export default function Herosection()
         return(
           
           <>
-    <div className="flex  flex-wrap  h-[400px] items-center justify-center" id="second_hero_section">
-      <div className="w-full items-center justify-center">
-            <h1 className="text-white font-bold text-2xl md:text-3xl">
+    <div className="flex  flex-wrap  min-h-[480px] items-center  justify-center" id="second_hero_section">
+      <div className="w-full my-10 items-center justify-center">
+        <center><div className='w-[80%] lg:w-[60%] '>
+            <h1 className="text-white font-bold  leading-7 tracking-[0.015em] text-2xl md:text-3xl">
               Car Services & Engine Repair in Grays, Essex
             </h1>
-            <p className="text-white  text-sm md:text-[16px] ml-10 mr-10">
+            <p className="text-white  leading-7 tracking-[0.015em] mt-2  text-sm md:text-[16px]  text-justify">
               Vogue Fix My Motor offers a full range of engine repair and car services in Grays, Essex. From diagnostics and clutch replacement to DPF cleaning and head gasket repair — all makes and models welcome.
             </p>
-            
+            </div></center>
       <div className="w-full ">
-             <center> <div className="bg-black w-[80%] lg:w-[60%] mt-5" style={{ borderRadius:"10px"}}>
+             <center> <div className="bg-black py-5 mt-5 w-[80%] lg:w-[60%] " style={{ borderRadius:"10px"}}>
               <p className="text-white  font-bold ">Enter your registration for a free instant quote</p>
             <div className="flex  items-center justify-center">
                       

@@ -86,10 +86,10 @@ export default function Services()
                                             <div className="w-24/24 pb-5">
                                             
                     <Link href="/services">
-                                             <button
-                                                className="block mx-auto  font-bold bg-[#088751] hover:bg-[#046b3f]  cursor-pointer text-white px-17 py-[7px] rounded">
-                                                View All Services
-                                                </button></Link>
+                                              <button
+                            className="block mx-auto  font-bold bg-[#088751] hover:bg-[#046b3f]  cursor-pointer text-white px-10 lg:px-17 py-[8px] lg:py-[12px] rounded-xl">
+                            View All Services
+                            </button></Link>
                                             </div> 
                                            </div>
                                    
