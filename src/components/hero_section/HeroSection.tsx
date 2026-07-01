@@ -142,25 +142,24 @@ useEffect(() => {
     return(
           <form onSubmit={form_validation} noValidate>
    
-                <div className="flex flex-wrap min-h-[700px] md:h-[600px]" id="hero_section">
-                 <div className="w-full md:w-6/12  flex items-center justify-center">
-                        <div className="m-6 md:m-15">
-                            <h1 className="font-bold text-left text-white text-[40px]">
+                <div className="flex py-10  min-h-[600px] " id="hero_section">
+                  <div className="flex flex-wrap mx-6 md:mx-10 ">
+                 <div className="w-full md:w-6/12 md:pr-4 mt-5  flex  justify-center">
+                        <div className="">
+                            <h1 className="font-bold text-left text-white text-[30px] lg:text-[40px]">
                                 Expert Engine Repair & Diagnostics in Grays, Essex
                             </h1>
-                            <p className="font-bold text-left text-white text-[12px] mt-3">
-                                Welcome to Vogue Fix My Motor — Grays&apos; trusted engine repair and car diagnostics specialists.
-                                Serving Grays, Tilbury, Purfleet, Ockendon, Hornchurch and all areas within 10 miles.
-                                Get a free quote and have your vehicle back on the road fast.
-                            </p>
+                            <p className="font-medium text-left text-white text-[14px] leading-6 mt-3">
+  <span className="font-bold text-[#059669]">Vogue Fix My Motor</span> provides trusted engine repairs, advanced diagnostics, and expert vehicle care across Grays and surrounding areas. Serving Grays, Tilbury, Purfleet, Ockendon, Hornchurch, and locations within 10 miles. Request your free quote today and drive away with confidence.
+</p>
                         </div>
                  </div>
-                 <div className="w-full md:w-6/12  flex items-center justify-center text-sm">
-                                <div className="w-full mr-0 md:mr-9">
-                                   <div className="m-6" style={{backgroundColor:"black", borderRadius:"10px"}} >
+                 <div className="w-full md:pl-4 md:w-6/12 mt-5 flex flex-wrap justify-center text-sm">
+                                <div className="w-full ">
+                                   <div className="" style={{backgroundColor:"black", borderRadius:"10px"}} >
                                        
                                       
-                                     <div className="w-full text-left p-0 m-0 ">
+                                     <div className="w-full text-left  ">
                                       
                                                                                <div className="p-5">
                                                                                 <p className="text-left font-bold text-white mt-4">Get a Free Quote</p>
@@ -327,7 +326,7 @@ useEffect(() => {
   disabled={loading}
   className="w-full mt-5 mb-5 pt-2 pb-2 text-white cursor-pointer font-bold rounded-md"
   style={{
-    background: "radial-gradient(53.6% 50% at 46.4% 50%, #00BC71 0%, #036F3D 100%)",
+    background: "radial-gradient(53.6% 50% at 46.4% 50%, #00BC71 0%, #059669 100%)",
   }}
 >
   {loading ? "Sending..." : "Get Quotation"}
@@ -340,6 +339,7 @@ useEffect(() => {
                                 </div>
                                  
                                 </div>
+                 </div>
                  </div>
                  </div>
                  </form>
