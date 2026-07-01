@@ -142,15 +142,53 @@ useEffect(() => {
     return(
           <form onSubmit={form_validation} noValidate>
    
-                <div className="flex py-10  min-h-[600px] " id="hero_section">
-                  <div className="flex flex-wrap mx-6 md:mx-10 ">
+                <div className="flex py-3 pb-10 md:py-10  min-h-[600px] " id="hero_section">
+                  <div className="flex flex-wrap mx-5 md:mx-15 ">
                  <div className="w-full md:w-6/12 md:pr-4 mt-5  flex  justify-center">
                         <div className="">
-                            <h1 className="font-bold text-left text-white text-[30px] lg:text-[40px]">
+                            <h1 className=" text-left text-white text-[30px] lg:text-[40px]   font-black
+    tracking-tight
+    text-[#f8f8f8]
+    [text-shadow:
+      0_1px_0_#ffffff,
+      0_2px_0_#f0f0f0,
+      0_3px_0_#d9d9d9,
+      0_4px_0_#c2c2c2,
+      0_5px_0_#ababab,
+      0_6px_8px_rgba(0,0,0,0.35)
+    ]">
                                 Expert Engine Repair & Diagnostics in Grays, Essex
                             </h1>
-                            <p className="font-medium text-left text-white text-[14px] leading-6 mt-3">
-  <span className="font-bold text-[#059669]">Vogue Fix My Motor</span> provides trusted engine repairs, advanced diagnostics, and expert vehicle care across Grays and surrounding areas. Serving Grays, Tilbury, Purfleet, Ockendon, Hornchurch, and locations within 10 miles. Request your free quote today and drive away with confidence.
+                       
+<p className="text-left text-white/90 text-[15px] lg:text-[18px] leading-8 tracking-[0.02em] font-normal mt-4 max-w-3xl">
+  <span className="font-extrabold text-[#059669]">
+    Vogue Fix My Motor
+  </span>{" "}
+  provides trusted{" "}
+  <span className="font-semibold text-white">
+    engine repairs
+  </span>
+  ,{" "}
+  <span className="font-semibold text-white">
+    advanced diagnostics
+  </span>
+  , and expert vehicle care across{" "}
+  <span className="text-[#059669] font-semibold">
+    Grays
+  </span>{" "}
+  and surrounding areas. Proudly serving{" "}
+  <span className="text-white font-medium">
+    Grays, Tilbury, Purfleet, Ockendon, Hornchurch
+  </span>{" "}
+  and locations within{" "}
+  <span className="font-bold text-[#059669]">
+    10 miles
+  </span>
+  . Request your{" "}
+  <span className="font-bold text-[#059669]">
+    free quote
+  </span>{" "}
+  today and drive away with confidence.
 </p>
                         </div>
                  </div>

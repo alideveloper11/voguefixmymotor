@@ -16,7 +16,7 @@ export default function TopMakes() {
 
   let animationFrame;
   let position = 0;
-  const speed = 3;
+  const speed = 2;
 
   const firstSet = track.children.length / 2;
   let singleSetWidth = 0;

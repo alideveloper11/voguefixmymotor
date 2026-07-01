@@ -20,7 +20,13 @@ const reviewsData = [
     text: "These guys are fantastic, booked me in for an emergency diagnostic on the same day. Jack was Very clear and honest with his advice based on my specific engine. Taking my other car to be checked next week too!",
     rating: 5
   },
- 
+ {
+          id: 12,
+          name: "Emily Evans",
+          time: "5 months ago",
+          text: "What an amazing business, recently had a vehicle repaired with them and I couldn’t have asked for more. Jack was informative and so helpful with any questions I had, the work was completed to the highest of standards at a very competitive rate. They managed to help me out in a really difficult situation! So Thankful for you guys!",
+          rating: 5
+        },
 
 ];
 
