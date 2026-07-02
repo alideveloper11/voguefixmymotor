@@ -20,13 +20,7 @@ const saleParts = [
     price:"£800",
     image:"/sale_parts/head.png"
   },
-   {
-    id:9,
-    name:"Alternator",
-    text:"Restore vehicle’s electrical performance with our alternator service.",
-    price:"£500",
-    image:"/sale_parts/alternator.png"
-  },
+  
   {
     id:4,
     name:"Cylinder Head",
@@ -63,6 +57,13 @@ const saleParts = [
     text:"Keep engine cool and running smoothly with our water pump service.",
     price:"£500",
     image:"/sale_parts/water-pump.webp"
+  },
+   {
+    id:9,
+    name:"Alternator",
+    text:"Restore vehicle’s electrical performance with our alternator service.",
+    price:"£500",
+    image:"/sale_parts/alternator.png"
   },
   
   {

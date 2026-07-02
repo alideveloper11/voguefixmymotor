@@ -21,7 +21,7 @@ export default function SalePartsSlider() {
     const scrollLeft = el.scrollLeft;
     const maxScroll = el.scrollWidth - el.clientWidth;
 
-    setShowLeft(scrollLeft > 0);
+    setShowLeft(scrollLeft > 10);
     setShowRight(scrollLeft < maxScroll - 1);
   };
 
@@ -87,7 +87,7 @@ export default function SalePartsSlider() {
             w-full
             no-scrollbar
 
-            px-2
+            p-2
           "
         >
           {saleParts.map((part) => (
