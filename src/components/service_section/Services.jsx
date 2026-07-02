@@ -25,7 +25,7 @@ export default function Services()
                         <div className="w-full text-center text-black">
                        <div className="mt-5">
                         <h2 className="text-2xl font-bold">Engine Repair & Car Services in Grays, Essex</h2>
-                         <center><p className=" w-full md:w-[60%]  lg:w-[40%] text-center "
+                         <center><p className=" w-full md:w-[80%]  lg:w-[60%] text-center leading-7 tracking-[0.04em] "
                          style={{ fontSize:"14px",marginBottom:"20px", marginTop:"10px", color:"#4B5563"}}>
                           From engine diagnostics and rebuilds to full car servicing, Vogue Fix My Motor provides reliable solutions for all makes and models across Grays and the surrounding Essex area.
                           </p>
@@ -54,7 +54,7 @@ export default function Services()
                                          <div className="shadow-layer"></div>
                                 </div>
                                 
-                             <p className="font-bold text-2xl">
+                             <p className="font-bold text-2xl mx-3">
                               {services.name}
                              
                               
@@ -62,7 +62,7 @@ export default function Services()
                
                             
                
-                             <p className="mt-3 h-20 overflow-hidden ">
+                             <p className="mt-3 mx-3 h-20 leading-7 tracking-[0.04em] overflow-hidden ">
                                {services.text}
                            </p>
                            <div>

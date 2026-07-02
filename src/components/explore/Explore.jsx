@@ -25,7 +25,7 @@ return(
                 <h2 className="font-bold text-[28px]">
                     Explore Our Repair Gallery
                 </h2>
-                <p className="text-left pt-5 pb-5">
+                <p className="text-left pt-5 pb-5 leading-7 tracking-[0.04em]">
                    Results speak louder than words. Take a closer look at the quality behind
                     every repair we complete in Grays, Essex. From engine diagnostics to full restorations,
                     our gallery showcases real vehicles worked on by our experienced technicians.

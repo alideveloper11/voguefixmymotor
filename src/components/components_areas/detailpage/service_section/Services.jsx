@@ -20,8 +20,8 @@ export default function Services({servicesData})
                                             <div className="w-full text-center text-black">
                                            <div className="mt-5">
                                             <h2 className="text-2xl font-bold">Car Repair & Engine Services Available in Your Area</h2>
-                                             <center><p className=" w-full md:w-[60%]  lg:w-[40%] text-center "
-                                             style={{ fontSize:"14px",marginBottom:"20px", marginTop:"10px", color:"#4B5563"}}>
+                                             <center><p className=" w-full md:w-[80%]  lg:w-[60%] text-center leading-7 tracking-[0.04em] "
+                         style={{ fontSize:"14px",marginBottom:"20px", marginTop:"10px", color:"#4B5563"}}>
                                               Vogue Fix My Motor offers a full range of engine repair and car services to customers across Essex. Browse our services below and book online for a free quote.
                                               </p>
                                               </center>
@@ -49,7 +49,7 @@ export default function Services({servicesData})
                                                              <div className="shadow-layer"></div>
                                                     </div>
                                                     
-                                                 <p className="font-bold text-2xl">
+                                                 <p className="font-bold mx-3 text-2xl">
                                                   {services.name}
                                                  
                                                   
@@ -57,7 +57,7 @@ export default function Services({servicesData})
                                    
                                                 
                                    
-                                                 <p className="mt-3 h-20 overflow-hidden ">
+                                                 <p className="mt-3 h-20 mx-3 overflow-hidden leading-7 tracking-[0.04em]  ">
                                                    {services.text}
                                                </p>
                                                <div>

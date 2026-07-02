@@ -26,8 +26,8 @@ export default function Services()
                                             <div className="w-full text-center text-black">
                                            <div className="mt-5">
                                             <h2 className="text-2xl font-bold">All Car Repair & Engine Services Near Grays, Essex</h2>
-                                             <center><p className=" w-full md:w-[60%]  lg:w-[40%] text-center "
-                                             style={{ fontSize:"14px",marginBottom:"20px", marginTop:"10px", color:"#4B5563"}}>
+                                             <center><p className=" w-full md:w-[80%]  lg:w-[60%] text-center leading-7 tracking-[0.04em] "
+                         style={{ fontSize:"14px",marginBottom:"20px", marginTop:"10px", color:"#4B5563"}}>
                                               Vogue Fix My Motor offers engine repair, diagnostics, and a full range of car services to customers across Essex. All makes and models welcome.
                                               </p>
                                               </center>
@@ -55,7 +55,7 @@ export default function Services()
                                                              <div className="shadow-layer"></div>
                                                     </div>
                                                     
-                                                 <p className="font-bold text-2xl">
+                                                 <p className="font-bold mx-3 text-2xl">
                                                   {services.name}
                                                  
                                                   
@@ -63,7 +63,7 @@ export default function Services()
                                    
                                                 
                                    
-                                                 <p className="mt-3 h-20 overflow-hidden ">
+                                                 <p className="mt-3 h-20 overflow-hidden leading-7 mx-3 tracking-[0.04em]  ">
                                                    {services.text}
                                                </p>
                                                <div>

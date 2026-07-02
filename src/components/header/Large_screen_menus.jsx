@@ -45,7 +45,7 @@ export default function Large_screen_menus(){
                                      <Link href="/"><Button color="inherit" className="menu font-black" style={{fontSize:"13px",fontWeight:"600"}}>Home</Button></Link>
        
        <div
-  className="relative py-[6px] menu"
+  className="relative py-[6px] menu "
   onMouseEnter={() => setAnchorProducts(true)}
   onMouseLeave={() => setAnchorProducts(false)}
   onClick={handleCloseMenus}
@@ -58,7 +58,7 @@ export default function Large_screen_menus(){
   
   
   onMouseEnter={(e) => setAnchorProducts(e.currentTarget)}
- className="menu text-[13px] font-bold flex items-center">
+ className="menu text-[13px]  flex items-center" style={{fontWeight:"bold"}}>
   SERVICES
   <ArrowDropDownIcon />
 </Link>
@@ -67,28 +67,38 @@ export default function Large_screen_menus(){
   <div
       className={`
          absolute top-full left-0 
-       w-[300px] 
-        max-h-[350px] 
-        overflow-y-auto 
-        rounded-xl 
-        bg-[white] 
+       
+        bg-[#0d0d0d]
+        text-white
+        py-2
+        rounded-lg
+       
          
-        shadow-lg 
-        z-50
-
-        transition-all duration-300 ease-in-out
-        ${anchorProducts
+        
+        shadow-[0_0_20px_#4f4f4f]
+         ${anchorProducts
   ? "opacity-100 translate-y-0 scale-100"
   : "opacity-0 -translate-y-3 scale-95 pointer-events-none"
 }
-        `}
+transition-all duration-300 ease-in-out
+
+        
+       `}
        
       
-      style={{
-    scrollbarWidth: "thin",
-    scrollbarColor: "#ccc #ffffff ",
-  }}
+   
     >
+        
+      <div className={`overflow-y-auto  rounded-lg  w-[300px] 
+        max-h-[350px]   z-50    ${anchorProducts
+  ? "opacity-100 translate-y-0 scale-100"
+  : "opacity-0 -translate-y-3 scale-95 pointer-events-none"
+}
+transition-all duration-300 ease-in-out
+      `}    style={{
+    scrollbarWidth: "thin",
+    scrollbarColor: "#ccc #0d0d0d ",
+  }}>
 
   {servicesData.map((services) => (
   <div
@@ -98,8 +108,9 @@ export default function Large_screen_menus(){
     className="px-4 
 py-2 
 text-[14px]
-text-black
+text-white
 hover:bg-[#ccc] 
+hover:text-black
 cursor-pointer 
 border-b 
 border-[#ccc]
@@ -109,7 +120,9 @@ text-left"
       {services.name}
     </Link>
   </div>
+  
 ))}
+</div>
 </div>
 </div>
 
