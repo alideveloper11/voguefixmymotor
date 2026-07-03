@@ -25,14 +25,14 @@ export default function EngineCallToSection()
   transition={{ duration: 0.8 }}
   viewport={{ once: true }}
                              id="engin_call_to_section" className="flex flex-wrap w-full " style={{ height: "450px" }}>
-                                 <div className="w-full sm:w-24/24 md:w-12/24 lg:w-12/24 flex items-center justify-center">
+                                 <div className="w-full leading-7 tracking-[0.04em] sm:w-24/24 md:w-12/24 lg:w-12/24 flex items-center justify-center">
                                  <div style={{width:"90%"}} className=" md:ml-15 md:mr-5  items-center justify-center">
-                                        <h2 className="text-left  text-white font-bold" style={{fontSize:"30px"}}>
+                                        <h2 className="text-left leading-10 tracking-[0.04em]  py-2 text-white font-bold" style={{fontSize:"30px"}}>
                                         Engine Problems in Grays, Essex? <br />
                                         Get Them Fixed Properly
                                         </h2>
 
-                                        <p  className="text-left text-white  " style={{fontSize:"12px"}} >
+                                        <p  className="text-left py-2 text-white text-[12px] md:text-[14px] lg:text-[15px] " >
                                                 Is your car losing power, overheating,
                                                  or making unusual engine noises?
                                                  Delaying engine diagnostics can cause

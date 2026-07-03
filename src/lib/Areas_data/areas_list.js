@@ -3,7 +3,7 @@
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
     green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -69,45 +69,48 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 ]
 },
-
-  servicesData:[
+   servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Initial-Diagnostics",
-    img:"/Initial Diagnostics.jpeg",
+    slug: "Initial-Diagnostics", 
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Cam-Belts",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
+    img:"/Welding Services.webp",
   },
    {
-    id: 19,
-    name: "Locking Wheel Nut Removal / Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Locking-Wheel-Nut-Removal-Replacement",
+      id: 22,
+      name: "Diagnostics",
+      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+      slug: "Diagnostics",
+      img:"/Diagnostics.webp",
   },
    
-  {
-    id: 20,
-    name: "24/7 Vehicle Recovery",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "24-7-Vehicle-Recovery",
+ {
+    id: 25,
+    name: "Alternator Replacement",
+    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.webp",
   },
-   {
-    id: 21,
-    name: "Valeting Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Valeting-Services",
+    {
+       id: 41,
+       name: "Oil Change Service",
+       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+       slug: "oil-change-service",
+       img:"/Oil Change.webp",
   },
 
 ],
@@ -147,7 +150,7 @@ requestqoute:{
     "Coolant crossover pipe gasket",
     "Belt-driven pump service"
   ],
-  image:"/vogue fix my motor image 14.jpg"
+  image:"/vogue fix my motor image 14.webp"
 }
 ,
    
@@ -221,7 +224,7 @@ requestqoute:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
         green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -293,27 +296,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -321,14 +324,14 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
 
 ],
@@ -370,7 +373,7 @@ faq:[
     "Blind-spot monitor verification",
     "Parking sensor aiming"
   ],
-  image:"/vogue fix my motor image 15.jpg"
+  image:"/vogue fix my motor image 15.webp"
 }
 ,
      
@@ -443,7 +446,7 @@ faq:[
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
         green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -515,27 +518,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -543,14 +546,14 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
 
 ],
@@ -592,7 +595,7 @@ requestqoute:{
     "Headliner cleaning",
     "Vent and duct sanitising"
   ],
-  image:"/vogue fix my motor image 17.jpg"
+  image:"/vogue fix my motor image 17.webp"
 },
     
        Reviews:[
@@ -643,7 +646,7 @@ requestqoute:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
         green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -715,27 +718,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -743,14 +746,14 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
 
 ],
@@ -791,7 +794,7 @@ faq:[
     "Spark plug thread repair",
     "Seized bolt removal"
   ],
-  image:"/vogue fix my motor image 18.jpg"
+  image:"/vogue fix my motor image 18.webp"
 },
     
       Reviews:[
@@ -844,7 +847,7 @@ faq:[
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
         green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -916,27 +919,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -944,14 +947,14 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
 
 ],
@@ -992,7 +995,7 @@ requestqoute:{
     "Boost leak detection under load",
     "Before-and-after tuning comparison"
   ],
-  image:"/wowimage.jpg"
+  image:"/wowimage.webp"
 },
     
      Reviews:[
@@ -1092,7 +1095,7 @@ requestqoute:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -1164,27 +1167,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -1192,14 +1195,14 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
 
 ],
@@ -1241,7 +1244,7 @@ faq:[
     "Complete hub unit replacement",
     "ABS sensor cleaning"
   ],
-  image:"/vogue fix my motor image 20.jpg"
+  image:"/vogue fix my motor image 20.webp"
 },
        Reviews:[
        {
@@ -1323,7 +1326,7 @@ faq:[
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -1395,27 +1398,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -1423,14 +1426,14 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
 
 ],
@@ -1471,7 +1474,7 @@ faq:[
     "Vacuum line integrity check",
     "Tensioner and pulley replacement"
   ],
-  image:"/vogue fix my motor image 21.jpg"
+  image:"/vogue fix my motor image 21.webp"
 }
 ,
   
@@ -1533,7 +1536,7 @@ faq:[
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -1605,27 +1608,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -1633,14 +1636,14 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
 
 ],
@@ -1681,7 +1684,7 @@ faq:[
     "Future repair cost projection",
     "Digital photo reports"
   ],
-  image:"/vogue fix my motor image 22.jpg"
+  image:"/vogue fix my motor image 22.webp"
 },
     
      Reviews:[
@@ -1743,7 +1746,7 @@ faq:[
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -1815,27 +1818,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -1843,14 +1846,14 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
 
 ],
@@ -1891,7 +1894,7 @@ requestqoute:{
     "Flat tire and puncture repair",
     "Diagnostic scan at your location"
   ],
-  image:"/3.jpg"
+  image:"/3.webp"
 },
       
       Reviews:[
@@ -1950,7 +1953,7 @@ requestqoute:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -2022,27 +2025,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -2050,14 +2053,14 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
 
 ],
@@ -2096,7 +2099,7 @@ faq:[
     "UV rejection verification",
     "Bubble-free guarantee"
   ],
-  image:"/slider_section_image.jpg"
+  image:"/slider_section_image.webp"
 },
    
       Reviews:[
@@ -2148,7 +2151,7 @@ faq:[
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -2220,27 +2223,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -2248,14 +2251,14 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
 
 ],
@@ -2294,7 +2297,7 @@ faq:[
     "Dual-mass flywheel inspection",
     "Clutch pedal adjustment"
   ],
-  image:"/description.jpg"
+  image:"/description.webp"
 },
   
        Reviews:[
@@ -2344,7 +2347,7 @@ faq:[
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -2416,27 +2419,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -2444,14 +2447,14 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
 
 ],
@@ -2491,7 +2494,7 @@ faq:[
     "Heater and demister inspection",
     "Winter tire tread check"
   ],
-  image:"/2.jpg"
+  image:"/2.webp"
 },
     
       Reviews:[
@@ -2544,7 +2547,7 @@ faq:[
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -2616,27 +2619,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -2644,14 +2647,14 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
 
 ],
@@ -2690,7 +2693,7 @@ faq:[
     "Fuel pump pressure test",
     "Fuel tank contamination check"
   ],
-  image:"/vogue fix my motor image 9.jpg"
+  image:"/vogue fix my motor image 9.webp"
 }
 ,
   
@@ -2747,7 +2750,7 @@ faq:[
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -2819,27 +2822,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -2847,14 +2850,14 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
 
 ],
@@ -2895,7 +2898,7 @@ served:{
     "Module coding and updates",
     "Service light reset"
   ],
-  image:"/1.jpg"
+  image:"/1.webp"
 }
 ,
    
@@ -2949,7 +2952,7 @@ served:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -3021,27 +3024,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -3049,14 +3052,14 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
 
 ],
@@ -3097,7 +3100,7 @@ requestqoute:{
     "Camshaft seal fitting",
     "Post-repair timing verification"
   ],
-  image:"/vogue fix my motor image 14.jpg"
+  image:"/vogue fix my motor image 14.webp"
 },
   
 
@@ -3152,7 +3155,7 @@ requestqoute:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -3224,27 +3227,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -3252,14 +3255,14 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
 
 ],
@@ -3299,7 +3302,7 @@ requestqoute:{
     "Mechanical brake overhaul",
     "Period-correct part sourcing"
   ],
-  image:"/vogue fix my motor image 15.jpg"
+  image:"/vogue fix my motor image 15.webp"
 }
 ,
         Reviews:[
@@ -3368,7 +3371,7 @@ requestqoute:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -3440,27 +3443,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -3468,14 +3471,14 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
 
 ],
@@ -3514,7 +3517,7 @@ faq:[
     "NOx sensor replacement",
     "AdBlue tank heater repair"
   ],
-  image:"/vogue fix my motor image 17.jpg"
+  image:"/vogue fix my motor image 17.webp"
 },
     Reviews:[
        {
@@ -3569,7 +3572,7 @@ faq:[
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -3641,27 +3644,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -3669,14 +3672,14 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
 
 ],
@@ -3717,7 +3720,7 @@ served:{
     "Intercooler leak check",
     "New or reconditioned turbo fitting"
   ],
-  image:"/vogue fix my motor image 18.jpg"
+  image:"/vogue fix my motor image 18.webp"
 }
 ,
    Reviews:[
@@ -3772,7 +3775,7 @@ served:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -3844,27 +3847,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -3872,14 +3875,14 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
 
 ],
@@ -3919,7 +3922,7 @@ faq:[
     "Full panel respray with clear coat",
     "Rust treatment and prevention"
   ],
-  image:"/wowimage.jpg"
+  image:"/wowimage.webp"
 },
 
       Reviews:[
@@ -3977,7 +3980,7 @@ faq:[
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -4049,27 +4052,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -4077,14 +4080,14 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
 
 ],
@@ -4125,7 +4128,7 @@ faq:[
     "Regenerative brake service",
     "Charging port repair"
   ],
-  image:"/vogue fix my motor image 20.jpg"
+  image:"/vogue fix my motor image 20.webp"
 }
 ,
       Reviews:[
@@ -4176,7 +4179,7 @@ faq:[
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -4248,27 +4251,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -4276,14 +4279,14 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
 
 ],
@@ -4324,7 +4327,7 @@ requestqoute:{
     "EGR and DPF delete where legal",
     "Economy tune for better MPG"
   ],
-  image:"/vogue fix my motor image 21.jpg"
+  image:"/vogue fix my motor image 21.webp"
 },
      Reviews:[
        {
@@ -4381,7 +4384,7 @@ requestqoute:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -4453,27 +4456,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -4481,14 +4484,14 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
 
 ],
@@ -4530,7 +4533,7 @@ requestqoute:{
     "Valve cover and oil pan gasket replacement",
     "Rear main seal repair"
   ],
-  image:"/vogue fix my motor image 22.jpg"
+  image:"/vogue fix my motor image 22.webp"
 }, 
        Reviews:[
        {
@@ -4583,7 +4586,7 @@ requestqoute:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -4655,27 +4658,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -4683,14 +4686,14 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
 
 ],
@@ -4730,7 +4733,7 @@ served:{
     "Windscreen and wiper check",
     "Number plate and mirror compliance"
   ],
-  image:"/3.jpg"
+  image:"/3.webp"
 }, 
       Reviews:[
        {
@@ -4788,7 +4791,7 @@ served:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -4860,27 +4863,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -4888,14 +4891,14 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
 
 ],
@@ -4935,7 +4938,7 @@ served:{
     "Mobile workshop for commercial vans",
     "Digital service records per vehicle"
   ],
-  image:"/slider_section_image.jpg"
+  image:"/slider_section_image.webp"
 }
 , 
       Reviews:[
@@ -5027,7 +5030,7 @@ served:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -5099,27 +5102,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -5127,14 +5130,14 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
 
 ],
@@ -5174,7 +5177,7 @@ faq:[
     "UV rejection verification",
     "Bubble-free guarantee"
   ],
-  image:"/slider_section_image.jpg"
+  image:"/slider_section_image.webp"
 },
     
       Reviews:[
@@ -5230,7 +5233,7 @@ faq:[
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -5302,27 +5305,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -5330,14 +5333,14 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
 
 ],
@@ -5377,7 +5380,7 @@ served:{
     "Mobile workshop for commercial vans",
     "Digital service records per vehicle"
   ],
-  image:"/slider_section_image.jpg"
+  image:"/slider_section_image.webp"
 }
 , 
       Reviews:[
@@ -5426,7 +5429,7 @@ served:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -5498,27 +5501,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -5526,14 +5529,14 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
 
 ],
@@ -5574,7 +5577,7 @@ served:{
     "EGR valve removal and carbon clean",
     "Differential pressure sensor check"
   ],
-  image:"/description.jpg"
+  image:"/description.webp"
 },       Reviews:[
        {
     id: 1,
@@ -5621,7 +5624,7 @@ served:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -5693,27 +5696,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -5721,14 +5724,14 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
 
 ],
@@ -5769,7 +5772,7 @@ served:{
     "Headlight beam alignment",
     "Broken housing repair"
   ],
-  image:"/2.jpg"
+  image:"/2.webp"
 }
 ,    Reviews:[
        {
@@ -5818,7 +5821,7 @@ served:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -5890,27 +5893,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -5918,14 +5921,14 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
 
 ],
@@ -5966,7 +5969,7 @@ faq:[
     "OBD2 fault code scan",
     "Road test evaluation"
   ],
-  image:"/vogue fix my motor image 9.jpg"
+  image:"/vogue fix my motor image 9.webp"
 }
 ,
       Reviews:[
@@ -6019,7 +6022,7 @@ faq:[
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -6091,27 +6094,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -6119,14 +6122,14 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
 
 ],
@@ -6166,7 +6169,7 @@ served:{
     "Puncture repair and patch",
     "TPMS sensor service"
   ],
-  image:"/1.jpg"
+  image:"/1.webp"
 }
 ,  
       Reviews:[
@@ -6235,7 +6238,7 @@ served:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -6307,27 +6310,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -6335,14 +6338,14 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
 
 ],
@@ -6383,7 +6386,7 @@ served:{
     "Wiring harness fault tracing",
     "Light bulb and fuse replacement"
   ],
-  image:"/vogue fix my motor image 14.jpg"
+  image:"/vogue fix my motor image 14.webp"
 },
       Reviews:[
        {
@@ -6443,7 +6446,7 @@ served:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -6515,27 +6518,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -6543,14 +6546,14 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
 
 ],
@@ -6591,7 +6594,7 @@ served:{
     "Thermostat and coolant hose fitting",
     "Coolant flush and refill"
   ],
-  image:"/vogue fix my motor image 15.jpg"
+  image:"/vogue fix my motor image 15.webp"
 }, 
       Reviews:[
        {
@@ -6649,7 +6652,7 @@ served:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -6721,27 +6724,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -6749,14 +6752,14 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
 
 ],
@@ -6798,7 +6801,7 @@ served:{
     "CVT belt and pulley service",
     "Full gearbox rebuild with warranty"
   ],
-  image:"/vogue fix my motor image 17.jpg"
+  image:"/vogue fix my motor image 17.webp"
 },
        Reviews:[
        {
@@ -6844,7 +6847,7 @@ served:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -6916,27 +6919,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -6944,14 +6947,14 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
 
 ],
@@ -6992,7 +6995,7 @@ faq:[
     "Condenser and evaporator replacement",
     "Cabin air filter change"
   ],
-  image:"/vogue fix my motor image 18.jpg"
+  image:"/vogue fix my motor image 18.webp"
 },      Reviews:[
        {
     id: 1,
@@ -7052,7 +7055,7 @@ faq:[
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -7124,27 +7127,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -7152,14 +7155,14 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
 
 ],
@@ -7201,7 +7204,7 @@ served:{
     "Oxygen sensor fault repair",
     "Custom exhaust fabrication available"
   ],
-  image:"/wowimage.jpg"
+  image:"/wowimage.webp"
 },
       Reviews:[
        {
@@ -7256,7 +7259,7 @@ served:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -7328,27 +7331,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -7356,14 +7359,14 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
 
 ],
@@ -7403,7 +7406,7 @@ faq:[
     "Coolant and brake fluid top-up",
     "Multi-point inspection included"
   ],
-  image:"/vogue fix my motor image 20.jpg"
+  image:"/vogue fix my motor image 20.webp"
 },
        Reviews:[
        {
@@ -7458,7 +7461,7 @@ faq:[
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -7530,27 +7533,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -7558,14 +7561,14 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
 
 ],
@@ -7606,7 +7609,7 @@ requestqoute:{
     "Power steering pump repair",
     "Wheel alignment after suspension work"
   ],
-  image:"/vogue fix my motor image 21.jpg"
+  image:"/vogue fix my motor image 21.webp"
 },
       Reviews:[
        {
@@ -7657,7 +7660,7 @@ requestqoute:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -7729,27 +7732,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -7757,14 +7760,14 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
 
 ],
@@ -7806,7 +7809,7 @@ served:{
     "Pressure test for cracks",
     "New head bolts and reassembly"
   ],
-  image:"/1.jpg"
+  image:"/1.webp"
 },
   
       Reviews:[
@@ -7863,7 +7866,7 @@ served:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -7935,27 +7938,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -7963,14 +7966,14 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
 
 ],
@@ -8011,7 +8014,7 @@ requestqoute:{
     "Bearing and commutator service",
     "Output test after rebuild"
   ],
-  image:"/vogue fix my motor image 9.jpg"
+  image:"/vogue fix my motor image 9.webp"
 }
 ,
       Reviews:[
@@ -8070,7 +8073,7 @@ requestqoute:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -8142,27 +8145,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -8170,14 +8173,14 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
 
 ],
@@ -8219,7 +8222,7 @@ served:{
     "Race or road geometry setups",
     "Thrust angle correction"
   ],
-  image:"/2.jpg"
+  image:"/2.webp"
 }
 ,
      Reviews:[
@@ -8267,7 +8270,7 @@ served:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -8339,27 +8342,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -8367,14 +8370,14 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
 
 ],
@@ -8415,7 +8418,7 @@ served:{
     "EVAP system leak check",
     "Monitor readiness verification"
   ],
-  image:"/description.jpg"
+  image:"/description.webp"
 }
 , 
       Reviews:[
@@ -8467,7 +8470,7 @@ served:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -8539,27 +8542,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -8567,14 +8570,14 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
 
 ],
@@ -8615,7 +8618,7 @@ served:{
     "Lanolin cavity injection",
     "Rubberised wheel arch coating"
   ],
-  image:"/slider_section_image.jpg"
+  image:"/slider_section_image.webp"
 },
    
         Reviews:[
@@ -8674,7 +8677,7 @@ served:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -8746,27 +8749,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -8774,14 +8777,14 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
 
 ],
@@ -8823,7 +8826,7 @@ requestqoute:{
     "Transponder chip coding",
     "Keyless entry antenna diagnosis"
   ],
-  image:"/3.jpg"
+  image:"/3.webp"
 }
 ,
        Reviews:[
@@ -8878,7 +8881,7 @@ requestqoute:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -8950,27 +8953,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -8978,14 +8981,14 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
 
 ],
@@ -9025,7 +9028,7 @@ faq:[
     "Drive shaft center bearing service",
     "Axle nut torque fitting"
   ],
-  image:"/vogue fix my motor image 22.jpg"
+  image:"/vogue fix my motor image 22.webp"
 }
 ,
    
@@ -9076,7 +9079,7 @@ faq:[
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -9148,27 +9151,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -9176,14 +9179,14 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
 
 ],
@@ -9224,7 +9227,7 @@ faq:[
     "One-way valve and hose fitting",
     "Pedal travel verification"
   ],
-  image:"/vogue fix my motor image 21.jpg"
+  image:"/vogue fix my motor image 21.webp"
 },
    
      Reviews:[
@@ -9271,7 +9274,7 @@ faq:[
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -9343,27 +9346,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -9371,14 +9374,14 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
 
 ],
@@ -9419,7 +9422,7 @@ faq:[
     "Oil pickup tube inspection",
     "New oil and filter fitting"
   ],
-  image:"/vogue fix my motor image 20.jpg"
+  image:"/vogue fix my motor image 20.webp"
 }
 ,
     
@@ -9478,7 +9481,7 @@ faq:[
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -9550,27 +9553,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -9578,14 +9581,14 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
 
 ],
@@ -9625,7 +9628,7 @@ faq:[
     "Hose and vacuum diagnosis",
     "System monitor reset"
   ],
-  image:"/wowimage.jpg"
+  image:"/wowimage.webp"
 },
        
        Reviews:[
@@ -9680,7 +9683,7 @@ faq:[
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -9752,27 +9755,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -9780,14 +9783,14 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
 
 ],
@@ -9829,7 +9832,7 @@ served:{
     "Overhead cam shim replacement",
     "Hydraulic lifter service"
   ],
-  image:"/vogue fix my motor image 18.jpg"
+  image:"/vogue fix my motor image 18.webp"
 },
     
         Reviews:[
@@ -9893,7 +9896,7 @@ served:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -9965,27 +9968,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -9993,14 +9996,14 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
 
 ],
@@ -10041,7 +10044,7 @@ requestqoute:{
     "Expander removal and lubrication",
     "Shoe and drum contact check"
   ],
-  image:"/vogue fix my motor image 17.jpg"
+  image:"/vogue fix my motor image 17.webp"
 },
     
       Reviews:[

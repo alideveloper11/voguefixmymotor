@@ -1,16 +1,14 @@
 "use client";
-import { motion } from "framer-motion";
-import Image from "next/image";
-import saleParts from "@/lib/services_data/SaleParts";
 
 import { useEffect, useRef, useState } from "react";
-
-
+import Image from "next/image";
+import saleParts from "@/lib/services_data/SaleParts";
+import { motion } from "framer-motion";
 
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
-export default function SaleParts() {
+export default function SalePartsSlider() {
   const sliderRef = useRef(null);
 
   const [showLeft, setShowLeft] = useState(false);
@@ -23,24 +21,16 @@ export default function SaleParts() {
     const scrollLeft = el.scrollLeft;
     const maxScroll = el.scrollWidth - el.clientWidth;
 
-    // LEFT BUTTON
-    setShowLeft(scrollLeft > 5);
-
-    // RIGHT BUTTON
-    setShowRight(scrollLeft < maxScroll - 5);
+    setShowLeft(scrollLeft > 10);
+    setShowRight(scrollLeft < maxScroll - 1);
   };
 
   useEffect(() => {
     const el = sliderRef.current;
     if (!el) return;
 
-    // INITIAL CHECK (IMPORTANT)
     checkScroll();
-
-    // LISTEN SCROLL
     el.addEventListener("scroll", checkScroll);
-
-    // ALSO HANDLE RESIZE (IMPORTANT for iPad)
     window.addEventListener("resize", checkScroll);
 
     return () => {
@@ -50,17 +40,11 @@ export default function SaleParts() {
   }, []);
 
   const scrollLeftFn = () => {
-    sliderRef.current?.scrollBy({
-      left: -300,
-      behavior: "smooth",
-    });
+    sliderRef.current?.scrollBy({ left: -300, behavior: "smooth" });
   };
 
   const scrollRightFn = () => {
-    sliderRef.current?.scrollBy({
-      left: 300,
-      behavior: "smooth",
-    });
+    sliderRef.current?.scrollBy({ left: 300, behavior: "smooth" });
   };
 
   return (
@@ -82,7 +66,7 @@ export default function SaleParts() {
           {showLeft && (
             <button
               onClick={scrollLeftFn}
-              className="h-10 md:w-12 md:h-12 bg-[#088751] text-white rounded-full flex items-center justify-center shadow"
+              className="h-10 md:w-8 md:h-12 bg-[#088751] text-white rounded-full flex items-center justify-center shadow"
             >
               <ArrowBackIosNewIcon fontSize="small" />
             </button>
@@ -103,7 +87,7 @@ export default function SaleParts() {
             w-full
             no-scrollbar
 
-            px-2
+            p-2
           "
         >
           {saleParts.map((part) => (

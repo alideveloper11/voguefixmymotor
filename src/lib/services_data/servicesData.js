@@ -6,7 +6,7 @@ const servicesData = [
     name: "Initial Diagnostics",
     text: "Identify engine faults quickly using advanced diagnostic tools for accurate repairs and smooth performance.",
     slug: "initial-diagnostics",
-    img:"/Initial Diagnostics.jpeg",
+    img:"/Initial Diagnostics.webp",
     Reviews:[
        {
     id: 1,
@@ -85,7 +85,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics in Grays, Essex",
@@ -194,7 +194,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Vehicle Health Check",
     text: "Comprehensive inspection of key vehicle systems to ensure safety, reliability, and roadworthiness.",
     slug: "vehicle-health-check",
-    img:"/Vehicle Health Check.jpg",
+    img:"/Vehicle Health Check.webp",
       Reviews:[
        {
     id: 1,
@@ -270,7 +270,7 @@ contents:{
   }
 ],
 green_slider1:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics in Grays, Essex",
@@ -378,7 +378,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Visual Inspection",
     text: "Thorough visual checks to detect wear, leaks, damage, and potential mechanical issues early.",
     slug: "visual-inspection",
-    img:"/Visual Inspection.jpg",
+    img:"/Visual Inspection.webp",
       Reviews:[
        {
     id: 1,
@@ -460,7 +460,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics in Grays, Essex",
@@ -565,7 +565,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Interim Service",
     text: "Routine maintenance service including oil, filters, and essential checks for everyday driving reliability.",
     slug: "interim-service",
-    img:"/Interim Service.jpg",
+    img:"/Interim Service.webp",
       Reviews:[
        {
     id: 1,
@@ -640,7 +640,7 @@ contents:{
   }
 ],
 green_slider1:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics in Grays, Essex",
@@ -737,7 +737,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Major Service",
     text: "Complete servicing package covering fluids, filters, brakes, and detailed component inspections.",
     slug: "major-service",
-    img:"/Major Service.jpg",
+    img:"/Major Service.webp",
       Reviews:[
        {
     id: 1,
@@ -815,7 +815,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/slider_section_image.jpg",
+   img: "/slider_section_image.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics in Grays, Essex",
@@ -966,7 +966,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Annual Service",
     text: "Yearly maintenance service designed to keep your vehicle efficient, safe, and running smoothly.",
     slug: "annual-service",
-    img:"/Annual Service.jpg",
+    img:"/Annual Service.webp",
     Reviews:[
        {
     id: 1,
@@ -1046,7 +1046,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/vogue fix my motor image 20.jpg",
+   img: "/vogue fix my motor image 20.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics in Grays, Essex",
@@ -1234,7 +1234,7 @@ contents:{
   }
 ],
 green_slider1:{
-   img: "/vogue fix my motor image 20.jpg",
+   img: "/vogue fix my motor image 20.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics in Grays, Essex",
@@ -1340,7 +1340,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
   {
     id: 9,
     name: "Auto Electrical Services",
-    img:"/Auto Electrical Services.jpg",
+    img:"/Auto Electrical Services.webp",
     text: "Diagnosis and repair of electrical faults, wiring issues, lighting, and charging systems.",
     slug: "auto-electrical-services",
       Reviews:[
@@ -1426,7 +1426,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/vogue fix my motor image 20.jpg",
+   img: "/vogue fix my motor image 20.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics in Grays, Essex",
@@ -1531,7 +1531,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Hybrid and EV Repairs and Services",
     text: "Specialist repairs and maintenance for hybrid and electric vehicles using advanced diagnostics.",
     slug: "hybrid-ev-repairs-services",
-    img:"/Hybrid and EV Repairs and Services.png",
+    img:"/Hybrid and EV Repairs and Services.webp",
       Reviews:[
        {
     id: 1,
@@ -1611,7 +1611,7 @@ contents:{
   }
 ],
 green_slider1:{
-   img: "/1.jpg",
+   img: "/1.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics in Grays, Essex",
@@ -1707,7 +1707,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Timing Belts",
     text: "Timing belt inspection and replacement to prevent engine damage and maintain performance.",
     slug: "timing-belts",
-    img:"/Timing Belts.jpeg",
+    img:"/Timing Belts.webp",
       Reviews:[
        {
     id: 1,
@@ -1787,7 +1787,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/1.jpg",
+   img: "/1.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics in Grays, Essex",
@@ -1901,7 +1901,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Cam Belts",
     text: "Professional cambelt replacement services to ensure accurate engine timing and reliability.",
     slug: "cam-belts",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
       Reviews:[
        {
     id: 1,
@@ -1983,7 +1983,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/1.jpg",
+   img: "/1.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics in Grays, Essex",
@@ -2328,7 +2328,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/3.jpg",
+   img: "/3.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics in Grays, Essex",
@@ -2464,7 +2464,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "All Repairs and Services",
     text: "Complete vehicle repair and maintenance solutions for all makes and models.",
     slug: "all-repairs-services",
-    img:"/All Repairs and Services.png",
+    img:"/All Repairs and Services.webp",
     Reviews:[
        {
     id: 1,
@@ -2544,7 +2544,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/3.jpg",
+   img: "/3.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics in Grays, Essex",
@@ -2653,7 +2653,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Fuel System Cleaning",
     text: "Deep cleaning of fuel injectors and fuel systems for improved efficiency and smoother driving.",
     slug: "fuel-system-cleaning",
-    img:"/Fuel System Cleaning.jpg",
+    img:"/Fuel System Cleaning.webp",
       Reviews:[
        {
     id: 1,
@@ -2733,7 +2733,7 @@ contents:{
   }
 ],
 green_slider1:{
-   img: "/3.jpg",
+   img: "/3.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics in Grays, Essex",
@@ -2841,7 +2841,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "AdBlue Services",
     text: "AdBlue diagnostics, refills, and system repairs to maintain emissions compliance and performance.",
     slug: "adblue-services",
-    img:"/adblue serivice.jpg",
+    img:"/adblue serivice.webp",
       Reviews:[
        {
     id: 1,
@@ -2926,7 +2926,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/3.jpg",
+   img: "/3.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics in Grays, Essex",
@@ -3031,7 +3031,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Welding Services",
     text: "High-quality welding repairs for exhausts, bodywork, and structural vehicle components.",
     slug: "welding-services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
       Reviews:[
        {
     id: 1,
@@ -3111,7 +3111,7 @@ contents:{
   }
 ],
 green_slider1:{
-   img: "/2.jpg",
+   img: "/2.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics in Grays, Essex",
@@ -3290,7 +3290,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/3.jpg",
+   img: "/3.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics in Grays, Essex",
@@ -3404,7 +3404,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Locking Wheel Nut Removal / Replacement",
     text: "Safe removal and replacement of damaged or lost locking wheel nuts without wheel damage.",
     slug: "locking-wheel-nut-removal-replacement",
-    img:"/Locking Wheel Nut Removal - Replacement.jpeg",
+    img:"/Locking Wheel Nut Removal - Replacement.webp",
       Reviews:[
        {
     id: 1,
@@ -3485,7 +3485,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/3.jpg",
+   img: "/3.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics in Grays, Essex",
@@ -3634,7 +3634,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "24/7 Vehicle Recovery",
     text: "Fast and reliable roadside recovery services available day and night when you need assistance.",
     slug: "vehicle-recovery",
-    img:"/24-7 Vehicle Recovery.jpg",
+    img:"/24-7 Vehicle Recovery.webp",
       Reviews:[
        {
     id: 1,
@@ -3716,7 +3716,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/3.jpg",
+   img: "/3.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics in Grays, Essex",
@@ -3852,7 +3852,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Valeting Services",
     text: "Professional interior and exterior vehicle cleaning for a fresh, polished finish.",
     slug: "valeting-services",
-    img:"/Valeting Service.jpg",
+    img:"/Valeting Service.webp",
     Reviews:[
        {
     id: 1,
@@ -3932,7 +3932,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/3.jpg",
+   img: "/3.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics in Grays, Essex",
@@ -4039,7 +4039,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Diagnostics",
     text: "Advanced vehicle diagnostics to accurately identify warning lights and hidden mechanical faults.",
     slug: "diagnostics",
-    img:"/Diagnostics.jpg",
+    img:"/Diagnostics.webp",
       Reviews:[
        {
     id: 1,
@@ -4120,7 +4120,7 @@ contents:{
   }
 ],
 green_slider1:{
-   img: "/3.jpg",
+   img: "/3.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics in Grays, Essex",
@@ -4229,7 +4229,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Water Pump Replacement",
     text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
     slug: "water-pump-replacement",
-    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.jpg",
+    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
       Reviews:[
        {
     id: 1,
@@ -4315,7 +4315,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "vogue fix my motor image 18.jpg",
+   img: "vogue fix my motor image 18.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics in Grays, Essex",
@@ -4420,7 +4420,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "General Service",
     text: "Routine servicing to maintain vehicle performance, reliability, and long-term engine health.",
     slug: "general-service",
-    img:"/gernal service.avif",
+    img:"/gernal service.webp",
       Reviews:[
        {
     id: 1,
@@ -4500,7 +4500,7 @@ contents:{
   }
 ],
 green_slider1:{
-   img: "/wowimage.jpg",
+   img: "/wowimage.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics in Grays, Essex",
@@ -4597,7 +4597,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Alternator testing and replacement to restore reliable battery charging and electrical performance.",
     slug: "alternator-replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
       Reviews:[
        {
     id: 1,
@@ -4678,7 +4678,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/wowimage.jpg",
+   img: "/wowimage.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics in Grays, Essex",
@@ -4791,7 +4791,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Engine Rebuild",
     text: "Complete engine rebuild services to restore power, reliability, and long-term performance.",
     slug: "engine-rebuild",
-    img:"/Engine rebuild.png",
+    img:"/Engine rebuild.webp",
       Reviews:[
        {
     id: 1,
@@ -4873,7 +4873,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/wowimage.jpg",
+   img: "/wowimage.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics in Grays, Essex",
@@ -5004,7 +5004,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Battery Replacement",
     text: "Battery testing and replacement services for dependable starting power in all conditions.",
     slug: "battery-replacement",
-    img:"/Battery Replacement.avif",
+    img:"/Battery Replacement.webp",
       Reviews:[
        {
     id: 1,
@@ -5086,7 +5086,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/wowimage.jpg",
+   img: "/wowimage.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics in Grays, Essex",
@@ -5223,7 +5223,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Clutch Replacement",
     text: "Professional clutch repair and replacement for smoother gear changes and driving control.",
     slug: "clutch-replacement",
-    img:"/f184d927a7134700f54e21657884675da9b63340.jpg",
+    img:"/f184d927a7134700f54e21657884675da9b63340.webp",
     Reviews:[
        {
     id: 1,
@@ -5305,7 +5305,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/wowimage.jpg",
+   img: "/wowimage.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics in Grays, Essex",
@@ -5495,7 +5495,7 @@ contents:{
   }
 ],
 green_slider1:{
-   img: "/description.jpg",
+   img: "/description.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics in Grays, Essex",
@@ -5603,7 +5603,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Brake Services",
     text: "Brake inspections, repairs, and replacements to ensure maximum stopping power and safety.",
     slug: "brake-services",
-    img:"/Brake Services.jpg",
+    img:"/Brake Services.webp",
       Reviews:[
        {
     id: 1,
@@ -5688,7 +5688,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/slider_section_image.jpg",
+   img: "/slider_section_image.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics in Grays, Essex",
@@ -5872,7 +5872,7 @@ contents:{
   }
 ],
 green_slider1:{
-   img: "/slider_section_image.jpg",
+   img: "/slider_section_image.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics in Grays, Essex",
@@ -6050,7 +6050,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/description.jpg",
+   img: "/description.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics in Grays, Essex",
@@ -6164,7 +6164,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "DPF Cleaning Service",
     text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
     slug: "dpf-cleaning-service",
-    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.png",
+    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
       Reviews:[
        {
     id: 1,
@@ -6245,7 +6245,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/description.jpg",
+   img: "/description.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics in Grays, Essex",
@@ -6387,7 +6387,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "MOT Testing",
     text: "Certified MOT testing services to ensure your vehicle meets all legal safety standards.",
     slug: "mot-testing",
-    img:"/MOT Testing.jpg",
+    img:"/MOT Testing.webp",
     Reviews:[
        {
     id: 1,
@@ -6469,7 +6469,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/description.jpg",
+   img: "/description.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics in Grays, Essex",
@@ -6578,7 +6578,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Exhaust Repair",
     text: "Exhaust inspections and repairs to reduce noise and maintain proper engine performance.",
     slug: "exhaust-repair",
-    img:"/Exhaust Repair.jpg",
+    img:"/Exhaust Repair.webp",
       Reviews:[
        {
     id: 1,
@@ -6660,7 +6660,7 @@ contents:{
   }
 ],
 green_slider1:{
-   img: "/vogue fix my motor image 17.jpg",
+   img: "/vogue fix my motor image 17.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics in Grays, Essex",
@@ -6767,7 +6767,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Tyre Replacement",
     text: "Tyre fitting and replacement services for improved grip, safety, and driving comfort.",
     slug: "tyre-replacement",
-    img:"/tyre replacement.jpg",
+    img:"/tyre replacement.webp",
       Reviews:[
        {
     id: 1,
@@ -6852,7 +6852,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/vogue fix my motor image 17.jpg",
+   img: "/vogue fix my motor image 17.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics in Grays, Essex",
@@ -6957,7 +6957,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Suspension Service",
     text: "Inspection and repair of suspension components for smoother handling and ride comfort.",
     slug: "suspension-service",
-    img:"/suspension.jpg",
+    img:"/suspension.webp",
       Reviews:[
        {
     id: 1,
@@ -7038,7 +7038,7 @@ contents:{
   }
 ],
 green_slider1:{
-   img: "/vogue fix my motor image 17.jpg",
+   img: "/vogue fix my motor image 17.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics in Grays, Essex",
@@ -7135,7 +7135,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Wheel Alignment",
     text: "Precise wheel alignment services to improve handling and extend tyre life.",
     slug: "wheel-alignment",
-    img:"/wheel aligment.jpg",
+    img:"/wheel aligment.webp",
       Reviews:[
        {
     id: 1,
@@ -7217,7 +7217,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/vogue fix my motor image 17.jpg",
+   img: "/vogue fix my motor image 17.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics in Grays, Essex",
@@ -7331,7 +7331,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "AC Gas Refill Service",
     text: "Air conditioning gas refill services to restore cooling performance and cabin comfort.",
     slug: "ac-gas-refill-service",
-    img:"/5894cc3d25139ce6d0c8883c11032a4e11db8154.jpg",
+    img:"/5894cc3d25139ce6d0c8883c11032a4e11db8154.webp",
       Reviews:[
        {
     id: 1,
@@ -7412,7 +7412,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/vogue fix my motor image 17.jpg",
+   img: "/vogue fix my motor image 17.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics in Grays, Essex",
@@ -7549,7 +7549,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Timing Chain Replacement",
     text: "Timing chain replacement services to maintain accurate engine timing and prevent failures.",
     slug: "timing-chain-replacement",
-    img:"/e42f4dccba8cfea020c6c73d385c038ca273c78b.jpg",
+    img:"/e42f4dccba8cfea020c6c73d385c038ca273c78b.webp",
     Reviews:[
        {
     id: 1,
@@ -7630,7 +7630,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/vogue fix my motor image 18.jpg",
+   img: "/vogue fix my motor image 18.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics in Grays, Essex",
@@ -7739,7 +7739,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Oil Change Service",
     text: "Professional oil and filter changes to protect your engine and improve performance.",
     slug: "oil-change-service",
-    img:"/Oil Change.jpg",
+    img:"/Oil Change.webp",
       Reviews:[
        {
     id: 1,
@@ -7819,7 +7819,7 @@ contents:{
   }
 ],
 green_slider1:{
-   img: "/vogue fix my motor image 20.jpg",
+   img: "/vogue fix my motor image 20.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics in Grays, Essex",
@@ -7927,7 +7927,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Head Gasket Repair",
     text: "Reliable head gasket repairs to prevent overheating and restore engine efficiency.",
     slug: "head-gasket-repair",
-    img:"/b08253f77d1194ed361ee8793e00aa5a5f887531.jpg",
+    img:"/b08253f77d1194ed361ee8793e00aa5a5f887531.webp",
       Reviews:[
        {
     id: 1,
@@ -8011,7 +8011,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/vogue fix my motor image 20.jpg",
+   img: "/vogue fix my motor image 20.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics in Grays, Essex",
@@ -8116,7 +8116,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Transmission Service",
     text: "Transmission servicing and repairs for smoother gear shifting and reliable driving performance.",
     slug: "transmission-service",
-    img:"/Transmission Service.avif",
+    img:"/Transmission Service.webp",
       Reviews:[
        {
     id: 1,
@@ -8197,7 +8197,7 @@ contents:{
   }
 ],
 green_slider1:{
-   img: "/vogue fix my motor image 20.jpg",
+   img: "/vogue fix my motor image 20.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics in Grays, Essex",
@@ -8322,7 +8322,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Air Conditioning Service",
     text: "Complete air conditioning servicing for efficient cooling and improved cabin air quality.",
     slug: "air-conditioning-service",
-    img:"/5894cc3d25139ce6d0c8883c11032a4e11db8154.jpg",
+    img:"/5894cc3d25139ce6d0c8883c11032a4e11db8154.webp",
     Reviews:[
        {
     id: 1,
@@ -8405,7 +8405,7 @@ faq:[
   }
 ],
 green_slider1:{
-   img: "/description.jpg",
+   img: "/description.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics in Grays, Essex",

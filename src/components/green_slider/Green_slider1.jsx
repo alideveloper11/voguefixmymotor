@@ -53,7 +53,7 @@ className="flex w-full flex-wrap ">
             </div>
             <div className="w-full md:w-12/24">
                 <div  style={{width:"100%", height:"650px"}}>
-                    <img src="/slider_section_image.jpg"  className="w-full object-cover" style={{width:"100%", height:"100%"}} alt="slider_section_image" />
+                    <img src="/slider_section_image.webp"  className="w-full object-cover" style={{width:"100%", height:"100%"}} alt="slider_section_image" />
                 </div>
             </div>
         </motion.div>

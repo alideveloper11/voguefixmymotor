@@ -3,11 +3,11 @@ const blogs_data = [
     id: 1,
     heading: "<h1>Free Vehicle Health Check – Expert Car Inspection Service | Vogue Fix My Motor</h1>",
     date: "15 Feb 2026",
-    image: "/Free Vehicle Health Check  Expert Car Inspection Service Vogue Fix My Motor.jpg.jpeg",
+    image: "/Free Vehicle Health Check  Expert Car Inspection Service Vogue Fix My Motor.jpg.webp",
     slug: "free-vehicle-health-check",
-    image2: "/Our Complimentary Vehicle Health Check – What Makes It Different.jpg.jpeg",
-    image3: "/How Much Does a Vehicle Health Check Cost.jpg.jpeg",
-    image4: "/Book Your Free Vehicle Health Check Today.jpg.jpeg",
+    image2: "/Our Complimentary Vehicle Health Check – What Makes It Different.jpg.webp",
+    image3: "/How Much Does a Vehicle Health Check Cost.jpg.webp",
+    image4: "/Book Your Free Vehicle Health Check Today.jpg.webp",
    
     text1:
       `<p>
@@ -172,11 +172,11 @@ Don't wait for that warning light, that strange noise, or that roadside breakdow
     id: 2,
     heading: "<h1>Professional Car Battery Health Check — Know Your Battery's True Condition Before It Lets You Down</h1>",
     date: "15 Feb 2026",
-    image: "/Professional Car Battery Health Check — Know Your Battery's True Condition Before It Lets You Down.jpg.jpeg",
+    image: "/Professional Car Battery Health Check — Know Your Battery's True Condition Before It Lets You Down.jpg.webp",
      slug: "professional-car-battery-health-check",
-    image2: "/Why Book a Car Battery Health Check With VogueFixMyMotor.co.uk.png",
-    image3: "/Electric & Hybrid Car Battery Health Check — What You Need to Know.jpg.jpeg",
-    image4: "/What Makes VogueFixMyMotor.co.uk the Trusted Choice Across the United Kingdom.jpg.jpeg",
+    image2: "/Why Book a Car Battery Health Check With VogueFixMyMotor.co.uk.webp",
+    image3: "/Electric & Hybrid Car Battery Health Check — What You Need to Know.jpg.webp",
+    image4: "/What Makes VogueFixMyMotor.co.uk the Trusted Choice Across the United Kingdom.jpg.webp",
    
     text1:
       `<p>

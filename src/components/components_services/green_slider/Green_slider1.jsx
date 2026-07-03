@@ -53,7 +53,7 @@ export default function Green_slider1() {
             </div>
             <div className="w-full md:w-12/24">
                 <div  style={{width:"100%", height:"650px"}}>
-                    <img src="/vogue fix my motor image 9.jpg"  className="w-full object-cover" style={{width:"100%", height:"100%"}} alt="slider_section_image" />
+                    <img src="/vogue fix my motor image 9.webp"  className="w-full object-cover" style={{width:"100%", height:"100%"}} alt="slider_section_image" />
                 </div>
             </div>
         </motion.div>

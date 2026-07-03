@@ -9,9 +9,9 @@ export default function Reviews({reviewsData}) {
     const pathname = usePathname();
   const [expandedId, setExpandedId] = useState(null);
   return (
-    <div className="flex flex-wrap my-5 w-full text-sm text-black bg-white" style={{colorScheme:"light"}}>
+    <div className="flex flex-wrap  w-full text-sm text-black bg-white" style={{colorScheme:"light"}}>
 
-      <div className="w-full text-center text-black">
+      <div className="w-full py-5 text-center text-black">
         <p className="text-3xl  font-bold">Reviews</p>
       </div>
 
@@ -24,7 +24,7 @@ export default function Reviews({reviewsData}) {
 
           <div
   key={review.id}
-  className="w-full flex md:w-6/12 lg:w-3/12 my-2 text-left"
+  className="w-full flex md:w-6/12 lg:w-3/12 pb-5 text-left"
 >
             <div className=" w-full flex flex-col min-h-[300px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]  bg-[#F3FFF9] mx-2 border border-gray-300 rounded-xl px-3 py-2 ">
 
@@ -86,11 +86,11 @@ export default function Reviews({reviewsData}) {
           
      
 </div>
- <div className="w-full text-center text-black">
+ <div className="w-full text-center pt-3 pb-8 text-black">
   {pathname !== "/reviews" && (
         <Link href="/reviews">
                          <button
-                            className="block my-5  mx-auto -bold border-2 border-[#088751]   hover:bg-[#088751] hover:text-white  cursor-pointer text-[#088751] px-17 py-[7px] rounded-lg ">
+                            className="block   mx-auto -bold border-2 border-[#088751]   hover:bg-[#088751] hover:text-white  cursor-pointer text-[#088751] px-17 py-[7px] rounded-lg ">
                             view more
                             </button></Link>
       )}

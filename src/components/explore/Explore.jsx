@@ -19,9 +19,9 @@ return(
     duration: 0.8,
   }}
  className="flex w-full flex-wrap bg-[#F3F4F6] text-black" style={{colorScheme:"light"}}>
-        <div className="flex w-full flex-wrap mt-20 mx-7 md:mx-16 mb-5">
+        <div className="flex w-full flex-wrap mt-20 mx-3 md:mx-13 mb-5">
              <div className=" text-left w-full md:w-6/12">
-
+<div className="mx-2">
                 <h2 className="font-bold text-[28px]">
                     Explore Our Repair Gallery
                 </h2>
@@ -39,9 +39,10 @@ return(
                     </Link>
                     </div>
             </div>  
+            </div>
             <div className="flex w-full md:w-6/12 flex-wrap ">
-                <div className="mb-10 flex justify-end items-end" style={{width:"100%"}}>
-                    <img src="/explore/1.jpg" alt="Car engine repair work at Vogue Fix My Motor, Grays Essex" className="w-full object-cover rounded  h-[350px] lg:h-[450px] md:h-[400px]"  style={{borderRadius:"10px", width:"100%"}} />
+                <div className="mb-10 mx-2 flex justify-end items-end" style={{width:"100%"}}>
+                    <img src="/explore/1.webp" alt="Car engine repair work at Vogue Fix My Motor, Grays Essex" className="w-full object-cover rounded  h-[350px] lg:h-[450px] md:h-[400px]"  style={{borderRadius:"10px", width:"100%"}} />
                 </div>
             </div>  
 

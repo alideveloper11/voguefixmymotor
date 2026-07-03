@@ -11,7 +11,7 @@ export default function Services()
   whileInView={{ opacity: 1, x: 0 }}
   transition={{ duration: 0.8 }}
   viewport={{ once: true }}
-                    className="flex flex-wrap w-full text-sm bg-[#F3F4F6] text-black" style={{colorScheme:"light"}}>
+                    className="flex flex-wrap py-5 w-full text-sm bg-[#F3F4F6] text-black" style={{colorScheme:"light"}}>
                
                     
            
@@ -21,9 +21,9 @@ export default function Services()
                         <div className="w-20/24">
                        
                    
-                     <div className="w-full flex flex-wrap justify-center mt-6 md:ml-6 m6-6">
+                     <div className="w-full flex flex-wrap justify-center  md:ml-6 m6-6">
                         <div className="w-full text-center text-black">
-                       <div className="mt-5">
+                       <div className="">
                         <h2 className="text-2xl font-bold">Engine Repair & Car Services in Grays, Essex</h2>
                          <center><p className=" w-full md:w-[80%]  lg:w-[60%] text-center leading-7 tracking-[0.04em] "
                          style={{ fontSize:"14px",marginBottom:"20px", marginTop:"10px", color:"#4B5563"}}>

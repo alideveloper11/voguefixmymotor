@@ -20,7 +20,7 @@ export default function FAQ() {
   initial={{ opacity: 0, x: -100 }}
   whileInView={{ opacity: 1, x: 0 }}
   transition={{ duration: 0.8 }}
-  viewport={{ once: true }} className="flex flex-wrap w-full bg-gray-100 text-black" style={{colorScheme:"light"}}>
+  viewport={{ once: true }} className="flex leading-7 tracking-[0.04em] flex-wrap w-full bg-gray-100 text-black" style={{colorScheme:"light"}}>
                           
                    <div className="w-4/24 text-center"></div>  
                     <div className="w-16/24 text-center">
@@ -63,7 +63,7 @@ export default function FAQ() {
 
               {/* Answer (Simple conditional render) */}
               <Collapse in={isOpen} timeout="auto">
-  <div className="p-5 py-8 text-left text-gray-600">
+  <div className="p-5  text-left text-gray-600">
     {item.answer}
 
 
