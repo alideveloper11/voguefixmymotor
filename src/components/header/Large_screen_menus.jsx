@@ -66,15 +66,11 @@ export default function Large_screen_menus(){
 
   <div
       className={`
-         absolute top-full left-0 
-       
+         absolute top-full left-[-5px]        
         bg-[#0d0d0d]
         text-white
         py-2
         rounded-lg
-       
-         
-        
         shadow-[0_0_20px_#4f4f4f]
          ${anchorProducts
   ? "opacity-100 translate-y-0 scale-100"
@@ -83,10 +79,7 @@ export default function Large_screen_menus(){
 transition-all duration-300 ease-in-out
 
         
-       `}
-       
-      
-   
+       `}  
     >
         
       <div className={`overflow-y-auto  rounded-lg  w-[300px] 
@@ -101,8 +94,10 @@ transition-all duration-300 ease-in-out
   }}>
 
   {servicesData.map((services) => (
+    
+    <Link href={`/services/${services.slug}`} key={services.id} className="w-full font-semibold">
   <div
-    key={services.id}
+    
     onClick={handleCloseMenus}
     style={{borderBottom:"1px solid #ccc"}}
     className="px-4 
@@ -116,10 +111,10 @@ border-b
 border-[#ccc]
 text-left"
   >
-    <Link href={`/services/${services.slug}`} className="w-full font-semibold">
       {services.name}
-    </Link>
+    
   </div>
+  </Link>
   
 ))}
 </div>

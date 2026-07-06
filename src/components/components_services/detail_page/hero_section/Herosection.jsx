@@ -18,7 +18,7 @@ export default function Herosection(props)
                 </p>
             
       <div className="w-full ">
-             <center> <div className="bg-black w-[80%] lg:w-[60%] mt-5" style={{ borderRadius:"10px"}}>
+             <center> <div className="bg-black  shadow-[0_0_15px_#4f4f4f] py-5 w-[80%] lg:w-[60%] mt-5" style={{ borderRadius:"10px"}}>
               <p className="text-white  font-bold ">Enter your registration for an instant quote</p>
             <div className="flex  items-center justify-center">
               

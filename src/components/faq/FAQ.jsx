@@ -2,12 +2,12 @@
 import { motion } from "framer-motion";
 import Collapse from "@mui/material/Collapse";
 import { useState } from "react";
-import faq_data from "@/lib/faq_data";
+
 import AddIcon from "@mui/icons-material/Add";
 
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 
-export default function FAQ() {
+export default function FAQ({faq_data}) {
   const [openId, setOpenId] = useState(1);
 
   const handleToggle = (id) => {
@@ -26,7 +26,7 @@ export default function FAQ() {
                    <div className=" md:w-4/24 text-center"></div>  
                     <div className=" w-full md:w-16/24 text-center">
     <div className=" py-10 mx-7">
-      <h2 className="text-center text-3xl font-bold mb-10">
+      <h2 className="text-center font-bold text-2xl md:text-3xl mb-10">
         Frequently Asked Questions
       </h2>
 
@@ -42,12 +42,15 @@ export default function FAQ() {
               <div
                 onClick={() => handleToggle(item.id)}
                 
-                className={` mt-3 flex  justify-between items-center p-5 ${isOpen 
+                className={` mt-3 flex  shadow-[0_0_10px_#696969] justify-between items-center p-5 ${isOpen 
   ? " bg-[#088D50] text-white" 
   : "bg-white text-black"}  cursor-pointer `}
   style={{
   backgroundColor: isOpen ? "#088D50" : "#ffffff",
   color: isOpen ? "#ffffff" : "#000000",
+  borderRadius: isOpen ? "10px 10px 0px 0px" : "10px",
+  
+  
 }}
               >
                 <div className="flex items-center gap-2">
@@ -64,7 +67,7 @@ export default function FAQ() {
 
               {/* Answer (Simple conditional render) */}
               <Collapse in={isOpen} timeout="auto">
-  <div className="p-5 py-8 text-left text-gray-600">
+  <div className="p-5 shadow-[0_0_10px_#696969] rounded-b-lg  text-left text-gray-600">
     {item.answer}
 
 

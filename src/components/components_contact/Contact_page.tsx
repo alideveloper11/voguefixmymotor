@@ -63,7 +63,10 @@ async function form_validation(e: FormEvent<HTMLFormElement>) {
     newErrors.registration = "Registration must be alphanumeric only (max 8 characters).";
 
   // POSTCODE VALIDATION (optional)
-  if (postcode && !/^[A-Za-z0-9][A-Za-z0-9\s]{1,7}$/.test(postcode.trim()))
+  if (!postcode.trim())
+    newErrors.postcode = "Postcode is required..";
+
+  else if (postcode && !/^[A-Za-z0-9][A-Za-z0-9\s]{1,7}$/.test(postcode.trim()))
     newErrors.postcode = "Enter a valid postcode.";
 
   // MESSAGE VALIDATION
@@ -119,17 +122,17 @@ async function form_validation(e: FormEvent<HTMLFormElement>) {
 }
     return(
 
-          <div className="flex flex-wrap py-10 w-full">
+          <div className="flex flex-wrap py-10 leading-7 tracking-[0.04em]  w-full">
             <form  className="flex flex-wrap w-full mx-2 lg:mx-12" onSubmit={form_validation} noValidate>
    
                        <div className="w-full">
                         <div className="mx-7 md:mx-17">
                             <center>
-                                <h1 className="font-bold text-lg md:text-2xl">
+                                <h1 className="font-bold text-[20px] md:text-[25px] leading-7 tracking-[0.04em]  lg:text-[30px]">
                                     Contact Vogue Fix My Motor — Engine Repair in Grays, Essex
                                 </h1>
 
-                                <p className="text-sm text-[#4B5563]">Fill in your details below and our team will get back to you with expert advice and a free quote.</p>
+                                <p className="text-md leading-7 tracking-[0.04em]  text-[#4B5563]">Fill in your details below and our team will get back to you with expert advice and a free quote.</p>
                                 </center>
                         </div>
                         </div>
@@ -310,13 +313,12 @@ async function form_validation(e: FormEvent<HTMLFormElement>) {
                                                                     <div className="p-5 pt-1">
                                                                     <center><button
   disabled={loading}
-  className={`mt-5 mb-5 pt-2 pb-2 text-white font-bold rounded-md
+  className={`mt-5 mb-5 pt-2 pb-2 text-white bg-[#059669] hover:bg-[#03855c] font-bold rounded-md
   ${loading ? "opacity-50 cursor-not-allowed" : ""}
   `}
   style={{
     display: "block",
-    background:
-      "radial-gradient(53.6% 50% at 46.4% 50%, #00BC71 0%, #036F3D 100%)",
+   
     width: "90%",
     margin: "20px",
   }}

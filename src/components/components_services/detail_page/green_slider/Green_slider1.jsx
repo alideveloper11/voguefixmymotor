@@ -21,20 +21,20 @@ export default function Green_slider1({ slides,  image }) {
   return (
 
         <div className="flex w-full flex-wrap bg-white text-black" style={{colorScheme:"light"}}>
-              <div className="w-full relative md:w-12/24 text-justify text-white h-[650px]" style={{background:"linear-gradient(127.87deg, #000000 -0.59%, #16A34A 86.16%)"}}>
-                <div className=" m-5 lg:mx-15 relative h-[545px] mt-5 overflow-hidden leading-7 tracking-[0.04em] ">
+             <div className="w-full relative md:w-12/24 text-justify text-white h-[650px]" style={{background:"linear-gradient(127.87deg, #000000 -0.59%, #16A34A 86.16%)"}}>
+                <div className=" m-5 lg:mx-15 relative h-[560px] mt-5 overflow-hidden leading-7 tracking-[0.04em] ">
                   {slides.map((slide, index) => (
                     <div key={index} className={`absolute inset-0 transition-opacity duration-500 ${current === index ? "opacity-100" : "opacity-0 pointer-events-none"}`}>
-                      <h1 className="text-2xl md:text-3xl font-bold">{slide.title}</h1>
+                      <h1 className="text-2xl md:text-3xl text-left font-bold">{slide.title}</h1>
              
-                      <p className="  ">
+                      <p className=" mt-5 ">
                         {slide.text}
-                        ....
+                        
                       </p>
                     </div>
                   ))}
                 </div>
-                <div className="mx-5 absolute bottom-[20px]  lg:mx-15">
+                <div className="mx-5 absolute bottom-[40px]  lg:mx-15">
                             {slides.map((_, index) => (
             <button
               key={index}

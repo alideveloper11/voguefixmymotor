@@ -45,6 +45,19 @@ const servicesData = [
        slug: "water-pump-replacement",
     img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
   },
+    {
+    id: 34,
+    name: "MOT Testing",
+    text: "Certified MOT testing services to ensure your vehicle meets all legal safety standards.",
+    slug: "mot-testing",
+    img:"/MOT Testing.webp",},
+    {
+    id: 14,
+    name: "All Repairs and Services",
+    text: "Complete vehicle repair and maintenance solutions for all makes and models.",
+    slug: "all-repairs-services",
+    img:"/All Repairs and Services.webp",
+    }
 
 ];
 

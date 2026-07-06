@@ -761,7 +761,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     rating: 5
   },
  {
-    id: 2,
+    id: 22,
     name: "rus price",
     time: "8 months ago",
     text: "Work of the highest quality and very good staff, nothing to much of a problem to help you out",

@@ -8,18 +8,18 @@ import StarIcon from '@mui/icons-material/Star';
 import Link from "next/link";
 export default function why_choose(){
     return(
- <div className="flex flex-wrap m-6 md:mx-16 text-left text-black bg-white" style={{colorScheme:"light"}}>
+ <div className="flex flex-wrap mx-6 md:mx-16 py-10  text-left text-black bg-white" style={{colorScheme:"light"}}>
 
          <div className="w-full md:w-1/2">
-                <h2 className="font-bold text-3xl md:text-4xl">
+                <h2 className="font-bold text-2xl md:text-3xl">
                     Why Choose Vogue Fix My Motor?
                 </h2>
-                <p className="mt-4 text-[14px] text-[#6B7280] leading-7 tracking-[0.015em] font-normal max-w-[700px]">
+                <p className=" text-[14px] my-5 text-[#6B7280] leading-7 tracking-[0.015em] font-normal max-w-[700px]">
   Based in Grays, Essex, our mission is to provide expert engine repair and diagnostics with a focus on quality, reliability, and customer satisfaction. Here&apos;s why drivers across Grays, Tilbury, Purfleet and surrounding areas trust us:
 </p>
 
           <div className=" text-left flex flex-wrap gap-6 ">
-               <div className="w-full md:w-11/24 mt-5">
+               <div className="w-full md:w-11/24 ">
 
 <KeyIcon sx={{ transform: "rotate(300deg) scaleX(-1)", fontSize: 30 }} className="text-[#028D53]" />
                <p className="font-bold text-[20px] leading-7 tracking-[0.01em]  mt-2">Comprehensive Engine Diagnostics</p>

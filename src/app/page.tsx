@@ -5,14 +5,19 @@ import Areas_links from "@/components/areas_links/Areas_links";
 import Topmakes from "@/components/top_makes/Topmakes";
 import Why_choose from "@/components/why_choose/Why_choose";
 import FAQ from "@/components/faq/FAQ";
+import faq_data from "@/lib/faq_data";
 import EngineCallToSection from "@/components/EngineCallToSection/EngineCallToSection";
-
+import servicesData from "@/lib/servicesData";
 import Explore from "@/components/explore/Explore";
 import LatestVideos from "@/components/latest_videos/Latest_videos";
 import HeroSection from "@/components/hero_section/HeroSection";
 import Green_slider1 from "@/components/green_slider/Green_slider1";
 import Reviews from "@/components/components_reviews/reviews/Reviews";
 import reviewsData from "@/lib/reviewsData";
+import saleParts from "@/lib/SaleParts";
+import LatestVideosData from "@/lib/LatestVideosData";
+
+import  { locations } from "@/lib/areas_list";
 export default function Home() {
   return (
              <div className="flex flex-wrap w-full">
@@ -21,15 +26,15 @@ export default function Home() {
                     <div className="w-24/24 text-center"><Reviews reviewsData={reviewsData} /></div>
                     <div className="w-24/24 text-center"><Topmakes /></div>
                     <div className="w-24/24 text-center"><Why_choose /></div>
-                    <div className="w-24/24 text-center"><Services /></div>
-                    <div className="w-24/24 text-center"><SaleParts /></div>
+                    <div className="w-24/24 text-center"><Services servicesData={servicesData} /></div>
+                    <div className="w-24/24 text-center"><SaleParts saleParts={saleParts} /></div>
                     <div className="w-24/24 text-center"> <Green_slider1 /> </div> 
                                   
                     <div className="w-24/24 text-center"> <Explore/> </div>                 
                     <div className="w-24/24 text-center"> <EngineCallToSection /> </div>   
-                    <div className="w-24/24 text-center"> <Areas_links /> </div>
-                    <div className="w-24/24 text-center"> <FAQ /> </div>
-                    <div className="w-24/24 text-center"> <LatestVideos /> </div>
+                    <div className="w-24/24 text-center"> <Areas_links locations ={locations } /> </div>
+                    <div className="w-24/24 text-center"> <FAQ faq_data={faq_data} /> </div>
+                    <div className="w-24/24 text-center"> <LatestVideos LatestVideosData={LatestVideosData}/> </div>
                     </div>
   );
 }

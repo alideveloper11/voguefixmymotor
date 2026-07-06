@@ -22,7 +22,7 @@ return(
         <div className="flex w-full flex-wrap mt-20 mx-3 md:mx-13 mb-5">
              <div className=" text-left w-full md:w-6/12">
 <div className="mx-2">
-                <h2 className="font-bold text-[28px]">
+                <h2 className="text-3xl font-bold">
                     Explore Our Repair Gallery
                 </h2>
                 <p className="text-left pt-5 pb-5 leading-7 tracking-[0.04em]">
