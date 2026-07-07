@@ -93,7 +93,7 @@ async function form_validation(e: FormEvent<HTMLFormElement>) {
       };
       
       // API CALL
-      const response = await fetch("/api/quote", {
+      const response = await fetch("/api/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
