@@ -14,7 +14,7 @@ export default function About() {
 <div className="flex flex-wrap w-full">
             <div className="w-full flex flex-wrap h-[300px] items-center justify-center  " id="second_hero_section">
               <div className="w-full text-center">
-                <h1 className="text-white font-bold text-2xl md:text-3xl leading-7 tracking-[0.04em]">About Vogue Fix My Motor</h1>
+                <h1 className="text-white  font-bold  leading-12 tracking-[0.01em] text-4xl md:text-5xl ">About Vogue Fix My Motor</h1>
                 <p className="text-white text-md md:text-lg mt-2 mx-10 leading-7 tracking-[0.04em]">Engine Repair &amp; Car Servicing Specialists based in Grays, Essex — trusted by drivers across the region.</p>
               </div>
             </div>

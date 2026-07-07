@@ -91,11 +91,11 @@ export default function Services({servicesData})
                </div>
                 <div className="w-full text-center text-black">
                {pathname !== "/services" && (
-                        <div className="w-24/24 pb-5">
+                        <div className="w-24/24 pt-5">
                         
 <Link href="/services">
                          <button
-                            className="block mx-auto shadow-[0_0_10px_#8f8f8f] font-bold bg-[#088751] hover:bg-[#046b3f]  cursor-pointer text-white px-10 lg:px-17 py-[8px] lg:py-[12px] rounded-xl">
+                            className="block mx-auto shadow-[0_0_10px_#8f8f8f] font-bold bg-[#088751] hover:bg-[#046b3f]  cursor-pointer text-white px-10 text-lg lg:px-17 py-[8px]  rounded-xl">
                             View All Services
                             </button></Link>
                         </div> 

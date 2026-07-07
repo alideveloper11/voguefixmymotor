@@ -15,7 +15,7 @@ export default function Blogs(){
     className="m-2 flex flex-col relative overflow-hidden shadow-[0_0_10px_#696969] rounded-xl"
     
   >
-    <div className="h-[250px]">
+    <div className="h-[290px]">
     <img
       src={blog.image}
       className="w-full h-full object-cover"
@@ -26,12 +26,12 @@ export default function Blogs(){
     
   </div>
    <div>
-    <div className="text-lg font-bold text-black m-2"  dangerouslySetInnerHTML={{ __html:  blog.heading }}>
+    <div className="text-md h-[59px] overflow-hidden font-bold text-black mt-2 mx-2 leading-tight"  dangerouslySetInnerHTML={{ __html:  blog.heading }}>
                 
                   </div>
   </div>
   <div>
-    <div className="text-sm text-black m-2"  dangerouslySetInnerHTML={{ __html:  blog.text1.slice(0, 119) }} >
+    <div className="text-sm text-black mx-2 mt-2 "  dangerouslySetInnerHTML={{ __html:  blog.text1.slice(0, 119) }} >
  
 </div>
   </div>
@@ -42,8 +42,8 @@ export default function Blogs(){
     <span className="pl-1">{index+1}</span>
   
                                 </p>
-                                
-                                <div className="flex mt-auto  mb-0 justify-between border-t-2 py-1 border-t-black">
+                                <div className="h-3"></div>
+                                <div className="flex mt-auto  mb-0 py-3 justify-between border-t-2 py-1 border-t-black">
                                 <div className="flex m-2 items-center text-[#7d7d7d] "><CalendarMonthIcon /> <div className="text-sm font-bold "  dangerouslySetInnerHTML={{ __html:  blog.date }}></div>
                    
                   </div>

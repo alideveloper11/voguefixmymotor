@@ -53,9 +53,9 @@ export default function SalePartsSlider({saleParts}) {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.7 }}
       viewport={{ once: true }}
-      className="bg-gray-100 py-10 overflow-hidden text-black" style={{colorScheme:"light"}}
+      className="bg-gray-100 py-10 bg-white overflow-hidden text-black" style={{colorScheme:"light"}}
     >
-      <h2 className="text-center text-3xl font-bold mb-10">
+      <h2 className="text-center font-bold text-2xl md:text-3xl mb-10">
         Quality Car Parts Available at Vogue Fix My Motor, Grays
       </h2>
 

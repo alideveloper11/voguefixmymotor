@@ -3,7 +3,7 @@ import serviceUniqueSlides from "@/lib/services_data/serviceUniqueSlides";
 import serviceUniqueContent3 from "@/lib/services_data/serviceUniqueContent3";
 import Herosection from "../../../components/components_services/detail_page/hero_section/Herosection";
 import Reviews from "@/components/components_reviews/reviews/Reviews";
-import Content3 from "../../../components/components_services/detail_page/content/Content3";
+import Content from "../../../components/content/Content";
 import FAQ from "../../../components/faq/FAQ";
 import SaleParts from "@/components/saleparts/SaleParts";
 import { notFound } from "next/navigation";
@@ -34,8 +34,8 @@ export default async function ServiceDetail({ params }) {
     <div className="w-24/24 text-center"><SaleParts saleParts={saleParts} /></div>
    <div className="w-24/24 text-center"><Green_slider1 slides={mergedSlides} image={service.green_slider1.img} /></div>
   
-    <div className="w-24/24 text-center mt-3"><Content3 content={content3} /></div>  
-   <div className="w-24/24 text-center mt-10"> <EngineCallToSection /> </div>
+    <div className="w-24/24 text-center "><Content data={content3} /></div>  
+   <div className="w-24/24 text-center "> <EngineCallToSection /> </div>
     <div className="w-24/24 text-center"> <FAQ faq_data={service.faq} /> </div>
     <div className="w-24/24 text-center"> <LatestVideos LatestVideosData={LatestVideosData }  /> </div>
     </div>

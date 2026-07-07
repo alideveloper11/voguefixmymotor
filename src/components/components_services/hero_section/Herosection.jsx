@@ -9,10 +9,10 @@ export default function Herosection()
     <div className="flex  flex-wrap  min-h-[480px] items-center  justify-center" id="second_hero_section">
       <div className="w-full my-10 items-center justify-center">
         <center><div className='w-[80%] lg:w-[60%] '>
-            <h1 className="text-white font-bold  leading-7 tracking-[0.015em] text-2xl md:text-3xl">
+            <h1 className="text-white font-bold  leading-12 tracking-[0.01em] text-4xl md:text-5xl">
               Car Services & Engine Repair in Grays, Essex
             </h1>
-            <p className="text-white  leading-7 tracking-[0.015em] mt-2   text-sm md:text-[16px]  text-justify">
+            <p className="text-white  leading-7 tracking-[0.015em] mt-2   text-md md:text-lg  text-justify">
               Vogue Fix My Motor offers a full range of engine repair and car services in Grays, Essex. From diagnostics and clutch replacement to DPF cleaning and head gasket repair — all makes and models welcome.
             </p>
             </div></center>

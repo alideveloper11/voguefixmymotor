@@ -143,7 +143,7 @@ useEffect(() => {
           <form onSubmit={form_validation} noValidate>
    
                 <div className="flex py-3 pb-10 md:py-10  min-h-[600px] " id="hero_section">
-                  <div className="flex flex-wrap mx-5 md:mx-15 ">
+                  <div className="flex flex-wrap mx-5 lg:mx-15 ">
                  <div className="w-full md:w-6/12 md:pr-4 mt-5  flex  justify-center">
                         <div className="">
                             <h1 className=" text-left text-white text-[30px] lg:text-[40px]   font-black

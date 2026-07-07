@@ -10,10 +10,10 @@ export default function Herosection(props)
           <>
     <div className="flex  flex-wrap  h-[400px] items-center justify-center" id="second_hero_section">
       <div className="w-full items-center justify-center">
-            <h1 className="text-white font-bold  text-2xl md:text-3xl">
+            <h1 className="text-white font-bold  leading-12 tracking-[0.01em] text-4xl md:text-5xl">
                {props.name} in Grays, Essex
             </h1>
-            <p className="text-white   text-sm md:text-[16px] ml-10 mr-10 ">
+            <p className="text-white  text-md md:text-lg ml-10 mr-10 ">
               {props.text}
                 </p>
             

@@ -1,9 +1,8 @@
 "use client";
 import { motion } from "framer-motion";
 
-import { getcontent3 } from "@/lib/services_data/content_data";
-const data = getcontent3();
-export default function Content3(){
+
+export default function Content({data}){
 
 return (
   <motion.div
@@ -11,13 +10,13 @@ return (
   whileInView={{ opacity: 1, x: 0 }}
   transition={{ duration: 0.8 }}
   viewport={{ once: true }}
-   className="flex w-full flex-wrap pb-8 pt-5 bg-white leading-7 tracking-[0.04em] text-black" style={{colorScheme:"light"}}>
-        <div className="w-full text-left mx-5 md:mx-15">
-          <p className="block md:inline font-bold" style={{fontSize:"20px"}}>{data.heading},</p>
-          <p className="block md:inline  font-bold"  style={{fontSize:"20px", color:"#059669"}}>{data.greenHeading}</p>
+   className="flex w-full flex-wrap py-5 bg-white leading-7 tracking-[0.04em] text-black" style={{colorScheme:"light"}}>
+        <div className="w-full md:w-[70%] text-left mx-5 md:mx-15">
+          <p className="block md:inline text-2xl md:text-3xl font-bold">{data.heading},</p>
+          <p className="block md:inline text-2xl md:text-3xl font-bold"  style={{ color:"#059669"}}>{data.greenHeading}</p>
         </div>  
         
-        <div className="w-full text-left ">
+        <div className="w-full text-left leading-7 tracking-[0.04em] text-[16px] ">
            {data.paragraph.map((item,index)=>(
 //    
           <p  key={index} className="mt-5 mx-5 md:mx-15"> {item}  </p>

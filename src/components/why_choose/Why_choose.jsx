@@ -8,18 +8,18 @@ import StarIcon from '@mui/icons-material/Star';
 import Link from "next/link";
 export default function why_choose(){
     return(
- <div className="flex flex-wrap mx-6 md:mx-16 py-10  text-left text-black bg-white" style={{colorScheme:"light"}}>
+ <div className="flex flex-wrap mx-6 lg:mx-16 pt-5 pb-10  text-left text-black bg-white" style={{colorScheme:"light"}}>
 
-         <div className="w-full md:w-1/2">
+         <div className="w-full pt-5 lg:w-1/2">
                 <h2 className="font-bold text-2xl md:text-3xl">
                     Why Choose Vogue Fix My Motor?
                 </h2>
-                <p className=" text-[14px] my-5 text-[#6B7280] leading-7 tracking-[0.015em] font-normal max-w-[700px]">
+                <p className=" mt-5 text-[#6B7280] leading-7 tracking-[0.04em] text-[16px] font-normal max-w-[700px]">
   Based in Grays, Essex, our mission is to provide expert engine repair and diagnostics with a focus on quality, reliability, and customer satisfaction. Here&apos;s why drivers across Grays, Tilbury, Purfleet and surrounding areas trust us:
 </p>
 
           <div className=" text-left flex flex-wrap gap-6 ">
-               <div className="w-full md:w-11/24 ">
+               <div className="w-full lg:w-11/24 mt-5">
 
 <KeyIcon sx={{ transform: "rotate(300deg) scaleX(-1)", fontSize: 30 }} className="text-[#028D53]" />
                <p className="font-bold text-[20px] leading-7 tracking-[0.01em]  mt-2">Comprehensive Engine Diagnostics</p>
@@ -65,7 +65,7 @@ export default function why_choose(){
                </div> 
                </div>
                
-<div className="w-full md:w-1/2">
+<div className="w-full pt-5 lg:w-1/2">
   <div className="flex justify-start">
     
     <div className="w-full flex justify-center mt-5 md:mt-0">
@@ -75,12 +75,12 @@ export default function why_choose(){
     </div>
     
   </div>
-  <div className="w-full mt-3 text-left">
+  <div className="w-full mt-5 text-left">
             <p className="text-[20px] leading-7 tracking-[0.01em] ">Ready to Book Your Engine Diagnostic?</p>
             <p className='text-[12px] leading-7 tracking-[0.01em] text-[#4B5563]'>Book a diagnostic or get expert advice from our highly trained technicians in Grays, Essex.
                 Trust Vogue Fix My Motor for reliable engine repair every time.</p>
 
-            <div className="w-full flex justify-start items-left ">
+            <div className="w-full flex justify-center lg:justify-start items-left ">
               <Link href="contact/">
           <button
             className="

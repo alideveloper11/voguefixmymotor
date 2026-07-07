@@ -18,14 +18,14 @@ export default function Gallery() {
   const files = fs.readdirSync(imagesDir);
   const images = files.map((file) => `/gallery_images/${file}`);
   return (
-    <div className="flex flex-wrap w-full">
+    <div className="flex flex-wrap bg-gray-100  w-full">
                         <div className="w-full flex flex-wrap h-[400px] items-center justify-center leading-7 tracking-[0.04em] " id="second_hero_section">
                           <div className=" text-center w-[80%] text-justify lg:text-center md:w-[70%] lg:w-[60%]">
-                            <h1 className="text-white font-bold text-2xl md:text-3xl leading-7 tracking-[0.04em]">Workshop Gallery — Vogue Fix My Motor, Grays Essex</h1>
-                            <p className="text-white text-md md:text-lg mt-2  leading-7 tracking-[0.04em]">Take a look inside our engine repair workshop in Grays, Essex. We service all makes and models across Essex and surrounding areas.</p>
+                            <h1 className="text-white font-bold text-2xl md:text-3xl leading-7 tracking-[0.04em] font-bold  leading-12 tracking-[0.01em] text-4xl md:text-5xl">Workshop Gallery — Vogue Fix My Motor, Grays Essex</h1>
+                            <p className="text-white text-md md:text-lg mt-2  leading-7 tracking-[0.04em] text-md md:text-lg ">Take a look inside our engine repair workshop in Grays, Essex. We service all makes and models across Essex and surrounding areas.</p>
                           </div>
                         </div>
-                        <div className="w-full  md:mx-10">
+                        <div className="w-full py-5 md:mx-10">
                                <div className="grid  md:grid-cols-3 gap-4 p-5">
 
                                     {images.map((img, i) => (

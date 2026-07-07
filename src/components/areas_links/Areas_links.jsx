@@ -18,8 +18,8 @@ export default function Areas_links({ locations }) {
     <div className="flex pb-3 flex-wrap ">
       <div className="w-full"><center>
         <div className="w-[90%] md:w-[80%] py-5 lg:w-[70%]">
-              <h2 className="font-bold text-2xl ">Engine Repair Areas We Cover Near Grays, Essex</h2>
-            <p className="text-[#4B5563] text-sm  md:text-md lg:text-lg  py-5 ">Vogue Fix My Motor provides specialist engine repair and diagnostics across Grays and all surrounding areas within a 10-mile radius.</p>
+              <h2 className="font-bold text-2xl md:text-3xl ">Engine Repair Areas We Cover Near Grays, Essex</h2>
+            <p className="text-[#4B5563] leading-7 tracking-[0.04em] text-[16px]  py-5 ">Vogue Fix My Motor provides specialist engine repair and diagnostics across Grays and all surrounding areas within a 10-mile radius.</p>
           </div></center>
         <div className="flex flex-wrap">
           
@@ -35,7 +35,7 @@ export default function Areas_links({ locations }) {
   <span className="bg-[#e9f2ed] w-6/24 md:w-5/24 lg:w-4/24 group-hover:bg-[#959c98] py-[3px] px-[5px]  rounded-full "><LocationOnIcon className="w-2 h-2 group-hover:text-white text-[#16A34A] rounded-full" /></span>
   <div className="w-15/24 md:w-16/24 lg:w-17/24 text-left px-2 leading-5">
     {item.name}
-    <p className=" flex font-normal group-hover:text-white text-[#16A34A] text-left w-full">
+    <p className=" flex font-none font-thin group-hover:text-white text-[8px] sm:text-[9px] md:text-[11px] text-[#16A34A] text-left w-full">
             View Services 
   </p>
   </div>
@@ -62,6 +62,7 @@ bg-[#088751]
 text-white
 px-12
 py-2
+font-bold
 rounded-lg
 "
 >

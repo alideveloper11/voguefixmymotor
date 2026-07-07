@@ -17,14 +17,14 @@ export default function Latest_videos({LatestVideosData}) {
   const [activeVideo, setActiveVideo] = useState(null);
 
   return (
-    <section className="w-full bg-[#F3F4F6] leading-7 tracking-[0.04em] text-black" style={{colorScheme:"light"}}>
+    <section className="w-full pb-5 bg-[white] leading-7 tracking-[0.04em] text-black" style={{colorScheme:"light"}}>
  
       <div className="py-5 mx-6 md:mx-15 max-w-[1728px] px-0">
 <div className=""><center>
   <h2 className="font-bold font-bold text-2xl md:text-3xl py-2  ">
     Latest Videos from Vogue Fix My Motor
   </h2>
-  <p className="text-[#4B5563] text-sm md:text-md lg:text-lg mt-1">See our engine repairs, customer feedback, and workshop updates from our Grays, Essex garage.</p></center>
+  <p className="text-[#4B5563] leading-7 tracking-[0.04em] text-[16px] mt-1">See our engine repairs, customer feedback, and workshop updates from our Grays, Essex garage.</p></center>
 </div>
         <div className="grid pt-5 grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-3">
 

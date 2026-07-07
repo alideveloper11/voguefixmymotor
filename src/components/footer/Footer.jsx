@@ -126,9 +126,7 @@ export default function Footer(){
         Privacy Policy
       </div>
 
-      <div>
-        Cookie Policy
-      </div>
+     
     </div>
                     </div>
             </div>
