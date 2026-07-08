@@ -4,7 +4,7 @@ import LatestVideosData from "@/lib/blogs_data/LatestVideosData";
 
 export default function blog(){
     return(
-       <div className="flex flex-wrap w-full">
+       <div className="flex bg-gray-100 flex-wrap w-full">
                 <Blogs /> 
                 <Latest_videos LatestVideosData={LatestVideosData}  />
         </div>

@@ -308,13 +308,7 @@ const reviewsData = [
     text: "Had my Range Rover sport at another garage for 2 weeks and they couldn't figure out why it wouldn't start, gave Vogue a call and they had my car back up and running within a week. Lovely staff and amazing service",
     rating: 5
   },
-  {
-    id: 45,
-    name: "RAPHAEL AGYEMANG",
-    time: "5 months ago",
-    text: "Excellent job. Customer service very good",
-    rating: 5
-  },
+ 
   {
     id: 46,
     name: "Moda Boateng Agyenim",
@@ -329,13 +323,7 @@ const reviewsData = [
     text: "I won't take my cars anywhere else. Professional, caring and expert knowledge. Really great service. Rebuild my SVR engine. Also friendly experienced staff always helpful and caring.",
     rating: 5
   },
-  {
-    id: 48,
-    name: "Bogdan Marian",
-    time: "7 months ago",
-    text: "Good experience knowledgeable mechanics",
-    rating: 5
-  },
+  
   {
     id: 49,
     name: "Souhail Bouallegui",
@@ -525,13 +513,7 @@ const reviewsData = [
     text: "very nice people 👍 many thanks to Vic top man. fix my range rover sports. Services: Vehicle engine diagnostic",
     rating: 5
   },
-  {
-    id: 76,
-    name: "Samiullah Choudhary",
-    time: "4 months ago",
-    text: "Service Very Fast & Furious",
-    rating: 5
-  },
+  
   {
     id: 77,
     name: "Adelina Berdilo",
@@ -595,20 +577,8 @@ const reviewsData = [
     text: "Very good people thanks Vic fixing my car",
     rating: 5
   },
-  {
-    id: 86,
-    name: "Ahmed Siddiqui",
-    time: "4 years ago",
-    text: "Very good garage. I will definitely recommend it.",
-    rating: 5
-  },
-  {
-    id: 87,
-    name: "Jane Bellas",
-    time: "4 years ago",
-    text: "Amazing service! Will definitely use again! Thank you! 😍😍😍",
-    rating: 5
-  },
+ 
+ 
   {
     id: 88,
     name: "faizan abbasi",
@@ -623,20 +593,8 @@ const reviewsData = [
     text: "Great service from Wick, fast and affordable.",
     rating: 5
   },
-  {
-    id: 90,
-    name: "Wilson",
-    time: "8 months ago",
-    text: "Good service",
-    rating: 5
-  },
-  {
-    id: 91,
-    name: "Jake Cass",
-    time: "4 years ago",
-    text: "10/10 service",
-    rating: 5
-  },
+ 
+
   {
     id: 92,
     name: "Satnam Singh",
@@ -728,48 +686,12 @@ const reviewsData = [
     text: "Vogue Technics worked on my Range Rover Urban and I couldn't be happier with the results. Their team is incredibly passionate and professional. Without a doubt, they're the best garage for engine repairs in Grays. If you're having any issues with your Range Rover, I highly recommend them 100%.",
     rating: 5
   },
-  {
-    id: 105,
-    name: "Mirza Rahman",
-    time: "a month ago",
-    text: "Service was very good . And the communication was very nice .",
-    rating: 5
-  },
-  {
-    id: 106,
-    name: "Umair Anwar",
-    time: "3 years ago",
-    text: "Services:Vehicle engine diagnostic, Electrical repair, Oil change",
-    rating: 5
-  },
-  {
-    id: 107,
-    name: "Justyna Stępień",
-    time: "3 years ago",
-    text: "Services: Service not listed",
-    rating: 5
-  },
-  {
-    id: 108,
-    name: "Ioan Nicolescu",
-    time: "3 years ago",
-    text: "Services Vehicle engine diagnostic",
-    rating: 5
-  },
-  {
-    id: 109,
-    name: "Sukhjit Kamboj",
-    time: "3 years ago",
-    text: "Services: Vehicle engine diagnostic",
-    rating: 5
-  },
-  {
-    id: 110,
-    name: "Laddi Singh",
-    time: "3 years ago",
-    text: "Services: Vehicle engine diagnostic",
-    rating: 5
-  },
+ 
+
+
+ 
+ 
+ 
   {
     id: 111,
     name: "Raymond Wilson",

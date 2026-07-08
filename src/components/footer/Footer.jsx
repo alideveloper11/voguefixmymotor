@@ -70,20 +70,19 @@ export default function Footer(){
                         <p className="text-white font-sans text-shadow-2xs " style={{ fontWeight:"bold" ,fontSize:"18px"}}>Work Hours</p>
                         <div className="text-white">
                         <ul className="list-none mt-8">
-                        <li><AccessTimeIcon style={{color:"#028D53"}} /><span className="md:ml-2"> 9 AM - 6 PM, Monday - Friday 
-                           
-                            </span>
-                        </li>
-                        <li><span className="ml-8">
+                        <li className="flex"><AccessTimeIcon style={{color:"#028D53"}} /><p className="ml-2"> 9 AM - 6 PM, Monday - Friday 
+                            <br />
                             7AM - 2 PM , Saturday
-                            </span>
+                           
+                            </p>
                         </li>
-                        <li  className="mt-4"><Link href="mailto:sales@voguetechnics.co.uk"><SendIcon style={{color:"#028D53"}} /><span> sales@voguetechnics.co.uk</span></Link></li>
+                        
+                        <li  className="mt-4 "><Link href="mailto:sales@voguetechnics.co.uk" className="flex"><SendIcon style={{color:"#028D53"}} /><p className="ml-2"> sales@voguetechnics.co.uk</p></Link></li>
                         <li  className="mt-4">  <Link className="flex"
                               href="https://www.google.com/maps/search/?api=1&query=UNIT+1+Hedley+Avenue+Grays+RM20+4EL+UK"
                               target="_blank"
                               rel="noopener noreferrer"
-                            ><LocationOnIcon style={{color:"#028D53"}} /><p>Unit 1D Hedley Ave, Grays RM20 4EL United Kingdom</p></Link>
+                            ><LocationOnIcon style={{color:"#028D53"}} /><p className="ml-2">Unit 1D Hedley Ave, Grays RM20 4EL United Kingdom</p></Link>
                         </li>
                         </ul>
                         </div>

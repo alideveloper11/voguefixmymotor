@@ -43,11 +43,11 @@ export default function Blogs(){
   
                                 </p>
                                 <div className="h-3"></div>
-                                <div className="flex mt-auto  mb-0 py-3 justify-between border-t-2 py-1 border-t-black">
-                                <div className="flex m-2 items-center text-[#7d7d7d] "><CalendarMonthIcon /> <div className="text-sm font-bold "  dangerouslySetInnerHTML={{ __html:  blog.date }}></div>
+                                <div className="flex mt-auto  m-2 mb-0 py-3 justify-between border-t-1 py-1 border-t-black">
+                                <div className="flex  items-center text-[#7d7d7d] "><CalendarMonthIcon /> <div className="text-sm font-bold "  dangerouslySetInnerHTML={{ __html:  blog.date }}></div>
                    
                   </div>
-                  <div className="text-md font-bold text-black m-2  cursor-pointer">
+                  <div className="text-md font-bold text-black   cursor-pointer">
                   <Link href={`/blog/${blog.slug}`} style={{textDecoration:"none"}} className="text-[#046b3f] hover:text-[#054f2f]"> Read More <ArrowForwardIcon /></Link> 
                   </div>
                   </div>

@@ -19,7 +19,7 @@ export default function Latest_videos({LatestVideosData}) {
   return (
     <section className="w-full pb-5 bg-[white] leading-7 tracking-[0.04em] text-black" style={{colorScheme:"light"}}>
  
-      <div className="py-5 mx-6 md:mx-15 max-w-[1728px] px-0">
+      <div className="py-5 mx-6 lg:mx-15 max-w-[1728px] px-0">
 <div className=""><center>
   <h2 className="font-bold font-bold text-2xl md:text-3xl py-2  ">
     Latest Videos from Vogue Fix My Motor

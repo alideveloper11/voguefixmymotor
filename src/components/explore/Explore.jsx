@@ -25,13 +25,13 @@ return(
                 <h2 className="text-3xl font-bold">
                     Explore Our Repair Gallery
                 </h2>
-                <p className="text-left pt-5 pb-5 leading-7 tracking-[0.04em] text-[16px]">
+                <p className="text-left py-2  leading-7 tracking-[0.04em] text-[16px]">
 Every vehicle tells a story, and our gallery reflects the care, skill, and attention we put into every repair. From advanced engine diagnostics and timing chain replacements to complete engine rebuilds and routine servicing, you can explore real work completed by our experienced technicians in Grays, Essex.
-</p><p className="text-left pt-5 pb-5 leading-7 tracking-[0.04em] text-[16px]">
+</p><p className="text-left py-2  leading-7 tracking-[0.04em] text-[16px]">
 These are genuine vehicles repaired in our workshop, showing the quality of our workmanship and the high standards we deliver every day. Every repair is carried out with precision and attention to detail, helping to ensure your vehicle performs safely and reliably.
-</p><p className="text-left pt-5 pb-5 leading-7 tracking-[0.04em] text-[16px]">
+</p><p className="text-left py-2  leading-7 tracking-[0.04em] text-[16px]">
 Whether it is a family car, a performance vehicle, or a commercial van, every job is completed using professional techniques and quality parts to deliver dependable, long-lasting results. We take pride in treating every vehicle with the same level of care, no matter the size or complexity of the repair.
-</p><p className="text-left pt-5 pb-5 leading-7 tracking-[0.04em] text-[16px]">
+</p><p className="text-left py-2  leading-7 tracking-[0.04em] text-[16px]">
 Browse our gallery to see why drivers across Grays, Tilbury, Purfleet, Ockendon, Hornchurch, and the surrounding Essex areas trust Vogue Fix My Motor. We believe our work speaks for itself, giving you the confidence that your vehicle is in safe and experienced hands before you even visit our workshop.
 </p>
                 <div>
