@@ -16,7 +16,7 @@ export default function TopMakes() {
 
   let animationFrame;
   let position = 0;
-  const speed = 3;
+  const speed = 2;
 
   const firstSet = track.children.length / 2;
   let singleSetWidth = 0;
@@ -43,9 +43,9 @@ export default function TopMakes() {
   return () => cancelAnimationFrame(animationFrame);
 }, []);
   return (
-    <section className="bg-gray-100 py-16 overflow-hidden text-black" style={{colorScheme:"light"}}>
+    <section className="bg-gray-100 py-10 overflow-hidden text-black" style={{colorScheme:"light"}}>
 
-      <h2 className="text-center text-3xl font-bold mb-12">
+      <h2 className="text-center font-bold text-2xl md:text-3xl mb-12">
         Top Car Makes We Repair in Grays, Essex
       </h2>
 
@@ -53,16 +53,16 @@ export default function TopMakes() {
 
         <div
           ref={trackRef}
-          className="flex w-max gap-6 will-change-transform"
+          className="flex w-max gap-6 py-3 will-change-transform"
         >
 
           {/* FIRST SET */}
           {images.map((img) => (
             <div
               key={img.src}
-              className="min-w-[256px] bg-white rounded-lg p-5 shadow-md"
+              className="min-w-[256px] shadow-[0_0_10px_#919191]  bg-white rounded-lg p-5 "
             >
-              <div className="relative w-full h-[120px]">
+              <div className="relative  w-full h-[120px]">
                 <Image
                   src={img.src}
                   alt={`${img.name} engine repair - Vogue Fix My Motor Grays Essex`}
@@ -78,7 +78,7 @@ export default function TopMakes() {
           {images.map((img) => (
             <div
               key={"dup-" + img.src}
-              className="min-w-[256px] bg-white rounded-lg p-5 shadow-md"
+              className="min-w-[256px] shadow-[0_0_10px_#919191] bg-white rounded-lg p-5"
             >
               <div className="relative w-full h-[120px]">
                 <Image

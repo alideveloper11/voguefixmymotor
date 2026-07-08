@@ -1,15 +1,18 @@
 import  { locations }  from "@/lib/Areas_data/areas_list";
 import areaUniqueSlides from "@/lib/Areas_data/areaUniqueSlides";
 import Reviews from "@/components/components_reviews/reviews/Reviews";
-import Latest_videos from "@/components/components_areas/latest_videos/Latest_videos";
+import Latest_videos from "@/components/latest_videos/Latest_videos";
+
+import saleParts from "@/lib/Areas_data/SaleParts";
+import LatestVideosData from "@/lib/Areas_data/LatestVideosData";
 import Servedincity from "../../../components/components_areas/detailpage/servedincity/Servedincity";
-import SaleParts from "@/components/components_areas/saleparts/SaleParts";
+import SaleParts from "@/components/saleparts/SaleParts";
 import Herosection from "@/components/components_areas/detailpage/hero_section/Herosection";
 import Requestaqoute from "@/components/components_areas/detailpage/requestaqoute/Requestaqoute";
-import FAQ from "@/components/components_areas/detailpage/faq/FAQ";
-import Services from "@/components/components_areas/detailpage/service_section/Services";
+import FAQ from "@/components/faq/FAQ";
+import Services from "@/components/service_section/Services";
 import { notFound } from "next/navigation";
-import EngineCallToSection from "@/components/components_areas/EngineCallToSection/EngineCallToSection";
+import EngineCallToSection from "@/components/EngineCallToSection/EngineCallToSection";
 import Green_slider from "@/components/components_areas/detailpage/green_slider/Green_slider";
 export default async function ServiceDetail({ params }) {
   const { slug } = await params;
@@ -34,9 +37,9 @@ export default async function ServiceDetail({ params }) {
         <div className="w-24/24 text-center"><Requestaqoute content={areas.requestqoute} /></div> 
           <div className="w-24/24 text-center"><EngineCallToSection /></div> 
           <div className="w-24/24 text-center"><Services servicesData={areas.servicesData} /></div>
-          <div className="w-24/24 text-center"><SaleParts /></div>
+          <div className="w-24/24 text-center"><SaleParts saleParts={saleParts}/></div>
            <div className="w-24/24 text-center  mb-5"><FAQ faq_data={areas.faq}  /></div>   
-        <div className="w-24/24 text-center"><Latest_videos /></div>
+        <div className="w-24/24 text-center"><Latest_videos LatestVideosData={LatestVideosData}/></div>
                       
     </div>
   );

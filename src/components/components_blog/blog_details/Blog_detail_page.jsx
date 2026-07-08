@@ -6,9 +6,11 @@ export default async function Blog_detail_page({ params }) {
   );
    return (
    
-        <div className="flex flex-wrap w-full m-5 mx-7 md:mx-14 md:items-stretch">
+        <div className="flex blog_detail flex-wrap w-full  md:items-stretch">
+<div className=" mx-7 md:mx-14 flex flex-wrap">
 
-  <div className="w-full md:w-1/2 flex">
+
+  <div className="w-full mt-5 md:w-1/2 flex">
     <div className="relative min-h-[400px] w-full overflow-hidden rounded-lg">
       <img
         src={blog.image}
@@ -17,9 +19,9 @@ export default async function Blog_detail_page({ params }) {
     </div>
   </div>
 
-  <div className="w-full md:w-1/2 flex">
+  <div className="w-full mt-5 md:w-1/2 flex">
     <div className="w-full">
-      <div className="md:p-5 mt-5 md:mt-0 pt-0">
+      <div className="md:px-5  md:mt-0 pt-0">
         <div className="font-bold text-3xl"  dangerouslySetInnerHTML={{ __html:  blog.heading }}>
         </div>
       </div>
@@ -73,6 +75,7 @@ export default async function Blog_detail_page({ params }) {
                 
               </div>
               </div>
+    </div>
     </div>
    )
 }

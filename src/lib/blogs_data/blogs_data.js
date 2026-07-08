@@ -3,24 +3,24 @@ const blogs_data = [
     id: 1,
     heading: "<h1>Free Vehicle Health Check – Expert Car Inspection Service | Vogue Fix My Motor</h1>",
     date: "15 Feb 2026",
-    image: "/Free Vehicle Health Check  Expert Car Inspection Service Vogue Fix My Motor.jpg.jpeg",
+    image: "/Free Vehicle Health Check  Expert Car Inspection Service Vogue Fix My Motor.jpg.webp",
     slug: "free-vehicle-health-check",
-    image2: "/Our Complimentary Vehicle Health Check – What Makes It Different.jpg.jpeg",
-    image3: "/How Much Does a Vehicle Health Check Cost.jpg.jpeg",
-    image4: "/Book Your Free Vehicle Health Check Today.jpg.jpeg",
+    image2: "/Our Complimentary Vehicle Health Check – What Makes It Different.jpg.webp",
+    image3: "/How Much Does a Vehicle Health Check Cost.jpg.webp",
+    image4: "/Book Your Free Vehicle Health Check Today.jpg.webp",
    
     text1:
       `<p>
       Your car doesn't tell you when something's about to go wrong—until it's too late. 
       That odd noise you've been ignoring? The dashboard warning light you hoped would disappear?
        These seemingly minor issues can quickly escalate into expensive repairs or, worse, 
-       leave you stranded on the roadside. A regular <a href="https://voguefixmymotor.co.uk/services/Vehicle-Health-Check" style=" font-weight:bold; text-decoration: underline; color:#0645AD">vehicle health check</a>  isn't just good 
+       leave you stranded on the roadside. A regular <a href="https://voguefixmymotor.co.uk/services/vehicle-health-check" style=" font-weight:bold; text-decoration: underline; color:#0645AD">vehicle health check</a>  isn't just good 
        practice; 
       it's your best defence against unexpected breakdowns and costly garage bills.
        </p>
        <br>
        <p>
-       At <a href="https://voguefixmymotor.co.uk/" style=" font-weight:bold; text-decoration: underline; color:#0645AD">Vogue Fix My Motor</a>, we understand that modern drivers need more than just reactive repairs. That's why we offer a comprehensive, complimentary vehicle health check across Leicester, Leicestershire, Essex, and throughout the UK. Our expert technicians use advanced <a href="https://voguefixmymotor.co.uk/services/Diagnostics" style=" font-weight:bold; text-decoration: underline; color:#0645AD" >diagnostic</a> equipment to identify potential problems before they become serious, giving you complete peace of mind and keeping your vehicle running at its best. Whether you drive a traditional petrol car, a diesel workhorse, or the latest electric vehicle, our thorough inspection service ensures every critical component meets manufacturer standards—and it won't cost you a penny.
+       At <a href="https://voguefixmymotor.co.uk/" style=" font-weight:bold; text-decoration: underline; color:#0645AD">Vogue Fix My Motor</a>, we understand that modern drivers need more than just reactive repairs. That's why we offer a comprehensive, complimentary vehicle health check across Leicester, Leicestershire, Essex, and throughout the UK. Our expert technicians use advanced <a href="https://voguefixmymotor.co.uk/services/diagnostics" style=" font-weight:bold; text-decoration: underline; color:#0645AD" >diagnostic</a> equipment to identify potential problems before they become serious, giving you complete peace of mind and keeping your vehicle running at its best. Whether you drive a traditional petrol car, a diesel workhorse, or the latest electric vehicle, our thorough inspection service ensures every critical component meets manufacturer standards—and it won't cost you a penny.
        </P>
        `,
    
@@ -29,7 +29,7 @@ const blogs_data = [
       <h3><strong style="font-size:20px">What Is a Vehicle Health Check and Why Does Your Car Need One?</strong></h3>
       <p class="mt-2">
       A vehicle health check is a comprehensive visual and diagnostic inspection that evaluates your car's overall condition. 
-      Think of it as a full-body <a href="https://voguefixmymotor.co.uk/services/MOT-Testing" style=" font-weight:bold; text-decoration: underline; color:#0645AD">MOT for your vehicle</a>, examining everything from engine performance and <a href="https://voguefixmymotor.co.uk/services/Brake-Services" style=" font-weight:bold; text-decoration: underline; color:#0645AD">brake efficiency</a> totyre condition and fluid levels.
+      Think of it as a full-body <a href="https://voguefixmymotor.co.uk/services/mot-testing" style=" font-weight:bold; text-decoration: underline; color:#0645AD">MOT for your vehicle</a>, examining everything from engine performance and <a href="https://voguefixmymotor.co.uk/services/brake-services" style=" font-weight:bold; text-decoration: underline; color:#0645AD">brake efficiency</a> totyre condition and fluid levels.
        Unlike a standard service that focuses on scheduled maintenance tasks,
        a health check provides a detailed snapshot of your vehicle's current state, highlighting any areas that need attention.
       </p>
@@ -41,10 +41,10 @@ const blogs_data = [
       </p>
     <h4 class="mt-2"><strong style="font-size:15px">Engine and Performance Systems: </strong></h4>
     <p>We assess engine operation, check for unusual noises or vibrations, inspect belts and hoses for wear, and verify that all warning lights function correctly. Our diagnostic equipment reads your vehicle's onboard computer, identifying fault codes that might not yet trigger dashboard warnings.</p>
-    <h3 class="mt-2"><strong style="font-size:15px"> Safety-Critical Components:</strong></h3> Brake pad thickness, disc condition, and fluid quality receive particular attention—your stopping power isn't something we compromise on. We examine <a href="https://voguefixmymotor.co.uk/services/Tyre-Replacement" style=" font-weight:bold; text-decoration: underline; color:#0645AD">tyre tread</a> depth across all four wheels, check pressures, and look for uneven wear patterns that might indicate alignment or <a href="https://voguefixmymotor.co.uk/services/Suspension-Service" style=" font-weight:bold; text-decoration: underline; color:#0645AD">suspension issues</a>. All exterior lights, including indicators, brake lights, and headlamps, are tested for proper operation.
+    <h3 class="mt-2"><strong style="font-size:15px"> Safety-Critical Components:</strong></h3> Brake pad thickness, disc condition, and fluid quality receive particular attention—your stopping power isn't something we compromise on. We examine <a href="https://voguefixmymotor.co.uk/services/tyre-replacement" style=" font-weight:bold; text-decoration: underline; color:#0645AD">tyre tread</a> depth across all four wheels, check pressures, and look for uneven wear patterns that might indicate alignment or <a href="https://voguefixmymotor.co.uk/services/suspension-service" style=" font-weight:bold; text-decoration: underline; color:#0645AD">suspension issues</a>. All exterior lights, including indicators, brake lights, and headlamps, are tested for proper operation.
     
     <h4 class="mt-2"><strong style="font-size:15px">Fluid Levels and Condition: </strong></h4>Engine oil, coolant, brake fluid, power steering fluid, and windscreen wash are checked not just for level but also for contamination or degradation. Dark, burnt-smelling oil or discoloured coolant can indicate developing problems that need addressing.
-    <h4 class="mt-2"><strong style="font-size:15px">Underneath and Underbonnet:  </strong></h4> We <a href="https://voguefixmymotor.co.uk/services/Exhaust-Repair" style=" font-weight:bold; text-decoration: underline; color:#0645AD">inspect exhaust systems</a> for leaks or corrosion, examine suspension components for wear, check the <a href="https://voguefixmymotor.co.uk/services/Battery-Replacement" style=" font-weight:bold; text-decoration: underline; color:#0645AD">battery condition</a> and connections, and look for any fluid leaks that might indicate seal or gasket failure.
+    <h4 class="mt-2"><strong style="font-size:15px">Underneath and Underbonnet:  </strong></h4> We <a href="https://voguefixmymotor.co.uk/services/exhaust-repair" style=" font-weight:bold; text-decoration: underline; color:#0645AD">inspect exhaust systems</a> for leaks or corrosion, examine suspension components for wear, check the <a href="https://voguefixmymotor.co.uk/services/Battery-Replacement" style=" font-weight:bold; text-decoration: underline; color:#0645AD">battery condition</a> and connections, and look for any fluid leaks that might indicate seal or gasket failure.
     
     <p class="mt-2">What sets our service apart is the detailed video report you receive. Rather than simply ticking boxes on a checklist, our technicians record footage of any areas of concern, showing you exactly what they've found. This transparency means you're never wondering whether recommended work is genuinely necessary—you can see the evidence yourself.</p>
     
@@ -172,11 +172,11 @@ Don't wait for that warning light, that strange noise, or that roadside breakdow
     id: 2,
     heading: "<h1>Professional Car Battery Health Check — Know Your Battery's True Condition Before It Lets You Down</h1>",
     date: "15 Feb 2026",
-    image: "/Professional Car Battery Health Check — Know Your Battery's True Condition Before It Lets You Down.jpg.jpeg",
+    image: "/Professional Car Battery Health Check — Know Your Battery's True Condition Before It Lets You Down.jpg.webp",
      slug: "professional-car-battery-health-check",
-    image2: "/Why Book a Car Battery Health Check With VogueFixMyMotor.co.uk.png",
-    image3: "/Electric & Hybrid Car Battery Health Check — What You Need to Know.jpg.jpeg",
-    image4: "/What Makes VogueFixMyMotor.co.uk the Trusted Choice Across the United Kingdom.jpg.jpeg",
+    image2: "/Why Book a Car Battery Health Check With VogueFixMyMotor.co.uk.webp",
+    image3: "/Electric & Hybrid Car Battery Health Check — What You Need to Know.jpg.webp",
+    image4: "/What Makes VogueFixMyMotor.co.uk the Trusted Choice Across the United Kingdom.jpg.webp",
    
     text1:
       `<p>
@@ -190,7 +190,7 @@ Don't wait for that warning light, that strange noise, or that roadside breakdow
       `
       <h3><strong style="font-size:20px">What Does a Car Battery Health Check Actually Involve?</strong></h3>
       <p class="mt-2">
-     A proper car <a href="https://voguefixmymotor.co.uk/services/Battery-Replacement" style=" font-weight:bold; text-decoration: underline; color:#0645AD">battery health check</a> is not simply plugging in a device and reading a voltage number. Voltage alone tells you very little. A battery sitting at 12.6 volts can still fail under load — and load performance is precisely what matters when you turn your ignition key on a January morning. Our <a href="https://voguefixmymotor.co.uk/services/Diagnostics" style=" font-weight:bold; text-decoration: underline; color:#0645AD" >diagnostic</a> process evaluates cold cranking amps (CCA), state of charge (SoC), state of health (SoH), and internal resistance — the four pillars of a complete and honest battery assessment.</p>
+     A proper car <a href="https://voguefixmymotor.co.uk/services/battery-replacement" style=" font-weight:bold; text-decoration: underline; color:#0645AD">battery health check</a> is not simply plugging in a device and reading a voltage number. Voltage alone tells you very little. A battery sitting at 12.6 volts can still fail under load — and load performance is precisely what matters when you turn your ignition key on a January morning. Our <a href="https://voguefixmymotor.co.uk/services/diagnostics" style=" font-weight:bold; text-decoration: underline; color:#0645AD" >diagnostic</a> process evaluates cold cranking amps (CCA), state of charge (SoC), state of health (SoH), and internal resistance — the four pillars of a complete and honest battery assessment.</p>
      <h4 class="mt-2"><strong style="font-size:17px"> Is Checking Car Battery Health the Same as a Simple Voltage Test?</strong></h4>
      <p class="mt-2">
     Absolutely not — and this is one of the most common misconceptions we encounter. A voltage test is the equivalent of checking if a glass has water in it without knowing whether that water is clean, warm, or about to run out. Checking car battery health properly requires a load test or conductance test that simulates real-world demand on the battery. At VogueFixMyMotor.co.uk, our technicians use professional-grade diagnostic equipment to perform a complete assessment that no multimeter at home can fully replicate. </p>
@@ -233,7 +233,8 @@ Don't wait for that warning light, that strange noise, or that roadside breakdow
        `,
        },
 
- 
+
+
 ];
 
 export default blogs_data;

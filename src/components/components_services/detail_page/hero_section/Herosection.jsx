@@ -10,15 +10,15 @@ export default function Herosection(props)
           <>
     <div className="flex  flex-wrap  h-[400px] items-center justify-center" id="second_hero_section">
       <div className="w-full items-center justify-center">
-            <h1 className="text-white font-bold  text-2xl md:text-3xl">
+            <h1 className="text-white font-bold  leading-12 tracking-[0.01em] text-4xl md:text-5xl">
                {props.name} in Grays, Essex
             </h1>
-            <p className="text-white   text-sm md:text-[16px] ml-10 mr-10 ">
+            <p className="text-white  text-md md:text-lg ml-10 mr-10 ">
               {props.text}
                 </p>
             
       <div className="w-full ">
-             <center> <div className="bg-black w-[80%] lg:w-[60%] mt-5" style={{ borderRadius:"10px"}}>
+             <center> <div className="bg-black  shadow-[0_0_15px_#4f4f4f] py-5 w-[80%] lg:w-[60%] mt-5" style={{ borderRadius:"10px"}}>
               <p className="text-white  font-bold ">Enter your registration for an instant quote</p>
             <div className="flex  items-center justify-center">
               

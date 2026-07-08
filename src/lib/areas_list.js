@@ -9,5 +9,7 @@ export const locations = [
   { id: 8, name: "Grays", slug: "grays" },
   { id: 9, name: "Epping", slug: "epping" },
   { id: 10, name: "Loughton", slug: "loughton" },
+   { id: 11, name: "Witham", slug: "witham"},
+   { id: 12, name: "Maldon", slug: "maldon"},
  
 ];

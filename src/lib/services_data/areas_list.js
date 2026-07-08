@@ -1,5 +1,5 @@
 export const locations = [
-   { id: 1, name: "Chelmsford", slug: "chelmsford" },
+  { id: 1, name: "Chelmsford", slug: "chelmsford" },
   { id: 2, name: "Colchester", slug: "colchester" },
   { id: 3, name: "Southend-on-Sea", slug: "southend-on-sea" },
   { id: 4, name: "Basildon", slug: "basildon" },
@@ -9,5 +9,7 @@ export const locations = [
   { id: 8, name: "Grays", slug: "grays" },
   { id: 9, name: "Epping", slug: "epping" },
   { id: 10, name: "Loughton", slug: "loughton" },
+  { id: 11, name: "Witham", slug: "witham"},
+  { id: 12, name: "Maldon", slug: "maldon"},
  
 ];

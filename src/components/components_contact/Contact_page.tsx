@@ -63,7 +63,10 @@ async function form_validation(e: FormEvent<HTMLFormElement>) {
     newErrors.registration = "Registration must be alphanumeric only (max 8 characters).";
 
   // POSTCODE VALIDATION (optional)
-  if (postcode && !/^[A-Za-z0-9][A-Za-z0-9\s]{1,7}$/.test(postcode.trim()))
+  if (!postcode.trim())
+    newErrors.postcode = "Postcode is required..";
+
+  else if (postcode && !/^[A-Za-z0-9][A-Za-z0-9\s]{1,7}$/.test(postcode.trim()))
     newErrors.postcode = "Enter a valid postcode.";
 
   // MESSAGE VALIDATION
@@ -119,24 +122,24 @@ async function form_validation(e: FormEvent<HTMLFormElement>) {
 }
     return(
 
-          <div className="flex flex-wrap w-full">
-            <form  className="flex flex-wrap w-full" onSubmit={form_validation} noValidate>
+          <div className="flex flex-wrap py-10 leading-7 tracking-[0.04em]  w-full">
+            <form  className="flex flex-wrap w-full mx-2 lg:mx-12" onSubmit={form_validation} noValidate>
    
                        <div className="w-full">
-                        <div className="mt-3">
+                        <div className="mx-7 md:mx-17">
                             <center>
-                                <h1 className="font-bold text-lg md:text-2xl">
+                                <h1 className="font-bold text-2xl md:text-3xl  leading-7 tracking-[0.04em]">
                                     Contact Vogue Fix My Motor — Engine Repair in Grays, Essex
                                 </h1>
 
-                                <p className="text-sm text-[#4B5563]">Fill in your details below and our team will get back to you with expert advice and a free quote.</p>
+                                <p className="text-md leading-7 tracking-[0.04em]  text-[#4B5563] text-[16px]">Fill in your details below and our team will get back to you with expert advice and a free quote.</p>
                                 </center>
                         </div>
                         </div>
-                        <div className="w-full md:w-1/2 flex justify-center">
+                        <div className="w-full md:w-1/2 flex mt-10 justify-center">
 
 
-                                    <div style={{backgroundColor:"white", borderRadius:"10px", colorScheme:"light"}} className="w-[85%] md:w-[80%] shadow-2xl" >
+                                    <div style={{backgroundColor:"white", borderRadius:"10px", colorScheme:"light"}} className="w-full mx-4 shadow-[0_0px_60px_-15px_rgba(0,0,0,0.5)]" >
                                         
                                         <div className="bg-[#F3FFF9] rounded-t-[10px] rounded-b-[0px]">
                                                                       
@@ -145,7 +148,7 @@ async function form_validation(e: FormEvent<HTMLFormElement>) {
                                                                                 <div className="flex flex-wrap text-left">
                                                                                     
                                                                                           <div className="mt-3 w-full ">
-                                                                                        <div className="ml-5 mr-5">
+                                                                                        <div className="mx-5">
                                                                              <label className="mb-1 text-sm text-black font-medium">Reg Number  <span style={{color:"red"}}>*</span></label>
                                                                                       
                                                                                  <div className="flex border rounded overflow-hidden w-full mt-2" style={{borderColor:"#FFCB05"}}>
@@ -175,7 +178,7 @@ async function form_validation(e: FormEvent<HTMLFormElement>) {
                                 )}
                                                                             </div>
                                                                         </div>
-                                                                                    <div className="w-12/24 mt-3">
+                                                                                    <div className="w-full lg:w-12/24 mt-3">
                                                                                     
 
                                                                                     {/* Phone Number */}
@@ -200,7 +203,7 @@ async function form_validation(e: FormEvent<HTMLFormElement>) {
                                                                                     </div>
                                                                                     </div>
                                                                             
-                                                                        <div className="w-12/24 mt-3 ">
+                                                                        <div className="w-full lg:w-12/24 mt-3 ">
                                                                         
 
                                                                      
@@ -241,7 +244,7 @@ async function form_validation(e: FormEvent<HTMLFormElement>) {
                                                                                 </div>
                                                                                 <div className="flex flex-wrap text-left">
                                                                                     
-                                                                                    <div className="w-12/24 mt-3">
+                                                                                    <div className="w-full lg:w-12/24 mt-3">
                                                                                     
 
                                                                                   
@@ -266,7 +269,7 @@ async function form_validation(e: FormEvent<HTMLFormElement>) {
                                                                                     </div>
                                                                                     </div>
                                                                             
-                                                                        <div className="w-12/24 mt-3 ">
+                                                                        <div className="w-full lg:w-12/24 mt-3 ">
                                                                         
 
                                                                      
@@ -310,13 +313,12 @@ async function form_validation(e: FormEvent<HTMLFormElement>) {
                                                                     <div className="p-5 pt-1">
                                                                     <center><button
   disabled={loading}
-  className={`mt-5 mb-5 pt-2 pb-2 text-white font-bold rounded-md
+  className={`mt-5 mb-5 pt-2 pb-2 text-white bg-[#059669] hover:bg-[#03855c] font-bold rounded-md
   ${loading ? "opacity-50 cursor-not-allowed" : ""}
   `}
   style={{
     display: "block",
-    background:
-      "radial-gradient(53.6% 50% at 46.4% 50%, #00BC71 0%, #036F3D 100%)",
+   
     width: "90%",
     margin: "20px",
   }}
@@ -338,66 +340,73 @@ async function form_validation(e: FormEvent<HTMLFormElement>) {
                                                                     </div>
                                                     </div>
                                                       <div className="w-full md:w-1/2">
-                                                      <div  className=" m-5 mt-10 ml-10 md:mr-5" >
+                                                      <div  className="mx-4  mt-10 " >
                                                             <div>
                                                                <h2 className="font-bold text-lg ">Get in Touch with Us</h2>
-                                                               <p className="pt-2 w-[90%]">
+                                                               <p className=" text-base leading-7 tracking-[0.015em] text-black font-normal">
                                                                 Have a question about your vehicle or want to book a repair? Contact our team at Vogue Fix My Motor in Grays, Essex. We service all makes and models across Essex and surrounding areas.
                                                                 </p>
                                                             </div>
-                                                            <div className="flex">
-                                                                <div className="w-1/2">
-                                                                <p className="text-[#028D53] underline pt-3 font-bold">ADDRESS</p>
-                                                                <p className="pt-3 font-bold">Unit 1D Hedley Ave
-Grays RM20 4EL
-United Kingdom</p>
-                                                                
+                                                            <div className="flex flex-wrap">
+                                                                <div className="w-full md:w-1/2 ">
+                                                                <div className="m-1">
+                                                                <p className="text-[#028D53] underline  font-bold">ADDRESS</p>
+                                                                <p className="font-bold">
+                                                                <Link href="https://www.google.com/maps/search/?api=1&query=UNIT+1+Hedley+Avenue+Grays+RM20+4EL+UK"
+                              target="_blank"
+                              rel="noopener noreferrer">Unit 1D Hedley Ave
+                                                                  Grays RM20 4EL
+                                                                  United Kingdom</Link></p>
+                                                                   </div>                                                      
                                                                 </div>
-                                                                <div className="w-1/2">
-                                                                <p className="text-[#028D53] underline pt-3 font-bold">CONTACT</p>
-                                                                <p className="text-[#90B99F] pt-3 text-[12px] font-bold">PHONE:</p>
+                                                                <div className="w-full md:w-1/2">
+                                                                <div className="m-2">
+                                                                <p className="text-[#028D53] underline  font-bold">CONTACT</p>
+                                                                <p className="text-[#90B99F]  text-[12px] font-bold">PHONE:</p>
                                                                 
                                                                 <p className=" font-bold"><Link href="tel:+01375531355">
                                                                 01375 531355
                                                                 </Link>
                                                                 </p>
-                                                                 <p className="text-[#90B99F] pt-3 text-[12px] font-bold">EMAIL:</p>
+                                                                 <p className="text-[#90B99F]  text-[12px] font-bold">EMAIL:</p>
                                                                 
-                                                                <p className=" font-bold text-sm">  <Link href="mailto:sales@voguetechnics.co.uk">
+                                                                <p className=" flex font-bold text-sm md:text-xs lg:text-sm ">  <Link href="mailto:sales@voguetechnics.co.uk">
                                                                 sales@voguetechnics.co.uk
                                                                 </Link>
                                                                 </p>
                                                                 </div>
+                                                                </div>
                                                             </div>
-                                                               <div className="w-7/12">
-                                                                <p className="text-[#028D53] underline pt-5 font-bold">OPENING HOURS</p>
-                                                                        <div className="pt-3 font-bold">
+                                                               <div className="w-full">
+                                                               <div className="m-2">
+                                                                <p className="text-[#028D53] underline pt-1 font-bold">OPENING HOURS</p>
+                                                                        <div className=" font-bold">
                                                                             Monday - Friday:  
                                                                             <span className="text-[20px] inline">
                                                                                  9:00 AM - 6:00 PM
                                                                             </span>
                                                                             </div>
-                                                                            <div className="pt-3 font-bold">
+                                                                            <div className=" font-bold">
                                                                             Saturday: 
                                                                             <span className="text-[20px] inline">
                                                                                  7:00 AM - 1:00 PM
                                                                             </span>
                                                                             </div>
 
-                                                                             <div className="pt-3 font-bold">
+                                                                             <div className=" font-bold">
                                                                             Sunday: 
                                                                             <span className="text-[red] inline">
                                                                                  Closed
                                                                             </span>
                                                                             </div>
                                                                 </div>
-                                                                
-                                                               <div className=" w-[95%] md:w-[92%] mt-4">
+                                                                </div>
+                                                               <div className=" w-full mt-4">
                                        <iframe
   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1918.840526322696!2d0.29315567556610106!3d51.47451701310638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8b7a2859bba33%3A0xd64a87b00877a1d!2sVogue%20Technics!5e1!3m2!1sen!2s!4v1778063921624!5m2!1sen!2s"
   width="100%"
-  height="300"
-  style={{ border: 0 }}
+  height="260"
+  style={{ border: "0", borderRadius:"10px" }}
   loading="lazy"
 ></iframe>
 

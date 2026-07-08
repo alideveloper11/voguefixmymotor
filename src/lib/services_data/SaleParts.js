@@ -11,28 +11,28 @@ const saleParts = [
     name:"Crankshaft Pulley",
     text:"Maintain engine efficiency with our precision crankshaft pulley installations.",
     price:"£100",
-    image:"/sale_parts/pulley.png"
+    image:"/sale_parts/pulley.webp"
   },
   {
     id:2,
     name:"Power Steering Pump",
     text:"Achieve smoother handling with our power steering pump replacements.",
     price:"£800",
-    image:"/sale_parts/head.png"
+    image:"/sale_parts/head.webp"
   },
    {
     id:9,
     name:"Alternator",
     text:"Restore vehicle’s electrical performance with our alternator service.",
     price:"£500",
-    image:"/sale_parts/alternator.png"
+    image:"/sale_parts/alternator.webp"
   },
   {
     id:4,
     name:"Cylinder Head",
     text:"Enhance power and efficiency with our high-quality cylinder head replacements.",
     price:"£150",
-    image:"/sale_parts/pump.png"
+    image:"/sale_parts/pump.webp"
   },
  
   {
@@ -70,7 +70,7 @@ const saleParts = [
     name:"Exhaust Manifold",
     text:"Boost engine efficiency with our tailored exhaust manifold replacements.",
     price:"£400",
-    image:"/sale_parts/manifold.png"
+    image:"/sale_parts/manifold.webp"
   },
 ];
 
