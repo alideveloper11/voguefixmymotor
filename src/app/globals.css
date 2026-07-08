@@ -113,10 +113,7 @@ border-radius: 10px 0px 0px 0px;
 }
 /* globals.css */
 
-html,
-body {
-  overflow-x: hidden;
-}
+
 
 .no-scrollbar::-webkit-scrollbar {
   display: none;
@@ -694,4 +691,34 @@ textarea::placeholder {
 .first_blog_image{
   margin: 0px !important;
   padding: 0px !important;
+}
+
+.contact_blog_scroll_bar {
+  overflow-y: auto;
+}
+
+/* Chrome, Edge, Safari */
+.contact_blog_scroll_bar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.contact_blog_scroll_bar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.contact_blog_scroll_bar::-webkit-scrollbar-thumb {
+  background: #059669;
+  border-radius: 5px;
+}
+
+.contact_blog_scroll_bar::-webkit-scrollbar-button,
+.contact_blog_scroll_bar::-webkit-scrollbar-button:start:decrement,
+.contact_blog_scroll_bar::-webkit-scrollbar-button:end:increment {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.contact_blog_scroll_bar::-webkit-scrollbar-corner {
+  background: transparent;
 }
