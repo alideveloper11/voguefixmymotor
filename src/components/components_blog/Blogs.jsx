@@ -1,21 +1,21 @@
 "use client"
-import blogs_data from "@/lib/blogs_data/blogs_data";
 import Link from "next/link";
 import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
 
-export default function Blogs(){
+export default function Blogs({blogs}){
     return(
         <div className="w-full leading-7 tracking-[0.04em]  py-2 pb-8 flex flex-wrap mx-3 lg:mx-13 justify-center mt-6 ">
-                {blogs_data.map((blog,index) => (
+                {blogs.map((blog,index) => (
                
-                  <div  key={blog.id}  className=" w-full sm:w-full md:w-6/12 h-[auto] lg:w-4/12 flex justify-center ">
+                  <div  key={blog.slug}  className=" w-full sm:w-full md:w-6/12 h-[auto] lg:w-4/12 flex justify-center ">
+          <Link href={`/blog/${blog.slug}`} className="cursor-pointer" >         
   <div 
     className="m-2 flex flex-col relative overflow-hidden shadow-[0_0_10px_#696969] rounded-xl"
     
   >
-    <div className="h-[290px]">
+    <div className="">
     <img
       src={blog.image}
       className="w-full h-full object-cover"
@@ -26,12 +26,12 @@ export default function Blogs(){
     
   </div>
    <div>
-    <div className="text-md h-[59px] overflow-hidden font-bold text-black mt-2 mx-2 leading-tight"  dangerouslySetInnerHTML={{ __html:  blog.heading }}>
+    <div className="text-md h-[59px] overflow-hidden font-bold text-black mt-2 mx-2 leading-tight"  dangerouslySetInnerHTML={{ __html:  blog.title }}>
                 
                   </div>
   </div>
   <div>
-    <div className="text-sm text-black mx-2 mt-2 "  dangerouslySetInnerHTML={{ __html:  blog.text1.slice(0, 119) }} >
+    <div className="text-sm text-black mx-2 mt-2 "  dangerouslySetInnerHTML={{ __html:  blog.excerpt.slice(0, 119) }} >
  
 </div>
   </div>
@@ -48,11 +48,11 @@ export default function Blogs(){
                    
                   </div>
                   <div className="text-md font-bold text-black   cursor-pointer">
-                  <Link href={`/blog/${blog.slug}`} style={{textDecoration:"none"}} className="text-[#046b3f] hover:text-[#054f2f]"> Read More <ArrowForwardIcon /></Link> 
+                   <div style={{textDecoration:"none"}}  className="text-[#046b3f] hover:text-[#054f2f]">Read More <ArrowForwardIcon /></div> 
                   </div>
                   </div>
   </div>
- 
+ </Link> 
 </div>
              ))}    
 </div>
