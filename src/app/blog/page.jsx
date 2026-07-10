@@ -2,7 +2,7 @@ import Blogs from "@/components/components_blog/Blogs";
 import Latest_videos from "@/components/latest_videos/Latest_videos";
 import LatestVideosData from "@/lib/blogs_data/LatestVideosData";
 export default async function Blog() {
-//   try{
+  try{
   const username = process.env.BLOG_USERNAME;
   const password = process.env.BLOG_PASSWORD;
   const response = await fetch(
@@ -32,12 +32,12 @@ export default async function Blog() {
     </div>  
     </>
   );
-//    }
-// catch {
-//    return (
-//     <div className="flex flex-wrap w-full">
-//       <p className="text-xl text-[red]">Unable to load blogs. Please try again later......</p>
-//     </div>
-//   );
-// }
+   }
+catch {
+   return (
+    <div className="flex flex-wrap w-full">
+      <p className="text-xl text-[red]">Unable to load blogs. Please try again later......</p>
+    </div>
+  );
+}
 }

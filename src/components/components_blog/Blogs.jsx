@@ -1,13 +1,58 @@
 "use client"
+import KeyboardDoubleArrowLeftIcon from "@mui/icons-material/KeyboardDoubleArrowLeft";
+import KeyboardDoubleArrowRightIcon from "@mui/icons-material/KeyboardDoubleArrowRight";
+import { useState } from "react";
 import Link from "next/link";
 import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
-
 export default function Blogs({blogs}){
+  const blogsPerPage = 12;
+
+const [currentPage, setCurrentPage] = useState(1);
+
+const lastBlogIndex = currentPage * blogsPerPage;
+
+const firstBlogIndex = lastBlogIndex - blogsPerPage;
+
+const currentBlogs = blogs.slice(firstBlogIndex, lastBlogIndex);
+
+const totalPages = Math.ceil(blogs.length / blogsPerPage);
+const getPagination = () => {
+  const pages = [];
+
+  if (totalPages <= 7) {
+    for (let i = 1; i <= totalPages; i++) {
+      pages.push(i);
+    }
+    return pages;
+  }
+
+  pages.push(1);
+
+  if (currentPage > 3) {
+    pages.push("....");
+  }
+
+  const start = Math.max(2, currentPage - 1);
+  const end = Math.min(totalPages - 1, currentPage + 1);
+
+  for (let i = start; i <= end; i++) {
+    pages.push(i);
+  }
+
+  if (currentPage < totalPages - 2) {
+    pages.push("....");
+  }
+
+  pages.push(totalPages);
+
+  return pages;
+};
     return(
+      <>
         <div className="w-full leading-7 tracking-[0.04em]  py-2 pb-8 flex flex-wrap mx-3 lg:mx-13 justify-center mt-6 ">
-                {blogs.map((blog,index) => (
+                {currentBlogs.map((blog,index)=>(
                
                   <div  key={blog.slug}  className=" w-full sm:w-full md:w-6/12 h-[auto] lg:w-4/12 flex justify-center ">
           <Link href={`/blog/${blog.slug}`} className="cursor-pointer" >         
@@ -54,8 +99,63 @@ export default function Blogs({blogs}){
   </div>
  </Link> 
 </div>
-             ))}    
+           ))}
 </div>
+<div className="flex justify-center items-center gap-4 my-8 w-full">
 
-    )
+  {/* Previous Button */}
+  <button
+    onClick={() => setCurrentPage(currentPage - 1)}
+    disabled={currentPage === 1}
+    className="px-4 py-2 rounded-md bg-[#046b3f] text-white disabled:bg-gray-300 disabled:cursor-not-allowed"
+  >
+    <KeyboardDoubleArrowLeftIcon />
+  </button>
+
+  {/* Numbers Container */}
+  <div className="flex items-center bg-white rounded-full shadow-md overflow-hidden px-2 py-1">
+
+    {getPagination().map((page, index) =>
+
+      page === "...." ? (
+
+        <span
+          key={index}
+          className="px-3 text-gray-500 font-bold"
+        >
+          ....
+        </span>
+
+      ) : (
+
+        <button
+          key={page}
+          onClick={() => setCurrentPage(page)}
+          className={`w-10 h-10 rounded-full font-semibold transition ${
+            currentPage === page
+              ? "bg-[#046b3f] text-white"
+              : "text-black hover:bg-gray-100"
+          }`}
+        >
+          {page}
+        </button>
+
+      )
+
+    )}
+
+  </div>
+
+  {/* Next Button */}
+  <button
+    onClick={() => setCurrentPage(currentPage + 1)}
+    disabled={currentPage === totalPages}
+    className="px-4 py-2 rounded-md bg-[#046b3f] text-white disabled:bg-gray-300 disabled:cursor-not-allowed"
+  >
+    <KeyboardDoubleArrowRightIcon />
+  </button>
+
+</div>
+</>
+)
 }
