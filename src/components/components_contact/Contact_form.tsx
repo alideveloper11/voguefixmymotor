@@ -129,7 +129,7 @@ async function form_validation(e: FormEvent<HTMLFormElement>) {
 
                                     <div style={{backgroundColor:"white", colorScheme:"light"}} className="w-full rounded-xl " >
                                         
-                                        <div className="bg-[#F3FFF9] rounded-t-[10px] rounded-b-[0px]">
+                                        <div>
                                                                       
                                                                         </div>
                                                                                  
