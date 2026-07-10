@@ -129,9 +129,7 @@ export default function Loading() {
             {/* Button */}
 
             <div className="mt-8 h-14 skeleton rounded-xl"></div>
-
           </div>
-
         </div>
 
       </div>

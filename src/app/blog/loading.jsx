@@ -1,9 +1,25 @@
 export default function Loading() {
   return (
     <div
-      className="max-w-[1800px] mx-auto py-10"
+      className="max-w-[1800px] mx-auto py-7"
       style={{ width: "95%" }}
     >
+      <div className="w-full text-center pb-10 font-bold text-2xl md:text-3xl">
+                 <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight">
+          <span className=" relative inline-block  text-gray-900">Our
+               <span className="absolute -bottom-2 left-0 w-full h-1 bg-gradient-to-r from-[#aba9a9]/20 via-[black] to-[#aba9a9]/20 rounded-full"></span>
+            <span className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-12 h-1 bg-[black] rounded-full"></span>
+          
+          </span>
+          
+          <span className="relative inline-block ml-3 text-[#046b3f]">
+            Blogs
+            {/* Underline Decoration */}
+            <span className="absolute -bottom-2 left-0 w-full h-1 bg-gradient-to-r from-[#046b3f]/20 via-[#046b3f] to-[#046b3f]/20 rounded-full"></span>
+            <span className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-12 h-1 bg-[#046b3f] rounded-full"></span>
+          </span>
+        </h1>
+              </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-3">
 
         {[...Array(12)].map((_, index) => (
