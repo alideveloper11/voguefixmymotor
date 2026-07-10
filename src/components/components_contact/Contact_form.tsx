@@ -1,6 +1,7 @@
 "use client"
 import { FormEvent } from "react";
 import { useState } from "react";
+import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useSearchParams } from "next/navigation";
 import { normalizeRegistration } from "@/lib/registration";
@@ -56,7 +57,9 @@ async function form_validation(e: FormEvent<HTMLFormElement>) {
 
   // REGISTRATION VALIDATION (optional)
   const normalizedRegistration = normalizeRegistration(registration);
-  if (registration && registration !== normalizedRegistration)
+  if (!normalizedRegistration)
+    newErrors.registration = "Registration number is required.";
+  else if (registration && registration !== normalizedRegistration)
     newErrors.registration = "Registration must be alphanumeric only (max 8 characters).";
   else if (normalizedRegistration.length > 8)
     newErrors.registration = "Registration must be alphanumeric only (max 8 characters).";
@@ -141,8 +144,8 @@ async function form_validation(e: FormEvent<HTMLFormElement>) {
                                                                                       
                                                                                  <div className="flex border rounded overflow-hidden w-full mt-2" style={{borderColor:"#FFCB05"}}>
                                                 
-                                                    <button className="bg-blue-900 text-white px-4 items-center justify-center ">
-                                                    <div><img src="/Vector.svg" alt="flag"  className="mt-2"/></div>
+                                                    <button type="button" className="bg-blue-900 text-white px-4 items-center justify-center ">
+                                                    <div><Image src="/Vector.svg" alt="flag" width={28} height={20} className="mt-2"/></div>
                                                     <div>UK</div>
                                                     </button>
 
