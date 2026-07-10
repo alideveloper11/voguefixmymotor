@@ -29,24 +29,23 @@ export default function Large_screen_menus(){
         
  
     return(
-     
+     <div className="mx-12 ">
     <div className="flex flex-wrap w-full items-center  ">
          
-              <div className="w-1/24">
-              </div>
+              
               <div className="w-5/24">
               <Link href="/">
                     <img src="/logo.svg" className="w-22" alt="Logo" />
               </Link>    
               </div>
-              <div className="w-14/24 text-white">
+              <div className="w-15/24 text-white">
 
 
                           <Box className="menuBox flex gap-3" style={{fontSize:"10px"}}>
-                                     <Link href="/"><Button color="inherit" className="menu" style={{fontSize:"13px"}}>Home</Button></Link>
+                                     <Link href="/"><Button color="inherit" className="menu font-black" style={{fontSize:"13px",fontWeight:"600"}}>Home</Button></Link>
        
        <div
-  className="relative py-[6px] menu"
+  className="relative py-[6px] menu "
   onMouseEnter={() => setAnchorProducts(true)}
   onMouseLeave={() => setAnchorProducts(false)}
   onClick={handleCloseMenus}
@@ -59,7 +58,7 @@ export default function Large_screen_menus(){
   
   
   onMouseEnter={(e) => setAnchorProducts(e.currentTarget)}
- className="menu text-[13px] flex items-center">
+ className="menu text-[13px]  flex items-center" style={{fontWeight:"bold"}}>
   SERVICES
   <ArrowDropDownIcon />
 </Link>
@@ -67,50 +66,58 @@ export default function Large_screen_menus(){
 
   <div
       className={`
-         absolute top-full left-0 
-       w-[300px] 
-        max-h-[350px] 
-        overflow-y-auto 
-        rounded-xl 
-        bg-[white] 
-         
-        shadow-lg 
-        z-50
-
-        transition-all duration-300 ease-in-out
-        ${anchorProducts
+         absolute top-full left-[-5px]        
+        bg-[#0d0d0d]
+        text-white
+        py-2
+        rounded-lg
+        shadow-[0_0_20px_#4f4f4f]
+         ${anchorProducts
   ? "opacity-100 translate-y-0 scale-100"
   : "opacity-0 -translate-y-3 scale-95 pointer-events-none"
 }
-        `}
-       
-      
-      style={{
-    scrollbarWidth: "thin",
-    scrollbarColor: "#ccc #ffffff ",
-  }}
+transition-all duration-300 ease-in-out
+
+        
+       `}  
     >
+        
+      <div className={`overflow-y-auto  rounded-lg  w-[300px] 
+        max-h-[350px]   z-50    ${anchorProducts
+  ? "opacity-100 translate-y-0 scale-100"
+  : "opacity-0 -translate-y-3 scale-95 pointer-events-none"
+}
+transition-all duration-300 ease-in-out
+      `}    style={{
+    scrollbarWidth: "thin",
+    scrollbarColor: "#ccc #0d0d0d ",
+  }}>
 
   {servicesData.map((services) => (
+    
+    <Link href={`/services/${services.slug}`} key={services.id} className="w-full font-semibold">
   <div
-    key={services.id}
+    
     onClick={handleCloseMenus}
     style={{borderBottom:"1px solid #ccc"}}
     className="px-4 
 py-2 
-text-[18px]
-text-black
+text-[14px]
+text-white
 hover:bg-[#ccc] 
+hover:text-black
 cursor-pointer 
 border-b 
 border-[#ccc]
 text-left"
   >
-    <Link href={`/services/${services.slug}`} className="w-full">
       {services.name}
-    </Link>
+    
   </div>
+  </Link>
+  
 ))}
+</div>
 </div>
 </div>
 
@@ -119,18 +126,19 @@ text-left"
 
 
                         
-                                   <Link href="/areas"> <Button color="inherit" className="menu"  style={{fontSize:"13px"}}>Areas</Button></Link>
-                                    <Link href="/gallery"> <Button color="inherit" className="menu"  style={{fontSize:"13px"}}>Gallery</Button></Link>
-                                    <Link href="/about"> <Button color="inherit" className="menu"  style={{ fontSize: "13px", whiteSpace: "nowrap" }}>About Us</Button></Link>
+                                   <Link href="/areas"> <Button color="inherit" className="menu"  style={{fontSize:"13px",fontWeight:"bold"}}>Areas</Button></Link>
+                                    <Link href="/gallery"> <Button color="inherit" className="menu"  style={{fontSize:"13px",fontWeight:"bold"}}>Gallery</Button></Link>
+                                    <Link href="/about"> <Button color="inherit" className="menu"  style={{ fontSize: "13px",fontWeight:"bold", whiteSpace: "nowrap" }}>About Us</Button></Link>
                                   
-                                    <Link href="/reviews">  <Button color="inherit" className="menu"  style={{fontSize:"13px"}}>Reviews</Button></Link>
-                                   <Link href="/blog">  <Button color="inherit" className="menu"  style={{fontSize:"13px"}}>Blogs</Button></Link>
+                                    <Link href="/reviews">  <Button color="inherit" className="menu"  style={{fontSize:"13px",fontWeight:"bold"}}>Reviews</Button></Link>
+                                   <Link href="/blog">  <Button color="inherit" className="menu"  style={{fontSize:"13px",fontWeight:"bold"}}>Blogs</Button></Link>
                                     </Box>
               </div>
-              <div className="w-4/24 text-center">
+              <div className="w-4/24 flex justify-end text-center">
              <Link href="/contact">  <button id="get_Qoute" className="cursor-pointer">Contact</button></Link>
 
               </div>
+    </div>
     </div>
     );
 }

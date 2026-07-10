@@ -2,13 +2,13 @@
 
 import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
-import saleParts from "@/lib/SaleParts";
+
 import { motion } from "framer-motion";
 
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
-export default function SalePartsSlider() {
+export default function SalePartsSlider({saleParts}) {
   const sliderRef = useRef(null);
 
   const [showLeft, setShowLeft] = useState(false);
@@ -21,7 +21,7 @@ export default function SalePartsSlider() {
     const scrollLeft = el.scrollLeft;
     const maxScroll = el.scrollWidth - el.clientWidth;
 
-    setShowLeft(scrollLeft > 0);
+    setShowLeft(scrollLeft > 10);
     setShowRight(scrollLeft < maxScroll - 1);
   };
 
@@ -53,9 +53,9 @@ export default function SalePartsSlider() {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.7 }}
       viewport={{ once: true }}
-      className="bg-gray-100 py-10 overflow-hidden text-black" style={{colorScheme:"light"}}
+      className="bg-gray-100 py-10 bg-white overflow-hidden text-black" style={{colorScheme:"light"}}
     >
-      <h2 className="text-center text-3xl font-bold mb-10">
+      <h2 className="text-center font-bold text-2xl md:text-3xl mb-10">
         Quality Car Parts Available at Vogue Fix My Motor, Grays
       </h2>
 
@@ -66,7 +66,7 @@ export default function SalePartsSlider() {
           {showLeft && (
             <button
               onClick={scrollLeftFn}
-              className="h-10 md:w-8 md:h-12 bg-[#088751] text-white rounded-full flex items-center justify-center shadow"
+              className="h-10 md:w-8 md:h-12 bg-[#088751] text-white rounded-full flex items-center justify-center "
             >
               <ArrowBackIosNewIcon fontSize="small" />
             </button>
@@ -87,7 +87,8 @@ export default function SalePartsSlider() {
             w-full
             no-scrollbar
 
-            px-2
+            py-4
+            p-2
           "
         >
           {saleParts.map((part) => (
@@ -96,16 +97,13 @@ export default function SalePartsSlider() {
               className="
                 snap-start
                 flex-none
-
                 w-full
                 sm:w-[45%]
                 lg:w-[32%]
                 xl:w-[24%]
-
                 bg-white
-                border border-[#059669]
                 rounded-lg
-                shadow-md
+                 shadow-[0_0_10px_#696969] 
                 p-5
               "
             >

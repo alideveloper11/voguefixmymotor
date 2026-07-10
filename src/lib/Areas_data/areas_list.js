@@ -3,225 +3,7 @@
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
     green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
-  items:  [
-  {
-    title: "Expert Engine Repair & Diagnostics Near You in Essex",
-    text: `Vogue Fix My Motor provides expert engine repair and diagnostics for customers across Essex. Our experienced technicians use state-of-the-art OBD scanning tools to accurately identify engine faults and resolve them efficiently. Whether you are dealing with warning lights, power loss, overheating, or unusual noises, we diagnose and fix the problem right first time.
-
-We handle all makes and models — from everyday family cars to high-performance SUVs and commercial vehicles. Based in Grays, Essex, we are conveniently located to serve customers from across the county. Our workshop is equipped with modern tools and quality parts to ensure every repair meets the highest standard.
-
-We believe in honest, transparent service with no hidden charges. Every customer receives a clear quote before any work begins, so you always know exactly what you are paying for and why.
-
-Book your appointment today and get your vehicle back on the road with confidence.`
-  },
-
-  {
-    title: "Trusted Car Repair Experts at Vogue Fix My Motor",
-    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
-
-Our goal is to build long-term trust with our customers. We believe that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
-
-We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
-  },
-
-  {
-    title: "Fast & Professional Car Service in Essex",
-    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
-
-Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
-
- Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
-
-Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
-  },
-  {
-  title: "Advanced Engine Diagnostics at Vogue Fix My Motor, Grays Essex",
-  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
-
-Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
-
-Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
-
-We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
-},
-
-{
-  title: "Quality Parts & Reliable Repairs — Vogue Fix My Motor",
-  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
-
-Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
-
-Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
-
-We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
-},
-
-{
-  title: "Customer Satisfaction Guaranteed at Vogue Fix My Motor",
-  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
-
-We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
-
-We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
-
-Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
-},
-]
-},
-
-  servicesData:[
-  {
-    id: 1,
-    name: "Initial Diagnostics",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Initial-Diagnostics",
-    img:"/Initial Diagnostics.jpeg",
-    },
-    {
-    id: 12,
-    name: "Cam Belts",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Cam-Belts",
-  },
-    {
-    id: 17,
-    name: "Welding Services",
-    text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Welding-Services",
-  },
-   {
-    id: 19,
-    name: "Locking Wheel Nut Removal / Replacement",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "Locking-Wheel-Nut-Removal-Replacement",
-  },
-   
-  {
-    id: 20,
-    name: "24/7 Vehicle Recovery",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    slug: "24-7-Vehicle-Recovery",
-  },
-   {
-    id: 21,
-    name: "Valeting Services",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Valeting-Services",
-  },
-
-],
-   faq:[
-  {
-    id: 1,
-    question: "Why choose Vogue Fix My Motor for engine repair in Essex?",
-    answer: "Vogue Fix My Motor offers 20+ years of engine repair experience, dealer-level diagnostic tools, and pricing that is typically 40% lower than main dealers. Based in Grays, Essex, we serve all surrounding areas with honest, transparent service and a warranty on all repairs."
-  },
-  {
-    id: 2,
-    question: "How do I book an appointment at Vogue Fix My Motor?",
-    answer: "Booking is simple. Use our online contact form, call us directly, or enter your vehicle registration on the website for an instant quote. We are available Monday to Saturday and will confirm your appointment quickly."
-  },
-  {
-    id: 3,
-    question: "How can I save money on engine repairs or replacements?",
-    answer: "Vogue Fix My Motor can source quality reconditioned engines with a warranty, saving you up to 50% compared to main dealer prices. We always provide a clear, itemised quote upfront so there are no hidden costs."
-  },
-  {
-    id: 4,
-    question: "Do your engine repairs and parts come with a warranty?",
-    answer: "Yes. All repairs and engines fitted at Vogue Fix My Motor include a warranty for your peace of mind. Our reconditioned engines come with a 36-month warranty and can save you 40-60% compared to main dealer prices."
-  }
-],
-  served:{
-  heading:"WE SERVED Nationwide",
-  p1:"No matter where you are in the UK, our white-glove collection and delivery service brings our workshop to your doorstep. We use enclosed, insured transporters for all vehicle movements, treating your car like priceless art.",
-  p2:"Over 2,000 satisfied customers across England, Scotland, and Wales trust us with their luxury vehicles. We've collected cars from John O'Groats to Land's End and everywhere between. Call us today for a fixed-price collection quote."
-},
-requestqoute:{
-  heading:"Water Pump Replacement",
-  paragraph:"Coolant leaks near the engine front mean a failing water pump. We replace with metal impeller pumps for reliability. Also fit aluminium thermostat housings.",
-  bullets:[
-    "Water pump bearing and seal check",
-    "Thermostat housing replacement",
-    "Coolant crossover pipe gasket",
-    "Belt-driven pump service"
-  ],
-  image:"/vogue fix my motor image 14.jpg"
-}
-,
-   
-     Reviews:[
-       {
-    id: 1,
-    name: "Emily Evans",
-    time: "5 months ago",
-    text: "What an amazing business, recently had a vehicle repaired with them and I couldn’t have asked for more. Jack was informative and so helpful with any questions I had, the work was completed to the highest of standards at a very competitive rate. They managed to help me out in a really difficult situation! So Thankful for you guys!",
-    rating: 5
-  },
-  {
-    id: 2,
-    name: "Benzo NornIron",
-    time: "10 months ago",
-    text: "I cannot recommend Vogue enough. Their communication and customer service has been stellar throughout. I had the repairs done through RAC warranty. They were extremely helpful, managing all of the correspondence and process for me. Highly recommend and will use again. Thanks",
-    rating: 5
-  },
-  {
-    id: 3,
-    name: "Simon Wallace",
-    time: "5 months ago",
-    text: "Customer service was first class. Very impressed with Adam. In terms of the work carried (replacement clutch) they done a good job and completed when they said they would. Whats App feedback as the job progresses was very good. Highly recommend.",
-    rating: 5
-  }
-],
-
-
-   },
-
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  { id: 2, name: "Colchester", slug: "colchester",
-    heading:"Grays Areas We Cover",
-    text:"We provide specialist engine services and vehicle recovery in Grays.",
-        green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -289,47 +71,305 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
    servicesData:[
   {
-    id: 1,
-    name: "Initial Diagnostics",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+       id: 28,
+       name: "Clutch Replacement",
+       text: "Professional clutch repair and replacement for smoother gear changes and driving control.",
+       slug: "clutch-replacement",
+    img:"/f184d927a7134700f54e21657884675da9b63340.webp",
     },
-    {
-    id: 12,
-    name: "Cam Belts",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+     {
+  id: 45,
+      name: "Air Conditioning Service",
+      text: "Complete air conditioning servicing for efficient cooling and improved cabin air quality.",
+      slug: "air-conditioning-service",
+    img:"/5894cc3d25139ce6d0c8883c11032a4e11db8154.webp",
   },
     {
-    id: 17,
-    name: "Welding Services",
-    text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Welding-Services",
-    img:"/Welding Services.jpg",
-  },
-   {
-      id: 22,
-      name: "Diagnostics",
-      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-      slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      id: 40,
+       name: "Timing Chain Replacement",
+       text: "Timing chain replacement services to maintain accurate engine timing and prevent failures.",
+       slug: "timing-chain-replacement",
+    img:"/e42f4dccba8cfea020c6c73d385c038ca273c78b.webp",
   },
    
- {
-    id: 25,
-    name: "Alternator Replacement",
-    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
-    slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    {
+     id: 42,
+       name: "Head Gasket Repair",
+       text: "Reliable head gasket repairs to prevent overheating and restore engine efficiency.",
+       slug: "head-gasket-repair",
+    img:"/b08253f77d1194ed361ee8793e00aa5a5f887531.webp",
+  },
+   
+  {
+      id: 33,
+       name: "DPF Cleaning Service",
+       text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
+       slug: "dpf-cleaning-service",
+    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
+  },
+   {
+    id: 23,
+       name: "Water Pump Replacement",
+       text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
+       slug: "water-pump-replacement",
+    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
   },
     {
-       id: 41,
-       name: "Oil Change Service",
-       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-       slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+    id: 34,
+    name: "MOT Testing",
+    text: "Certified MOT testing services to ensure your vehicle meets all legal safety standards.",
+    slug: "mot-testing",
+    img:"/MOT Testing.webp",},
+    {
+    id: 14,
+    name: "All Repairs and Services",
+    text: "Complete vehicle repair and maintenance solutions for all makes and models.",
+    slug: "all-repairs-services",
+    img:"/All Repairs and Services.webp",
+    }
+
+],
+   faq:[
+  {
+    id: 1,
+    question: "Why choose Vogue Fix My Motor for engine repair in Essex?",
+    answer: "Vogue Fix My Motor offers 20+ years of engine repair experience, dealer-level diagnostic tools, and pricing that is typically 40% lower than main dealers. Based in Grays, Essex, we serve all surrounding areas with honest, transparent service and a warranty on all repairs."
   },
+  {
+    id: 2,
+    question: "How do I book an appointment at Vogue Fix My Motor?",
+    answer: "Booking is simple. Use our online contact form, call us directly, or enter your vehicle registration on the website for an instant quote. We are available Monday to Saturday and will confirm your appointment quickly."
+  },
+  {
+    id: 3,
+    question: "How can I save money on engine repairs or replacements?",
+    answer: "Vogue Fix My Motor can source quality reconditioned engines with a warranty, saving you up to 50% compared to main dealer prices. We always provide a clear, itemised quote upfront so there are no hidden costs."
+  },
+  {
+    id: 4,
+    question: "Do your engine repairs and parts come with a warranty?",
+    answer: "Yes. All repairs and engines fitted at Vogue Fix My Motor include a warranty for your peace of mind. Our reconditioned engines come with a 36-month warranty and can save you 40-60% compared to main dealer prices."
+  }
+],
+  served:{
+  heading:"WE SERVED Nationwide",
+  p1:"No matter where you are in the UK, our white-glove collection and delivery service brings our workshop to your doorstep. We use enclosed, insured transporters for all vehicle movements, treating your car like priceless art.",
+  p2:"Over 2,000 satisfied customers across England, Scotland, and Wales trust us with their luxury vehicles. We've collected cars from John O'Groats to Land's End and everywhere between. Call us today for a fixed-price collection quote."
+},
+requestqoute:{
+  heading:"Water Pump Replacement",
+  paragraph:"Coolant leaks near the engine front mean a failing water pump. We replace with metal impeller pumps for reliability. Also fit aluminium thermostat housings.",
+  bullets:[
+    "Water pump bearing and seal check",
+    "Thermostat housing replacement",
+    "Coolant crossover pipe gasket",
+    "Belt-driven pump service"
+  ],
+  image:"/vogue fix my motor image 14.webp"
+}
+,
+   
+     Reviews:[
+       {
+    id: 1,
+    name: "Emily Evans",
+    time: "5 months ago",
+    text: "What an amazing business, recently had a vehicle repaired with them and I couldn’t have asked for more. Jack was informative and so helpful with any questions I had, the work was completed to the highest of standards at a very competitive rate. They managed to help me out in a really difficult situation! So Thankful for you guys!",
+    rating: 5
+  },
+  {
+    id: 2,
+    name: "Benzo NornIron",
+    time: "10 months ago",
+    text: "I cannot recommend Vogue enough. Their communication and customer service has been stellar throughout. I had the repairs done through RAC warranty. They were extremely helpful, managing all of the correspondence and process for me. Highly recommend and will use again. Thanks",
+    rating: 5
+  },
+  {
+    id: 3,
+    name: "Simon Wallace",
+    time: "5 months ago",
+    text: "Customer service was first class. Very impressed with Adam. In terms of the work carried (replacement clutch) they done a good job and completed when they said they would. Whats App feedback as the job progresses was very good. Highly recommend.",
+    rating: 5
+  },
+   {
+    id: 114,
+    name: "Haris M",
+    time: "11 months ago",
+    text: "I recently had outstanding service at Vouge Garage, and I couldn't be more pleased! The team was incredibly professional and knowledgeable, taking the time to explain the issues with my car and the necessary repairs. They completed the work efficiently and at a reasonable price. My car runs like new, and I appreciate their attention to detail. I highly recommend to speak to the representative Vic for anyone in need of reliable and high-quality automotive service!",
+    rating: 5
+  },
+],
+
+
+   },
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  { id: 2, name: "Colchester", slug: "colchester",
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
+        green_slider:{
+   img: "/vogue fix my motor image 9.webp",
+  items:  [
+  {
+    title: "Expert Engine Repair & Diagnostics Near You in Essex",
+    text: `Vogue Fix My Motor provides expert engine repair and diagnostics for customers across Essex. Our experienced technicians use state-of-the-art OBD scanning tools to accurately identify engine faults and resolve them efficiently. Whether you are dealing with warning lights, power loss, overheating, or unusual noises, we diagnose and fix the problem right first time.
+
+We handle all makes and models — from everyday family cars to high-performance SUVs and commercial vehicles. Based in Grays, Essex, we are conveniently located to serve customers from across the county. Our workshop is equipped with modern tools and quality parts to ensure every repair meets the highest standard.
+
+We believe in honest, transparent service with no hidden charges. Every customer receives a clear quote before any work begins, so you always know exactly what you are paying for and why.
+
+Book your appointment today and get your vehicle back on the road with confidence.`
+  },
+
+  {
+    title: "Trusted Car Repair Experts at Vogue Fix My Motor",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-term trust with our customers. We believe that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "Fast & Professional Car Service in Essex",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "Advanced Engine Diagnostics at Vogue Fix My Motor, Grays Essex",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "Quality Parts & Reliable Repairs — Vogue Fix My Motor",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "Customer Satisfaction Guaranteed at Vogue Fix My Motor",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+    servicesData:[
+  {
+       id: 28,
+       name: "Clutch Replacement",
+       text: "Professional clutch repair and replacement for smoother gear changes and driving control.",
+       slug: "clutch-replacement",
+    img:"/f184d927a7134700f54e21657884675da9b63340.webp",
+    },
+     {
+  id: 45,
+      name: "Air Conditioning Service",
+      text: "Complete air conditioning servicing for efficient cooling and improved cabin air quality.",
+      slug: "air-conditioning-service",
+    img:"/5894cc3d25139ce6d0c8883c11032a4e11db8154.webp",
+  },
+    {
+      id: 40,
+       name: "Timing Chain Replacement",
+       text: "Timing chain replacement services to maintain accurate engine timing and prevent failures.",
+       slug: "timing-chain-replacement",
+    img:"/e42f4dccba8cfea020c6c73d385c038ca273c78b.webp",
+  },
+   
+    {
+     id: 42,
+       name: "Head Gasket Repair",
+       text: "Reliable head gasket repairs to prevent overheating and restore engine efficiency.",
+       slug: "head-gasket-repair",
+    img:"/b08253f77d1194ed361ee8793e00aa5a5f887531.webp",
+  },
+   
+  {
+      id: 33,
+       name: "DPF Cleaning Service",
+       text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
+       slug: "dpf-cleaning-service",
+    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
+  },
+   {
+    id: 23,
+       name: "Water Pump Replacement",
+       text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
+       slug: "water-pump-replacement",
+    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
+  },
+    {
+    id: 34,
+    name: "MOT Testing",
+    text: "Certified MOT testing services to ensure your vehicle meets all legal safety standards.",
+    slug: "mot-testing",
+    img:"/MOT Testing.webp",},
+    {
+    id: 14,
+    name: "All Repairs and Services",
+    text: "Complete vehicle repair and maintenance solutions for all makes and models.",
+    slug: "all-repairs-services",
+    img:"/All Repairs and Services.webp",
+    }
 
 ],
 faq:[
@@ -370,7 +410,7 @@ faq:[
     "Blind-spot monitor verification",
     "Parking sensor aiming"
   ],
-  image:"/vogue fix my motor image 15.jpg"
+  image:"/vogue fix my motor image 15.webp"
 }
 ,
      
@@ -394,6 +434,13 @@ faq:[
     name: "martyn clark",
     time: "a year ago",
     text: "Vogue Technics were outstanding. My 18 plate discovery sport engine blown, due to oil pump failure and required a replacement. Fortunately I had taken the platinum RAC warranty when I purchased the car. Mel was seriously fantastic and fully dealt with the warranty claim on my behalf (warranty companies do try not to pay out), and made the process stress free for myself - a very impressive service. The team stayed in contact with me almost daily, providing updates, videos & photos of the whole process. On collection, the car was spotless. We've had the car back for almost 4 weeks now and it is driving like new. Can't recommend Vogue Technics enough! Easy 5 STAR!!",
+    rating: 5
+  },
+   {
+    id: 117,
+    name: "jolyon lawson",
+    time: "4 months ago",
+    text: "Great service from Adam and the team. My 2016 discovery sport with ingenium engine was in need of replacement timing chains and had a couple of sensor issues to resolve. Adam completed the work to schedule and in line with a very competitive estimate. He kept me updated, and was very accommodating when arranging the pick up time. The car was returned nice and clean with all the problems sorted.",
     rating: 5
   },
 ]
@@ -443,7 +490,7 @@ faq:[
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
         green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -509,49 +556,64 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 ]
 },
-   servicesData:[
+    servicesData:[
   {
-    id: 1,
-    name: "Initial Diagnostics",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+       id: 28,
+       name: "Clutch Replacement",
+       text: "Professional clutch repair and replacement for smoother gear changes and driving control.",
+       slug: "clutch-replacement",
+    img:"/f184d927a7134700f54e21657884675da9b63340.webp",
     },
-    {
-    id: 12,
-    name: "Cam Belts",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+     {
+  id: 45,
+      name: "Air Conditioning Service",
+      text: "Complete air conditioning servicing for efficient cooling and improved cabin air quality.",
+      slug: "air-conditioning-service",
+    img:"/5894cc3d25139ce6d0c8883c11032a4e11db8154.webp",
   },
     {
-    id: 17,
-    name: "Welding Services",
-    text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Welding-Services",
-    img:"/Welding Services.jpg",
-  },
-   {
-      id: 22,
-      name: "Diagnostics",
-      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-      slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      id: 40,
+       name: "Timing Chain Replacement",
+       text: "Timing chain replacement services to maintain accurate engine timing and prevent failures.",
+       slug: "timing-chain-replacement",
+    img:"/e42f4dccba8cfea020c6c73d385c038ca273c78b.webp",
   },
    
- {
-    id: 25,
-    name: "Alternator Replacement",
-    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
-    slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    {
+     id: 42,
+       name: "Head Gasket Repair",
+       text: "Reliable head gasket repairs to prevent overheating and restore engine efficiency.",
+       slug: "head-gasket-repair",
+    img:"/b08253f77d1194ed361ee8793e00aa5a5f887531.webp",
+  },
+   
+  {
+      id: 33,
+       name: "DPF Cleaning Service",
+       text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
+       slug: "dpf-cleaning-service",
+    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
+  },
+   {
+    id: 23,
+       name: "Water Pump Replacement",
+       text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
+       slug: "water-pump-replacement",
+    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
   },
     {
-       id: 41,
-       name: "Oil Change Service",
-       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-       slug: "oil-change-service",
-       img:"/Oil Change.jpg",
-  },
+    id: 34,
+    name: "MOT Testing",
+    text: "Certified MOT testing services to ensure your vehicle meets all legal safety standards.",
+    slug: "mot-testing",
+    img:"/MOT Testing.webp",},
+    {
+    id: 14,
+    name: "All Repairs and Services",
+    text: "Complete vehicle repair and maintenance solutions for all makes and models.",
+    slug: "all-repairs-services",
+    img:"/All Repairs and Services.webp",
+    }
 
 ],
 faq:[
@@ -592,7 +654,7 @@ requestqoute:{
     "Headliner cleaning",
     "Vent and duct sanitising"
   ],
-  image:"/vogue fix my motor image 17.jpg"
+  image:"/vogue fix my motor image 17.webp"
 },
     
        Reviews:[
@@ -615,6 +677,13 @@ requestqoute:{
     name: "Prabhdit Bhaker",
     time: "a year ago",
     text: "Range Rover broke down in Europe while on holiday with wife and kids. Not sure why I trusted this car to get us there and back but hey ho. Jack called me and listened to me rant for an hour about how BAD these cars are, although Bad isn't the word I used. He arranged recovery for the car to be picked up from Spain the very next day! Timing chain snapped so Jack and his team were able to rebuild the existing engine for a good price. My car was with them for 3 weeks and I've had it back now for 4 months and it's still driving better than ever. Just wanted to say a massive THANK YOU to everyone at Vogue.",
+    rating: 5
+  },
+   {
+    id: 118,
+    name: "luke poole",
+    time: "2 months ago",
+    text: "Impressed with these guys. They kept me update throughout with pictures on whatsapp! They droped me off at Lakeside as part of their service. No local garages in Braintree had the guts to look at my evoque and change the glow plugs or piston cooling jet solenoid. These guys were all over it - they did a flush and oil change at a last minute notice due to a ctitical low oil issue. I would recommend and will use again from now on!",
     rating: 5
   },
  
@@ -643,7 +712,7 @@ requestqoute:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
         green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -709,49 +778,64 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 ]
 },
-  servicesData:[
+    servicesData:[
   {
-    id: 1,
-    name: "Initial Diagnostics",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+       id: 28,
+       name: "Clutch Replacement",
+       text: "Professional clutch repair and replacement for smoother gear changes and driving control.",
+       slug: "clutch-replacement",
+    img:"/f184d927a7134700f54e21657884675da9b63340.webp",
     },
-    {
-    id: 12,
-    name: "Cam Belts",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+     {
+  id: 45,
+      name: "Air Conditioning Service",
+      text: "Complete air conditioning servicing for efficient cooling and improved cabin air quality.",
+      slug: "air-conditioning-service",
+    img:"/5894cc3d25139ce6d0c8883c11032a4e11db8154.webp",
   },
     {
-    id: 17,
-    name: "Welding Services",
-    text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Welding-Services",
-    img:"/Welding Services.jpg",
-  },
-   {
-      id: 22,
-      name: "Diagnostics",
-      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-      slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      id: 40,
+       name: "Timing Chain Replacement",
+       text: "Timing chain replacement services to maintain accurate engine timing and prevent failures.",
+       slug: "timing-chain-replacement",
+    img:"/e42f4dccba8cfea020c6c73d385c038ca273c78b.webp",
   },
    
- {
-    id: 25,
-    name: "Alternator Replacement",
-    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
-    slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    {
+     id: 42,
+       name: "Head Gasket Repair",
+       text: "Reliable head gasket repairs to prevent overheating and restore engine efficiency.",
+       slug: "head-gasket-repair",
+    img:"/b08253f77d1194ed361ee8793e00aa5a5f887531.webp",
+  },
+   
+  {
+      id: 33,
+       name: "DPF Cleaning Service",
+       text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
+       slug: "dpf-cleaning-service",
+    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
+  },
+   {
+    id: 23,
+       name: "Water Pump Replacement",
+       text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
+       slug: "water-pump-replacement",
+    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
   },
     {
-       id: 41,
-       name: "Oil Change Service",
-       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-       slug: "oil-change-service",
-       img:"/Oil Change.jpg",
-  },
+    id: 34,
+    name: "MOT Testing",
+    text: "Certified MOT testing services to ensure your vehicle meets all legal safety standards.",
+    slug: "mot-testing",
+    img:"/MOT Testing.webp",},
+    {
+    id: 14,
+    name: "All Repairs and Services",
+    text: "Complete vehicle repair and maintenance solutions for all makes and models.",
+    slug: "all-repairs-services",
+    img:"/All Repairs and Services.webp",
+    }
 
 ],
 faq:[
@@ -791,7 +875,7 @@ faq:[
     "Spark plug thread repair",
     "Seized bolt removal"
   ],
-  image:"/vogue fix my motor image 18.jpg"
+  image:"/vogue fix my motor image 18.webp"
 },
     
       Reviews:[
@@ -816,7 +900,13 @@ faq:[
     text: "I don’t often leave reviews, but Vogue Technics truly stands out as a professional and well-established garage, specializing in Land Rover engine rebuilds. After seeing countless ads on eBay and feeling hesitant about many engine rebuild companies, I came across them and decided to take a chance based on their excellent reviews. They delivered exactly as promised—on time and at the agreed price. Throughout the process, Vic and the team kept me updated with regular progress reports and photos, which was incredibly reassuring. Vic himself is genuinely helpful, always available to answer any questions, and his transparency gave me complete confidence in their work. Now, my car is back on the road running better than ever. I honestly can’t recommend Vogue Technics enough—exceptional service!",
     rating: 5
   },
- 
+   {
+    id: 119,
+    name: "George Sutherland",
+    time: "a year ago",
+    text: "Terrific service. The engine in my L405 seized near Seville in Spain. I contacted Vogue Technics who agreed to accept the car. They sent photos of the car being delivered and of the ruined engine after removal. They fitted a reconditioning engine and kept me informed at every stage. The car is now repaired and running perfectly. The team at Technics were polite, professional and knowledgeable. An excellent job at a reasonable price. I fully recommend Vogue Technics to anyone with Land Rover engine issues. Thank you Az, Sunny, Adrian and Adam",
+    rating: 5
+  },
 ],
    },
 
@@ -844,7 +934,7 @@ faq:[
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
         green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -910,49 +1000,64 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 ]
 },
-  servicesData:[
+    servicesData:[
   {
-    id: 1,
-    name: "Initial Diagnostics",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+       id: 28,
+       name: "Clutch Replacement",
+       text: "Professional clutch repair and replacement for smoother gear changes and driving control.",
+       slug: "clutch-replacement",
+    img:"/f184d927a7134700f54e21657884675da9b63340.webp",
     },
-    {
-    id: 12,
-    name: "Cam Belts",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+     {
+  id: 45,
+      name: "Air Conditioning Service",
+      text: "Complete air conditioning servicing for efficient cooling and improved cabin air quality.",
+      slug: "air-conditioning-service",
+    img:"/5894cc3d25139ce6d0c8883c11032a4e11db8154.webp",
   },
     {
-    id: 17,
-    name: "Welding Services",
-    text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Welding-Services",
-    img:"/Welding Services.jpg",
-  },
-   {
-      id: 22,
-      name: "Diagnostics",
-      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-      slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      id: 40,
+       name: "Timing Chain Replacement",
+       text: "Timing chain replacement services to maintain accurate engine timing and prevent failures.",
+       slug: "timing-chain-replacement",
+    img:"/e42f4dccba8cfea020c6c73d385c038ca273c78b.webp",
   },
    
- {
-    id: 25,
-    name: "Alternator Replacement",
-    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
-    slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    {
+     id: 42,
+       name: "Head Gasket Repair",
+       text: "Reliable head gasket repairs to prevent overheating and restore engine efficiency.",
+       slug: "head-gasket-repair",
+    img:"/b08253f77d1194ed361ee8793e00aa5a5f887531.webp",
+  },
+   
+  {
+      id: 33,
+       name: "DPF Cleaning Service",
+       text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
+       slug: "dpf-cleaning-service",
+    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
+  },
+   {
+    id: 23,
+       name: "Water Pump Replacement",
+       text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
+       slug: "water-pump-replacement",
+    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
   },
     {
-       id: 41,
-       name: "Oil Change Service",
-       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-       slug: "oil-change-service",
-       img:"/Oil Change.jpg",
-  },
+    id: 34,
+    name: "MOT Testing",
+    text: "Certified MOT testing services to ensure your vehicle meets all legal safety standards.",
+    slug: "mot-testing",
+    img:"/MOT Testing.webp",},
+    {
+    id: 14,
+    name: "All Repairs and Services",
+    text: "Complete vehicle repair and maintenance solutions for all makes and models.",
+    slug: "all-repairs-services",
+    img:"/All Repairs and Services.webp",
+    }
 
 ],
 faq:[
@@ -992,7 +1097,7 @@ requestqoute:{
     "Boost leak detection under load",
     "Before-and-after tuning comparison"
   ],
-  image:"/wowimage.jpg"
+  image:"/wowimage.webp"
 },
     
      Reviews:[
@@ -1017,7 +1122,13 @@ requestqoute:{
     text: "Came in with a diagnostics from another garage with a blown head gasket and car overheating. the Vogue team did there own diagnostics and opened up the engine ran several tests turns out it was something minor saving me thousands of pounds on a head gasket replacement plus time. Very honest and reliable staff members from Jack keeping me updated day in day out on everything they did to the car, explaining everything that was done step by step plus videos and pictures to Ali working on fixing the issues On short notice very reliable garage but for the most important part very honest people would definitely recommend if you’re looking for a reliable garage.",
     rating: 5
   },
- 
+   {
+    id: 120,
+    name: "Gaz Rees",
+    time: "3 months ago",
+    text: "So i found Vogue Technics online trying to find a new engin for my 2017 golf R. Whilst i was looking for an engin i applied to a search for an engin and it sent out a tender to loads of different company's. i got called by loads of other company's quoting all kinds of prices some lower and some higher. I used google maps street view to view all the candidates i had chosen. Some looked so shady and wondered if they had my car would i get it back in one piece😅 so i went through and viewed all company's and vogue technics looked like a real garage. I do a-lot of work on cars and just don't have the machines needed to do the rebuild. So i can tell a good garage just by seeing it. Espeshaly from the others i had seen. So it looked the part but that was not my only factor for choosing to go with them, i had a phone call from Jack and had a good chat and i felt like i could trust this man and so i agreed to bringing my golf to the workshop. I wanted to double cheak to make sure it was in good hands. I was presently surprised to see a real work shop loads of lads running around and very organised(Very hard to do with so meany parts with multiple vehicles). This is when i met Az the man who would organised and see my car rebuilt and returned to me. He was very polite and definitely know alot about engines and the work shop. I left my golf in his hands and drove home over 100 miles away. This was befor xmas and new years. A watts app group was made and i was kept upto date with all works being carried out on my engin. And any questions Az was there to answered straight away. I went any picked up the golf the other day and it runs perfectly literally sounds like a new engin. I am know driving the engin very carfully under there instructions for 1000-2000 miles. After that the car will be nicely bedded in and drive like a new car. I would not hesitate at all to contact these guys if i ever needed help with my cars again. And would highly recommend to anyone needed a rebuilt engin or serious work done on your car.",
+    rating: 5
+  },
 ],
    },
 
@@ -1092,7 +1203,7 @@ requestqoute:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -1158,49 +1269,64 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 ]
 },
- servicesData:[
+   servicesData:[
   {
-    id: 1,
-    name: "Initial Diagnostics",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+       id: 28,
+       name: "Clutch Replacement",
+       text: "Professional clutch repair and replacement for smoother gear changes and driving control.",
+       slug: "clutch-replacement",
+    img:"/f184d927a7134700f54e21657884675da9b63340.webp",
     },
-    {
-    id: 12,
-    name: "Cam Belts",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+     {
+  id: 45,
+      name: "Air Conditioning Service",
+      text: "Complete air conditioning servicing for efficient cooling and improved cabin air quality.",
+      slug: "air-conditioning-service",
+    img:"/5894cc3d25139ce6d0c8883c11032a4e11db8154.webp",
   },
     {
-    id: 17,
-    name: "Welding Services",
-    text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Welding-Services",
-    img:"/Welding Services.jpg",
-  },
-   {
-      id: 22,
-      name: "Diagnostics",
-      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-      slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      id: 40,
+       name: "Timing Chain Replacement",
+       text: "Timing chain replacement services to maintain accurate engine timing and prevent failures.",
+       slug: "timing-chain-replacement",
+    img:"/e42f4dccba8cfea020c6c73d385c038ca273c78b.webp",
   },
    
- {
-    id: 25,
-    name: "Alternator Replacement",
-    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
-    slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    {
+     id: 42,
+       name: "Head Gasket Repair",
+       text: "Reliable head gasket repairs to prevent overheating and restore engine efficiency.",
+       slug: "head-gasket-repair",
+    img:"/b08253f77d1194ed361ee8793e00aa5a5f887531.webp",
+  },
+   
+  {
+      id: 33,
+       name: "DPF Cleaning Service",
+       text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
+       slug: "dpf-cleaning-service",
+    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
+  },
+   {
+    id: 23,
+       name: "Water Pump Replacement",
+       text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
+       slug: "water-pump-replacement",
+    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
   },
     {
-       id: 41,
-       name: "Oil Change Service",
-       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-       slug: "oil-change-service",
-       img:"/Oil Change.jpg",
-  },
+    id: 34,
+    name: "MOT Testing",
+    text: "Certified MOT testing services to ensure your vehicle meets all legal safety standards.",
+    slug: "mot-testing",
+    img:"/MOT Testing.webp",},
+    {
+    id: 14,
+    name: "All Repairs and Services",
+    text: "Complete vehicle repair and maintenance solutions for all makes and models.",
+    slug: "all-repairs-services",
+    img:"/All Repairs and Services.webp",
+    }
 
 ],
 faq:[
@@ -1241,7 +1367,7 @@ faq:[
     "Complete hub unit replacement",
     "ABS sensor cleaning"
   ],
-  image:"/vogue fix my motor image 20.jpg"
+  image:"/vogue fix my motor image 20.webp"
 },
        Reviews:[
        {
@@ -1265,7 +1391,13 @@ faq:[
     text: "I recommend using this companies website, how the website is set up it made it easy to access the information that I myself was looking for on my Range Rover, you can look at all the parts you want or may need to replace and it goes into great detail about the part and the services that they can provide you, overall it’s simple to use and everything is clear and straightforward. After finding my car engine I called them and they swapped it for me no hassle in only a week, I waited a month to write the review and I’m very happy so far. Amazing work thank you Vogue Technics",
     rating: 5
   },
- 
+   {
+    id: 121,
+    name: "Jay&Alina",
+    time: "3 months ago",
+    text: "Spoke to Jack on the phone in regards to my Range Rover issues, he was very informative and explained everything mechanically and financially from an honest point of view. After it was recovered by their driver, Azz and Vick kept me updated everyday with videos. Engine running better than ever now. Jack has given me his permission to add his direct number on this review incase anyone needs genuine advice: 07477641441. Well done guys, see you in a couple of months for the service.",
+    rating: 5
+  },
 ],
    },
 
@@ -1323,7 +1455,7 @@ faq:[
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -1389,49 +1521,64 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 ]
 },
- servicesData:[
+   servicesData:[
   {
-    id: 1,
-    name: "Initial Diagnostics",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+       id: 28,
+       name: "Clutch Replacement",
+       text: "Professional clutch repair and replacement for smoother gear changes and driving control.",
+       slug: "clutch-replacement",
+    img:"/f184d927a7134700f54e21657884675da9b63340.webp",
     },
-    {
-    id: 12,
-    name: "Cam Belts",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+     {
+  id: 45,
+      name: "Air Conditioning Service",
+      text: "Complete air conditioning servicing for efficient cooling and improved cabin air quality.",
+      slug: "air-conditioning-service",
+    img:"/5894cc3d25139ce6d0c8883c11032a4e11db8154.webp",
   },
     {
-    id: 17,
-    name: "Welding Services",
-    text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Welding-Services",
-    img:"/Welding Services.jpg",
-  },
-   {
-      id: 22,
-      name: "Diagnostics",
-      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-      slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      id: 40,
+       name: "Timing Chain Replacement",
+       text: "Timing chain replacement services to maintain accurate engine timing and prevent failures.",
+       slug: "timing-chain-replacement",
+    img:"/e42f4dccba8cfea020c6c73d385c038ca273c78b.webp",
   },
    
- {
-    id: 25,
-    name: "Alternator Replacement",
-    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
-    slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    {
+     id: 42,
+       name: "Head Gasket Repair",
+       text: "Reliable head gasket repairs to prevent overheating and restore engine efficiency.",
+       slug: "head-gasket-repair",
+    img:"/b08253f77d1194ed361ee8793e00aa5a5f887531.webp",
+  },
+   
+  {
+      id: 33,
+       name: "DPF Cleaning Service",
+       text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
+       slug: "dpf-cleaning-service",
+    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
+  },
+   {
+    id: 23,
+       name: "Water Pump Replacement",
+       text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
+       slug: "water-pump-replacement",
+    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
   },
     {
-       id: 41,
-       name: "Oil Change Service",
-       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-       slug: "oil-change-service",
-       img:"/Oil Change.jpg",
-  },
+    id: 34,
+    name: "MOT Testing",
+    text: "Certified MOT testing services to ensure your vehicle meets all legal safety standards.",
+    slug: "mot-testing",
+    img:"/MOT Testing.webp",},
+    {
+    id: 14,
+    name: "All Repairs and Services",
+    text: "Complete vehicle repair and maintenance solutions for all makes and models.",
+    slug: "all-repairs-services",
+    img:"/All Repairs and Services.webp",
+    }
 
 ],
 faq:[
@@ -1471,7 +1618,7 @@ faq:[
     "Vacuum line integrity check",
     "Tensioner and pulley replacement"
   ],
-  image:"/vogue fix my motor image 21.jpg"
+  image:"/vogue fix my motor image 21.webp"
 }
 ,
   
@@ -1497,7 +1644,13 @@ faq:[
     text: "Great service. Jack and his team were so helpful in sorting all the issues with my Range Rover. Highly recommend",
     rating: 5
   },
- 
+ {
+    id: 122,
+    name: "Biatrice Andone",
+    time: "3 months ago",
+    text: "Had my engine rebuilt over 2 years ago by Jack and Az. 3rd Service was done recently at vogue and engine still running like new. Did have to change my gear selector though which these guys done for me on the same day as my service. They even dropped me to the shopping centre and picked me up after the service was done. Very honest and trustworthy blokes. My boss will be giving you a call Jack to get the Transit Van rebuild done next week. Cheers",
+    rating: 5
+  },
 ],
    },
 
@@ -1533,7 +1686,7 @@ faq:[
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -1599,49 +1752,64 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 ]
 },
- servicesData:[
+   servicesData:[
   {
-    id: 1,
-    name: "Initial Diagnostics",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+       id: 28,
+       name: "Clutch Replacement",
+       text: "Professional clutch repair and replacement for smoother gear changes and driving control.",
+       slug: "clutch-replacement",
+    img:"/f184d927a7134700f54e21657884675da9b63340.webp",
     },
-    {
-    id: 12,
-    name: "Cam Belts",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+     {
+  id: 45,
+      name: "Air Conditioning Service",
+      text: "Complete air conditioning servicing for efficient cooling and improved cabin air quality.",
+      slug: "air-conditioning-service",
+    img:"/5894cc3d25139ce6d0c8883c11032a4e11db8154.webp",
   },
     {
-    id: 17,
-    name: "Welding Services",
-    text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Welding-Services",
-    img:"/Welding Services.jpg",
-  },
-   {
-      id: 22,
-      name: "Diagnostics",
-      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-      slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      id: 40,
+       name: "Timing Chain Replacement",
+       text: "Timing chain replacement services to maintain accurate engine timing and prevent failures.",
+       slug: "timing-chain-replacement",
+    img:"/e42f4dccba8cfea020c6c73d385c038ca273c78b.webp",
   },
    
- {
-    id: 25,
-    name: "Alternator Replacement",
-    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
-    slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    {
+     id: 42,
+       name: "Head Gasket Repair",
+       text: "Reliable head gasket repairs to prevent overheating and restore engine efficiency.",
+       slug: "head-gasket-repair",
+    img:"/b08253f77d1194ed361ee8793e00aa5a5f887531.webp",
+  },
+   
+  {
+      id: 33,
+       name: "DPF Cleaning Service",
+       text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
+       slug: "dpf-cleaning-service",
+    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
+  },
+   {
+    id: 23,
+       name: "Water Pump Replacement",
+       text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
+       slug: "water-pump-replacement",
+    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
   },
     {
-       id: 41,
-       name: "Oil Change Service",
-       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-       slug: "oil-change-service",
-       img:"/Oil Change.jpg",
-  },
+    id: 34,
+    name: "MOT Testing",
+    text: "Certified MOT testing services to ensure your vehicle meets all legal safety standards.",
+    slug: "mot-testing",
+    img:"/MOT Testing.webp",},
+    {
+    id: 14,
+    name: "All Repairs and Services",
+    text: "Complete vehicle repair and maintenance solutions for all makes and models.",
+    slug: "all-repairs-services",
+    img:"/All Repairs and Services.webp",
+    }
 
 ],
 faq:[
@@ -1681,7 +1849,7 @@ faq:[
     "Future repair cost projection",
     "Digital photo reports"
   ],
-  image:"/vogue fix my motor image 22.jpg"
+  image:"/vogue fix my motor image 22.webp"
 },
     
      Reviews:[
@@ -1706,7 +1874,14 @@ faq:[
     text: "I have taken my car to carry out yearly servicing to this garage and from booking to completing the entire service everything gone through very smoothly. I got their detail from RAC as I am covered with them and they gave me the lowest quote for my car's annual servicing. It was an excellent service from the member of staff and I had to wait in their reception. They said it will take 2 hours but they have completed the service within an hour 40 mins. They have let me know everything they found with my car and some advisories. The service man Ayaz was very friendly and knowledgeable and professional. It was first time for me but I have found them very reliable, professional and cost effective. Highly recommended.",
     rating: 5
   },
- 
+  {
+    id: 103,
+    name: "olaniyi ijalana",
+    time: "3 weeks ago",
+    text: "This company exceeded my expectations. Seeing is believing . Very professional individual and they would listening to your concerns and act accordingly.Vic is a very fantastic guy. I would definitely recommend.",
+    rating: 5
+  },
+  
 ],
 
    },
@@ -1743,7 +1918,7 @@ faq:[
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -1809,49 +1984,64 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 ]
 },
- servicesData:[
+   servicesData:[
   {
-    id: 1,
-    name: "Initial Diagnostics",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+       id: 28,
+       name: "Clutch Replacement",
+       text: "Professional clutch repair and replacement for smoother gear changes and driving control.",
+       slug: "clutch-replacement",
+    img:"/f184d927a7134700f54e21657884675da9b63340.webp",
     },
-    {
-    id: 12,
-    name: "Cam Belts",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+     {
+  id: 45,
+      name: "Air Conditioning Service",
+      text: "Complete air conditioning servicing for efficient cooling and improved cabin air quality.",
+      slug: "air-conditioning-service",
+    img:"/5894cc3d25139ce6d0c8883c11032a4e11db8154.webp",
   },
     {
-    id: 17,
-    name: "Welding Services",
-    text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Welding-Services",
-    img:"/Welding Services.jpg",
-  },
-   {
-      id: 22,
-      name: "Diagnostics",
-      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-      slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      id: 40,
+       name: "Timing Chain Replacement",
+       text: "Timing chain replacement services to maintain accurate engine timing and prevent failures.",
+       slug: "timing-chain-replacement",
+    img:"/e42f4dccba8cfea020c6c73d385c038ca273c78b.webp",
   },
    
- {
-    id: 25,
-    name: "Alternator Replacement",
-    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
-    slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    {
+     id: 42,
+       name: "Head Gasket Repair",
+       text: "Reliable head gasket repairs to prevent overheating and restore engine efficiency.",
+       slug: "head-gasket-repair",
+    img:"/b08253f77d1194ed361ee8793e00aa5a5f887531.webp",
+  },
+   
+  {
+      id: 33,
+       name: "DPF Cleaning Service",
+       text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
+       slug: "dpf-cleaning-service",
+    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
+  },
+   {
+    id: 23,
+       name: "Water Pump Replacement",
+       text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
+       slug: "water-pump-replacement",
+    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
   },
     {
-       id: 41,
-       name: "Oil Change Service",
-       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-       slug: "oil-change-service",
-       img:"/Oil Change.jpg",
-  },
+    id: 34,
+    name: "MOT Testing",
+    text: "Certified MOT testing services to ensure your vehicle meets all legal safety standards.",
+    slug: "mot-testing",
+    img:"/MOT Testing.webp",},
+    {
+    id: 14,
+    name: "All Repairs and Services",
+    text: "Complete vehicle repair and maintenance solutions for all makes and models.",
+    slug: "all-repairs-services",
+    img:"/All Repairs and Services.webp",
+    }
 
 ],
 faq:[
@@ -1891,7 +2081,7 @@ requestqoute:{
     "Flat tire and puncture repair",
     "Diagnostic scan at your location"
   ],
-  image:"/3.jpg"
+  image:"/3.webp"
 },
       
       Reviews:[
@@ -1914,6 +2104,13 @@ requestqoute:{
     name: "famel quaye",
     time: "10 months ago",
     text: "Excellent service from Evoque Technics. Jack was very professional, friendly, and knowledgeable when sorting out my screen wash tank issue. He explained everything clearly and ensured the job was done quickly and efficiently. Great customer care and attention to detail with video evidence. I highly recommend Evoque Technics and Jack’s support.",
+    rating: 5
+  },
+   {
+    id: 102,
+    name: "Nelson",
+    time: "3 weeks ago",
+    text: "I had an issue with two of my vehicles, a land-rover discovery and a Mercedes benz sprinter van. After going to so many garages and problems keep persisting, I made a search on Google with some reservations due to my experience with other garages. I first got in contact with a gentleman called Vic. He assured me that my worries would be laid to rest. My vehicles have been given a new life and without hesitation, I'll recommend them to anyone having problems with their vehicles. The garage is amazing with very friendly staff",
     rating: 5
   },
  
@@ -1950,7 +2147,7 @@ requestqoute:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -2016,49 +2213,64 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 ]
 },
-  servicesData:[
+    servicesData:[
   {
-    id: 1,
-    name: "Initial Diagnostics",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+       id: 28,
+       name: "Clutch Replacement",
+       text: "Professional clutch repair and replacement for smoother gear changes and driving control.",
+       slug: "clutch-replacement",
+    img:"/f184d927a7134700f54e21657884675da9b63340.webp",
     },
-    {
-    id: 12,
-    name: "Cam Belts",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+     {
+  id: 45,
+      name: "Air Conditioning Service",
+      text: "Complete air conditioning servicing for efficient cooling and improved cabin air quality.",
+      slug: "air-conditioning-service",
+    img:"/5894cc3d25139ce6d0c8883c11032a4e11db8154.webp",
   },
     {
-    id: 17,
-    name: "Welding Services",
-    text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Welding-Services",
-    img:"/Welding Services.jpg",
-  },
-   {
-      id: 22,
-      name: "Diagnostics",
-      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-      slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      id: 40,
+       name: "Timing Chain Replacement",
+       text: "Timing chain replacement services to maintain accurate engine timing and prevent failures.",
+       slug: "timing-chain-replacement",
+    img:"/e42f4dccba8cfea020c6c73d385c038ca273c78b.webp",
   },
    
- {
-    id: 25,
-    name: "Alternator Replacement",
-    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
-    slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    {
+     id: 42,
+       name: "Head Gasket Repair",
+       text: "Reliable head gasket repairs to prevent overheating and restore engine efficiency.",
+       slug: "head-gasket-repair",
+    img:"/b08253f77d1194ed361ee8793e00aa5a5f887531.webp",
+  },
+   
+  {
+      id: 33,
+       name: "DPF Cleaning Service",
+       text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
+       slug: "dpf-cleaning-service",
+    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
+  },
+   {
+    id: 23,
+       name: "Water Pump Replacement",
+       text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
+       slug: "water-pump-replacement",
+    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
   },
     {
-       id: 41,
-       name: "Oil Change Service",
-       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-       slug: "oil-change-service",
-       img:"/Oil Change.jpg",
-  },
+    id: 34,
+    name: "MOT Testing",
+    text: "Certified MOT testing services to ensure your vehicle meets all legal safety standards.",
+    slug: "mot-testing",
+    img:"/MOT Testing.webp",},
+    {
+    id: 14,
+    name: "All Repairs and Services",
+    text: "Complete vehicle repair and maintenance solutions for all makes and models.",
+    slug: "all-repairs-services",
+    img:"/All Repairs and Services.webp",
+    }
 
 ],
 faq:[
@@ -2096,7 +2308,7 @@ faq:[
     "UV rejection verification",
     "Bubble-free guarantee"
   ],
-  image:"/slider_section_image.jpg"
+  image:"/slider_section_image.webp"
 },
    
       Reviews:[
@@ -2121,6 +2333,14 @@ faq:[
     text: "Had a coolant leak on my car. They diagnosed the issue straight away and also showed me where the coolant was leaking from. I needed the vehicle to be repaired as quickly as possible and they managed to squeeze me in and complete the job the very next day. Only thing I was annoyed was they had forgotten the price I was initially told and upped it by £50. But I was not having any of it as I paid an initial deposit and completed the rest after work completed. Nonetheless they honoured the price and cars Back to normal. They had the part in stock which is always a strong point. The staff are very knowledgeable and the prices are competitive. Will consider booking them for the next service.",
     rating: 5
   },
+  {
+    id: 97,
+    name: "JP B",
+    time: "2 days ago",
+    text: "I take all my vans and personal car to Vogue after discovering them on Google. Az and Jack are always very helpful and informative, they are also fair with pricing for me. Very honest guys, I've stopped going to any other garages now. So far they've worked on 12 vehicles of mine and never let me down. Cheers",
+    rating: 5
+  },
+  
  
 ],
    },
@@ -2148,7 +2368,7 @@ faq:[
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -2214,49 +2434,64 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 ]
 },
- servicesData:[
+   servicesData:[
   {
-    id: 1,
-    name: "Initial Diagnostics",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+       id: 28,
+       name: "Clutch Replacement",
+       text: "Professional clutch repair and replacement for smoother gear changes and driving control.",
+       slug: "clutch-replacement",
+    img:"/f184d927a7134700f54e21657884675da9b63340.webp",
     },
-    {
-    id: 12,
-    name: "Cam Belts",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+     {
+  id: 45,
+      name: "Air Conditioning Service",
+      text: "Complete air conditioning servicing for efficient cooling and improved cabin air quality.",
+      slug: "air-conditioning-service",
+    img:"/5894cc3d25139ce6d0c8883c11032a4e11db8154.webp",
   },
     {
-    id: 17,
-    name: "Welding Services",
-    text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Welding-Services",
-    img:"/Welding Services.jpg",
-  },
-   {
-      id: 22,
-      name: "Diagnostics",
-      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-      slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      id: 40,
+       name: "Timing Chain Replacement",
+       text: "Timing chain replacement services to maintain accurate engine timing and prevent failures.",
+       slug: "timing-chain-replacement",
+    img:"/e42f4dccba8cfea020c6c73d385c038ca273c78b.webp",
   },
    
- {
-    id: 25,
-    name: "Alternator Replacement",
-    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
-    slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    {
+     id: 42,
+       name: "Head Gasket Repair",
+       text: "Reliable head gasket repairs to prevent overheating and restore engine efficiency.",
+       slug: "head-gasket-repair",
+    img:"/b08253f77d1194ed361ee8793e00aa5a5f887531.webp",
+  },
+   
+  {
+      id: 33,
+       name: "DPF Cleaning Service",
+       text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
+       slug: "dpf-cleaning-service",
+    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
+  },
+   {
+    id: 23,
+       name: "Water Pump Replacement",
+       text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
+       slug: "water-pump-replacement",
+    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
   },
     {
-       id: 41,
-       name: "Oil Change Service",
-       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-       slug: "oil-change-service",
-       img:"/Oil Change.jpg",
-  },
+    id: 34,
+    name: "MOT Testing",
+    text: "Certified MOT testing services to ensure your vehicle meets all legal safety standards.",
+    slug: "mot-testing",
+    img:"/MOT Testing.webp",},
+    {
+    id: 14,
+    name: "All Repairs and Services",
+    text: "Complete vehicle repair and maintenance solutions for all makes and models.",
+    slug: "all-repairs-services",
+    img:"/All Repairs and Services.webp",
+    }
 
 ],
 faq:[
@@ -2294,7 +2529,7 @@ faq:[
     "Dual-mass flywheel inspection",
     "Clutch pedal adjustment"
   ],
-  image:"/description.jpg"
+  image:"/description.webp"
 },
   
        Reviews:[
@@ -2317,6 +2552,13 @@ faq:[
     name: "Alan K",
     time: "10 months ago",
     text: "Came in with a diagnostics from another garage with a blown head gasket and car overheating. the Vogue team did there own diagnostics and opened up the engine ran several tests turns out it was something minor saving me thousands of pounds on a head gasket replacement plus time. Very honest and reliable staff members from Jack keeping me updated day in day out on everything they did to the car, explaining everything that was done step by step plus videos and pictures to Ali working on fixing the issues On short notice very reliable garage but for the most important part very honest people would definitely recommend if you’re looking for a reliable garage.",
+    rating: 5
+  },
+   {
+    id: 114,
+    name: "Haris M",
+    time: "11 months ago",
+    text: "I recently had outstanding service at Vouge Garage, and I couldn't be more pleased! The team was incredibly professional and knowledgeable, taking the time to explain the issues with my car and the necessary repairs. They completed the work efficiently and at a reasonable price. My car runs like new, and I appreciate their attention to detail. I highly recommend to speak to the representative Vic for anyone in need of reliable and high-quality automotive service!",
     rating: 5
   },
  
@@ -2344,7 +2586,7 @@ faq:[
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -2410,49 +2652,64 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 ]
 },
- servicesData:[
+   servicesData:[
   {
-    id: 1,
-    name: "Initial Diagnostics",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+       id: 28,
+       name: "Clutch Replacement",
+       text: "Professional clutch repair and replacement for smoother gear changes and driving control.",
+       slug: "clutch-replacement",
+    img:"/f184d927a7134700f54e21657884675da9b63340.webp",
     },
-    {
-    id: 12,
-    name: "Cam Belts",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+     {
+  id: 45,
+      name: "Air Conditioning Service",
+      text: "Complete air conditioning servicing for efficient cooling and improved cabin air quality.",
+      slug: "air-conditioning-service",
+    img:"/5894cc3d25139ce6d0c8883c11032a4e11db8154.webp",
   },
     {
-    id: 17,
-    name: "Welding Services",
-    text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Welding-Services",
-    img:"/Welding Services.jpg",
-  },
-   {
-      id: 22,
-      name: "Diagnostics",
-      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-      slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      id: 40,
+       name: "Timing Chain Replacement",
+       text: "Timing chain replacement services to maintain accurate engine timing and prevent failures.",
+       slug: "timing-chain-replacement",
+    img:"/e42f4dccba8cfea020c6c73d385c038ca273c78b.webp",
   },
    
- {
-    id: 25,
-    name: "Alternator Replacement",
-    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
-    slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    {
+     id: 42,
+       name: "Head Gasket Repair",
+       text: "Reliable head gasket repairs to prevent overheating and restore engine efficiency.",
+       slug: "head-gasket-repair",
+    img:"/b08253f77d1194ed361ee8793e00aa5a5f887531.webp",
+  },
+   
+  {
+      id: 33,
+       name: "DPF Cleaning Service",
+       text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
+       slug: "dpf-cleaning-service",
+    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
+  },
+   {
+    id: 23,
+       name: "Water Pump Replacement",
+       text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
+       slug: "water-pump-replacement",
+    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
   },
     {
-       id: 41,
-       name: "Oil Change Service",
-       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-       slug: "oil-change-service",
-       img:"/Oil Change.jpg",
-  },
+    id: 34,
+    name: "MOT Testing",
+    text: "Certified MOT testing services to ensure your vehicle meets all legal safety standards.",
+    slug: "mot-testing",
+    img:"/MOT Testing.webp",},
+    {
+    id: 14,
+    name: "All Repairs and Services",
+    text: "Complete vehicle repair and maintenance solutions for all makes and models.",
+    slug: "all-repairs-services",
+    img:"/All Repairs and Services.webp",
+    }
 
 ],
 faq:[
@@ -2491,7 +2748,7 @@ faq:[
     "Heater and demister inspection",
     "Winter tire tread check"
   ],
-  image:"/2.jpg"
+  image:"/2.webp"
 },
     
       Reviews:[
@@ -2514,6 +2771,13 @@ faq:[
     name: "Trevor Paul",
     time: "a year ago",
     text: "Had my range rover evoque timing chain changed really quick turn around and a really good service from start to finish, would recommend to use them thank you!!",
+    rating: 5
+  },
+   {
+    id: 117,
+    name: "jolyon lawson",
+    time: "4 months ago",
+    text: "Great service from Adam and the team. My 2016 discovery sport with ingenium engine was in need of replacement timing chains and had a couple of sensor issues to resolve. Adam completed the work to schedule and in line with a very competitive estimate. He kept me updated, and was very accommodating when arranging the pick up time. The car was returned nice and clean with all the problems sorted.",
     rating: 5
   },
  
@@ -2544,7 +2808,7 @@ faq:[
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -2610,49 +2874,64 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 ]
 },
- servicesData:[
+   servicesData:[
   {
-    id: 1,
-    name: "Initial Diagnostics",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+       id: 28,
+       name: "Clutch Replacement",
+       text: "Professional clutch repair and replacement for smoother gear changes and driving control.",
+       slug: "clutch-replacement",
+    img:"/f184d927a7134700f54e21657884675da9b63340.webp",
     },
-    {
-    id: 12,
-    name: "Cam Belts",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+     {
+  id: 45,
+      name: "Air Conditioning Service",
+      text: "Complete air conditioning servicing for efficient cooling and improved cabin air quality.",
+      slug: "air-conditioning-service",
+    img:"/5894cc3d25139ce6d0c8883c11032a4e11db8154.webp",
   },
     {
-    id: 17,
-    name: "Welding Services",
-    text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Welding-Services",
-    img:"/Welding Services.jpg",
-  },
-   {
-      id: 22,
-      name: "Diagnostics",
-      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-      slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      id: 40,
+       name: "Timing Chain Replacement",
+       text: "Timing chain replacement services to maintain accurate engine timing and prevent failures.",
+       slug: "timing-chain-replacement",
+    img:"/e42f4dccba8cfea020c6c73d385c038ca273c78b.webp",
   },
    
- {
-    id: 25,
-    name: "Alternator Replacement",
-    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
-    slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    {
+     id: 42,
+       name: "Head Gasket Repair",
+       text: "Reliable head gasket repairs to prevent overheating and restore engine efficiency.",
+       slug: "head-gasket-repair",
+    img:"/b08253f77d1194ed361ee8793e00aa5a5f887531.webp",
+  },
+   
+  {
+      id: 33,
+       name: "DPF Cleaning Service",
+       text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
+       slug: "dpf-cleaning-service",
+    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
+  },
+   {
+    id: 23,
+       name: "Water Pump Replacement",
+       text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
+       slug: "water-pump-replacement",
+    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
   },
     {
-       id: 41,
-       name: "Oil Change Service",
-       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-       slug: "oil-change-service",
-       img:"/Oil Change.jpg",
-  },
+    id: 34,
+    name: "MOT Testing",
+    text: "Certified MOT testing services to ensure your vehicle meets all legal safety standards.",
+    slug: "mot-testing",
+    img:"/MOT Testing.webp",},
+    {
+    id: 14,
+    name: "All Repairs and Services",
+    text: "Complete vehicle repair and maintenance solutions for all makes and models.",
+    slug: "all-repairs-services",
+    img:"/All Repairs and Services.webp",
+    }
 
 ],
 faq:[
@@ -2690,7 +2969,7 @@ faq:[
     "Fuel pump pressure test",
     "Fuel tank contamination check"
   ],
-  image:"/vogue fix my motor image 9.jpg"
+  image:"/vogue fix my motor image 9.webp"
 }
 ,
   
@@ -2716,7 +2995,13 @@ faq:[
     text: "They were very helpful when I brought my car in for glow plug replacement and even showed me a potential further problem with the drive belt.",
     rating: 5
   },
- 
+  {
+    id: 118,
+    name: "luke poole",
+    time: "2 months ago",
+    text: "Impressed with these guys. They kept me update throughout with pictures on whatsapp! They droped me off at Lakeside as part of their service. No local garages in Braintree had the guts to look at my evoque and change the glow plugs or piston cooling jet solenoid. These guys were all over it - they did a flush and oil change at a last minute notice due to a ctitical low oil issue. I would recommend and will use again from now on!",
+    rating: 5
+  },
 ],
    },
 
@@ -2747,7 +3032,7 @@ faq:[
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -2813,49 +3098,64 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 ]
 },
- servicesData:[
+   servicesData:[
   {
-    id: 1,
-    name: "Initial Diagnostics",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+       id: 28,
+       name: "Clutch Replacement",
+       text: "Professional clutch repair and replacement for smoother gear changes and driving control.",
+       slug: "clutch-replacement",
+    img:"/f184d927a7134700f54e21657884675da9b63340.webp",
     },
-    {
-    id: 12,
-    name: "Cam Belts",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+     {
+  id: 45,
+      name: "Air Conditioning Service",
+      text: "Complete air conditioning servicing for efficient cooling and improved cabin air quality.",
+      slug: "air-conditioning-service",
+    img:"/5894cc3d25139ce6d0c8883c11032a4e11db8154.webp",
   },
     {
-    id: 17,
-    name: "Welding Services",
-    text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Welding-Services",
-    img:"/Welding Services.jpg",
-  },
-   {
-      id: 22,
-      name: "Diagnostics",
-      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-      slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      id: 40,
+       name: "Timing Chain Replacement",
+       text: "Timing chain replacement services to maintain accurate engine timing and prevent failures.",
+       slug: "timing-chain-replacement",
+    img:"/e42f4dccba8cfea020c6c73d385c038ca273c78b.webp",
   },
    
- {
-    id: 25,
-    name: "Alternator Replacement",
-    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
-    slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    {
+     id: 42,
+       name: "Head Gasket Repair",
+       text: "Reliable head gasket repairs to prevent overheating and restore engine efficiency.",
+       slug: "head-gasket-repair",
+    img:"/b08253f77d1194ed361ee8793e00aa5a5f887531.webp",
+  },
+   
+  {
+      id: 33,
+       name: "DPF Cleaning Service",
+       text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
+       slug: "dpf-cleaning-service",
+    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
+  },
+   {
+    id: 23,
+       name: "Water Pump Replacement",
+       text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
+       slug: "water-pump-replacement",
+    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
   },
     {
-       id: 41,
-       name: "Oil Change Service",
-       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-       slug: "oil-change-service",
-       img:"/Oil Change.jpg",
-  },
+    id: 34,
+    name: "MOT Testing",
+    text: "Certified MOT testing services to ensure your vehicle meets all legal safety standards.",
+    slug: "mot-testing",
+    img:"/MOT Testing.webp",},
+    {
+    id: 14,
+    name: "All Repairs and Services",
+    text: "Complete vehicle repair and maintenance solutions for all makes and models.",
+    slug: "all-repairs-services",
+    img:"/All Repairs and Services.webp",
+    }
 
 ],
 faq:[
@@ -2895,7 +3195,7 @@ served:{
     "Module coding and updates",
     "Service light reset"
   ],
-  image:"/1.jpg"
+  image:"/1.webp"
 }
 ,
    
@@ -2921,7 +3221,13 @@ served:{
     text: "Thanks for Jack and the team at Vogue Technics.....our Audi was completely blown to bits....But VT picked our car up and replaced the engine in no time ....What a brilliant job they did ....returned for the service and all is good thanks VT",
     rating: 5
   },
- 
+   {
+    id: 119,
+    name: "George Sutherland",
+    time: "a year ago",
+    text: "Terrific service. The engine in my L405 seized near Seville in Spain. I contacted Vogue Technics who agreed to accept the car. They sent photos of the car being delivered and of the ruined engine after removal. They fitted a reconditioning engine and kept me informed at every stage. The car is now repaired and running perfectly. The team at Technics were polite, professional and knowledgeable. An excellent job at a reasonable price. I fully recommend Vogue Technics to anyone with Land Rover engine issues. Thank you Az, Sunny, Adrian and Adam",
+    rating: 5
+  },
 ],
    },
 
@@ -2949,7 +3255,7 @@ served:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -3015,49 +3321,64 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 ]
 },
-  servicesData:[
+    servicesData:[
   {
-    id: 1,
-    name: "Initial Diagnostics",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+       id: 28,
+       name: "Clutch Replacement",
+       text: "Professional clutch repair and replacement for smoother gear changes and driving control.",
+       slug: "clutch-replacement",
+    img:"/f184d927a7134700f54e21657884675da9b63340.webp",
     },
-    {
-    id: 12,
-    name: "Cam Belts",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+     {
+  id: 45,
+      name: "Air Conditioning Service",
+      text: "Complete air conditioning servicing for efficient cooling and improved cabin air quality.",
+      slug: "air-conditioning-service",
+    img:"/5894cc3d25139ce6d0c8883c11032a4e11db8154.webp",
   },
     {
-    id: 17,
-    name: "Welding Services",
-    text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Welding-Services",
-    img:"/Welding Services.jpg",
-  },
-   {
-      id: 22,
-      name: "Diagnostics",
-      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-      slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      id: 40,
+       name: "Timing Chain Replacement",
+       text: "Timing chain replacement services to maintain accurate engine timing and prevent failures.",
+       slug: "timing-chain-replacement",
+    img:"/e42f4dccba8cfea020c6c73d385c038ca273c78b.webp",
   },
    
- {
-    id: 25,
-    name: "Alternator Replacement",
-    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
-    slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    {
+     id: 42,
+       name: "Head Gasket Repair",
+       text: "Reliable head gasket repairs to prevent overheating and restore engine efficiency.",
+       slug: "head-gasket-repair",
+    img:"/b08253f77d1194ed361ee8793e00aa5a5f887531.webp",
+  },
+   
+  {
+      id: 33,
+       name: "DPF Cleaning Service",
+       text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
+       slug: "dpf-cleaning-service",
+    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
+  },
+   {
+    id: 23,
+       name: "Water Pump Replacement",
+       text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
+       slug: "water-pump-replacement",
+    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
   },
     {
-       id: 41,
-       name: "Oil Change Service",
-       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-       slug: "oil-change-service",
-       img:"/Oil Change.jpg",
-  },
+    id: 34,
+    name: "MOT Testing",
+    text: "Certified MOT testing services to ensure your vehicle meets all legal safety standards.",
+    slug: "mot-testing",
+    img:"/MOT Testing.webp",},
+    {
+    id: 14,
+    name: "All Repairs and Services",
+    text: "Complete vehicle repair and maintenance solutions for all makes and models.",
+    slug: "all-repairs-services",
+    img:"/All Repairs and Services.webp",
+    }
 
 ],
 faq:[
@@ -3097,7 +3418,7 @@ requestqoute:{
     "Camshaft seal fitting",
     "Post-repair timing verification"
   ],
-  image:"/vogue fix my motor image 14.jpg"
+  image:"/vogue fix my motor image 14.webp"
 },
   
 
@@ -3123,7 +3444,13 @@ requestqoute:{
     text: "Great service from start to finish, car collected within 72 hours of first call, updated throughout repair and dealt directly with warranty company. Would recommend highly.",
     rating: 5
   },
- 
+   {
+    id: 120,
+    name: "Gaz Rees",
+    time: "3 months ago",
+    text: "So i found Vogue Technics online trying to find a new engin for my 2017 golf R. Whilst i was looking for an engin i applied to a search for an engin and it sent out a tender to loads of different company's. i got called by loads of other company's quoting all kinds of prices some lower and some higher. I used google maps street view to view all the candidates i had chosen. Some looked so shady and wondered if they had my car would i get it back in one piece😅 so i went through and viewed all company's and vogue technics looked like a real garage. I do a-lot of work on cars and just don't have the machines needed to do the rebuild. So i can tell a good garage just by seeing it. Espeshaly from the others i had seen. So it looked the part but that was not my only factor for choosing to go with them, i had a phone call from Jack and had a good chat and i felt like i could trust this man and so i agreed to bringing my golf to the workshop. I wanted to double cheak to make sure it was in good hands. I was presently surprised to see a real work shop loads of lads running around and very organised(Very hard to do with so meany parts with multiple vehicles). This is when i met Az the man who would organised and see my car rebuilt and returned to me. He was very polite and definitely know alot about engines and the work shop. I left my golf in his hands and drove home over 100 miles away. This was befor xmas and new years. A watts app group was made and i was kept upto date with all works being carried out on my engin. And any questions Az was there to answered straight away. I went any picked up the golf the other day and it runs perfectly literally sounds like a new engin. I am know driving the engin very carfully under there instructions for 1000-2000 miles. After that the car will be nicely bedded in and drive like a new car. I would not hesitate at all to contact these guys if i ever needed help with my cars again. And would highly recommend to anyone needed a rebuilt engin or serious work done on your car.",
+    rating: 5
+  },
 ],
    },
 
@@ -3152,7 +3479,7 @@ requestqoute:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -3218,49 +3545,64 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 ]
 },
-  servicesData:[
+    servicesData:[
   {
-    id: 1,
-    name: "Initial Diagnostics",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+       id: 28,
+       name: "Clutch Replacement",
+       text: "Professional clutch repair and replacement for smoother gear changes and driving control.",
+       slug: "clutch-replacement",
+    img:"/f184d927a7134700f54e21657884675da9b63340.webp",
     },
-    {
-    id: 12,
-    name: "Cam Belts",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+     {
+  id: 45,
+      name: "Air Conditioning Service",
+      text: "Complete air conditioning servicing for efficient cooling and improved cabin air quality.",
+      slug: "air-conditioning-service",
+    img:"/5894cc3d25139ce6d0c8883c11032a4e11db8154.webp",
   },
     {
-    id: 17,
-    name: "Welding Services",
-    text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Welding-Services",
-    img:"/Welding Services.jpg",
-  },
-   {
-      id: 22,
-      name: "Diagnostics",
-      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-      slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      id: 40,
+       name: "Timing Chain Replacement",
+       text: "Timing chain replacement services to maintain accurate engine timing and prevent failures.",
+       slug: "timing-chain-replacement",
+    img:"/e42f4dccba8cfea020c6c73d385c038ca273c78b.webp",
   },
    
- {
-    id: 25,
-    name: "Alternator Replacement",
-    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
-    slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    {
+     id: 42,
+       name: "Head Gasket Repair",
+       text: "Reliable head gasket repairs to prevent overheating and restore engine efficiency.",
+       slug: "head-gasket-repair",
+    img:"/b08253f77d1194ed361ee8793e00aa5a5f887531.webp",
+  },
+   
+  {
+      id: 33,
+       name: "DPF Cleaning Service",
+       text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
+       slug: "dpf-cleaning-service",
+    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
+  },
+   {
+    id: 23,
+       name: "Water Pump Replacement",
+       text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
+       slug: "water-pump-replacement",
+    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
   },
     {
-       id: 41,
-       name: "Oil Change Service",
-       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-       slug: "oil-change-service",
-       img:"/Oil Change.jpg",
-  },
+    id: 34,
+    name: "MOT Testing",
+    text: "Certified MOT testing services to ensure your vehicle meets all legal safety standards.",
+    slug: "mot-testing",
+    img:"/MOT Testing.webp",},
+    {
+    id: 14,
+    name: "All Repairs and Services",
+    text: "Complete vehicle repair and maintenance solutions for all makes and models.",
+    slug: "all-repairs-services",
+    img:"/All Repairs and Services.webp",
+    }
 
 ],
 faq:[
@@ -3299,7 +3641,7 @@ requestqoute:{
     "Mechanical brake overhaul",
     "Period-correct part sourcing"
   ],
-  image:"/vogue fix my motor image 15.jpg"
+  image:"/vogue fix my motor image 15.webp"
 }
 ,
         Reviews:[
@@ -3324,7 +3666,13 @@ requestqoute:{
     text: "Had my Range Rover sport at another garage for 2 weeks and they couldn’t figure out why it wouldn’t start, gave Vogue a call and they had my car back up and running within a week. Lovely staff and amazing service",
     rating: 5
   },
- 
+   {
+    id: 121,
+    name: "Jay&Alina",
+    time: "3 months ago",
+    text: "Spoke to Jack on the phone in regards to my Range Rover issues, he was very informative and explained everything mechanically and financially from an honest point of view. After it was recovered by their driver, Azz and Vick kept me updated everyday with videos. Engine running better than ever now. Jack has given me his permission to add his direct number on this review incase anyone needs genuine advice: 07477641441. Well done guys, see you in a couple of months for the service.",
+    rating: 5
+  },
 ],
 
 
@@ -3368,7 +3716,7 @@ requestqoute:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -3434,49 +3782,64 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 ]
 },
- servicesData:[
+   servicesData:[
   {
-    id: 1,
-    name: "Initial Diagnostics",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+       id: 28,
+       name: "Clutch Replacement",
+       text: "Professional clutch repair and replacement for smoother gear changes and driving control.",
+       slug: "clutch-replacement",
+    img:"/f184d927a7134700f54e21657884675da9b63340.webp",
     },
-    {
-    id: 12,
-    name: "Cam Belts",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+     {
+  id: 45,
+      name: "Air Conditioning Service",
+      text: "Complete air conditioning servicing for efficient cooling and improved cabin air quality.",
+      slug: "air-conditioning-service",
+    img:"/5894cc3d25139ce6d0c8883c11032a4e11db8154.webp",
   },
     {
-    id: 17,
-    name: "Welding Services",
-    text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Welding-Services",
-    img:"/Welding Services.jpg",
-  },
-   {
-      id: 22,
-      name: "Diagnostics",
-      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-      slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      id: 40,
+       name: "Timing Chain Replacement",
+       text: "Timing chain replacement services to maintain accurate engine timing and prevent failures.",
+       slug: "timing-chain-replacement",
+    img:"/e42f4dccba8cfea020c6c73d385c038ca273c78b.webp",
   },
    
- {
-    id: 25,
-    name: "Alternator Replacement",
-    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
-    slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    {
+     id: 42,
+       name: "Head Gasket Repair",
+       text: "Reliable head gasket repairs to prevent overheating and restore engine efficiency.",
+       slug: "head-gasket-repair",
+    img:"/b08253f77d1194ed361ee8793e00aa5a5f887531.webp",
+  },
+   
+  {
+      id: 33,
+       name: "DPF Cleaning Service",
+       text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
+       slug: "dpf-cleaning-service",
+    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
+  },
+   {
+    id: 23,
+       name: "Water Pump Replacement",
+       text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
+       slug: "water-pump-replacement",
+    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
   },
     {
-       id: 41,
-       name: "Oil Change Service",
-       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-       slug: "oil-change-service",
-       img:"/Oil Change.jpg",
-  },
+    id: 34,
+    name: "MOT Testing",
+    text: "Certified MOT testing services to ensure your vehicle meets all legal safety standards.",
+    slug: "mot-testing",
+    img:"/MOT Testing.webp",},
+    {
+    id: 14,
+    name: "All Repairs and Services",
+    text: "Complete vehicle repair and maintenance solutions for all makes and models.",
+    slug: "all-repairs-services",
+    img:"/All Repairs and Services.webp",
+    }
 
 ],
 faq:[
@@ -3514,7 +3877,7 @@ faq:[
     "NOx sensor replacement",
     "AdBlue tank heater repair"
   ],
-  image:"/vogue fix my motor image 17.jpg"
+  image:"/vogue fix my motor image 17.webp"
 },
     Reviews:[
        {
@@ -3538,7 +3901,13 @@ faq:[
     text: "I won't take my cars anywhere else. Professional, caring and expert knowledge. Really great service. Rebuild my SVR engine. Also friendly experienced staff always helpful and caring.",
     rating: 5
   },
- 
+ {
+    id: 122,
+    name: "Biatrice Andone",
+    time: "3 months ago",
+    text: "Had my engine rebuilt over 2 years ago by Jack and Az. 3rd Service was done recently at vogue and engine still running like new. Did have to change my gear selector though which these guys done for me on the same day as my service. They even dropped me to the shopping centre and picked me up after the service was done. Very honest and trustworthy blokes. My boss will be giving you a call Jack to get the Transit Van rebuild done next week. Cheers",
+    rating: 5
+  },
 ],
    },
 
@@ -3569,7 +3938,7 @@ faq:[
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -3635,49 +4004,64 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 ]
 },
- servicesData:[
+   servicesData:[
   {
-    id: 1,
-    name: "Initial Diagnostics",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+       id: 28,
+       name: "Clutch Replacement",
+       text: "Professional clutch repair and replacement for smoother gear changes and driving control.",
+       slug: "clutch-replacement",
+    img:"/f184d927a7134700f54e21657884675da9b63340.webp",
     },
-    {
-    id: 12,
-    name: "Cam Belts",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+     {
+  id: 45,
+      name: "Air Conditioning Service",
+      text: "Complete air conditioning servicing for efficient cooling and improved cabin air quality.",
+      slug: "air-conditioning-service",
+    img:"/5894cc3d25139ce6d0c8883c11032a4e11db8154.webp",
   },
     {
-    id: 17,
-    name: "Welding Services",
-    text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Welding-Services",
-    img:"/Welding Services.jpg",
-  },
-   {
-      id: 22,
-      name: "Diagnostics",
-      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-      slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      id: 40,
+       name: "Timing Chain Replacement",
+       text: "Timing chain replacement services to maintain accurate engine timing and prevent failures.",
+       slug: "timing-chain-replacement",
+    img:"/e42f4dccba8cfea020c6c73d385c038ca273c78b.webp",
   },
    
- {
-    id: 25,
-    name: "Alternator Replacement",
-    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
-    slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    {
+     id: 42,
+       name: "Head Gasket Repair",
+       text: "Reliable head gasket repairs to prevent overheating and restore engine efficiency.",
+       slug: "head-gasket-repair",
+    img:"/b08253f77d1194ed361ee8793e00aa5a5f887531.webp",
+  },
+   
+  {
+      id: 33,
+       name: "DPF Cleaning Service",
+       text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
+       slug: "dpf-cleaning-service",
+    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
+  },
+   {
+    id: 23,
+       name: "Water Pump Replacement",
+       text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
+       slug: "water-pump-replacement",
+    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
   },
     {
-       id: 41,
-       name: "Oil Change Service",
-       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-       slug: "oil-change-service",
-       img:"/Oil Change.jpg",
-  },
+    id: 34,
+    name: "MOT Testing",
+    text: "Certified MOT testing services to ensure your vehicle meets all legal safety standards.",
+    slug: "mot-testing",
+    img:"/MOT Testing.webp",},
+    {
+    id: 14,
+    name: "All Repairs and Services",
+    text: "Complete vehicle repair and maintenance solutions for all makes and models.",
+    slug: "all-repairs-services",
+    img:"/All Repairs and Services.webp",
+    }
 
 ],
 faq:[
@@ -3717,7 +4101,7 @@ served:{
     "Intercooler leak check",
     "New or reconditioned turbo fitting"
   ],
-  image:"/vogue fix my motor image 18.jpg"
+  image:"/vogue fix my motor image 18.webp"
 }
 ,
    Reviews:[
@@ -3742,7 +4126,13 @@ served:{
     text: "At first I was so anxious allowing someone to come take my Land Rover discovery sport away over 150 miles to be fixed but it needed an engine rebuild and problems with coolant leak these guys gave me the best price and I decided to just go ahead with it and I am so pleased I trusted them ten days later I had my car back and it’s running absolutely perfect they stayed in contact the whole time and they even gave it a valet before I picked it up even though they are so far away i would use them again thank you so much vogue technics 🙏",
     rating: 5
   },
- 
+   {
+    id: 103,
+    name: "olaniyi ijalana",
+    time: "3 weeks ago",
+    text: "This company exceeded my expectations. Seeing is believing . Very professional individual and they would listening to your concerns and act accordingly.Vic is a very fantastic guy. I would definitely recommend.",
+    rating: 5
+  },
 ],
    },
 
@@ -3772,7 +4162,7 @@ served:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -3838,49 +4228,64 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 ]
 },
- servicesData:[
+   servicesData:[
   {
-    id: 1,
-    name: "Initial Diagnostics",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+       id: 28,
+       name: "Clutch Replacement",
+       text: "Professional clutch repair and replacement for smoother gear changes and driving control.",
+       slug: "clutch-replacement",
+    img:"/f184d927a7134700f54e21657884675da9b63340.webp",
     },
-    {
-    id: 12,
-    name: "Cam Belts",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+     {
+  id: 45,
+      name: "Air Conditioning Service",
+      text: "Complete air conditioning servicing for efficient cooling and improved cabin air quality.",
+      slug: "air-conditioning-service",
+    img:"/5894cc3d25139ce6d0c8883c11032a4e11db8154.webp",
   },
     {
-    id: 17,
-    name: "Welding Services",
-    text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Welding-Services",
-    img:"/Welding Services.jpg",
-  },
-   {
-      id: 22,
-      name: "Diagnostics",
-      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-      slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      id: 40,
+       name: "Timing Chain Replacement",
+       text: "Timing chain replacement services to maintain accurate engine timing and prevent failures.",
+       slug: "timing-chain-replacement",
+    img:"/e42f4dccba8cfea020c6c73d385c038ca273c78b.webp",
   },
    
- {
-    id: 25,
-    name: "Alternator Replacement",
-    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
-    slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    {
+     id: 42,
+       name: "Head Gasket Repair",
+       text: "Reliable head gasket repairs to prevent overheating and restore engine efficiency.",
+       slug: "head-gasket-repair",
+    img:"/b08253f77d1194ed361ee8793e00aa5a5f887531.webp",
+  },
+   
+  {
+      id: 33,
+       name: "DPF Cleaning Service",
+       text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
+       slug: "dpf-cleaning-service",
+    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
+  },
+   {
+    id: 23,
+       name: "Water Pump Replacement",
+       text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
+       slug: "water-pump-replacement",
+    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
   },
     {
-       id: 41,
-       name: "Oil Change Service",
-       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-       slug: "oil-change-service",
-       img:"/Oil Change.jpg",
-  },
+    id: 34,
+    name: "MOT Testing",
+    text: "Certified MOT testing services to ensure your vehicle meets all legal safety standards.",
+    slug: "mot-testing",
+    img:"/MOT Testing.webp",},
+    {
+    id: 14,
+    name: "All Repairs and Services",
+    text: "Complete vehicle repair and maintenance solutions for all makes and models.",
+    slug: "all-repairs-services",
+    img:"/All Repairs and Services.webp",
+    }
 
 ],
 faq:[
@@ -3919,7 +4324,7 @@ faq:[
     "Full panel respray with clear coat",
     "Rust treatment and prevention"
   ],
-  image:"/wowimage.jpg"
+  image:"/wowimage.webp"
 },
 
       Reviews:[
@@ -3944,7 +4349,13 @@ faq:[
     text: "Had an excellent service from the second I picked up the phone call. Car was safely recovered and repaired on time. Great communication throughout. Thank you",
     rating: 5
   },
- 
+  {
+    id: 102,
+    name: "Nelson",
+    time: "3 weeks ago",
+    text: "I had an issue with two of my vehicles, a land-rover discovery and a Mercedes benz sprinter van. After going to so many garages and problems keep persisting, I made a search on Google with some reservations due to my experience with other garages. I first got in contact with a gentleman called Vic. He assured me that my worries would be laid to rest. My vehicles have been given a new life and without hesitation, I'll recommend them to anyone having problems with their vehicles. The garage is amazing with very friendly staff",
+    rating: 5
+  },
 ],
    },
 
@@ -3977,7 +4388,7 @@ faq:[
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -4043,49 +4454,64 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 ]
 },
- servicesData:[
+   servicesData:[
   {
-    id: 1,
-    name: "Initial Diagnostics",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+       id: 28,
+       name: "Clutch Replacement",
+       text: "Professional clutch repair and replacement for smoother gear changes and driving control.",
+       slug: "clutch-replacement",
+    img:"/f184d927a7134700f54e21657884675da9b63340.webp",
     },
-    {
-    id: 12,
-    name: "Cam Belts",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+     {
+  id: 45,
+      name: "Air Conditioning Service",
+      text: "Complete air conditioning servicing for efficient cooling and improved cabin air quality.",
+      slug: "air-conditioning-service",
+    img:"/5894cc3d25139ce6d0c8883c11032a4e11db8154.webp",
   },
     {
-    id: 17,
-    name: "Welding Services",
-    text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Welding-Services",
-    img:"/Welding Services.jpg",
-  },
-   {
-      id: 22,
-      name: "Diagnostics",
-      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-      slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      id: 40,
+       name: "Timing Chain Replacement",
+       text: "Timing chain replacement services to maintain accurate engine timing and prevent failures.",
+       slug: "timing-chain-replacement",
+    img:"/e42f4dccba8cfea020c6c73d385c038ca273c78b.webp",
   },
    
- {
-    id: 25,
-    name: "Alternator Replacement",
-    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
-    slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    {
+     id: 42,
+       name: "Head Gasket Repair",
+       text: "Reliable head gasket repairs to prevent overheating and restore engine efficiency.",
+       slug: "head-gasket-repair",
+    img:"/b08253f77d1194ed361ee8793e00aa5a5f887531.webp",
+  },
+   
+  {
+      id: 33,
+       name: "DPF Cleaning Service",
+       text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
+       slug: "dpf-cleaning-service",
+    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
+  },
+   {
+    id: 23,
+       name: "Water Pump Replacement",
+       text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
+       slug: "water-pump-replacement",
+    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
   },
     {
-       id: 41,
-       name: "Oil Change Service",
-       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-       slug: "oil-change-service",
-       img:"/Oil Change.jpg",
-  },
+    id: 34,
+    name: "MOT Testing",
+    text: "Certified MOT testing services to ensure your vehicle meets all legal safety standards.",
+    slug: "mot-testing",
+    img:"/MOT Testing.webp",},
+    {
+    id: 14,
+    name: "All Repairs and Services",
+    text: "Complete vehicle repair and maintenance solutions for all makes and models.",
+    slug: "all-repairs-services",
+    img:"/All Repairs and Services.webp",
+    }
 
 ],
 faq:[
@@ -4125,7 +4551,7 @@ faq:[
     "Regenerative brake service",
     "Charging port repair"
   ],
-  image:"/vogue fix my motor image 20.jpg"
+  image:"/vogue fix my motor image 20.webp"
 }
 ,
       Reviews:[
@@ -4148,6 +4574,13 @@ faq:[
     name: "rehman sandhu",
     time: "a year ago",
     text: "Thas team vogue my vehicle is now better in sound they added new injectors and rebuilt my engine appreciated guys you did well job",
+    rating: 5
+  },
+  {
+    id: 97,
+    name: "JP B",
+    time: "2 days ago",
+    text: "I take all my vans and personal car to Vogue after discovering them on Google. Az and Jack are always very helpful and informative, they are also fair with pricing for me. Very honest guys, I've stopped going to any other garages now. So far they've worked on 12 vehicles of mine and never let me down. Cheers",
     rating: 5
   },
  
@@ -4176,7 +4609,7 @@ faq:[
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -4242,49 +4675,64 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 ]
 },
- servicesData:[
+   servicesData:[
   {
-    id: 1,
-    name: "Initial Diagnostics",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+       id: 28,
+       name: "Clutch Replacement",
+       text: "Professional clutch repair and replacement for smoother gear changes and driving control.",
+       slug: "clutch-replacement",
+    img:"/f184d927a7134700f54e21657884675da9b63340.webp",
     },
-    {
-    id: 12,
-    name: "Cam Belts",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+     {
+  id: 45,
+      name: "Air Conditioning Service",
+      text: "Complete air conditioning servicing for efficient cooling and improved cabin air quality.",
+      slug: "air-conditioning-service",
+    img:"/5894cc3d25139ce6d0c8883c11032a4e11db8154.webp",
   },
     {
-    id: 17,
-    name: "Welding Services",
-    text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Welding-Services",
-    img:"/Welding Services.jpg",
-  },
-   {
-      id: 22,
-      name: "Diagnostics",
-      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-      slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      id: 40,
+       name: "Timing Chain Replacement",
+       text: "Timing chain replacement services to maintain accurate engine timing and prevent failures.",
+       slug: "timing-chain-replacement",
+    img:"/e42f4dccba8cfea020c6c73d385c038ca273c78b.webp",
   },
    
- {
-    id: 25,
-    name: "Alternator Replacement",
-    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
-    slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    {
+     id: 42,
+       name: "Head Gasket Repair",
+       text: "Reliable head gasket repairs to prevent overheating and restore engine efficiency.",
+       slug: "head-gasket-repair",
+    img:"/b08253f77d1194ed361ee8793e00aa5a5f887531.webp",
+  },
+   
+  {
+      id: 33,
+       name: "DPF Cleaning Service",
+       text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
+       slug: "dpf-cleaning-service",
+    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
+  },
+   {
+    id: 23,
+       name: "Water Pump Replacement",
+       text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
+       slug: "water-pump-replacement",
+    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
   },
     {
-       id: 41,
-       name: "Oil Change Service",
-       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-       slug: "oil-change-service",
-       img:"/Oil Change.jpg",
-  },
+    id: 34,
+    name: "MOT Testing",
+    text: "Certified MOT testing services to ensure your vehicle meets all legal safety standards.",
+    slug: "mot-testing",
+    img:"/MOT Testing.webp",},
+    {
+    id: 14,
+    name: "All Repairs and Services",
+    text: "Complete vehicle repair and maintenance solutions for all makes and models.",
+    slug: "all-repairs-services",
+    img:"/All Repairs and Services.webp",
+    }
 
 ],
 faq:[
@@ -4324,7 +4772,7 @@ requestqoute:{
     "EGR and DPF delete where legal",
     "Economy tune for better MPG"
   ],
-  image:"/vogue fix my motor image 21.jpg"
+  image:"/vogue fix my motor image 21.webp"
 },
      Reviews:[
        {
@@ -4346,6 +4794,13 @@ requestqoute:{
     name: "Workshop Manager",
     time: "8 months ago",
     text: "Amazing staff. Very respectful and responsible i really recommend them",
+    rating: 5
+  },
+   {
+    id: 114,
+    name: "Haris M",
+    time: "11 months ago",
+    text: "I recently had outstanding service at Vouge Garage, and I couldn't be more pleased! The team was incredibly professional and knowledgeable, taking the time to explain the issues with my car and the necessary repairs. They completed the work efficiently and at a reasonable price. My car runs like new, and I appreciate their attention to detail. I highly recommend to speak to the representative Vic for anyone in need of reliable and high-quality automotive service!",
     rating: 5
   },
  
@@ -4381,7 +4836,7 @@ requestqoute:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -4447,49 +4902,64 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 ]
 },
-  servicesData:[
+    servicesData:[
   {
-    id: 1,
-    name: "Initial Diagnostics",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+       id: 28,
+       name: "Clutch Replacement",
+       text: "Professional clutch repair and replacement for smoother gear changes and driving control.",
+       slug: "clutch-replacement",
+    img:"/f184d927a7134700f54e21657884675da9b63340.webp",
     },
-    {
-    id: 12,
-    name: "Cam Belts",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+     {
+  id: 45,
+      name: "Air Conditioning Service",
+      text: "Complete air conditioning servicing for efficient cooling and improved cabin air quality.",
+      slug: "air-conditioning-service",
+    img:"/5894cc3d25139ce6d0c8883c11032a4e11db8154.webp",
   },
     {
-    id: 17,
-    name: "Welding Services",
-    text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Welding-Services",
-    img:"/Welding Services.jpg",
-  },
-   {
-      id: 22,
-      name: "Diagnostics",
-      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-      slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      id: 40,
+       name: "Timing Chain Replacement",
+       text: "Timing chain replacement services to maintain accurate engine timing and prevent failures.",
+       slug: "timing-chain-replacement",
+    img:"/e42f4dccba8cfea020c6c73d385c038ca273c78b.webp",
   },
    
- {
-    id: 25,
-    name: "Alternator Replacement",
-    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
-    slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    {
+     id: 42,
+       name: "Head Gasket Repair",
+       text: "Reliable head gasket repairs to prevent overheating and restore engine efficiency.",
+       slug: "head-gasket-repair",
+    img:"/b08253f77d1194ed361ee8793e00aa5a5f887531.webp",
+  },
+   
+  {
+      id: 33,
+       name: "DPF Cleaning Service",
+       text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
+       slug: "dpf-cleaning-service",
+    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
+  },
+   {
+    id: 23,
+       name: "Water Pump Replacement",
+       text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
+       slug: "water-pump-replacement",
+    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
   },
     {
-       id: 41,
-       name: "Oil Change Service",
-       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-       slug: "oil-change-service",
-       img:"/Oil Change.jpg",
-  },
+    id: 34,
+    name: "MOT Testing",
+    text: "Certified MOT testing services to ensure your vehicle meets all legal safety standards.",
+    slug: "mot-testing",
+    img:"/MOT Testing.webp",},
+    {
+    id: 14,
+    name: "All Repairs and Services",
+    text: "Complete vehicle repair and maintenance solutions for all makes and models.",
+    slug: "all-repairs-services",
+    img:"/All Repairs and Services.webp",
+    }
 
 ],
 faq:[
@@ -4530,7 +5000,7 @@ requestqoute:{
     "Valve cover and oil pan gasket replacement",
     "Rear main seal repair"
   ],
-  image:"/vogue fix my motor image 22.jpg"
+  image:"/vogue fix my motor image 22.webp"
 }, 
        Reviews:[
        {
@@ -4554,7 +5024,13 @@ requestqoute:{
     text: "I used vogue technics fix my engine problem. Top service. Vic is best man update me and fix my Range Rover",
     rating: 5
   },
- 
+  {
+    id: 117,
+    name: "jolyon lawson",
+    time: "4 months ago",
+    text: "Great service from Adam and the team. My 2016 discovery sport with ingenium engine was in need of replacement timing chains and had a couple of sensor issues to resolve. Adam completed the work to schedule and in line with a very competitive estimate. He kept me updated, and was very accommodating when arranging the pick up time. The car was returned nice and clean with all the problems sorted.",
+    rating: 5
+  },
 ],
    },
 
@@ -4583,7 +5059,7 @@ requestqoute:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -4649,49 +5125,64 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 ]
 },
- servicesData:[
+   servicesData:[
   {
-    id: 1,
-    name: "Initial Diagnostics",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+       id: 28,
+       name: "Clutch Replacement",
+       text: "Professional clutch repair and replacement for smoother gear changes and driving control.",
+       slug: "clutch-replacement",
+    img:"/f184d927a7134700f54e21657884675da9b63340.webp",
     },
-    {
-    id: 12,
-    name: "Cam Belts",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+     {
+  id: 45,
+      name: "Air Conditioning Service",
+      text: "Complete air conditioning servicing for efficient cooling and improved cabin air quality.",
+      slug: "air-conditioning-service",
+    img:"/5894cc3d25139ce6d0c8883c11032a4e11db8154.webp",
   },
     {
-    id: 17,
-    name: "Welding Services",
-    text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Welding-Services",
-    img:"/Welding Services.jpg",
-  },
-   {
-      id: 22,
-      name: "Diagnostics",
-      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-      slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      id: 40,
+       name: "Timing Chain Replacement",
+       text: "Timing chain replacement services to maintain accurate engine timing and prevent failures.",
+       slug: "timing-chain-replacement",
+    img:"/e42f4dccba8cfea020c6c73d385c038ca273c78b.webp",
   },
    
- {
-    id: 25,
-    name: "Alternator Replacement",
-    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
-    slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    {
+     id: 42,
+       name: "Head Gasket Repair",
+       text: "Reliable head gasket repairs to prevent overheating and restore engine efficiency.",
+       slug: "head-gasket-repair",
+    img:"/b08253f77d1194ed361ee8793e00aa5a5f887531.webp",
+  },
+   
+  {
+      id: 33,
+       name: "DPF Cleaning Service",
+       text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
+       slug: "dpf-cleaning-service",
+    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
+  },
+   {
+    id: 23,
+       name: "Water Pump Replacement",
+       text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
+       slug: "water-pump-replacement",
+    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
   },
     {
-       id: 41,
-       name: "Oil Change Service",
-       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-       slug: "oil-change-service",
-       img:"/Oil Change.jpg",
-  },
+    id: 34,
+    name: "MOT Testing",
+    text: "Certified MOT testing services to ensure your vehicle meets all legal safety standards.",
+    slug: "mot-testing",
+    img:"/MOT Testing.webp",},
+    {
+    id: 14,
+    name: "All Repairs and Services",
+    text: "Complete vehicle repair and maintenance solutions for all makes and models.",
+    slug: "all-repairs-services",
+    img:"/All Repairs and Services.webp",
+    }
 
 ],
 faq:[
@@ -4730,7 +5221,7 @@ served:{
     "Windscreen and wiper check",
     "Number plate and mirror compliance"
   ],
-  image:"/3.jpg"
+  image:"/3.webp"
 }, 
       Reviews:[
        {
@@ -4754,7 +5245,13 @@ served:{
     text: "Many thanks to vogue technics for Fantastic service my car fixed quickly and efficiently and the staff were incredibly friendly highly recommend thanks to vic and his Team vogue best garage",
     rating: 5
   },
- 
+  {
+    id: 118,
+    name: "luke poole",
+    time: "2 months ago",
+    text: "Impressed with these guys. They kept me update throughout with pictures on whatsapp! They droped me off at Lakeside as part of their service. No local garages in Braintree had the guts to look at my evoque and change the glow plugs or piston cooling jet solenoid. These guys were all over it - they did a flush and oil change at a last minute notice due to a ctitical low oil issue. I would recommend and will use again from now on!",
+    rating: 5
+  },
 ],
 
    },
@@ -4788,7 +5285,7 @@ served:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -4854,49 +5351,64 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 ]
 },
- servicesData:[
+   servicesData:[
   {
-    id: 1,
-    name: "Initial Diagnostics",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+       id: 28,
+       name: "Clutch Replacement",
+       text: "Professional clutch repair and replacement for smoother gear changes and driving control.",
+       slug: "clutch-replacement",
+    img:"/f184d927a7134700f54e21657884675da9b63340.webp",
     },
-    {
-    id: 12,
-    name: "Cam Belts",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+     {
+  id: 45,
+      name: "Air Conditioning Service",
+      text: "Complete air conditioning servicing for efficient cooling and improved cabin air quality.",
+      slug: "air-conditioning-service",
+    img:"/5894cc3d25139ce6d0c8883c11032a4e11db8154.webp",
   },
     {
-    id: 17,
-    name: "Welding Services",
-    text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Welding-Services",
-    img:"/Welding Services.jpg",
-  },
-   {
-      id: 22,
-      name: "Diagnostics",
-      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-      slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      id: 40,
+       name: "Timing Chain Replacement",
+       text: "Timing chain replacement services to maintain accurate engine timing and prevent failures.",
+       slug: "timing-chain-replacement",
+    img:"/e42f4dccba8cfea020c6c73d385c038ca273c78b.webp",
   },
    
- {
-    id: 25,
-    name: "Alternator Replacement",
-    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
-    slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    {
+     id: 42,
+       name: "Head Gasket Repair",
+       text: "Reliable head gasket repairs to prevent overheating and restore engine efficiency.",
+       slug: "head-gasket-repair",
+    img:"/b08253f77d1194ed361ee8793e00aa5a5f887531.webp",
+  },
+   
+  {
+      id: 33,
+       name: "DPF Cleaning Service",
+       text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
+       slug: "dpf-cleaning-service",
+    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
+  },
+   {
+    id: 23,
+       name: "Water Pump Replacement",
+       text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
+       slug: "water-pump-replacement",
+    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
   },
     {
-       id: 41,
-       name: "Oil Change Service",
-       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-       slug: "oil-change-service",
-       img:"/Oil Change.jpg",
-  },
+    id: 34,
+    name: "MOT Testing",
+    text: "Certified MOT testing services to ensure your vehicle meets all legal safety standards.",
+    slug: "mot-testing",
+    img:"/MOT Testing.webp",},
+    {
+    id: 14,
+    name: "All Repairs and Services",
+    text: "Complete vehicle repair and maintenance solutions for all makes and models.",
+    slug: "all-repairs-services",
+    img:"/All Repairs and Services.webp",
+    }
 
 ],
 faq:[
@@ -4935,7 +5447,7 @@ served:{
     "Mobile workshop for commercial vans",
     "Digital service records per vehicle"
   ],
-  image:"/slider_section_image.jpg"
+  image:"/slider_section_image.webp"
 }
 , 
       Reviews:[
@@ -4960,7 +5472,13 @@ served:{
     text: "Lovely experience took my car there as I had a problem with my fan belt, helped me resolve it and fixed it quicker then my old garage",
     rating: 5
   },
- 
+   {
+    id: 119,
+    name: "George Sutherland",
+    time: "a year ago",
+    text: "Terrific service. The engine in my L405 seized near Seville in Spain. I contacted Vogue Technics who agreed to accept the car. They sent photos of the car being delivered and of the ruined engine after removal. They fitted a reconditioning engine and kept me informed at every stage. The car is now repaired and running perfectly. The team at Technics were polite, professional and knowledgeable. An excellent job at a reasonable price. I fully recommend Vogue Technics to anyone with Land Rover engine issues. Thank you Az, Sunny, Adrian and Adam",
+    rating: 5
+  },
 ],
 
    },
@@ -5027,7 +5545,7 @@ served:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -5093,49 +5611,64 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 ]
 },
-  servicesData:[
+    servicesData:[
   {
-    id: 1,
-    name: "Initial Diagnostics",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+       id: 28,
+       name: "Clutch Replacement",
+       text: "Professional clutch repair and replacement for smoother gear changes and driving control.",
+       slug: "clutch-replacement",
+    img:"/f184d927a7134700f54e21657884675da9b63340.webp",
     },
-    {
-    id: 12,
-    name: "Cam Belts",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+     {
+  id: 45,
+      name: "Air Conditioning Service",
+      text: "Complete air conditioning servicing for efficient cooling and improved cabin air quality.",
+      slug: "air-conditioning-service",
+    img:"/5894cc3d25139ce6d0c8883c11032a4e11db8154.webp",
   },
     {
-    id: 17,
-    name: "Welding Services",
-    text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Welding-Services",
-    img:"/Welding Services.jpg",
-  },
-   {
-      id: 22,
-      name: "Diagnostics",
-      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-      slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      id: 40,
+       name: "Timing Chain Replacement",
+       text: "Timing chain replacement services to maintain accurate engine timing and prevent failures.",
+       slug: "timing-chain-replacement",
+    img:"/e42f4dccba8cfea020c6c73d385c038ca273c78b.webp",
   },
    
- {
-    id: 25,
-    name: "Alternator Replacement",
-    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
-    slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    {
+     id: 42,
+       name: "Head Gasket Repair",
+       text: "Reliable head gasket repairs to prevent overheating and restore engine efficiency.",
+       slug: "head-gasket-repair",
+    img:"/b08253f77d1194ed361ee8793e00aa5a5f887531.webp",
+  },
+   
+  {
+      id: 33,
+       name: "DPF Cleaning Service",
+       text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
+       slug: "dpf-cleaning-service",
+    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
+  },
+   {
+    id: 23,
+       name: "Water Pump Replacement",
+       text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
+       slug: "water-pump-replacement",
+    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
   },
     {
-       id: 41,
-       name: "Oil Change Service",
-       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-       slug: "oil-change-service",
-       img:"/Oil Change.jpg",
-  },
+    id: 34,
+    name: "MOT Testing",
+    text: "Certified MOT testing services to ensure your vehicle meets all legal safety standards.",
+    slug: "mot-testing",
+    img:"/MOT Testing.webp",},
+    {
+    id: 14,
+    name: "All Repairs and Services",
+    text: "Complete vehicle repair and maintenance solutions for all makes and models.",
+    slug: "all-repairs-services",
+    img:"/All Repairs and Services.webp",
+    }
 
 ],
 faq:[
@@ -5174,7 +5707,7 @@ faq:[
     "UV rejection verification",
     "Bubble-free guarantee"
   ],
-  image:"/slider_section_image.jpg"
+  image:"/slider_section_image.webp"
 },
     
       Reviews:[
@@ -5199,7 +5732,13 @@ faq:[
     text: "I used vogue technics very good service. Fix my vehicle super quick. Services:Vehicle engine diagnostic",
     rating: 5
   },
- 
+   {
+    id: 120,
+    name: "Gaz Rees",
+    time: "3 months ago",
+    text: "So i found Vogue Technics online trying to find a new engin for my 2017 golf R. Whilst i was looking for an engin i applied to a search for an engin and it sent out a tender to loads of different company's. i got called by loads of other company's quoting all kinds of prices some lower and some higher. I used google maps street view to view all the candidates i had chosen. Some looked so shady and wondered if they had my car would i get it back in one piece😅 so i went through and viewed all company's and vogue technics looked like a real garage. I do a-lot of work on cars and just don't have the machines needed to do the rebuild. So i can tell a good garage just by seeing it. Espeshaly from the others i had seen. So it looked the part but that was not my only factor for choosing to go with them, i had a phone call from Jack and had a good chat and i felt like i could trust this man and so i agreed to bringing my golf to the workshop. I wanted to double cheak to make sure it was in good hands. I was presently surprised to see a real work shop loads of lads running around and very organised(Very hard to do with so meany parts with multiple vehicles). This is when i met Az the man who would organised and see my car rebuilt and returned to me. He was very polite and definitely know alot about engines and the work shop. I left my golf in his hands and drove home over 100 miles away. This was befor xmas and new years. A watts app group was made and i was kept upto date with all works being carried out on my engin. And any questions Az was there to answered straight away. I went any picked up the golf the other day and it runs perfectly literally sounds like a new engin. I am know driving the engin very carfully under there instructions for 1000-2000 miles. After that the car will be nicely bedded in and drive like a new car. I would not hesitate at all to contact these guys if i ever needed help with my cars again. And would highly recommend to anyone needed a rebuilt engin or serious work done on your car.",
+    rating: 5
+  },
 ],
    },
 
@@ -5230,7 +5769,7 @@ faq:[
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -5296,49 +5835,64 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 ]
 },
- servicesData:[
+   servicesData:[
   {
-    id: 1,
-    name: "Initial Diagnostics",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+       id: 28,
+       name: "Clutch Replacement",
+       text: "Professional clutch repair and replacement for smoother gear changes and driving control.",
+       slug: "clutch-replacement",
+    img:"/f184d927a7134700f54e21657884675da9b63340.webp",
     },
-    {
-    id: 12,
-    name: "Cam Belts",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+     {
+  id: 45,
+      name: "Air Conditioning Service",
+      text: "Complete air conditioning servicing for efficient cooling and improved cabin air quality.",
+      slug: "air-conditioning-service",
+    img:"/5894cc3d25139ce6d0c8883c11032a4e11db8154.webp",
   },
     {
-    id: 17,
-    name: "Welding Services",
-    text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Welding-Services",
-    img:"/Welding Services.jpg",
-  },
-   {
-      id: 22,
-      name: "Diagnostics",
-      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-      slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      id: 40,
+       name: "Timing Chain Replacement",
+       text: "Timing chain replacement services to maintain accurate engine timing and prevent failures.",
+       slug: "timing-chain-replacement",
+    img:"/e42f4dccba8cfea020c6c73d385c038ca273c78b.webp",
   },
    
- {
-    id: 25,
-    name: "Alternator Replacement",
-    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
-    slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    {
+     id: 42,
+       name: "Head Gasket Repair",
+       text: "Reliable head gasket repairs to prevent overheating and restore engine efficiency.",
+       slug: "head-gasket-repair",
+    img:"/b08253f77d1194ed361ee8793e00aa5a5f887531.webp",
+  },
+   
+  {
+      id: 33,
+       name: "DPF Cleaning Service",
+       text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
+       slug: "dpf-cleaning-service",
+    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
+  },
+   {
+    id: 23,
+       name: "Water Pump Replacement",
+       text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
+       slug: "water-pump-replacement",
+    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
   },
     {
-       id: 41,
-       name: "Oil Change Service",
-       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-       slug: "oil-change-service",
-       img:"/Oil Change.jpg",
-  },
+    id: 34,
+    name: "MOT Testing",
+    text: "Certified MOT testing services to ensure your vehicle meets all legal safety standards.",
+    slug: "mot-testing",
+    img:"/MOT Testing.webp",},
+    {
+    id: 14,
+    name: "All Repairs and Services",
+    text: "Complete vehicle repair and maintenance solutions for all makes and models.",
+    slug: "all-repairs-services",
+    img:"/All Repairs and Services.webp",
+    }
 
 ],
 faq:[
@@ -5377,7 +5931,7 @@ served:{
     "Mobile workshop for commercial vans",
     "Digital service records per vehicle"
   ],
-  image:"/slider_section_image.jpg"
+  image:"/slider_section_image.webp"
 }
 , 
       Reviews:[
@@ -5402,7 +5956,13 @@ served:{
     text: "I use vogue technics fix my bmw. Best service. Thanks to vic. Services: Vehicle engine diagnostic",
     rating: 5
   },
- 
+   {
+    id: 121,
+    name: "Jay&Alina",
+    time: "3 months ago",
+    text: "Spoke to Jack on the phone in regards to my Range Rover issues, he was very informative and explained everything mechanically and financially from an honest point of view. After it was recovered by their driver, Azz and Vick kept me updated everyday with videos. Engine running better than ever now. Jack has given me his permission to add his direct number on this review incase anyone needs genuine advice: 07477641441. Well done guys, see you in a couple of months for the service.",
+    rating: 5
+  },
 ],
    },
 
@@ -5426,7 +5986,7 @@ served:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -5492,49 +6052,64 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 ]
 },
- servicesData:[
+   servicesData:[
   {
-    id: 1,
-    name: "Initial Diagnostics",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+       id: 28,
+       name: "Clutch Replacement",
+       text: "Professional clutch repair and replacement for smoother gear changes and driving control.",
+       slug: "clutch-replacement",
+    img:"/f184d927a7134700f54e21657884675da9b63340.webp",
     },
-    {
-    id: 12,
-    name: "Cam Belts",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+     {
+  id: 45,
+      name: "Air Conditioning Service",
+      text: "Complete air conditioning servicing for efficient cooling and improved cabin air quality.",
+      slug: "air-conditioning-service",
+    img:"/5894cc3d25139ce6d0c8883c11032a4e11db8154.webp",
   },
     {
-    id: 17,
-    name: "Welding Services",
-    text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Welding-Services",
-    img:"/Welding Services.jpg",
-  },
-   {
-      id: 22,
-      name: "Diagnostics",
-      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-      slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      id: 40,
+       name: "Timing Chain Replacement",
+       text: "Timing chain replacement services to maintain accurate engine timing and prevent failures.",
+       slug: "timing-chain-replacement",
+    img:"/e42f4dccba8cfea020c6c73d385c038ca273c78b.webp",
   },
    
- {
-    id: 25,
-    name: "Alternator Replacement",
-    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
-    slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    {
+     id: 42,
+       name: "Head Gasket Repair",
+       text: "Reliable head gasket repairs to prevent overheating and restore engine efficiency.",
+       slug: "head-gasket-repair",
+    img:"/b08253f77d1194ed361ee8793e00aa5a5f887531.webp",
+  },
+   
+  {
+      id: 33,
+       name: "DPF Cleaning Service",
+       text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
+       slug: "dpf-cleaning-service",
+    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
+  },
+   {
+    id: 23,
+       name: "Water Pump Replacement",
+       text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
+       slug: "water-pump-replacement",
+    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
   },
     {
-       id: 41,
-       name: "Oil Change Service",
-       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-       slug: "oil-change-service",
-       img:"/Oil Change.jpg",
-  },
+    id: 34,
+    name: "MOT Testing",
+    text: "Certified MOT testing services to ensure your vehicle meets all legal safety standards.",
+    slug: "mot-testing",
+    img:"/MOT Testing.webp",},
+    {
+    id: 14,
+    name: "All Repairs and Services",
+    text: "Complete vehicle repair and maintenance solutions for all makes and models.",
+    slug: "all-repairs-services",
+    img:"/All Repairs and Services.webp",
+    }
 
 ],
 faq:[
@@ -5574,7 +6149,7 @@ served:{
     "EGR valve removal and carbon clean",
     "Differential pressure sensor check"
   ],
-  image:"/description.jpg"
+  image:"/description.webp"
 },       Reviews:[
        {
     id: 1,
@@ -5597,7 +6172,13 @@ served:{
     text: "Service Very Fast & Furious",
     rating: 5
   },
- 
+ {
+    id: 122,
+    name: "Biatrice Andone",
+    time: "3 months ago",
+    text: "Had my engine rebuilt over 2 years ago by Jack and Az. 3rd Service was done recently at vogue and engine still running like new. Did have to change my gear selector though which these guys done for me on the same day as my service. They even dropped me to the shopping centre and picked me up after the service was done. Very honest and trustworthy blokes. My boss will be giving you a call Jack to get the Transit Van rebuild done next week. Cheers",
+    rating: 5
+  },
 ],
    },
 
@@ -5621,7 +6202,7 @@ served:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -5687,49 +6268,64 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 ]
 },
- servicesData:[
+   servicesData:[
   {
-    id: 1,
-    name: "Initial Diagnostics",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+       id: 28,
+       name: "Clutch Replacement",
+       text: "Professional clutch repair and replacement for smoother gear changes and driving control.",
+       slug: "clutch-replacement",
+    img:"/f184d927a7134700f54e21657884675da9b63340.webp",
     },
-    {
-    id: 12,
-    name: "Cam Belts",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+     {
+  id: 45,
+      name: "Air Conditioning Service",
+      text: "Complete air conditioning servicing for efficient cooling and improved cabin air quality.",
+      slug: "air-conditioning-service",
+    img:"/5894cc3d25139ce6d0c8883c11032a4e11db8154.webp",
   },
     {
-    id: 17,
-    name: "Welding Services",
-    text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Welding-Services",
-    img:"/Welding Services.jpg",
-  },
-   {
-      id: 22,
-      name: "Diagnostics",
-      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-      slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      id: 40,
+       name: "Timing Chain Replacement",
+       text: "Timing chain replacement services to maintain accurate engine timing and prevent failures.",
+       slug: "timing-chain-replacement",
+    img:"/e42f4dccba8cfea020c6c73d385c038ca273c78b.webp",
   },
    
- {
-    id: 25,
-    name: "Alternator Replacement",
-    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
-    slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    {
+     id: 42,
+       name: "Head Gasket Repair",
+       text: "Reliable head gasket repairs to prevent overheating and restore engine efficiency.",
+       slug: "head-gasket-repair",
+    img:"/b08253f77d1194ed361ee8793e00aa5a5f887531.webp",
+  },
+   
+  {
+      id: 33,
+       name: "DPF Cleaning Service",
+       text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
+       slug: "dpf-cleaning-service",
+    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
+  },
+   {
+    id: 23,
+       name: "Water Pump Replacement",
+       text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
+       slug: "water-pump-replacement",
+    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
   },
     {
-       id: 41,
-       name: "Oil Change Service",
-       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-       slug: "oil-change-service",
-       img:"/Oil Change.jpg",
-  },
+    id: 34,
+    name: "MOT Testing",
+    text: "Certified MOT testing services to ensure your vehicle meets all legal safety standards.",
+    slug: "mot-testing",
+    img:"/MOT Testing.webp",},
+    {
+    id: 14,
+    name: "All Repairs and Services",
+    text: "Complete vehicle repair and maintenance solutions for all makes and models.",
+    slug: "all-repairs-services",
+    img:"/All Repairs and Services.webp",
+    }
 
 ],
 faq:[
@@ -5769,7 +6365,7 @@ served:{
     "Headlight beam alignment",
     "Broken housing repair"
   ],
-  image:"/2.jpg"
+  image:"/2.webp"
 }
 ,    Reviews:[
        {
@@ -5793,7 +6389,13 @@ served:{
     text: "Excellent and fast service from the team at Vogue Technics. Would highly recommend. Services: Vehicle engine diagnostic, Exhaust, Oil change, Transmission, Transmission repair",
     rating: 5
   },
- 
+   {
+    id: 103,
+    name: "olaniyi ijalana",
+    time: "3 weeks ago",
+    text: "This company exceeded my expectations. Seeing is believing . Very professional individual and they would listening to your concerns and act accordingly.Vic is a very fantastic guy. I would definitely recommend.",
+    rating: 5
+  },
 ],
    },
 
@@ -5818,7 +6420,7 @@ served:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -5884,49 +6486,64 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 ]
 },
- servicesData:[
+   servicesData:[
   {
-    id: 1,
-    name: "Initial Diagnostics",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+       id: 28,
+       name: "Clutch Replacement",
+       text: "Professional clutch repair and replacement for smoother gear changes and driving control.",
+       slug: "clutch-replacement",
+    img:"/f184d927a7134700f54e21657884675da9b63340.webp",
     },
-    {
-    id: 12,
-    name: "Cam Belts",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+     {
+  id: 45,
+      name: "Air Conditioning Service",
+      text: "Complete air conditioning servicing for efficient cooling and improved cabin air quality.",
+      slug: "air-conditioning-service",
+    img:"/5894cc3d25139ce6d0c8883c11032a4e11db8154.webp",
   },
     {
-    id: 17,
-    name: "Welding Services",
-    text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Welding-Services",
-    img:"/Welding Services.jpg",
-  },
-   {
-      id: 22,
-      name: "Diagnostics",
-      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-      slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      id: 40,
+       name: "Timing Chain Replacement",
+       text: "Timing chain replacement services to maintain accurate engine timing and prevent failures.",
+       slug: "timing-chain-replacement",
+    img:"/e42f4dccba8cfea020c6c73d385c038ca273c78b.webp",
   },
    
- {
-    id: 25,
-    name: "Alternator Replacement",
-    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
-    slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    {
+     id: 42,
+       name: "Head Gasket Repair",
+       text: "Reliable head gasket repairs to prevent overheating and restore engine efficiency.",
+       slug: "head-gasket-repair",
+    img:"/b08253f77d1194ed361ee8793e00aa5a5f887531.webp",
+  },
+   
+  {
+      id: 33,
+       name: "DPF Cleaning Service",
+       text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
+       slug: "dpf-cleaning-service",
+    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
+  },
+   {
+    id: 23,
+       name: "Water Pump Replacement",
+       text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
+       slug: "water-pump-replacement",
+    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
   },
     {
-       id: 41,
-       name: "Oil Change Service",
-       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-       slug: "oil-change-service",
-       img:"/Oil Change.jpg",
-  },
+    id: 34,
+    name: "MOT Testing",
+    text: "Certified MOT testing services to ensure your vehicle meets all legal safety standards.",
+    slug: "mot-testing",
+    img:"/MOT Testing.webp",},
+    {
+    id: 14,
+    name: "All Repairs and Services",
+    text: "Complete vehicle repair and maintenance solutions for all makes and models.",
+    slug: "all-repairs-services",
+    img:"/All Repairs and Services.webp",
+    }
 
 ],
 faq:[
@@ -5966,7 +6583,7 @@ faq:[
     "OBD2 fault code scan",
     "Road test evaluation"
   ],
-  image:"/vogue fix my motor image 9.jpg"
+  image:"/vogue fix my motor image 9.webp"
 }
 ,
       Reviews:[
@@ -5989,6 +6606,13 @@ faq:[
     name: "Seth Owusu Ampofo",
     time: "3 years ago",
     text: "I use vogue technics very good service many thanks. Services: Vehicle engine diagnostic",
+    rating: 5
+  },
+   {
+    id: 102,
+    name: "Nelson",
+    time: "3 weeks ago",
+    text: "I had an issue with two of my vehicles, a land-rover discovery and a Mercedes benz sprinter van. After going to so many garages and problems keep persisting, I made a search on Google with some reservations due to my experience with other garages. I first got in contact with a gentleman called Vic. He assured me that my worries would be laid to rest. My vehicles have been given a new life and without hesitation, I'll recommend them to anyone having problems with their vehicles. The garage is amazing with very friendly staff",
     rating: 5
   },
  
@@ -6019,7 +6643,7 @@ faq:[
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -6085,51 +6709,66 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 ]
 },
- servicesData:[
+   servicesData:[
   {
-    id: 1,
-    name: "Initial Diagnostics",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+       id: 28,
+       name: "Clutch Replacement",
+       text: "Professional clutch repair and replacement for smoother gear changes and driving control.",
+       slug: "clutch-replacement",
+    img:"/f184d927a7134700f54e21657884675da9b63340.webp",
     },
-    {
-    id: 12,
-    name: "Cam Belts",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+     {
+  id: 45,
+      name: "Air Conditioning Service",
+      text: "Complete air conditioning servicing for efficient cooling and improved cabin air quality.",
+      slug: "air-conditioning-service",
+    img:"/5894cc3d25139ce6d0c8883c11032a4e11db8154.webp",
   },
     {
-    id: 17,
-    name: "Welding Services",
-    text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Welding-Services",
-    img:"/Welding Services.jpg",
-  },
-   {
-      id: 22,
-      name: "Diagnostics",
-      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-      slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      id: 40,
+       name: "Timing Chain Replacement",
+       text: "Timing chain replacement services to maintain accurate engine timing and prevent failures.",
+       slug: "timing-chain-replacement",
+    img:"/e42f4dccba8cfea020c6c73d385c038ca273c78b.webp",
   },
    
- {
-    id: 25,
-    name: "Alternator Replacement",
-    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
-    slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    {
+     id: 42,
+       name: "Head Gasket Repair",
+       text: "Reliable head gasket repairs to prevent overheating and restore engine efficiency.",
+       slug: "head-gasket-repair",
+    img:"/b08253f77d1194ed361ee8793e00aa5a5f887531.webp",
+  },
+   
+  {
+      id: 33,
+       name: "DPF Cleaning Service",
+       text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
+       slug: "dpf-cleaning-service",
+    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
+  },
+   {
+    id: 23,
+       name: "Water Pump Replacement",
+       text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
+       slug: "water-pump-replacement",
+    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
   },
     {
-       id: 41,
-       name: "Oil Change Service",
-       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-       slug: "oil-change-service",
-       img:"/Oil Change.jpg",
-  },
+    id: 34,
+    name: "MOT Testing",
+    text: "Certified MOT testing services to ensure your vehicle meets all legal safety standards.",
+    slug: "mot-testing",
+    img:"/MOT Testing.webp",},
+    {
+    id: 14,
+    name: "All Repairs and Services",
+    text: "Complete vehicle repair and maintenance solutions for all makes and models.",
+    slug: "all-repairs-services",
+    img:"/All Repairs and Services.webp",
+    }
 
-],
+], 
 faq:[
   {
     id: 1,
@@ -6166,7 +6805,7 @@ served:{
     "Puncture repair and patch",
     "TPMS sensor service"
   ],
-  image:"/1.jpg"
+  image:"/1.webp"
 }
 ,  
       Reviews:[
@@ -6191,7 +6830,13 @@ served:{
     text: "Very good people thanks Vic fixing my car",
     rating: 5
   },
- 
+ {
+    id: 97,
+    name: "JP B",
+    time: "2 days ago",
+    text: "I take all my vans and personal car to Vogue after discovering them on Google. Az and Jack are always very helpful and informative, they are also fair with pricing for me. Very honest guys, I've stopped going to any other garages now. So far they've worked on 12 vehicles of mine and never let me down. Cheers",
+    rating: 5
+  },
 ],
 
 
@@ -6235,7 +6880,7 @@ served:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -6307,27 +6952,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -6335,15 +6980,30 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
+    {
+      id: 33,
+       name: "DPF Cleaning Service",
+       text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
+       slug: "dpf-cleaning-service",
+    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
+  },
+   {
+    id: 23,
+       name: "Water Pump Replacement",
+       text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
+       slug: "water-pump-replacement",
+    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
+  },
+  
 
 ],
 faq:[
@@ -6383,7 +7043,7 @@ served:{
     "Wiring harness fault tracing",
     "Light bulb and fuse replacement"
   ],
-  image:"/vogue fix my motor image 14.jpg"
+  image:"/vogue fix my motor image 14.webp"
 },
       Reviews:[
        {
@@ -6407,7 +7067,13 @@ served:{
     text: "Brilliant service. I would recommend to everyone. Good with prices too",
     rating: 5
   },
- 
+  {
+    id: 114,
+    name: "Haris M",
+    time: "11 months ago",
+    text: "I recently had outstanding service at Vouge Garage, and I couldn't be more pleased! The team was incredibly professional and knowledgeable, taking the time to explain the issues with my car and the necessary repairs. They completed the work efficiently and at a reasonable price. My car runs like new, and I appreciate their attention to detail. I highly recommend to speak to the representative Vic for anyone in need of reliable and high-quality automotive service!",
+    rating: 5
+  },
 ],
    },
 
@@ -6443,7 +7109,7 @@ served:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -6509,33 +7175,33 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 ]
 },
- servicesData:[
+  servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -6543,15 +7209,30 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
+    {
+      id: 33,
+       name: "DPF Cleaning Service",
+       text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
+       slug: "dpf-cleaning-service",
+    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
+  },
+   {
+    id: 23,
+       name: "Water Pump Replacement",
+       text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
+       slug: "water-pump-replacement",
+    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
+  },
+  
 
 ],
 faq:[
@@ -6591,7 +7272,7 @@ served:{
     "Thermostat and coolant hose fitting",
     "Coolant flush and refill"
   ],
-  image:"/vogue fix my motor image 15.jpg"
+  image:"/vogue fix my motor image 15.webp"
 }, 
       Reviews:[
        {
@@ -6615,7 +7296,13 @@ served:{
     text: "10/10 service",
     rating: 5
   },
- 
+  {
+    id: 117,
+    name: "jolyon lawson",
+    time: "4 months ago",
+    text: "Great service from Adam and the team. My 2016 discovery sport with ingenium engine was in need of replacement timing chains and had a couple of sensor issues to resolve. Adam completed the work to schedule and in line with a very competitive estimate. He kept me updated, and was very accommodating when arranging the pick up time. The car was returned nice and clean with all the problems sorted.",
+    rating: 5
+  },
 ],
 
    },
@@ -6649,7 +7336,7 @@ served:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -6715,33 +7402,33 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 ]
 },
- servicesData:[
+  servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -6749,15 +7436,30 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
+    {
+      id: 33,
+       name: "DPF Cleaning Service",
+       text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
+       slug: "dpf-cleaning-service",
+    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
+  },
+   {
+    id: 23,
+       name: "Water Pump Replacement",
+       text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
+       slug: "water-pump-replacement",
+    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
+  },
+  
 
 ],
    
@@ -6798,7 +7500,7 @@ served:{
     "CVT belt and pulley service",
     "Full gearbox rebuild with warranty"
   ],
-  image:"/vogue fix my motor image 17.jpg"
+  image:"/vogue fix my motor image 17.webp"
 },
        Reviews:[
        {
@@ -6822,7 +7524,13 @@ served:{
     text: "very helpful staffs.. Too friendly, they smiles in client and willing to help... Best discounts on repair.",
     rating: 5
   },
- 
+  {
+    id: 118,
+    name: "luke poole",
+    time: "2 months ago",
+    text: "Impressed with these guys. They kept me update throughout with pictures on whatsapp! They droped me off at Lakeside as part of their service. No local garages in Braintree had the guts to look at my evoque and change the glow plugs or piston cooling jet solenoid. These guys were all over it - they did a flush and oil change at a last minute notice due to a ctitical low oil issue. I would recommend and will use again from now on!",
+    rating: 5
+  },
 ],
 
    },
@@ -6844,7 +7552,7 @@ served:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -6910,33 +7618,33 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 ]
 },
- servicesData:[
+  servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -6944,15 +7652,30 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
+    {
+      id: 33,
+       name: "DPF Cleaning Service",
+       text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
+       slug: "dpf-cleaning-service",
+    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
+  },
+   {
+    id: 23,
+       name: "Water Pump Replacement",
+       text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
+       slug: "water-pump-replacement",
+    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
+  },
+  
 
 ],
 faq:[
@@ -6992,7 +7715,7 @@ faq:[
     "Condenser and evaporator replacement",
     "Cabin air filter change"
   ],
-  image:"/vogue fix my motor image 18.jpg"
+  image:"/vogue fix my motor image 18.webp"
 },      Reviews:[
        {
     id: 1,
@@ -7015,7 +7738,13 @@ faq:[
     text: "I take all my vans and personal car to Vogue after discovering them on Google. Az and Jack are always very helpful and informative, they are also fair with pricing for me. Very honest guys, I've stopped going to any other garages now. So far they've worked on 12 vehicles of mine and never let me down. Cheers",
     rating: 5
   },
- 
+   {
+    id: 119,
+    name: "George Sutherland",
+    time: "a year ago",
+    text: "Terrific service. The engine in my L405 seized near Seville in Spain. I contacted Vogue Technics who agreed to accept the car. They sent photos of the car being delivered and of the ruined engine after removal. They fitted a reconditioning engine and kept me informed at every stage. The car is now repaired and running perfectly. The team at Technics were polite, professional and knowledgeable. An excellent job at a reasonable price. I fully recommend Vogue Technics to anyone with Land Rover engine issues. Thank you Az, Sunny, Adrian and Adam",
+    rating: 5
+  },
 ],
 
    },
@@ -7052,7 +7781,7 @@ faq:[
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -7118,33 +7847,33 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 ]
 },
- servicesData:[
+  servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -7152,15 +7881,30 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
+    {
+      id: 33,
+       name: "DPF Cleaning Service",
+       text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
+       slug: "dpf-cleaning-service",
+    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
+  },
+   {
+    id: 23,
+       name: "Water Pump Replacement",
+       text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
+       slug: "water-pump-replacement",
+    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
+  },
+  
 
 ],
 faq:[
@@ -7201,7 +7945,7 @@ served:{
     "Oxygen sensor fault repair",
     "Custom exhaust fabrication available"
   ],
-  image:"/wowimage.jpg"
+  image:"/wowimage.webp"
 },
       Reviews:[
        {
@@ -7225,7 +7969,13 @@ served:{
     text: "had a great experience with this mechanic. They were honest, professional, and fixed my car quickly at a fair price. Everything was explained clearly, and the service was excellent. I would definitely recommend them.",
     rating: 5
   },
- 
+   {
+    id: 120,
+    name: "Gaz Rees",
+    time: "3 months ago",
+    text: "So i found Vogue Technics online trying to find a new engin for my 2017 golf R. Whilst i was looking for an engin i applied to a search for an engin and it sent out a tender to loads of different company's. i got called by loads of other company's quoting all kinds of prices some lower and some higher. I used google maps street view to view all the candidates i had chosen. Some looked so shady and wondered if they had my car would i get it back in one piece😅 so i went through and viewed all company's and vogue technics looked like a real garage. I do a-lot of work on cars and just don't have the machines needed to do the rebuild. So i can tell a good garage just by seeing it. Espeshaly from the others i had seen. So it looked the part but that was not my only factor for choosing to go with them, i had a phone call from Jack and had a good chat and i felt like i could trust this man and so i agreed to bringing my golf to the workshop. I wanted to double cheak to make sure it was in good hands. I was presently surprised to see a real work shop loads of lads running around and very organised(Very hard to do with so meany parts with multiple vehicles). This is when i met Az the man who would organised and see my car rebuilt and returned to me. He was very polite and definitely know alot about engines and the work shop. I left my golf in his hands and drove home over 100 miles away. This was befor xmas and new years. A watts app group was made and i was kept upto date with all works being carried out on my engin. And any questions Az was there to answered straight away. I went any picked up the golf the other day and it runs perfectly literally sounds like a new engin. I am know driving the engin very carfully under there instructions for 1000-2000 miles. After that the car will be nicely bedded in and drive like a new car. I would not hesitate at all to contact these guys if i ever needed help with my cars again. And would highly recommend to anyone needed a rebuilt engin or serious work done on your car.",
+    rating: 5
+  },
 ],
    },
 
@@ -7256,209 +8006,7 @@ served:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
-  items:  [
-  {
-    title: "Expert Engine Repair & Diagnostics Near You in Essex",
-    text: `Vogue Fix My Motor provides expert engine repair and diagnostics for customers across Essex. Our experienced technicians use state-of-the-art OBD scanning tools to accurately identify engine faults and resolve them efficiently. Whether you are dealing with warning lights, power loss, overheating, or unusual noises, we diagnose and fix the problem right first time.
-
-We handle all makes and models — from everyday family cars to high-performance SUVs and commercial vehicles. Based in Grays, Essex, we are conveniently located to serve customers from across the county. Our workshop is equipped with modern tools and quality parts to ensure every repair meets the highest standard.
-
-We believe in honest, transparent service with no hidden charges. Every customer receives a clear quote before any work begins, so you always know exactly what you are paying for and why.
-
-Book your appointment today and get your vehicle back on the road with confidence.`
-  },
-
-  {
-    title: "Trusted Car Repair Experts at Vogue Fix My Motor",
-    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
-
-Our goal is to build long-term trust with our customers. We believe that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
-
-We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
-  },
-
-  {
-    title: "Fast & Professional Car Service in Essex",
-    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
-
-Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
-
- Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
-
-Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
-  },
-  {
-  title: "Advanced Engine Diagnostics at Vogue Fix My Motor, Grays Essex",
-  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
-
-Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
-
-Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
-
-We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
-},
-
-{
-  title: "Quality Parts & Reliable Repairs — Vogue Fix My Motor",
-  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
-
-Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
-
-Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
-
-We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
-},
-
-{
-  title: "Customer Satisfaction Guaranteed at Vogue Fix My Motor",
-  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
-
-We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
-
-We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
-
-Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
-},
-]
-},
- servicesData:[
-  {
-    id: 1,
-    name: "Initial Diagnostics",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
-    },
-    {
-    id: 12,
-    name: "Cam Belts",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
-  },
-    {
-    id: 17,
-    name: "Welding Services",
-    text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Welding-Services",
-    img:"/Welding Services.jpg",
-  },
-   {
-      id: 22,
-      name: "Diagnostics",
-      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-      slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
-  },
-   
- {
-    id: 25,
-    name: "Alternator Replacement",
-    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
-    slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
-  },
-    {
-       id: 41,
-       name: "Oil Change Service",
-       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-       slug: "oil-change-service",
-       img:"/Oil Change.jpg",
-  },
-
-],
-faq:[
-  {
-    id: 1,
-    question: "Do you work on BMW X5, X6, X7?",
-    answer: "Yes, full service and repair for all BMW X Series SUVs."
-  },
-  {
-    id: 2,
-    question: "Can you fix faulty auto wipers?",
-    answer: "Yes, we diagnose and replace faulty rain light sensors."
-  },
-  {
-    id: 3,
-    question: "Do you offer turbo actuator repair?",
-    answer: "Yes, turbo variable vane actuator replacement and calibration."
-  },
-  {
-    id: 4,
-    question: "Do you replace worn rear diff bushes?",
-    answer: "Yes, rear differential bush replacement common on many SUVs."
-  }
-],
-
-   served:{
-  heading:"WE SERVED in Virginia Water",
-  p1:"Virginia Water's exclusive Wentworth Estate homes contain some of the UK's most valuable car collections. We offer private workshop visits and collection from gated properties for complete convenience.",
-  p2:"Our climate-controlled storage can house up to 20 collector vehicles, with regular start-ups, battery conditioning, and detailing included."
-}, requestqoute:{
-  heading:"Oil Change & Fluid Service",
-  paragraph:"Regular oil changes keep your engine alive longer. We use premium oils and filters. Our quick service also tops up all other fluids and includes a free vehicle health check.",
-  bullets:[
-    "Engine oil and filter change",
-    "Gearbox and differential oil service",
-    "Coolant and brake fluid top-up",
-    "Multi-point inspection included"
-  ],
-  image:"/vogue fix my motor image 20.jpg"
-},
-       Reviews:[
-       {
-    id: 1,
-    name: "sukhdev Singh",
-    time: "a week ago",
-    text: "They are best working on Range Rover. My Range Rover discovery had timing chain issue they fix it. Highly recommend",
-    rating: 5
-  },
-  {
-    id: 2,
-    name: "Nelson",
-    time: "3 weeks ago",
-    text: "I had an issue with two of my vehicles, a land-rover discovery and a Mercedes benz sprinter van. After going to so many garages and problems keep persisting, I made a search on Google with some reservations due to my experience with other garages. I first got in contact with a gentleman called Vic. He assured me that my worries would be laid to rest. My vehicles have been given a new life and without hesitation, I'll recommend them to anyone having problems with their vehicles. The garage is amazing with very friendly staff",
-    rating: 5
-  },
-  {
-    id: 3,
-    name: "olaniyi ijalana",
-    time: "3 weeks ago",
-    text: "This company exceeded my expectations. Seeing is believing . Very professional individual and they would listening to your concerns and act accordingly.Vic is a very fantastic guy. I would definitely recommend.",
-    rating: 5
-  },
- 
-],
-
-   },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  { id: 37, name: "Walthamstow", slug: "walthamstow",
-    heading:"Grays Areas We Cover",
-    text:"We provide specialist engine services and vehicle recovery in Grays.",
-          green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -7530,27 +8078,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -7558,80 +8106,101 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
+    {
+      id: 33,
+       name: "DPF Cleaning Service",
+       text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
+       slug: "dpf-cleaning-service",
+    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
+  },
+   {
+    id: 23,
+       name: "Water Pump Replacement",
+       text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
+       slug: "water-pump-replacement",
+    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
+  },
+  
 
 ],
 faq:[
   {
     id: 1,
-    question: "Do you offer key programming for lost keys?",
-    answer: "Yes, we cut and program new keys for all luxury brands."
+    question: "Do you work on BMW X5, X6, X7?",
+    answer: "Yes, full service and repair for all BMW X Series SUVs."
   },
   {
     id: 2,
-    question: "Can you fix faulty cruise control?",
-    answer: "Yes, we diagnose cruise control switches and module failures."
+    question: "Can you fix faulty auto wipers?",
+    answer: "Yes, we diagnose and replace faulty rain light sensors."
   },
   {
     id: 3,
-    question: "Do you offer intercooler cleaning?",
-    answer: "Yes, intercooler removal, cleaning, and pressure testing."
+    question: "Do you offer turbo actuator repair?",
+    answer: "Yes, turbo variable vane actuator replacement and calibration."
   },
   {
     id: 4,
-    question: "Do you replace worn EGR coolers?",
-    answer: "Yes, EGR cooler replacement for coolant loss and smoke."
+    question: "Do you replace worn rear diff bushes?",
+    answer: "Yes, rear differential bush replacement common on many SUVs."
   }
 ],
-  served:{
-  heading:"WE SERVED in Ascot",
-  p1:"Ascot's race-going clientele need reliable luxury transport for special occasions. We offer pre-event inspection packages including valeting, mechanical checks, and contingency breakdown cover.",
-  p2:"Royal Ascot week is our busiest period—book your service at least 6 weeks in advance to guarantee availability."
-}
-,  
-requestqoute:{
-  heading:"Suspension & Steering Repair",
-  paragraph:"A bumpy ride or loose steering means suspension trouble. We replace shock absorbers, struts, ball joints, and tie rods. Get back a smooth, controlled driving experience.",
+
+   served:{
+  heading:"WE SERVED in Virginia Water",
+  p1:"Virginia Water's exclusive Wentworth Estate homes contain some of the UK's most valuable car collections. We offer private workshop visits and collection from gated properties for complete convenience.",
+  p2:"Our climate-controlled storage can house up to 20 collector vehicles, with regular start-ups, battery conditioning, and detailing included."
+}, requestqoute:{
+  heading:"Oil Change & Fluid Service",
+  paragraph:"Regular oil changes keep your engine alive longer. We use premium oils and filters. Our quick service also tops up all other fluids and includes a free vehicle health check.",
   bullets:[
-    "Shock absorber and strut replacement",
-    "Ball joint and tie rod end fitting",
-    "Power steering pump repair",
-    "Wheel alignment after suspension work"
+    "Engine oil and filter change",
+    "Gearbox and differential oil service",
+    "Coolant and brake fluid top-up",
+    "Multi-point inspection included"
   ],
-  image:"/vogue fix my motor image 21.jpg"
+  image:"/vogue fix my motor image 20.webp"
 },
-      Reviews:[
+       Reviews:[
        {
     id: 1,
-    name: "Pushpinder singh sarao",
-    time: "3 weeks ago",
-    text: "Vogue Technics worked on my Range Rover Urban and I couldn’t be happier with the results. Their team is incredibly passionate and professional. Without a doubt, they’re the best garage for engine repairs in Grays. If you’re having any issues with your Range Rover, I highly recommend them 100%.",
+    name: "sukhdev Singh",
+    time: "a week ago",
+    text: "They are best working on Range Rover. My Range Rover discovery had timing chain issue they fix it. Highly recommend",
     rating: 5
   },
   {
     id: 2,
-    name: "Mirza Rahman",
-    time: "a month ago",
-    text: "Service was very good . And the communication was very nice .",
+    name: "Nelson",
+    time: "3 weeks ago",
+    text: "I had an issue with two of my vehicles, a land-rover discovery and a Mercedes benz sprinter van. After going to so many garages and problems keep persisting, I made a search on Google with some reservations due to my experience with other garages. I first got in contact with a gentleman called Vic. He assured me that my worries would be laid to rest. My vehicles have been given a new life and without hesitation, I'll recommend them to anyone having problems with their vehicles. The garage is amazing with very friendly staff",
     rating: 5
   },
   {
     id: 3,
-    name: "Umair Anwar",
-    time: "3 years ago",
-    text: "Services:Vehicle engine diagnostic, Electrical repair, Oil change",
+    name: "olaniyi ijalana",
+    time: "3 weeks ago",
+    text: "This company exceeded my expectations. Seeing is believing . Very professional individual and they would listening to your concerns and act accordingly.Vic is a very fantastic guy. I would definitely recommend.",
     rating: 5
   },
- 
+   {
+    id: 121,
+    name: "Jay&Alina",
+    time: "3 months ago",
+    text: "Spoke to Jack on the phone in regards to my Range Rover issues, he was very informative and explained everything mechanically and financially from an honest point of view. After it was recovered by their driver, Azz and Vick kept me updated everyday with videos. Engine running better than ever now. Jack has given me his permission to add his direct number on this review incase anyone needs genuine advice: 07477641441. Well done guys, see you in a couple of months for the service.",
+    rating: 5
+  },
 ],
+
    },
 
 
@@ -7653,11 +8222,14 @@ requestqoute:{
 
 
 
-  { id: 38, name: "Tottenham", slug: "tottenham",
+
+
+
+  { id: 37, name: "Walthamstow", slug: "walthamstow",
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -7723,33 +8295,33 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 ]
 },
- servicesData:[
+   servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -7757,15 +8329,250 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
+    {
+      id: 33,
+       name: "DPF Cleaning Service",
+       text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
+       slug: "dpf-cleaning-service",
+    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
+  },
+   {
+    id: 23,
+       name: "Water Pump Replacement",
+       text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
+       slug: "water-pump-replacement",
+    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
+  },
+  
+
+],
+faq:[
+  {
+    id: 1,
+    question: "Do you offer key programming for lost keys?",
+    answer: "Yes, we cut and program new keys for all luxury brands."
+  },
+  {
+    id: 2,
+    question: "Can you fix faulty cruise control?",
+    answer: "Yes, we diagnose cruise control switches and module failures."
+  },
+  {
+    id: 3,
+    question: "Do you offer intercooler cleaning?",
+    answer: "Yes, intercooler removal, cleaning, and pressure testing."
+  },
+  {
+    id: 4,
+    question: "Do you replace worn EGR coolers?",
+    answer: "Yes, EGR cooler replacement for coolant loss and smoke."
+  }
+],
+  served:{
+  heading:"WE SERVED in Ascot",
+  p1:"Ascot's race-going clientele need reliable luxury transport for special occasions. We offer pre-event inspection packages including valeting, mechanical checks, and contingency breakdown cover.",
+  p2:"Royal Ascot week is our busiest period—book your service at least 6 weeks in advance to guarantee availability."
+}
+,  
+requestqoute:{
+  heading:"Suspension & Steering Repair",
+  paragraph:"A bumpy ride or loose steering means suspension trouble. We replace shock absorbers, struts, ball joints, and tie rods. Get back a smooth, controlled driving experience.",
+  bullets:[
+    "Shock absorber and strut replacement",
+    "Ball joint and tie rod end fitting",
+    "Power steering pump repair",
+    "Wheel alignment after suspension work"
+  ],
+  image:"/vogue fix my motor image 21.webp"
+},
+      Reviews:[
+       {
+    id: 1,
+    name: "Pushpinder singh sarao",
+    time: "3 weeks ago",
+    text: "Vogue Technics worked on my Range Rover Urban and I couldn’t be happier with the results. Their team is incredibly passionate and professional. Without a doubt, they’re the best garage for engine repairs in Grays. If you’re having any issues with your Range Rover, I highly recommend them 100%.",
+    rating: 5
+  },
+  {
+    id: 2,
+    name: "Mirza Rahman",
+    time: "a month ago",
+    text: "Service was very good . And the communication was very nice .",
+    rating: 5
+  },
+  {
+    id: 3,
+    name: "Umair Anwar",
+    time: "3 years ago",
+    text: "Services:Vehicle engine diagnostic, Electrical repair, Oil change",
+    rating: 5
+  },
+ {
+    id: 122,
+    name: "Biatrice Andone",
+    time: "3 months ago",
+    text: "Had my engine rebuilt over 2 years ago by Jack and Az. 3rd Service was done recently at vogue and engine still running like new. Did have to change my gear selector though which these guys done for me on the same day as my service. They even dropped me to the shopping centre and picked me up after the service was done. Very honest and trustworthy blokes. My boss will be giving you a call Jack to get the Transit Van rebuild done next week. Cheers",
+    rating: 5
+  },
+],
+   },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  { id: 38, name: "Tottenham", slug: "tottenham",
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
+          green_slider:{
+   img: "/vogue fix my motor image 9.webp",
+  items:  [
+  {
+    title: "Expert Engine Repair & Diagnostics Near You in Essex",
+    text: `Vogue Fix My Motor provides expert engine repair and diagnostics for customers across Essex. Our experienced technicians use state-of-the-art OBD scanning tools to accurately identify engine faults and resolve them efficiently. Whether you are dealing with warning lights, power loss, overheating, or unusual noises, we diagnose and fix the problem right first time.
+
+We handle all makes and models — from everyday family cars to high-performance SUVs and commercial vehicles. Based in Grays, Essex, we are conveniently located to serve customers from across the county. Our workshop is equipped with modern tools and quality parts to ensure every repair meets the highest standard.
+
+We believe in honest, transparent service with no hidden charges. Every customer receives a clear quote before any work begins, so you always know exactly what you are paying for and why.
+
+Book your appointment today and get your vehicle back on the road with confidence.`
+  },
+
+  {
+    title: "Trusted Car Repair Experts at Vogue Fix My Motor",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-term trust with our customers. We believe that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "Fast & Professional Car Service in Essex",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "Advanced Engine Diagnostics at Vogue Fix My Motor, Grays Essex",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "Quality Parts & Reliable Repairs — Vogue Fix My Motor",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "Customer Satisfaction Guaranteed at Vogue Fix My Motor",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+  servicesData:[
+  {
+    id: 1,
+    name: "Initial Diagnostics",
+    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
+    slug: "Initial-Diagnostics", 
+     img:"/Initial Diagnostics.webp",
+    },
+    {
+    id: 12,
+    name: "Cam Belts",
+    text: "Battery testing, charging system inspection, and replacement services when required.",
+    img:"/Cam Belts.webp",
+  },
+    {
+    id: 17,
+    name: "Welding Services",
+    text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
+    slug: "Welding-Services",
+    img:"/Welding Services.webp",
+  },
+   {
+      id: 22,
+      name: "Diagnostics",
+      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+      slug: "Diagnostics",
+      img:"/Diagnostics.webp",
+  },
+   
+ {
+    id: 25,
+    name: "Alternator Replacement",
+    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.webp",
+  },
+    {
+       id: 41,
+       name: "Oil Change Service",
+       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+       slug: "oil-change-service",
+       img:"/Oil Change.webp",
+  },
+    {
+      id: 33,
+       name: "DPF Cleaning Service",
+       text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
+       slug: "dpf-cleaning-service",
+    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
+  },
+   {
+    id: 23,
+       name: "Water Pump Replacement",
+       text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
+       slug: "water-pump-replacement",
+    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
+  },
+  
 
 ],
 faq:[
@@ -7806,7 +8613,7 @@ served:{
     "Pressure test for cracks",
     "New head bolts and reassembly"
   ],
-  image:"/1.jpg"
+  image:"/1.webp"
 },
   
       Reviews:[
@@ -7831,7 +8638,13 @@ served:{
     text: "Services: Vehicle engine diagnostic",
     rating: 5
   },
- 
+   {
+    id: 103,
+    name: "olaniyi ijalana",
+    time: "3 weeks ago",
+    text: "This company exceeded my expectations. Seeing is believing . Very professional individual and they would listening to your concerns and act accordingly.Vic is a very fantastic guy. I would definitely recommend.",
+    rating: 5
+  },
 ],
 
    },
@@ -7863,7 +8676,7 @@ served:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -7929,33 +8742,33 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 ]
 },
- servicesData:[
+  servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -7963,15 +8776,30 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
+    {
+      id: 33,
+       name: "DPF Cleaning Service",
+       text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
+       slug: "dpf-cleaning-service",
+    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
+  },
+   {
+    id: 23,
+       name: "Water Pump Replacement",
+       text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
+       slug: "water-pump-replacement",
+    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
+  },
+  
 
 ],
 faq:[
@@ -8011,7 +8839,7 @@ requestqoute:{
     "Bearing and commutator service",
     "Output test after rebuild"
   ],
-  image:"/vogue fix my motor image 9.jpg"
+  image:"/vogue fix my motor image 9.webp"
 }
 ,
       Reviews:[
@@ -8034,6 +8862,13 @@ requestqoute:{
     name: "Jay B",
     time: "6 months ago",
     text: "Great customer service here!! Needed something done to my car and they fit me in last minute and Adam ensured the team accommodated to my childcare needs! 10/10, I’ve never received such good service from a garage like this. Adam was friendly, professional, kept me well updated and went above and beyond in helping me manoeuvre around. If you’re looking for any mechanics in Thurrock, come here!",
+    rating: 5
+  },
+   {
+    id: 102,
+    name: "Nelson",
+    time: "3 weeks ago",
+    text: "I had an issue with two of my vehicles, a land-rover discovery and a Mercedes benz sprinter van. After going to so many garages and problems keep persisting, I made a search on Google with some reservations due to my experience with other garages. I first got in contact with a gentleman called Vic. He assured me that my worries would be laid to rest. My vehicles have been given a new life and without hesitation, I'll recommend them to anyone having problems with their vehicles. The garage is amazing with very friendly staff",
     rating: 5
   },
  
@@ -8070,7 +8905,7 @@ requestqoute:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -8136,33 +8971,33 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 ]
 },
- servicesData:[
+  servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -8170,15 +9005,30 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
+    {
+      id: 33,
+       name: "DPF Cleaning Service",
+       text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
+       slug: "dpf-cleaning-service",
+    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
+  },
+   {
+    id: 23,
+       name: "Water Pump Replacement",
+       text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
+       slug: "water-pump-replacement",
+    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
+  },
+  
 
 ],
 faq:[
@@ -8219,7 +9069,7 @@ served:{
     "Race or road geometry setups",
     "Thrust angle correction"
   ],
-  image:"/2.jpg"
+  image:"/2.webp"
 }
 ,
      Reviews:[
@@ -8244,7 +9094,13 @@ served:{
     text: "Had my twin turbo engine job done at vogue technics 4 months ago. Jack was very helpful in arranging collection and sending me pictures. Had the service done today and car is running great.",
     rating: 5
   },
- 
+ {
+    id: 97,
+    name: "JP B",
+    time: "2 days ago",
+    text: "I take all my vans and personal car to Vogue after discovering them on Google. Az and Jack are always very helpful and informative, they are also fair with pricing for me. Very honest guys, I've stopped going to any other garages now. So far they've worked on 12 vehicles of mine and never let me down. Cheers",
+    rating: 5
+  },
 ],
 
    },
@@ -8267,7 +9123,7 @@ served:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -8339,27 +9195,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -8367,15 +9223,30 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
+    {
+      id: 33,
+       name: "DPF Cleaning Service",
+       text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
+       slug: "dpf-cleaning-service",
+    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
+  },
+   {
+    id: 23,
+       name: "Water Pump Replacement",
+       text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
+       slug: "water-pump-replacement",
+    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
+  },
+  
 
 ],
 faq:[
@@ -8415,7 +9286,7 @@ served:{
     "EVAP system leak check",
     "Monitor readiness verification"
   ],
-  image:"/description.jpg"
+  image:"/description.webp"
 }
 , 
       Reviews:[
@@ -8426,6 +9297,7 @@ served:{
     text: "The whole crew was pleasant, friendly and willing to help. I have been there 3 times and experienced the same pleasant experience. Every single person I came across had the same attitude, I can only name a few as examples just because I had more contact with them: Jack, Vic, AZ and VT. Well done and keep it up. However, I do have a complaint: the fake and plastic key plants. I left them with 3 plants that my wife cultivated. I hope they proper and liven the place up further.",
     rating: 5
   },
+
   {
     id: 2,
     name: "jolyon lawson",
@@ -8438,6 +9310,13 @@ served:{
     name: "luke poole",
     time: "2 months ago",
     text: "Impressed with these guys. They kept me update throughout with pictures on whatsapp! They droped me off at Lakeside as part of their service. No local garages in Braintree had the guts to look at my evoque and change the glow plugs or piston cooling jet solenoid. These guys were all over it - they did a flush and oil change at a last minute notice due to a ctitical low oil issue. I would recommend and will use again from now on!",
+    rating: 5
+  },
+   {
+    id: 114,
+    name: "Haris M",
+    time: "11 months ago",
+    text: "I recently had outstanding service at Vouge Garage, and I couldn't be more pleased! The team was incredibly professional and knowledgeable, taking the time to explain the issues with my car and the necessary repairs. They completed the work efficiently and at a reasonable price. My car runs like new, and I appreciate their attention to detail. I highly recommend to speak to the representative Vic for anyone in need of reliable and high-quality automotive service!",
     rating: 5
   },
  
@@ -8467,7 +9346,7 @@ served:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -8533,33 +9412,33 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 ]
 },
- servicesData:[
+  servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -8567,15 +9446,30 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
+    {
+      id: 33,
+       name: "DPF Cleaning Service",
+       text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
+       slug: "dpf-cleaning-service",
+    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
+  },
+   {
+    id: 23,
+       name: "Water Pump Replacement",
+       text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
+       slug: "water-pump-replacement",
+    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
+  },
+  
 
 ],
 faq:[
@@ -8615,7 +9509,7 @@ served:{
     "Lanolin cavity injection",
     "Rubberised wheel arch coating"
   ],
-  image:"/slider_section_image.jpg"
+  image:"/slider_section_image.webp"
 },
    
         Reviews:[
@@ -8640,7 +9534,13 @@ served:{
     text: "Spoke to Jack on the phone in regards to my Range Rover issues, he was very informative and explained everything mechanically and financially from an honest point of view. After it was recovered by their driver, Azz and Vick kept me updated everyday with videos. Engine running better than ever now. Jack has given me his permission to add his direct number on this review incase anyone needs genuine advice: 07477641441. Well done guys, see you in a couple of months for the service.",
     rating: 5
   },
- 
+  {
+    id: 117,
+    name: "jolyon lawson",
+    time: "4 months ago",
+    text: "Great service from Adam and the team. My 2016 discovery sport with ingenium engine was in need of replacement timing chains and had a couple of sensor issues to resolve. Adam completed the work to schedule and in line with a very competitive estimate. He kept me updated, and was very accommodating when arranging the pick up time. The car was returned nice and clean with all the problems sorted.",
+    rating: 5
+  },
 ],
 
    },
@@ -8674,7 +9574,7 @@ served:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -8740,33 +9640,33 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 ]
 },
- servicesData:[
+  servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -8774,15 +9674,30 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
+    {
+      id: 33,
+       name: "DPF Cleaning Service",
+       text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
+       slug: "dpf-cleaning-service",
+    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
+  },
+   {
+    id: 23,
+       name: "Water Pump Replacement",
+       text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
+       slug: "water-pump-replacement",
+    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
+  },
+  
 
 ],
 
@@ -8823,7 +9738,7 @@ requestqoute:{
     "Transponder chip coding",
     "Keyless entry antenna diagnosis"
   ],
-  image:"/3.jpg"
+  image:"/3.webp"
 }
 ,
        Reviews:[
@@ -8848,7 +9763,13 @@ requestqoute:{
     text: "I recently had some very complex work done on my Rover Rover vogue by Vogue Technics, and I couldn’t be happier with the results. From start to finish, the team showed exceptional knowledge, attention to detail, and professionalism. The job required a high level of technical skill, and they handled everything with confidence and expertise. Many thanks to vic jack adam az and harry. Brilliant guys fixing my Engine issue promptly. They kept me well informed throughout the process, explained the work clearly, and delivered the car back running better than ever. It’s rare to find a garage that combines great customer service with such advanced technical ability, but Vogue Technics truly delivers on both.Highly recommended for anyone needing specialist or complex automotive work. I’ll definitely be returning in the future.Thanks guys for brilliant service",
     rating: 5
   },
- 
+  {
+    id: 118,
+    name: "luke poole",
+    time: "2 months ago",
+    text: "Impressed with these guys. They kept me update throughout with pictures on whatsapp! They droped me off at Lakeside as part of their service. No local garages in Braintree had the guts to look at my evoque and change the glow plugs or piston cooling jet solenoid. These guys were all over it - they did a flush and oil change at a last minute notice due to a ctitical low oil issue. I would recommend and will use again from now on!",
+    rating: 5
+  },
 ],
 
    },
@@ -8878,7 +9799,227 @@ requestqoute:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
+  items:  [
+  {
+    title: "Expert Engine Repair & Diagnostics Near You in Essex",
+    text: `Vogue Fix My Motor provides expert engine repair and diagnostics for customers across Essex. Our experienced technicians use state-of-the-art OBD scanning tools to accurately identify engine faults and resolve them efficiently. Whether you are dealing with warning lights, power loss, overheating, or unusual noises, we diagnose and fix the problem right first time.
+
+We handle all makes and models — from everyday family cars to high-performance SUVs and commercial vehicles. Based in Grays, Essex, we are conveniently located to serve customers from across the county. Our workshop is equipped with modern tools and quality parts to ensure every repair meets the highest standard.
+
+We believe in honest, transparent service with no hidden charges. Every customer receives a clear quote before any work begins, so you always know exactly what you are paying for and why.
+
+Book your appointment today and get your vehicle back on the road with confidence.`
+  },
+
+  {
+    title: "Trusted Car Repair Experts at Vogue Fix My Motor",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-term trust with our customers. We believe that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "Fast & Professional Car Service in Essex",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "Advanced Engine Diagnostics at Vogue Fix My Motor, Grays Essex",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
+
+{
+  title: "Quality Parts & Reliable Repairs — Vogue Fix My Motor",
+  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+
+Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+
+Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+
+We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
+},
+
+{
+  title: "Customer Satisfaction Guaranteed at Vogue Fix My Motor",
+  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+
+We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+
+We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+
+Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
+},
+]
+},
+   servicesData:[
+  {
+    id: 1,
+    name: "Initial Diagnostics",
+    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
+    slug: "Initial-Diagnostics", 
+     img:"/Initial Diagnostics.webp",
+    },
+    {
+    id: 12,
+    name: "Cam Belts",
+    text: "Battery testing, charging system inspection, and replacement services when required.",
+    img:"/Cam Belts.webp",
+  },
+    {
+    id: 17,
+    name: "Welding Services",
+    text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
+    slug: "Welding-Services",
+    img:"/Welding Services.webp",
+  },
+   {
+      id: 22,
+      name: "Diagnostics",
+      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+      slug: "Diagnostics",
+      img:"/Diagnostics.webp",
+  },
+   
+ {
+    id: 25,
+    name: "Alternator Replacement",
+    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
+    slug: "Alternator-Replacement",
+    img:"/Alternator Replacement.webp",
+  },
+    {
+       id: 41,
+       name: "Oil Change Service",
+       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
+       slug: "oil-change-service",
+       img:"/Oil Change.webp",
+  },
+    {
+      id: 33,
+       name: "DPF Cleaning Service",
+       text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
+       slug: "dpf-cleaning-service",
+    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
+  },
+   {
+    id: 23,
+       name: "Water Pump Replacement",
+       text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
+       slug: "water-pump-replacement",
+    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
+  },
+  
+
+],
+faq:[
+  {
+    id: 1,
+    question: "Do you offer WhatsApp support?",
+    answer: "Yes, message our business WhatsApp for quick queries."
+  },
+  {
+    id: 2,
+    question: "Can you fix faulty fuel senders?",
+    answer: "Yes, fuel level sender and gauge reading problems fixed."
+  },
+  {
+    id: 3,
+    question: "Do you offer lambda sensor coding?",
+    answer: "Yes, oxygen sensor adaptation and coding after replacement."
+  },
+  {
+    id: 4,
+    question: "Do you replace worn air filters?",
+    answer: "Yes, engine and cabin air filter replacement included in service."
+  }
+],
+
+   served:{
+  heading:"WE SERVED in Godalming",
+  p1:"Godalming's classic Land Rover Defender owners know us as the local specialists for leaf-spring suspension, carburettor tuning, and bulkhead repair. We stock hard-to-find parts for pre-2000 models.",
+  p2:"We also offer galvanised chassis replacements for Defender 90 and 110 models, extending vehicle life by decades. Lead time approximately 6-8 weeks."
+}, requestqoute:{
+  heading:"Drive Shaft & CV Joint Repair",
+  paragraph:"Clicking when turning? Torn CV boot means joint failure. We replace complete drive shafts or reboot and repack original joints.",
+  bullets:[
+    "CV joint boot tear inspection",
+    "Outer and inner joint replacement",
+    "Drive shaft center bearing service",
+    "Axle nut torque fitting"
+  ],
+  image:"/vogue fix my motor image 22.webp"
+}
+,
+   
+     Reviews:[
+       {
+    id: 1,
+    name: "Colin Sanders",
+    time: "a year ago",
+    text: "Like most people, I spent time researching engine rebuild options—comparing prices, reviews, and what different garages included (or excluded). Vogue Technics stood out immediately: they were knowledgeable, transparent, and refreshingly low-pressure. Instead of me having to ask endless questions, they proactively explained everything, which made the decision much easier. During the rebuild of my Range Rover’s engine, they sent daily updates with photos and videos, clearly showing the progress and next steps. Price-wise, they were mid-range—far more realistic than the suspiciously cheap £3k quotes (which likely hide costly extras) or the overpriced £12k estimates from garages that rarely handle rebuilds. Vogue’s quote struck the perfect balance, covering labour, all parts, crankshaft, oils, and more—with only the turbos as potential extras. In the end, they saved me a fortune, and my car is now back on the road running smoothly. Their customer service was flawless—quick, reliable, and professional. I can’t recommend Vogue highly enough.",
+    rating: 5
+  },
+  {
+    id: 2,
+    name: "sheikh jawad",
+    time: "5 months ago",
+    text: "Vogue Technics provided exceptional service and professionalism throughout. I highly recommend them. 👌",
+    rating: 5
+  },
+  {
+    id: 3,
+    name: "martyn clark",
+    time: "a year ago",
+    text: "Vogue Technics were outstanding. My 18 plate discovery sport engine blown, due to oil pump failure and required a replacement. Fortunately I had taken the platinum RAC warranty when I purchased the car. Mel was seriously fantastic and fully dealt with the warranty claim on my behalf (warranty companies do try not to pay out), and made the process stress free for myself - a very impressive service. The team stayed in contact with me almost daily, providing updates, videos & photos of the whole process. On collection, the car was spotless. We've had the car back for almost 4 weeks now and it is driving like new. Can't recommend Vogue Technics enough! Easy 5 STAR!!",
+    rating: 5
+  },
+    {
+    id: 119,
+    name: "George Sutherland",
+    time: "a year ago",
+    text: "Terrific service. The engine in my L405 seized near Seville in Spain. I contacted Vogue Technics who agreed to accept the car. They sent photos of the car being delivered and of the ruined engine after removal. They fitted a reconditioning engine and kept me informed at every stage. The car is now repaired and running perfectly. The team at Technics were polite, professional and knowledgeable. An excellent job at a reasonable price. I fully recommend Vogue Technics to anyone with Land Rover engine issues. Thank you Az, Sunny, Adrian and Adam",
+    rating: 5
+  },
+ 
+],
+
+   },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  { id: 45, name: "Greenwich", slug: "greenwich",
+    heading:"Grays Areas We Cover",
+    text:"We provide specialist engine services and vehicle recovery in Grays.",
+          green_slider:{
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -8950,27 +10091,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -8978,82 +10119,103 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
+    {
+      id: 33,
+       name: "DPF Cleaning Service",
+       text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
+       slug: "dpf-cleaning-service",
+    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
+  },
+   {
+    id: 23,
+       name: "Water Pump Replacement",
+       text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
+       slug: "water-pump-replacement",
+    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
+  },
+  
 
 ],
 faq:[
   {
     id: 1,
-    question: "Do you offer WhatsApp support?",
-    answer: "Yes, message our business WhatsApp for quick queries."
+    question: "Do you work on Jaguar F-Pace and E-Pace?",
+    answer: "Yes, sister brand to Land Rover, we service all Jaguar SUVs."
   },
   {
     id: 2,
-    question: "Can you fix faulty fuel senders?",
-    answer: "Yes, fuel level sender and gauge reading problems fixed."
+    question: "Can you fix faulty ambient temperature sensors?",
+    answer: "Yes, external temp sensor replacement for climate control."
   },
   {
     id: 3,
-    question: "Do you offer lambda sensor coding?",
-    answer: "Yes, oxygen sensor adaptation and coding after replacement."
+    question: "Do you offer spark plug replacement?",
+    answer: "Yes, platinum and iridium plugs changed at recommended intervals."
   },
   {
     id: 4,
-    question: "Do you replace worn air filters?",
-    answer: "Yes, engine and cabin air filter replacement included in service."
+    question: "Do you replace worn water pumps?",
+    answer: "Yes, water pump and thermostat kit replacement common repair."
   }
 ],
-
-   served:{
-  heading:"WE SERVED in Godalming",
-  p1:"Godalming's classic Land Rover Defender owners know us as the local specialists for leaf-spring suspension, carburettor tuning, and bulkhead repair. We stock hard-to-find parts for pre-2000 models.",
-  p2:"We also offer galvanised chassis replacements for Defender 90 and 110 models, extending vehicle life by decades. Lead time approximately 6-8 weeks."
-}, requestqoute:{
-  heading:"Drive Shaft & CV Joint Repair",
-  paragraph:"Clicking when turning? Torn CV boot means joint failure. We replace complete drive shafts or reboot and repack original joints.",
-  bullets:[
-    "CV joint boot tear inspection",
-    "Outer and inner joint replacement",
-    "Drive shaft center bearing service",
-    "Axle nut torque fitting"
-  ],
-  image:"/vogue fix my motor image 22.jpg"
+    served:{
+  heading:"WE SERVED in Horsham",
+  p1:"Horsham's horse-owning families often tow heavy trailers with their Discovery and RR Sport. We upgrade transmission coolers and fit heavy-duty tow bars rated to 3.5 tonnes.",
+  p2:"We also inspect and adjust trailer electrics, including 13-pin sockets, lighting boards, and ATC (trailer stability) systems."
 }
 ,
+    requestqoute:{
+  heading:"Vacuum Pump & Brake Booster",
+  paragraph:"Hard brake pedal with no assist means a failed vacuum pump or booster. We restore full power brake function for safe stopping.",
+  bullets:[
+    "Vacuum pump seal replacement",
+    "Brake booster vacuum test",
+    "One-way valve and hose fitting",
+    "Pedal travel verification"
+  ],
+  image:"/vogue fix my motor image 21.webp"
+},
    
      Reviews:[
        {
     id: 1,
-    name: "Colin Sanders",
-    time: "a year ago",
-    text: "Like most people, I spent time researching engine rebuild options—comparing prices, reviews, and what different garages included (or excluded). Vogue Technics stood out immediately: they were knowledgeable, transparent, and refreshingly low-pressure. Instead of me having to ask endless questions, they proactively explained everything, which made the decision much easier. During the rebuild of my Range Rover’s engine, they sent daily updates with photos and videos, clearly showing the progress and next steps. Price-wise, they were mid-range—far more realistic than the suspiciously cheap £3k quotes (which likely hide costly extras) or the overpriced £12k estimates from garages that rarely handle rebuilds. Vogue’s quote struck the perfect balance, covering labour, all parts, crankshaft, oils, and more—with only the turbos as potential extras. In the end, they saved me a fortune, and my car is now back on the road running smoothly. Their customer service was flawless—quick, reliable, and professional. I can’t recommend Vogue highly enough.",
+    name: "Emily Evans",
+    time: "5 months ago",
+    text: "What an amazing business, recently had a vehicle repaired with them and I couldn’t have asked for more. Jack was informative and so helpful with any questions I had, the work was completed to the highest of standards at a very competitive rate. They managed to help me out in a really difficult situation! So Thankful for you guys!",
     rating: 5
   },
   {
     id: 2,
-    name: "sheikh jawad",
-    time: "5 months ago",
-    text: "Vogue Technics provided exceptional service and professionalism throughout. I highly recommend them. 👌",
+    name: "Benzo NornIron",
+    time: "10 months ago",
+    text: "I cannot recommend Vogue enough. Their communication and customer service has been stellar throughout. I had the repairs done through RAC warranty. They were extremely helpful, managing all of the correspondence and process for me. Highly recommend and will use again. Thanks",
     rating: 5
   },
   {
     id: 3,
-    name: "martyn clark",
-    time: "a year ago",
-    text: "Vogue Technics were outstanding. My 18 plate discovery sport engine blown, due to oil pump failure and required a replacement. Fortunately I had taken the platinum RAC warranty when I purchased the car. Mel was seriously fantastic and fully dealt with the warranty claim on my behalf (warranty companies do try not to pay out), and made the process stress free for myself - a very impressive service. The team stayed in contact with me almost daily, providing updates, videos & photos of the whole process. On collection, the car was spotless. We've had the car back for almost 4 weeks now and it is driving like new. Can't recommend Vogue Technics enough! Easy 5 STAR!!",
+    name: "Simon Wallace",
+    time: "5 months ago",
+    text: "Customer service was first class. Very impressed with Adam. In terms of the work carried (replacement clutch) they done a good job and completed when they said they would. Whats App feedback as the job progresses was very good. Highly recommend.",
+    rating: 5
+  },
+    {
+    id: 120,
+    name: "Gaz Rees",
+    time: "3 months ago",
+    text: "So i found Vogue Technics online trying to find a new engin for my 2017 golf R. Whilst i was looking for an engin i applied to a search for an engin and it sent out a tender to loads of different company's. i got called by loads of other company's quoting all kinds of prices some lower and some higher. I used google maps street view to view all the candidates i had chosen. Some looked so shady and wondered if they had my car would i get it back in one piece😅 so i went through and viewed all company's and vogue technics looked like a real garage. I do a-lot of work on cars and just don't have the machines needed to do the rebuild. So i can tell a good garage just by seeing it. Espeshaly from the others i had seen. So it looked the part but that was not my only factor for choosing to go with them, i had a phone call from Jack and had a good chat and i felt like i could trust this man and so i agreed to bringing my golf to the workshop. I wanted to double cheak to make sure it was in good hands. I was presently surprised to see a real work shop loads of lads running around and very organised(Very hard to do with so meany parts with multiple vehicles). This is when i met Az the man who would organised and see my car rebuilt and returned to me. He was very polite and definitely know alot about engines and the work shop. I left my golf in his hands and drove home over 100 miles away. This was befor xmas and new years. A watts app group was made and i was kept upto date with all works being carried out on my engin. And any questions Az was there to answered straight away. I went any picked up the golf the other day and it runs perfectly literally sounds like a new engin. I am know driving the engin very carfully under there instructions for 1000-2000 miles. After that the car will be nicely bedded in and drive like a new car. I would not hesitate at all to contact these guys if i ever needed help with my cars again. And would highly recommend to anyone needed a rebuilt engin or serious work done on your car.",
     rating: 5
   },
  
 ],
-
    },
 
 
@@ -9070,13 +10232,11 @@ faq:[
 
 
 
-
-
-  { id: 45, name: "Greenwich", slug: "greenwich",
+  { id: 46, name: "Dartford", slug: "dartford",
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -9148,27 +10308,27 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -9176,210 +10336,30 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
-  },
-
-],
-faq:[
-  {
-    id: 1,
-    question: "Do you work on Jaguar F-Pace and E-Pace?",
-    answer: "Yes, sister brand to Land Rover, we service all Jaguar SUVs."
-  },
-  {
-    id: 2,
-    question: "Can you fix faulty ambient temperature sensors?",
-    answer: "Yes, external temp sensor replacement for climate control."
-  },
-  {
-    id: 3,
-    question: "Do you offer spark plug replacement?",
-    answer: "Yes, platinum and iridium plugs changed at recommended intervals."
-  },
-  {
-    id: 4,
-    question: "Do you replace worn water pumps?",
-    answer: "Yes, water pump and thermostat kit replacement common repair."
-  }
-],
-    served:{
-  heading:"WE SERVED in Horsham",
-  p1:"Horsham's horse-owning families often tow heavy trailers with their Discovery and RR Sport. We upgrade transmission coolers and fit heavy-duty tow bars rated to 3.5 tonnes.",
-  p2:"We also inspect and adjust trailer electrics, including 13-pin sockets, lighting boards, and ATC (trailer stability) systems."
-}
-,
-    requestqoute:{
-  heading:"Vacuum Pump & Brake Booster",
-  paragraph:"Hard brake pedal with no assist means a failed vacuum pump or booster. We restore full power brake function for safe stopping.",
-  bullets:[
-    "Vacuum pump seal replacement",
-    "Brake booster vacuum test",
-    "One-way valve and hose fitting",
-    "Pedal travel verification"
-  ],
-  image:"/vogue fix my motor image 21.jpg"
-},
-   
-     Reviews:[
-       {
-    id: 1,
-    name: "Emily Evans",
-    time: "5 months ago",
-    text: "What an amazing business, recently had a vehicle repaired with them and I couldn’t have asked for more. Jack was informative and so helpful with any questions I had, the work was completed to the highest of standards at a very competitive rate. They managed to help me out in a really difficult situation! So Thankful for you guys!",
-    rating: 5
-  },
-  {
-    id: 2,
-    name: "Benzo NornIron",
-    time: "10 months ago",
-    text: "I cannot recommend Vogue enough. Their communication and customer service has been stellar throughout. I had the repairs done through RAC warranty. They were extremely helpful, managing all of the correspondence and process for me. Highly recommend and will use again. Thanks",
-    rating: 5
-  },
-  {
-    id: 3,
-    name: "Simon Wallace",
-    time: "5 months ago",
-    text: "Customer service was first class. Very impressed with Adam. In terms of the work carried (replacement clutch) they done a good job and completed when they said they would. Whats App feedback as the job progresses was very good. Highly recommend.",
-    rating: 5
-  },
- 
-],
-   },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  { id: 46, name: "Dartford", slug: "dartford",
-    heading:"Grays Areas We Cover",
-    text:"We provide specialist engine services and vehicle recovery in Grays.",
-          green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
-  items:  [
-  {
-    title: "Expert Engine Repair & Diagnostics Near You in Essex",
-    text: `Vogue Fix My Motor provides expert engine repair and diagnostics for customers across Essex. Our experienced technicians use state-of-the-art OBD scanning tools to accurately identify engine faults and resolve them efficiently. Whether you are dealing with warning lights, power loss, overheating, or unusual noises, we diagnose and fix the problem right first time.
-
-We handle all makes and models — from everyday family cars to high-performance SUVs and commercial vehicles. Based in Grays, Essex, we are conveniently located to serve customers from across the county. Our workshop is equipped with modern tools and quality parts to ensure every repair meets the highest standard.
-
-We believe in honest, transparent service with no hidden charges. Every customer receives a clear quote before any work begins, so you always know exactly what you are paying for and why.
-
-Book your appointment today and get your vehicle back on the road with confidence.`
-  },
-
-  {
-    title: "Trusted Car Repair Experts at Vogue Fix My Motor",
-    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
-
-Our goal is to build long-term trust with our customers. We believe that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
-
-We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
-  },
-
-  {
-    title: "Fast & Professional Car Service in Essex",
-    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
-
-Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
-
- Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
-
-Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
-  },
-  {
-  title: "Advanced Engine Diagnostics at Vogue Fix My Motor, Grays Essex",
-  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
-
-Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
-
-Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
-
-We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
-},
-
-{
-  title: "Quality Parts & Reliable Repairs — Vogue Fix My Motor",
-  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
-
-Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
-
-Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
-
-We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
-},
-
-{
-  title: "Customer Satisfaction Guaranteed at Vogue Fix My Motor",
-  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
-
-We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
-
-We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
-
-Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
-},
-]
-},
-  servicesData:[
-  {
-    id: 1,
-    name: "Initial Diagnostics",
-    text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
-    slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
-    },
-    {
-    id: 12,
-    name: "Cam Belts",
-    text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+       img:"/Oil Change.webp",
   },
     {
-    id: 17,
-    name: "Welding Services",
-    text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
-    slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+      id: 33,
+       name: "DPF Cleaning Service",
+       text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
+       slug: "dpf-cleaning-service",
+    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
   },
    {
-      id: 22,
-      name: "Diagnostics",
-      text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-      slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+    id: 23,
+       name: "Water Pump Replacement",
+       text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
+       slug: "water-pump-replacement",
+    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
   },
-   
- {
-    id: 25,
-    name: "Alternator Replacement",
-    text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
-    slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
-  },
-    {
-       id: 41,
-       name: "Oil Change Service",
-       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
-       slug: "oil-change-service",
-       img:"/Oil Change.jpg",
-  },
+  
 
 ],
 faq:[
@@ -9419,7 +10399,7 @@ faq:[
     "Oil pickup tube inspection",
     "New oil and filter fitting"
   ],
-  image:"/vogue fix my motor image 20.jpg"
+  image:"/vogue fix my motor image 20.webp"
 }
 ,
     
@@ -9446,7 +10426,13 @@ faq:[
     text: "Range Rover broke down in Europe while on holiday with wife and kids. Not sure why I trusted this car to get us there and back but hey ho. Jack called me and listened to me rant for an hour about how BAD these cars are, although Bad isn't the word I used. He arranged recovery for the car to be picked up from Spain the very next day! Timing chain snapped so Jack and his team were able to rebuild the existing engine for a good price. My car was with them for 3 weeks and I've had it back now for 4 months and it's still driving better than ever. Just wanted to say a massive THANK YOU to everyone at Vogue.",
     rating: 5
   },
- 
+   {
+    id: 121,
+    name: "Jay&Alina",
+    time: "3 months ago",
+    text: "Spoke to Jack on the phone in regards to my Range Rover issues, he was very informative and explained everything mechanically and financially from an honest point of view. After it was recovered by their driver, Azz and Vick kept me updated everyday with videos. Engine running better than ever now. Jack has given me his permission to add his direct number on this review incase anyone needs genuine advice: 07477641441. Well done guys, see you in a couple of months for the service.",
+    rating: 5
+  },
 ],
    },
 
@@ -9478,7 +10464,7 @@ faq:[
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -9544,33 +10530,33 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 ]
 },
-  servicesData:[
+   servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -9578,15 +10564,30 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
+    {
+      id: 33,
+       name: "DPF Cleaning Service",
+       text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
+       slug: "dpf-cleaning-service",
+    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
+  },
+   {
+    id: 23,
+       name: "Water Pump Replacement",
+       text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
+       slug: "water-pump-replacement",
+    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
+  },
+  
 
 ],
 faq:[
@@ -9625,7 +10626,7 @@ faq:[
     "Hose and vacuum diagnosis",
     "System monitor reset"
   ],
-  image:"/wowimage.jpg"
+  image:"/wowimage.webp"
 },
        
        Reviews:[
@@ -9650,7 +10651,13 @@ faq:[
     text: "I don’t often leave reviews, but Vogue Technics truly stands out as a professional and well-established garage, specializing in Land Rover engine rebuilds. After seeing countless ads on eBay and feeling hesitant about many engine rebuild companies, I came across them and decided to take a chance based on their excellent reviews. They delivered exactly as promised—on time and at the agreed price. Throughout the process, Vic and the team kept me updated with regular progress reports and photos, which was incredibly reassuring. Vic himself is genuinely helpful, always available to answer any questions, and his transparency gave me complete confidence in their work. Now, my car is back on the road running better than ever. I honestly can’t recommend Vogue Technics enough—exceptional service!",
     rating: 5
   },
- 
+ {
+    id: 122,
+    name: "Biatrice Andone",
+    time: "3 months ago",
+    text: "Had my engine rebuilt over 2 years ago by Jack and Az. 3rd Service was done recently at vogue and engine still running like new. Did have to change my gear selector though which these guys done for me on the same day as my service. They even dropped me to the shopping centre and picked me up after the service was done. Very honest and trustworthy blokes. My boss will be giving you a call Jack to get the Transit Van rebuild done next week. Cheers",
+    rating: 5
+  },
 ],
 
    },
@@ -9680,7 +10687,7 @@ faq:[
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -9746,33 +10753,33 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 ]
 },
-  servicesData:[
+   servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -9780,15 +10787,30 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
+    {
+      id: 33,
+       name: "DPF Cleaning Service",
+       text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
+       slug: "dpf-cleaning-service",
+    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
+  },
+   {
+    id: 23,
+       name: "Water Pump Replacement",
+       text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
+       slug: "water-pump-replacement",
+    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
+  },
+  
 
 ],
 faq:[
@@ -9829,7 +10851,7 @@ served:{
     "Overhead cam shim replacement",
     "Hydraulic lifter service"
   ],
-  image:"/vogue fix my motor image 18.jpg"
+  image:"/vogue fix my motor image 18.webp"
 },
     
         Reviews:[
@@ -9852,6 +10874,13 @@ served:{
     name: "Alan K",
     time: "10 months ago",
     text: "Came in with a diagnostics from another garage with a blown head gasket and car overheating. the Vogue team did there own diagnostics and opened up the engine ran several tests turns out it was something minor saving me thousands of pounds on a head gasket replacement plus time. Very honest and reliable staff members from Jack keeping me updated day in day out on everything they did to the car, explaining everything that was done step by step plus videos and pictures to Ali working on fixing the issues On short notice very reliable garage but for the most important part very honest people would definitely recommend if you’re looking for a reliable garage.",
+    rating: 5
+  },
+  {
+    id: 103,
+    name: "olaniyi ijalana",
+    time: "3 weeks ago",
+    text: "This company exceeded my expectations. Seeing is believing . Very professional individual and they would listening to your concerns and act accordingly.Vic is a very fantastic guy. I would definitely recommend.",
     rating: 5
   },
  
@@ -9893,7 +10922,7 @@ served:{
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
           green_slider:{
-   img: "/vogue fix my motor image 9.jpg",
+   img: "/vogue fix my motor image 9.webp",
   items:  [
   {
     title: "Expert Engine Repair & Diagnostics Near You in Essex",
@@ -9959,33 +10988,33 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 },
 ]
 },
- servicesData:[
+  servicesData:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Complete engine diagnostics, repair damaged components, and restore smooth engine performance.",
     slug: "Initial-Diagnostics", 
-     img:"/Initial Diagnostics.jpeg",
+     img:"/Initial Diagnostics.webp",
     },
     {
     id: 12,
     name: "Cam Belts",
     text: "Battery testing, charging system inspection, and replacement services when required.",
-    img:"/Cam Belts.jpg",
+    img:"/Cam Belts.webp",
   },
     {
     id: 17,
     name: "Welding Services",
     text: "Inspection and repair of brake pads, discs, and hydraulic systems for maximum safety.",
     slug: "Welding-Services",
-    img:"/Welding Services.jpg",
+    img:"/Welding Services.webp",
   },
    {
       id: 22,
       name: "Diagnostics",
       text: "Professional engine oil replacement with filter change to improve performance and engine life.",
       slug: "Diagnostics",
-      img:"/Diagnostics.jpg",
+      img:"/Diagnostics.webp",
   },
    
  {
@@ -9993,15 +11022,30 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     name: "Alternator Replacement",
     text: "Diagnosis and repair of gearbox and transmission issues for reliable driving performance.",
     slug: "Alternator-Replacement",
-    img:"/Alternator Replacement.jpg",
+    img:"/Alternator Replacement.webp",
   },
     {
        id: 41,
        name: "Oil Change Service",
        text: "Professional engine oil replacement with filter change to improve performance and engine life.",
        slug: "oil-change-service",
-       img:"/Oil Change.jpg",
+       img:"/Oil Change.webp",
   },
+    {
+      id: 33,
+       name: "DPF Cleaning Service",
+       text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
+       slug: "dpf-cleaning-service",
+    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
+  },
+   {
+    id: 23,
+       name: "Water Pump Replacement",
+       text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
+       slug: "water-pump-replacement",
+    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
+  },
+  
 
 ],
 faq:[
@@ -10041,7 +11085,7 @@ requestqoute:{
     "Expander removal and lubrication",
     "Shoe and drum contact check"
   ],
-  image:"/vogue fix my motor image 17.jpg"
+  image:"/vogue fix my motor image 17.webp"
 },
     
       Reviews:[
@@ -10066,7 +11110,13 @@ requestqoute:{
     text: "I recommend using this companies website, how the website is set up it made it easy to access the information that I myself was looking for on my Range Rover, you can look at all the parts you want or may need to replace and it goes into great detail about the part and the services that they can provide you, overall it’s simple to use and everything is clear and straightforward. After finding my car engine I called them and they swapped it for me no hassle in only a week, I waited a month to write the review and I’m very happy so far. Amazing work thank you Vogue Technics",
     rating: 5
   },
- 
+  {
+    id: 102,
+    name: "Nelson",
+    time: "3 weeks ago",
+    text: "I had an issue with two of my vehicles, a land-rover discovery and a Mercedes benz sprinter van. After going to so many garages and problems keep persisting, I made a search on Google with some reservations due to my experience with other garages. I first got in contact with a gentleman called Vic. He assured me that my worries would be laid to rest. My vehicles have been given a new life and without hesitation, I'll recommend them to anyone having problems with their vehicles. The garage is amazing with very friendly staff",
+    rating: 5
+  },
 ],
    },
 ];

@@ -20,7 +20,13 @@ const reviewsData = [
     text: "Tremendous experience with vogue technics engine work done on my bmw . Very professional staff and cooperative appreciate efforts of Jack, vic, az and John they know how to do a quality engine work - even they wash my car highly recommended",
     rating: 5
   },
- 
+ {
+          id: 12,
+          name: "Emily Evans",
+          time: "5 months ago",
+          text: "What an amazing business, recently had a vehicle repaired with them and I couldn’t have asked for more. Jack was informative and so helpful with any questions I had, the work was completed to the highest of standards at a very competitive rate. They managed to help me out in a really difficult situation! So Thankful for you guys!",
+          rating: 5
+        },
 
 ];
 

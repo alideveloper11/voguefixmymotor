@@ -3,7 +3,7 @@ export default function Requestaqoute({content}) {
   return (
     <div>
     <div className=" w-full">
-          <div className="flex  flex-wrap m-10 md:mx-16">
+          <div className="flex  flex-wrap m-5 md:mx-15 shadow-[0px_0px_10px_#8a8a8a] rounded-lg">
              <div className=" w-full md:w-1/2">
               <div  style={{width:"100%"}}   className="md:h-[400px]">
                     <img src={content.image} className="h-full w-full object-cover" style={{width:"100%", borderRadius:"10px 0px 0px 10px"}} alt="slider_section_image" />

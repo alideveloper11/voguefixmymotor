@@ -47,24 +47,20 @@ export default function Small_screen_menus(){
 };
      
     return(
-    <div className="flex flex-wrap w-full items-center">
+    <div className="">
           
-              <div className="w-1/24">
-              </div>
-              <div className="w-5/24">
+              <div className="flex flex-wrap  items-center mx-4">
+              <div className="w-12/24">
                 <Link href="/">
                     <img src="/logo.svg" className="w-13" alt="Logo" />
                      </Link>
               </div>
-              <div className="w-14/24 text-white">
-
-
-              </div>
-              <div className="w-4/24 text-center">
+              
+              <div className="w-12/24 flex justify-end">
               
 
         
-          <IconButton color="inherit" onClick={() => setOpenDrawer(true)}>
+          <IconButton color="inherit" className="flex justify-end" style={{padding:"0"}} onClick={() => setOpenDrawer(true)}>
              <MenuIcon className="cursor-pointer text-white"/>
           </IconButton>
       
@@ -162,6 +158,7 @@ export default function Small_screen_menus(){
   </Box>
 </Drawer>
               </div>
+    </div>
     </div>
     );
 }

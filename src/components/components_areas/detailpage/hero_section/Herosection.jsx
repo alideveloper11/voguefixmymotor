@@ -7,16 +7,17 @@ export default function Herosection({area})
           
           <>
     <div className="flex  flex-wrap  h-[400px] items-center justify-center" id="second_hero_section">
-      <div className="w-full items-center justify-center">
+      <div className="w-full  items-center justify-center">
+       <center> <div className='w-[85%] lg:w-[70%]'>
             <h1 className="text-white font-bold  text-2xl md:text-3xl">
               Engine Repair &amp; Car Services in {area.name}, Essex
             </h1>
             <p className="text-white   text-sm md:text-[16px] ml-10 mr-10  ">
              Vogue Fix My Motor provides expert engine repair, diagnostics, and car servicing for customers in {area.name} and surrounding Essex areas. Get a free quote today.
              </p>
-            
+            </div></center>
       <div className="w-full ">
-             <center> <div className="bg-black w-[80%] lg:w-[60%] mt-5" style={{ borderRadius:"10px"}}>
+             <center> <div className="bg-black  shadow-[0_0_15px_#4f4f4f] py-5 w-[80%] lg:w-[60%] mt-5" style={{ borderRadius:"10px"}}>
               <p className="text-white  font-bold ">Enter your registration for an instant quote</p>
             <div className="flex  items-center justify-center">
               
