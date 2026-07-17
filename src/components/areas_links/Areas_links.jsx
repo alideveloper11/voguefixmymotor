@@ -10,7 +10,14 @@ import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 export default function Areas_links({ locations }) {
      const pathname = usePathname();
   return (
-      <div className=" leading-7 tracking-[0.04em] w-full py-5 px-5 lg:px-15 text-black bg-white" style={{colorScheme:"light"}}>
+    <div className="w-full overflow-x-hidden" style={{colorScheme:"light"}}>
+
+    
+      <motion.div
+  initial={{ opacity: 0, x: 100 }}
+  whileInView={{ opacity: 1, x: 0 }}
+  transition={{ duration: 0.8 }}
+  viewport={{ once: true }} className=" leading-7 tracking-[0.04em] w-full py-5 px-5 lg:px-15 text-black bg-white" style={{colorScheme:"light"}}>
     <div className="flex pb-3 flex-wrap ">
       <div className="w-full"><center>
         <div className="w-[90%] md:w-[80%] py-5 lg:w-[70%]">
@@ -68,6 +75,7 @@ View All Service Areas
          )}
       </div>
     </div>
+    </motion.div>
     </div>
   );
 }

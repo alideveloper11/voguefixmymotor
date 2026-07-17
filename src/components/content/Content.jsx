@@ -4,8 +4,13 @@ import { motion } from "framer-motion";
 
 export default function Content({data}){
 
-return (
-  <div 
+return ( 
+<div className="w-full overflow-x-hidden" style={{colorScheme:"light"}}>
+  <motion.div
+  initial={{ opacity: 0, x: 100 }}
+  whileInView={{ opacity: 1, x: 0 }}
+  transition={{ duration: 0.8 }}
+  viewport={{ once: true }}
    className="flex w-full flex-wrap py-5 bg-white leading-7 tracking-[0.04em] text-black" style={{colorScheme:"light"}}>
         <div className="w-full md:w-[70%] text-left mx-5 md:mx-15">
           <p className="block md:inline text-2xl md:text-3xl font-bold">{data.heading},</p>
@@ -29,6 +34,7 @@ return (
         
       
 
+  </motion.div>
   </div>
 //   <div>
 //     <h1>{data.heading}</h1>

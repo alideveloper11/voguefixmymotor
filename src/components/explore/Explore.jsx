@@ -4,7 +4,21 @@ import Link from "next/link";
 export default function Explore()
 {
 return(
-  <div
+    <div className="overflow-x-hidden w-full">
+  <motion.div
+   initial={{
+    opacity: 0,
+    x: 80,
+    filter: "blur(8px)",
+  }}
+  whileInView={{
+    opacity: 1,
+    x: 0,
+    filter: "blur(0px)",
+  }}
+  transition={{
+    duration: 0.8,
+  }}
  className="flex w-full flex-wrap bg-[#F3F4F6] text-black" style={{colorScheme:"light"}}>
         <div className="flex w-full flex-wrap mt-10 mx-3 lg:mx-13 mb-5">
              <div className=" text-left w-full my-5 lg:w-6/12">
@@ -40,6 +54,7 @@ Browse our gallery to see why drivers across Grays, Tilbury, Purfleet, Ockendon,
 
       
         </div>
+    </motion.div>
     </div>
     );
 }
