@@ -23,17 +23,18 @@ export async function POST(request: NextRequest) {
     const data = await parseJsonResponse(response);
 
     if (!response.ok) {
-      console.error("Quote API upstream error:", response.status, data);
+      console.error("Contact API upstream error:", response.status, data);
       return NextResponse.json(
-        { error: data?.message || "Failed to submit quote to portal", details: data?.errors },
+        { error: data?.message || "Failed to submit contact inquiry to portal", details: data?.errors },
         { status: response.status }
       );
     }
 
     return NextResponse.json(data, { status: response.status });
-  } catch {
+  } catch (error) {
+    console.error("Contact API error:", error);
     return NextResponse.json(
-      { error: "Internal server error during quote submission" },
+      { error: "Internal server error during contact inquiry submission" },
       { status: 500 }
     );
   }
