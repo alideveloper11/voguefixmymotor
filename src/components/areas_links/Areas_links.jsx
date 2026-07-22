@@ -10,6 +10,9 @@ import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 export default function Areas_links({ locations }) {
      const pathname = usePathname();
   return (
+    <div className="w-full overflow-x-hidden" style={{colorScheme:"light"}}>
+
+    
       <motion.div
   initial={{ opacity: 0, x: 100 }}
   whileInView={{ opacity: 1, x: 0 }}
@@ -73,5 +76,6 @@ View All Service Areas
       </div>
     </div>
     </motion.div>
+    </div>
   );
 }

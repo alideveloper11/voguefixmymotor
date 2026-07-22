@@ -4,6 +4,7 @@ import Link from "next/link";
 export default function Explore()
 {
 return(
+    <div className="overflow-x-hidden w-full">
   <motion.div
    initial={{
     opacity: 0,
@@ -54,5 +55,6 @@ Browse our gallery to see why drivers across Grays, Tilbury, Purfleet, Ockendon,
       
         </div>
     </motion.div>
+    </div>
     );
 }

@@ -4,7 +4,8 @@ import { motion } from "framer-motion";
 
 export default function Content({data}){
 
-return (
+return ( 
+<div className="w-full overflow-x-hidden" style={{colorScheme:"light"}}>
   <motion.div
   initial={{ opacity: 0, x: 100 }}
   whileInView={{ opacity: 1, x: 0 }}
@@ -34,6 +35,7 @@ return (
       
 
   </motion.div>
+  </div>
 //   <div>
 //     <h1>{data.heading}</h1>
 //     <h2>{data.greenHeading}</h2>
