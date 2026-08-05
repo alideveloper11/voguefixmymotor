@@ -16,6 +16,11 @@ import FAQ from "../../components/faq/FAQ";
 import Green_slider1 from "../../components/components_areas/green_slider/Green_slider1";
 import Green_slider2 from "../../components/components_areas/green_slider/Green_slider2";
 import Areas_links from "../../components/areas_links/Areas_links";
+export const metadata = {
+  alternates: {
+    canonical: "https://voguefixmymotor.co.uk/areas",
+  },
+};
 export default function Areas() {
   return (
                    <div className="flex flex-wrap w-full">               

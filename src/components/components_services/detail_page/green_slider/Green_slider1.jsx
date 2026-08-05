@@ -25,7 +25,7 @@ export default function Green_slider1({ slides,  image }) {
                 <div className=" m-5 lg:mx-15 relative h-[560px] mt-5 overflow-hidden leading-7 tracking-[0.04em] ">
                   {slides.map((slide, index) => (
                     <div key={index} className={`absolute inset-0 transition-opacity duration-500 ${current === index ? "opacity-100" : "opacity-0 pointer-events-none"}`}>
-                      <h1 className="text-2xl md:text-3xl text-left font-bold">{slide.title}</h1>
+                      <h2 className="text-2xl md:text-3xl text-left font-bold">{slide.title}</h2>
              
                       <p className=" mt-5 ">
                         {slide.text}

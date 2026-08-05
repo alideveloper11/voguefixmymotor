@@ -14,6 +14,21 @@ import Services from "@/components/service_section/Services";
 import { notFound } from "next/navigation";
 import EngineCallToSection from "@/components/EngineCallToSection/EngineCallToSection";
 import Green_slider from "@/components/components_areas/detailpage/green_slider/Green_slider";
+export async function generateMetadata({ params }) {
+  const { slug } = await params;
+
+  const area = locations.find((item) => item.slug === slug);
+
+  if (!area) {
+    return {};
+  }
+
+  return {
+    alternates: {
+      canonical: `https://voguefixmymotor.co.uk/areas/${slug}`,
+    },
+  };
+}
 export default async function ServiceDetail({ params }) {
   const { slug } = await params;
   const areas = locations.find(

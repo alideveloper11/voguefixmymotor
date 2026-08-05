@@ -19,6 +19,11 @@ import Areas_links from "../../components/areas_links/Areas_links";
 import reviewsData from "@/lib/services_data/reviewsData";
 import { getcontent3 } from "@/lib/services_data/content_data";
 const data = getcontent3();
+export const metadata = {
+  alternates: {
+    canonical: "https://voguefixmymotor.co.uk/services",
+  },
+};
 export default function Review() {
   return (
 

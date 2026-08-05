@@ -13,6 +13,21 @@ import EngineCallToSection from "@/components/EngineCallToSection/EngineCallToSe
 import LatestVideos from "@/components/latest_videos/Latest_videos";
 import LatestVideosData from "@/lib/services_data/LatestVideosData";
 import Green_slider1 from "../../../components/components_services/detail_page/green_slider/Green_slider1";
+export async function generateMetadata({ params }) {
+  const { slug } = await params;
+
+  const service = servicesData.find((item) => item.slug === slug);
+
+  if (!service) {
+    return {};
+  }
+
+  return {
+    alternates: {
+      canonical: `https://voguefixmymotor.co.uk/services/${slug}`,
+    },
+  };
+}
 export default async function ServiceDetail({ params }) {
   const { slug } = await params;
   const service = servicesData.find(
@@ -21,6 +36,7 @@ export default async function ServiceDetail({ params }) {
    if (!service) {
     notFound();
   }
+  
   const uniqueSlide = serviceUniqueSlides[service.slug];
   const mergedSlides = uniqueSlide
     ? [uniqueSlide, ...service.green_slider1.items.slice(1)]

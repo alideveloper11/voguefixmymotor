@@ -3,7 +3,7 @@ export default function Top_component(){
         <div className="flex flex-wrap mx-3 lg:mx-12 py-5 pb-10 ">
             <div className="w-full pt-5 lg:w-6/12">
                 <div className="mx-3 ">
-                    <h1 className="font-bold text-2xl md:text-3xl leading-7 tracking-[0.04em]">About Vogue Fix My Motor — Engine Repair Specialists in Grays, Essex</h1>
+                    <h2 className="font-bold text-2xl md:text-3xl leading-7 tracking-[0.04em]">About Vogue Fix My Motor — Engine Repair Specialists in Grays, Essex</h2>
                     <p className="mt-5 text-justify leading-7 tracking-[0.04em]">
                         Vogue Fix My Motor is a family-run engine repair and car servicing workshop based in Grays, Essex. With years of hands-on experience and a passion for getting vehicles back on the road, we have become one of the most trusted garages in the local area. We serve customers from Grays, Tilbury, Purfleet, Ockendon, Hornchurch, Stanford-le-Hope, Basildon, Chelmsford, and all surrounding areas within a 10-mile radius.
                     </p>

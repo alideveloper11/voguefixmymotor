@@ -16,7 +16,11 @@ import Reviews from "@/components/components_reviews/reviews/Reviews";
 import reviewsData from "@/lib/reviewsData";
 import saleParts from "@/lib/SaleParts";
 import LatestVideosData from "@/lib/LatestVideosData";
-
+export const metadata = {
+  alternates: {
+    canonical: "https://voguefixmymotor.co.uk",
+  },
+};
 import  { locations } from "@/lib/areas_list";
 export default function Home() {
   return (
