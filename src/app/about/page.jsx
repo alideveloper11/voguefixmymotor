@@ -7,6 +7,9 @@ import LatestVideosData from "@/lib/About_data/LatestVideosData";
 export const metadata = {
   title: "About Vogue Fix My Motor | Engine Repair Specialists in Grays, Essex",
   description: "Learn about Vogue Fix My Motor — Grays, Essex based engine repair and car servicing specialists. Trusted by thousands of customers across Essex. Honest pricing, quality parts, and warranty on all repairs.",
+ alternates: {
+    canonical: "https://voguefixmymotor.co.uk/about",
+  },
 };
 
 export default function About() {

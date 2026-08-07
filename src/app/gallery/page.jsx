@@ -8,7 +8,11 @@ import LatestVideosData from "@/lib/Gallery_data/LatestVideosData";
 export const metadata = {
   title: "Workshop Gallery | Vogue Fix My Motor | Engine Repair Grays, Essex",
   description: "Browse the Vogue Fix My Motor workshop gallery — see our engine repair work, customer vehicles, and garage facilities in Grays, Essex. Trusted engine specialists serving Essex.",
+alternates: {
+    canonical: "https://voguefixmymotor.co.uk/gallery",
+  },
 };
+
 
 export default function Gallery() {
     

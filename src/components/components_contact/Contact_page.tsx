@@ -14,11 +14,11 @@ export default function Contact() {
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mt-5 font-serif text-black pb-[20px]">
                 Get In <span className="text-[#059669]">Touch</span>
               </h1>
-              <h1 className="w-full leading-7 tracking-[0.04em] mt-3">
+              <h2 className="w-full leading-7 tracking-[0.04em] mt-3">
                 Contact Vogue Fix My Motor for Expert Engine Repairs in Grays,
                 Essex. Fill in the form below for professional advice and a
                 free, no-obligation quote from our experienced team.
-              </h1>
+              </h2>
             </div>
           </div>
           <div className="shadow-[0_0_5px_#7c7d7d] px-5 bg-white lg:mr-5 rounded-2xl">
@@ -36,7 +36,7 @@ export default function Contact() {
                 className="text-[#059669]"
               />
               <div>
-                <h1 className="font-serif text-xl font-bold">Trusted Experts</h1>
+                <h2 className="font-serif text-xl font-bold">Trusted Experts</h2>
                 <p>Professional service you can rely on</p>
               </div>
             </div>

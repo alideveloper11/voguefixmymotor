@@ -4,6 +4,11 @@ import reviewsData from "@/lib/Reviews_data/reviewsData";
 import LatestVideos from "@/components/latest_videos/Latest_videos";
 
 import LatestVideosData from "@/lib/Reviews_data/LatestVideosData";
+export const metadata = {
+  alternates: {
+    canonical: "https://voguefixmymotor.co.uk/reviews",
+  },
+};
 export default function Review() {
   return (
     <div className="flex flex-wrap w-full">
