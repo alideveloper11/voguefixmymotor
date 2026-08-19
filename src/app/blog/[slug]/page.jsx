@@ -1,7 +1,6 @@
 import { notFound } from "next/navigation";
 import Blog_detail_page from "@/components/components_blog/blog_details/Blog_detail_page";
-import { getBlogBySlug } from "@/lib/blogs_data/blogsApi";
-
+import { getBlogBySlug }  from "@/app/api/blogs/blogsApi";
 import Contact_form from "@/components/components_contact/Contact_form"
 
 const SITE_URL = "https://voguefixmymotor.co.uk";
