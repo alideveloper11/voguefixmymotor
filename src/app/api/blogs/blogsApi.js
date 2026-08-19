@@ -1,7 +1,6 @@
 import { cache } from "react";
 
-const BLOG_API_BASE =
-  "https://blogs-tbsmf.ondigitalocean.app/api/vogue-fix-my-motor/blogs";
+const BLOG_API_BASE =process.env.BLOG_URL;
 
 function authHeader() {
   const username = process.env.BLOG_USERNAME;
