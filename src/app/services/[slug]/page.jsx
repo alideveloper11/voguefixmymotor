@@ -1,7 +1,7 @@
 import servicesData from "@/lib/services_data/servicesData";
 import serviceUniqueSlides from "@/lib/services_data/serviceUniqueSlides";
 import serviceUniqueContent3 from "@/lib/services_data/serviceUniqueContent3";
-import Herosection from "../../../components/components_services/detail_page/hero_section/Herosection";
+import Herosection from "@/components/components_services/hero_section/Herosection";
 import Reviews from "@/components/components_reviews/reviews/Reviews";
 import Content from "../../../components/content/Content";
 import FAQ from "../../../components/faq/FAQ";
@@ -16,8 +16,9 @@ import Green_slider1 from "../../../components/components_services/detail_page/g
 export async function generateMetadata({ params }) {
   const { slug } = await params;
 
-  const service = servicesData.find((item) => item.slug === slug);
-
+const service = servicesData.service_list.find(
+  (item) => item.slug === slug
+);
   if (!service) {
     return {};
   }
@@ -30,7 +31,7 @@ export async function generateMetadata({ params }) {
 }
 export default async function ServiceDetail({ params }) {
   const { slug } = await params;
-  const service = servicesData.find(
+  const service = servicesData.service_list.find(
     (item) => item.slug === slug
   );
    if (!service) {
@@ -44,7 +45,7 @@ export default async function ServiceDetail({ params }) {
   const content3 = serviceUniqueContent3[service.slug] || service.contents.content3;
   return (
     <div className="flex flex-wrap w-full">
-    <div className="w-24/24 text-center"><Herosection  name={service.name} text={service.text}  /></div>
+    <div className="w-24/24 text-center"><Herosection  data={service.herosection_data}  /></div>
     <div className="w-24/24 text-center"><Reviews reviewsData={service.Reviews} /></div>
 
     <div className="w-24/24 text-center"><SaleParts saleParts={saleParts} /></div>

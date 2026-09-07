@@ -93,7 +93,7 @@ transition-all duration-300 ease-in-out
     scrollbarColor: "#ccc #0d0d0d ",
   }}>
 
-  {servicesData.map((services) => (
+  {servicesData.service_list.map((services) => (
     
     <Link href={`/services/${services.slug}`} key={services.id} className="w-full font-semibold">
   <div

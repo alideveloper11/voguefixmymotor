@@ -56,7 +56,7 @@ export default function SalePartsSlider({saleParts}) {
       className="bg-gray-100 py-10 bg-white overflow-hidden text-black" style={{colorScheme:"light"}}
     >
       <h2 className="text-center font-bold text-2xl md:text-3xl mb-10">
-        Quality Car Parts Available at Vogue Fix My Motor, Grays
+       Genuine Parts for Prestige Engine Rebuilds
       </h2>
 
       <div className="flex items-center gap-2 px-3">

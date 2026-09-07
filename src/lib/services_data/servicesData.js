@@ -1,12 +1,19 @@
 
 
-const servicesData = [
+const servicesData = {
+  heading : "Engine Repair & Car Services in Grays, Essex",
+  sub_heading : "From engine diagnostics and rebuilds to full car servicing, Vogue Fix My Motor provides reliable solutions for all makes and models across Grays and the surrounding Essex area.",
+  service_list:[
   {
     id: 1,
     name: "Initial Diagnostics",
     text: "Identify engine faults quickly using advanced diagnostic tools for accurate repairs and smooth performance.",
     slug: "initial-diagnostics",
     img:"/Initial Diagnostics.webp",
+      herosection_data:{
+     heading: "Car Services & Engine Repair in Grays, Essex",
+     description: "Vogue Fix My Motor offers a full range of engine repair and car services in Grays, Essex. From diagnostics and clutch replacement to DPF cleaning and head gasket repair — all makes and models welcome.",
+},
     Reviews:[
        {
     id: 1,
@@ -195,6 +202,10 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     text: "Comprehensive inspection of key vehicle systems to ensure safety, reliability, and roadworthiness.",
     slug: "vehicle-health-check",
     img:"/Vehicle Health Check.webp",
+      herosection_data:{
+     heading: "Car Services & Engine Repair in Grays, Essex",
+     description: "Vogue Fix My Motor offers a full range of engine repair and car services in Grays, Essex. From diagnostics and clutch replacement to DPF cleaning and head gasket repair — all makes and models welcome.",
+},
       Reviews:[
        {
     id: 1,
@@ -379,6 +390,10 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     text: "Thorough visual checks to detect wear, leaks, damage, and potential mechanical issues early.",
     slug: "visual-inspection",
     img:"/Visual Inspection.webp",
+      herosection_data:{
+     heading: "Car Services & Engine Repair in Grays, Essex",
+     description: "Vogue Fix My Motor offers a full range of engine repair and car services in Grays, Essex. From diagnostics and clutch replacement to DPF cleaning and head gasket repair — all makes and models welcome.",
+},
       Reviews:[
        {
     id: 1,
@@ -566,6 +581,10 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     text: "Routine maintenance service including oil, filters, and essential checks for everyday driving reliability.",
     slug: "interim-service",
     img:"/Interim Service.webp",
+      herosection_data:{
+     heading: "Car Services & Engine Repair in Grays, Essex",
+     description: "Vogue Fix My Motor offers a full range of engine repair and car services in Grays, Essex. From diagnostics and clutch replacement to DPF cleaning and head gasket repair — all makes and models welcome.",
+},
       Reviews:[
        {
     id: 1,
@@ -738,6 +757,10 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     text: "Complete servicing package covering fluids, filters, brakes, and detailed component inspections.",
     slug: "major-service",
     img:"/Major Service.webp",
+      herosection_data:{
+     heading: "Car Services & Engine Repair in Grays, Essex",
+     description: "Vogue Fix My Motor offers a full range of engine repair and car services in Grays, Essex. From diagnostics and clutch replacement to DPF cleaning and head gasket repair — all makes and models welcome.",
+},
       Reviews:[
        {
     id: 1,
@@ -967,6 +990,10 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     text: "Yearly maintenance service designed to keep your vehicle efficient, safe, and running smoothly.",
     slug: "annual-service",
     img:"/Annual Service.webp",
+      herosection_data:{
+     heading: "Car Services & Engine Repair in Grays, Essex",
+     description: "Vogue Fix My Motor offers a full range of engine repair and car services in Grays, Essex. From diagnostics and clutch replacement to DPF cleaning and head gasket repair — all makes and models welcome.",
+},
     Reviews:[
        {
     id: 1,
@@ -1155,6 +1182,10 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     text: "Professional van maintenance and repair solutions for dependable business and daily use.",
     slug: "van-repairs-services",
     img:"/Van Repairs and Services.webp",
+      herosection_data:{
+     heading: "Car Services & Engine Repair in Grays, Essex",
+     description: "Vogue Fix My Motor offers a full range of engine repair and car services in Grays, Essex. From diagnostics and clutch replacement to DPF cleaning and head gasket repair — all makes and models welcome.",
+},
       Reviews:[
        {
     id: 1,
@@ -1343,6 +1374,10 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     img:"/Auto Electrical Services.webp",
     text: "Diagnosis and repair of electrical faults, wiring issues, lighting, and charging systems.",
     slug: "auto-electrical-services",
+      herosection_data:{
+     heading: "Car Services & Engine Repair in Grays, Essex",
+     description: "Vogue Fix My Motor offers a full range of engine repair and car services in Grays, Essex. From diagnostics and clutch replacement to DPF cleaning and head gasket repair — all makes and models welcome.",
+},
       Reviews:[
        {
     id: 1,
@@ -1532,6 +1567,10 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     text: "Specialist repairs and maintenance for hybrid and electric vehicles using advanced diagnostics.",
     slug: "hybrid-ev-repairs-services",
     img:"/Hybrid and EV Repairs and Services.webp",
+      herosection_data:{
+     heading: "Car Services & Engine Repair in Grays, Essex",
+     description: "Vogue Fix My Motor offers a full range of engine repair and car services in Grays, Essex. From diagnostics and clutch replacement to DPF cleaning and head gasket repair — all makes and models welcome.",
+},
       Reviews:[
        {
     id: 1,
@@ -1708,6 +1747,10 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     text: "Timing belt inspection and replacement to prevent engine damage and maintain performance.",
     slug: "timing-belts",
     img:"/Timing Belts.webp",
+      herosection_data:{
+     heading: "Car Services & Engine Repair in Grays, Essex",
+     description: "Vogue Fix My Motor offers a full range of engine repair and car services in Grays, Essex. From diagnostics and clutch replacement to DPF cleaning and head gasket repair — all makes and models welcome.",
+},
       Reviews:[
        {
     id: 1,
@@ -1902,6 +1945,10 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     text: "Professional cambelt replacement services to ensure accurate engine timing and reliability.",
     slug: "cam-belts",
     img:"/Cam Belts.webp",
+      herosection_data:{
+     heading: "Car Services & Engine Repair in Grays, Essex",
+     description: "Vogue Fix My Motor offers a full range of engine repair and car services in Grays, Essex. From diagnostics and clutch replacement to DPF cleaning and head gasket repair — all makes and models welcome.",
+},
       Reviews:[
        {
     id: 1,
@@ -2248,6 +2295,10 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     text: "Wet belt inspection and replacement services to protect engine performance and longevity.",
     slug: "wet-belt",
     img:"/Wet Belt.webp",
+      herosection_data:{
+     heading: "Car Services & Engine Repair in Grays, Essex",
+     description: "Vogue Fix My Motor offers a full range of engine repair and car services in Grays, Essex. From diagnostics and clutch replacement to DPF cleaning and head gasket repair — all makes and models welcome.",
+},
       Reviews:[
        {
     id: 1,
@@ -2465,6 +2516,10 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     text: "Complete vehicle repair and maintenance solutions for all makes and models.",
     slug: "all-repairs-services",
     img:"/All Repairs and Services.webp",
+      herosection_data:{
+     heading: "Car Services & Engine Repair in Grays, Essex",
+     description: "Vogue Fix My Motor offers a full range of engine repair and car services in Grays, Essex. From diagnostics and clutch replacement to DPF cleaning and head gasket repair — all makes and models welcome.",
+},
     Reviews:[
        {
     id: 1,
@@ -2654,6 +2709,10 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     text: "Deep cleaning of fuel injectors and fuel systems for improved efficiency and smoother driving.",
     slug: "fuel-system-cleaning",
     img:"/Fuel System Cleaning.webp",
+      herosection_data:{
+     heading: "Car Services & Engine Repair in Grays, Essex",
+     description: "Vogue Fix My Motor offers a full range of engine repair and car services in Grays, Essex. From diagnostics and clutch replacement to DPF cleaning and head gasket repair — all makes and models welcome.",
+},
       Reviews:[
        {
     id: 1,
@@ -2842,6 +2901,10 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     text: "AdBlue diagnostics, refills, and system repairs to maintain emissions compliance and performance.",
     slug: "adblue-services",
     img:"/adblue serivice.webp",
+      herosection_data:{
+     heading: "Car Services & Engine Repair in Grays, Essex",
+     description: "Vogue Fix My Motor offers a full range of engine repair and car services in Grays, Essex. From diagnostics and clutch replacement to DPF cleaning and head gasket repair — all makes and models welcome.",
+},
       Reviews:[
        {
     id: 1,
@@ -3032,6 +3095,10 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     text: "High-quality welding repairs for exhausts, bodywork, and structural vehicle components.",
     slug: "welding-services",
     img:"/Welding Services.webp",
+      herosection_data:{
+     heading: "Car Services & Engine Repair in Grays, Essex",
+     description: "Vogue Fix My Motor offers a full range of engine repair and car services in Grays, Essex. From diagnostics and clutch replacement to DPF cleaning and head gasket repair — all makes and models welcome.",
+},
       Reviews:[
        {
     id: 1,
@@ -3209,6 +3276,10 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     text: "Diagnosis and replacement of faulty NOx sensors to restore engine efficiency and emissions control.",
     slug: "nox-sensor-repair",
     img:"/NOx Sensor Repair.webp",
+      herosection_data:{
+     heading: "Car Services & Engine Repair in Grays, Essex",
+     description: "Vogue Fix My Motor offers a full range of engine repair and car services in Grays, Essex. From diagnostics and clutch replacement to DPF cleaning and head gasket repair — all makes and models welcome.",
+},
       Reviews:[
        {
     id: 1,
@@ -3405,6 +3476,10 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     text: "Safe removal and replacement of damaged or lost locking wheel nuts without wheel damage.",
     slug: "locking-wheel-nut-removal-replacement",
     img:"/Locking Wheel Nut Removal - Replacement.webp",
+      herosection_data:{
+     heading: "Car Services & Engine Repair in Grays, Essex",
+     description: "Vogue Fix My Motor offers a full range of engine repair and car services in Grays, Essex. From diagnostics and clutch replacement to DPF cleaning and head gasket repair — all makes and models welcome.",
+},
       Reviews:[
        {
     id: 1,
@@ -3635,6 +3710,10 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     text: "Fast and reliable roadside recovery services available day and night when you need assistance.",
     slug: "vehicle-recovery",
     img:"/24-7 Vehicle Recovery.webp",
+      herosection_data:{
+     heading: "Car Services & Engine Repair in Grays, Essex",
+     description: "Vogue Fix My Motor offers a full range of engine repair and car services in Grays, Essex. From diagnostics and clutch replacement to DPF cleaning and head gasket repair — all makes and models welcome.",
+},
       Reviews:[
        {
     id: 1,
@@ -3853,6 +3932,10 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     text: "Professional interior and exterior vehicle cleaning for a fresh, polished finish.",
     slug: "valeting-services",
     img:"/Valeting Service.webp",
+      herosection_data:{
+     heading: "Car Services & Engine Repair in Grays, Essex",
+     description: "Vogue Fix My Motor offers a full range of engine repair and car services in Grays, Essex. From diagnostics and clutch replacement to DPF cleaning and head gasket repair — all makes and models welcome.",
+},
     Reviews:[
        {
     id: 1,
@@ -4040,6 +4123,10 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     text: "Advanced vehicle diagnostics to accurately identify warning lights and hidden mechanical faults.",
     slug: "diagnostics",
     img:"/Diagnostics.webp",
+      herosection_data:{
+     heading: "Car Services & Engine Repair in Grays, Essex",
+     description: "Vogue Fix My Motor offers a full range of engine repair and car services in Grays, Essex. From diagnostics and clutch replacement to DPF cleaning and head gasket repair — all makes and models welcome.",
+},
       Reviews:[
        {
     id: 1,
@@ -4230,6 +4317,10 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
     slug: "water-pump-replacement",
     img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
+      herosection_data:{
+     heading: "Car Services & Engine Repair in Grays, Essex",
+     description: "Vogue Fix My Motor offers a full range of engine repair and car services in Grays, Essex. From diagnostics and clutch replacement to DPF cleaning and head gasket repair — all makes and models welcome.",
+},
       Reviews:[
        {
     id: 1,
@@ -4421,6 +4512,10 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     text: "Routine servicing to maintain vehicle performance, reliability, and long-term engine health.",
     slug: "general-service",
     img:"/gernal service.webp",
+      herosection_data:{
+     heading: "Car Services & Engine Repair in Grays, Essex",
+     description: "Vogue Fix My Motor offers a full range of engine repair and car services in Grays, Essex. From diagnostics and clutch replacement to DPF cleaning and head gasket repair — all makes and models welcome.",
+},
       Reviews:[
        {
     id: 1,
@@ -4598,6 +4693,10 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     text: "Alternator testing and replacement to restore reliable battery charging and electrical performance.",
     slug: "alternator-replacement",
     img:"/Alternator Replacement.webp",
+      herosection_data:{
+     heading: "Car Services & Engine Repair in Grays, Essex",
+     description: "Vogue Fix My Motor offers a full range of engine repair and car services in Grays, Essex. From diagnostics and clutch replacement to DPF cleaning and head gasket repair — all makes and models welcome.",
+},
       Reviews:[
        {
     id: 1,
@@ -4792,6 +4891,10 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     text: "Complete engine rebuild services to restore power, reliability, and long-term performance.",
     slug: "engine-rebuild",
     img:"/Engine rebuild.webp",
+      herosection_data:{
+     heading: "Car Services & Engine Repair in Grays, Essex",
+     description: "Vogue Fix My Motor offers a full range of engine repair and car services in Grays, Essex. From diagnostics and clutch replacement to DPF cleaning and head gasket repair — all makes and models welcome.",
+},
       Reviews:[
        {
     id: 1,
@@ -5005,6 +5108,10 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     text: "Battery testing and replacement services for dependable starting power in all conditions.",
     slug: "battery-replacement",
     img:"/Battery Replacement.webp",
+      herosection_data:{
+     heading: "Car Services & Engine Repair in Grays, Essex",
+     description: "Vogue Fix My Motor offers a full range of engine repair and car services in Grays, Essex. From diagnostics and clutch replacement to DPF cleaning and head gasket repair — all makes and models welcome.",
+},
       Reviews:[
        {
     id: 1,
@@ -5224,6 +5331,10 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     text: "Professional clutch repair and replacement for smoother gear changes and driving control.",
     slug: "clutch-replacement",
     img:"/f184d927a7134700f54e21657884675da9b63340.webp",
+      herosection_data:{
+     heading: "Car Services & Engine Repair in Grays, Essex",
+     description: "Vogue Fix My Motor offers a full range of engine repair and car services in Grays, Essex. From diagnostics and clutch replacement to DPF cleaning and head gasket repair — all makes and models welcome.",
+},
     Reviews:[
        {
     id: 1,
@@ -5415,6 +5526,10 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     text: "Engine flushing service to remove sludge deposits and improve engine cleanliness and efficiency.",
     slug: "engine-flush",
     img:"/Engine Flush.webp",
+      herosection_data:{
+     heading: "Car Services & Engine Repair in Grays, Essex",
+     description: "Vogue Fix My Motor offers a full range of engine repair and car services in Grays, Essex. From diagnostics and clutch replacement to DPF cleaning and head gasket repair — all makes and models welcome.",
+},
       Reviews:[
        {
     id: 1,
@@ -5604,6 +5719,10 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     text: "Brake inspections, repairs, and replacements to ensure maximum stopping power and safety.",
     slug: "brake-services",
     img:"/Brake Services.webp",
+      herosection_data:{
+     heading: "Car Services & Engine Repair in Grays, Essex",
+     description: "Vogue Fix My Motor offers a full range of engine repair and car services in Grays, Essex. From diagnostics and clutch replacement to DPF cleaning and head gasket repair — all makes and models welcome.",
+},
       Reviews:[
        {
     id: 1,
@@ -5794,6 +5913,10 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     text: "Turbocharger diagnostics and replacement services for restored engine power and efficiency.",
     slug: "turbo-replacement",
     img:"/Turbo Replacement.webp",
+      herosection_data:{
+     heading: "Car Services & Engine Repair in Grays, Essex",
+     description: "Vogue Fix My Motor offers a full range of engine repair and car services in Grays, Essex. From diagnostics and clutch replacement to DPF cleaning and head gasket repair — all makes and models welcome.",
+},
       Reviews:[
        {
     id: 1,
@@ -5970,6 +6093,10 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     text: "Custom performance upgrades to improve horsepower, acceleration, and overall driving experience.",
     slug: "performance-upgrades",
     img:"/Performance Upgrades.webp",
+      herosection_data:{
+     heading: "Car Services & Engine Repair in Grays, Essex",
+     description: "Vogue Fix My Motor offers a full range of engine repair and car services in Grays, Essex. From diagnostics and clutch replacement to DPF cleaning and head gasket repair — all makes and models welcome.",
+},
       Reviews:[
        {
     id: 1,
@@ -6165,6 +6292,10 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
     slug: "dpf-cleaning-service",
     img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
+      herosection_data:{
+     heading: "Car Services & Engine Repair in Grays, Essex",
+     description: "Vogue Fix My Motor offers a full range of engine repair and car services in Grays, Essex. From diagnostics and clutch replacement to DPF cleaning and head gasket repair — all makes and models welcome.",
+},
       Reviews:[
        {
     id: 1,
@@ -6388,6 +6519,10 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     text: "Certified MOT testing services to ensure your vehicle meets all legal safety standards.",
     slug: "mot-testing",
     img:"/MOT Testing.webp",
+      herosection_data:{
+     heading: "Car Services & Engine Repair in Grays, Essex",
+     description: "Vogue Fix My Motor offers a full range of engine repair and car services in Grays, Essex. From diagnostics and clutch replacement to DPF cleaning and head gasket repair — all makes and models welcome.",
+},
     Reviews:[
        {
     id: 1,
@@ -6579,6 +6714,10 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     text: "Exhaust inspections and repairs to reduce noise and maintain proper engine performance.",
     slug: "exhaust-repair",
     img:"/Exhaust Repair.webp",
+      herosection_data:{
+     heading: "Car Services & Engine Repair in Grays, Essex",
+     description: "Vogue Fix My Motor offers a full range of engine repair and car services in Grays, Essex. From diagnostics and clutch replacement to DPF cleaning and head gasket repair — all makes and models welcome.",
+},
       Reviews:[
        {
     id: 1,
@@ -6768,6 +6907,10 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     text: "Tyre fitting and replacement services for improved grip, safety, and driving comfort.",
     slug: "tyre-replacement",
     img:"/tyre replacement.webp",
+      herosection_data:{
+     heading: "Car Services & Engine Repair in Grays, Essex",
+     description: "Vogue Fix My Motor offers a full range of engine repair and car services in Grays, Essex. From diagnostics and clutch replacement to DPF cleaning and head gasket repair — all makes and models welcome.",
+},
       Reviews:[
        {
     id: 1,
@@ -6958,6 +7101,10 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     text: "Inspection and repair of suspension components for smoother handling and ride comfort.",
     slug: "suspension-service",
     img:"/suspension.webp",
+      herosection_data:{
+     heading: "Car Services & Engine Repair in Grays, Essex",
+     description: "Vogue Fix My Motor offers a full range of engine repair and car services in Grays, Essex. From diagnostics and clutch replacement to DPF cleaning and head gasket repair — all makes and models welcome.",
+},
       Reviews:[
        {
     id: 1,
@@ -7136,6 +7283,10 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     text: "Precise wheel alignment services to improve handling and extend tyre life.",
     slug: "wheel-alignment",
     img:"/wheel aligment.webp",
+      herosection_data:{
+     heading: "Car Services & Engine Repair in Grays, Essex",
+     description: "Vogue Fix My Motor offers a full range of engine repair and car services in Grays, Essex. From diagnostics and clutch replacement to DPF cleaning and head gasket repair — all makes and models welcome.",
+},
       Reviews:[
        {
     id: 1,
@@ -7332,6 +7483,10 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     text: "Air conditioning gas refill services to restore cooling performance and cabin comfort.",
     slug: "ac-gas-refill-service",
     img:"/5894cc3d25139ce6d0c8883c11032a4e11db8154.webp",
+      herosection_data:{
+     heading: "Car Services & Engine Repair in Grays, Essex",
+     description: "Vogue Fix My Motor offers a full range of engine repair and car services in Grays, Essex. From diagnostics and clutch replacement to DPF cleaning and head gasket repair — all makes and models welcome.",
+},
       Reviews:[
        {
     id: 1,
@@ -7550,6 +7705,10 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     text: "Timing chain replacement services to maintain accurate engine timing and prevent failures.",
     slug: "timing-chain-replacement",
     img:"/e42f4dccba8cfea020c6c73d385c038ca273c78b.webp",
+      herosection_data:{
+     heading: "Car Services & Engine Repair in Grays, Essex",
+     description: "Vogue Fix My Motor offers a full range of engine repair and car services in Grays, Essex. From diagnostics and clutch replacement to DPF cleaning and head gasket repair — all makes and models welcome.",
+},
     Reviews:[
        {
     id: 1,
@@ -7740,6 +7899,10 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     text: "Professional oil and filter changes to protect your engine and improve performance.",
     slug: "oil-change-service",
     img:"/Oil Change.webp",
+      herosection_data:{
+     heading: "Car Services & Engine Repair in Grays, Essex",
+     description: "Vogue Fix My Motor offers a full range of engine repair and car services in Grays, Essex. From diagnostics and clutch replacement to DPF cleaning and head gasket repair — all makes and models welcome.",
+},
       Reviews:[
        {
     id: 1,
@@ -7928,6 +8091,10 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     text: "Reliable head gasket repairs to prevent overheating and restore engine efficiency.",
     slug: "head-gasket-repair",
     img:"/b08253f77d1194ed361ee8793e00aa5a5f887531.webp",
+      herosection_data:{
+     heading: "Car Services & Engine Repair in Grays, Essex",
+     description: "Vogue Fix My Motor offers a full range of engine repair and car services in Grays, Essex. From diagnostics and clutch replacement to DPF cleaning and head gasket repair — all makes and models welcome.",
+},
       Reviews:[
        {
     id: 1,
@@ -8117,6 +8284,10 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     text: "Transmission servicing and repairs for smoother gear shifting and reliable driving performance.",
     slug: "transmission-service",
     img:"/Transmission Service.webp",
+      herosection_data:{
+     heading: "Car Services & Engine Repair in Grays, Essex",
+     description: "Vogue Fix My Motor offers a full range of engine repair and car services in Grays, Essex. From diagnostics and clutch replacement to DPF cleaning and head gasket repair — all makes and models welcome.",
+},
       Reviews:[
        {
     id: 1,
@@ -8323,6 +8494,10 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
     text: "Complete air conditioning servicing for efficient cooling and improved cabin air quality.",
     slug: "air-conditioning-service",
     img:"/5894cc3d25139ce6d0c8883c11032a4e11db8154.webp",
+      herosection_data:{
+     heading: "Car Services & Engine Repair in Grays, Essex",
+     description: "Vogue Fix My Motor offers a full range of engine repair and car services in Grays, Essex. From diagnostics and clutch replacement to DPF cleaning and head gasket repair — all makes and models welcome.",
+},
     Reviews:[
        {
     id: 1,
@@ -8480,6 +8655,7 @@ Our goal is not just to repair vehicles but to ensure peace of mind for every cu
 
 
 
-];
+],
+}
 
 export default servicesData;

@@ -26,18 +26,17 @@ export default function Services({servicesData})
                      <div className="w-full flex flex-wrap justify-center">
                         <div className="w-full text-center text-black">
                        <div className="">
-                        <h2 className="font-bold text-2xl md:text-3xl">Engine Repair & Car Services in Grays, Essex</h2>
+                        <h2 className="font-bold text-2xl md:text-3xl">{servicesData?.heading || "Engine Repair & Car Services in Grays, Essex"}</h2>
                          <center><p className=" w-full md:w-[80%]  lg:w-[60%] text-center leading-7 tracking-[0.04em] "
                          style={{ fontSize:"16px",marginBottom:"20px", marginTop:"10px", color:"#4B5563"}}>
-                          From engine diagnostics and rebuilds to full car servicing, Vogue Fix My Motor provides reliable solutions for all makes and models across Grays and the surrounding Essex area.
-                          </p>
+                        {servicesData?.sub_heading || "From engine diagnostics and rebuilds to full car servicing, Vogue Fix My Motor provides reliable solutions for all makes and models across Grays and the surrounding Essex area."} </p>
                           </center>
                         </div>
                        
                     
                      </div>
                      <div className="flex flex-wrap py-5">
-                       {servicesData.map((services, index) => (
+                       {servicesData.service_list.map((services, index) => (
 
                          <div key={services.id}
                  className="w-full my-2  md:w-4/12 lg:w-3/12 ">

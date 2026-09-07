@@ -7,7 +7,7 @@ import saleParts from "@/lib/Areas_data/SaleParts";
 import LatestVideosData from "@/lib/Areas_data/LatestVideosData";
 import Servedincity from "../../../components/components_areas/detailpage/servedincity/Servedincity";
 import SaleParts from "@/components/saleparts/SaleParts";
-import Herosection from "@/components/components_areas/detailpage/hero_section/Herosection";
+import Herosection from "@/components/components_services/hero_section/Herosection";
 import Requestaqoute from "@/components/components_areas/detailpage/requestaqoute/Requestaqoute";
 import FAQ from "@/components/faq/FAQ";
 import Services from "@/components/service_section/Services";
@@ -44,7 +44,7 @@ export default async function ServiceDetail({ params }) {
   return (
     <div className="flex flex-wrap w-full">
 
-     <div className="w-24/24 text-center"><Herosection area={areas} /></div>
+     <div className="w-24/24 text-center"><Herosection data={areas.herosection_data} /></div>
       <div className="w-24/24 text-center"><Reviews reviewsData={areas.Reviews} /></div>
       <div className="w-24/24 text-center"><Servedincity content={areas.served} /></div>
       <div className="w-24/24 text-center"><Green_slider slides={mergedSlides} image={areas.green_slider.img} /></div>  
