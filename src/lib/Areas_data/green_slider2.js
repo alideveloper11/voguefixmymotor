@@ -1,37 +1,41 @@
 const slider = [
 
-    {
-      title: "Specialist Knowledge Built Around Prestige Engines",
-      text: `Range Rover, Land Rover, BMW and Audi engines are built to a different standard, and they demand a workshop that understands their specific tolerances, materials and electronics.
-Our technicians work exclusively with prestige and performance vehicles, so every reconditioning job reflects a deep, model-specific understanding rather than generic engine repair guesswork.
-From aluminium block engines to complex turbocharged and hybrid systems, we've reconditioned a wide range of engine types used across these four manufacturers.
-This focused specialism is why customers across Essex choose us over general garages for engine rebuild work.`
-    },
+  {
+    title: "Straightforward Pricing With No Hidden Extras",
+    text: `Getting a car repair quote shouldn't feel like a guessing game. Our Grays workshop provides clear, itemised quotes before any work begins, so you always know exactly what you're paying for.
 
-    {
-      title: "Precise Diagnostics Before Any Work Begins",
-      text: `Every reconditioning job starts with a full diagnostic assessment, using manufacturer-level equipment to identify the true cause of an engine fault rather than just its symptoms.
-We check compression, oil pressure, timing components and internal wear patterns to determine whether a full reconditioning, partial rebuild, or targeted repair is the right solution.
-You'll receive a clear explanation of the findings along with a same-day quote wherever possible, so you can make an informed decision without unnecessary delay.
-This diagnostic-first approach protects you from paying for work your engine doesn't actually need.`
-    },
+Every quote clearly separates parts and labour, making it easy to understand the cost of your repair. If anything unexpected is discovered during the work, we'll always contact you first before carrying out additional repairs.
 
-    {
-      title: "Reconditioning Done to Original Specification",
-      text: `Once a fault is confirmed, our reconditioning process restores the engine to as close to original manufacturer specification as possible, using precision machining and quality-checked components throughout.
-Pistons, bearings, gaskets and internal seals are inspected or replaced as required, with every clearance measured against factory tolerances rather than estimated by eye.
-We pressure-test and run each reconditioned engine before it goes back into the vehicle, checking oil flow, compression and overall performance.
-This attention to detail is what gives our reconditioned engines the reliability owners expect from a prestige vehicle.`
-    },
+This straightforward approach to pricing and communication is one of the reasons local customers continue to return to us for their annual servicing, MOTs and ongoing vehicle maintenance.`
+  },
 
-    {
-      title: "Straightforward Pricing and Honest Communication",
-      text: `Luxury car engine work has a reputation for unclear pricing, which is why we quote clearly before any reconditioning or rebuild begins and explain exactly what's included.
-There are no vague line items or unexpected extras added part-way through the job — if anything changes once we're inside the engine, we'll always contact you first.
-Customers across Essex, including Chelmsford and Colchester, tell us this transparency is a major reason they return for future servicing and repair work.
-It's engine reconditioning delivered the way it should be: skilled, honest, and easy to understand.`
-    }
-  ]
+  {
+    title: "24/7 Recovery When You Need It Most",
+    text: `Vehicle breakdowns rarely happen at a convenient time, which is why we provide round-the-clock vehicle recovery across Grays and the surrounding areas.
 
+Whether you've been stranded at the roadside or need your vehicle transported directly to our workshop, our recovery service helps get you and your car moving again with minimal disruption.
+
+Our team is available when you need assistance, providing a practical recovery solution for unexpected breakdowns and vehicle problems at any time of day or night.`
+  },
+
+  {
+    title: "Genuine Parts and Fluids You Can Trust",
+    text: `Every repair is completed using quality parts and fluids selected to match your vehicle's manufacturer specification. Depending on your vehicle and repair requirements, this may include OEM components or trusted equivalent brands.
+
+We understand that the quality of replacement parts can have a direct impact on your vehicle's reliability, performance and long-term value. That's why we never substitute cheaper alternatives without discussing the options with you first.
+
+Our focus is on providing dependable repairs using components you can trust, helping keep your vehicle performing safely and reliably for longer.`
+  },
+
+  {
+    title: "A Workshop Built on Local Trust",
+    text: `Word of mouth remains one of our biggest sources of new customers, and that trust is built through the quality of our work and the way we treat every customer.
+
+From first-time visitors to long-term regulars, our approach remains the same: provide honest advice, fair pricing and repairs completed properly the first time.
+
+We aim to build lasting relationships with drivers across Grays and the surrounding area by delivering reliable vehicle care, transparent communication and a level of service that customers are happy to recommend.`
+  }
+
+]
 
 export default slider;

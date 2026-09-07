@@ -1,58 +1,39 @@
 const slider = [
   {
-    title: "Engine Repair & Diagnostics Near You in Essex",
-    text: `Vogue Fix My Motor is your local engine repair and diagnostics specialist, serving customers across Grays and all surrounding Essex areas. If you are searching for a reliable garage nearby, our workshop in Grays provides expert engine repairs for all makes and models — from hatchbacks and SUVs to vans and commercial vehicles.
+    title: "Why Local Drivers Choose an Independent Garage",
+    text: `Choosing an independent garage over a franchised dealership often means fairer prices without compromising on quality. Our Grays workshop is fully equipped to handle the same diagnostic and repair work as a main dealer, giving local drivers a reliable alternative for their vehicle needs.
 
-Our team uses the latest OBD diagnostic scanning technology to quickly and accurately identify engine faults. We pinpoint the exact cause of the problem before any work begins, ensuring no unnecessary parts are replaced and your repair costs are kept fair and transparent.
+We invest in manufacturer-level diagnostic tools used by franchised garages, allowing us to provide accurate attention for BMW, Range Rover, Land Rover, Audi, Mercedes-Benz and other makes. Our experienced technicians use the right equipment to identify faults correctly and recommend the repairs your vehicle actually needs.
 
-We proudly serve customers from Tilbury, Purfleet, Ockendon, Hornchurch, Stanford-le-Hope, Corringham, Chelmsford, Basildon and all areas within a 10-mile radius of Grays. Fast, professional, and honest service — every time.
-
-Book your engine diagnostic today and experience the Vogue Fix My Motor difference.`
+Being independent also gives us greater flexibility when sourcing quality parts from a wide range of trusted suppliers. This can help keep repair costs competitive without cutting corners on workmanship, safety, or reliability.`
   },
 
   {
-    title: "Trusted Car Repair Experts in Grays, Essex",
-    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop in Grays is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today's automotive systems. Whether it's a minor issue like an oil change or a major engine overhaul, we handle every job with precision and care.
+    title: "All Makes and Models, One Trusted Team",
+    text: `Whether you drive a British marque or a German import, our Grays technicians are trained to work across a broad range of makes and models. We don't specialise narrowly, which means you can rely on one trusted garage for different vehicles across your household or fleet.
 
-Our goal is to build long-term trust with our customers. We believe that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+From routine oil changes and servicing to complex engine diagnostics and repairs, the same experienced team handles your vehicle with care. Keeping your vehicle's work with one team also means better record-keeping and a clearer understanding of its service and repair history.
 
-We also emphasise preventive maintenance to help customers avoid costly breakdowns. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition throughout the year.`
+Local drivers across Grays and the surrounding RM20 area rely on us because we provide dependable vehicle care without turning customers away based on the make or model of their car.`
   },
 
   {
-    title: "Fast & Professional Car Service Across Essex",
-    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection and provide clear solutions.
+    title: "Engine Diagnostics That Get to the Real Problem",
+    text: `A warning light, unusual noise, or change in vehicle performance can have several possible causes, which is why accurate diagnostics are essential. Our Grays workshop uses OBD-II diagnostic equipment to identify faults and carefully interpret the results before recommending any repair work.
 
-Our workflow is optimised for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it's engine troubleshooting, battery issues, air conditioning repair, or tyre replacement, we ensure a smooth and hassle-free experience.
+This diagnostic-first approach helps prevent unnecessary parts replacement and can save customers money in the long run. Rather than relying on guesswork, our technicians focus on finding the actual cause of the problem so the right repair can be carried out.
 
-Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.`
+We explain our diagnostic findings in plain English and provide a clear breakdown of what is wrong and what it will cost to put right. No repair work begins until you understand the recommended solution and associated costs.`
   },
+
   {
-  title: "Advanced Engine Diagnostics — Grays, Essex",
-  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle's onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+    title: "MOT Preparation That Avoids Nasty Surprises",
+    text: `Nobody wants an unexpected MOT failure, which is why our Grays workshop provides thorough pre-MOT checks to identify potential problems before your test. Finding issues early gives you time to address them affordably and helps reduce the risk of unexpected repair costs.
 
-Engine diagnostics are essential in today's automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That's why we perform detailed scanning before starting any repair work.
+Our technicians inspect key areas that are assessed during an MOT, including brakes, tyres, lights, emissions, and other important safety components. If we find anything that could potentially result in an MOT failure, we explain the issue clearly and recommend the appropriate repair.
 
-Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
-},
-
-{
-  title: "Quality Parts & Reliable Repairs at Vogue Fix My Motor",
-  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
-
-Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
-
-Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model, reducing future maintenance issues.`
-},
-
-{
-  title: "Customer Satisfaction Guaranteed — Every Repair, Every Time",
-  text: `Customer satisfaction is at the core of everything we do at Vogue Fix My Motor in Grays, Essex. From the moment you contact us to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
-
-We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services — only what your vehicle truly needs. This approach has helped us build long-term relationships with customers across Essex.
-
-We also value feedback and continuously improve our services based on customer experiences. Whether it is a small fix or a complete engine rebuild, every job receives the same level of care and attention.`
-}
+Booking a pre-MOT check alongside your MOT test is a simple way to prepare your vehicle properly, reduce the chance of a failed test, and avoid unnecessary return visits.`
+  }
 ];
 
 export default slider;

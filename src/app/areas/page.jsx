@@ -7,8 +7,7 @@ import LatestVideosData from "@/lib/Areas_data/LatestVideosData";
 import SalePartsEngineCallToSection from "../../components/EngineCallToSection/EngineCallToSection";
 import servicesData from "@/lib/Areas_data/servicesData";
 import Services from "../../components/service_section/Services";
-import Reviews from "@/components/components_reviews/reviews/Reviews";
-import reviewsData from "@/lib/areas_data/reviewsData";
+
 import herosection_data from "@/lib/Areas_data/hero_section";
 import  { locations } from "@/lib/Areas_data/areas_list";
 import saleParts from "@/lib/Areas_data/SaleParts";
@@ -26,11 +25,10 @@ export default function Areas() {
   return (
                    <div className="flex flex-wrap w-full">               
                         <div className="w-24/24 text-center"><Herosection data={herosection_data} /></div>
-                        <div className="w-24/24 text-center"><Reviews reviewsData={reviewsData} /></div>
                         <div className="w-24/24 text-center"><Areas_links locations={locations} /></div>
                         <div className="w-24/24 text-center"><Services servicesData={servicesData}/></div>
                         <div className="w-24/24 text-center"><Green_slider1 /></div>
-                       <div className="w-24/24 text-center"><Green_slider2 /></div>
+                        <div className="w-24/24 text-center"><Green_slider2 /></div>
                         <div className="w-24/24 text-center"><SaleParts saleParts={saleParts} /></div>
                         <div className="w-24/24 text-center"><SalePartsEngineCallToSection /></div>
                         <div className="w-24/24 text-center"> <FAQ faq_data={faq_data} /> </div>

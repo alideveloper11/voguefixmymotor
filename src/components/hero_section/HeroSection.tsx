@@ -160,7 +160,7 @@ useEffect(() => {
                                 Expert Engine Repair & Diagnostics in Grays, Essex
                           </h1>
                        
-<p className="text-left text-white/90 text-[15px] lg:text-[18px] leading-8 tracking-[0.02em] font-normal mt-4 max-w-3xl">
+<h2 className="text-left text-white/90 text-[15px] lg:text-[18px] leading-8 tracking-[0.02em] font-normal mt-4 max-w-3xl">
   <span className="font-extrabold text-[#059669]">
     Vogue Fix My Motor
   </span>{" "}
@@ -189,7 +189,7 @@ useEffect(() => {
     free quote
   </span>{" "}
   today and drive away with confidence.
-</p>
+</h2>
                         </div>
                  </div>
                  <div className="w-full md:pl-4 md:w-6/12 mt-5 flex flex-wrap justify-center text-sm">

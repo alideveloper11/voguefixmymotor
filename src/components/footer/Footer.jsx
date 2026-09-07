@@ -4,6 +4,9 @@ import PhoneIcon from "@mui/icons-material/Phone";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+
+import servicesData from "@/lib/servicesData";
+
 import TwitterIcon from "@mui/icons-material/Twitter";
 import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import SendIcon from "@mui/icons-material/Send";
@@ -56,14 +59,17 @@ export default function Footer(){
                         </div>
                     </div>  
                     <div className="w-full sm:w-24/24 md:w-12/24 lg:w-6/24  mt-5">
-                         <p className="text-white font-sans text-shadow-2xs ml-1 md:ml-0 " style={{ fontWeight:"bold" ,fontSize:"18px"}}>Help</p>
+                         <p className="text-white font-sans text-shadow-2xs ml-1 pb-4 md:ml-0 " style={{ fontWeight:"bold" ,fontSize:"18px"}}>Services</p>
                         <div className="text-white">
-                        <ul className="list-none mt-8">
-                        <li>Customer Support</li>
-                        <li  className="mt-4">How It Works</li>
-                        <li  className="mt-4">Terms & Conditions</li>
-                        <li  className="mt-4">Privacy Policy</li>
-                        </ul>
+                        <div className=" mt-5">
+                     
+  {servicesData.service_list.map((services) => (
+    
+                        <Link key={services.id} href={`/services/${services.slug}`} className="mt-2 text-white block">
+                          {services.name}
+                        </Link>
+  ))}
+                        </div>
                         </div>
                     </div>  
                     <div className="w-full sm:w-24/24 md:w-12/24 lg:w-6/24  mt-5">

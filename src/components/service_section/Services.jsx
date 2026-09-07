@@ -27,9 +27,11 @@ export default function Services({servicesData})
                         <div className="w-full text-center text-black">
                        <div className="">
                         <h2 className="font-bold text-2xl md:text-3xl">{servicesData?.heading || "Engine Repair & Car Services in Grays, Essex"}</h2>
-                         <center><p className=" w-full md:w-[80%]  lg:w-[60%] text-center leading-7 tracking-[0.04em] "
+                         <center>
+                          <h3 className=" w-full md:w-[80%]  lg:w-[60%] text-center leading-7 tracking-[0.04em] "
                          style={{ fontSize:"16px",marginBottom:"20px", marginTop:"10px", color:"#4B5563"}}>
-                        {servicesData?.sub_heading || "From engine diagnostics and rebuilds to full car servicing, Vogue Fix My Motor provides reliable solutions for all makes and models across Grays and the surrounding Essex area."} </p>
+                        {servicesData?.sub_heading || "From engine diagnostics and rebuilds to full car servicing, Vogue Fix My Motor provides reliable solutions for all makes and models across Grays and the surrounding Essex area."} 
+                        </h3>
                           </center>
                         </div>
                        

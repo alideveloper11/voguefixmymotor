@@ -14,9 +14,9 @@ export default function why_choose(){
                 <h2 className="font-bold text-2xl md:text-3xl">
                     Why Choose Vogue Fix My Motor?
                 </h2>
-                <p className=" mt-5 text-[#6B7280] leading-7 tracking-[0.04em] text-[16px] font-normal max-w-[700px]">
+                <h3 className=" mt-5 text-[#6B7280] leading-7 tracking-[0.04em] text-[16px] font-normal max-w-[700px]">
   Based in Grays, Essex, our mission is to provide expert engine repair and diagnostics with a focus on quality, reliability, and customer satisfaction. Here&apos;s why drivers across Grays, Tilbury, Purfleet and surrounding areas trust us:
-</p>
+</h3>
 
           <div className=" text-left flex flex-wrap gap-6 ">
                <div className="w-full lg:w-11/24 mt-5">
