@@ -97,7 +97,7 @@ useEffect(() => {
     try {
       setLoading(true);
       
-      const serviceName = servicesData.find(
+      const serviceName = servicesData.service_list.find(
         (s) => s.slug === selectedService
       )?.name;
       
@@ -313,7 +313,7 @@ useEffect(() => {
     style={{ backgroundColor: "rgba(255,255,255,0.48)" }}
   >
     {selectedService
-      ? servicesData.find((s) => s.slug === selectedService)?.name
+      ? servicesData.service_list.find((s) => s.slug === selectedService)?.name
       : "Select Services"}
   </div>
    {!open && error.service && (
@@ -335,7 +335,7 @@ useEffect(() => {
         overflowY: "auto",
       }}
     >
-      {servicesData.map((service) => (
+      {servicesData.service_list.map((service) => (
         <div
           key={service.id}
           onClick={() => {

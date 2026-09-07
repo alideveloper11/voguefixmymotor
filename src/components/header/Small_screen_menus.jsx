@@ -99,7 +99,7 @@ export default function Small_screen_menus(){
 
       <Collapse in={openProducts} timeout="auto" unmountOnExit>
         <List sx={{ pl: 3 }} style={{height:"300px", overflow:"scroll", overflowX: "hidden",}} >
-          {servicesData.map((services) => (
+          {servicesData.service_list.map((services) => (
             <ListItem
                key={services.id}
               onClick={handleCloseMenus}

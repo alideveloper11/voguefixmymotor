@@ -1,6 +1,10 @@
 
 
-const servicesData = [
+const servicesData = {
+  heading: "Engine Repair & Car Services in Grays, Essex",
+  sub_heading: "From engine diagnostics and rebuilds to full car servicing, Vogue Fix My Motor provides reliable solutions for all makes and models across Grays and the surrounding Essex area.",
+  service_list:[
+
   {
        id: 28,
        name: "Clutch Replacement",
@@ -59,6 +63,7 @@ const servicesData = [
     img:"/All Repairs and Services.webp",
     }
 
-];
+]
+}
 
 export default servicesData;

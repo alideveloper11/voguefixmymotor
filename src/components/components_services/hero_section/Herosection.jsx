@@ -1,7 +1,7 @@
 import CallIcon from '@mui/icons-material/Call';
 
 import Link from "next/link";
-export default function Herosection()
+export default function Herosection({data})
 {
         return(
           
@@ -10,10 +10,10 @@ export default function Herosection()
       <div className="w-full my-10 items-center justify-center">
         <center><div className='w-[80%] lg:w-[60%] '>
             <h1 className="text-white font-bold  leading-12 tracking-[0.01em] text-4xl md:text-5xl">
-              Car Services & Engine Repair in Grays, Essex
+             {data.heading}
             </h1>
             <p className="text-white  leading-7 tracking-[0.015em] mt-2   text-md md:text-lg  text-justify">
-              Vogue Fix My Motor offers a full range of engine repair and car services in Grays, Essex. From diagnostics and clutch replacement to DPF cleaning and head gasket repair — all makes and models welcome.
+              {data.description}
             </p>
             </div></center>
       <div className="w-full ">

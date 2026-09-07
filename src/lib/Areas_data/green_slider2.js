@@ -1,68 +1,37 @@
 const slider = [
-  {
-    title: "Why Drivers Across Essex Choose Vogue Fix My Motor",
-    text: `Vogue Fix My Motor has built a strong reputation across Grays and the wider Essex area for delivering expert engine repairs and car services with genuine care and transparency. Drivers from Tilbury, Purfleet, Ockendon, Hornchurch, Basildon, Chelmsford, and beyond choose us because we consistently deliver results they can rely on.
 
-Unlike large dealerships, we offer a personal, honest service with direct communication from our technicians. You are never just a job number — we take time to explain what is wrong, what needs to be done, and how much it will cost before any work begins.
+    {
+      title: "Specialist Knowledge Built Around Prestige Engines",
+      text: `Range Rover, Land Rover, BMW and Audi engines are built to a different standard, and they demand a workshop that understands their specific tolerances, materials and electronics.
+Our technicians work exclusively with prestige and performance vehicles, so every reconditioning job reflects a deep, model-specific understanding rather than generic engine repair guesswork.
+From aluminium block engines to complex turbocharged and hybrid systems, we've reconditioned a wide range of engine types used across these four manufacturers.
+This focused specialism is why customers across Essex choose us over general garages for engine rebuild work.`
+    },
 
-Our workshop in Grays is equipped with modern diagnostic equipment and quality parts, allowing us to tackle everything from routine servicing to complex engine rebuilds. We work on all makes and models, including popular brands like BMW, Ford, Volkswagen, Range Rover, Land Rover, Audi, and Mercedes.
+    {
+      title: "Precise Diagnostics Before Any Work Begins",
+      text: `Every reconditioning job starts with a full diagnostic assessment, using manufacturer-level equipment to identify the true cause of an engine fault rather than just its symptoms.
+We check compression, oil pressure, timing components and internal wear patterns to determine whether a full reconditioning, partial rebuild, or targeted repair is the right solution.
+You'll receive a clear explanation of the findings along with a same-day quote wherever possible, so you can make an informed decision without unnecessary delay.
+This diagnostic-first approach protects you from paying for work your engine doesn't actually need.`
+    },
 
-Call us today for a free, no-obligation quote and find out why customers across Essex trust Vogue Fix My Motor.`
-  },
+    {
+      title: "Reconditioning Done to Original Specification",
+      text: `Once a fault is confirmed, our reconditioning process restores the engine to as close to original manufacturer specification as possible, using precision machining and quality-checked components throughout.
+Pistons, bearings, gaskets and internal seals are inspected or replaced as required, with every clearance measured against factory tolerances rather than estimated by eye.
+We pressure-test and run each reconditioned engine before it goes back into the vehicle, checking oil flow, compression and overall performance.
+This attention to detail is what gives our reconditioned engines the reliability owners expect from a prestige vehicle.`
+    },
 
-  {
-    title: "All Makes & Models Serviced in Grays, Essex",
-    text: `At Vogue Fix My Motor, we have the expertise and diagnostic equipment to service and repair virtually any vehicle on the road. From everyday family cars and hatchbacks to performance SUVs and luxury vehicles, our team handles all makes and models with equal skill and attention.
+    {
+      title: "Straightforward Pricing and Honest Communication",
+      text: `Luxury car engine work has a reputation for unclear pricing, which is why we quote clearly before any reconditioning or rebuild begins and explain exactly what's included.
+There are no vague line items or unexpected extras added part-way through the job — if anything changes once we're inside the engine, we'll always contact you first.
+Customers across Essex, including Chelmsford and Colchester, tell us this transparency is a major reason they return for future servicing and repair work.
+It's engine reconditioning delivered the way it should be: skilled, honest, and easy to understand.`
+    }
+  ]
 
-We regularly work on popular brands including Range Rover, Land Rover, BMW, Ford, Volkswagen, Audi, Mercedes-Benz, Toyota, Honda, Vauxhall, and many more. No matter what you drive, you can expect the same high standard of workmanship and care.
-
-Our technicians keep their skills and tools up to date with modern automotive technology, ensuring we can service both classic older vehicles and the very latest models equipped with advanced electronics and hybrid systems.
-
-Whether you need a simple oil change, a complex engine rebuild, or anything in between, bring your vehicle to Vogue Fix My Motor in Grays, Essex.`
-  },
-
-  {
-    title: "Transparent Pricing & No Hidden Charges",
-    text: `At Vogue Fix My Motor, we believe every customer deserves honest, straightforward pricing. Before any work begins, we provide a clear, itemised quote covering all parts and labour. There are no hidden fees, no surprise costs, and no unnecessary extras added to your bill.
-
-We use our diagnostic expertise to identify exactly what your vehicle needs — and nothing more. This approach not only saves you money but also builds the trust and confidence that keeps our customers returning year after year.
-
-Our competitive pricing means you get dealer-quality workmanship at a fraction of the main dealer cost. We regularly save our customers significant amounts compared to main dealer prices, without ever compromising on the quality of parts or repairs.
-
-Get your free quote today. Simply call us, use our online form, or enter your registration on our website.`
-  },
-  {
-  title: "Collection & Delivery Service Available in Essex",
-  text: `We understand that arranging a garage visit can be difficult when your vehicle is not in a safe condition to drive, or when your schedule simply does not allow it. That is why Vogue Fix My Motor offers a convenient vehicle collection and delivery service across Essex.
-
-Our team can collect your vehicle from your home or workplace and return it once the repairs are complete. This service removes the hassle from the repair process and ensures your car receives the expert attention it needs without disrupting your daily routine.
-
-We use experienced drivers and treat every vehicle with the utmost care during collection and delivery. All vehicles are fully insured during transit, giving you complete peace of mind throughout the process.
-
-Contact us today to arrange a collection or learn more about our delivery service across Grays and the surrounding Essex area.`
-},
-
-{
-  title: "Preventive Maintenance — Avoid Costly Repairs",
-  text: `One of the most cost-effective things you can do as a vehicle owner is to invest in regular preventive maintenance. At Vogue Fix My Motor in Grays, Essex, we provide thorough servicing and inspection packages designed to catch small problems before they become expensive failures.
-
-Regular oil changes, fluid checks, filter replacements, and system inspections keep your engine running efficiently and extend its overall lifespan. Our technicians use diagnostic tools to scan for developing faults during every service visit, alerting you to potential issues early.
-
-Preventive maintenance is especially important for high-mileage vehicles and older cars that may not show obvious warning signs. A small investment in regular servicing can save you hundreds or even thousands of pounds in major repair costs down the line.
-
-Book your vehicle in for a service or inspection today at Vogue Fix My Motor.`
-},
-
-{
-  title: "Engine Rebuild Specialists — Grays, Essex",
-  text: `For vehicles with serious engine damage, a full or partial engine rebuild is often the most cost-effective and reliable solution. Vogue Fix My Motor specialises in engine rebuilds for all makes and models, with a proven track record of returning vehicles to excellent working condition.
-
-Our engine rebuild process begins with a full strip-down and detailed inspection to assess the extent of the damage. We use only quality, manufacturer-approved parts throughout the rebuild, ensuring longevity and performance once the engine is back in the vehicle.
-
-Throughout the rebuild process, we keep our customers fully informed with regular updates, photos, and clear timelines. We understand how important your vehicle is to your daily life, and we work efficiently to minimise downtime while never cutting corners.
-
-All engine rebuilds at Vogue Fix My Motor come with a warranty. Contact us today to discuss your vehicle and get a free rebuild assessment.`
-}
-];
 
 export default slider;
