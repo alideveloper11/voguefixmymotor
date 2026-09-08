@@ -16,6 +16,7 @@ import Reviews from "@/components/components_reviews/reviews/Reviews";
 import reviewsData from "@/lib/reviewsData";
 import saleParts from "@/lib/SaleParts";
 import LatestVideosData from "@/lib/LatestVideosData";
+import data from "@/lib/services_data/call_to_action";
 export const metadata = {
   alternates: {
     canonical: "https://voguefixmymotor.co.uk",
@@ -35,7 +36,7 @@ export default function Home() {
                     <div className="w-24/24 text-center"> <Green_slider1 /> </div> 
                                   
                     <div className="w-24/24 text-center"> <Explore/> </div>                 
-                    <div className="w-24/24 text-center"> <EngineCallToSection /> </div>   
+                    <div className="w-24/24 text-center"> <EngineCallToSection data ={data } /> </div>   
                     <div className="w-24/24 text-center"> <Areas_links locations ={locations } /> </div>
                     <div className="w-24/24 text-center"> <FAQ faq_data={faq_data} /> </div>
                     <div className="w-24/24 text-center"> <LatestVideos LatestVideosData={LatestVideosData}/> </div>

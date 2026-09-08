@@ -1,32 +1,36 @@
 const reviewsData = [
+
   {
     id: 1,
-    name: "Raymond Wilson",
-    time: "a year ago",
-    text: "Had wonderful experience with Vogue techics, this guys replaced the engine of my Land Rover discovery sport after the old one gave up. The customer service, support and after care was great. They work tirelessly to ensure that the car was fixed in timely manner and regular updates while the car was with them.",
+    name: "Sarah M.",
+    time: "12 days ago",
+    text: "Booked an interim service and the team spotted a fault the dealer had missed twice. Clear pricing, no pressure, and my Discovery runs perfectly now.",
     rating: 5
   },
+
   {
     id: 2,
-    name: "Jay B",
-    time: "6 months ago",
-    text: "Great customer service here!! Needed something done to my car and they fit me in last minute and Adam ensured the team accommodated to my childcare needs! 10/10, I’ve never received such good service from a garage like this. Adam was friendly, professional, kept me well updated and went above and beyond in helping me manoeuvre around. If you’re looking for any mechanics in Thurrock, come here!",
+    name: "James T.",
+    time: "7 days ago",
+    text: "Needed urgent recovery near Purfleet after a breakdown. They arrived fast, diagnosed the issue on-site, and had me back on the road within the hour.",
     rating: 5
   },
+
   {
     id: 3,
-    name: "Balbir Singh",
-    time: "2 months ago",
-    text: "Tremendous experience with vogue technics engine work done on my bmw . Very professional staff and cooperative appreciate efforts of Jack, vic, az and John they know how to do a quality engine work - even they wash my car highly recommended",
+    name: "Priya K.",
+    time: "19 days ago",
+    text: "Switched from the main dealer after years of overpriced servicing. Same specialist-level knowledge on my Range Rover Sport, at a fraction of the cost.",
     rating: 5
   },
- {
-          id: 12,
-          name: "Emily Evans",
-          time: "5 months ago",
-          text: "What an amazing business, recently had a vehicle repaired with them and I couldn’t have asked for more. Jack was informative and so helpful with any questions I had, the work was completed to the highest of standards at a very competitive rate. They managed to help me out in a really difficult situation! So Thankful for you guys!",
-          rating: 5
-        },
+
+  {
+    id: 4,
+    name: "Daniel R.",
+    time: "26 days ago",
+    text: "Full engine rebuild after a head gasket failure. Kept me updated at every stage and the workmanship has been faultless six months on.",
+    rating: 5
+  }
 
 ];
 

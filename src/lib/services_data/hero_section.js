@@ -1,5 +1,9 @@
 const herosection_data = {
-     heading: "Car Services & Engine Repair in Grays, Essex",
-     description: "Vogue Fix My Motor offers a full range of engine repair and car services in Grays, Essex. From diagnostics and clutch replacement to DPF cleaning and head gasket repair — all makes and models welcome.",
+
+    heading: "Range Rover & Land Rover Car Services in Grays, Essex",
+
+    description: "Vogue Fix My Motor is Grays' trusted independent specialist for Range Rover and Land Rover care, offering expert diagnostics, servicing and repairs across Essex — backed by genuine expertise and honest pricing.",
+
 }
+
 export default herosection_data;

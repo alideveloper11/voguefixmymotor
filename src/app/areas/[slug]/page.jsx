@@ -50,7 +50,7 @@ export default async function ServiceDetail({ params }) {
       <div className="w-24/24 text-center"><Green_slider slides={mergedSlides} image={areas.green_slider.img} /></div>  
         
         <div className="w-24/24 text-center"><Requestaqoute content={areas.requestqoute} /></div> 
-          <div className="w-24/24 text-center"><EngineCallToSection /></div> 
+          <div className="w-24/24 text-center"><EngineCallToSection data={areas.call_to_action_data} /></div> 
           <div className="w-24/24 text-center"><Services servicesData={areas.servicesData} /></div>
           <div className="w-24/24 text-center"><SaleParts saleParts={saleParts}/></div>
            <div className="w-24/24 text-center  mb-5"><FAQ faq_data={areas.faq}  /></div>   

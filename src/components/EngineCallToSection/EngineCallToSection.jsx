@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
 import { normalizeRegistration } from "@/lib/registration";
 
-export default function EngineCallToSection()
+export default function EngineCallToSection({ data }) 
 {
          const [regNumber, setRegNumber] = useState("");
          
@@ -31,14 +31,13 @@ export default function EngineCallToSection()
                                  <div className="w-full leading-7 tracking-[0.04em] sm:w-24/24 md:w-12/24 lg:w-12/24 flex items-center justify-center">
                                  <div  className="  m-2  items-center justify-center">
                                         <h2 className="text-left leading-10 tracking-[0.04em]  py-2 text-white text-2xl md:text-3xl font-bold">
-                                       Book Your Car in Today
+                                        {data.heading ? data.heading : "Noticing Knocking, Smoke or Power Loss?"}
                                         </h2>
 
                                         <p  className="text-left py-2 text-white leading-7 tracking-[0.04em] text-[16px] " >
-                                            Whether it's a routine service, an MOT, or a fault you can't quite pin down, our Grays workshop is ready to help. Get a fast, honest quote before you commit to anything.
-                                             </p>
-                                             <p>Same-day diagnostics are often available, and we'll always explain what we find in plain, straightforward terms.</p>
-                                                   </div>
+                                            {data.text || "If your Range Rover, BMW, Audi or Land Rover is showing early signs of engine trouble, don't leave it until it becomes a major repair. Our specialists offer same-day diagnostics with a clear, honest quote to follow. Early diagnosis almost always costs less than waiting, and it protects your engine's long-term reliability."}
+                                              </p>
+                                             </div>
                                  </div>
                                  <div className="w-full sm:w-24/24 md:w-12/24 lg:w-12/24 flex items-center justify-center">
                                  <div style={{backgroundColor:"black", borderRadius:"10px"}} className=" w-full m-2  shadow-[0_0_10px_#4a4a4a]" >

@@ -13,7 +13,7 @@ return (
   viewport={{ once: true }}
    className="flex w-full flex-wrap py-5 bg-white leading-7 tracking-[0.04em] text-black" style={{colorScheme:"light"}}>
         <div className="w-full md:w-[70%] text-left mx-5 md:mx-15">
-          <p className="block md:inline text-2xl md:text-3xl font-bold">{data.heading},</p>
+          <p className="block md:inline text-2xl md:text-3xl font-bold">{data.heading}{" "}</p>
           <p className="block md:inline text-2xl md:text-3xl font-bold"  style={{ color:"#059669"}}>{data.greenHeading}</p>
         </div>  
         
@@ -26,9 +26,9 @@ return (
         
         <div className="w-full text-left">
         <ul className="list-disc mx-10 md:mx-20 mt-5">
-  {data.bullets.map((item,index)=>(
-    <li key={index}>{item}</li>
-  ))}
+ {data.bullets?.map((item, index) => (
+  <li key={index}>{item}</li>
+))}
 </ul>
         </div>
         

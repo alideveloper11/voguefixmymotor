@@ -7,7 +7,10 @@
   heading: "Chelmsford Luxury Car Engine Reconditioning Specialist",
   description: "Expert engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across Chelmsford, Broomfield, Springfield and Great Baddow — precision workmanship, honest pricing, fast turnaround.",
 },
-
+call_to_action_data: {
+    heading: "Worried About Engine Noise, Smoke or Power Loss?",
+    text: "If your Range Rover, BMW, Audi or Land Rover is showing warning signs, don't wait for a small issue to become a costly failure. Our Chelmsford specialists can diagnose the problem and give you a clear, honest quote the same day. Early diagnosis is almost always cheaper than delayed repair, and it protects the long-term health of your engine.",
+},
   green_slider: {
   img: "/vogue fix my motor image 9.webp",
   items: [
@@ -249,7 +252,10 @@ Reviews: [
   heading: "Colchester Luxury Car Engine Reconditioning Specialist",
   description: "Specialist engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across Colchester, Wivenhoe, Stanway and Marks Tey — precise diagnostics, honest pricing, engines built to last.",
 },
-
+call_to_action_data: {
+    heading: "Noticing Knocking, Smoke or Power Loss?",
+    text: "If your Range Rover, BMW, Audi or Land Rover is showing early signs of engine trouble, don't leave it until it becomes a major repair. Our specialists provide same-day diagnostics with an honest, clear quote to follow. Early diagnosis almost always costs less than waiting, and it protects your engine's long-term reliability.",
+},
   green_slider: {
   img: "/vogue fix my motor image 9.webp",
   items: [
@@ -480,7 +486,10 @@ served: {
   description: "Specialist engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across Southend-on-Sea, Leigh-on-Sea, Westcliff-on-Sea and Rochford — precise diagnostics, honest pricing, engines built to last."
 },
 
-
+call_to_action_data: {
+    heading: "Noticing Knocking, Smoke or Power Loss?",
+    text: "If your Range Rover, BMW, Audi or Land Rover is showing early signs of engine trouble, don't leave it until it becomes a major repair. Our specialists provide same-day diagnostics with an honest, clear quote to follow. Early diagnosis almost always costs less than waiting, and it protects your engine's long-term reliability.",
+},
   green_slider: {
   img: "/vogue fix my motor image 9.webp",
   items: [
@@ -693,7 +702,10 @@ requestqoute: {
     heading: "Basildon Luxury Car Engine Reconditioning Specialist",
     description: "Specialist engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across Basildon, Pitsea, Laindon and Wickford — precise diagnostics, honest pricing, engines built to last.",
   },
-
+call_to_action_data: {
+    heading: "Noticing Knocking, Smoke or Power Loss?",
+    text: "If your Range Rover, BMW, Audi or Land Rover is showing early signs of engine trouble, don't leave it until it becomes a major repair. Our specialists provide same-day diagnostics with an honest, clear quote to follow. Early diagnosis almost always costs less than waiting, and it protects your engine's long-term reliability.",
+},
   text: "We provide specialist engine services and vehicle recovery in Grays.",
 
   green_slider: {
@@ -898,7 +910,10 @@ Motorists from Basildon, Pitsea and Laindon return to us because our recondition
   heading: "Harlow Luxury Car Engine Reconditioning Specialist",
   description: "Specialist engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across Harlow, Old Harlow, Church Langley and Sawbridgeworth — expert diagnostics, honest pricing, dependable results.",
 },
-
+call_to_action_data: {
+    heading: "Hearing Knocking, Smoke or Reduced Power?",
+    text: "If your Range Rover, BMW, Audi or Land Rover is showing signs of engine trouble, acting early can save you significant money and inconvenience. Our Harlow specialists offer same-day diagnostics with a clear, honest quote to follow. Delaying a diagnosis rarely helps — early intervention protects your engine and your budget alike.",
+},
     text:"We provide specialist engine services and vehicle recovery in Grays.",
 green_slider: {
   img: "/vogue fix my motor image 9.webp",
@@ -1175,7 +1190,10 @@ herosection_data: {
   heading: "Brentwood Luxury Car Engine Reconditioning Specialist",
   description: "Expert engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across Brentwood, Shenfield, Ingatestone and Warley — precise diagnostics, honest pricing, engines built to last.",
 },
-
+call_to_action_data: {
+    heading: "Noticing Knocking, Smoke or Power Loss?",
+    text: "If your Range Rover, BMW, Audi or Land Rover is showing early signs of engine trouble, don't leave it until it becomes a major repair. Our specialists offer same-day diagnostics with a clear, honest quote to follow. Early diagnosis almost always costs less than waiting, and it protects your engine's long-term reliability.",
+},
     text:"We provide specialist engine services and vehicle recovery in Grays.",
  green_slider: {
   img: "/vogue fix my motor image 9.webp",
@@ -1413,7 +1431,10 @@ served: {
   heading: "Billericay Luxury Car Engine Reconditioning Specialist",
   description: "Expert engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across Billericay, Wickford, Basildon and Ramsden Heath — careful diagnostics, fair pricing, engines built to last."
 },
-
+call_to_action_data: {
+    heading: "Noticing Knocking, Smoke or Power Loss?",
+    text: "If your Range Rover, BMW, Audi or Land Rover is showing early signs of engine trouble, don't leave it until it becomes a major repair. Our specialists offer same-day diagnostics with a clear, honest quote to follow. Early diagnosis almost always costs less than waiting, and it protects your engine's long-term reliability.",
+},
     text:"We provide specialist engine services and vehicle recovery in Grays.",
   green_slider: {
   img: "/vogue fix my motor image 9.webp",
@@ -1635,7 +1656,10 @@ faq: [
     heading: "Grays Luxury Car Engine Reconditioning Specialist",
     description: "Expert engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across Grays, Chafford Hundred, Tilbury and West Thurrock — precise diagnostics, honest pricing, engines built to last.",
   },
-
+call_to_action_data: {
+    heading: "Noticing Knocking, Smoke or Power Loss?",
+    text: "If your Range Rover, BMW, Audi or Land Rover is showing early signs of engine trouble, don't leave it until it becomes a major repair. Our specialists provide same-day diagnostics with an honest, clear quote to follow. Early diagnosis almost always costs less than waiting, and it protects your engine's long-term reliability.",
+},
   text: "We provide specialist engine services and vehicle recovery in Grays.",
 
   green_slider: {
@@ -1851,7 +1875,10 @@ Motorists from Grays, Chafford Hundred and Tilbury return to us because our reco
   heading: "Epping Luxury Car Engine Reconditioning Specialist",
   description: "Expert engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across Epping, Theydon Bois, North Weald and Epping Forest — careful diagnostics, fair pricing, engines built to last.",
 },
-
+call_to_action_data: {
+    heading: "Noticing Knocking, Smoke or Power Loss?",
+    text: "If your Range Rover, BMW, Audi or Land Rover is showing early signs of engine trouble, don't leave it until it becomes a major repair. Our Epping specialists provide same-day diagnostics with an honest, clear quote to follow. Early diagnosis almost always costs less than waiting, and it protects your engine's long-term reliability.",
+},
     text:"We provide specialist engine services and vehicle recovery in Grays.",
   green_slider: {
   img: "/vogue fix my motor image 9.webp",
@@ -2073,7 +2100,11 @@ requestqoute: {
   heading: "Loughton Luxury Car Engine Reconditioning Specialist",
   description: "Specialist engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across Loughton, Buckhurst Hill, Chigwell and Debden — precise diagnostics, honest pricing, engines built to last.",
 },
-
+call_to_action_data: {
+    heading: "Noticing Knocking, Smoke or Power Loss?",
+    text: "If your Range Rover, BMW, Audi or Land Rover is showing early signs of engine trouble, don't leave it until it becomes a major repair. Our specialists provide same-day diagnostics with an honest, clear quote to follow. Early diagnosis almost always costs less than waiting, and it protects your engine's long-term reliability.",
+}
+,
     text:"We provide specialist engine services and vehicle recovery in Grays.",
      green_slider: {
   img: "/vogue fix my motor image 9.webp",
@@ -2284,6 +2315,10 @@ faq: [
    herosection_data: {
   heading: "Witham Luxury Car Engine Reconditioning Specialist",
   description: "Specialist engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across Witham, Braintree, Kelvedon and Hatfield Peverel — precise diagnostics, honest pricing, engines built to last."
+},
+call_to_action_data: {
+    heading: "Noticing Knocking, Smoke or Power Loss?",
+    text: "If your Range Rover, BMW, Audi or Land Rover is showing early signs of engine trouble, don't leave it until it becomes a major repair. Our specialists provide same-day diagnostics with an honest, clear quote to follow. Early diagnosis almost always costs less than waiting, and it protects your engine's long-term reliability.",
 },
 
     text:"We provide specialist engine services and vehicle recovery in Grays.",
@@ -2497,7 +2532,10 @@ faq: [
     heading: "Maldon Luxury Car Engine Reconditioning Specialist",
     description: "Specialist engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across Maldon, Heybridge, Tollesbury and Danbury — precise diagnostics, honest pricing, engines built to last.",
   },
-
+call_to_action_data: {
+    heading: "Noticing Knocking, Smoke or Power Loss?",
+    text: "If your Range Rover, BMW, Audi or Land Rover is showing early signs of engine trouble, don't leave it until it becomes a major repair. Our specialists provide same-day diagnostics with an honest, clear quote to follow. Early diagnosis almost always costs less than waiting, and it protects your engine's long-term reliability.",
+},
   text: "We provide specialist engine services and vehicle recovery in Grays.",
 
   green_slider: {
@@ -2705,7 +2743,10 @@ Motorists from Maldon, Heybridge and Tollesbury return to us because our recondi
   heading: "Rayleigh Luxury Car Engine Reconditioning Specialist",
   description: "Specialist engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across Rayleigh, Hockley, Rawreth and Hullbridge — precise diagnostics, fair pricing, engines rebuilt to last.",
 },
-
+call_to_action_data: {
+    heading: "Hearing Knocking, Smoke or Losing Power?",
+    text: "If your Range Rover, BMW, Audi or Land Rover is showing early signs of engine trouble, don't wait for a minor issue to become a major repair. Our Rayleigh specialists offer same-day diagnostics with a clear, honest quote to follow. Early diagnosis usually costs far less than delaying, and it protects your engine's long-term health.",
+},
     text:"We provide specialist engine services and vehicle recovery in Grays.",
     green_slider: {
   img: "/vogue fix my motor image 9.webp",
@@ -2925,7 +2966,11 @@ requestqoute: {
   heading: "Wickford Luxury Car Engine Reconditioning Specialist",
   description: "Expert engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across Wickford, Basildon, Runwell and Rawreth — careful diagnostics, fair pricing, engines built to last.",
 },
-
+call_to_action_data: {
+    heading: "Noticing Knocking, Smoke or Power Loss?",
+    text: "If your Range Rover, BMW, Audi or Land Rover is showing early signs of engine trouble, don't leave it until it becomes a major repair. Our specialists provide same-day diagnostics with an honest, clear quote to follow. Early diagnosis almost always costs less than waiting, and it protects your engine's long-term reliability.",
+}
+,
     text:"We provide specialist engine services and vehicle recovery in Grays.",
 green_slider: {
   img: "/vogue fix my motor image 9.webp",
@@ -3140,7 +3185,11 @@ requestqoute: {
   heading: "Canvey Island Luxury Car Engine Reconditioning Specialist",
   description: "Expert engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across Canvey Island, South Benfleet, Hadleigh and Leigh-on-Sea — careful diagnostics, fair pricing, engines built to last."
 },
-
+call_to_action_data: {
+    heading: "Noticing Knocking, Smoke or Power Loss?",
+    text: "If your Range Rover, BMW, Audi or Land Rover is showing early signs of engine trouble, don't leave it until it becomes a major repair. Our specialists provide same-day diagnostics with an honest, clear quote to follow. Early diagnosis almost always costs less than waiting, and it protects your engine's long-term reliability.",
+}
+,
     text:"We provide specialist engine services and vehicle recovery in Grays.",
  
 green_slider: {
@@ -3359,7 +3408,10 @@ requestqoute: {
     heading: "South Benfleet Luxury Car Engine Reconditioning Specialist",
     description: "Expert engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across South Benfleet, Canvey Island, Hadleigh and Thundersley — careful diagnostics, fair pricing, engines built to last.",
   },
-
+call_to_action_data: {
+    heading: "Noticing Knocking, Smoke or Power Loss?",
+    text: "If your Range Rover, BMW, Audi or Land Rover is showing early signs of engine trouble, don't leave it until it becomes a major repair. Our specialists offer same-day diagnostics with a clear, honest quote to follow. Early diagnosis almost always costs less than waiting, and it protects your engine's long-term reliability.",
+},
   text: "We provide specialist engine services and vehicle recovery in Grays.",
 
   green_slider: {
@@ -3583,7 +3635,10 @@ Drivers from South Benfleet, Canvey Island and Hadleigh keep returning because o
   heading: "Stanford-le-Hope Luxury Car Engine Reconditioning Specialist",
   description: "Specialist engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across Stanford-le-Hope, Corringham, Horndon-on-the-Hill and Grays — precise diagnostics, straightforward pricing, engines built to last.",
 },
-
+call_to_action_data: {
+    heading: "Noticing Knocking, Smoke or Power Loss?",
+    text: "If your Range Rover, BMW, Audi or Land Rover is showing early signs of engine trouble, don't leave it until it becomes a major repair. Our specialists offer same-day diagnostics with a clear, honest quote to follow. Early diagnosis almost always costs less than waiting, and it protects your engine's long-term reliability.",
+},
     text:"We provide specialist engine services and vehicle recovery in Grays.",
 green_slider: {
   img: "/vogue fix my motor image 9.webp",
@@ -3799,7 +3854,10 @@ served: {
   heading: "Tilbury Luxury Car Engine Reconditioning Specialist",
   description: "Specialist engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across Tilbury, Chadwell St Mary, Grays and Gravesend — precise diagnostics, honest pricing, engines built to last.",
 },
-
+call_to_action_data: {
+    heading: "Noticing Knocking, Smoke or Power Loss?",
+    text: "If your Range Rover, BMW, Audi or Land Rover is showing early signs of engine trouble, don't leave it until it becomes a major repair. Our specialists provide same-day diagnostics with an honest, clear quote to follow. Early diagnosis almost always costs less than waiting, and it protects your engine's long-term reliability.",
+},
     text:"We provide specialist engine services and vehicle recovery in Grays.",
   green_slider: {
   img: "/vogue fix my motor image 9.webp",
@@ -4015,7 +4073,10 @@ served: {
   heading: "Clacton-on-Sea Luxury Car Engine Reconditioning Specialist",
   description: "Specialist engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across Clacton-on-Sea, Frinton-on-Sea, Walton-on-the-Naze and Jaywick — precise diagnostics, honest pricing, engines built to last."
 },
-
+call_to_action_data: {
+    heading: "Noticing Knocking, Smoke or Power Loss?",
+    text: "If your Range Rover, BMW, Audi or Land Rover is showing early signs of engine trouble, don't leave it until it becomes a major repair. Our specialists provide same-day diagnostics with an honest, clear quote to follow. Early diagnosis almost always costs less than waiting, and it protects your engine's long-term reliability.",
+},
     text:"We provide specialist engine services and vehicle recovery in Grays.",
   
 green_slider: {
@@ -4235,7 +4296,10 @@ served: {
     heading: "Frinton-on-Sea Luxury Car Engine Reconditioning Specialist",
     description: "Specialist engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across Frinton-on-Sea, Walton-on-the-Naze, Kirby Cross and Clacton-on-Sea — precise diagnostics, honest pricing, engines built to last.",
   },
-
+call_to_action_data: {
+    heading: "Noticing Knocking, Smoke or Power Loss?",
+    text: "If your Range Rover, BMW, Audi or Land Rover is showing early signs of engine trouble, don't leave it until it becomes a major repair. Our specialists provide same-day diagnostics with an honest, clear quote to follow. Early diagnosis almost always costs less than waiting, and it protects your engine's long-term reliability.",
+},
   green_slider: {
     img: "/vogue fix my motor image 9.webp",
     items: [
@@ -4440,7 +4504,10 @@ Motorists from Frinton-on-Sea, Walton-on-the-Naze and Kirby Cross return to us b
   heading: "Walton-on-the-Naze Luxury Car Engine Reconditioning Specialist",
   description: "Expert engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across Walton-on-the-Naze, Frinton-on-Sea, Kirby Cross and Clacton-on-Sea — careful diagnostics, honest pricing, engines built to last.",
 },
-
+call_to_action_data: {
+    heading: "Noticing Knocking, Smoke or Power Loss?",
+    text: "If your Range Rover, BMW, Audi or Land Rover is showing early signs of engine trouble, don't leave it until it becomes a major repair. Our specialists provide same-day diagnostics with an honest, clear quote to follow. Early diagnosis almost always costs less than waiting, and it protects your engine's long-term reliability.",
+},
   green_slider: {
   img: "/vogue fix my motor image 9.webp",
   items: [
@@ -4663,7 +4730,11 @@ requestqoute: {
   heading: "Castle Point Luxury Car Engine Reconditioning Specialist",
   description: "Expert engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across Castle Point, Canvey Island, South Benfleet and Hadleigh — careful diagnostics, fair pricing, engines built to last.",
 },
-
+call_to_action_data: {
+    heading: "Noticing Knocking, Smoke or Power Loss?",
+    text: "If your Range Rover, BMW, Audi or Land Rover is showing early signs of engine trouble, don't leave it until it becomes a major repair. Our specialists offer same-day diagnostics with a clear, honest quote to follow. Early diagnosis almost always costs less than waiting, and it protects your engine's long-term reliability.",
+}
+,
  green_slider: {
   img: "/vogue fix my motor image 9.webp",
   items: [
@@ -4883,7 +4954,10 @@ requestqoute: {
     heading: "Epping Forest Luxury Car Engine Reconditioning Specialist",
     description: "Expert engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across the Epping Forest district, Loughton, Chigwell and Waltham Abbey — careful diagnostics, fair pricing, engines built to last.",
   },
-
+call_to_action_data: {
+    heading: "Noticing Knocking, Smoke or Power Loss?",
+    text: "If your Range Rover, BMW, Audi or Land Rover is showing early signs of engine trouble, don't leave it until it becomes a major repair. Our specialists offer same-day diagnostics with a clear, honest quote to follow. Early diagnosis almost always costs less than waiting, and it protects your engine's long-term reliability.",
+},
   green_slider: {
     img: "/vogue fix my motor image 9.webp",
     items: [
@@ -5108,7 +5182,11 @@ Drivers from across the Epping Forest district, Loughton and Chigwell keep retur
     heading: "Rochford Luxury Car Engine Reconditioning Specialist",
     description: "Expert engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across Rochford, Hockley, Ashingdon and Southend-on-Sea — careful diagnostics, fair pricing, engines built to last.",
   },
-
+call_to_action_data: {
+    heading: "Noticing Knocking, Smoke or Power Loss?",
+    text: "If your Range Rover, BMW, Audi or Land Rover is showing early signs of engine trouble, don't leave it until it becomes a major repair. Our specialists offer same-day diagnostics with a clear, honest quote to follow. Early diagnosis almost always costs less than waiting, and it protects your engine's long-term reliability.",
+}
+,
   green_slider: {
     img: "/vogue fix my motor image 9.webp",
     items: [
@@ -5353,7 +5431,10 @@ Drivers from Rochford, Hockley and Ashingdon keep returning because our recondit
   heading: "Tendring Luxury Car Engine Reconditioning Specialist",
   description: "Specialist engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across Tendring, Clacton-on-Sea, Frinton-on-Sea and Harwich — precise diagnostics, honest pricing, engines built to last.",
 },
-
+call_to_action_data: {
+  heading: "Book Your Car in Today",
+  text: "Whether it's a routine service, an MOT, or a fault you can't quite pin down, our Grays workshop is ready to help. Get a fast, honest quote before you commit to anything. Same-day diagnostics are often available, and we'll always explain what we find in plain, straightforward terms.",
+},
    green_slider: {
   img: "/vogue fix my motor image 9.webp",
   items: [
@@ -5571,7 +5652,10 @@ faq: [
   heading: "Uttlesford Luxury Car Engine Reconditioning Specialist",
   description: "Specialist engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across Uttlesford, Saffron Walden, Great Dunmow and Stansted Mountfitchet — precise diagnostics, honest pricing, engines built to last.",
 },
-
+call_to_action_data: {
+    heading: "Noticing Knocking, Smoke or Power Loss?",
+    text: "If your Range Rover, BMW, Audi or Land Rover is showing early signs of engine trouble, don't leave it until it becomes a major repair. Our specialists provide same-day diagnostics with an honest, clear quote to follow. Early diagnosis almost always costs less than waiting, and it protects your engine's long-term reliability.",
+},
   green_slider: {
   img: "/vogue fix my motor image 9.webp",
   items: [
@@ -5786,7 +5870,10 @@ requestqoute: {
     heading: "Romford Luxury Car Engine Reconditioning Specialist",
     description: "Specialist engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across Romford, Gidea Park, Hornchurch and Chadwell Heath — precise diagnostics, honest pricing, engines built to last.",
   },
-
+call_to_action_data: {
+    heading: "Noticing Knocking, Smoke or Power Loss?",
+    text: "If your Range Rover, BMW, Audi or Land Rover is showing early signs of engine trouble, don't leave it until it becomes a major repair. Our specialists provide same-day diagnostics with an honest, clear quote to follow. Early diagnosis almost always costs less than waiting, and it protects your engine's long-term reliability.",
+},
   green_slider: {
     img: "/vogue fix my motor image 9.webp",
     items: [
@@ -6002,7 +6089,10 @@ Motorists from Romford, Gidea Park and Hornchurch return to us because our recon
     heading: "Ilford Luxury Car Engine Reconditioning Specialist",
     description: "Specialist engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across Ilford, Gants Hill, Seven Kings and Barkingside — precise diagnostics, honest pricing, engines built to last.",
   },
-
+call_to_action_data: {
+    heading: "Noticing Knocking, Smoke or Power Loss?",
+    text: "If your Range Rover, BMW, Audi or Land Rover is showing early signs of engine trouble, don't leave it until it becomes a major repair. Our specialists provide same-day diagnostics with an honest, clear quote to follow. Early diagnosis almost always costs less than waiting, and it protects your engine's long-term reliability.",
+},
   green_slider: {
     img: "/vogue fix my motor image 9.webp",
     items: [
@@ -6206,7 +6296,10 @@ servicesData:{
   heading: "Barking Luxury Car Engine Reconditioning Specialist",
   description: "Expert engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across Barking, Ilford, Dagenham and East Ham — precise diagnostics, honest pricing, engines built to last.",
 },
-
+call_to_action_data: {
+    heading: "Noticing Knocking, Smoke or Power Loss?",
+    text: "If your Range Rover, BMW, Audi or Land Rover is showing early signs of engine trouble, don't leave it until it becomes a major repair. Our specialists offer same-day diagnostics with a clear, honest quote to follow. Early diagnosis almost always costs less than waiting, and it protects your engine's long-term reliability.",
+},
 
    green_slider: {
   img: "/vogue fix my motor image 9.webp",
@@ -6423,7 +6516,10 @@ faq: [
   heading: "Dagenham Luxury Car Engine Reconditioning Specialist",
   description: "Expert engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across Dagenham, Barking, Rush Green and Chadwell Heath — careful diagnostics, fair pricing, engines built to last.",
 },
-
+call_to_action_data: {
+    heading: "Noticing Knocking, Smoke or Power Loss?",
+    text: "If your Range Rover, BMW, Audi or Land Rover is showing early signs of engine trouble, don't leave it until it becomes a major repair. Our specialists provide same-day diagnostics with an honest, clear quote to follow. Early diagnosis almost always costs less than waiting, and it protects your engine's long-term reliability.",
+},
   green_slider: {
   img: "/vogue fix my motor image 9.webp",
   items: [
@@ -6653,7 +6749,11 @@ served: {
     heading: "Rainham Luxury Car Engine Reconditioning Specialist",
     description: "Expert engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across Rainham, Hornchurch, Elm Park and Purfleet — careful diagnostics, fair pricing, engines built to last.",
   },
-
+call_to_action_data: {
+    heading: "Noticing Knocking, Smoke or Power Loss?",
+    text: "If your Range Rover, BMW, Audi or Land Rover is showing early signs of engine trouble, don't leave it until it becomes a major repair. Our specialists offer same-day diagnostics with a clear, honest quote to follow. Early diagnosis almost always costs less than waiting, and it protects your engine's long-term reliability.",
+}
+,
   green_slider: {
     img: "/vogue fix my motor image 9.webp",
     items: [
@@ -6883,7 +6983,10 @@ Drivers from Rainham, Hornchurch and Elm Park keep returning because our recondi
     description:
       "Expert engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across Upminster, Hornchurch, Cranham and Emerson Park — careful diagnostics, fair pricing, engines built to last.",
   },
-
+call_to_action_data: {
+  heading: "Book Your Car in Today",
+  text: "Whether it's a routine service, an MOT, or a fault you can't quite pin down, our Grays workshop is ready to help. Get a fast, honest quote before you commit to anything. Same-day diagnostics are often available, and we'll always explain what we find in plain, straightforward terms.",
+},
   green_slider: {
     img: "/vogue fix my motor image 9.webp",
     items: [
@@ -7106,7 +7209,10 @@ Drivers from Upminster, Hornchurch and Cranham keep returning because our recond
     description:
       "Specialist engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across Chadwell Heath, Romford, Goodmayes and Dagenham — precise diagnostics, honest pricing, engines built to last.",
   },
-
+call_to_action_data: {
+    heading: "Noticing Knocking, Smoke or Power Loss?",
+    text: "If your Range Rover, BMW, Audi or Land Rover is showing early signs of engine trouble, don't leave it until it becomes a major repair. Our specialists offer same-day diagnostics with a clear, honest quote to follow. Early diagnosis almost always costs less than waiting, and it protects your engine's long-term reliability.",
+},
   green_slider: {
     img: "/vogue fix my motor image 9.webp",
     items: [
@@ -7319,7 +7425,10 @@ Drivers from Chadwell Heath, Romford and Goodmayes keep returning because our re
   heading: "Chigwell Luxury Car Engine Reconditioning Specialist",
   description: "Specialist engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across Chigwell, Loughton, Buckhurst Hill and Woodford — precise diagnostics, honest pricing, engines built to last."
 },
-
+call_to_action_data: {
+    heading: "Noticing Knocking, Smoke or Power Loss?",
+    text: "If your Range Rover, BMW, Audi or Land Rover is showing early signs of engine trouble, don't leave it until it becomes a major repair. Our specialists provide same-day diagnostics with an honest, clear quote to follow. Early diagnosis almost always costs less than waiting, and it protects your engine's long-term reliability.",
+},
    green_slider: {
   img: "/vogue fix my motor image 9.webp",
   items: [
@@ -7540,7 +7649,10 @@ served: {
     heading: "Woodford Luxury Car Engine Reconditioning Specialist",
     description: "Specialist engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across Woodford, Woodford Green, South Woodford and Chigwell — precise diagnostics, honest pricing, engines built to last.",
   },
-
+call_to_action_data: {
+    heading: "Noticing Knocking, Smoke or Power Loss?",
+    text: "If your Range Rover, BMW, Audi or Land Rover is showing early signs of engine trouble, don't leave it until it becomes a major repair. Our specialists provide same-day diagnostics with an honest, clear quote to follow. Early diagnosis almost always costs less than waiting, and it protects your engine's long-term reliability.",
+},
   green_slider: {
     img: "/vogue fix my motor image 9.webp",
     items: [
@@ -7757,7 +7869,10 @@ Motorists from Woodford, Woodford Green and South Woodford return to us because 
     description:
       "Specialist engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across Chingford, Walthamstow, Highams Park and Waltham Abbey — precise diagnostics, honest pricing, engines built to last.",
   },
-
+call_to_action_data: {
+    heading: "Noticing Knocking, Smoke or Power Loss?",
+    text: "If your Range Rover, BMW, Audi or Land Rover is showing early signs of engine trouble, don't leave it until it becomes a major repair. Our specialists provide same-day diagnostics with an honest, clear quote to follow. Early diagnosis almost always costs less than waiting, and it protects your engine's long-term reliability.",
+},
   green_slider: {
     img: "/vogue fix my motor image 9.webp",
     items: [
@@ -7972,7 +8087,10 @@ Motorists from Chingford, Walthamstow and Highams Park return to us because our 
   heading: "Walthamstow Luxury Car Engine Reconditioning Specialist",
   description: "Expert engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across Walthamstow, Chingford, Leyton and Highams Park — careful diagnostics, fair pricing, engines built to last.",
 },
-
+call_to_action_data: {
+  heading: "Book Your Car in Today",
+  text: "Whether it's a routine service, an MOT, or a fault you can't quite pin down, our Grays workshop is ready to help. Get a fast, honest quote before you commit to anything. Same-day diagnostics are often available, and we'll always explain what we find in plain, straightforward terms.",
+},
 green_slider: {
   img: "/vogue fix my motor image 9.webp",
   items: [
@@ -8188,7 +8306,10 @@ requestqoute: {
   heading: "Tottenham Luxury Car Engine Reconditioning Specialist",
   description: "Expert engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across Tottenham, Wood Green, Edmonton and Walthamstow — careful diagnostics, fair pricing, engines built to last."
 },
-
+call_to_action_data: {
+    heading: "Noticing Knocking, Smoke or Power Loss?",
+    text: "If your Range Rover, BMW, Audi or Land Rover is showing early signs of engine trouble, don't leave it until it becomes a major repair. Our specialists offer same-day diagnostics with a clear, honest quote to follow. Early diagnosis almost always costs less than waiting, and it protects your engine's long-term reliability.",
+},
   green_slider: {
   img: "/vogue fix my motor image 9.webp",
   items: [
@@ -8408,7 +8529,11 @@ Reviews: [
     heading: "Stratford Luxury Car Engine Reconditioning Specialist",
     description: "Expert engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across Stratford, West Ham, Leyton and Bow — careful diagnostics, fair pricing, engines built to last.",
   },
-
+call_to_action_data: {
+    heading: "Noticing Knocking, Smoke or Power Loss?",
+    text: "If your Range Rover, BMW, Audi or Land Rover is showing early signs of engine trouble, don't leave it until it becomes a major repair. Our specialists offer same-day diagnostics with a clear, honest quote to follow. Early diagnosis almost always costs less than waiting, and it protects your engine's long-term reliability.",
+}
+,
   green_slider: {
     img: "/vogue fix my motor image 9.webp",
     items: [
@@ -8628,7 +8753,10 @@ Drivers from Stratford, West Ham and Leyton keep returning because our reconditi
     description:
       "Expert engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across Hackney, Dalston, Shoreditch and Stoke Newington — careful diagnostics, fair pricing, engines built to last.",
   },
-
+call_to_action_data: {
+    heading: "Noticing Knocking, Smoke or Power Loss?",
+    text: "If your Range Rover, BMW, Audi or Land Rover is showing early signs of engine trouble, don't leave it until it becomes a major repair. Our specialists offer same-day diagnostics with a clear, honest quote to follow. Early diagnosis almost always costs less than waiting, and it protects your engine's long-term reliability.",
+},
   green_slider: {
     img: "/vogue fix my motor image 9.webp",
     items: [
@@ -8836,7 +8964,10 @@ Drivers from Hackney, Dalston and Shoreditch keep returning because our recondit
   heading: "Whitechapel Luxury Car Engine Reconditioning Specialist",
   description: "Specialist engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across Whitechapel, Aldgate, Shoreditch and Mile End — precise diagnostics, honest pricing, engines built to last.",
 },
-
+call_to_action_data: {
+    heading: "Noticing Knocking, Smoke or Power Loss?",
+    text: "If your Range Rover, BMW, Audi or Land Rover is showing early signs of engine trouble, don't leave it until it becomes a major repair. Our specialists offer same-day diagnostics with a clear, honest quote to follow. Early diagnosis almost always costs less than waiting, and it protects your engine's long-term reliability.",
+},
   green_slider: {
   img: "/vogue fix my motor image 9.webp",
   items: [
@@ -9055,7 +9186,10 @@ Reviews: [
   heading: "Mile End Luxury Car Engine Reconditioning Specialist",
   description: "Specialist engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across Mile End, Bow, Bethnal Green and Whitechapel — precise diagnostics, honest pricing, engines built to last."
 },
-
+call_to_action_data: {
+    heading: "Noticing Knocking, Smoke or Power Loss?",
+    text: "If your Range Rover, BMW, Audi or Land Rover is showing early signs of engine trouble, don't leave it until it becomes a major repair. Our specialists provide same-day diagnostics with an honest, clear quote to follow. Early diagnosis almost always costs less than waiting, and it protects your engine's long-term reliability.",
+},
   green_slider: {
   img: "/vogue fix my motor image 9.webp",
   items: [
@@ -9274,7 +9408,10 @@ served: {
     heading: "Canary Wharf Luxury Car Engine Reconditioning Specialist",
     description: "Specialist engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across Canary Wharf, Poplar, Isle of Dogs and Blackwall — precise diagnostics, honest pricing, engines built to last.",
   },
-
+call_to_action_data: {
+    heading: "Noticing Knocking, Smoke or Power Loss?",
+    text: "If your Range Rover, BMW, Audi or Land Rover is showing early signs of engine trouble, don't leave it until it becomes a major repair. Our specialists provide same-day diagnostics with an honest, clear quote to follow. Early diagnosis almost always costs less than waiting, and it protects your engine's long-term reliability.",
+},
   green_slider: {
     img: "/vogue fix my motor image 9.webp",
     items: [
@@ -9481,13 +9618,16 @@ Motorists from Canary Wharf, Poplar and Isle of Dogs return to us because our re
   description: "Specialist engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across Charlton, Greenwich, Woolwich and Blackheath — precise diagnostics, honest pricing, engines built to last.",
 
 },
-
-   green_slider: {
-  img: "/vogue fix my motor image 9.webp",
-  items: [
-    {
-      title: "Finding the Real Fault Before Any Work Begins",
-      text: `Every engine job begins with a full diagnostic assessment rather than an educated guess. Our diagnostic equipment matches manufacturer standards, allowing us to accurately pinpoint what's causing power loss, unusual noise or a warning light.
+call_to_action_data: {
+    heading: "Noticing Knocking, Smoke or Power Loss?",
+    text: "If your Range Rover, BMW, Audi or Land Rover is showing early signs of engine trouble, don't leave it until it becomes a major repair. Our specialists provide same-day diagnostics with an honest, clear quote to follow. Early diagnosis almost always costs less than waiting, and it protects your engine's long-term reliability.",
+},
+          green_slider:{
+   img: "/vogue fix my motor image 9.webp",
+  items:  [
+  {
+    title: "Expert Engine Repair & Diagnostics Near You in Essex",
+    text: `Vogue Fix My Motor provides expert engine repair and diagnostics for customers across Essex. Our experienced technicians use state-of-the-art OBD scanning tools to accurately identify engine faults and resolve them efficiently. Whether you are dealing with warning lights, power loss, overheating, or unusual noises, we diagnose and fix the problem right first time.
 
 This level of precision matters most with luxury 4x4 and German performance engines, where guesswork can lead to costly, unnecessary parts replacement. We focus on identifying the actual cause first.
 
@@ -9714,7 +9854,10 @@ faq: [
   heading: "Greenwich Luxury Car Engine Reconditioning Specialist",
   description: "Specialist engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across Greenwich, Blackheath, Charlton and Woolwich — precise diagnostics, honest pricing, engines built to last.",
 },
-
+call_to_action_data: {
+    heading: "Noticing Knocking, Smoke or Power Loss?",
+    text: "If your Range Rover, BMW, Audi or Land Rover is showing early signs of engine trouble, don't leave it until it becomes a major repair. Our specialists provide same-day diagnostics with an honest, clear quote to follow. Early diagnosis almost always costs less than waiting, and it protects your engine's long-term reliability.",
+},
 
   green_slider: {
   img: "/vogue fix my motor image 9.webp",
@@ -9924,7 +10067,10 @@ served: {
   heading: "Dartford Luxury Car Engine Reconditioning Specialist",
   description: "Expert engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across Dartford, Bexley, Swanscombe and Gravesend — careful diagnostics, fair pricing, engines built to last."
 },
-
+call_to_action_data: {
+    heading: "Noticing Knocking, Smoke or Power Loss?",
+    text: "If your Range Rover, BMW, Audi or Land Rover is showing early signs of engine trouble, don't leave it until it becomes a major repair. Our specialists provide same-day diagnostics with an honest, clear quote to follow. Early diagnosis almost always costs less than waiting, and it protects your engine's long-term reliability.",
+},
   green_slider: {
   img: "/vogue fix my motor image 9.webp",
   items: [
@@ -10145,7 +10291,10 @@ served: {
     heading: "Erith Luxury Car Engine Reconditioning Specialist",
     description: "Expert engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across Erith, Belvedere, Slade Green and Bexleyheath — careful diagnostics, fair pricing, engines built to last.",
   },
-
+call_to_action_data: {
+    heading: "Noticing Knocking, Smoke or Power Loss?",
+    text: "If your Range Rover, BMW, Audi or Land Rover is showing early signs of engine trouble, don't leave it until it becomes a major repair. Our specialists provide same-day diagnostics with an honest, clear quote to follow. Early diagnosis almost always costs less than waiting, and it protects your engine's long-term reliability.",
+},
   green_slider: {
     img: "/vogue fix my motor image 9.webp",
     items: [
@@ -10353,34 +10502,53 @@ Motorists from Erith, Belvedere and Slade Green return to us because our recondi
   description: "Expert engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across Bexleyheath, Welling, Erith and Crayford — careful diagnostics, fair pricing, engines built to last.",
 
 },
+call_to_action_data: {
+    heading: "Noticing Knocking, Smoke or Power Loss?",
+    text: "If your Range Rover, BMW, Audi or Land Rover is showing early signs of engine trouble, don't leave it until it becomes a major repair. Our specialists provide same-day diagnostics with an honest, clear quote to follow. Early diagnosis almost always costs less than waiting, and it protects your engine's long-term reliability.",
+},
+          green_slider:{
+   img: "/vogue fix my motor image 9.webp",
+  items:  [
+  {
+    title: "Expert Engine Repair & Diagnostics Near You in Essex",
+    text: `Vogue Fix My Motor provides expert engine repair and diagnostics for customers across Essex. Our experienced technicians use state-of-the-art OBD scanning tools to accurately identify engine faults and resolve them efficiently. Whether you are dealing with warning lights, power loss, overheating, or unusual noises, we diagnose and fix the problem right first time.
 
-         green_slider: {
-  img: "/vogue fix my motor image 9.webp",
-  items: [
-    {
-      title: "Pinpointing the Real Fault Before Any Work Starts",
-      text: `Every job begins with a thorough diagnostic assessment, never guesswork. Our diagnostic equipment matches manufacturer standards, allowing us to identify exactly what's causing power loss, unusual noise or a dashboard warning light.
-This precision matters most with luxury 4x4 and German performance engines, where misdiagnosis can mean paying for parts that were never actually the problem. We focus on finding the genuine cause first.
-You'll receive a clear breakdown of our findings, with photographic evidence where useful, so you understand exactly what's needed before any reconditioning work begins.`
-    },
-    {
-      title: "Range Rover and Land Rover Engines, Handled by True Specialists",
-      text: `Range Rover and Land Rover engines carry well-known weak points, from timing chain stretch to oil pump wear on higher-mileage vehicles. Our technicians specialise in these platforms rather than treating them as general repair work.
-Stripping, machining and reassembly are carried out entirely in-house, keeping quality control consistent and avoiding delays associated with outsourcing critical engine work.
-Whether it's a Discovery, Defender, Evoque or Range Rover Sport, every engine we recondition is tested thoroughly before returning to the roads around Bexleyheath and Crayford.`
-    },
-    {
-      title: "Trusted BMW and Audi Engine Rebuild Expertise",
-      text: `German engineering is built to tight tolerances, and rebuilding it properly demands the same level of precision. We regularly deal with issues such as N47 timing chain failure and Audi oil consumption faults common on higher-mileage engines.
-Every component fitted is matched to your engine's original specification, avoiding generic substitutes that could shorten its lifespan or reduce performance.
-Once rebuilt, each engine undergoes extended running and testing, giving local drivers genuine confidence in the workmanship before collection.`
-    },
-    {
-      title: "Reliability Proven Through Process, Not Promises",
-      text: `Proper reconditioning means far more than fitting new parts — it involves restoring tolerances, checking clearances carefully and testing under realistic driving conditions. We apply this process consistently, without shortcuts.
-Every reconditioned engine comes with a clear warranty, giving you genuine peace of mind long after collection.
-Drivers from Bexleyheath, Welling and Erith keep returning because our reconditioned engines are built to perform reliably, not just pass a quick test drive.`
-    }
+We handle all makes and models — from everyday family cars to high-performance SUVs and commercial vehicles. Based in Grays, Essex, we are conveniently located to serve customers from across the county. Our workshop is equipped with modern tools and quality parts to ensure every repair meets the highest standard.
+
+We believe in honest, transparent service with no hidden charges. Every customer receives a clear quote before any work begins, so you always know exactly what you are paying for and why.
+
+Book your appointment today and get your vehicle back on the road with confidence.`
+  },
+
+  {
+    title: "Trusted Car Repair Experts at Vogue Fix My Motor",
+    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+
+Our goal is to build long-term trust with our customers. We believe that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+
+We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+  },
+
+  {
+    title: "Fast & Professional Car Service in Essex",
+    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+
+Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+
+ Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+
+Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+  },
+  {
+  title: "Advanced Engine Diagnostics at Vogue Fix My Motor, Grays Essex",
+  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+
+Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+
+Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+
+We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+},
   ]
 },
  servicesData: {
@@ -10571,7 +10739,10 @@ served: {
   heading: "Gravesend Luxury Car Engine Reconditioning Specialist",
   description: "Expert engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across Gravesend, Northfleet, Dartford and Rochester — careful diagnostics, fair pricing, engines built to last.",
 },
-
+call_to_action_data: {
+  heading: "Book Your Car in Today",
+  text: "Whether it's a routine service, an MOT, or a fault you can't quite pin down, our Grays workshop is ready to help. Get a fast, honest quote before you commit to anything. Same-day diagnostics are often available, and we'll always explain what we find in plain, straightforward terms.",
+},
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
  green_slider: {
