@@ -1,19 +1,30 @@
 const pageContent = {
 
-content3: {
-  heading: "Why Regular Engine Checkups Matter",
-  greenHeading: "— Prevent Costly Breakdowns Before They Happen",
-  paragraph: [
-    "Your engine is the heart of your vehicle. At Vogue Fix My Motor in Grays, Essex, we recommend regular engine inspections to detect faults early and maintain long-term performance.",
-    "Timely servicing ensures better fuel efficiency, smoother driving, and significantly fewer unexpected repair bills in the future."
-  ],
-  bullets: [
-    "Early fault detection saves money and prevents major damage",
-    "Improved fuel efficiency through clean, well-maintained systems",
-    "Extended engine life with regular checks and fluid top-ups",
-    "Cost-effective maintenance plans tailored to your vehicle"
-  ]
-},
+  content3: {
+
+    heading: "Why Does My Range Rover Keep",
+
+    greenHeading: "Returning the Same Fault Code?",
+
+    paragraph: [
+
+      "Recurring fault codes are usually a sign that the underlying cause was cleared rather than fixed — a common outcome when diagnostics rely purely on scanner data without physical inspection.",
+
+      "On complex Land Rover electrical systems, a single fault code can point to several possible causes, from a failing sensor to a corroded connector or a software issue further down the chain. Clearing the code resets the warning temporarily, but the fault will resurface once the underlying condition triggers it again.",
+
+      "Getting to the actual root cause takes a technician who checks the physical component alongside the data, not just the code itself — which is exactly how we approach every diagnostic booking at our Grays workshop."
+
+    ],
+
+    bullets: [
+
+      "Recurring fault codes can return when the underlying cause is not fixed",
+
+      "Clearing a fault code only resets the warning temporarily"
+
+    ]
+
+  },
 
 };
 

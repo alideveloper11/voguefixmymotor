@@ -13,6 +13,7 @@ import  { locations } from "@/lib/Areas_data/areas_list";
 import saleParts from "@/lib/Areas_data/SaleParts";
 import faq_data from "@/lib/Areas_data/faq_data";
 import FAQ from "../../components/faq/FAQ";
+import data from "@/lib/services_data/call_to_action";
 import Green_slider1 from "../../components/components_areas/green_slider/Green_slider1";
 import Green_slider2 from "../../components/components_areas/green_slider/Green_slider2";
 import Areas_links from "../../components/areas_links/Areas_links";
@@ -30,7 +31,7 @@ export default function Areas() {
                         <div className="w-24/24 text-center"><Green_slider1 /></div>
                         <div className="w-24/24 text-center"><Green_slider2 /></div>
                         <div className="w-24/24 text-center"><SaleParts saleParts={saleParts} /></div>
-                        <div className="w-24/24 text-center"><SalePartsEngineCallToSection /></div>
+                        <div className="w-24/24 text-center"><SalePartsEngineCallToSection data={data} /></div>
                         <div className="w-24/24 text-center"> <FAQ faq_data={faq_data} /> </div>
                         <div className="w-24/24 text-center"><Latest_videos LatestVideosData={LatestVideosData} /></div>
                     </div>

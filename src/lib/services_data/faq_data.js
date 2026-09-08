@@ -1,28 +1,47 @@
 const faq_data = [
+
   {
     id: 1,
-    question: "Why choose Vogue Fix My Motor for car servicing in Grays, Essex?",
+    question: "How do I know which service my Range Rover actually needs?",
     answer:
-      "Vogue Fix My Motor combines years of hands-on experience with advanced diagnostic tools and honest, transparent pricing. Based in Grays, Essex, we serve customers across Tilbury, Purfleet, Ockendon, Hornchurch and surrounding areas. We provide clear assessments, no hidden charges, and high-quality workmanship on every job."
+      "It depends on your mileage, age, and driving pattern rather than a fixed calendar date. An interim service suits lighter, more frequent checks, while a major service covers deeper components like timing and suspension systems. Our team will recommend the right option after a quick health check."
   },
+
   {
     id: 2,
-    question: "How do I book a service appointment at Vogue Fix My Motor?",
+    question: "What's included in a full major service?",
     answer:
-      "Booking is simple. You can use our online contact form, call us directly, or enter your vehicle registration on the website for an instant quote. We will confirm your appointment quickly and keep you updated throughout the repair process."
+      "A major service covers everything in an interim service plus timing components, suspension, brakes, and full electrical system checks. We also carry out fluid changes and a detailed inspection of wear-prone parts specific to your model. You'll receive a clear report of anything needing attention."
   },
+
   {
     id: 3,
-    question: "What types of car repairs and services do you offer?",
+    question: "Do you work on hybrid and electric Land Rover models?",
     answer:
-      "We offer a comprehensive range of services including engine diagnostics, engine repair and rebuilds, clutch replacement, timing chain replacement, head gasket repair, DPF cleaning, air conditioning servicing, water pump replacement, and much more. We work on all makes and models."
+      "Yes, we carry out diagnostics, servicing, and repairs on hybrid and electric Land Rover vehicles, including battery health checks and drive system faults. Our technicians are equipped and trained for high-voltage systems, so these vehicles are handled safely and correctly."
   },
+
   {
     id: 4,
-    question: "Do you provide a warranty on your repairs and parts?",
+    question: "How often should timing belts and wet belts be checked?",
     answer:
-      "Yes. All repairs and parts fitted at Vogue Fix My Motor come with a warranty for your peace of mind. We use quality, manufacturer-approved components and stand behind every job we complete. Ask our team for full warranty details when booking."
+      "Manufacturer intervals are a starting point, but wet belts in particular can degrade faster depending on driving conditions and oil quality. We recommend having belt condition checked at every major service, especially on higher-mileage vehicles, to avoid costly engine damage."
+  },
+
+  {
+    id: 5,
+    question: "Can you recover my vehicle if it breaks down outside Grays?",
+    answer:
+      "Yes, our recovery service covers Grays, Tilbury, Basildon, Chelmsford, Purfleet, and the surrounding Essex area, available 24/7. Many faults can be diagnosed and resolved roadside, and if recovery is needed, your vehicle is brought straight into our workshop."
+  },
+
+  {
+    id: 6,
+    question: "Do you provide quotes before starting any repair work?",
+    answer:
+      "Always. We diagnose the issue first, explain exactly what's needed in plain terms, and provide a clear quote before any repair begins. There are no surprise charges — you'll know the cost and the reasoning behind it upfront."
   }
+
 ];
 
 export default faq_data;

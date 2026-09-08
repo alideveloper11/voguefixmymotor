@@ -19,6 +19,7 @@ import faq_data from "@/lib/services_data/faq_data";
 import Areas_links from "../../components/areas_links/Areas_links";
 import reviewsData from "@/lib/services_data/reviewsData";
 import { getcontent3 } from "@/lib/services_data/content_data";
+import call_to_action_data from "@/lib/services_data/call_to_action";
 const data = getcontent3();
 export const metadata = {
   alternates: {
@@ -35,7 +36,7 @@ export default function Review() {
                         <div className="w-24/24 text-center"><SaleParts saleParts={saleParts}/></div>
                         <div className="w-24/24 text-center"><Green_slider1 /></div>
                         <div className="w-24/24 text-center"><Content data={data} /></div>
-                        <div className="w-24/24 text-center"><SalePartsEngineCallToSection /></div>
+                        <div className="w-24/24 text-center"><SalePartsEngineCallToSection data={call_to_action_data} /></div>
                         <div className="w-24/24 text-center"><Areas_links locations={locations} /></div>
                         <div className="w-24/24 text-center"><FAQ faq_data={faq_data} /></div>
                         <div className="w-24/24 text-center"><Latest_videos LatestVideosData={LatestVideosData} /></div>

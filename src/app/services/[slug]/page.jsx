@@ -52,7 +52,7 @@ export default async function ServiceDetail({ params }) {
    <div className="w-24/24 text-center"><Green_slider1 slides={mergedSlides} image={service.green_slider1.img} /></div>
   
     <div className="w-24/24 text-center "><Content data={content3} /></div>  
-   <div className="w-24/24 text-center "> <EngineCallToSection /> </div>
+   <div className="w-24/24 text-center "> <EngineCallToSection data={service.call_to_action_data} /> </div>
     <div className="w-24/24 text-center"> <FAQ faq_data={service.faq} /> </div>
     <div className="w-24/24 text-center"> <LatestVideos LatestVideosData={LatestVideosData }  /> </div>
     </div>
