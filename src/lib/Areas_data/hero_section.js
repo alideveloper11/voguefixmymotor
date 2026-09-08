@@ -1,5 +1,9 @@
 const herosection_data = {
-     heading: "Essex Luxury Car Engine Reconditioning Specialist",
-     description: "Expert engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across Essex, backed by genuine diagnostic accuracy and prestige-vehicle experience.",
+
+    heading: "Your Trusted Car Garage Near Me in Grays, Essex",
+
+    description: "Independent, all-makes car servicing and repairs in Grays, covering engine diagnostics, MOT preparation and everything in between — fast, honest and fully equipped.",
+
 }
+
 export default herosection_data;

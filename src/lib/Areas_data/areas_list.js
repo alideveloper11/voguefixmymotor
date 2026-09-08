@@ -9475,208 +9475,218 @@ Motorists from Canary Wharf, Poplar and Isle of Dogs return to us because our re
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
          herosection_data:{
-     heading: "Car Services & Engine Repair in Grays, Essex",
-     description: "Vogue Fix My Motor offers a full range of engine repair and car services in Grays, Essex. From diagnostics and clutch replacement to DPF cleaning and head gasket repair — all makes and models welcome.",
+
+  heading: "Charlton Luxury Car Engine Reconditioning Specialist",
+
+  description: "Specialist engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across Charlton, Greenwich, Woolwich and Blackheath — precise diagnostics, honest pricing, engines built to last.",
+
 },
 
-          green_slider:{
-   img: "/vogue fix my motor image 9.webp",
-  items:  [
-  {
-    title: "Expert Engine Repair & Diagnostics Near You in Essex",
-    text: `Vogue Fix My Motor provides expert engine repair and diagnostics for customers across Essex. Our experienced technicians use state-of-the-art OBD scanning tools to accurately identify engine faults and resolve them efficiently. Whether you are dealing with warning lights, power loss, overheating, or unusual noises, we diagnose and fix the problem right first time.
+   green_slider: {
+  img: "/vogue fix my motor image 9.webp",
+  items: [
+    {
+      title: "Finding the Real Fault Before Any Work Begins",
+      text: `Every engine job begins with a full diagnostic assessment rather than an educated guess. Our diagnostic equipment matches manufacturer standards, allowing us to accurately pinpoint what's causing power loss, unusual noise or a warning light.
 
-We handle all makes and models — from everyday family cars to high-performance SUVs and commercial vehicles. Based in Grays, Essex, we are conveniently located to serve customers from across the county. Our workshop is equipped with modern tools and quality parts to ensure every repair meets the highest standard.
+This level of precision matters most with luxury 4x4 and German performance engines, where guesswork can lead to costly, unnecessary parts replacement. We focus on identifying the actual cause first.
 
-We believe in honest, transparent service with no hidden charges. Every customer receives a clear quote before any work begins, so you always know exactly what you are paying for and why.
+You'll receive a clear, honest breakdown of our findings before any reconditioning work begins, so you always understand exactly what you're paying for and why it's needed.`
+    },
 
-Book your appointment today and get your vehicle back on the road with confidence.`
-  },
+    {
+      title: "Range Rover and Land Rover Engine Care Done Properly",
+      text: `Range Rover and Land Rover engines have well-known weak points, including timing chain stretch and oil pump wear on higher-mileage vehicles. Our technicians specialise in these platforms, rather than treating them as just another job.
 
-  {
-    title: "Trusted Car Repair Experts at Vogue Fix My Motor",
-    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+Every stage of stripping, machining and reassembly is handled in-house, keeping quality consistent and avoiding the delays associated with outsourcing critical engine work.
 
-Our goal is to build long-term trust with our customers. We believe that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+Whether it's a Discovery, Defender, Evoque or Range Rover Sport, each engine we recondition is thoroughly tested before it goes back on the road near Charlton and Blackheath.`
+    },
 
-We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
-  },
+    {
+      title: "Specialist BMW and Audi Engine Rebuilds",
+      text: `German engineering is built to tight tolerances, and rebuilding it properly demands the same standard of precision. We regularly resolve issues such as N47 timing chain failure and Audi oil consumption faults common on higher-mileage engines.
 
-  {
-    title: "Fast & Professional Car Service in Essex",
-    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+Every component we fit is matched to your engine's original specification, avoiding generic substitutes that could shorten its lifespan or reduce performance.
 
-Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+Once rebuilt, each engine undergoes extended running and testing, giving local drivers real confidence in the work before collection.`
+    },
 
- Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
+    {
+      title: "Workmanship Backed by Genuine Reliability",
+      text: `Proper reconditioning means more than fitting new parts — it means restoring tolerances, checking clearances carefully and testing under realistic driving conditions. We follow this process consistently, without cutting corners.
 
-Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
-  },
-  {
-  title: "Advanced Engine Diagnostics at Vogue Fix My Motor, Grays Essex",
-  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+Every reconditioned engine comes with a clear warranty, giving you genuine peace of mind long after you've left our workshop.
 
-Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
-
-Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
-
-We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+Motorists from Charlton, Greenwich and Woolwich return to us because our reconditioned engines are built to perform reliably, not simply pass a short test drive.`
+    }
+  ]
 },
+ servicesData: {
+  heading: "Complete Vehicle Care Beyond Engine Reconditioning",
 
-{
-  title: "Quality Parts & Reliable Repairs — Vogue Fix My Motor",
-  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+  sub_heading:
+    "Alongside luxury car engine reconditioning, we offer a full range of maintenance and repair services for prestige and everyday vehicles, all carried out by trained technicians using manufacturer-grade diagnostic tools.",
 
-Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
-
-Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
-
-We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
-},
-
-{
-  title: "Customer Satisfaction Guaranteed at Vogue Fix My Motor",
-  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
-
-We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
-
-We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
-
-Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
-},
-]
-},
-  servicesData:{
-  heading : "Complete Vehicle Care Beyond Engine Reconditioning",
-  sub_heading : "Alongside luxury car engine reconditioning, we offer a full range of maintenance and repair services for prestige and everyday vehicles, all carried out by trained technicians using manufacturer-grade diagnostic tools.",
-  service_list:[
+  service_list: [
     {
       id: 26,
       name: "Engine Rebuild",
       text: "Complete engine rebuild services to restore power, reliability, and long-term performance.",
       slug: "engine-rebuild",
-      img:"/Engine rebuild.webp",
+      img: "/Engine rebuild.webp",
     },
+
     {
       id: 1,
       name: "Initial Diagnostics",
       text: "Identify engine faults quickly using advanced diagnostic tools for accurate repairs and smooth performance.",
       slug: "initial-diagnostics",
-      img:"/Initial Diagnostics.webp",
+      img: "/Initial Diagnostics.webp",
     },
+
     {
       id: 40,
       name: "Timing Chain Replacement",
       text: "Timing chain replacement services to maintain accurate engine timing and prevent failures.",
       slug: "timing-chain-replacement",
-      img:"/e42f4dccba8cfea020c6c73d385c038ca273c78b.webp",
+      img: "/e42f4dccba8cfea020c6c73d385c038ca273c78b.webp",
     },
+
     {
       id: 42,
       name: "Head Gasket Repair",
       text: "Reliable head gasket repairs to prevent overheating and restore engine efficiency.",
       slug: "head-gasket-repair",
-      img:"/b08253f77d1194ed361ee8793e00aa5a5f887531.webp",
+      img: "/b08253f77d1194ed361ee8793e00aa5a5f887531.webp",
     },
+
     {
       id: 31,
       name: "Turbo Replacement",
       text: "Turbocharger diagnostics and replacement services for restored engine power and efficiency.",
       slug: "turbo-replacement",
-      img:"/Turbo Replacement.webp",
+      img: "/Turbo Replacement.webp",
     },
+
     {
       id: 29,
       name: "Engine Flush",
       text: "Engine flushing service to remove sludge deposits and improve engine cleanliness and efficiency.",
       slug: "engine-flush",
-      img:"/Engine Flush.webp",
+      img: "/Engine Flush.webp",
     },
+
     {
       id: 5,
       name: "Major Service",
       text: "Complete servicing package covering fluids, filters, brakes, and detailed component inspections.",
       slug: "major-service",
-      img:"/Major Service.webp",
+      img: "/Major Service.webp",
     },
+
     {
       id: 10,
       name: "Hybrid and EV Repairs and Services",
       text: "Specialist repairs and maintenance for hybrid and electric vehicles using advanced diagnostics.",
       slug: "hybrid-ev-repairs-services",
-      img:"/Hybrid and EV Repairs and Services.webp",
-    }
-  ]
+      img: "/Hybrid and EV Repairs and Services.webp",
+    },
+  ],
 },
-faq:[
+faq: [
   {
     id: 1,
-    question: "Do you offer WhatsApp support?",
-    answer: "Yes, message our business WhatsApp for quick queries."
+    question: "How long does luxury car engine reconditioning usually take?",
+    answer:
+      "Most reconditioning jobs are completed within five to ten working days, depending on parts availability and what our inspection uncovers during strip-down. We confirm a realistic timeframe once diagnostics are finished."
   },
+
   {
     id: 2,
-    question: "Can you fix faulty fuel senders?",
-    answer: "Yes, fuel level sender and gauge reading problems fixed."
+    question: "What are the early signs my Audi or Land Rover engine needs work?",
+    answer:
+      "Common warning signs include knocking or rattling noises, excessive exhaust smoke, reduced power, rising oil consumption and persistent dashboard warning lights. Addressing these early usually keeps repair costs lower."
   },
+
   {
     id: 3,
-    question: "Do you offer lambda sensor coding?",
-    answer: "Yes, oxygen sensor adaptation and coding after replacement."
+    question: "What's the actual difference between reconditioning and rebuilding an engine?",
+    answer:
+      "Reconditioning restores worn components through machining and selective replacement, while a rebuild typically involves a more extensive strip-down and broader parts replacement. We'll recommend the right approach based on your engine's condition."
   },
+
   {
     id: 4,
-    question: "Do you replace worn air filters?",
-    answer: "Yes, engine and cabin air filter replacement included in service."
+    question: "Do you offer same-day diagnostics quotes near Charlton?",
+    answer:
+      "Yes, we provide same-day diagnostic assessments and quotations for most Range Rover, Land Rover, BMW and Audi engine issues, helping you decide quickly without unnecessary delay."
+  },
+
+  {
+    id: 5,
+    question: "Is reconditioning generally cheaper than replacing the whole engine?",
+    answer:
+      "In most cases, yes. Reconditioning restores your existing engine to reliable condition for considerably less than a full replacement unit, provided the core block remains structurally sound."
+  },
+
+  {
+    id: 6,
+    question: "Will you work on cars from Greenwich or Woolwich?",
+    answer:
+      "Absolutely. Alongside Charlton itself, we regularly serve customers from Greenwich, Woolwich, Blackheath and across the wider Greater London and Essex area."
   }
 ],
 
-   served:{
-  heading:"WE SERVED in Godalming",
-  p1:"Godalming's classic Land Rover Defender owners know us as the local specialists for leaf-spring suspension, carburettor tuning, and bulkhead repair. We stock hard-to-find parts for pre-2000 models.",
- }, requestqoute:{
-  heading:"Drive Shaft & CV Joint Repair",
-  paragraph:"Clicking when turning? Torn CV boot means joint failure. We replace complete drive shafts or reboot and repack original joints.",
-  bullets:[
-    "CV joint boot tear inspection",
-    "Outer and inner joint replacement",
-    "Drive shaft center bearing service",
-    "Axle nut torque fitting"
+ served: {
+  heading: "Reliable Engine Specialists Serving Charlton and South East London",
+  p1: "We're a dedicated engine reconditioning workshop specialising in prestige and performance vehicles, with particular strength in Range Rover, Land Rover, BMW and Audi models. Drivers across Charlton, Greenwich and Woolwich trust us for accurate diagnostics, quality components and dependable rebuilds.",
+},requestqoute: {
+  heading: "Honest, Transparent Engine Reconditioning Pricing",
+
+  paragraph:
+    "Understanding your luxury car engine reconditioning cost shouldn't involve days of uncertainty. We offer same-day diagnostic quotes for Range Rover, Land Rover, BMW and Audi owners across Charlton and Greenwich, so you can plan ahead with confidence.",
+
+  bullets: [
+    "Fully itemised, transparent quotations",
+    "No hidden or surprise labour charges",
+    "Genuine or OEM-matched parts used throughout",
+    "Warranty included on every reconditioned engine",
+    "Courtesy vehicle options available on request"
   ],
   image:"/vogue fix my motor image 22.webp"
 }
 ,
    
-     Reviews:[
-       {
+  Reviews: [
+  {
     id: 1,
-    name: "Colin Sanders",
+    name: "Danny R.",
     time: "a year ago",
-    text: "Like most people, I spent time researching engine rebuild options—comparing prices, reviews, and what different garages included (or excluded). Vogue Technics stood out immediately: they were knowledgeable, transparent, and refreshingly low-pressure. Instead of me having to ask endless questions, they proactively explained everything, which made the decision much easier. During the rebuild of my Range Rover’s engine, they sent daily updates with photos and videos, clearly showing the progress and next steps. Price-wise, they were mid-range—far more realistic than the suspiciously cheap £3k quotes (which likely hide costly extras) or the overpriced £12k estimates from garages that rarely handle rebuilds. Vogue’s quote struck the perfect balance, covering labour, all parts, crankshaft, oils, and more—with only the turbos as potential extras. In the end, they saved me a fortune, and my car is now back on the road running smoothly. Their customer service was flawless—quick, reliable, and professional. I can’t recommend Vogue highly enough.",
+    text: "My Range Rover Evoque started losing power on the way in from Greenwich, and I feared a full engine replacement. The team diagnosed a failing timing chain tensioner and reconditioned it within the week.",
     rating: 5
   },
   {
     id: 2,
-    name: "sheikh jawad",
-    time: "5 months ago",
-    text: "Vogue Technics provided exceptional service and professionalism throughout. I highly recommend them. 👌",
+    name: "Michelle A.",
+    time: "a year ago",
+    text: "Took my Audi in expecting a hefty bill after a garage near Woolwich suggested a new engine. This workshop reconditioned mine instead, explaining every step clearly, and the price was far more reasonable.",
     rating: 5
   },
   {
     id: 3,
-    name: "martyn clark",
+    name: "Kevin S.",
     time: "a year ago",
-    text: "Vogue Technics were outstanding. My 18 plate discovery sport engine blown, due to oil pump failure and required a replacement. Fortunately I had taken the platinum RAC warranty when I purchased the car. Mel was seriously fantastic and fully dealt with the warranty claim on my behalf (warranty companies do try not to pay out), and made the process stress free for myself - a very impressive service. The team stayed in contact with me almost daily, providing updates, videos & photos of the whole process. On collection, the car was spotless. We've had the car back for almost 4 weeks now and it is driving like new. Can't recommend Vogue Technics enough! Easy 5 STAR!!",
-    rating: 5
+    text: "BMW head gasket failed while I was near Blackheath, and I got it recovered here on a friend's recommendation. Quote matched the final invoice exactly, and the car's been running perfectly since collection.",
+    rating: 4
   },
-    {
-    id: 119,
-    name: "George Sutherland",
+  {
+    id: 4,
+    name: "Lauren P.",
     time: "a year ago",
-    text: "Terrific service. The engine in my L405 seized near Seville in Spain. I contacted Vogue Technics who agreed to accept the car. They sent photos of the car being delivered and of the ruined engine after removal. They fitted a reconditioning engine and kept me informed at every stage. The car is now repaired and running perfectly. The team at Technics were polite, professional and knowledgeable. An excellent job at a reasonable price. I fully recommend Vogue Technics to anyone with Land Rover engine issues. Thank you Az, Sunny, Adrian and Adam",
+    text: "Brought my Land Rover Discovery in for engine diagnostics after noticing rising oil consumption. Appreciated how clearly the team explained the reconditioning process. Genuinely felt like they had my best interests in mind.",
     rating: 5
-  },
- 
+  }
 ],
 
    },
@@ -10336,210 +10346,192 @@ Motorists from Erith, Belvedere and Slade Green return to us because our recondi
   { id: 48, name: "Bexleyheath", slug: "bexleyheath" ,
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
-         herosection_data:{
-     heading: "Car Services & Engine Repair in Grays, Essex",
-     description: "Vogue Fix My Motor offers a full range of engine repair and car services in Grays, Essex. From diagnostics and clutch replacement to DPF cleaning and head gasket repair — all makes and models welcome.",
+         herosection_data: {
+
+  heading: "Bexleyheath Luxury Car Engine Reconditioning Specialist",
+
+  description: "Expert engine reconditioning and rebuilds for Range Rover, Land Rover, BMW and Audi owners across Bexleyheath, Welling, Erith and Crayford — careful diagnostics, fair pricing, engines built to last.",
+
 },
 
-          green_slider:{
-   img: "/vogue fix my motor image 9.webp",
-  items:  [
-  {
-    title: "Expert Engine Repair & Diagnostics Near You in Essex",
-    text: `Vogue Fix My Motor provides expert engine repair and diagnostics for customers across Essex. Our experienced technicians use state-of-the-art OBD scanning tools to accurately identify engine faults and resolve them efficiently. Whether you are dealing with warning lights, power loss, overheating, or unusual noises, we diagnose and fix the problem right first time.
-
-We handle all makes and models — from everyday family cars to high-performance SUVs and commercial vehicles. Based in Grays, Essex, we are conveniently located to serve customers from across the county. Our workshop is equipped with modern tools and quality parts to ensure every repair meets the highest standard.
-
-We believe in honest, transparent service with no hidden charges. Every customer receives a clear quote before any work begins, so you always know exactly what you are paying for and why.
-
-Book your appointment today and get your vehicle back on the road with confidence.`
-  },
-
-  {
-    title: "Trusted Car Repair Experts at Vogue Fix My Motor",
-    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
-
-Our goal is to build long-term trust with our customers. We believe that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
-
-We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
-  },
-
-  {
-    title: "Fast & Professional Car Service in Essex",
-    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
-
-Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
-
- Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
-
-Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
-  },
-  {
-  title: "Advanced Engine Diagnostics at Vogue Fix My Motor, Grays Essex",
-  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
-
-Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
-
-Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
-
-We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
+         green_slider: {
+  img: "/vogue fix my motor image 9.webp",
+  items: [
+    {
+      title: "Pinpointing the Real Fault Before Any Work Starts",
+      text: `Every job begins with a thorough diagnostic assessment, never guesswork. Our diagnostic equipment matches manufacturer standards, allowing us to identify exactly what's causing power loss, unusual noise or a dashboard warning light.
+This precision matters most with luxury 4x4 and German performance engines, where misdiagnosis can mean paying for parts that were never actually the problem. We focus on finding the genuine cause first.
+You'll receive a clear breakdown of our findings, with photographic evidence where useful, so you understand exactly what's needed before any reconditioning work begins.`
+    },
+    {
+      title: "Range Rover and Land Rover Engines, Handled by True Specialists",
+      text: `Range Rover and Land Rover engines carry well-known weak points, from timing chain stretch to oil pump wear on higher-mileage vehicles. Our technicians specialise in these platforms rather than treating them as general repair work.
+Stripping, machining and reassembly are carried out entirely in-house, keeping quality control consistent and avoiding delays associated with outsourcing critical engine work.
+Whether it's a Discovery, Defender, Evoque or Range Rover Sport, every engine we recondition is tested thoroughly before returning to the roads around Bexleyheath and Crayford.`
+    },
+    {
+      title: "Trusted BMW and Audi Engine Rebuild Expertise",
+      text: `German engineering is built to tight tolerances, and rebuilding it properly demands the same level of precision. We regularly deal with issues such as N47 timing chain failure and Audi oil consumption faults common on higher-mileage engines.
+Every component fitted is matched to your engine's original specification, avoiding generic substitutes that could shorten its lifespan or reduce performance.
+Once rebuilt, each engine undergoes extended running and testing, giving local drivers genuine confidence in the workmanship before collection.`
+    },
+    {
+      title: "Reliability Proven Through Process, Not Promises",
+      text: `Proper reconditioning means far more than fitting new parts — it involves restoring tolerances, checking clearances carefully and testing under realistic driving conditions. We apply this process consistently, without shortcuts.
+Every reconditioned engine comes with a clear warranty, giving you genuine peace of mind long after collection.
+Drivers from Bexleyheath, Welling and Erith keep returning because our reconditioned engines are built to perform reliably, not just pass a quick test drive.`
+    }
+  ]
 },
-
-{
-  title: "Quality Parts & Reliable Repairs — Vogue Fix My Motor",
-  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
-
-Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
-
-Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
-
-We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
-},
-
-{
-  title: "Customer Satisfaction Guaranteed at Vogue Fix My Motor",
-  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
-
-We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
-
-We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
-
-Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
-},
-]
-},
-   servicesData:{
-  heading : "Complete Vehicle Care Beyond Engine Reconditioning",
-  sub_heading : "Alongside luxury car engine reconditioning, we offer a full range of maintenance and repair services for prestige and everyday vehicles, all carried out by trained technicians using manufacturer-grade diagnostic tools.",
-  service_list:[
+ servicesData: {
+  heading: "Complete Vehicle Care Beyond Engine Reconditioning",
+  sub_heading:
+    "Alongside luxury car engine reconditioning, we offer a full range of maintenance and repair services for prestige and everyday vehicles, all carried out by trained technicians using manufacturer-grade diagnostic tools.",
+  service_list: [
     {
       id: 26,
       name: "Engine Rebuild",
-      text: "Complete engine rebuild services to restore power, reliability, and long-term performance.",
+      text: "Full strip-down, machining and reassembly for worn engines.",
       slug: "engine-rebuild",
-      img:"/Engine rebuild.webp",
+      img: "/Engine rebuild.webp",
     },
     {
       id: 1,
       name: "Initial Diagnostics",
-      text: "Identify engine faults quickly using advanced diagnostic tools for accurate repairs and smooth performance.",
+      text: "Accurate fault-finding before any repair is agreed.",
       slug: "initial-diagnostics",
-      img:"/Initial Diagnostics.webp",
+      img: "/Initial Diagnostics.webp",
     },
     {
       id: 40,
       name: "Timing Chain Replacement",
-      text: "Timing chain replacement services to maintain accurate engine timing and prevent failures.",
+      text: "Specialist replacement for chain-driven prestige engines.",
       slug: "timing-chain-replacement",
-      img:"/e42f4dccba8cfea020c6c73d385c038ca273c78b.webp",
+      img: "/e42f4dccba8cfea020c6c73d385c038ca273c78b.webp",
     },
     {
       id: 42,
       name: "Head Gasket Repair",
-      text: "Reliable head gasket repairs to prevent overheating and restore engine efficiency.",
+      text: "Careful gasket replacement to prevent further engine damage.",
       slug: "head-gasket-repair",
-      img:"/b08253f77d1194ed361ee8793e00aa5a5f887531.webp",
+      img: "/b08253f77d1194ed361ee8793e00aa5a5f887531.webp",
     },
     {
       id: 31,
       name: "Turbo Replacement",
-      text: "Turbocharger diagnostics and replacement services for restored engine power and efficiency.",
+      text: "Precision fitting to restore lost power and responsiveness.",
       slug: "turbo-replacement",
-      img:"/Turbo Replacement.webp",
+      img: "/Turbo Replacement.webp",
     },
     {
       id: 29,
       name: "Engine Flush",
-      text: "Engine flushing service to remove sludge deposits and improve engine cleanliness and efficiency.",
+      text: "Deep internal cleaning to remove sludge and debris.",
       slug: "engine-flush",
-      img:"/Engine Flush.webp",
+      img: "/Engine Flush.webp",
     },
     {
       id: 5,
       name: "Major Service",
-      text: "Complete servicing package covering fluids, filters, brakes, and detailed component inspections.",
+      text: "Thorough checks covering mechanical and safety essentials.",
       slug: "major-service",
-      img:"/Major Service.webp",
+      img: "/Major Service.webp",
     },
     {
       id: 10,
       name: "Hybrid and EV Repairs and Services",
-      text: "Specialist repairs and maintenance for hybrid and electric vehicles using advanced diagnostics.",
+      text: "Specialist diagnostics for hybrid and electric drivetrains.",
       slug: "hybrid-ev-repairs-services",
-      img:"/Hybrid and EV Repairs and Services.webp",
-    }
-  ]
+      img: "/Hybrid and EV Repairs and Services.webp",
+    },
+  ],
 },
-faq:[
+faq: [
   {
     id: 1,
-    question: "Do you offer YouTube video guides?",
-    answer: "Yes, we post repair guides on our YouTube channel monthly."
+    question: "How long does luxury car engine reconditioning usually take?",
+    answer:
+      "Most reconditioning jobs are completed within five to ten working days, depending on parts availability and what our inspection uncovers during strip-down. We confirm a realistic timeframe once diagnostics are finished."
   },
   {
     id: 2,
-    question: "Can you fix faulty door locks?",
-    answer: "Yes, door lock actuator and latch mechanism replacement."
+    question: "What are the early signs my Audi or Land Rover engine needs work?",
+    answer:
+      "Common warning signs include knocking or rattling noises, excessive exhaust smoke, reduced power, rising oil consumption and persistent dashboard warning lights. Addressing these early usually keeps repair costs lower."
   },
   {
     id: 3,
-    question: "Do you offer vehicle health checks?",
-    answer: "Yes, 101-point health check included with every service."
+    question: "What's the actual difference between reconditioning and rebuilding an engine?",
+    answer:
+      "Reconditioning restores worn components through machining and selective replacement, while a rebuild typically involves a more extensive strip-down and broader parts replacement. We'll advise based on your engine's actual condition."
   },
   {
     id: 4,
-    question: "Do you replace worn tie rods?",
-    answer: "Yes, inner and outer tie rod ends replaced for play."
+    question: "Do you offer same-day diagnostics quotes near Bexleyheath?",
+    answer:
+      "Yes, we provide same-day diagnostic assessments and quotations for most Range Rover, Land Rover, BMW and Audi engine issues, helping you decide quickly without unnecessary delay."
+  },
+  {
+    id: 5,
+    question: "Is reconditioning generally cheaper than replacing the whole engine?",
+    answer:
+      "In most cases, yes. Reconditioning restores your existing engine to reliable condition for considerably less than a full replacement unit, provided the core block remains structurally sound."
+  },
+  {
+    id: 6,
+    question: "Will you work on cars from Welling or Erith?",
+    answer:
+      "Absolutely. Alongside Bexleyheath itself, we regularly serve customers from Welling, Erith, Crayford and across the wider Greater London and Kent area."
   }
 ],
 
-served:{
-  heading:"WE SERVED in Sevenoaks",
-  p1:"Sevenoaks' wealthy Kent commuters run some of the highest-mileage luxury SUVs in the South East. We specialise in high-mileage transmission refreshes, suspension bush replacements, and engine carbon cleaning.",
- }
-,
-    requestqoute:{
-  heading:"Valve Clearance Adjustment",
-  paragraph:"Clicking from the top end means valves need adjusting. We measure and reshim bucket tappets or adjust rocker arms. Quiet engine, better power.",
-  bullets:[
-    "Camshaft lobe inspection",
-    "Feeler gauge measurement",
-    "Overhead cam shim replacement",
-    "Hydraulic lifter service"
+served: {
+  heading: "Established Engine Specialists Serving Bexleyheath and North Kent",
+  p1: "We're a dedicated engine reconditioning workshop with deep expertise in prestige and performance vehicles, particularly Range Rover, Land Rover, BMW and Audi models. Drivers across Bexleyheath, Welling and Erith trust us for accurate diagnostics and rebuilds that genuinely last.",
+},
+   requestqoute: {
+  heading: "Honest, Transparent Engine Reconditioning Pricing",
+  paragraph:
+    "Understanding your luxury car engine reconditioning cost shouldn't take days of back and forth. We offer same-day diagnostics quotes for Range Rover, Land Rover, BMW and Audi owners across Bexleyheath and Welling, helping you plan your next step with confidence.",
+  bullets: [
+    "Fully itemised, transparent quotations",
+    "No hidden or surprise labour charges",
+    "Genuine or OEM-matched parts used throughout",
+    "Warranty included on every reconditioned engine",
+    "Courtesy vehicle options available on request"
   ],
   image:"/vogue fix my motor image 18.webp"
 },
     
-        Reviews:[
-       {
+     Reviews: [
+  {
     id: 1,
-    name: "chaichana phromduangdi",
+    name: "Colin M.",
     time: "a year ago",
-    text: "Truly excellent work from Vogue on my L494 Range Rover Sport. Had an issue with the cooling system, timing belt and a turbocharger failing. In just a couple of days the car was up and running again. Nice guys and great service.",
+    text: "My Range Rover Sport started knocking on the drive back from Welling, and I braced for a huge bill. The team reconditioned the engine instead of replacing it, saving me a considerable amount of money.",
     rating: 5
   },
   {
     id: 2,
-    name: "Kamal Goraya",
-    time: "11 months ago",
-    text: "Many thanks to vogue technics for Fantastic service my car fixed quickly and efficiently and the staff were incredibly friendly highly recommend thanks to vic and his Team vogue best garage",
+    name: "Tracey H.",
+    time: "a year ago",
+    text: "Took my Audi in after a garage near Erith quoted for a new engine. This workshop reconditioned mine at a fair price and explained every stage clearly. A genuinely reassuring experience from start to finish.",
     rating: 5
   },
   {
     id: 3,
-    name: "Alan K",
-    time: "10 months ago",
-    text: "Came in with a diagnostics from another garage with a blown head gasket and car overheating. the Vogue team did there own diagnostics and opened up the engine ran several tests turns out it was something minor saving me thousands of pounds on a head gasket replacement plus time. Very honest and reliable staff members from Jack keeping me updated day in day out on everything they did to the car, explaining everything that was done step by step plus videos and pictures to Ali working on fixing the issues On short notice very reliable garage but for the most important part very honest people would definitely recommend if you’re looking for a reliable garage.",
-    rating: 5
+    name: "Wayne D.",
+    time: "a year ago",
+    text: "BMW timing chain started rattling and I got it sorted here after asking around Crayford for recommendations. Quote matched the final bill exactly, which made a nice change from previous garage experiences.",
+    rating: 4
   },
   {
-    id: 103,
-    name: "olaniyi ijalana",
-    time: "3 weeks ago",
-    text: "This company exceeded my expectations. Seeing is believing . Very professional individual and they would listening to your concerns and act accordingly.Vic is a very fantastic guy. I would definitely recommend.",
+    id: 4,
+    name: "Lorraine S.",
+    time: "a year ago",
+    text: "Brought my Land Rover Discovery in for engine diagnostics after a persistent warning light. The team were thorough, explained the findings clearly, and the reconditioning work has completely resolved the problem.",
     rating: 5
-  },
- 
+  }
 ],
 
   },

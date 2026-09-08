@@ -1,5 +1,5 @@
 
-import Reviews from "../../components/components_reviews/reviews/Reviews";
+import Reviews from "../../components/components_reviews/reviews/ReviewsMainPage.jsx";
 import reviewsData from "@/lib/Reviews_data/reviewsData";
 import LatestVideos from "@/components/latest_videos/Latest_videos";
 
