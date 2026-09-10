@@ -17,7 +17,7 @@ import Green_slider from "@/components/components_areas/detailpage/green_slider/
 export async function generateMetadata({ params }) {
   const { slug } = await params;
 
-  const area = locations.find((item) => item.slug === slug);
+  const area = locations.list.find((item) => item.slug === slug);
 
   if (!area) {
     return {};
@@ -31,7 +31,7 @@ export async function generateMetadata({ params }) {
 }
 export default async function ServiceDetail({ params }) {
   const { slug } = await params;
-  const areas = locations.find(
+  const areas = locations.list.find(
     (item) => item.slug === slug
   );
     if (!areas) {

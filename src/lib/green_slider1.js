@@ -1,66 +1,66 @@
 const slider = [
   {
-    title: "Engine Repair Specialists in Grays, Essex",
-    text: `Vogue Fix My Motor is Grays' trusted engine repair and diagnostics centre, serving drivers across Essex and beyond. Whether your vehicle is suffering from engine warning lights, power loss, overheating, or unusual noises, our experienced technicians are equipped to diagnose and repair the problem accurately.
+    title: "What Actually Sets Vogue Fix My Motor Apart",
+    text: `Choosing the right garage matters, and understanding what genuinely separates a reliable workshop from an average one helps explain why we do things the way we do.
 
-We use the latest OBD diagnostic scanning technology to read your vehicle's fault codes and pinpoint the exact cause of any issue. This means no guesswork, no unnecessary part replacements, and faster turnaround for you. Our workshop handles all makes and models, from hatchbacks to SUVs and commercial vehicles.
+Every diagnosis starts with proper testing rather than assumption, whether that's a warning light, a noise, or a symptom you've noticed while driving. We'd rather take a little longer to confirm the actual cause than replace a part speculatively and hope it resolves the issue.
 
-Located in Grays, we proudly serve customers from Tilbury, Purfleet, Ockendon, Hornchurch, Stanford-le-Hope, Corringham, and all surrounding areas within a 10-mile radius.
-
-Our goal is simple: get your car running safely and efficiently, at a price you can afford. Book your engine diagnostic today and experience the Vogue Fix My Motor difference.`
+That approach applies equally across every vehicle we work on, from an everyday hatchback to a complex Range Rover, ensuring consistent quality regardless of what's parked on our ramp.`
   },
 
   {
-    title: "Trusted Car Repair Experts",
-    text: `We provide reliable auto repair and engine services for all types of vehicles, ensuring safety, performance, and long-term durability. Our workshop is equipped with modern diagnostic tools and experienced mechanics who understand the complexity of today’s automotive systems. Whether it’s a minor issue like oil change or a major engine overhaul, we handle every job with precision and care.
+    title: "Specialist Range Rover and Land Rover Expertise",
+    text: `Modern Range Rover and Land Rover vehicles run considerably more complex systems than mainstream cars, from air suspension to sophisticated engine management, and servicing them properly takes genuine platform-specific knowledge rather than a generalist approach.
 
-Our goal is to build long-term trust with our customers. We believe that vehicle maintenance should never be stressful, so we focus on quick diagnosis and efficient solutions. From brake system repairs to suspension tuning, electrical diagnostics, and full engine rebuilding, our team is trained to handle it all.
+Our technicians train specifically on these vehicles, understanding known issues like wet belt timing systems and air suspension faults that a standard garage might misdiagnose or overlook entirely.
 
-We also emphasize preventive maintenance to help customers avoid costly breakdowns in the future. Regular servicing, fluid checks, and system inspections ensure your vehicle stays in top condition. Customer satisfaction is at the core of our service, and we continuously improve our techniques and tools to match industry standards and modern vehicle technologies.`
+That specialist depth benefits every customer, whether you're driving the latest Range Rover Sport or an older, higher-mileage Discovery.`
   },
 
   {
-    title: "Fast & Professional Service",
-    text: `Get your car fixed quickly with our certified mechanics and modern tools designed to deliver fast and accurate results. We understand that vehicle downtime can disrupt your daily routine, so our team focuses on providing efficient service without compromising quality. From the moment you bring your vehicle in, we perform a detailed inspection to identify issues and provide clear solutions.
+    title: "Diagnostics-First Approach to Every Repair",
+    text: `Skipping proper diagnosis is one of the most common reasons repairs fail to actually resolve the problem, and it's a shortcut we deliberately avoid at every stage.
 
-Our workflow is optimized for speed and accuracy. Using advanced diagnostic systems, we quickly pinpoint mechanical or electrical problems and resolve them using industry-approved methods. Whether it’s engine troubleshooting, battery issues, air conditioning repair, or tire replacement, we ensure a smooth and hassle-free experience.
+We use manufacturer-level diagnostic equipment across both mainstream and premium brands, reading deep system data rather than relying on generic fault codes alone. This means faults are identified accurately the first time, rather than through a process of speculative part replacement.
 
- Transparency and professionalism are key values in our service approach. Every repair is tested thoroughly before delivery to ensure maximum safety and performance on the road.
-
-Our team continues to upgrade their skills and tools to keep up with modern automotive technology, ensuring that we can service both older vehicles and the latest models efficiently and professionally.`
+That thoroughness saves you money in the long run, even when it takes slightly longer upfront to confirm the genuine cause.`
   },
+
   {
-  title: "Advanced Engine Diagnostics",
-  text: `Modern vehicles require advanced diagnostic systems to detect issues accurately and efficiently. Our workshop uses state-of-the-art scanning tools that connect directly to your vehicle’s onboard computer system. This allows us to quickly identify engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork.
+    title: "All Makes and Models Under One Roof",
+    text: `Managing separate garages for different vehicles across a household or business adds unnecessary complexity that a genuinely all-makes workshop removes entirely.
 
-Engine diagnostics are essential in today’s automotive industry because vehicles are becoming more electronically controlled than ever before. A small sensor malfunction can affect fuel efficiency, acceleration, and overall driving performance. That’s why we perform detailed scanning before starting any repair work.
+Our technicians work confidently across BMW, Audi, Ford, Volkswagen, Mercedes-Benz, Vauxhall, Toyota, and Honda, alongside our particular depth of Range Rover and Land Rover knowledge. This means consistent quality and communication, regardless of which vehicle needs attention.
 
-Our technicians are trained to interpret diagnostic codes and convert them into actionable repair solutions. Instead of replacing parts randomly, we focus on precise problem identification to save both time and cost for our customers. This ensures your vehicle receives the exact repair it needs.
+For households or businesses running multiple vehicles, this consolidation genuinely simplifies scheduling and builds a single trusted relationship for every car you own.`
+  },
 
-We also provide a full diagnostic report to customers so they understand the condition of their vehicle. Transparency is important to us, and we believe informed customers make better maintenance decisions. Regular diagnostics can prevent major breakdowns and extend engine life significantly.`
-},
+  {
+    title: "Honest Pricing You Can Actually Rely On",
+    text: `Nobody wants to be surprised by a final invoice that looks nothing like the original estimate, which is exactly the experience we work to avoid.
 
-{
-  title: "Quality Parts & Reliable Repairs",
-  text: `We believe that the quality of repair is directly connected to the quality of parts used in the process. That is why we only use genuine, high-quality, and manufacturer-approved components for all vehicle repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality.
+Every repair starts with diagnosis and a clear, itemised quote before any work begins, explaining what's needed and why. If additional findings come up once work is underway, we explain them and quote separately rather than proceeding without your knowledge.
 
-Using reliable parts ensures better performance, longer lifespan, and improved safety on the road. Cheap or low-quality components may reduce repair costs initially but often lead to repeated breakdowns and higher expenses in the long run. Our priority is to provide durable solutions that customers can trust.
+That transparency is central to how we've built long-term relationships with drivers across Grays and Essex.`
+  },
 
-Every part we install goes through a quality check before fitting. Our technicians carefully match specifications to ensure perfect compatibility with your vehicle model. This attention to detail reduces future maintenance issues and improves overall driving experience.
+  {
+    title: "Trusted by Drivers Across Grays and Essex",
+    text: `Word-of-mouth reputation matters more than marketing in this industry, and ours has been built through consistent, honest work across the local community over time.
 
-We also maintain strong relationships with trusted suppliers, allowing us to source authentic parts quickly and efficiently. This helps us complete repairs faster while maintaining high standards of workmanship and reliability.`
-},
+Customers regularly return not just for repairs but for regular servicing, valuing a garage they can trust with every vehicle in the household. That trust extends across Grays, Tilbury, Basildon, and Chelmsford, wherever local drivers need a genuinely reliable workshop.
 
-{
-  title: "Customer Satisfaction Guaranteed",
-  text: `Customer satisfaction is at the core of everything we do. From the moment you enter our workshop to the final delivery of your vehicle, we focus on providing a smooth, transparent, and professional experience. Our team believes that trust is built through honesty, quality service, and consistent communication.
+Being part of this community means standing behind our work, not just completing a transaction.`
+  },
 
-We listen carefully to customer concerns and provide clear explanations of all repair work required. There are no hidden charges or unnecessary services—only what your vehicle truly needs. This approach has helped us build long-term relationships with our customers.
+  {
+    title: "Quality Control, Parts, and Aftercare You Can Trust",
+    text: `Every repair carried out at our Grays workshop goes through the same standard of scrutiny, regardless of the vehicle's value or the size of the job.
 
-We also value feedback and continuously improve our services based on customer experiences. Every repair job is treated with the same level of importance, whether it is a small fix or a complete engine rebuild.
+We source parts matched to your vehicle's specification rather than defaulting to the cheapest generic option available, balancing cost-effectiveness with genuine long-term reliability. Every significant repair is tested thoroughly before your vehicle is returned, confirming the fault has actually been resolved rather than assuming it based on the work carried out.
 
-Our goal is not just to repair vehicles but to ensure peace of mind for every customer. We want you to leave our workshop confident that your vehicle is safe, reliable, and performing at its best.`
-}
+This consistency, applied to every job regardless of size, is what protects our reputation and your vehicle in equal measure.`
+  }
 ];
 
 export default slider;

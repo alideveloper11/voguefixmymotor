@@ -21,12 +21,12 @@ export default function Areas_links({ locations }) {
     <div className="flex pb-3 flex-wrap ">
       <div className="w-full"><center>
         <div className="w-[90%] md:w-[80%] py-5 lg:w-[70%]">
-              <h2 className="font-bold text-2xl md:text-3xl ">Essex's Trusted Prestige Engine Workshop</h2>
-            <p className="text-[#4B5563] leading-7 tracking-[0.04em] text-[16px]  py-5 ">Based at our Grays workshop, we specialise in reconditioning and rebuilding engines for Range Rover, Land Rover, BMW and Audi vehicles throughout Essex. Drivers from Chelmsford, Colchester and beyond trust us for accurate diagnostics, transparent pricing, and engine work carried out to manufacturer-level standards.</p>
+              <h2 className="font-bold text-2xl md:text-3xl ">{locations.heading}</h2>
+            <p className="text-[#4B5563] leading-7 tracking-[0.04em] text-[16px]  py-5">{locations.text}</p>
           </div></center>
         <div className="flex flex-wrap">
           
-          {locations.map((item) => (
+          {locations.list.map((item) => (
             <div
               key={item.id}
               className="w-6/12 md:w-4/12 lg:w-3/12 mb-5 text-center flex items-center justify-center"

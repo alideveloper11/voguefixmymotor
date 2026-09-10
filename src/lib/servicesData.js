@@ -1,69 +1,79 @@
-
-
 const servicesData = {
-  heading : "Engine Repair & Car Services in Grays, Essex",
-  sub_heading : "From engine diagnostics and rebuilds to full car servicing, Vogue Fix My Motor provides reliable solutions for all makes and models across Grays and the surrounding Essex area.",
+
+  heading : "Complete Car Servicing and Repairs in Grays",
+
+  sub_heading : "From routine maintenance to complex specialist repairs, our Grays workshop covers the full range of services your vehicle needs, whatever the make or model.",
+
   service_list:[
 
   {
-       id: 28,
-       name: "Clutch Replacement",
-       text: "Professional clutch repair and replacement for smoother gear changes and driving control.",
-       slug: "clutch-replacement",
-    img:"/f184d927a7134700f54e21657884675da9b63340.webp",
-    },
-     {
-  id: 45,
-      name: "Air Conditioning Service",
-      text: "Complete air conditioning servicing for efficient cooling and improved cabin air quality.",
-      slug: "air-conditioning-service",
-    img:"/5894cc3d25139ce6d0c8883c11032a4e11db8154.webp",
+    id: 1,
+    name: "Diagnostics",
+    text: "Accurate fault-finding across every vehicle system and warning light.",
+     slug: "diagnostics",
+    img:"/Diagnostics.webp",
   },
-    {
-      id: 40,
-       name: "Timing Chain Replacement",
-       text: "Timing chain replacement services to maintain accurate engine timing and prevent failures.",
-       slug: "timing-chain-replacement",
-    img:"/e42f4dccba8cfea020c6c73d385c038ca273c78b.webp",
-  },
-   
-    {
-     id: 42,
-       name: "Head Gasket Repair",
-       text: "Reliable head gasket repairs to prevent overheating and restore engine efficiency.",
-       slug: "head-gasket-repair",
-    img:"/b08253f77d1194ed361ee8793e00aa5a5f887531.webp",
-  },
-   
+
   {
-      id: 33,
-       name: "DPF Cleaning Service",
-       text: "Professional DPF cleaning to restore airflow, reduce emissions, and improve fuel economy.",
-       slug: "dpf-cleaning-service",
-    img:"/ad869a0a3608666dbdb28acc66e433fdd28ca8e4.webp",
+    id: 2,
+    name: "Vehicle Health Check",
+    text: "A thorough check flagging wear before it becomes a costly repair.",
+  slug: "vehicle-health-check",
+    img:"/Vehicle Health Check.webp",
   },
-   {
-    id: 23,
-       name: "Water Pump Replacement",
-       text: "Reliable water pump replacement services to prevent overheating and cooling system failures.",
-       slug: "water-pump-replacement",
-    img:"/6fc7eb2aede4daa0053b35924cd9d6397a252f64.webp",
+
+  {
+    id: 3,
+    name: "Wet Belt Replacement",
+   text: "Specialist replacement protecting your engine from preventable failure.",
+      slug: "wet-belt",
+    img:"/Wet Belt.webp",
+   
   },
-    {
-    id: 34,
+
+  {
+    id: 4,
     name: "MOT Testing",
-    text: "Certified MOT testing services to ensure your vehicle meets all legal safety standards.",
-    slug: "mot-testing",
-    img:"/MOT Testing.webp",},
-    {
-    id: 14,
-    name: "All Repairs and Services",
-    text: "Complete vehicle repair and maintenance solutions for all makes and models.",
-    slug: "all-repairs-services",
-    img:"/All Repairs and Services.webp",
-    }
+    text: "Full MOT testing with repairs handled on-site the same day.",
+     slug: "mot-testing",
+    img:"/MOT Testing.webp",
+  },
+
+  {
+    id: 5,
+    name: "Brake Services",
+    text: "Complete brake repairs restoring safe, confident stopping power.",
+    slug: "brake-services",
+    img:"/Brake Services.webp",
+  },
+
+  {
+    id: 6,
+    name: "Timing Belt Replacement",
+  text: "Specialist replacement protecting your engine from preventable failure.",
+      slug: "timing-belts",
+    img:"/Timing Belts.webp",
+
+  },
+
+  {
+    id: 7,
+    name: "Hybrid & EV Repairs",
+    text: "Qualified high-voltage diagnostics and repairs for modern drivetrains.",
+   slug: "hybrid-ev-repairs-services",
+    img:"/Hybrid and EV Repairs and Services.webp",
+  },
+
+  {
+    id: 8,
+    name: "24/7 Vehicle Recovery",
+    text: "Round-the-clock recovery across Grays and the wider Essex area.",
+    slug: "vehicle-recovery",
+    img:"/24-7 Vehicle Recovery.webp",
+  }
 
 ]
+
 }
 
 export default servicesData;

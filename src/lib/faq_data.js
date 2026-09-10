@@ -1,27 +1,44 @@
 const faq_data = [
   {
     id: 1,
-    question: "Why choose Vogue Fix My Motor for engine repair in Grays, Essex?",
+    question: "What does a car service typically include?",
     answer:
-      "Vogue Fix My Motor combines years of hands-on engine repair experience with advanced diagnostic tools and competitive pricing. Based in Grays, Essex, we serve customers across Tilbury, Purfleet, Ockendon, Hornchurch and all surrounding areas within 10 miles. We provide honest assessments, transparent pricing, and high-quality repairs you can rely on."
+      "A service generally covers oil and filter changes, along with checks on brakes, tyres, fluids, and key safety systems, though the exact scope depends on whether you book an interim, major, or annual service. We'll advise which suits your vehicle."
   },
+
   {
     id: 2,
-    question: "How do I book an engine diagnostic appointment?",
+    question: "How often should I service my car?",
     answer:
-      "You can book easily through our online contact form or by calling our workshop directly. Simply provide your vehicle registration number, describe the issue, and we will schedule a convenient appointment for you. We aim to get your vehicle booked in as quickly as possible."
+      "Most vehicles benefit from an interim service every six months and a major or annual service yearly, though this can vary based on mileage and usage. We recommend based on your vehicle's specific history rather than a generic rule."
   },
+
   {
     id: 3,
-    question: "What types of engine problems can you diagnose and repair?",
+    question: "How do I find a reliable mechanic near me?",
     answer:
-      "We diagnose and repair a wide range of engine issues including warning lights, power loss, overheating, unusual noises, oil leaks, failed sensors, timing problems, and more. Our team uses state-of-the-art OBD scanning tools to accurately identify faults across all makes and models."
+      "Look for genuine diagnostic capability, transparent pricing, and consistent reviews from real customers rather than relying on price alone. An independent garage with specialist knowledge often offers better value than a generic chain without compromising on quality."
   },
+
   {
     id: 4,
-    question: "Do you offer a warranty on engine repairs?",
+    question: "What are the signs my car needs a mechanic?",
     answer:
-      "Yes, we stand behind our work. All engine repairs and parts fitted at Vogue Fix My Motor come with a warranty for your peace of mind. We only use quality, approved components to ensure long-lasting results. Ask our team about warranty terms when you book your appointment."
+      "Warning lights, unusual noises, fluid leaks, reduced performance, or changes in how the vehicle handles are all signs worth investigating promptly. Addressing symptoms early usually means a simpler, more affordable repair than waiting until they worsen."
+  },
+
+  {
+    id: 5,
+    question: "Do you offer free quotes for car repairs?",
+    answer:
+      "Yes, we provide a clear quote following diagnosis, before any repair work begins, so you know exactly what's involved and what it will cost. Contact us directly to discuss your vehicle's specific issue."
+  },
+
+  {
+    id: 6,
+    question: "Can I book an MOT and service together?",
+    answer:
+      "Yes, combining your MOT with a scheduled service is a popular option that saves arranging separate visits. Simply let us know when booking and we'll coordinate both to be completed together."
   }
 ];
 

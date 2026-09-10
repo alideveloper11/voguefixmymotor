@@ -3,18 +3,18 @@ export default function Top_component(){
         <div className="flex flex-wrap mx-3 lg:mx-12 py-5 pb-10 ">
             <div className="w-full pt-5 lg:w-6/12">
                 <div className="mx-3 ">
-                    <h2 className="font-bold text-2xl md:text-3xl leading-7 tracking-[0.04em]">About Vogue Fix My Motor — Engine Repair Specialists in Grays, Essex</h2>
+                    <h2 className="font-bold text-2xl md:text-3xl leading-7 tracking-[0.04em]">An Independent Garage Built on Genuine Automotive Expertise</h2>
                     <p className="mt-5 text-justify leading-7 tracking-[0.04em]">
-                        Vogue Fix My Motor is a family-run engine repair and car servicing workshop based in Grays, Essex. With years of hands-on experience and a passion for getting vehicles back on the road, we have become one of the most trusted garages in the local area. We serve customers from Grays, Tilbury, Purfleet, Ockendon, Hornchurch, Stanford-le-Hope, Basildon, Chelmsford, and all surrounding areas within a 10-mile radius.
+                      Vogue Fix My Motor started with a simple goal: give Grays drivers an alternative to inflated dealership pricing without sacrificing the quality and expertise their vehicles genuinely deserve. That founding principle still shapes how we operate today.
+
                     </p>
                     <p className="mt-5  text-justify leading-7 tracking-[0.04em]">
-                        Our workshop is equipped with the latest OBD diagnostic scanning equipment, allowing us to accurately identify engine faults across all vehicle makes and models. We handle everything from engine diagnostics and rebuilds to clutch replacement, timing chain repair, head gasket repair, DPF cleaning, air conditioning servicing, and routine maintenance. No job is too big or too small for our experienced team.
+                     Our workshop combines broad, all-makes servicing capability with particular depth in Range Rover and Land Rover platforms, an area many general garages either avoid or handle without the specialist knowledge these vehicles require. From routine servicing to complex diagnostics, engine rebuilds, and electrical fault-finding, our technicians train specifically to handle the complexity modern vehicles present.
                     </p>
                     <p className="mt-5  text-justify leading-7 tracking-[0.04em]">
-                        At Vogue Fix My Motor, we believe in complete transparency. Before any work begins, we provide every customer with a clear, itemised quote covering all parts and labour — with no hidden charges and no unnecessary extras. We only carry out the work your vehicle genuinely needs, which is why our customers keep coming back and recommending us to friends and family.
-                    </p>
-                    <p className="mt-5  text-justify leading-7 tracking-[0.04em]">
-                        All repairs and parts fitted at Vogue Fix My Motor come with a warranty for your peace of mind. We use only quality, manufacturer-approved components and stand behind every job we complete. Whether you drive a Range Rover, BMW, Ford, Volkswagen, Audi, or any other make, our team has the expertise to service and repair it to the highest standard.
+                   What sets an independent garage apart isn't just price, it's the relationship. We take the time to explain what's actually wrong, why it matters, and what your options genuinely are, rather than rushing you toward the most expensive repair available.
+                    </p><p className="mt-5  text-justify leading-7 tracking-[0.04em]">
+                    That approach has built a loyal customer base across Grays and the wider Essex area, many of whom now bring every vehicle in the household to us, trusting the same honest standard applies regardless of the job.
                     </p>
                 </div>
             </div>
