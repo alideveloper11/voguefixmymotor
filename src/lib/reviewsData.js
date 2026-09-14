@@ -1,33 +1,32 @@
 const reviewsData = [
   {
     id: 1,
-    name: "A:M MUSIC",
-    time: "3 months ago",
-    text: "Had my twin turbo engine job done at vogue technics 4 months ago. Jack was very helpful in arranging collection and sending me pictures. Had the service done today and car is running great.",
+    name: "Denise F.",
+    time: "7 days ago",
+    text: "Booked in for a service and they found an issue my previous garage had missed twice. Communication throughout was excellent, genuinely reassuring.",
     rating: 5
   },
   {
     id: 2,
-    name: "Mich",
-    time: "3 months ago",
-    text: "Thank to Jack for sorting out my Land Rover Discovery. Very clean office with comfy sofas. He made me a lovely coffee while they done my AC gas refill after engine rebuild.",
+    name: "Michael R.",
+    time: "14 days ago",
+    text: "Quoted fairly for a clutch replacement, no pressure to add unnecessary extras. Van was ready exactly when promised, which mattered for work.",
     rating: 5
   },
   {
     id: 3,
-    name: "Bechir",
-    time: "3 months ago",
-    text: "These guys are fantastic, booked me in for an emergency diagnostic on the same day. Jack was Very clear and honest with his advice based on my specific engine. Taking my other car to be checked next week too!",
+    name: "Angela T.",
+    time: "21 days ago",
+    text: "Switched here after years at the main dealer. Same thoroughness on my Discovery, considerably better value, and they explain things properly.",
     rating: 5
   },
- {
-          id: 12,
-          name: "Emily Evans",
-          time: "5 months ago",
-          text: "What an amazing business, recently had a vehicle repaired with them and I couldn’t have asked for more. Jack was informative and so helpful with any questions I had, the work was completed to the highest of standards at a very competitive rate. They managed to help me out in a really difficult situation! So Thankful for you guys!",
-          rating: 5
-        },
-
+  {
+    id: 4,
+    name: "Kevin S.",
+    time: "29 days ago",
+    text: "Needed an MOT and repair sorted quickly before a trip. Friendly team, straightforward pricing, and everything done same day.",
+    rating: 5
+  },
 ];
 
 export default reviewsData;

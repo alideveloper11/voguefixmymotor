@@ -1,4 +1,7 @@
-﻿export const locations = [
+﻿export const locations = {
+  heading: "Serving Grays and the Wider Essex Area",
+  text: "Based at Unit 1 Hedley Ave in Grays, our workshop serves drivers across the surrounding area, providing genuinely local, accessible servicing and repairs. Beyond Grays itself, we regularly work with customers from Tilbury, Basildon, Chelmsford, and Purfleet, alongside drivers travelling along the A13 and M25 corridors. Wherever you're based across Essex, our workshop is within easy reach for both routine and urgent vehicle needs.", 
+    list:[
   { id: 1, name: "Chelmsford", slug: "chelmsford",
     heading:"Grays Areas We Cover",
     text:"We provide specialist engine services and vehicle recovery in Grays.",
@@ -10924,4 +10927,5 @@ requestqoute: {
 ],
 
    },
-];
+]
+}

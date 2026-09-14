@@ -3,8 +3,11 @@ import KeyIcon from '@mui/icons-material/Key';
 import SecurityIcon from '@mui/icons-material/Security';
 import WatchLaterIcon from '@mui/icons-material/WatchLater';
 import StarIcon from '@mui/icons-material/Star';
-
-
+import SpeedIcon from "@mui/icons-material/Speed";
+import PriceCheckIcon from "@mui/icons-material/PriceCheck";
+import FactCheckIcon from "@mui/icons-material/FactCheck";
+import WorkspacePremiumIcon from "@mui/icons-material/WorkspacePremium";
+import ReceiptLongIcon from "@mui/icons-material/ReceiptLong";
 import Link from "next/link";
 export default function why_choose(){
     return(
@@ -12,53 +15,45 @@ export default function why_choose(){
 
          <div className="w-full pt-5 lg:w-1/2">
                 <h2 className="font-bold text-2xl md:text-3xl">
-                    Why Choose Vogue Fix My Motor?
+                    Why Grays Drivers Choose Us
                 </h2>
                 <h3 className=" mt-5 text-[#6B7280] leading-7 tracking-[0.04em] text-[16px] font-normal max-w-[700px]">
-  Based in Grays, Essex, our mission is to provide expert engine repair and diagnostics with a focus on quality, reliability, and customer satisfaction. Here&apos;s why drivers across Grays, Tilbury, Purfleet and surrounding areas trust us:
+ Independent, straightforward, and genuinely knowledgeable, we've built our reputation on honest diagnostics and workmanship customers can rely on across Grays and Essex.
 </h3>
 
           <div className=" text-left flex flex-wrap gap-6 ">
                <div className="w-full lg:w-11/24 mt-5">
 
-<KeyIcon sx={{ transform: "rotate(300deg) scaleX(-1)", fontSize: 30 }} className="text-[#028D53]" />
-               <p className="font-bold text-[20px] leading-7 tracking-[0.01em]  mt-2">Comprehensive Engine Diagnostics</p>
+<WorkspacePremiumIcon sx={{ transform: "rotate(300deg) scaleX(-1)", fontSize: 30 }} className="text-[#028D53]" />
+               <p className="font-bold text-[20px] leading-7 tracking-[0.01em]  mt-2">Specialist Knowledge</p>
                <p className="mt-2 text-[14px] leading-7 tracking-[0.01em] ">
-                We use state-of-the-art scanning tools to perform
-                precise engine diagnostics, identifying faults fast and
-                ensuring your car runs at its best.
+                Genuine expertise across Range Rover, Land Rover, and mainstream vehicle brands alike.
                </p>
                </div>
                <div className="w-full lg:w-11/24 mt-5">
-                    <SecurityIcon sx={{fontSize: 30 }}  className="text-[#028D53]"  />
-                    <p className="font-bold text-[20px] leading-7 tracking-[0.01em]  mt-2">Experienced Technicians</p>
+                    <FactCheckIcon sx={{fontSize: 30 }}  className="text-[#028D53]"  />
+                    <p className="font-bold text-[20px] leading-7 tracking-[0.01em]  mt-2">Honest Diagnostics</p>
                <p className="mt-2 text-[14px] leading-7 tracking-[0.01em] ">
-               Our team brings years of hands-on experience in engine repair
-                    and motor vehicle servicing, tackling even the most
-                    complex engine problems with confidence.
+               Faults confirmed through proper testing, not guesswork, before any repair quote is given.
                </p>
                </div>
                  <div className="w-full lg:w-11/24 mt-5">
 
 
-                    <WatchLaterIcon sx={{fontSize: 30 }}  className="text-[#028D53]"  />
-               <p className="font-bold text-[20px] leading-7 tracking-[0.01em]  mt-2">Fast Turnaround Times</p>
+                    <ReceiptLongIcon  sx={{fontSize: 30 }}  className="text-[#028D53]"  />
+               <p className="font-bold text-[20px] leading-7 tracking-[0.01em]  mt-2">Transparent Pricing</p>
                <p className="mt-2 leading-7 tracking-[0.01em]  text-[14px]">
-                We understand your time matters. Our efficient
-                workflow means most repairs are completed quickly
-                so you&apos;re back on the road with minimal disruption.
+          Clear, itemised quotes before work begins, with no hidden charges added afterward.
                </p>
                </div>
 
                <div className="w-full lg:w-11/24 mt-5">
 
-                    <StarIcon sx={{fontSize: 30 }}  className="text-[#028D53]"  />
+                    <SpeedIcon sx={{fontSize: 30 }}  className="text-[#028D53]"  />
 
-               <p className="font-bold text-[20px] leading-7 tracking-[0.01em]  mt-2">Honest & Transparent Service</p>
+               <p className="font-bold text-[20px] leading-7 tracking-[0.01em]  mt-2">Fast Turnaround</p>
                <p className="mt-2 text-[14px] leading-7 tracking-[0.01em] ">
-                No hidden charges, no unnecessary work. We provide
-                honest assessments, clear pricing, and top-quality
-                repairs that customers across Essex rely on.
+              Efficient scheduling and same-day repairs wherever possible, minimising your time off the road
                </p>
                </div>
 

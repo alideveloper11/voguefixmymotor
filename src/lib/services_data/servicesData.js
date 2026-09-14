@@ -2553,28 +2553,28 @@ Addressing suspected wet belt wear promptly, rather than waiting for a scheduled
       id: 1,
       name: "Joanne T.",
       time: "14 days ago",
-      text: "Brought in a used car with several unrelated issues and they sorted everything in one visit. Genuinely one-stop for every repair. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Brought in a used car with several unrelated issues and they sorted everything in one visit. Genuinely one-stop for every repair.",
       rating: 5
     },
     {
       id: 2,
       name: "Colin B.",
       time: "14 days ago",
-      text: "Honest quote for a repair that turned out cheaper than expected once diagnosed properly. No inflated estimates here. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Honest quote for a repair that turned out cheaper than expected once diagnosed properly. No inflated estimates here. ",
       rating: 5
     },
     {
       id: 3,
       name: "Priti N.",
       time: "12 days ago",
-      text: "Range of makes serviced under one roof, from my Honda to my partner's Range Rover. Consistent quality across both. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Range of makes serviced under one roof, from my Honda to my partner's Range Rover. Consistent quality across both.",
       rating: 5
     },
     {
       id: 4,
       name: "Darren W.",
       time: "28 days ago",
-      text: "Fast turnaround on a suspension repair that another garage quoted a week for. Back on the road in two days. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Fast turnaround on a suspension repair that another garage quoted a week for. Back on the road in two days.",
       rating: 5
     }
   ],
@@ -2748,28 +2748,28 @@ Booking in for a diagnostic check is always the right first step when you're uns
       id: 1,
       name: "Helen R.",
       time: "25 days ago",
-      text: "Noticeable improvement in throttle response after a fuel system clean. Should have booked this in sooner, honestly. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Noticeable improvement in throttle response after a fuel system clean. Should have booked this in sooner, honestly.",
       rating: 5
     },
     {
       id: 2,
       name: "Barry T.",
       time: "22 days ago",
-      text: "Rough idle and hesitation sorted with a proper injector clean rather than an expensive replacement. Great honest advice. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Rough idle and hesitation sorted with a proper injector clean rather than an expensive replacement. Great honest advice. ",
       rating: 5
     },
     {
       id: 3,
       name: "Sunita J.",
       time: "18 days ago",
-      text: "Explained exactly why my direct-injection engine needed this more than my old car did. Genuinely informative visit. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Explained exactly why my direct-injection engine needed this more than my old car did. Genuinely informative visit.",
       rating: 5
     },
     {
       id: 4,
       name: "Phil D.",
       time: "14 days ago",
-      text: "Fuel economy improved noticeably within a week of the clean. Worth every penny for the difference it made. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Fuel economy improved noticeably within a week of the clean. Worth every penny for the difference it made. ",
       rating: 5
     }
   ],
@@ -2944,28 +2944,28 @@ A proper professional clean uses equipment and techniques that directly target t
       id: 1,
       name: "Trevor N.",
       time: "15 days ago",
-      text: "AdBlue warning appeared with no clear reading of remaining levels. Sorted with a proper top-up and system check in minutes. ⭐⭐⭐⭐⭐ 5.0",
+      text: "AdBlue warning appeared with no clear reading of remaining levels. Sorted with a proper top-up and system check in minutes.",
       rating: 5
     },
     {
       id: 2,
       name: "Angela F.",
       time: "27 days ago",
-      text: "AdBlue system fault diagnosed properly rather than just topped up and sent away. Found the actual sensor issue causing it. ⭐⭐⭐⭐⭐ 5.0",
+      text: "AdBlue system fault diagnosed properly rather than just topped up and sent away. Found the actual sensor issue causing it.",
       rating: 5
     },
     {
       id: 3,
       name: "Ricky S.",
       time: "23 days ago",
-      text: "Explained clearly what AdBlue actually does and why my Range Rover needed it. Genuinely helpful, not just a quick fill. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Explained clearly what AdBlue actually does and why my Range Rover needed it. Genuinely helpful, not just a quick fill.",
       rating: 5
     },
     {
       id: 4,
       name: "Pauline G.",
       time: "12 days ago",
-      text: "Fast, straightforward AdBlue top-up with no upselling. Exactly the quick, honest service I needed. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Fast, straightforward AdBlue top-up with no upselling. Exactly the quick, honest service I needed.",
       rating: 5
     }
   ],
@@ -3136,28 +3136,28 @@ Having the system checked properly, especially if a warning appears shortly afte
       id: 1,
       name: "Frank D.",
       time: "4 days ago",
-      text: "Chassis corrosion repaired properly with structural welding, not a quick patch job. Passed the following MOT with no issues. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Chassis corrosion repaired properly with structural welding, not a quick patch job. Passed the following MOT with no issues. ",
       rating: 5
     },
     {
       id: 2,
       name: "Linda M.",
       time: "2 days ago",
-      text: "Exhaust welding sorted a persistent noise that two other places couldn't fix permanently. Genuinely lasting repair this time. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Exhaust welding sorted a persistent noise that two other places couldn't fix permanently. Genuinely lasting repair this time. ",
       rating: 5
     },
     {
       id: 3,
       name: "Kevin R.",
       time: "8 days ago",
-      text: "Honest assessment of what could be welded safely and what genuinely needed replacing instead. Appreciated the straight answer. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Honest assessment of what could be welded safely and what genuinely needed replacing instead. Appreciated the straight answer.",
       rating: 5
     },
     {
       id: 4,
       name: "Sheila T.",
       time: "24 days ago",
-      text: "Bodywork weld repair on a rusted sill, finished to a proper standard. Couldn't tell where the damage had been. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Bodywork weld repair on a rusted sill, finished to a proper standard. Couldn't tell where the damage had been.",
       rating: 5
     }
   ],
@@ -3319,28 +3319,28 @@ We always give an honest assessment of which category your vehicle falls into be
       id: 1,
       name: "Alison P.",
       time: "4 days ago",
-      text: "Persistent emissions warning finally diagnosed correctly as a NOx sensor fault. Fixed properly rather than just cleared and returned. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Persistent emissions warning finally diagnosed correctly as a NOx sensor fault. Fixed properly rather than just cleared and returned.",
       rating: 5
     },
     {
       id: 2,
       name: "Derek W.",
       time: "23 days ago",
-      text: "Reduced power mode traced to a faulty NOx sensor, not the turbo I'd feared. Relieved it was a straightforward fix. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Reduced power mode traced to a faulty NOx sensor, not the turbo I'd feared. Relieved it was a straightforward fix.",
       rating: 5
     },
     {
       id: 3,
       name: "Fiona A.",
       time: "15 days ago",
-      text: "Explained clearly which sensor had failed and why it mattered for my MOT. Genuinely informative, not just a quick swap. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Explained clearly which sensor had failed and why it mattered for my MOT. Genuinely informative, not just a quick swap.",
       rating: 5
     },
     {
       id: 4,
       name: "Michael C.",
       time: "18 days ago",
-      text: "Quick diagnosis and repair before my MOT was due. Passed with no advisories related to the emissions system. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Quick diagnosis and repair before my MOT was due. Passed with no advisories related to the emissions system.",
       rating: 5
     }
   ],
@@ -3524,7 +3524,7 @@ Addressing the fault promptly avoids these secondary complications and the highe
       name: "Wendy S.",
       time: "24 days ago",
       text:
-        "Lost the locking key years ago and needed new tyres fitted. Removed safely without any damage to the wheel itself. ⭐⭐⭐⭐⭐ 5.0",
+        "Lost the locking key years ago and needed new tyres fitted. Removed safely without any damage to the wheel itself.",
       rating: 5,
     },
     {
@@ -3532,7 +3532,7 @@ Addressing the fault promptly avoids these secondary complications and the highe
       name: "Roy H.",
       time: "3 days ago",
       text:
-        "Rounded locking nut from a previous garage's mistake, sorted quickly with proper extraction tools. No further damage caused. ⭐⭐⭐⭐⭐ 5.0",
+        "Rounded locking nut from a previous garage's mistake, sorted quickly with proper extraction tools. No further damage caused.",
       rating: 5,
     },
     {
@@ -3540,7 +3540,7 @@ Addressing the fault promptly avoids these secondary complications and the highe
       name: "Debbie L",
       time: "5 days ago",
       text:
-        "Quick, professional service before my MOT deadline. New locking nuts and key supplied, ready to go. ⭐⭐⭐⭐⭐ 5.0",
+        "Quick, professional service before my MOT deadline. New locking nuts and key supplied, ready to go.",
       rating: 5,
     },
     {
@@ -3548,7 +3548,7 @@ Addressing the fault promptly avoids these secondary complications and the highe
       name: "Anthony K.",
       time: "28 days ago",
       text:
-        "Explained clearly why the nut had seized and how they'd remove it safely. No unnecessary damage or drama. ⭐⭐⭐⭐⭐ 5.0",
+        "Explained clearly why the nut had seized and how they'd remove it safely. No unnecessary damage or drama.",
       rating: 5,
     },
   ],
@@ -3766,7 +3766,7 @@ Getting professional help at this stage avoids further attempts that could make 
       name: "Steven L.",
       time: "2 months ago",
       text:
-        "Broke down on the A13 late at night and they arrived within the hour. Genuinely relieved by how quickly it was sorted. ⭐⭐⭐⭐⭐ 5.0",
+        "Broke down on the A13 late at night and they arrived within the hour. Genuinely relieved by how quickly it was sorted.",
       rating: 5,
     },
     {
@@ -3774,7 +3774,7 @@ Getting professional help at this stage avoids further attempts that could make 
       name: "Karen D.",
       time: "1 month ago",
       text:
-        "Battery died completely in a supermarket car park. Recovery team diagnosed it on-site and had me moving again without a tow. ⭐⭐⭐⭐⭐ 5.0",
+        "Battery died completely in a supermarket car park. Recovery team diagnosed it on-site and had me moving again without a tow.",
       rating: 5,
     },
     {
@@ -3782,7 +3782,7 @@ Getting professional help at this stage avoids further attempts that could make 
       name: "Nathan P.",
       time: "2 months ago",
       text:
-        "Range Rover recovered straight to their workshop after a suspension failure. Repair started the same day, no waiting around. ⭐⭐⭐⭐⭐ 5.0",
+        "Range Rover recovered straight to their workshop after a suspension failure. Repair started the same day, no waiting around.",
       rating: 5,
     },
     {
@@ -3790,7 +3790,7 @@ Getting professional help at this stage avoids further attempts that could make 
       name: "Denise M.",
       time: "1 month ago",
       text:
-        "Weekend breakdown sorted just as quickly as a weekday call would have been. Genuinely round-the-clock service. ⭐⭐⭐⭐⭐ 5.0",
+        "Weekend breakdown sorted just as quickly as a weekday call would have been. Genuinely round-the-clock service.",
       rating: 5,
     },
   ],
@@ -3997,7 +3997,7 @@ call_to_action_data: {
       name: "Sharon B.",
       time: "9 months ago",
       text:
-        "Full valet ahead of selling my Discovery made a genuine difference to the offers I received. Looked showroom-ready. ⭐⭐⭐⭐⭐ 5.0",
+        "Full valet ahead of selling my Discovery made a genuine difference to the offers I received. Looked showroom-ready.",
       rating: 5,
     },
     {
@@ -4005,7 +4005,7 @@ call_to_action_data: {
       name: "Graham L.",
       time: "2 months ago",
       text:
-        "Interior valet removed years of stains I thought were permanent. Genuinely impressed with the attention to detail. ⭐⭐⭐⭐⭐ 5.0",
+        "Interior valet removed years of stains I thought were permanent. Genuinely impressed with the attention to detail.",
       rating: 5,
     },
     {
@@ -4013,7 +4013,7 @@ call_to_action_data: {
       name: "Michelle K.",
       time: "11 months ago",
       text:
-        "Booked alongside my annual service and saved a separate trip. Car came back looking as good as it drove. ⭐⭐⭐⭐⭐ 5.0",
+        "Booked alongside my annual service and saved a separate trip. Car came back looking as good as it drove. ",
       rating: 5,
     },
     {
@@ -4021,7 +4021,7 @@ call_to_action_data: {
       name: "Owen T.",
       time: "10 months ago",
       text:
-        "Leather seats treated properly rather than just wiped down. Noticeable difference in both feel and appearance. ⭐⭐⭐⭐⭐ 5.0",
+        "Leather seats treated properly rather than just wiped down. Noticeable difference in both feel and appearance.",
       rating: 5,
     },
   ],
@@ -4198,7 +4198,7 @@ call_to_action_data: {
       name: "Julie H.",
       time: "9 days ago",
       text:
-        "ABS light diagnosed properly rather than assumed to be the sensor everyone guessed. Turned out to be a wiring fault instead. ⭐⭐⭐⭐⭐ 5.0",
+        "ABS light diagnosed properly rather than assumed to be the sensor everyone guessed. Turned out to be a wiring fault instead.",
       rating: 5,
     },
     {
@@ -4206,7 +4206,7 @@ call_to_action_data: {
       name: "Stuart P.",
       time: "13 days ago",
       text:
-        "Engine management light traced to a sensor issue in under 40 minutes. Clear explanation, fair quote, no pressure. ⭐⭐⭐⭐⭐ 5.0",
+        "Engine management light traced to a sensor issue in under 40 minutes. Clear explanation, fair quote, no pressure.",
       rating: 5,
     },
     {
@@ -4214,7 +4214,7 @@ call_to_action_data: {
       name: "Rachel O.",
       time: "7 days ago",
       text:
-        "Transmission warning that a previous garage couldn't pin down, sorted here with proper live data testing. ⭐⭐⭐⭐⭐ 5.0",
+        "Transmission warning that a previous garage couldn't pin down, sorted here with proper live data testing.",
       rating: 5,
     },
     {
@@ -4222,7 +4222,7 @@ call_to_action_data: {
       name: "Adam W.",
       time: "26 days ago",
       text:
-        "Airbag light diagnosed accurately using manufacturer-level software. Genuinely reassuring given the safety implications. ⭐⭐⭐⭐⭐ 5.0",
+        "Airbag light diagnosed accurately using manufacturer-level software. Genuinely reassuring given the safety implications.",
       rating: 5,
     },
   ],
@@ -4400,7 +4400,7 @@ Persisting with vague symptoms rather than dismissing them usually leads to iden
       name: "Christine B.",
       time: "11 days ago",
       text:
-        "Coolant leak traced to a failing water pump before it caused any overheating damage. Genuinely relieved they caught it early. ⭐⭐⭐⭐⭐ 5.0",
+        "Coolant leak traced to a failing water pump before it caused any overheating damage. Genuinely relieved they caught it early.",
       rating: 5,
     },
     {
@@ -4408,7 +4408,7 @@ Persisting with vague symptoms rather than dismissing them usually leads to iden
       name: "Malcolm F.",
       time: "23 days ago",
       text:
-        "Replaced alongside my timing belt as recommended, saving on separate labour costs. Sensible, honest advice throughout. ⭐⭐⭐⭐⭐ 5.0",
+        "Replaced alongside my timing belt as recommended, saving on separate labour costs. Sensible, honest advice throughout.",
       rating: 5,
     },
     {
@@ -4416,7 +4416,7 @@ Persisting with vague symptoms rather than dismissing them usually leads to iden
       name: "Joanne K.",
       time: "17 days ago",
       text:
-        "Whining noise from the engine bay diagnosed correctly as a worn pump bearing. Fixed before it failed completely. ⭐⭐⭐⭐⭐ 5.0",
+        "Whining noise from the engine bay diagnosed correctly as a worn pump bearing. Fixed before it failed completely.",
       rating: 5,
     },
     {
@@ -4424,7 +4424,7 @@ Persisting with vague symptoms rather than dismissing them usually leads to iden
       name: "Peter S.",
       time: "21 days ago",
       text:
-        "Quick, professional replacement with a clear explanation of why my Discovery's pump had failed prematurely. ⭐⭐⭐⭐⭐ 5.0",
+        "Quick, professional replacement with a clear explanation of why my Discovery's pump had failed prematurely.",
       rating: 5,
     },
   ],
@@ -4597,28 +4597,28 @@ call_to_action_data: {
       id: 1,
       name: "Trisha M.",
       time: "5 days ago",
-      text: "Needed something between a full service and nothing at all. General service covered exactly what my older Freelander needed. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Needed something between a full service and nothing at all. General service covered exactly what my older Freelander needed.",
       rating: 5
     },
     {
       id: 2,
       name: "Gordon B.",
       time: "10 days ago",
-      text: "Straightforward, fairly priced, and no pressure to upgrade to a more expensive package. Appreciated the honest approach. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Straightforward, fairly priced, and no pressure to upgrade to a more expensive package. Appreciated the honest approach.",
       rating: 5
     },
     {
       id: 3,
       name: "Yvonne C.",
       time: "16 days ago",
-      text: "Explained clearly what was included and what wasn't before I booked. No confusion about what I was paying for. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Explained clearly what was included and what wasn't before I booked. No confusion about what I was paying for.",
       rating: 5
     },
     {
       id: 4,
       name: "Keith R.",
       time: "24 days ago",
-      text: "Good value for a car that's mostly used for short local trips. Sensible advice rather than an unnecessary upsell. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Good value for a car that's mostly used for short local trips. Sensible advice rather than an unnecessary upsell.",
       rating: 5
     }
   ],
@@ -4776,28 +4776,28 @@ When in doubt, telling us your vehicle's recent history lets us recommend honest
       id: 1,
       name: "Carol N.",
       time: "2 months ago",
-      text: "Battery kept dying despite being replaced twice elsewhere. Turned out to be the alternator all along, fixed properly this time. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Battery kept dying despite being replaced twice elsewhere. Turned out to be the alternator all along, fixed properly this time.",
       rating: 5
     },
     {
       id: 2,
       name: "Bernard T.",
       time: "6 months ago",
-      text: "Dimming headlights diagnosed correctly as a failing alternator before it left me stranded. Genuinely grateful for the early catch. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Dimming headlights diagnosed correctly as a failing alternator before it left me stranded. Genuinely grateful for the early catch.",
       rating: 5
     },
     {
       id: 3,
       name: "Susan W.",
       time: "1 month ago",
-      text: "Clear explanation of why the alternator had failed and quality replacement fitted quickly. No unnecessary upselling. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Clear explanation of why the alternator had failed and quality replacement fitted quickly. No unnecessary upselling.",
       rating: 5
     },
     {
       id: 4,
       name: "Ian F.",
       time: "12 days ago",
-      text: "Charging warning light sorted same day with a proper diagnostic first, not just a guessed replacement. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Charging warning light sorted same day with a proper diagnostic first, not just a guessed replacement.",
       rating: 5
     }
   ],
@@ -4971,28 +4971,28 @@ Getting the charging system properly diagnosed resolves the actual issue rather 
       id: 1,
       name: "Malcolm P.",
       time: "10 days ago",
-      text: "Head gasket failure led to a full rebuild, saving my Range Rover from an expensive engine replacement. Runs like new now. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Head gasket failure led to a full rebuild, saving my Range Rover from an expensive engine replacement. Runs like new now.",
       rating: 5
     },
     {
       id: 2,
       name: "Denise H.",
       time: "15 days ago",
-      text: "Honest assessment of whether a rebuild made financial sense versus replacement. Appreciated the straight, unbiased advice. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Honest assessment of whether a rebuild made financial sense versus replacement. Appreciated the straight, unbiased advice.",
       rating: 5
     },
     {
       id: 3,
       name: "Terry B.",
       time: "20 days ago",
-      text: "Detailed breakdown of everything inspected and replaced during the rebuild. Genuinely thorough, not just a quick patch job. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Detailed breakdown of everything inspected and replaced during the rebuild. Genuinely thorough, not just a quick patch job.",
       rating: 5
     },
     {
       id: 4,
       name: "Alison M.",
       time: "25 days ago",
-      text: "Engine rebuilt after a timing failure, tested thoroughly before collection. No issues since, months later. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Engine rebuilt after a timing failure, tested thoroughly before collection. No issues since, months later.",
       rating: 5
     }
   ],
@@ -5183,28 +5183,28 @@ We provide a genuinely honest assessment of whether a rebuild represents good va
       id: 1,
       name: "Pauline S.",
       time: "11 days ago",
-      text: "Flat battery on a cold morning sorted within the hour. Correct AGM battery fitted, not a generic mismatch. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Flat battery on a cold morning sorted within the hour. Correct AGM battery fitted, not a generic mismatch.",
       rating: 5
     },
     {
       id: 2,
       name: "Reg D.",
       time: "21 days ago",
-      text: "Tested properly before replacing, confirming the battery was genuinely the issue rather than the alternator. Honest approach. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Tested properly before replacing, confirming the battery was genuinely the issue rather than the alternator. Honest approach.",
       rating: 5
     },
     {
       id: 3,
       name: "Carole N.",
       time: "25 days ago",
-      text: "Fitted while I waited, quicker than I expected. Explained why my Range Rover needed a specific battery type. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Fitted while I waited, quicker than I expected. Explained why my Range Rover needed a specific battery type.",
       rating: 5
     },
     {
       id: 4,
       name: "Vincent T.",
       time: "20 days ago",
-      text: "Old battery was clearly on its way out, replaced before it left me stranded. Good proactive advice. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Old battery was clearly on its way out, replaced before it left me stranded. Good proactive advice.",
       rating: 5
     }
   ],
@@ -5403,28 +5403,28 @@ call_to_action_data: {
       id: 1,
       name: "Norman K.",
       time: "3 days ago",
-      text: "Slipping clutch on hills diagnosed and replaced quickly. Genuine difference in how the car pulls away now. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Slipping clutch on hills diagnosed and replaced quickly. Genuine difference in how the car pulls away now.",
       rating: 5
     },
     {
       id: 2,
       name: "Beverly T.",
       time: "1 day ago",
-      text: "Full kit replaced including the flywheel, explained clearly why that mattered. No corners cut on the job. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Full kit replaced including the flywheel, explained clearly why that mattered. No corners cut on the job.",
       rating: 5
     },
     {
       id: 3,
       name: "Clive H.",
       time: "10 days ago",
-      text: "Burning smell and slipping gears sorted before it left me stranded. Quick, honest diagnosis throughout. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Burning smell and slipping gears sorted before it left me stranded. Quick, honest diagnosis throughout.",
       rating: 5
     },
     {
       id: 4,
       name: "Diane R.",
       time: "15 days ago",
-      text: "Clutch replaced on my Discovery with genuine attention to the towing use it gets. Feels properly matched to how I drive. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Clutch replaced on my Discovery with genuine attention to the towing use it gets. Feels properly matched to how I drive.",
       rating: 5
     }
   ],
@@ -5591,28 +5591,28 @@ call_to_action_data: {
       id: 1,
       name: "Marion D.",
       time: "21 days ago",
-      text: "Years of short journeys had built up sludge nobody mentioned before. Flush made a genuine difference to how smoothly the engine runs now. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Years of short journeys had built up sludge nobody mentioned before. Flush made a genuine difference to how smoothly the engine runs now.",
       rating: 5
     },
     {
       id: 2,
       name: "Douglas P.",
       time: "5 days ago",
-      text: "Recommended ahead of an oil change on a used car with unclear history. Sensible, proactive advice rather than an unnecessary upsell. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Recommended ahead of an oil change on a used car with unclear history. Sensible, proactive advice rather than an unnecessary upsell.",
       rating: 5
     },
     {
       id: 3,
       name: "Elaine S.",
       time: "29 days ago",
-      text: "Noisy tappets quietened down noticeably after the flush and fresh oil. Genuinely pleased with the improvement. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Noisy tappets quietened down noticeably after the flush and fresh oil. Genuinely pleased with the improvement.",
       rating: 5
     },
     {
       id: 4,
       name: "Raymond F.",
       time: "19 days ago",
-      text: "Explained clearly why my engine's service history suggested a flush would help. No pressure, just honest reasoning. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Explained clearly why my engine's service history suggested a flush would help. No pressure, just honest reasoning.",
       rating: 5
     }
   ],
@@ -5780,28 +5780,28 @@ call_to_action_data: {
       id: 1,
       name: "Pamela K.",
       time: "5 days ago",
-      text: "Grinding noise sorted same day with new pads and discs fitted. Explained exactly why the noise had gotten so bad. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Grinding noise sorted same day with new pads and discs fitted. Explained exactly why the noise had gotten so bad.",
       rating: 5
     },
     {
       id: 2,
       name: "Harold J.",
       time: "10 days ago",
-      text: "Brake fluid change recommended based on genuine testing, not just because it was due by the book. Trustworthy approach. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Brake fluid change recommended based on genuine testing, not just because it was due by the book. Trustworthy approach.",
       rating: 5
     },
     {
       id: 3,
       name: "Bridget O.",
       time: "5 days ago",
-      text: "Spongy pedal traced to air in the brake lines rather than a more expensive fault. Fair, accurate diagnosis. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Spongy pedal traced to air in the brake lines rather than a more expensive fault. Fair, accurate diagnosis.",
       rating: 5
     },
     {
       id: 4,
       name: "Neil A.",
       time: "4 days ago",
-      text: "Full brake overhaul on my Discovery before a towing trip. Confident and reassured for the journey ahead. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Full brake overhaul on my Discovery before a towing trip. Confident and reassured for the journey ahead.",
       rating: 5
     }
   ],
@@ -5968,28 +5968,28 @@ call_to_action_data: {
       id: 1,
       name: "Anthony R.",
       time: "8 days ago",
-      text: "Whining noise and power loss diagnosed correctly as turbo failure, not the sensor fault I'd been quoted elsewhere. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Whining noise and power loss diagnosed correctly as turbo failure, not the sensor fault I'd been quoted elsewhere.",
       rating: 5
     },
     {
       id: 2,
       name: "Christine L.",
       time: "6 days ago",
-      text: "Root cause of the turbo failure identified and fixed alongside the replacement. No repeat failure since, unlike before. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Root cause of the turbo failure identified and fixed alongside the replacement. No repeat failure since, unlike before.",
       rating: 5
     },
     {
       id: 3,
       name: "Barry M.",
       time: "23 days ago",
-      text: "Given honest advice on new versus reconditioned turbo options for my budget. No pressure toward the pricier choice. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Given honest advice on new versus reconditioned turbo options for my budget. No pressure toward the pricier choice.",
       rating: 5
     },
     {
       id: 4,
       name: "Sandra P.",
       time: "14 day ago",
-      text: "Blue smoke and power loss sorted with a proper turbo replacement. Explained clearly what had actually failed and why. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Blue smoke and power loss sorted with a proper turbo replacement. Explained clearly what had actually failed and why.",
       rating: 5
     }
   ],
@@ -6130,7 +6130,7 @@ This is why thorough root cause investigation matters just as much as the qualit
  {
   id: 32,
   name: "Performance Upgrades",
-      text: "Custom performance upgrades to improve horsepower, acceleration, and overall driving experience.",
+    text: "Custom performance upgrades to improve horsepower, acceleration, and overall driving experience.",
     slug: "performance-upgrades",
     img:"/Performance Upgrades.webp",
   herosection_data: {
@@ -6148,28 +6148,28 @@ call_to_action_data: {
       id: 1,
       name: "Jason W.",
       time: "11 days ago",
-      text: "Remap on my Range Rover Sport transformed the throttle response. Genuinely noticeable difference without any reliability concerns. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Remap on my Range Rover Sport transformed the throttle response. Genuinely noticeable difference without any reliability concerns.",
       rating: 5
     },
     {
       id: 2,
       name: "Louise F.",
       time: "7 days ago",
-      text: "Honest advice on which stage of upgrade actually suited my driving rather than the most expensive option available. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Honest advice on which stage of upgrade actually suited my driving rather than the most expensive option available. ",
       rating: 5
     },
     {
       id: 3,
       name: "Craig D.",
       time: "21 days ago",
-      text: "Explained clearly how the remap would affect fuel economy alongside the power gains. Set realistic expectations throughout. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Explained clearly how the remap would affect fuel economy alongside the power gains. Set realistic expectations throughout. ",
       rating: 5
     },
     {
       id: 4,
       name: "Amanda K.",
       time: "17 days ago",
-      text: "Professional setup, not a generic tuning box. Confidence-inspiring given how much I rely on this vehicle daily. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Professional setup, not a generic tuning box. Confidence-inspiring given how much I rely on this vehicle daily. ",
       rating: 5
     }
   ],
@@ -6345,28 +6345,28 @@ call_to_action_data: {
       id: 1,
       name: "Frances M.",
       time: "29 days ago",
-      text: "Warning light and reduced power sorted with a proper DPF clean instead of the replacement I'd been quoted elsewhere. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Warning light and reduced power sorted with a proper DPF clean instead of the replacement I'd been quoted elsewhere.",
       rating: 5
     },
     {
       id: 2,
       name: "Gerald B.",
       time: "19 days ago",
-      text: "Explained clearly why my short-journey driving had caused the blockage. Genuinely useful advice going forward. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Explained clearly why my short-journey driving had caused the blockage. Genuinely useful advice going forward.",
       rating: 5
     },
     {
       id: 3,
       name: "Patricia L.",
       time: "15 days ago",
-      text: "Forced regeneration hadn't worked elsewhere, proper cleaning here sorted it completely. Noticeable improvement in performance. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Forced regeneration hadn't worked elsewhere, proper cleaning here sorted it completely. Noticeable improvement in performance.",
       rating: 5
     },
     {
       id: 4,
       name: "Stephen K.",
       time: "10 days ago",
-      text: "Honest assessment that cleaning would work rather than pushing for an expensive replacement I didn't need. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Honest assessment that cleaning would work rather than pushing for an expensive replacement I didn't need.",
       rating: 5
     }
   ],
@@ -6571,28 +6571,28 @@ call_to_action_data: {
       id: 1,
       name: "Wendy A.",
       time: "12 days ago",
-      text: "Failed advisory explained clearly with no pressure to fix everything immediately. Genuinely helpful priority guidance. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Failed advisory explained clearly with no pressure to fix everything immediately. Genuinely helpful priority guidance.",
       rating: 5
     },
     {
       id: 2,
       name: "Frank M.",
       time: "18 days ago",
-      text: "MOT and repair done same day, saving a second trip. Straightforward and efficient from start to finish. ⭐⭐⭐⭐⭐ 5.0",
+      text: "MOT and repair done same day, saving a second trip. Straightforward and efficient from start to finish.",
       rating: 5
     },
     {
       id: 3,
       name: "Julie T.",
       time: "25 days ago",
-      text: "First MOT here after years at a chain garage. More thorough and honest about what actually needed attention. ⭐⭐⭐⭐⭐ 5.0",
+      text: "First MOT here after years at a chain garage. More thorough and honest about what actually needed attention.",
       rating: 5
     },
     {
       id: 4,
       name: "Robert C.",
       time: "12 days ago",
-      text: "Booked last minute before my MOT expired, fitted me in the same week. Reliable and accommodating. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Booked last minute before my MOT expired, fitted me in the same week. Reliable and accommodating.",
       rating: 5
     }
   ],
@@ -6761,28 +6761,28 @@ Understanding which category applies to each item helps you make informed decisi
       id: 1,
       name: "Margaret W.",
       time: "5 days ago",
-      text: "Loud exhaust noise traced to a corroded joint, welded properly rather than just clamped over. Genuinely quiet again now. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Loud exhaust noise traced to a corroded joint, welded properly rather than just clamped over. Genuinely quiet again now.",
       rating: 5
     },
     {
       id: 2,
       name: "Kenneth D.",
       time: "14 days ago",
-      text: "Full system replacement after years of rust finally caught up. Explained clearly why a partial repair wasn't sensible anymore. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Full system replacement after years of rust finally caught up. Explained clearly why a partial repair wasn't sensible anymore.",
       rating: 5
     },
     {
       id: 3,
       name: "Yvonne P.",
       time: "21 days ago",
-      text: "MOT advisory for exhaust corrosion sorted before it became a failure. Quick, straightforward fix. ⭐⭐⭐⭐⭐ 5.0",
+      text: "MOT advisory for exhaust corrosion sorted before it became a failure. Quick, straightforward fix.",
       rating: 5
     },
     {
       id: 4,
       name: "Alan B.",
       time: "28 days ago",
-      text: "Silencer replaced quickly with a genuine explanation of what had actually failed inside it. No unnecessary upselling. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Silencer replaced quickly with a genuine explanation of what had actually failed inside it. No unnecessary upselling.",
       rating: 5
     }
   ],
@@ -6952,28 +6952,28 @@ Regular visual checks can catch developing corrosion before it progresses to an 
       id: 1,
       name: "Janice R.",
       time: "14 days ago",
-      text: "Honest advice on budget versus premium tyres for my daily commute. No pressure toward the most expensive option. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Honest advice on budget versus premium tyres for my daily commute. No pressure toward the most expensive option.",
       rating: 5
     },
     {
       id: 2,
       name: "Eddie S.",
       time: "22 days ago",
-      text: "Uneven wear spotted and explained clearly, turned out to be an alignment issue rather than the tyres themselves. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Uneven wear spotted and explained clearly, turned out to be an alignment issue rather than the tyres themselves.",
       rating: 5
     },
     {
       id: 3,
       name: "Pamela G.",
       time: "29 days ago",
-      text: "Correct load-rated tyres fitted for my Discovery's towing use. Genuinely knowledgeable about what my vehicle actually needed. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Correct load-rated tyres fitted for my Discovery's towing use. Genuinely knowledgeable about what my vehicle actually needed.",
       rating: 5
     },
     {
       id: 4,
       name: "Trevor H.",
       time: "17 days ago",
-      text: "Quick fitting while I waited, competitive pricing compared to a couple of other quotes I'd got. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Quick fitting while I waited, competitive pricing compared to a couple of other quotes I'd got.",
       rating: 5
     }
   ],
@@ -7140,28 +7140,28 @@ call_to_action_data: {
       id: 1,
       name: "Maureen T.",
       time: "29 days ago",
-      text: "Clunking noise over bumps traced to worn bushes, not the shocks I'd assumed. Accurate diagnosis saved unnecessary cost. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Clunking noise over bumps traced to worn bushes, not the shocks I'd assumed. Accurate diagnosis saved unnecessary cost.",
       rating: 5
     },
     {
       id: 2,
       name: "Bernard K.",
       time: "15 days ago",
-      text: "Air suspension fault on my Range Rover diagnosed properly rather than guessed at. Genuinely reassuring given the complexity. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Air suspension fault on my Range Rover diagnosed properly rather than guessed at. Genuinely reassuring given the complexity.",
       rating: 5
     },
     {
       id: 3,
       name: "Angela F.",
       time: "12 days ago",
-      text: "Bouncy, unsettled ride sorted with new shock absorbers. Feels like driving a completely different car now. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Bouncy, unsettled ride sorted with new shock absorbers. Feels like driving a completely different car now.",
       rating: 5
     },
     {
       id: 4,
       name: "Colin W.",
       time: "10 days ago",
-      text: "MOT advisory for suspension wear addressed promptly before it became a failure. Straightforward, honest repair. ⭐⭐⭐⭐⭐ 5.0",
+      text: "MOT advisory for suspension wear addressed promptly before it became a failure. Straightforward, honest repair.",
       rating: 5
     }
   ],
@@ -7320,28 +7320,28 @@ call_to_action_data: {
       id: 1,
       name: "Sylvia N.",
       time: "12 days ago",
-      text: "Steering pulling to one side sorted with a proper alignment check. Drives perfectly straight now, genuine relief. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Steering pulling to one side sorted with a proper alignment check. Drives perfectly straight now, genuine relief.",
       rating: 5
     },
     {
       id: 2,
       name: "Roger P.",
       time: "25 days ago",
-      text: "Uneven tyre wear traced to alignment being out after hitting a pothole. Fixed before it wore through the new tyres. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Uneven tyre wear traced to alignment being out after hitting a pothole. Fixed before it wore through the new tyres.",
       rating: 5
     },
     {
       id: 3,
       name: "Dawn H.",
       time: "14 days ago",
-      text: "Laser alignment on my Discovery after a kerb strike. Precise, quick, and clearly explained throughout. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Laser alignment on my Discovery after a kerb strike. Precise, quick, and clearly explained throughout.",
       rating: 5
     },
     {
       id: 4,
       name: "Martin S.",
       time: "12 days ago",
-      text: "Booked alongside new tyres as recommended. Sensible advice that's clearly saved wear on the new set already. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Booked alongside new tyres as recommended. Sensible advice that's clearly saved wear on the new set already.",
       rating: 5
     }
   ],
@@ -7517,28 +7517,28 @@ Skipping this step risks the same premature wear pattern developing again, under
       id: 1,
       name: "Cynthia R.",
       time: "12 days ago",
-      text: "Weak, barely-cool air con fully restored after a proper regas. Should have booked this in months ago, honestly. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Weak, barely-cool air con fully restored after a proper regas. Should have booked this in months ago, honestly.",
       rating: 5
     },
     {
       id: 2,
       name: "Leonard F.",
       time: "9 days ago",
-      text: "Explained clearly why gas depletes naturally over time, not just a fault with the system. Reassuring, honest advice. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Explained clearly why gas depletes naturally over time, not just a fault with the system. Reassuring, honest advice.",
       rating: 5
     },
     {
       id: 3,
       name: "Brenda K.",
       time: "22 days ago",
-      text: "Leak identified and fixed alongside the regas, not just topped up to run out again in weeks. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Leak identified and fixed alongside the regas, not just topped up to run out again in weeks.",
       rating: 5
     },
     {
       id: 4,
       name: "Howard T.",
       time: "24 days ago",
-      text: "Quick service while I waited, air con noticeably colder immediately afterwards. Great value for the difference it made. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Quick service while I waited, air con noticeably colder immediately afterwards. Great value for the difference it made.",
       rating: 5
     }
   ],
@@ -7736,28 +7736,28 @@ Addressing a suspected leak promptly, rather than simply topping up repeatedly, 
       id: 1,
       name: "Geoffrey N.",
       time: "13 days ago",
-      text: "Rattling on start-up diagnosed correctly as timing chain stretch, not the belief that chains never need replacing. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Rattling on start-up diagnosed correctly as timing chain stretch, not the belief that chains never need replacing.",
       rating: 5
     },
     {
       id: 2,
       name: "Pauline C.",
       time: "29 days ago",
-      text: "Chain and tensioner replaced together, explained clearly why both mattered. Engine runs noticeably quieter now. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Chain and tensioner replaced together, explained clearly why both mattered. Engine runs noticeably quieter now.",
       rating: 5
     },
     {
       id: 3,
       name: "Desmond H.",
       time: "17 days ago",
-      text: "Caught early during a routine check, avoided what could have been a much bigger repair. Genuinely grateful for the catch. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Caught early during a routine check, avoided what could have been a much bigger repair. Genuinely grateful for the catch.",
       rating: 5
     },
     {
       id: 4,
       name: "Irene M.",
       time: "10 days ago",
-      text: "Clear explanation of why my high-mileage Discovery's chain needed attention despite the \"lifetime\" reputation. Honest, thorough work. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Clear explanation of why my high-mileage Discovery's chain needed attention despite the \"lifetime\" reputation. Honest, thorough work.",
       rating: 5
     }
   ],
@@ -7926,28 +7926,28 @@ call_to_action_data: {
       id: 1,
       name: "Sheila N.",
       time: "12 days ago",
-      text: "Quick oil change while I waited, correct full synthetic grade confirmed for my Range Rover's engine specification. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Quick oil change while I waited, correct full synthetic grade confirmed for my Range Rover's engine specification.",
       rating: 5
     },
     {
       id: 2,
       name: "Victor D.",
       time: "29 days ago",
-      text: "Explained clearly why my previous garage's cheaper oil wasn't actually suitable for my turbocharged engine. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Explained clearly why my previous garage's cheaper oil wasn't actually suitable for my turbocharged engine.",
       rating: 5
     },
     {
       id: 3,
       name: "Rosemary K.",
       time: "4 days ago  ",
-      text: "Straightforward, efficient service with genuine attention to using the manufacturer-specified oil, not a generic substitute. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Straightforward, efficient service with genuine attention to using the manufacturer-specified oil, not a generic substitute.",
       rating: 5
     },
     {
       id: 4,
       name: "Bernard T.",
       time: "10 days ago  ",
-      text: "Booked alongside my MOT, saved a separate trip. Quick and reasonably priced for the quality of oil used. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Booked alongside my MOT, saved a separate trip. Quick and reasonably priced for the quality of oil used.",
       rating: 5
     }
   ],
@@ -8117,28 +8117,28 @@ call_to_action_data: {
       id: 1,
       name: "Harold M.",
       time: "2 days ago",
-      text: "Coolant loss and white smoke diagnosed correctly as a blown head gasket. Caught before the engine suffered further damage. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Coolant loss and white smoke diagnosed correctly as a blown head gasket. Caught before the engine suffered further damage.",
       rating: 5
     },
     {
       id: 2,
       name: "Sandra J.",
       time: "4 days ago",
-      text: "Full explanation of what caused the failure and thorough repair, not just a quick gasket swap. Reassuring, honest work. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Full explanation of what caused the failure and thorough repair, not just a quick gasket swap. Reassuring, honest work.",
       rating: 5
     },
     {
       id: 3,
       name: "Kenneth W.",
       time: "14 days ago",
-      text: "Cylinder head properly machined and checked during the repair. Engine's run perfectly since, no repeat issues. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Cylinder head properly machined and checked during the repair. Engine's run perfectly since, no repeat issues.",
       rating: 5
     },
     {
       id: 4,
       name: "Diane L.",
       time: "11 days ago",
-      text: "Honest advice on repair versus a full rebuild given the engine's overall condition. Appreciated the straightforward guidance. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Honest advice on repair versus a full rebuild given the engine's overall condition. Appreciated the straightforward guidance.",
       rating: 5
     }
   ],
@@ -8305,28 +8305,28 @@ We investigate the wider cooling system during every head gasket repair to ensur
       id: 1,
       name: "Doreen S.",
       time: "9 days ago",
-      text: "Hesitant gear changes sorted with a proper transmission service. Noticeable improvement in smoothness within days. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Hesitant gear changes sorted with a proper transmission service. Noticeable improvement in smoothness within days.",
       rating: 5
     },
     {
       id: 2,
       name: "Arthur B.",
       time: "22 days ago",
-      text: "Clear explanation of why my automatic's fluid needed changing despite being told it was \"sealed for life\" elsewhere. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Clear explanation of why my automatic's fluid needed changing despite being told it was \"sealed for life\" elsewhere.",
       rating: 5
     },
     {
       id: 3,
       name: "Vera K.",
       time: "24 days ago",
-      text: "Diagnosed a repairable fault rather than pushing for a full transmission replacement. Genuinely honest, cost-saving advice. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Diagnosed a repairable fault rather than pushing for a full transmission replacement. Genuinely honest, cost-saving advice.",
       rating: 5
     },
     {
       id: 4,
       name: "Leonard H.",
       time: "13 days ago",
-      text: "Manual gearbox service caught early wear before it became a costly repair. Appreciated the proactive approach. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Manual gearbox service caught early wear before it became a costly repair. Appreciated the proactive approach.",
       rating: 5
     }
   ],
@@ -8475,28 +8475,28 @@ call_to_action_data: {
       id: 1,
       name: "Margaret D.",
       time: "a days ago",
-      text: "Full system check revealed a musty smell was coming from bacteria build-up, not the gas. Sorted with proper treatment. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Full system check revealed a musty smell was coming from bacteria build-up, not the gas. Sorted with proper treatment. ",
       rating: 5
     },
     {
       id: 2,
       name: "Peter A.",
       time: "8 days ago",
-      text: "Cabin filter hadn't been changed in years, made a genuine difference to air quality once replaced during the service. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Cabin filter hadn't been changed in years, made a genuine difference to air quality once replaced during the service. ",
       rating: 5
     },
     {
       id: 3,
       name: "Christine O.",
       time: "12 days ago",
-      text: "Comprehensive check found a failing compressor before it left me without air con completely mid-summer. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Comprehensive check found a failing compressor before it left me without air con completely mid-summer.",
       rating: 5
     },
     {
       id: 4,
       name: "Raymond L.",
       time: "3 days ago",
-      text: "Booked alongside my annual service, thorough check of the whole system rather than just a quick top-up. ⭐⭐⭐⭐⭐ 5.0",
+      text: "Booked alongside my annual service, thorough check of the whole system rather than just a quick top-up.",
       rating: 5
     }
   ],

@@ -157,38 +157,15 @@ useEffect(() => {
       0_5px_0_#ababab,
       0_6px_8px_rgba(0,0,0,0.35)
     ]">
-                                Expert Engine Repair & Diagnostics in Grays, Essex
+                               Trusted Range Rover & Land Rover Garage Serving Grays, Essex
                           </h1>
                        
 <h2 className="text-left text-white/90 text-[15px] lg:text-[18px] leading-8 tracking-[0.02em] font-normal mt-4 max-w-3xl">
-  <span className="font-extrabold text-[#059669]">
-    Vogue Fix My Motor
-  </span>{" "}
-  provides trusted{" "}
-  <span className="font-semibold text-white">
-    engine repairs
-  </span>
-  ,{" "}
-  <span className="font-semibold text-white">
-    advanced diagnostics
-  </span>
-  , and expert vehicle care across{" "}
-  <span className="text-[#059669] font-semibold">
-    Grays
-  </span>{" "}
-  and surrounding areas. Proudly serving{" "}
-  <span className="text-white font-medium">
-    Grays, Tilbury, Purfleet, Ockendon, Hornchurch
-  </span>{" "}
-  and locations within{" "}
-  <span className="font-bold text-[#059669]">
-    10 miles
-  </span>
-  . Request your{" "}
-  <span className="font-bold text-[#059669]">
-    free quote
-  </span>{" "}
-  today and drive away with confidence.
+  <h2 className="text-left text-white/90 text-[15px] lg:text-[18px] leading-8 tracking-[0.02em] font-normal mt-4 max-w-3xl">
+  Vogue Fix My Motor is an independent garage in Grays offering honest
+  diagnostics, servicing, and repairs for all makes and models, with
+  specialist expertise in Range Rover and Land Rover vehicles.
+</h2>
 </h2>
                         </div>
                  </div>

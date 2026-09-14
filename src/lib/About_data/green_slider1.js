@@ -1,68 +1,69 @@
 const slider = [
   {
-    title: "Our Story — Vogue Fix My Motor, Grays Essex",
-    text: `Vogue Fix My Motor was founded with a simple but powerful mission: to provide honest, expert car repair and engine services to the local community in Grays, Essex. Over the years, we have grown into one of the most trusted independent workshops in the area, serving thousands of satisfied customers across Essex and beyond.
+    title: "How Vogue Fix My Motor Got Started",
+    text: `Every established garage started somewhere, and ours began with a straightforward belief that vehicle owners deserved better than confusing quotes and unnecessary upselling.
 
-From day one, we have prioritised quality workmanship, transparent pricing, and genuine customer care. We believe that trust is earned, not given — and we work hard to earn it with every vehicle that comes through our doors. Our customers return to us time and time again because they know they will receive honest advice, fair pricing, and repairs that last.
+The early years focused on building a reputation the only way that genuinely lasts, through consistent, honest work carried out to a proper standard. Word of mouth gradually brought in drivers frustrated with dealership pricing or garages that felt more interested in selling parts than solving problems.
 
-Our team consists of experienced, qualified technicians who are passionate about what they do. We invest in the latest diagnostic equipment and keep our skills up to date with modern automotive technology, ensuring we can service everything from classic vehicles to the latest models.
+As our reputation grew, so did our capability, expanding from general repairs into genuine specialist knowledge, particularly around Range Rover and Land Rover platforms that demand a different level of technical understanding.
 
-We are proud to be a part of the Grays community and look forward to keeping drivers safely on the road for many years to come.`
+That gradual, reputation-led growth remains the foundation of how we operate today, prioritising trust over rapid expansion.`
   },
 
   {
-    title: "Our Commitment to Quality at Vogue Fix My Motor",
-    text: `At Vogue Fix My Motor, quality is not just a word — it is the foundation of everything we do. From the parts we use to the processes we follow, every aspect of our service is designed to deliver the best possible outcome for your vehicle.
+    title: "Meet the Technicians Behind Every Repair",
+    text: `Behind every diagnosis and repair at our Grays workshop is a team of technicians who take genuine pride in getting things right, not just quickly resolving a job.
 
-We only use genuine, high-quality, and manufacturer-approved components for all repairs. Whether it is engine parts, braking systems, suspension components, or electrical modules, we never compromise on quality. We believe that using the right parts is just as important as the skill of the technician fitting them.
+Our team combines broad automotive experience with specific training on Range Rover and Land Rover systems, including air suspension, complex engine management, and known platform-specific issues that a generalist technician might overlook entirely. This depth of knowledge means faults get diagnosed accurately rather than guessed at.
 
-Our goal is to build long-term trust with our customers. We believe that vehicle maintenance should never be stressful, so we focus on clear communication, efficient diagnosis, and repairs that stand the test of time.
+Beyond technical skill, our team values clear communication, ensuring every customer understands what's been found and why, without unnecessary jargon or pressure to agree to work they don't fully understand.
 
-Every vehicle that leaves our workshop has been tested thoroughly to ensure it is safe, reliable, and performing at its best. Your peace of mind is our top priority.`
+That combination of skill and honest communication is what customers consistently mention when explaining why they keep coming back.`
   },
 
   {
-    title: "State-of-the-Art Diagnostic Equipment",
-    text: `Modern vehicles are more complex than ever before, and accurate diagnosis is the foundation of an effective repair. At Vogue Fix My Motor, we use state-of-the-art OBD diagnostic scanning tools to read your vehicle's onboard computer system and identify faults with precision.
+    title: "Why Choose an Independent Garage Over a Dealership",
+    text: `It's a question we're asked often, and the honest answer comes down to genuine value rather than simply cheaper pricing for its own sake.
 
-This technology allows us to pinpoint engine faults, sensor failures, emission issues, and performance-related problems without unnecessary guesswork. We diagnose the issue correctly the first time, saving you time and money by avoiding unnecessary part replacements.
+Independent garages like ours can often provide the same, or better, diagnostic accuracy and repair quality as a main dealership, without the significant overhead costs that get passed on to customers through inflated labour rates and parts pricing.
 
-Our technicians are trained to interpret diagnostic codes and convert them into practical, cost-effective repair solutions. We also provide customers with a full diagnostic report so you understand exactly what was found and what work was carried out.
+What you gain instead is a more personal relationship with the people actually working on your vehicle, straightforward explanations rather than sales-driven recommendations, and pricing that reflects the actual work involved rather than a brand premium.
 
-Advanced diagnostics combined with skilled technicians means you always receive the right repair at the right price — every time you visit Vogue Fix My Motor in Grays, Essex.`
+For Range Rover and Land Rover owners specifically, choosing a genuinely specialist independent garage means combining this value with expertise many dealerships themselves don't consistently deliver.`
   },
+
   {
-  title: "Serving Grays, Essex & All Surrounding Areas",
-  text: `Vogue Fix My Motor is proud to serve drivers from Grays and all surrounding areas in Essex. Our central location in Grays means we are easily accessible to customers from Tilbury, Purfleet, Ockendon, Hornchurch, Stanford-le-Hope, Corringham, Basildon, Chelmsford, Brentwood, and beyond.
+    title: "Our Approach to Honest, Diagnostics-First Repairs",
+    text: `The foundation of everything we do rests on one simple principle: confirm the actual fault before recommending any repair, rather than replacing parts speculatively and hoping the symptom resolves.
 
-No matter where you are within a 10-mile radius, our team is ready to help with any engine repair, diagnostic check, or car service you need. We understand that vehicle problems do not always happen at convenient times, which is why we aim to offer quick turnaround times and flexible booking options.
+This means every repair starts with proper diagnostic testing, whether that's a warning light, an unusual noise, or a performance issue you've noticed while driving. We explain findings clearly, in plain language, and provide a straightforward quote before any work begins.
 
-For customers who cannot bring their vehicle to us, we also offer a vehicle collection and delivery service across Essex. Our team will collect your car, carry out the required work, and return it to you once complete — all at no extra hassle to you.
+This approach occasionally takes slightly longer than a quick guess-and-replace method, but it consistently saves customers money by avoiding unnecessary parts replacement and repeat repairs for issues that weren't properly resolved the first time.
 
-Contact us today to book your appointment or get a free, no-obligation quote for any repair or service.`
-},
+That patience and thoroughness is central to the trust we've built across Grays and Essex over the years.`
+  },
 
-{
-  title: "Why Our Customers Recommend Us",
-  text: `The best measure of a great workshop is not what we say about ourselves — it is what our customers say about us. Vogue Fix My Motor has earned hundreds of five-star reviews from satisfied customers across Essex, and we are incredibly proud of the reputation we have built.
+  {
+    title: "Specialist Knowledge for Range Rover and Land Rover Owners",
+    text: `Range Rover and Land Rover vehicles present a level of complexity that sets them apart from mainstream cars, and treating them like any other vehicle often leads to missed faults or incorrect repairs.
 
-Our customers praise us for our transparency, our fair pricing, and the quality of our workmanship. Many of them have been coming to us for years, and many more have found us through word-of-mouth recommendations from friends and family.
+Our technicians specifically study these platforms, staying current with known issues like wet belt timing systems, air suspension faults, and the sophisticated electronic architecture found across modern Land Rover models. This specialist focus means genuine understanding, not guesswork borrowed from simpler vehicle designs.
 
-We are particularly well known for our expertise with Range Rover and Land Rover engine repairs, as well as our work on BMW, Ford, Volkswagen, Audi, and Mercedes-Benz vehicles. Whatever you drive, our team brings the same level of skill and care to every job.
+For owners who've struggled to find a garage confident and capable with these vehicles, that depth of knowledge often makes the difference between a lasting repair and a recurring problem.
 
-We welcome you to visit our workshop in Grays, read our reviews, and experience the Vogue Fix My Motor difference for yourself.`
-},
+This specialism, built up over years of focused experience, remains one of the clearest ways we differentiate ourselves from a typical general garage.`
+  },
 
-{
-  title: "Book Your Service at Vogue Fix My Motor Today",
-  text: `Booking a service or repair at Vogue Fix My Motor is quick and easy. You can contact us through our website, give us a call, or simply enter your vehicle registration for a free instant quote. We will confirm your appointment promptly and keep you updated throughout the entire repair process.
+  {
+    title: "Our Commitment to the Grays and Essex Community",
+    text: `Being genuinely part of the local community means more to us than simply operating a business within it, and that commitment shapes how we treat every customer who walks through our doors.
 
-Whether you need a routine service, an urgent engine repair, or a full diagnostic check, our team is ready to help. We offer competitive pricing, quality workmanship, and a warranty on all repairs — giving you complete confidence every time you bring your vehicle to us.
+We've built relationships with drivers across Grays, Tilbury, Basildon, and Chelmsford over years of consistent, honest work, many of whom now recommend us to friends and family without any prompting. That organic trust means more than any advertising campaign could achieve.
 
-Our workshop is open Monday to Friday from 9:00 AM to 6:00 PM and Saturday from 7:00 AM to 1:00 PM. We are conveniently located at Unit 1A Hedley Avenue, Grays, RM20 4EL — easily accessible from all surrounding Essex areas.
+Standing behind our work, being available when genuine emergencies arise, and treating every vehicle with the same care regardless of its value reflects the kind of garage we set out to build from the beginning.
 
-Call us today or use our online booking form to secure your appointment. We look forward to welcoming you to Vogue Fix My Motor.`
-}
+That local reputation is something we continue to earn with every customer we work with, not something we consider settled or guaranteed.`
+  }
 ];
 
 export default slider;
