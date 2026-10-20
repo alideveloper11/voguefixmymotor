@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Blog_detail({ result }) {
   const { blog } = result;
 
@@ -33,11 +35,16 @@ export default function Blog_detail({ result }) {
   <div className="w-full  flex flex-wrap ">
   <div className="shadow-[0_0px_1px_#4CFF3D] mt-2  w-full rounded-3xl flex flex-wrap overflow-hidden">
     <div className=" w-full">
-      <img
+      {blog.images?.[0]?.image && <Image
   src={blog.images?.[0]?.image}
-  className="w-full first_blog_image h-full object-cover"
+  width={1200}
+  height={675}
+  sizes="(max-width: 1023px) 100vw, 67vw"
+  fetchPriority="high"
+  loading="eager"
+  className="w-full first_blog_image h-auto object-cover"
   alt={blog.title}
-/>
+/>}
     </div>
 
   </div>

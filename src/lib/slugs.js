@@ -6,7 +6,7 @@ services: [
   "interim-service",
   "major-service",
   "annual-service",
-  "van-repairs-services",
+  "van-repairs-and-servicing",
   "auto-electrical-services",
   "hybrid-ev-repairs-services",
   "timing-belts",
@@ -43,12 +43,6 @@ services: [
   "head-gasket-repair",
   "transmission-service",
   "air-conditioning-service"
-],
-blogs:[
-    
-  "free-vehicle-health-check",
-  "professional-car-battery-health-check"
-
 ],
 areas:[
   "chelmsford",

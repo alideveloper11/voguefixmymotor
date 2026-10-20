@@ -4,7 +4,26 @@ import KeyboardDoubleArrowRightIcon from "@mui/icons-material/KeyboardDoubleArro
 import { useState } from "react";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
+
+function BlogDate({ value }) {
+  if (!value) return null;
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return null;
+
+  return (
+    <time dateTime={date.toISOString()} className="mx-2 mt-2 block text-xs text-gray-600">
+      {date.toLocaleDateString("en-GB", {
+        day: "numeric",
+        month: "short",
+        year: "numeric",
+        timeZone: "UTC",
+      })}
+    </time>
+  );
+}
+
 export default function Blogs({blogs}){
 const searchParams = useSearchParams();
 const blogsPerPage = 12;
@@ -117,13 +136,15 @@ return [
                className="m-2 flex flex-col relative overflow-hidden shadow-[0_0_10px_#696969] rounded-xl"
                
              >
-               <div className="aspect-video  w-full overflow-hidden">
-               <img
+               <div className="relative aspect-video w-full overflow-hidden">
+               {blog.image && <Image
                  src={blog.image}
+                 fill
+                 sizes="(max-width: 767px) 100vw, (max-width: 1023px) 50vw, 33vw"
                  className="w-full h-full object-contain"
                  alt={blog.title}
                  style={{borderRadius:"10px 10px 0px 0px "}}
-               />
+               />}
                </div>
                 <div>
                
@@ -133,6 +154,7 @@ return [
                            
                              </div>
              </div>
+             <BlogDate value={blog.created_at} />
              <div
              className="mx-2 mt-2 text-sm text-black line-clamp-3"
              dangerouslySetInnerHTML={{ __html: blog.excerpt }}

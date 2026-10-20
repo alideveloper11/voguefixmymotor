@@ -145,7 +145,7 @@ async function form_validation(e: FormEvent<HTMLFormElement>) {
                                                                                  <div className="flex border rounded overflow-hidden w-full mt-2" style={{borderColor:"#FFCB05"}}>
                                                 
                                                     <button type="button" className="bg-blue-900 text-white px-4 items-center justify-center ">
-                                                    <div><Image src="/Vector.svg" alt="flag" width={28} height={20} className="mt-2"/></div>
+                                                    <div><Image src="/Vector.svg" alt="flag" width={28} height={20} style={{ width: "28px", height: "auto" }} className="mt-2"/></div>
                                                     <div>UK</div>
                                                     </button>
 
