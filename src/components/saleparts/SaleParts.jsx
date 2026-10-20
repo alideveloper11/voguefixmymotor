@@ -113,6 +113,7 @@ export default function SalePartsSlider({saleParts}) {
                   alt={part.name}
                   width={180}
                   height={140}
+                  style={{ width: "180px", height: "auto" }}
                 />
               </div>
 

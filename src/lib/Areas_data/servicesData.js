@@ -22,7 +22,7 @@ const servicesData = {
       name: "Engine Rebuild",
       text: "Complete engine strip-down and rebuild services for worn, damaged or failing engines.",
       slug: "engine-rebuild",
-      img: "/Engine Rebuild.webp",
+      img: "/Engine rebuild.webp",
     },
     {
       id: 4,
@@ -50,14 +50,14 @@ const servicesData = {
       name: "Clutch Replacement",
       text: "Expert clutch repair and replacement for smoother gear changes, improved control and reliable performance.",
       slug: "clutch-replacement",
-      img: "/Clutch Replacement.webp",
+      img: "/Transmission Service.webp",
     },
     {
       id: 8,
       name: "Hybrid and EV Repairs",
       text: "Specialist repair and maintenance services for hybrid and electric vehicles and their drivetrains.",
-      slug: "hybrid-ev-repairs",
-      img: "/Hybrid and EV Repairs.webp",
+      slug: "hybrid-ev-repairs-services",
+      img: "/Hybrid and EV Repairs and Services.webp",
     },
   ],
 };

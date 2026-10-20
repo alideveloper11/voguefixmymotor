@@ -161,11 +161,9 @@ useEffect(() => {
                           </h1>
                        
 <h2 className="text-left text-white/90 text-[15px] lg:text-[18px] leading-8 tracking-[0.02em] font-normal mt-4 max-w-3xl">
-  <h2 className="text-left text-white/90 text-[15px] lg:text-[18px] leading-8 tracking-[0.02em] font-normal mt-4 max-w-3xl">
   Vogue Fix My Motor is an independent garage in Grays offering honest
   diagnostics, servicing, and repairs for all makes and models, with
   specialist expertise in Range Rover and Land Rover vehicles.
-</h2>
 </h2>
                         </div>
                  </div>
