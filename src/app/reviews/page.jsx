@@ -1,3 +1,4 @@
+import pageMetadata from "@/lib/pageMetadata.json";
 
 import Reviews from "../../components/components_reviews/reviews/ReviewsMainPage.jsx";
 import reviewsData from "@/lib/Reviews_data/reviewsData";
@@ -5,6 +6,7 @@ import LatestVideos from "@/components/latest_videos/Latest_videos";
 
 import LatestVideosData from "@/lib/Reviews_data/LatestVideosData";
 export const metadata = {
+  ...pageMetadata["/reviews"],
   alternates: {
     canonical: "https://voguefixmymotor.co.uk/reviews",
   },

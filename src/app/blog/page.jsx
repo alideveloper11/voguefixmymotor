@@ -1,3 +1,4 @@
+import pageMetadata from "@/lib/pageMetadata.json";
 
 
 import Blogs from "@/components/components_blog/Blogs";
@@ -6,6 +7,7 @@ import LatestVideosData from "@/lib/blogs_data/LatestVideosData";
 import { getAllBlogs } from "@/app/api/blogs/blogsApi";
 import ArticleOutlinedIcon from "@mui/icons-material/ArticleOutlined";
 export const metadata = {
+  ...pageMetadata["/blog"],
   alternates: {
     canonical: "https://voguefixmymotor.co.uk/blog",
   },

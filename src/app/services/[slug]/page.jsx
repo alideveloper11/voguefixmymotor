@@ -1,3 +1,4 @@
+import pageMetadata from "@/lib/pageMetadata.json";
 import servicesData from "@/lib/services_data/servicesData";
 import serviceUniqueSlides from "@/lib/services_data/serviceUniqueSlides";
 import serviceUniqueContent3 from "@/lib/services_data/serviceUniqueContent3";
@@ -24,6 +25,7 @@ const service = servicesData.service_list.find(
   }
 
   return {
+    ...pageMetadata[`/services/${slug}`],
     alternates: {
       canonical: `https://voguefixmymotor.co.uk/services/${slug}`,
     },

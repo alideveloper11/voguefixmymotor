@@ -1,3 +1,4 @@
+import pageMetadata from "@/lib/pageMetadata.json";
 import  { locations }  from "@/lib/Areas_data/areas_list";
 import areaUniqueSlides from "@/lib/Areas_data/areaUniqueSlides";
 import Reviews from "@/components/components_reviews/reviews/Reviews";
@@ -24,6 +25,7 @@ export async function generateMetadata({ params }) {
   }
 
   return {
+    ...pageMetadata[`/areas/${slug}`],
     alternates: {
       canonical: `https://voguefixmymotor.co.uk/areas/${slug}`,
     },
