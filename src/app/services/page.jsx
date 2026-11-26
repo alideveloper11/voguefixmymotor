@@ -1,3 +1,4 @@
+import pageMetadata from "@/lib/pageMetadata.json";
 
 import Herosection from "../../components/components_services/hero_section/Herosection";
 import Reviews from "@/components/components_reviews/reviews/Reviews";
@@ -22,6 +23,7 @@ import { getcontent3 } from "@/lib/services_data/content_data";
 import call_to_action_data from "@/lib/services_data/call_to_action";
 const data = getcontent3();
 export const metadata = {
+  ...pageMetadata["/services"],
   alternates: {
     canonical: "https://voguefixmymotor.co.uk/services",
   },

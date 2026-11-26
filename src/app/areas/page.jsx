@@ -1,3 +1,4 @@
+import pageMetadata from "@/lib/pageMetadata.json";
 
 
 import Herosection from "../../components/components_services/hero_section/Herosection";
@@ -18,6 +19,7 @@ import Green_slider1 from "../../components/components_areas/green_slider/Green_
 import Green_slider2 from "../../components/components_areas/green_slider/Green_slider2";
 import Areas_links from "../../components/areas_links/Areas_links";
 export const metadata = {
+  ...pageMetadata["/areas"],
   alternates: {
     canonical: "https://voguefixmymotor.co.uk/areas",
   },
